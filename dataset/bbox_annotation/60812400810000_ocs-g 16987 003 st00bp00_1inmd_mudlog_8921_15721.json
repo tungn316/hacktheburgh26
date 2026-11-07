@@ -1,0 +1,25 @@
+{
+  "image_name": "60812400810000_ocs-g 16987 003 st00bp00_1inmd_mudlog_8921_15721.tif",
+  "width": 2200,
+  "height": 18800,
+  "bounding_boxes": {
+    "depth_column": [
+      510,
+      1297,
+      619,
+      17855
+    ],
+    "interpreted_lithology_column": [
+      1673,
+      1297,
+      1716,
+      17855
+    ],
+    "lithology_legend": [
+      59,
+      613,
+      1606,
+      1012
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "image_name": "60811406050100_ardennes_ocs-g31765 001 st00 bp01__master log_5640-36552_5 in_md.tif",
+  "width": 1680,
+  "height": 313800,
+  "bounding_boxes": {
+    "depth_column": [
+      278,
+      1628,
+      343,
+      308720
+    ],
+    "interpreted_lithology_column": [
+      1167,
+      1628,
+      1230,
+      308720
+    ],
+    "lithology_legend": [
+      2,
+      600,
+      1538,
+      1021
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

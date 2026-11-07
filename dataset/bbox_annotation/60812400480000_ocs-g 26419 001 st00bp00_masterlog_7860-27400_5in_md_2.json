@@ -1,0 +1,25 @@
+{
+  "image_name": "60812400480000_ocs-g 26419 001 st00bp00_masterlog_7860-27400_5in_md_2.tif",
+  "width": 1533,
+  "height": 198399,
+  "bounding_boxes": {
+    "depth_column": [
+      236,
+      1540,
+      316,
+      197793
+    ],
+    "interpreted_lithology_column": [
+      1085,
+      1540,
+      1150,
+      197793
+    ],
+    "lithology_legend": [
+      2,
+      890,
+      1532,
+      1219
+    ]
+  }
+}

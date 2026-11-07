@@ -1,0 +1,26 @@
+{
+  "image_name": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.tif",
+  "width": 1700,
+  "height": 37400,
+  "bounding_boxes": {
+    "depth_column": [
+      377,
+      1623,
+      448,
+      36273
+    ],
+    "interpreted_lithology_column": [
+      1134,
+      1623,
+      1171,
+      36273
+    ],
+    "lithology_legend": [
+      79,
+      904,
+      1621,
+      1327
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

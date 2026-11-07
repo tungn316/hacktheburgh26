@@ -1,0 +1,26 @@
+{
+  "image_name": "60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev.tif",
+  "width": 1700,
+  "height": 24200,
+  "bounding_boxes": {
+    "depth_column": [
+      355,
+      1578,
+      434,
+      24010
+    ],
+    "interpreted_lithology_column": [
+      1244,
+      1578,
+      1307,
+      24010
+    ],
+    "lithology_legend": [
+      79,
+      599,
+      1615,
+      1002
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

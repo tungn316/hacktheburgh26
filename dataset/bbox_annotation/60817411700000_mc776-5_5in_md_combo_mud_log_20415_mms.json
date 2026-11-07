@@ -1,0 +1,26 @@
+{
+  "image_name": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms.tif",
+  "width": 1536,
+  "height": 150000,
+  "bounding_boxes": {
+    "depth_column": [
+      236,
+      1205,
+      316,
+      148505
+    ],
+    "interpreted_lithology_column": [
+      953,
+      1205,
+      1000,
+      148505
+    ],
+    "lithology_legend": [
+      2,
+      594,
+      1532,
+      1000
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

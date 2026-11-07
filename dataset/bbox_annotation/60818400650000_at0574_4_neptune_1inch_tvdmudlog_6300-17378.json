@@ -1,0 +1,26 @@
+{
+  "image_name": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.tif",
+  "width": 2307,
+  "height": 36050,
+  "bounding_boxes": {
+    "depth_column": [
+      450,
+      2699,
+      508,
+      36050
+    ],
+    "interpreted_lithology_column": [
+      1763,
+      2699,
+      1856,
+      36050
+    ],
+    "lithology_legend": [
+      3,
+      1154,
+      2305,
+      1732
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

@@ -1,0 +1,25 @@
+{
+  "image_name": "60817411420000_mc_540_#1_st00_bp00_masterlog_3400-24195_5in_md.tif",
+  "width": 1538,
+  "height": 212600,
+  "bounding_boxes": {
+    "depth_column": [
+      236,
+      1542,
+      317,
+      211547
+    ],
+    "interpreted_lithology_column": [
+      1085,
+      1542,
+      1150,
+      211547
+    ],
+    "lithology_legend": [
+      2,
+      890,
+      1532,
+      1219
+    ]
+  }
+}

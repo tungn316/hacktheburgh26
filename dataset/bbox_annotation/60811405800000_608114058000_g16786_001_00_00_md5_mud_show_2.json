@@ -1,0 +1,26 @@
+{
+  "image_name": "60811405800000_608114058000_g16786_001_00_00_md5_mud_show_2.tif",
+  "width": 1534,
+  "height": 2600,
+  "bounding_boxes": {
+    "depth_column": [
+      275,
+      1576,
+      355,
+      2575
+    ],
+    "interpreted_lithology_column": [
+      1165,
+      1576,
+      1228,
+      2575
+    ],
+    "lithology_legend": [
+      2,
+      599,
+      1532,
+      1002
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

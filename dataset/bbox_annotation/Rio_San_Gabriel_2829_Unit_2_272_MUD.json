@@ -1,0 +1,25 @@
+{
+  "image_name": "Rio_San_Gabriel_2829_Unit_2_272_MUD.tif",
+  "width": 1275,
+  "height": 90750,
+  "bounding_boxes": {
+    "depth_column": [
+      210,
+      5145,
+      241,
+      89973
+    ],
+    "interpreted_lithology_column": [
+      499,
+      5145,
+      548,
+      89973
+    ],
+    "lithology_legend": [
+      26,
+      2268,
+      1274,
+      2521
+    ]
+  }
+}

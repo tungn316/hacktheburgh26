@@ -1,0 +1,26 @@
+{
+  "image_name": "Mudlog_MD_FREEMAN 3 24 ST.tif",
+  "width": 1275,
+  "height": 16500,
+  "bounding_boxes": {
+    "depth_column": [
+      214,
+      1833,
+      271,
+      15765
+    ],
+    "interpreted_lithology_column": [
+      870,
+      1833,
+      899,
+      15765
+    ],
+    "lithology_legend": [
+      4,
+      1184,
+      1272,
+      1632
+    ]
+  },
+  "lithology_track_label": "Interp. Lith"
+}

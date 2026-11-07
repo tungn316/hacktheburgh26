@@ -1,0 +1,26 @@
+{
+  "image_name": "Mudlog-Trail Mtn1Palisades.tif",
+  "width": 1650,
+  "height": 62325,
+  "bounding_boxes": {
+    "depth_column": [
+      391,
+      1424,
+      414,
+      62325
+    ],
+    "interpreted_lithology_column": [
+      335,
+      1424,
+      391,
+      62325
+    ],
+    "lithology_legend": [
+      75,
+      691,
+      673,
+      1215
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

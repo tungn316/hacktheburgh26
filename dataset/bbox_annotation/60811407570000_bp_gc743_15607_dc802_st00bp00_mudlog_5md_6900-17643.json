@@ -1,0 +1,25 @@
+{
+  "image_name": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643.tif",
+  "width": 1700,
+  "height": 110000,
+  "bounding_boxes": {
+    "depth_column": [
+      485,
+      1543,
+      536,
+      109291
+    ],
+    "interpreted_lithology_column": [
+      1303,
+      1543,
+      1355,
+      109291
+    ],
+    "lithology_legend": [
+      447,
+      499,
+      1211,
+      1145
+    ]
+  }
+}

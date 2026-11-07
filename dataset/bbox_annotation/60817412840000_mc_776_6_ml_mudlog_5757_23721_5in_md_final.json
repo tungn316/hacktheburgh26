@@ -1,0 +1,26 @@
+{
+  "image_name": "60817412840000_mc_776_6_ml_mudlog_5757_23721_5in_md_final.tif",
+  "width": 1552,
+  "height": 182200,
+  "bounding_boxes": {
+    "depth_column": [
+      276,
+      1575,
+      355,
+      182078
+    ],
+    "interpreted_lithology_column": [
+      1167,
+      1575,
+      1230,
+      182078
+    ],
+    "lithology_legend": [
+      2,
+      599,
+      1535,
+      1001
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

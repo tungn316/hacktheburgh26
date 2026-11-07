@@ -1,0 +1,25 @@
+{
+  "image_name": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.tif",
+  "width": 1275,
+  "height": 44550,
+  "bounding_boxes": {
+    "depth_column": [
+      277,
+      5480,
+      338,
+      43731
+    ],
+    "interpreted_lithology_column": [
+      817,
+      5480,
+      893,
+      43731
+    ],
+    "lithology_legend": [
+      28,
+      2276,
+      1248,
+      2529
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "image_name": "0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+  "width": 4864,
+  "height": 12035,
+  "bounding_boxes": {
+    "depth_column": [
+      1270,
+      4387,
+      1358,
+      11180
+    ],
+    "interpreted_lithology_column": [
+      2974,
+      4387,
+      3220,
+      11180
+    ],
+    "lithology_legend": [
+      1925,
+      1513,
+      3017,
+      2655
+    ]
+  }
+}

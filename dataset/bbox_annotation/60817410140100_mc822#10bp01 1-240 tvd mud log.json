@@ -1,0 +1,26 @@
+{
+  "image_name": "60817410140100_mc822#10bp01 1-240 tvd mud log.tif",
+  "width": 1534,
+  "height": 163220,
+  "bounding_boxes": {
+    "depth_column": [
+      236,
+      1205,
+      316,
+      163204
+    ],
+    "interpreted_lithology_column": [
+      953,
+      1205,
+      1000,
+      163204
+    ],
+    "lithology_legend": [
+      2,
+      594,
+      1532,
+      1000
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

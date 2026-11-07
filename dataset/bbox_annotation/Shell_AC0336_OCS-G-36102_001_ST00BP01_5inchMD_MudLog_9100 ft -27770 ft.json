@@ -1,0 +1,25 @@
+{
+  "image_name": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft.tif",
+  "width": 1275,
+  "height": 143550,
+  "bounding_boxes": {
+    "depth_column": [
+      340,
+      1129,
+      400,
+      142323
+    ],
+    "interpreted_lithology_column": [
+      400,
+      1129,
+      450,
+      142323
+    ],
+    "lithology_legend": [
+      30,
+      668,
+      1208,
+      832
+    ]
+  }
+}

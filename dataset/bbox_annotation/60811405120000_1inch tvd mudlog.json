@@ -1,0 +1,26 @@
+{
+  "image_name": "60811405120000_1inch tvd mudlog.tif",
+  "width": 1535,
+  "height": 15029,
+  "bounding_boxes": {
+    "depth_column": [
+      236,
+      1205,
+      316,
+      15029
+    ],
+    "interpreted_lithology_column": [
+      953,
+      1205,
+      1000,
+      15029
+    ],
+    "lithology_legend": [
+      12,
+      596,
+      1525,
+      1003
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

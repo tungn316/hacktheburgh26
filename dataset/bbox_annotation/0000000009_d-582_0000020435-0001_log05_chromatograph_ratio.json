@@ -1,0 +1,25 @@
+{
+  "image_name": "0000000009_d-582_0000020435-0001_log05_chromatograph_ratio.tif",
+  "width": 4864,
+  "height": 13051,
+  "bounding_boxes": {
+    "depth_column": [
+      1285,
+      4381,
+      1376,
+      12182
+    ],
+    "interpreted_lithology_column": [
+      1364,
+      4381,
+      1612,
+      12182
+    ],
+    "lithology_legend": [
+      1937,
+      1513,
+      3029,
+      2655
+    ]
+  }
+}

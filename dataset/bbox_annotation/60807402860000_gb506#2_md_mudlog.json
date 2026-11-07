@@ -1,0 +1,26 @@
+{
+  "image_name": "60807402860000_gb506#2_md_mudlog.tif",
+  "width": 1536,
+  "height": 9623,
+  "bounding_boxes": {
+    "depth_column": [
+      236,
+      1206,
+      316,
+      9623
+    ],
+    "interpreted_lithology_column": [
+      953,
+      1206,
+      1000,
+      9623
+    ],
+    "lithology_legend": [
+      12,
+      596,
+      1525,
+      1003
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

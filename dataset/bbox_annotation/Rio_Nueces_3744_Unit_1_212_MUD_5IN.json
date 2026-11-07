@@ -1,0 +1,25 @@
+{
+  "image_name": "Rio_Nueces_3744_Unit_1_212_MUD_5IN.tif",
+  "width": 1700,
+  "height": 121000,
+  "bounding_boxes": {
+    "depth_column": [
+      280,
+      6861,
+      321,
+      120865
+    ],
+    "interpreted_lithology_column": [
+      661,
+      6861,
+      731,
+      120865
+    ],
+    "lithology_legend": [
+      34,
+      3299,
+      1667,
+      3644
+    ]
+  }
+}

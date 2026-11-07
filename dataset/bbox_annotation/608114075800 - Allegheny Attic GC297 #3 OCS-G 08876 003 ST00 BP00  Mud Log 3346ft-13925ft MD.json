@@ -1,0 +1,26 @@
+{
+  "image_name": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.tif",
+  "width": 1700,
+  "height": 26400,
+  "bounding_boxes": {
+    "depth_column": [
+      362,
+      2737,
+      395,
+      24270
+    ],
+    "interpreted_lithology_column": [
+      1263,
+      2737,
+      1323,
+      24270
+    ],
+    "lithology_legend": [
+      477,
+      590,
+      1060,
+      1144
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

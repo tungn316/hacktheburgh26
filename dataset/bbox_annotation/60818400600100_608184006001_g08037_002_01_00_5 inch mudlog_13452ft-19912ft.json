@@ -1,0 +1,26 @@
+{
+  "image_name": "60818400600100_608184006001_g08037_002_01_00_5 inch mudlog_13452ft-19912ft.tif",
+  "width": 1534,
+  "height": 67200,
+  "bounding_boxes": {
+    "depth_column": [
+      275,
+      1575,
+      355,
+      66978
+    ],
+    "interpreted_lithology_column": [
+      1165,
+      1575,
+      1228,
+      66978
+    ],
+    "lithology_legend": [
+      2,
+      599,
+      1532,
+      1002
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

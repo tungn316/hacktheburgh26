@@ -1,0 +1,25 @@
+{
+  "image_name": "60808400140000_hadrian 2_masterlog_2in_10000-21962.tif",
+  "width": 1700,
+  "height": 50000,
+  "bounding_boxes": {
+    "depth_column": [
+      369,
+      1528,
+      449,
+      49449
+    ],
+    "interpreted_lithology_column": [
+      525,
+      1528,
+      582,
+      49449
+    ],
+    "lithology_legend": [
+      3,
+      840,
+      1653,
+      1133
+    ]
+  }
+}

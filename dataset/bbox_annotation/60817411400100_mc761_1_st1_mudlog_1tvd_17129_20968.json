@@ -1,0 +1,25 @@
+{
+  "image_name": "60817411400100_mc761_1_st1_mudlog_1tvd_17129_20968.tif",
+  "width": 1275,
+  "height": 8250,
+  "bounding_boxes": {
+    "depth_column": [
+      255,
+      2197,
+      288,
+      8198
+    ],
+    "interpreted_lithology_column": [
+      938,
+      2197,
+      995,
+      8198
+    ],
+    "lithology_legend": [
+      0,
+      972,
+      918,
+      1400
+    ]
+  }
+}

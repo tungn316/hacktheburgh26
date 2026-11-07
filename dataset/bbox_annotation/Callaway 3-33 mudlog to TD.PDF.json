@@ -1,0 +1,25 @@
+{
+  "image_name": "Callaway 3-33 mudlog to TD.PDF.tif",
+  "width": 1275,
+  "height": 56100,
+  "bounding_boxes": {
+    "depth_column": [
+      555,
+      5096,
+      615,
+      56024
+    ],
+    "interpreted_lithology_column": [
+      250,
+      5096,
+      310,
+      56024
+    ],
+    "lithology_legend": [
+      26,
+      2081,
+      1248,
+      2381
+    ]
+  }
+}

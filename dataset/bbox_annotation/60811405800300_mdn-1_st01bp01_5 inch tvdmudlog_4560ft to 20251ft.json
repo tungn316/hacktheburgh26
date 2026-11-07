@@ -1,0 +1,26 @@
+{
+  "image_name": "60811405800300_mdn-1_st01bp01_5 inch tvdmudlog_4560ft to 20251ft.tif",
+  "width": 1275,
+  "height": 120450,
+  "bounding_boxes": {
+    "depth_column": [
+      265,
+      1185,
+      325,
+      119853
+    ],
+    "interpreted_lithology_column": [
+      932,
+      1185,
+      980,
+      119853
+    ],
+    "lithology_legend": [
+      60,
+      452,
+      1210,
+      768
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

@@ -1,0 +1,26 @@
+{
+  "image_name": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+  "width": 2550,
+  "height": 72600,
+  "bounding_boxes": {
+    "depth_column": [
+      535,
+      2363,
+      655,
+      71702
+    ],
+    "interpreted_lithology_column": [
+      1875,
+      2363,
+      1970,
+      71702
+    ],
+    "lithology_legend": [
+      122,
+      898,
+      2432,
+      1505
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

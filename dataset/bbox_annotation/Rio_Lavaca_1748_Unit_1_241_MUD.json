@@ -1,0 +1,25 @@
+{
+  "image_name": "Rio_Lavaca_1748_Unit_1_241_MUD.tif",
+  "width": 1700,
+  "height": 195800,
+  "bounding_boxes": {
+    "depth_column": [
+      280,
+      6861,
+      321,
+      194865
+    ],
+    "interpreted_lithology_column": [
+      661,
+      6861,
+      731,
+      194865
+    ],
+    "lithology_legend": [
+      34,
+      3299,
+      1667,
+      3644
+    ]
+  }
+}

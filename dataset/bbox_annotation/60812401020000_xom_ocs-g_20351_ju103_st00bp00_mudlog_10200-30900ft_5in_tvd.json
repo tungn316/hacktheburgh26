@@ -1,0 +1,26 @@
+{
+  "image_name": "60812401020000_xom_ocs-g_20351_ju103_st00bp00_mudlog_10200-30900ft_5in_tvd.tif",
+  "width": 1700,
+  "height": 209000,
+  "bounding_boxes": {
+    "depth_column": [
+      355,
+      1576,
+      426,
+      208873
+    ],
+    "interpreted_lithology_column": [
+      1198,
+      1576,
+      1255,
+      208873
+    ],
+    "lithology_legend": [
+      79,
+      600,
+      1615,
+      1005
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

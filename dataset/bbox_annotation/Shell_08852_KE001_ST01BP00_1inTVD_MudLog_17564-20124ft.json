@@ -1,0 +1,25 @@
+{
+  "image_name": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.tif",
+  "width": 1653,
+  "height": 9356,
+  "bounding_boxes": {
+    "depth_column": [
+      450,
+      1550,
+      540,
+      6832
+    ],
+    "interpreted_lithology_column": [
+      540,
+      1550,
+      600,
+      6832
+    ],
+    "lithology_legend": [
+      40,
+      891,
+      1612,
+      1127
+    ]
+  }
+}
