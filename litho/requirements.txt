@@ -1,0 +1,5 @@
+numpy
+pillow
+opencv-python-headless
+pytesseract
+# plus the tesseract binary: `sudo dnf install tesseract` (Fedora) / `brew install tesseract` / `apt install tesseract-ocr`
