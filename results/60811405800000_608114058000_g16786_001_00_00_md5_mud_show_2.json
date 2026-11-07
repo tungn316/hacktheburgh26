@@ -1,11 +1,39 @@
 {
   "image": "60811405800000_608114058000_g16786_001_00_00_md5_mud_show_2.tif",
+  "image_size": [
+    1534,
+    2600
+  ],
   "depth_fit": {
     "px_per_ft": 10.0,
     "labels_used": 5,
     "labels_read": 5,
+    "labels_rejected": 0,
     "mean_residual_ft": 0.0,
-    "label_rotation_deg": 0
+    "label_rotation_deg": 0,
+    "chunks_ocrd": "1/1",
+    "labels": [
+      [
+        1571.7,
+        22870.0
+      ],
+      [
+        1771.7,
+        22890.0
+      ],
+      [
+        1971.7,
+        22910.0
+      ],
+      [
+        2171.7,
+        22930.0
+      ],
+      [
+        2371.7,
+        22950.0
+      ]
+    ]
   },
   "legend": [
     {
@@ -259,62 +287,71 @@
       "white": false
     }
   ],
+  "identical_legend_symbols": [],
   "n_groups": 2,
+  "snap_grid": null,
+  "warnings": [],
+  "timings_s": {
+    "depth": 0.22,
+    "segment": 0.01,
+    "legend": 0.48,
+    "intervals": 0.01,
+    "total": 0.72
+  },
   "intervals": [
     {
-      "top_ft": 22870.43,
-      "base_ft": 22901.63,
-      "group": 0,
+      "top_depth": 22870.43,
+      "bottom_depth": 22901.63,
       "lithology": "Fine Sandstone",
+      "cluster_id": 0,
+      "top_y": 1576,
+      "bottom_y": 1888,
       "confidence": 0.856,
+      "ambiguous": false,
       "alternatives": [
         "Chert",
         "Volcanic"
-      ],
-      "ambiguous": false,
-      "y_top_px": 1576,
-      "y_base_px": 1888
+      ]
     },
     {
-      "top_ft": 22901.63,
-      "base_ft": 22913.03,
-      "group": 1,
+      "top_depth": 22901.63,
+      "bottom_depth": 22913.03,
       "lithology": "Shale",
+      "cluster_id": 1,
+      "top_y": 1888,
+      "bottom_y": 2002,
       "confidence": 0.634,
+      "ambiguous": false,
       "alternatives": [
         "Claystone"
-      ],
-      "ambiguous": false,
-      "y_top_px": 1888,
-      "y_base_px": 2002
+      ]
     },
     {
-      "top_ft": 22913.03,
-      "base_ft": 22958.53,
-      "group": 0,
+      "top_depth": 22913.03,
+      "bottom_depth": 22958.53,
       "lithology": "Fine Sandstone",
+      "cluster_id": 0,
+      "top_y": 2002,
+      "bottom_y": 2457,
       "confidence": 0.856,
+      "ambiguous": false,
       "alternatives": [
         "Chert",
         "Volcanic"
-      ],
-      "ambiguous": false,
-      "y_top_px": 2002,
-      "y_base_px": 2457
+      ]
     },
     {
-      "top_ft": 22958.53,
-      "base_ft": 22970.33,
-      "group": 1,
+      "top_depth": 22958.53,
+      "bottom_depth": 22970.33,
       "lithology": "Shale",
+      "cluster_id": 1,
+      "top_y": 2457,
+      "bottom_y": 2575,
       "confidence": 0.634,
+      "ambiguous": false,
       "alternatives": [
         "Claystone"
-      ],
-      "ambiguous": false,
-      "y_top_px": 2457,
-      "y_base_px": 2575
+      ]
     }
-  ],
-  "seconds": 0.7
+  ]
 }

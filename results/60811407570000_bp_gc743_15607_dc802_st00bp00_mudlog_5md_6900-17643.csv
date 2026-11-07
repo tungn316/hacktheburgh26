@@ -1,90 +1,90 @@
-top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
--439.7,383.18,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-383.18,386.47,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-386.47,410.34,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-410.34,425.92,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-425.92,457.58,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-457.58,486.64,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-486.64,539.96,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-539.96,590.3,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-590.3,626.55,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-626.55,752.57,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-752.57,1417.86,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-1417.86,1491.36,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-1491.36,1588.73,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-1588.73,1621.78,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-1621.78,1924.27,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-1924.27,1952.63,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-1952.63,2864.88,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-2864.88,2870.28,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-2870.28,2897.34,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-2897.34,2904.03,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-2904.03,2920.21,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-2920.21,2925.7,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-2925.7,2962.15,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-2962.15,2967.54,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-2967.54,2998.8,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-2998.8,3008.29,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-3008.29,3021.77,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-3021.77,3037.25,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-3037.25,3131.12,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-3131.12,3146.0,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-3146.0,3351.02,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-3351.02,3365.7,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-3365.7,3716.82,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-3716.82,3729.4,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-3729.4,3806.5,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-3806.5,4046.37,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4046.37,4116.67,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4116.67,4157.22,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4157.22,4242.4,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4242.4,4264.67,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4264.67,4332.98,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4332.98,4363.43,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4363.43,4461.4,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4461.4,4474.88,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4474.88,4524.91,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4524.91,4531.7,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4531.7,4676.7,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4676.7,4726.34,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4726.34,4741.22,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4741.22,4761.59,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4761.59,4768.98,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4768.98,4787.95,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4787.95,4816.31,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4816.31,4875.73,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4875.73,4946.74,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4946.74,4954.23,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4954.23,4959.62,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-4959.62,4965.71,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-4965.71,5018.44,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5018.44,5033.32,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5033.32,5036.61,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5036.61,5070.47,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5070.47,5246.92,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5246.92,5255.01,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5255.01,5267.2,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5267.2,5275.29,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5275.29,5341.4,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5341.4,5459.63,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5459.63,5485.3,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5485.3,5500.18,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5500.18,5577.97,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5577.97,5589.46,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5589.46,5728.17,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5728.17,5811.25,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5811.25,5836.92,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-5836.92,5877.56,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-5877.56,6030.95,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-6030.95,6037.74,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-6037.74,6049.93,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-6049.93,6055.32,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-6055.32,6154.68,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-6154.68,6161.47,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-6161.47,6193.23,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-6193.23,6199.92,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-6199.92,6215.2,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-6215.2,6306.28,2,Medium Sand,0.071,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-6306.28,6311.47,0,Marl,0.124,True,Silty clay-shale|Clay Shale
-6311.47,6316.86,2,Medium Sand,0.071,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-6316.86,6378.48,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
+-439.7,383.16,Marl,0,38191,46431
+383.16,386.45,Dolomitic Sandstone,1,46431,46464
+386.45,410.32,Marl,0,46464,46703
+410.32,425.9,Dolomitic Sandstone,1,46703,46859
+425.9,457.56,Marl,0,46859,47176
+457.56,486.62,Dolomitic Sandstone,1,47176,47467
+486.62,539.93,Marl,0,47467,48001
+539.93,590.3,Dolomitic Sandstone,1,48001,48505
+590.3,626.58,Marl,0,48505,48868
+626.58,752.6,Dolomitic Sandstone,1,48868,50130
+752.6,1417.81,Marl,0,50130,56792
+1417.81,1491.31,Dolomitic Sandstone,1,56792,57528
+1491.31,1588.68,Marl,0,57528,58503
+1588.68,1621.74,Dolomitic Sandstone,1,58503,58834
+1621.74,1924.22,Marl,0,58834,61863
+1924.22,1952.58,Dolomitic Sandstone,1,61863,62147
+1952.58,2864.83,Marl,0,62147,71282
+2864.83,2870.23,Dolomitic Sandstone,1,71282,71336
+2870.23,2897.29,Marl,0,71336,71607
+2897.29,2903.98,Dolomitic Sandstone,1,71607,71674
+2903.98,2920.16,Marl,0,71674,71836
+2920.16,2925.65,Dolomitic Sandstone,1,71836,71891
+2925.65,2962.1,Marl,0,71891,72256
+2962.1,2967.49,Dolomitic Sandstone,1,72256,72310
+2967.49,2998.75,Marl,0,72310,72623
+2998.75,3008.24,Dolomitic Sandstone,1,72623,72718
+3008.24,3021.72,Marl,0,72718,72853
+3021.72,3037.2,Dolomitic Sandstone,1,72853,73008
+3037.2,3131.07,Marl,0,73008,73948
+3131.07,3145.95,Dolomitic Sandstone,1,73948,74097
+3145.95,3350.97,Marl,0,74097,76150
+3350.97,3365.65,Dolomitic Sandstone,1,76150,76297
+3365.65,3716.77,Marl,0,76297,79813
+3716.77,3729.35,Dolomitic Sandstone,1,79813,79939
+3729.35,3806.45,Marl,0,79939,80711
+3806.45,4046.32,Dolomitic Sandstone,1,80711,83113
+4046.32,4116.62,Marl,0,83113,83817
+4116.62,4157.17,Dolomitic Sandstone,1,83817,84223
+4157.17,4242.35,Marl,0,84223,85076
+4242.35,4264.62,Dolomitic Sandstone,1,85076,85299
+4264.62,4332.93,Marl,0,85299,85983
+4332.93,4363.38,Dolomitic Sandstone,1,85983,86288
+4363.38,4461.35,Marl,0,86288,87269
+4461.35,4474.83,Dolomitic Sandstone,1,87269,87404
+4474.83,4524.86,Marl,0,87404,87905
+4524.86,4531.65,Dolomitic Sandstone,1,87905,87973
+4531.65,4676.66,Marl,0,87973,89425
+4676.66,4726.29,Dolomitic Sandstone,1,89425,89922
+4726.29,4741.17,Marl,0,89922,90071
+4741.17,4761.54,Dolomitic Sandstone,1,90071,90275
+4761.54,4768.93,Marl,0,90275,90349
+4768.93,4787.9,Dolomitic Sandstone,1,90349,90539
+4787.9,4816.27,Marl,0,90539,90823
+4816.27,4875.68,Dolomitic Sandstone,1,90823,91418
+4875.68,4946.69,Marl,0,91418,92129
+4946.69,4954.18,Dolomitic Sandstone,1,92129,92204
+4954.18,4959.57,Marl,0,92204,92258
+4959.57,4965.66,Dolomitic Sandstone,1,92258,92319
+4965.66,5018.39,Marl,0,92319,92847
+5018.39,5033.27,Dolomitic Sandstone,1,92847,92996
+5033.27,5036.56,Marl,0,92996,93029
+5036.56,5070.42,Dolomitic Sandstone,1,93029,93368
+5070.42,5246.88,Marl,0,93368,95135
+5246.88,5254.96,Dolomitic Sandstone,1,95135,95216
+5254.96,5267.15,Marl,0,95216,95338
+5267.15,5275.24,Dolomitic Sandstone,1,95338,95419
+5275.24,5341.35,Marl,0,95419,96081
+5341.35,5459.58,Dolomitic Sandstone,1,96081,97265
+5459.58,5485.25,Marl,0,97265,97522
+5485.25,5500.13,Dolomitic Sandstone,1,97522,97671
+5500.13,5577.92,Marl,0,97671,98450
+5577.92,5589.41,Dolomitic Sandstone,1,98450,98565
+5589.41,5728.12,Marl,0,98565,99954
+5728.12,5811.2,Dolomitic Sandstone,1,99954,100786
+5811.2,5836.87,Marl,0,100786,101043
+5836.87,5877.51,Dolomitic Sandstone,1,101043,101450
+5877.51,6030.9,Marl,0,101450,102986
+6030.9,6037.69,Dolomitic Sandstone,1,102986,103054
+6037.69,6049.88,Marl,0,103054,103176
+6049.88,6055.27,Dolomitic Sandstone,1,103176,103230
+6055.27,6154.63,Marl,0,103230,104225
+6154.63,6161.42,Dolomitic Sandstone,1,104225,104293
+6161.42,6193.18,Marl,0,104293,104611
+6193.18,6199.87,Dolomitic Sandstone,1,104611,104678
+6199.87,6215.15,Marl,0,104678,104831
+6215.15,6306.23,Dolomitic Sandstone,2,104831,105743
+6306.23,6311.42,Marl,0,105743,105795
+6311.42,6316.81,Dolomitic Sandstone,2,105795,105849
+6316.81,6378.43,Marl,0,105849,106466

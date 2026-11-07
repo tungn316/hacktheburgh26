@@ -1,29 +1,24 @@
-top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
-24949.95,24961.73,4,Siltstone,0.716,False,
-24961.73,24969.72,2,Clay,0.13,True,Shale|Silty|Dolomite
-24969.72,24980.45,3,Sand and Sandstone,0.204,True,Anhydrite
-24980.45,24988.49,2,Clay,0.13,True,Shale|Silty|Dolomite
-24988.49,24999.77,1,Clay,0.15,True,Shale|Silty|Dolomite
-24999.77,25010.46,0,Sand and Sandstone,0.757,False,Anhydrite
-25010.46,25019.24,1,Clay,0.15,True,Shale|Silty|Dolomite
-25019.24,25040.41,0,Sand and Sandstone,0.757,False,Anhydrite
-25040.41,25049.89,5,Siltstone,0.706,False,
-25049.89,25080.4,0,Sand and Sandstone,0.757,False,Anhydrite
-25080.4,25090.58,5,Siltstone,0.706,False,
-25090.58,25119.03,1,Clay,0.15,True,Shale|Silty|Dolomite
-25119.03,25129.92,5,Siltstone,0.706,False,
-25129.92,25140.45,0,Sand and Sandstone,0.757,False,Anhydrite
-25140.45,25149.84,5,Siltstone,0.706,False,
-25149.84,25180.44,0,Sand and Sandstone,0.757,False,Anhydrite
-25180.44,25189.92,5,Siltstone,0.706,False,
-25189.92,25210.39,0,Sand and Sandstone,0.757,False,Anhydrite
-25210.39,25220.87,5,Siltstone,0.706,False,
-25220.87,25235.65,1,Clay,0.15,True,Shale|Silty|Dolomite
-25235.65,25239.14,2,Clay,0.13,True,Shale|Silty|Dolomite
-25239.14,25251.57,3,Sand and Sandstone,0.204,True,Anhydrite
-25251.57,25256.62,2,Clay,0.13,True,Shale|Silty|Dolomite
-25256.62,25279.83,2,Clay,0.13,True,Shale|Silty|Dolomite
-25279.83,25282.33,3,Sand and Sandstone,0.204,True,Anhydrite
-25282.33,25286.52,8,Sand and Sandstone,0.698,False,Anhydrite
-25286.52,25291.51,7,Sand and Sandstone,0.157,True,Anhydrite
-25291.51,25300.2,6,Silty,0.273,False,Clay|Shale|Dolomite
+top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
+24950.0,24960.0,Siltstone,4,4387,4587
+24960.0,24970.0,Shale,2,4587,4781
+24970.0,24980.0,Sandstone,3,4781,4975
+24980.0,25000.0,Shale,1,4975,5381
+25000.0,25010.0,Sandstone,0,5381,5584
+25010.0,25020.0,Shale,1,5584,5786
+25020.0,25040.0,Sandstone,0,5786,6184
+25040.0,25050.0,Siltstone,5,6184,6385
+25050.0,25080.0,Sandstone,0,6385,6986
+25080.0,25090.0,Siltstone,5,6986,7186
+25090.0,25120.0,Shale,1,7186,7786
+25120.0,25130.0,Siltstone,5,7786,7988
+25130.0,25140.0,Sandstone,0,7988,8189
+25140.0,25150.0,Siltstone,5,8189,8390
+25150.0,25180.0,Sandstone,0,8390,8990
+25180.0,25190.0,Siltstone,5,8990,9190
+25190.0,25210.0,Sandstone,0,9190,9591
+25210.0,25220.0,Siltstone,5,9591,9791
+25220.0,25240.0,Shale,1,9791,10192
+25240.0,25251.55,Sandstone,3,10192,10423
+25251.55,25280.0,Shale,2,10423,10992
+25280.0,25290.0,Sandstone,8,10992,11192
+25290.0,25300.0,Silty,6,11192,11391

@@ -1,11 +1,31 @@
 {
   "image": "Rio_Nueces_3744_Unit_1_212_MUD_5IN.tif",
+  "image_size": [
+    1700,
+    121000
+  ],
   "depth_fit": {
     "px_per_ft": 41.25,
     "labels_used": 3,
     "labels_read": 14,
+    "labels_rejected": 11,
     "mean_residual_ft": 0.0,
-    "label_rotation_deg": 90
+    "label_rotation_deg": 90,
+    "chunks_ocrd": "29/29",
+    "labels": [
+      [
+        49276.0,
+        340.0
+      ],
+      [
+        62476.0,
+        660.0
+      ],
+      [
+        75676.0,
+        980.0
+      ]
+    ]
   },
   "legend": [
     {
@@ -19,1548 +39,1826 @@
       "white": false
     }
   ],
+  "identical_legend_symbols": [],
   "n_groups": 11,
+  "snap_grid": null,
+  "warnings": [
+    "only 3 depth labels agree on a scale (41.250 px/ft): depths are unreliable"
+  ],
+  "timings_s": {
+    "depth": 11.05,
+    "segment": 0.63,
+    "legend": 0.4,
+    "intervals": 0.17,
+    "total": 12.25
+  },
   "intervals": [
     {
-      "top_ft": -676.07,
-      "base_ft": -672.68,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 7363,
-      "y_base_px": 7503
-    },
-    {
-      "top_ft": -672.68,
-      "base_ft": -670.67,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 7503,
-      "y_base_px": 7586
-    },
-    {
-      "top_ft": -670.67,
-      "base_ft": -667.35,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 7586,
-      "y_base_px": 7723
-    },
-    {
-      "top_ft": -667.35,
-      "base_ft": -662.35,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 7723,
-      "y_base_px": 7929
-    },
-    {
-      "top_ft": -662.35,
-      "base_ft": -661.14,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 7929,
-      "y_base_px": 7979
-    },
-    {
-      "top_ft": -661.14,
-      "base_ft": -646.25,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 7979,
-      "y_base_px": 8593
-    },
-    {
-      "top_ft": -646.25,
-      "base_ft": -642.72,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 8593,
-      "y_base_px": 8739
-    },
-    {
-      "top_ft": -642.72,
-      "base_ft": -634.81,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 8739,
-      "y_base_px": 9065
-    },
-    {
-      "top_ft": -634.81,
-      "base_ft": -631.08,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 9065,
-      "y_base_px": 9219
-    },
-    {
-      "top_ft": -631.08,
-      "base_ft": -628.56,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 9219,
-      "y_base_px": 9323
-    },
-    {
-      "top_ft": -628.56,
-      "base_ft": -625.72,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 9323,
-      "y_base_px": 9440
-    },
-    {
-      "top_ft": -625.72,
-      "base_ft": -622.25,
-      "group": 4,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 9440,
-      "y_base_px": 9583
-    },
-    {
-      "top_ft": -622.25,
-      "base_ft": -619.44,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 9583,
-      "y_base_px": 9699
-    },
-    {
-      "top_ft": -619.44,
-      "base_ft": -614.28,
-      "group": 4,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 9699,
-      "y_base_px": 9912
-    },
-    {
-      "top_ft": -614.28,
-      "base_ft": -611.59,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 9912,
-      "y_base_px": 10023
-    },
-    {
-      "top_ft": -611.59,
-      "base_ft": -607.95,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 10023,
-      "y_base_px": 10173
-    },
-    {
-      "top_ft": -607.95,
-      "base_ft": -605.96,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 10173,
-      "y_base_px": 10255
-    },
-    {
-      "top_ft": -605.96,
-      "base_ft": -602.13,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 10255,
-      "y_base_px": 10413
-    },
-    {
-      "top_ft": -602.13,
-      "base_ft": -595.88,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 10413,
-      "y_base_px": 10671
-    },
-    {
-      "top_ft": -595.88,
-      "base_ft": -593.92,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 10671,
-      "y_base_px": 10752
-    },
-    {
-      "top_ft": -593.92,
-      "base_ft": -587.83,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 10752,
-      "y_base_px": 11003
-    },
-    {
-      "top_ft": -587.83,
-      "base_ft": -583.35,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 11003,
-      "y_base_px": 11188
-    },
-    {
-      "top_ft": -583.35,
-      "base_ft": -581.28,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 11188,
-      "y_base_px": 11273
-    },
-    {
-      "top_ft": -581.28,
-      "base_ft": -578.62,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 11273,
-      "y_base_px": 11383
-    },
-    {
-      "top_ft": -578.62,
-      "base_ft": -575.95,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 11383,
-      "y_base_px": 11493
-    },
-    {
-      "top_ft": -575.95,
-      "base_ft": -572.61,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 11493,
-      "y_base_px": 11631
-    },
-    {
-      "top_ft": -572.61,
-      "base_ft": -570.96,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 11631,
-      "y_base_px": 11699
-    },
-    {
-      "top_ft": -570.96,
-      "base_ft": -563.3,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 11699,
-      "y_base_px": 12015
-    },
-    {
-      "top_ft": -563.3,
-      "base_ft": -560.39,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 12015,
-      "y_base_px": 12135
-    },
-    {
-      "top_ft": -560.39,
-      "base_ft": -558.04,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 12135,
-      "y_base_px": 12232
-    },
-    {
-      "top_ft": -558.04,
-      "base_ft": -539.42,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 12232,
-      "y_base_px": 13000
-    },
-    {
-      "top_ft": -539.42,
-      "base_ft": -538.38,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 13000,
-      "y_base_px": 13043
-    },
-    {
-      "top_ft": -538.38,
-      "base_ft": -403.81,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 13043,
-      "y_base_px": 18594
-    },
-    {
-      "top_ft": -403.81,
-      "base_ft": -402.76,
-      "group": 6,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 18594,
-      "y_base_px": 18637
-    },
-    {
-      "top_ft": -402.76,
-      "base_ft": -394.55,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 18637,
-      "y_base_px": 18976
-    },
-    {
-      "top_ft": -394.55,
-      "base_ft": -391.47,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 18976,
-      "y_base_px": 19103
-    },
-    {
-      "top_ft": -391.47,
-      "base_ft": -376.82,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 19103,
-      "y_base_px": 19707
-    },
-    {
-      "top_ft": -376.82,
-      "base_ft": -375.61,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 19707,
-      "y_base_px": 19757
-    },
-    {
-      "top_ft": -375.61,
-      "base_ft": -370.28,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 19757,
-      "y_base_px": 19977
-    },
-    {
-      "top_ft": -370.28,
-      "base_ft": -364.56,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 19977,
-      "y_base_px": 20213
-    },
-    {
-      "top_ft": -364.56,
-      "base_ft": -361.89,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 20213,
-      "y_base_px": 20323
-    },
-    {
-      "top_ft": -361.89,
-      "base_ft": -357.62,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 20323,
-      "y_base_px": 20499
-    },
-    {
-      "top_ft": -357.62,
-      "base_ft": -355.95,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 20499,
-      "y_base_px": 20568
-    },
-    {
-      "top_ft": -355.95,
-      "base_ft": -347.93,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 20568,
-      "y_base_px": 20899
-    },
-    {
-      "top_ft": -347.93,
-      "base_ft": -340.85,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 20899,
-      "y_base_px": 21191
-    },
-    {
-      "top_ft": -340.85,
-      "base_ft": -339.47,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 21191,
-      "y_base_px": 21248
-    },
-    {
-      "top_ft": -339.47,
-      "base_ft": -306.28,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 21248,
-      "y_base_px": 22617
-    },
-    {
-      "top_ft": -306.28,
-      "base_ft": -292.87,
-      "group": 2,
-      "lithology": "oO Breccia",
-      "confidence": 0.277,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 22617,
-      "y_base_px": 23170
-    },
-    {
-      "top_ft": -292.87,
-      "base_ft": -291.83,
-      "group": 9,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 23170,
-      "y_base_px": 23213
-    },
-    {
-      "top_ft": -291.83,
-      "base_ft": -288.02,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 23213,
-      "y_base_px": 23370
-    },
-    {
-      "top_ft": -288.02,
-      "base_ft": -285.53,
-      "group": 8,
-      "lithology": "oO Breccia",
-      "confidence": 0.283,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 23370,
-      "y_base_px": 23473
-    },
-    {
-      "top_ft": -285.53,
-      "base_ft": -281.6,
-      "group": 2,
-      "lithology": "oO Breccia",
-      "confidence": 0.277,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 23473,
-      "y_base_px": 23635
-    },
-    {
-      "top_ft": -281.6,
-      "base_ft": -279.35,
-      "group": 9,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 23635,
-      "y_base_px": 23728
-    },
-    {
-      "top_ft": -279.35,
-      "base_ft": -270.62,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 23728,
-      "y_base_px": 24088
-    },
-    {
-      "top_ft": -270.62,
-      "base_ft": -264.1,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 24088,
-      "y_base_px": 24357
-    },
-    {
-      "top_ft": -264.1,
-      "base_ft": -141.21,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 24357,
-      "y_base_px": 29426
-    },
-    {
-      "top_ft": -141.21,
-      "base_ft": -139.73,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 29426,
-      "y_base_px": 29487
-    },
-    {
-      "top_ft": -139.73,
-      "base_ft": -3.1,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 29487,
-      "y_base_px": 35123
-    },
-    {
-      "top_ft": -3.1,
-      "base_ft": 0.1,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 35123,
-      "y_base_px": 35255
-    },
-    {
-      "top_ft": 0.1,
-      "base_ft": 100.65,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 35255,
-      "y_base_px": 39403
-    },
-    {
-      "top_ft": 100.65,
-      "base_ft": 102.33,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 39403,
-      "y_base_px": 39472
-    },
-    {
-      "top_ft": 102.33,
-      "base_ft": 105.58,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 39472,
-      "y_base_px": 39606
-    },
-    {
-      "top_ft": 105.58,
-      "base_ft": 114.72,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 39606,
-      "y_base_px": 39983
-    },
-    {
-      "top_ft": 114.72,
-      "base_ft": 118.11,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 39983,
-      "y_base_px": 40123
-    },
-    {
-      "top_ft": 118.11,
-      "base_ft": 247.66,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 40123,
-      "y_base_px": 45467
-    },
-    {
-      "top_ft": 247.66,
-      "base_ft": 249.5,
-      "group": 8,
-      "lithology": "oO Breccia",
-      "confidence": 0.283,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 45467,
-      "y_base_px": 45543
-    },
-    {
-      "top_ft": 249.5,
-      "base_ft": 252.17,
-      "group": 2,
-      "lithology": "oO Breccia",
-      "confidence": 0.277,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 45543,
-      "y_base_px": 45653
-    },
-    {
-      "top_ft": 252.17,
-      "base_ft": 265.79,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 45653,
-      "y_base_px": 46215
-    },
-    {
-      "top_ft": 265.79,
-      "base_ft": 267.18,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 46215,
-      "y_base_px": 46272
-    },
-    {
-      "top_ft": 267.18,
-      "base_ft": 405.87,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 46272,
-      "y_base_px": 51993
-    },
-    {
-      "top_ft": 405.87,
-      "base_ft": 407.78,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 51993,
-      "y_base_px": 52072
-    },
-    {
-      "top_ft": 407.78,
-      "base_ft": 409.72,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 52072,
-      "y_base_px": 52152
-    },
-    {
-      "top_ft": 409.72,
-      "base_ft": 412.65,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 52152,
-      "y_base_px": 52273
-    },
-    {
-      "top_ft": 412.65,
-      "base_ft": 414.84,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 52273,
-      "y_base_px": 52363
-    },
-    {
-      "top_ft": 414.84,
-      "base_ft": 417.84,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 52363,
-      "y_base_px": 52487
-    },
-    {
-      "top_ft": 417.84,
-      "base_ft": 449.26,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 52487,
-      "y_base_px": 53783
-    },
-    {
-      "top_ft": 449.26,
-      "base_ft": 451.2,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 53783,
-      "y_base_px": 53863
-    },
-    {
-      "top_ft": 451.2,
-      "base_ft": 475.98,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 53863,
-      "y_base_px": 54885
-    },
-    {
-      "top_ft": 475.98,
-      "base_ft": 477.99,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 54885,
-      "y_base_px": 54968
-    },
-    {
-      "top_ft": 477.99,
-      "base_ft": 479.32,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 54968,
-      "y_base_px": 55023
-    },
-    {
-      "top_ft": 479.32,
-      "base_ft": 507.27,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 55023,
-      "y_base_px": 56176
-    },
-    {
-      "top_ft": 507.27,
-      "base_ft": 631.08,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 56176,
-      "y_base_px": 61283
-    },
-    {
-      "top_ft": 631.08,
-      "base_ft": 633.5,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 61283,
-      "y_base_px": 61383
-    },
-    {
-      "top_ft": 633.5,
-      "base_ft": 811.52,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 61383,
-      "y_base_px": 68726
-    },
-    {
-      "top_ft": 811.52,
-      "base_ft": 814.11,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 68726,
-      "y_base_px": 68833
-    },
-    {
-      "top_ft": 814.11,
-      "base_ft": 816.53,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 68833,
-      "y_base_px": 68933
-    },
-    {
-      "top_ft": 816.53,
-      "base_ft": 903.56,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 68933,
-      "y_base_px": 72523
-    },
-    {
-      "top_ft": 903.56,
-      "base_ft": 918.59,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 72523,
-      "y_base_px": 73143
-    },
-    {
-      "top_ft": 918.59,
-      "base_ft": 922.96,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 73143,
-      "y_base_px": 73323
-    },
-    {
-      "top_ft": 922.96,
-      "base_ft": 927.32,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 73323,
-      "y_base_px": 73503
-    },
-    {
-      "top_ft": 927.32,
-      "base_ft": 928.78,
-      "group": 10,
-      "lithology": "oO Breccia",
-      "confidence": 0.275,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 73503,
-      "y_base_px": 73563
-    },
-    {
-      "top_ft": 928.78,
-      "base_ft": 938.47,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 73563,
-      "y_base_px": 73963
-    },
-    {
-      "top_ft": 938.47,
-      "base_ft": 941.87,
-      "group": 6,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 73963,
-      "y_base_px": 74103
-    },
-    {
-      "top_ft": 941.87,
-      "base_ft": 945.26,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 74103,
-      "y_base_px": 74243
-    },
-    {
-      "top_ft": 945.26,
-      "base_ft": 950.11,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 74243,
-      "y_base_px": 74443
-    },
-    {
-      "top_ft": 950.11,
-      "base_ft": 953.5,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 74443,
-      "y_base_px": 74583
-    },
-    {
-      "top_ft": 953.5,
-      "base_ft": 955.44,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 74583,
-      "y_base_px": 74663
-    },
-    {
-      "top_ft": 955.44,
-      "base_ft": 982.21,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 74663,
-      "y_base_px": 75767
-    },
-    {
-      "top_ft": 982.21,
-      "base_ft": 984.95,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 75767,
-      "y_base_px": 75880
-    },
-    {
-      "top_ft": 984.95,
-      "base_ft": 985.99,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 75880,
-      "y_base_px": 75923
-    },
-    {
-      "top_ft": 985.99,
-      "base_ft": 995.2,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 75923,
-      "y_base_px": 76303
-    },
-    {
-      "top_ft": 995.2,
-      "base_ft": 997.62,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 76303,
-      "y_base_px": 76403
-    },
-    {
-      "top_ft": 997.62,
-      "base_ft": 1001.99,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 76403,
-      "y_base_px": 76583
-    },
-    {
-      "top_ft": 1001.99,
-      "base_ft": 1004.41,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 76583,
-      "y_base_px": 76683
-    },
-    {
-      "top_ft": 1004.41,
-      "base_ft": 1006.35,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 76683,
-      "y_base_px": 76763
-    },
-    {
-      "top_ft": 1006.35,
-      "base_ft": 1008.99,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 76763,
-      "y_base_px": 76872
-    },
-    {
-      "top_ft": 1008.99,
-      "base_ft": 1010.72,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 76872,
-      "y_base_px": 76943
-    },
-    {
-      "top_ft": 1010.72,
-      "base_ft": 1013.14,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 76943,
-      "y_base_px": 77043
-    },
-    {
-      "top_ft": 1013.14,
-      "base_ft": 1029.65,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 77043,
-      "y_base_px": 77724
-    },
-    {
-      "top_ft": 1029.65,
-      "base_ft": 1030.76,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 77724,
-      "y_base_px": 77770
-    },
-    {
-      "top_ft": 1030.76,
-      "base_ft": 1034.47,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 77770,
-      "y_base_px": 77923
-    },
-    {
-      "top_ft": 1034.47,
-      "base_ft": 1036.9,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 77923,
-      "y_base_px": 78023
-    },
-    {
-      "top_ft": 1036.9,
-      "base_ft": 1162.62,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 78023,
-      "y_base_px": 83209
-    },
-    {
-      "top_ft": 1162.62,
-      "base_ft": 1164.53,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 83209,
-      "y_base_px": 83288
-    },
-    {
-      "top_ft": 1164.53,
-      "base_ft": 1167.47,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 83288,
-      "y_base_px": 83409
-    },
-    {
-      "top_ft": 1167.47,
-      "base_ft": 1174.3,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 83409,
-      "y_base_px": 83691
-    },
-    {
-      "top_ft": 1174.3,
-      "base_ft": 1178.88,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 83691,
-      "y_base_px": 83880
-    },
-    {
-      "top_ft": 1178.88,
-      "base_ft": 1451.81,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 83880,
-      "y_base_px": 95138
-    },
-    {
-      "top_ft": 1451.81,
-      "base_ft": 1452.85,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 95138,
-      "y_base_px": 95181
-    },
-    {
-      "top_ft": 1452.85,
-      "base_ft": 1489.75,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 95181,
-      "y_base_px": 96703
-    },
-    {
-      "top_ft": 1489.75,
-      "base_ft": 1491.2,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 96703,
-      "y_base_px": 96763
-    },
-    {
-      "top_ft": 1491.2,
-      "base_ft": 1505.75,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 96763,
-      "y_base_px": 97363
-    },
-    {
-      "top_ft": 1505.75,
-      "base_ft": 1507.2,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 97363,
-      "y_base_px": 97423
-    },
-    {
-      "top_ft": 1507.2,
-      "base_ft": 1527.56,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 97423,
-      "y_base_px": 98263
-    },
-    {
-      "top_ft": 1527.56,
-      "base_ft": 1529.02,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 98263,
-      "y_base_px": 98323
-    },
-    {
-      "top_ft": 1529.02,
-      "base_ft": 1538.96,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 98323,
-      "y_base_px": 98733
-    },
-    {
-      "top_ft": 1538.96,
-      "base_ft": 1539.98,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 98733,
-      "y_base_px": 98775
-    },
-    {
-      "top_ft": 1539.98,
-      "base_ft": 1566.88,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 98775,
-      "y_base_px": 99885
-    },
-    {
-      "top_ft": 1566.88,
-      "base_ft": 1567.88,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 99885,
-      "y_base_px": 99926
-    },
-    {
-      "top_ft": 1567.88,
-      "base_ft": 1983.52,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 99926,
-      "y_base_px": 117071
-    },
-    {
-      "top_ft": 1983.52,
-      "base_ft": 1986.91,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 117071,
-      "y_base_px": 117211
-    },
-    {
-      "top_ft": 1986.91,
-      "base_ft": 1988.39,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 117211,
-      "y_base_px": 117272
-    },
-    {
-      "top_ft": 1988.39,
-      "base_ft": 1991.56,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 117272,
-      "y_base_px": 117403
-    },
-    {
-      "top_ft": 1991.56,
-      "base_ft": 1993.99,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 117403,
-      "y_base_px": 117503
-    },
-    {
-      "top_ft": 1993.99,
-      "base_ft": 1997.16,
-      "group": 7,
-      "lithology": "oO Breccia",
-      "confidence": 0.265,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 117503,
-      "y_base_px": 117634
-    },
-    {
-      "top_ft": 1997.16,
-      "base_ft": 2002.96,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 117634,
-      "y_base_px": 117873
-    },
-    {
-      "top_ft": 2002.96,
-      "base_ft": 2006.11,
-      "group": 3,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 117873,
-      "y_base_px": 118003
-    },
-    {
-      "top_ft": 2006.11,
-      "base_ft": 2014.47,
-      "group": 1,
-      "lithology": "oO Breccia",
-      "confidence": 0.273,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 118003,
-      "y_base_px": 118348
-    },
-    {
-      "top_ft": 2014.47,
-      "base_ft": 2015.88,
-      "group": 5,
-      "lithology": "oO Breccia",
-      "confidence": 0.272,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 118348,
-      "y_base_px": 118406
-    },
-    {
-      "top_ft": 2015.88,
-      "base_ft": 2060.99,
-      "group": 0,
-      "lithology": "oO Breccia",
-      "confidence": 0.276,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 118406,
-      "y_base_px": 120267
+      "top_depth": -676.07,
+      "bottom_depth": -672.68,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 7363,
+      "bottom_y": 7503,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -672.68,
+      "bottom_depth": -670.67,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 7503,
+      "bottom_y": 7586,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -670.67,
+      "bottom_depth": -667.35,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 7586,
+      "bottom_y": 7723,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -667.35,
+      "bottom_depth": -662.35,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 7723,
+      "bottom_y": 7929,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -662.35,
+      "bottom_depth": -661.14,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 7929,
+      "bottom_y": 7979,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -661.14,
+      "bottom_depth": -646.25,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 7979,
+      "bottom_y": 8593,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -646.25,
+      "bottom_depth": -642.72,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 8593,
+      "bottom_y": 8739,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -642.72,
+      "bottom_depth": -634.81,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 8739,
+      "bottom_y": 9065,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -634.81,
+      "bottom_depth": -631.08,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 9065,
+      "bottom_y": 9219,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -631.08,
+      "bottom_depth": -628.56,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 9219,
+      "bottom_y": 9323,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -628.56,
+      "bottom_depth": -625.72,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 9323,
+      "bottom_y": 9440,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -625.72,
+      "bottom_depth": -622.25,
+      "lithology": "Unidentified (cluster 4)",
+      "cluster_id": 4,
+      "top_y": 9440,
+      "bottom_y": 9583,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -622.25,
+      "bottom_depth": -619.44,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 9583,
+      "bottom_y": 9699,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -619.44,
+      "bottom_depth": -614.28,
+      "lithology": "Unidentified (cluster 4)",
+      "cluster_id": 4,
+      "top_y": 9699,
+      "bottom_y": 9912,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -614.28,
+      "bottom_depth": -611.59,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 9912,
+      "bottom_y": 10023,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -611.59,
+      "bottom_depth": -607.95,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 10023,
+      "bottom_y": 10173,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -607.95,
+      "bottom_depth": -605.96,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 10173,
+      "bottom_y": 10255,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -605.96,
+      "bottom_depth": -602.13,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 10255,
+      "bottom_y": 10413,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -602.13,
+      "bottom_depth": -595.88,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 10413,
+      "bottom_y": 10671,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -595.88,
+      "bottom_depth": -593.92,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 10671,
+      "bottom_y": 10752,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -593.92,
+      "bottom_depth": -587.83,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 10752,
+      "bottom_y": 11003,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -587.83,
+      "bottom_depth": -583.35,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 11003,
+      "bottom_y": 11188,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -583.35,
+      "bottom_depth": -581.28,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 11188,
+      "bottom_y": 11273,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -581.28,
+      "bottom_depth": -578.62,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 11273,
+      "bottom_y": 11383,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -578.62,
+      "bottom_depth": -575.95,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 11383,
+      "bottom_y": 11493,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -575.95,
+      "bottom_depth": -572.61,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 11493,
+      "bottom_y": 11631,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -572.61,
+      "bottom_depth": -570.96,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 11631,
+      "bottom_y": 11699,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -570.96,
+      "bottom_depth": -563.3,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 11699,
+      "bottom_y": 12015,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -563.3,
+      "bottom_depth": -560.39,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 12015,
+      "bottom_y": 12135,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -560.39,
+      "bottom_depth": -558.04,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 12135,
+      "bottom_y": 12232,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -558.04,
+      "bottom_depth": -539.42,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 12232,
+      "bottom_y": 13000,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -539.42,
+      "bottom_depth": -538.38,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 13000,
+      "bottom_y": 13043,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -538.38,
+      "bottom_depth": -403.81,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 13043,
+      "bottom_y": 18594,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -403.81,
+      "bottom_depth": -402.76,
+      "lithology": "Unidentified (cluster 6)",
+      "cluster_id": 6,
+      "top_y": 18594,
+      "bottom_y": 18637,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -402.76,
+      "bottom_depth": -394.55,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 18637,
+      "bottom_y": 18976,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -394.55,
+      "bottom_depth": -391.47,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 18976,
+      "bottom_y": 19103,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -391.47,
+      "bottom_depth": -376.82,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 19103,
+      "bottom_y": 19707,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -376.82,
+      "bottom_depth": -375.61,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 19707,
+      "bottom_y": 19757,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -375.61,
+      "bottom_depth": -370.28,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 19757,
+      "bottom_y": 19977,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -370.28,
+      "bottom_depth": -364.56,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 19977,
+      "bottom_y": 20213,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -364.56,
+      "bottom_depth": -361.89,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 20213,
+      "bottom_y": 20323,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -361.89,
+      "bottom_depth": -357.62,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 20323,
+      "bottom_y": 20499,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -357.62,
+      "bottom_depth": -355.95,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 20499,
+      "bottom_y": 20568,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -355.95,
+      "bottom_depth": -347.93,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 20568,
+      "bottom_y": 20899,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -347.93,
+      "bottom_depth": -340.85,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 20899,
+      "bottom_y": 21191,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -340.85,
+      "bottom_depth": -339.47,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 21191,
+      "bottom_y": 21248,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -339.47,
+      "bottom_depth": -306.28,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 21248,
+      "bottom_y": 22617,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -306.28,
+      "bottom_depth": -292.87,
+      "lithology": "Unidentified (cluster 2)",
+      "cluster_id": 2,
+      "top_y": 22617,
+      "bottom_y": 23170,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -292.87,
+      "bottom_depth": -291.83,
+      "lithology": "Unidentified (cluster 9)",
+      "cluster_id": 9,
+      "top_y": 23170,
+      "bottom_y": 23213,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -291.83,
+      "bottom_depth": -288.02,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 23213,
+      "bottom_y": 23370,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -288.02,
+      "bottom_depth": -285.53,
+      "lithology": "Unidentified (cluster 8)",
+      "cluster_id": 8,
+      "top_y": 23370,
+      "bottom_y": 23473,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -285.53,
+      "bottom_depth": -281.6,
+      "lithology": "Unidentified (cluster 2)",
+      "cluster_id": 2,
+      "top_y": 23473,
+      "bottom_y": 23635,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -281.6,
+      "bottom_depth": -279.35,
+      "lithology": "Unidentified (cluster 9)",
+      "cluster_id": 9,
+      "top_y": 23635,
+      "bottom_y": 23728,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -279.35,
+      "bottom_depth": -270.62,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 23728,
+      "bottom_y": 24088,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -270.62,
+      "bottom_depth": -264.1,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 24088,
+      "bottom_y": 24357,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -264.1,
+      "bottom_depth": -141.21,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 24357,
+      "bottom_y": 29426,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -141.21,
+      "bottom_depth": -139.73,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 29426,
+      "bottom_y": 29487,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -139.73,
+      "bottom_depth": -3.1,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 29487,
+      "bottom_y": 35123,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": -3.1,
+      "bottom_depth": 0.1,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 35123,
+      "bottom_y": 35255,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 0.1,
+      "bottom_depth": 100.65,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 35255,
+      "bottom_y": 39403,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 100.65,
+      "bottom_depth": 102.33,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 39403,
+      "bottom_y": 39472,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 102.33,
+      "bottom_depth": 105.58,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 39472,
+      "bottom_y": 39606,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 105.58,
+      "bottom_depth": 114.72,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 39606,
+      "bottom_y": 39983,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 114.72,
+      "bottom_depth": 118.11,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 39983,
+      "bottom_y": 40123,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 118.11,
+      "bottom_depth": 247.66,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 40123,
+      "bottom_y": 45467,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 247.66,
+      "bottom_depth": 249.5,
+      "lithology": "Unidentified (cluster 8)",
+      "cluster_id": 8,
+      "top_y": 45467,
+      "bottom_y": 45543,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 249.5,
+      "bottom_depth": 252.17,
+      "lithology": "Unidentified (cluster 2)",
+      "cluster_id": 2,
+      "top_y": 45543,
+      "bottom_y": 45653,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 252.17,
+      "bottom_depth": 265.79,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 45653,
+      "bottom_y": 46215,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 265.79,
+      "bottom_depth": 267.18,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 46215,
+      "bottom_y": 46272,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 267.18,
+      "bottom_depth": 405.87,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 46272,
+      "bottom_y": 51993,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 405.87,
+      "bottom_depth": 407.78,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 51993,
+      "bottom_y": 52072,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 407.78,
+      "bottom_depth": 409.72,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 52072,
+      "bottom_y": 52152,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 409.72,
+      "bottom_depth": 412.65,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 52152,
+      "bottom_y": 52273,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 412.65,
+      "bottom_depth": 414.84,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 52273,
+      "bottom_y": 52363,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 414.84,
+      "bottom_depth": 417.84,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 52363,
+      "bottom_y": 52487,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 417.84,
+      "bottom_depth": 449.26,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 52487,
+      "bottom_y": 53783,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 449.26,
+      "bottom_depth": 451.2,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 53783,
+      "bottom_y": 53863,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 451.2,
+      "bottom_depth": 475.98,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 53863,
+      "bottom_y": 54885,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 475.98,
+      "bottom_depth": 477.99,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 54885,
+      "bottom_y": 54968,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 477.99,
+      "bottom_depth": 479.32,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 54968,
+      "bottom_y": 55023,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 479.32,
+      "bottom_depth": 631.08,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 55023,
+      "bottom_y": 61283,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 631.08,
+      "bottom_depth": 633.5,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 61283,
+      "bottom_y": 61383,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 633.5,
+      "bottom_depth": 811.52,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 61383,
+      "bottom_y": 68726,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 811.52,
+      "bottom_depth": 814.11,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 68726,
+      "bottom_y": 68833,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 814.11,
+      "bottom_depth": 816.53,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 68833,
+      "bottom_y": 68933,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 816.53,
+      "bottom_depth": 903.56,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 68933,
+      "bottom_y": 72523,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 903.56,
+      "bottom_depth": 918.59,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 72523,
+      "bottom_y": 73143,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 918.59,
+      "bottom_depth": 922.96,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 73143,
+      "bottom_y": 73323,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 922.96,
+      "bottom_depth": 927.32,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 73323,
+      "bottom_y": 73503,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 927.32,
+      "bottom_depth": 928.78,
+      "lithology": "Unidentified (cluster 10)",
+      "cluster_id": 10,
+      "top_y": 73503,
+      "bottom_y": 73563,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 928.78,
+      "bottom_depth": 938.47,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 73563,
+      "bottom_y": 73963,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 938.47,
+      "bottom_depth": 941.87,
+      "lithology": "Unidentified (cluster 6)",
+      "cluster_id": 6,
+      "top_y": 73963,
+      "bottom_y": 74103,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 941.87,
+      "bottom_depth": 945.26,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 74103,
+      "bottom_y": 74243,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 945.26,
+      "bottom_depth": 950.11,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 74243,
+      "bottom_y": 74443,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 950.11,
+      "bottom_depth": 953.5,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 74443,
+      "bottom_y": 74583,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 953.5,
+      "bottom_depth": 955.44,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 74583,
+      "bottom_y": 74663,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 955.44,
+      "bottom_depth": 982.21,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 74663,
+      "bottom_y": 75767,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 982.21,
+      "bottom_depth": 984.95,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 75767,
+      "bottom_y": 75880,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 984.95,
+      "bottom_depth": 985.99,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 75880,
+      "bottom_y": 75923,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 985.99,
+      "bottom_depth": 995.2,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 75923,
+      "bottom_y": 76303,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 995.2,
+      "bottom_depth": 997.62,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 76303,
+      "bottom_y": 76403,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 997.62,
+      "bottom_depth": 1001.99,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 76403,
+      "bottom_y": 76583,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1001.99,
+      "bottom_depth": 1004.41,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 76583,
+      "bottom_y": 76683,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1004.41,
+      "bottom_depth": 1006.35,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 76683,
+      "bottom_y": 76763,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1006.35,
+      "bottom_depth": 1008.99,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 76763,
+      "bottom_y": 76872,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1008.99,
+      "bottom_depth": 1010.72,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 76872,
+      "bottom_y": 76943,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1010.72,
+      "bottom_depth": 1013.14,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 76943,
+      "bottom_y": 77043,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1013.14,
+      "bottom_depth": 1029.65,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 77043,
+      "bottom_y": 77724,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1029.65,
+      "bottom_depth": 1030.76,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 77724,
+      "bottom_y": 77770,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1030.76,
+      "bottom_depth": 1034.47,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 77770,
+      "bottom_y": 77923,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1034.47,
+      "bottom_depth": 1036.9,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 77923,
+      "bottom_y": 78023,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1036.9,
+      "bottom_depth": 1162.62,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 78023,
+      "bottom_y": 83209,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1162.62,
+      "bottom_depth": 1164.53,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 83209,
+      "bottom_y": 83288,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1164.53,
+      "bottom_depth": 1167.47,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 83288,
+      "bottom_y": 83409,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1167.47,
+      "bottom_depth": 1174.3,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 83409,
+      "bottom_y": 83691,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1174.3,
+      "bottom_depth": 1178.88,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 83691,
+      "bottom_y": 83880,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1178.88,
+      "bottom_depth": 1451.81,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 83880,
+      "bottom_y": 95138,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1451.81,
+      "bottom_depth": 1452.85,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 95138,
+      "bottom_y": 95181,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1452.85,
+      "bottom_depth": 1489.75,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 95181,
+      "bottom_y": 96703,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1489.75,
+      "bottom_depth": 1491.2,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 96703,
+      "bottom_y": 96763,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1491.2,
+      "bottom_depth": 1505.75,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 96763,
+      "bottom_y": 97363,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1505.75,
+      "bottom_depth": 1507.2,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 97363,
+      "bottom_y": 97423,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1507.2,
+      "bottom_depth": 1527.56,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 97423,
+      "bottom_y": 98263,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1527.56,
+      "bottom_depth": 1529.02,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 98263,
+      "bottom_y": 98323,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1529.02,
+      "bottom_depth": 1538.96,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 98323,
+      "bottom_y": 98733,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1538.96,
+      "bottom_depth": 1539.98,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 98733,
+      "bottom_y": 98775,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1539.98,
+      "bottom_depth": 1566.88,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 98775,
+      "bottom_y": 99885,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1566.88,
+      "bottom_depth": 1567.88,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 99885,
+      "bottom_y": 99926,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1567.88,
+      "bottom_depth": 1983.52,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 99926,
+      "bottom_y": 117071,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1983.52,
+      "bottom_depth": 1986.91,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 117071,
+      "bottom_y": 117211,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1986.91,
+      "bottom_depth": 1988.39,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 117211,
+      "bottom_y": 117272,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1988.39,
+      "bottom_depth": 1991.56,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 117272,
+      "bottom_y": 117403,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1991.56,
+      "bottom_depth": 1993.99,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 117403,
+      "bottom_y": 117503,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1993.99,
+      "bottom_depth": 1997.16,
+      "lithology": "Unidentified (cluster 7)",
+      "cluster_id": 7,
+      "top_y": 117503,
+      "bottom_y": 117634,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 1997.16,
+      "bottom_depth": 2002.96,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 117634,
+      "bottom_y": 117873,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 2002.96,
+      "bottom_depth": 2006.11,
+      "lithology": "Unidentified (cluster 3)",
+      "cluster_id": 3,
+      "top_y": 117873,
+      "bottom_y": 118003,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 2006.11,
+      "bottom_depth": 2014.47,
+      "lithology": "Unidentified (cluster 1)",
+      "cluster_id": 1,
+      "top_y": 118003,
+      "bottom_y": 118348,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 2014.47,
+      "bottom_depth": 2015.88,
+      "lithology": "Unidentified (cluster 5)",
+      "cluster_id": 5,
+      "top_y": 118348,
+      "bottom_y": 118406,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
+    },
+    {
+      "top_depth": 2015.88,
+      "bottom_depth": 2060.99,
+      "lithology": "Unidentified (cluster 0)",
+      "cluster_id": 0,
+      "top_y": 118406,
+      "bottom_y": 120267,
+      "confidence": 0.0,
+      "ambiguous": true,
+      "alternatives": [
+        "oO Breccia"
+      ]
     }
-  ],
-  "seconds": 18.1
+  ]
 }

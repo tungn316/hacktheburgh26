@@ -1,141 +1,140 @@
-top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
--676.07,-672.68,3,oO Breccia,0.272,False,
--672.68,-670.67,7,oO Breccia,0.265,False,
--670.67,-667.35,5,oO Breccia,0.272,False,
--667.35,-662.35,0,oO Breccia,0.276,False,
--662.35,-661.14,3,oO Breccia,0.272,False,
--661.14,-646.25,0,oO Breccia,0.276,False,
--646.25,-642.72,5,oO Breccia,0.272,False,
--642.72,-634.81,0,oO Breccia,0.276,False,
--634.81,-631.08,3,oO Breccia,0.272,False,
--631.08,-628.56,5,oO Breccia,0.272,False,
--628.56,-625.72,7,oO Breccia,0.265,False,
--625.72,-622.25,4,oO Breccia,0.273,False,
--622.25,-619.44,7,oO Breccia,0.265,False,
--619.44,-614.28,4,oO Breccia,0.273,False,
--614.28,-611.59,1,oO Breccia,0.273,False,
--611.59,-607.95,5,oO Breccia,0.272,False,
--607.95,-605.96,3,oO Breccia,0.272,False,
--605.96,-602.13,5,oO Breccia,0.272,False,
--602.13,-595.88,0,oO Breccia,0.276,False,
--595.88,-593.92,7,oO Breccia,0.265,False,
--593.92,-587.83,3,oO Breccia,0.272,False,
--587.83,-583.35,1,oO Breccia,0.273,False,
--583.35,-581.28,3,oO Breccia,0.272,False,
--581.28,-578.62,1,oO Breccia,0.273,False,
--578.62,-575.95,5,oO Breccia,0.272,False,
--575.95,-572.61,0,oO Breccia,0.276,False,
--572.61,-570.96,1,oO Breccia,0.273,False,
--570.96,-563.3,0,oO Breccia,0.276,False,
--563.3,-560.39,3,oO Breccia,0.272,False,
--560.39,-558.04,1,oO Breccia,0.273,False,
--558.04,-539.42,0,oO Breccia,0.276,False,
--539.42,-538.38,1,oO Breccia,0.273,False,
--538.38,-403.81,0,oO Breccia,0.276,False,
--403.81,-402.76,6,oO Breccia,0.272,False,
--402.76,-394.55,0,oO Breccia,0.276,False,
--394.55,-391.47,5,oO Breccia,0.272,False,
--391.47,-376.82,0,oO Breccia,0.276,False,
--376.82,-375.61,1,oO Breccia,0.273,False,
--375.61,-370.28,0,oO Breccia,0.276,False,
--370.28,-364.56,1,oO Breccia,0.273,False,
--364.56,-361.89,5,oO Breccia,0.272,False,
--361.89,-357.62,0,oO Breccia,0.276,False,
--357.62,-355.95,1,oO Breccia,0.273,False,
--355.95,-347.93,3,oO Breccia,0.272,False,
--347.93,-340.85,0,oO Breccia,0.276,False,
--340.85,-339.47,1,oO Breccia,0.273,False,
--339.47,-306.28,0,oO Breccia,0.276,False,
--306.28,-292.87,2,oO Breccia,0.277,False,
--292.87,-291.83,9,oO Breccia,0.276,False,
--291.83,-288.02,0,oO Breccia,0.276,False,
--288.02,-285.53,8,oO Breccia,0.283,False,
--285.53,-281.6,2,oO Breccia,0.277,False,
--281.6,-279.35,9,oO Breccia,0.276,False,
--279.35,-270.62,0,oO Breccia,0.276,False,
--270.62,-264.1,1,oO Breccia,0.273,False,
--264.1,-141.21,0,oO Breccia,0.276,False,
--141.21,-139.73,3,oO Breccia,0.272,False,
--139.73,-3.1,0,oO Breccia,0.276,False,
--3.1,0.1,3,oO Breccia,0.272,False,
-0.1,100.65,0,oO Breccia,0.276,False,
-100.65,102.33,1,oO Breccia,0.273,False,
-102.33,105.58,5,oO Breccia,0.272,False,
-105.58,114.72,0,oO Breccia,0.276,False,
-114.72,118.11,1,oO Breccia,0.273,False,
-118.11,247.66,0,oO Breccia,0.276,False,
-247.66,249.5,8,oO Breccia,0.283,False,
-249.5,252.17,2,oO Breccia,0.277,False,
-252.17,265.79,0,oO Breccia,0.276,False,
-265.79,267.18,1,oO Breccia,0.273,False,
-267.18,405.87,0,oO Breccia,0.276,False,
-405.87,407.78,1,oO Breccia,0.273,False,
-407.78,409.72,5,oO Breccia,0.272,False,
-409.72,412.65,0,oO Breccia,0.276,False,
-412.65,414.84,1,oO Breccia,0.273,False,
-414.84,417.84,5,oO Breccia,0.272,False,
-417.84,449.26,0,oO Breccia,0.276,False,
-449.26,451.2,1,oO Breccia,0.273,False,
-451.2,475.98,0,oO Breccia,0.276,False,
-475.98,477.99,3,oO Breccia,0.272,False,
-477.99,479.32,1,oO Breccia,0.273,False,
-479.32,507.27,0,oO Breccia,0.276,False,
-507.27,631.08,0,oO Breccia,0.276,False,
-631.08,633.5,1,oO Breccia,0.273,False,
-633.5,811.52,0,oO Breccia,0.276,False,
-811.52,814.11,3,oO Breccia,0.272,False,
-814.11,816.53,1,oO Breccia,0.273,False,
-816.53,903.56,0,oO Breccia,0.276,False,
-903.56,918.59,1,oO Breccia,0.273,False,
-918.59,922.96,0,oO Breccia,0.276,False,
-922.96,927.32,1,oO Breccia,0.273,False,
-927.32,928.78,10,oO Breccia,0.275,False,
-928.78,938.47,1,oO Breccia,0.273,False,
-938.47,941.87,6,oO Breccia,0.272,False,
-941.87,945.26,0,oO Breccia,0.276,False,
-945.26,950.11,1,oO Breccia,0.273,False,
-950.11,953.5,0,oO Breccia,0.276,False,
-953.5,955.44,1,oO Breccia,0.273,False,
-955.44,982.21,0,oO Breccia,0.276,False,
-982.21,984.95,1,oO Breccia,0.273,False,
-984.95,985.99,0,oO Breccia,0.276,False,
-985.99,995.2,1,oO Breccia,0.273,False,
-995.2,997.62,0,oO Breccia,0.276,False,
-997.62,1001.99,1,oO Breccia,0.273,False,
-1001.99,1004.41,0,oO Breccia,0.276,False,
-1004.41,1006.35,1,oO Breccia,0.273,False,
-1006.35,1008.99,5,oO Breccia,0.272,False,
-1008.99,1010.72,0,oO Breccia,0.276,False,
-1010.72,1013.14,1,oO Breccia,0.273,False,
-1013.14,1029.65,0,oO Breccia,0.276,False,
-1029.65,1030.76,7,oO Breccia,0.265,False,
-1030.76,1034.47,0,oO Breccia,0.276,False,
-1034.47,1036.9,1,oO Breccia,0.273,False,
-1036.9,1162.62,0,oO Breccia,0.276,False,
-1162.62,1164.53,1,oO Breccia,0.273,False,
-1164.53,1167.47,3,oO Breccia,0.272,False,
-1167.47,1174.3,0,oO Breccia,0.276,False,
-1174.3,1178.88,1,oO Breccia,0.273,False,
-1178.88,1451.81,0,oO Breccia,0.276,False,
-1451.81,1452.85,7,oO Breccia,0.265,False,
-1452.85,1489.75,0,oO Breccia,0.276,False,
-1489.75,1491.2,1,oO Breccia,0.273,False,
-1491.2,1505.75,0,oO Breccia,0.276,False,
-1505.75,1507.2,1,oO Breccia,0.273,False,
-1507.2,1527.56,0,oO Breccia,0.276,False,
-1527.56,1529.02,1,oO Breccia,0.273,False,
-1529.02,1538.96,0,oO Breccia,0.276,False,
-1538.96,1539.98,7,oO Breccia,0.265,False,
-1539.98,1566.88,0,oO Breccia,0.276,False,
-1566.88,1567.88,7,oO Breccia,0.265,False,
-1567.88,1983.52,0,oO Breccia,0.276,False,
-1983.52,1986.91,3,oO Breccia,0.272,False,
-1986.91,1988.39,1,oO Breccia,0.273,False,
-1988.39,1991.56,5,oO Breccia,0.272,False,
-1991.56,1993.99,0,oO Breccia,0.276,False,
-1993.99,1997.16,7,oO Breccia,0.265,False,
-1997.16,2002.96,0,oO Breccia,0.276,False,
-2002.96,2006.11,3,oO Breccia,0.272,False,
-2006.11,2014.47,1,oO Breccia,0.273,False,
-2014.47,2015.88,5,oO Breccia,0.272,False,
-2015.88,2060.99,0,oO Breccia,0.276,False,
+top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
+-676.07,-672.68,Unidentified (cluster 3),3,7363,7503
+-672.68,-670.67,Unidentified (cluster 7),7,7503,7586
+-670.67,-667.35,Unidentified (cluster 5),5,7586,7723
+-667.35,-662.35,Unidentified (cluster 0),0,7723,7929
+-662.35,-661.14,Unidentified (cluster 3),3,7929,7979
+-661.14,-646.25,Unidentified (cluster 0),0,7979,8593
+-646.25,-642.72,Unidentified (cluster 5),5,8593,8739
+-642.72,-634.81,Unidentified (cluster 0),0,8739,9065
+-634.81,-631.08,Unidentified (cluster 3),3,9065,9219
+-631.08,-628.56,Unidentified (cluster 5),5,9219,9323
+-628.56,-625.72,Unidentified (cluster 7),7,9323,9440
+-625.72,-622.25,Unidentified (cluster 4),4,9440,9583
+-622.25,-619.44,Unidentified (cluster 7),7,9583,9699
+-619.44,-614.28,Unidentified (cluster 4),4,9699,9912
+-614.28,-611.59,Unidentified (cluster 1),1,9912,10023
+-611.59,-607.95,Unidentified (cluster 5),5,10023,10173
+-607.95,-605.96,Unidentified (cluster 3),3,10173,10255
+-605.96,-602.13,Unidentified (cluster 5),5,10255,10413
+-602.13,-595.88,Unidentified (cluster 0),0,10413,10671
+-595.88,-593.92,Unidentified (cluster 7),7,10671,10752
+-593.92,-587.83,Unidentified (cluster 3),3,10752,11003
+-587.83,-583.35,Unidentified (cluster 1),1,11003,11188
+-583.35,-581.28,Unidentified (cluster 3),3,11188,11273
+-581.28,-578.62,Unidentified (cluster 1),1,11273,11383
+-578.62,-575.95,Unidentified (cluster 5),5,11383,11493
+-575.95,-572.61,Unidentified (cluster 0),0,11493,11631
+-572.61,-570.96,Unidentified (cluster 1),1,11631,11699
+-570.96,-563.3,Unidentified (cluster 0),0,11699,12015
+-563.3,-560.39,Unidentified (cluster 3),3,12015,12135
+-560.39,-558.04,Unidentified (cluster 1),1,12135,12232
+-558.04,-539.42,Unidentified (cluster 0),0,12232,13000
+-539.42,-538.38,Unidentified (cluster 1),1,13000,13043
+-538.38,-403.81,Unidentified (cluster 0),0,13043,18594
+-403.81,-402.76,Unidentified (cluster 6),6,18594,18637
+-402.76,-394.55,Unidentified (cluster 0),0,18637,18976
+-394.55,-391.47,Unidentified (cluster 5),5,18976,19103
+-391.47,-376.82,Unidentified (cluster 0),0,19103,19707
+-376.82,-375.61,Unidentified (cluster 1),1,19707,19757
+-375.61,-370.28,Unidentified (cluster 0),0,19757,19977
+-370.28,-364.56,Unidentified (cluster 1),1,19977,20213
+-364.56,-361.89,Unidentified (cluster 5),5,20213,20323
+-361.89,-357.62,Unidentified (cluster 0),0,20323,20499
+-357.62,-355.95,Unidentified (cluster 1),1,20499,20568
+-355.95,-347.93,Unidentified (cluster 3),3,20568,20899
+-347.93,-340.85,Unidentified (cluster 0),0,20899,21191
+-340.85,-339.47,Unidentified (cluster 1),1,21191,21248
+-339.47,-306.28,Unidentified (cluster 0),0,21248,22617
+-306.28,-292.87,Unidentified (cluster 2),2,22617,23170
+-292.87,-291.83,Unidentified (cluster 9),9,23170,23213
+-291.83,-288.02,Unidentified (cluster 0),0,23213,23370
+-288.02,-285.53,Unidentified (cluster 8),8,23370,23473
+-285.53,-281.6,Unidentified (cluster 2),2,23473,23635
+-281.6,-279.35,Unidentified (cluster 9),9,23635,23728
+-279.35,-270.62,Unidentified (cluster 0),0,23728,24088
+-270.62,-264.1,Unidentified (cluster 1),1,24088,24357
+-264.1,-141.21,Unidentified (cluster 0),0,24357,29426
+-141.21,-139.73,Unidentified (cluster 3),3,29426,29487
+-139.73,-3.1,Unidentified (cluster 0),0,29487,35123
+-3.1,0.1,Unidentified (cluster 3),3,35123,35255
+0.1,100.65,Unidentified (cluster 0),0,35255,39403
+100.65,102.33,Unidentified (cluster 1),1,39403,39472
+102.33,105.58,Unidentified (cluster 5),5,39472,39606
+105.58,114.72,Unidentified (cluster 0),0,39606,39983
+114.72,118.11,Unidentified (cluster 1),1,39983,40123
+118.11,247.66,Unidentified (cluster 0),0,40123,45467
+247.66,249.5,Unidentified (cluster 8),8,45467,45543
+249.5,252.17,Unidentified (cluster 2),2,45543,45653
+252.17,265.79,Unidentified (cluster 0),0,45653,46215
+265.79,267.18,Unidentified (cluster 1),1,46215,46272
+267.18,405.87,Unidentified (cluster 0),0,46272,51993
+405.87,407.78,Unidentified (cluster 1),1,51993,52072
+407.78,409.72,Unidentified (cluster 5),5,52072,52152
+409.72,412.65,Unidentified (cluster 0),0,52152,52273
+412.65,414.84,Unidentified (cluster 1),1,52273,52363
+414.84,417.84,Unidentified (cluster 5),5,52363,52487
+417.84,449.26,Unidentified (cluster 0),0,52487,53783
+449.26,451.2,Unidentified (cluster 1),1,53783,53863
+451.2,475.98,Unidentified (cluster 0),0,53863,54885
+475.98,477.99,Unidentified (cluster 3),3,54885,54968
+477.99,479.32,Unidentified (cluster 1),1,54968,55023
+479.32,631.08,Unidentified (cluster 0),0,55023,61283
+631.08,633.5,Unidentified (cluster 1),1,61283,61383
+633.5,811.52,Unidentified (cluster 0),0,61383,68726
+811.52,814.11,Unidentified (cluster 3),3,68726,68833
+814.11,816.53,Unidentified (cluster 1),1,68833,68933
+816.53,903.56,Unidentified (cluster 0),0,68933,72523
+903.56,918.59,Unidentified (cluster 1),1,72523,73143
+918.59,922.96,Unidentified (cluster 0),0,73143,73323
+922.96,927.32,Unidentified (cluster 1),1,73323,73503
+927.32,928.78,Unidentified (cluster 10),10,73503,73563
+928.78,938.47,Unidentified (cluster 1),1,73563,73963
+938.47,941.87,Unidentified (cluster 6),6,73963,74103
+941.87,945.26,Unidentified (cluster 0),0,74103,74243
+945.26,950.11,Unidentified (cluster 1),1,74243,74443
+950.11,953.5,Unidentified (cluster 0),0,74443,74583
+953.5,955.44,Unidentified (cluster 1),1,74583,74663
+955.44,982.21,Unidentified (cluster 0),0,74663,75767
+982.21,984.95,Unidentified (cluster 1),1,75767,75880
+984.95,985.99,Unidentified (cluster 0),0,75880,75923
+985.99,995.2,Unidentified (cluster 1),1,75923,76303
+995.2,997.62,Unidentified (cluster 0),0,76303,76403
+997.62,1001.99,Unidentified (cluster 1),1,76403,76583
+1001.99,1004.41,Unidentified (cluster 0),0,76583,76683
+1004.41,1006.35,Unidentified (cluster 1),1,76683,76763
+1006.35,1008.99,Unidentified (cluster 5),5,76763,76872
+1008.99,1010.72,Unidentified (cluster 0),0,76872,76943
+1010.72,1013.14,Unidentified (cluster 1),1,76943,77043
+1013.14,1029.65,Unidentified (cluster 0),0,77043,77724
+1029.65,1030.76,Unidentified (cluster 7),7,77724,77770
+1030.76,1034.47,Unidentified (cluster 0),0,77770,77923
+1034.47,1036.9,Unidentified (cluster 1),1,77923,78023
+1036.9,1162.62,Unidentified (cluster 0),0,78023,83209
+1162.62,1164.53,Unidentified (cluster 1),1,83209,83288
+1164.53,1167.47,Unidentified (cluster 3),3,83288,83409
+1167.47,1174.3,Unidentified (cluster 0),0,83409,83691
+1174.3,1178.88,Unidentified (cluster 1),1,83691,83880
+1178.88,1451.81,Unidentified (cluster 0),0,83880,95138
+1451.81,1452.85,Unidentified (cluster 7),7,95138,95181
+1452.85,1489.75,Unidentified (cluster 0),0,95181,96703
+1489.75,1491.2,Unidentified (cluster 1),1,96703,96763
+1491.2,1505.75,Unidentified (cluster 0),0,96763,97363
+1505.75,1507.2,Unidentified (cluster 1),1,97363,97423
+1507.2,1527.56,Unidentified (cluster 0),0,97423,98263
+1527.56,1529.02,Unidentified (cluster 1),1,98263,98323
+1529.02,1538.96,Unidentified (cluster 0),0,98323,98733
+1538.96,1539.98,Unidentified (cluster 7),7,98733,98775
+1539.98,1566.88,Unidentified (cluster 0),0,98775,99885
+1566.88,1567.88,Unidentified (cluster 7),7,99885,99926
+1567.88,1983.52,Unidentified (cluster 0),0,99926,117071
+1983.52,1986.91,Unidentified (cluster 3),3,117071,117211
+1986.91,1988.39,Unidentified (cluster 1),1,117211,117272
+1988.39,1991.56,Unidentified (cluster 5),5,117272,117403
+1991.56,1993.99,Unidentified (cluster 0),0,117403,117503
+1993.99,1997.16,Unidentified (cluster 7),7,117503,117634
+1997.16,2002.96,Unidentified (cluster 0),0,117634,117873
+2002.96,2006.11,Unidentified (cluster 3),3,117873,118003
+2006.11,2014.47,Unidentified (cluster 1),1,118003,118348
+2014.47,2015.88,Unidentified (cluster 5),5,118348,118406
+2015.88,2060.99,Unidentified (cluster 0),0,118406,120267

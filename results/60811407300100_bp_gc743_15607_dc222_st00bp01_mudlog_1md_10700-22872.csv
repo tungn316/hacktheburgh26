@@ -1,1199 +1,330 @@
-top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
-11021.09,11022.59,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-11022.59,11061.09,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11061.09,11073.09,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11073.09,11085.09,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11085.09,11098.09,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11098.09,11102.59,7,Clay Shale,0.021,True,Silty clay-shale|Calcareous clay-shale|Marl
-11102.59,11105.59,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11105.59,11203.08,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11203.08,11215.08,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11215.08,11227.08,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11227.08,11238.58,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11238.58,11250.58,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11250.58,11253.58,9,Clay Shale,0.495,False,Silty clay-shale
-11253.58,11260.08,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11260.08,11261.58,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-11261.58,11275.58,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11275.58,11277.58,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-11277.58,11305.08,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11305.08,11307.58,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-11307.58,11339.57,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11339.57,11351.57,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11351.57,11363.57,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11363.57,11375.07,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11375.07,11387.07,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11387.07,11399.07,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11399.07,11405.07,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11405.07,11406.57,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-11406.57,11425.57,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11425.57,11427.07,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-11427.07,11430.57,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11430.57,11432.07,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-11432.07,11472.07,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11472.07,11474.57,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-11474.57,11506.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11506.56,11518.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11518.56,11530.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11530.56,11542.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11542.06,11554.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11554.06,11566.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11566.06,11577.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11577.56,11589.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11589.56,11601.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11601.56,11613.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11613.06,11625.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11625.06,11634.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11634.06,11635.55,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-11635.55,11646.55,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11646.55,11648.05,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-11648.05,11686.55,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11686.55,11698.55,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11698.55,11710.55,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11710.55,11722.05,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11722.05,11724.55,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-11724.55,11738.55,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11738.55,11740.05,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-11740.05,11754.55,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11754.55,11765.55,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11765.55,11767.55,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-11767.55,11782.05,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11782.05,11794.04,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11794.04,11800.04,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-11800.04,11802.54,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-11802.54,11831.04,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11831.04,11832.54,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-11832.54,11855.04,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11855.04,11856.54,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-11856.54,11890.54,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11890.54,11892.04,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-11892.04,11926.04,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11926.04,11927.54,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-11927.54,11964.53,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-11964.53,11966.03,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-11966.03,12004.53,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12004.53,12016.53,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12016.53,12028.53,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12028.53,12042.53,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12042.53,12054.53,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12054.53,12066.03,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12066.03,12078.03,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12078.03,12090.03,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12090.03,12096.03,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12096.03,12099.03,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-12099.03,12127.52,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-12127.52,12129.02,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-12129.02,12132.02,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-12132.02,12135.02,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-12135.02,12136.52,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-12136.52,12159.52,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12159.52,12183.52,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-12183.52,12185.02,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-12185.02,12223.52,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12223.52,12235.52,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12235.52,12247.52,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12247.52,12250.02,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-12250.02,12268.01,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-12268.01,12270.51,23,Fine Sandstone,0.011,True,Fine Sand|Silty|Medium Sandstone
-12270.51,12278.51,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-12278.51,12280.51,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-12280.51,12282.51,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-12282.51,12297.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12297.01,12309.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12309.01,12322.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12322.01,12334.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12334.01,12346.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12346.01,12357.51,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12357.51,12369.51,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12369.51,12381.51,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12381.51,12393.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12393.01,12405.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12405.01,12417.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12417.0,12428.5,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12428.5,12440.5,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12440.5,12452.5,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12452.5,12464.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12464.0,12476.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12476.0,12495.5,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12495.5,12507.5,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12507.5,12519.5,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12519.5,12531.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12531.0,12543.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12543.0,12555.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12555.0,12566.5,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12566.5,12578.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12578.49,12590.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12590.49,12601.99,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12601.99,12613.99,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12613.99,12625.99,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12625.99,12637.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12637.49,12649.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12649.49,12661.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12661.49,12672.99,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12672.99,12684.99,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12684.99,12696.99,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12696.99,12708.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12708.49,12720.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12720.49,12732.48,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12732.48,12743.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12743.98,12755.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12755.98,12767.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12767.98,12779.48,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12779.48,12791.48,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12791.48,12803.48,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12803.48,12814.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12814.98,12826.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12826.98,12835.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12835.98,12836.98,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-12836.98,12839.48,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-12839.48,12855.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12855.98,12874.98,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-12874.98,12876.48,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-12876.48,12878.98,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-12878.98,12880.48,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-12880.48,12886.47,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12886.47,12887.47,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-12887.47,12890.47,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-12890.47,12894.47,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12894.47,12896.97,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-12896.97,12911.47,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12911.47,12989.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12989.97,12993.47,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-12993.47,12997.47,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-12997.47,12999.97,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-12999.97,13003.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13003.97,13006.47,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13006.47,13033.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13033.97,13036.47,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13036.47,13069.46,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13069.46,13071.96,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13071.96,13103.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13103.96,13115.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13115.96,13127.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13127.96,13139.46,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13139.46,13151.46,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13151.46,13163.46,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13163.46,13174.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13174.96,13186.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13186.96,13198.95,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13198.95,13208.45,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13208.45,13211.95,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13211.95,13250.45,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13250.45,13262.45,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13262.45,13299.95,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13299.95,13311.95,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13311.95,13323.95,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13323.95,13336.45,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13336.45,13338.95,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13338.95,13369.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13369.94,13372.44,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13372.44,13374.44,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13374.44,13392.44,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13392.44,13393.94,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-13393.94,13396.44,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13396.44,13397.94,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13397.94,13401.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13401.94,13404.44,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13404.44,13422.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13422.94,13424.44,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-13424.44,13431.94,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13431.94,13433.44,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-13433.44,13436.44,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13436.44,13439.94,11,Calcareous Ss Siltstone,0.154,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-13439.94,13444.94,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13444.94,13446.44,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13446.44,13462.44,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13462.44,13474.94,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13474.94,13476.44,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13476.44,13490.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13490.94,13502.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13502.94,13531.43,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13531.43,13541.93,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13541.93,13544.93,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13544.93,13546.43,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13546.43,13560.93,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13560.93,13589.93,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13589.93,13601.93,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13601.93,13613.93,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13613.93,13616.93,9,Clay Shale,0.495,False,Silty clay-shale
-13616.93,13618.43,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-13618.43,13625.93,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13625.93,13627.43,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-13627.43,13661.42,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13661.42,13662.92,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-13662.92,13690.42,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13690.42,13691.92,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13691.92,13754.42,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13754.42,13787.42,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13787.42,13788.92,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13788.92,13816.42,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13816.42,13818.91,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13818.91,13830.41,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13830.41,13832.41,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13832.41,13838.91,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13838.91,13840.41,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-13840.41,13868.41,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13868.41,13869.91,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13869.91,13875.91,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13875.91,13877.41,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-13877.41,13900.41,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13900.41,13901.91,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13901.91,13922.91,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13922.91,13925.91,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-13925.91,13936.41,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13936.41,13937.91,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13937.91,13949.91,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13949.91,13964.41,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13964.41,13966.41,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-13966.41,13975.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13975.4,13990.9,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-13990.9,13992.4,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-13992.4,13995.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-13995.4,13997.9,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-13997.9,14001.9,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14001.9,14003.4,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14003.4,14018.9,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14018.9,14021.4,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14021.4,14023.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14023.4,14028.9,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14028.9,14030.4,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14030.4,14043.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14043.4,14048.9,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14048.9,14050.4,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14050.4,14065.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14065.4,14076.4,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14076.4,14079.4,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14079.4,14081.4,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-14081.4,14093.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14093.4,14095.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14095.4,14100.9,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14100.9,14102.4,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14102.4,14106.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14106.4,14109.4,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14109.4,14123.9,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14123.9,14135.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14135.89,14165.39,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14165.39,14168.39,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-14168.39,14174.89,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14174.89,14176.89,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-14176.89,14211.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14211.89,14217.39,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14217.39,14218.89,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14218.89,14221.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14221.89,14224.39,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-14224.39,14228.39,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14228.39,14229.89,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14229.89,14244.39,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14244.39,14256.39,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14256.39,14263.39,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14263.39,14264.89,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14264.89,14270.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14270.89,14272.39,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-14272.39,14278.89,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14278.89,14280.39,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14280.39,14283.39,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14283.39,14290.38,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14290.38,14291.88,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-14291.88,14296.38,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14296.38,14297.88,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14297.88,14306.88,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14306.88,14309.88,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-14309.88,14335.38,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14335.38,14336.88,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14336.88,14351.88,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14351.88,14370.38,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14370.38,14371.88,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-14371.88,14374.88,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14374.88,14376.88,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-14376.88,14378.38,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14378.38,14416.88,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14416.88,14428.88,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14428.88,14440.87,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14440.87,14452.37,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14452.37,14464.37,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14464.37,14476.37,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14476.37,14488.87,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14488.87,14491.37,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14491.37,14501.37,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14501.37,14508.87,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14508.87,14510.37,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-14510.37,14513.37,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14513.37,14516.37,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-14516.37,14518.37,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-14518.37,14522.37,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14522.37,14524.87,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14524.87,14537.87,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14537.87,14540.37,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14540.37,14573.37,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14573.37,14575.87,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14575.87,14607.86,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14607.86,14610.86,17,Clay Shale,0.026,True,Silty clay-shale|Calcareous clay-shale|Marl
-14610.86,14632.36,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14632.36,14634.86,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14634.86,14667.86,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14667.86,14670.36,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14670.36,14702.36,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14702.36,14714.36,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14714.36,14726.36,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14726.36,14737.86,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14737.86,14749.86,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14749.86,14761.85,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14761.85,14773.35,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14773.35,14785.35,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14785.35,14797.35,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14797.35,14808.85,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14808.85,14820.85,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14820.85,14832.85,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14832.85,14844.35,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14844.35,14856.35,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14856.35,14868.35,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14868.35,14879.85,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14879.85,14883.35,9,Clay Shale,0.495,False,Silty clay-shale
-14883.35,14884.35,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-14884.35,14887.85,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14887.85,14915.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14915.34,14917.84,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-14917.84,14949.84,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14949.84,14961.84,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14961.84,14973.84,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14973.84,14985.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14985.34,14997.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-14997.34,15009.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15009.34,15012.34,9,Clay Shale,0.495,False,Silty clay-shale
-15012.34,15014.84,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15014.84,15017.34,8,Clay Shale,0.509,False,Silty clay-shale
-15017.34,15023.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15023.34,15025.84,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15025.84,15028.34,8,Clay Shale,0.509,False,Silty clay-shale
-15028.34,15034.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15034.34,15036.84,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15036.84,15039.34,9,Clay Shale,0.495,False,Silty clay-shale
-15039.34,15059.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15059.34,15061.84,8,Clay Shale,0.509,False,Silty clay-shale
-15061.84,15081.33,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15081.33,15083.83,8,Clay Shale,0.509,False,Silty clay-shale
-15083.83,15103.83,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15103.83,15106.33,8,Clay Shale,0.509,False,Silty clay-shale
-15106.33,15112.33,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15112.33,15114.83,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15114.83,15117.33,8,Clay Shale,0.509,False,Silty clay-shale
-15117.33,15123.83,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15123.83,15127.33,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15127.33,15139.33,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15139.33,15150.83,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15150.83,15162.83,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15162.83,15174.83,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15174.83,15186.33,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15186.33,15198.33,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15198.33,15210.33,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15210.33,15221.82,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15221.82,15233.82,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15233.82,15245.82,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15245.82,15257.32,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15257.32,15269.32,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15269.32,15281.32,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15281.32,15292.82,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15292.82,15304.82,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15304.82,15316.82,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15316.82,15328.32,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15328.32,15340.32,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15340.32,15352.32,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15352.32,15363.82,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15363.82,15375.81,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15375.81,15387.81,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15387.81,15399.31,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15399.31,15411.31,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15411.31,15423.31,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15423.31,15434.81,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15434.81,15446.81,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15446.81,15458.81,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15458.81,15470.31,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15470.31,15482.31,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15482.31,15494.31,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15494.31,15506.81,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15506.81,15509.31,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-15509.31,15541.3,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15541.3,15553.3,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15553.3,15565.3,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15565.3,15576.8,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15576.8,15588.8,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15588.8,15600.8,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15600.8,15612.3,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15612.3,15624.3,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15624.3,15636.3,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15636.3,15648.8,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15648.8,15651.3,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-15651.3,15683.3,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15683.3,15695.29,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15695.29,15707.29,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15707.29,15719.79,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15719.79,15722.29,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-15722.29,15754.29,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15754.29,15766.29,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15766.29,15777.79,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15777.79,15781.29,8,Clay Shale,0.509,False,Silty clay-shale
-15781.29,15813.29,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15813.29,15825.29,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15825.29,15837.29,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15837.29,15848.78,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15848.78,15860.78,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15860.78,15872.78,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15872.78,15884.28,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15884.28,15896.28,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15896.28,15908.28,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15908.28,15919.78,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15919.78,15931.78,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15931.78,15943.78,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15943.78,15955.28,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15955.28,15967.28,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15967.28,15979.28,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15979.28,15990.78,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-15990.78,16002.77,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16002.77,16014.77,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16014.77,16026.27,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16026.27,16038.27,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16038.27,16050.27,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16050.27,16061.77,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16061.77,16073.77,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16073.77,16083.27,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16083.27,16084.77,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-16084.77,16087.77,9,Clay Shale,0.495,False,Silty clay-shale
-16087.77,16090.27,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16090.27,16107.77,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16107.77,16126.27,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16126.27,16127.77,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-16127.77,16161.76,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16161.76,16163.26,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-16163.26,16172.26,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16172.26,16173.76,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16173.76,16188.26,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16188.26,16200.26,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16200.26,16212.26,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16212.26,16223.76,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16223.76,16235.76,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16235.76,16247.76,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16247.76,16260.26,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16260.26,16262.76,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16262.76,16265.76,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-16265.76,16270.76,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16270.76,16272.26,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-16272.26,16306.26,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16306.26,16307.76,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-16307.76,16334.25,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16334.25,16335.25,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-16335.25,16342.25,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16342.25,16343.75,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-16343.75,16374.75,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16374.75,16376.25,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16376.25,16380.75,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16380.75,16387.75,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16387.75,16389.75,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-16389.75,16399.25,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16399.25,16402.25,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-16402.25,16410.75,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16410.75,16412.75,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-16412.75,16416.75,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16416.75,16419.25,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16419.25,16425.75,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16425.75,16427.25,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-16427.25,16446.25,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16446.25,16448.25,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16448.25,16462.75,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16462.75,16474.74,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16474.74,16486.74,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16486.74,16498.24,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16498.24,16510.24,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16510.24,16522.24,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16522.24,16533.74,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16533.74,16537.24,9,Clay Shale,0.495,False,Silty clay-shale
-16537.24,16538.24,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-16538.24,16541.74,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16541.74,16547.74,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16547.74,16549.24,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16549.24,16620.74,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16620.74,16625.73,5,Medium Sand,0.084,True,Coarse Sandstone|Medium Sandstone|Fine Sandstone
-16625.73,16627.73,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-16627.73,16639.73,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16639.73,16640.73,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-16640.73,16648.73,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16648.73,16650.23,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16650.23,16688.73,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16688.73,16700.73,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16700.73,16712.73,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16712.73,16724.23,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16724.23,16736.23,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16736.23,16748.23,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16748.23,16759.73,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16759.73,16768.73,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16768.73,16773.73,6,Medium Sand,0.194,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
-16773.73,16775.73,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-16775.73,16864.72,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16864.72,16872.22,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16872.22,16873.72,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-16873.72,16877.72,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-16877.72,16880.22,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-16880.22,16884.72,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-16884.72,16886.72,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-16886.72,16945.71,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-16945.71,16948.71,18,Clay Shale,0.318,False,Silty clay-shale
-16948.71,17020.71,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17020.71,17023.21,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17023.21,17056.21,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17056.21,17058.71,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17058.71,17091.7,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17091.7,17094.2,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17094.2,17126.2,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17126.2,17138.2,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17138.2,17150.2,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17150.2,17162.7,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17162.7,17165.2,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17165.2,17198.2,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17198.2,17200.7,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17200.7,17232.7,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17232.7,17244.7,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17244.7,17247.69,9,Clay Shale,0.495,False,Silty clay-shale
-17247.69,17250.69,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-17250.69,17254.69,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-17254.69,17256.19,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17256.19,17271.69,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17271.69,17274.19,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17274.19,17307.19,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17307.19,17309.69,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17309.69,17330.19,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17330.19,17332.69,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-17332.69,17342.19,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-17342.19,17344.69,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-17344.69,17346.19,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17346.19,17360.69,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17360.69,17372.69,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17372.69,17384.69,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17384.69,17396.19,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17396.19,17408.18,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17408.18,17420.18,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17420.18,17432.68,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17432.68,17435.18,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17435.18,17467.18,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17467.18,17479.18,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17479.18,17491.18,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17491.18,17520.68,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17520.68,17523.18,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17523.18,17534.68,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17534.68,17537.68,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-17537.68,17566.17,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-17566.17,17567.67,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-17567.67,17579.17,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-17579.17,17580.67,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17580.67,17584.67,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17584.67,17587.17,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17587.17,17620.17,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17620.17,17622.67,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17622.67,17654.67,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17654.67,17666.67,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17666.67,17678.67,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17678.67,17692.67,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17692.67,17704.17,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17704.17,17706.67,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17706.67,17707.67,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-17707.67,17712.17,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17712.17,17718.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17718.66,17719.66,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-17719.66,17727.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17727.66,17729.66,20,Fine Sandstone,0.006,True,Fine Sand|Silty|Medium Sandstone
-17729.66,17731.66,28,Marl,0.179,False,Clay Shale
-17731.66,17739.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17739.66,17742.16,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17742.16,17743.16,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-17743.16,17747.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17747.66,17754.16,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17754.16,17757.16,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17757.16,17760.16,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-17760.16,17762.66,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-17762.66,17763.66,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-17763.66,17771.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17771.66,17774.66,20,Fine Sandstone,0.006,True,Fine Sand|Silty|Medium Sandstone
-17774.66,17776.16,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17776.16,17779.16,9,Clay Shale,0.495,False,Silty clay-shale
-17779.16,17782.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17782.66,17783.66,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-17783.66,17791.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17791.66,17793.66,20,Fine Sandstone,0.006,True,Fine Sand|Silty|Medium Sandstone
-17793.66,17795.66,28,Marl,0.179,False,Clay Shale
-17795.66,17803.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17803.66,17806.16,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-17806.16,17807.16,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-17807.16,17812.66,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17812.66,17815.16,24,Clay Shale,0.025,True,Silty clay-shale|Calcareous clay-shale|Marl
-17815.16,17819.16,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17819.16,17821.66,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17821.66,17847.66,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17847.66,17859.16,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17859.16,17861.16,20,Fine Sandstone,0.006,True,Fine Sand|Silty|Medium Sandstone
-17861.16,17863.16,28,Marl,0.179,False,Clay Shale
-17863.16,17871.15,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17871.15,17873.65,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-17873.65,17874.65,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-17874.65,17879.15,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17879.15,17885.65,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17885.65,17886.65,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-17886.65,17894.65,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17894.65,17896.65,20,Fine Sandstone,0.006,True,Fine Sand|Silty|Medium Sandstone
-17896.65,17898.65,28,Marl,0.179,False,Clay Shale
-17898.65,17902.65,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-17902.65,17904.15,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17904.15,17908.15,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17908.15,17910.65,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17910.65,17969.15,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17969.15,17970.15,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-17970.15,17973.65,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17973.65,17989.15,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17989.15,17991.65,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-17991.65,17998.15,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-17998.15,18000.65,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18000.65,18016.15,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18016.15,18018.65,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18018.65,18030.14,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18030.14,18031.14,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-18031.14,18034.14,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18034.14,18064.64,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18064.64,18076.64,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18076.64,18088.64,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18088.64,18116.14,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18116.14,18119.14,17,Clay Shale,0.026,True,Silty clay-shale|Calcareous clay-shale|Marl
-18119.14,18176.64,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18176.64,18184.13,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18184.13,18186.63,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18186.63,18268.63,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18268.63,18280.63,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18280.63,18292.63,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18292.63,18305.63,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18305.63,18308.13,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18308.13,18341.12,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18341.12,18343.62,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18343.62,18362.12,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18362.12,18364.62,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18364.62,18368.62,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18368.62,18371.12,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18371.12,18403.12,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18403.12,18417.62,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18417.62,18429.62,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18429.62,18442.12,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18442.12,18444.62,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18444.62,18480.62,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18480.62,18483.12,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18483.12,18489.62,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18489.62,18492.62,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18492.62,18496.61,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18496.61,18499.11,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18499.11,18532.11,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18532.11,18534.61,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18534.61,18567.61,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18567.61,18572.11,8,Clay Shale,0.509,False,Silty clay-shale
-18572.11,18586.61,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18586.61,18598.61,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18598.61,18610.61,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18610.61,18619.61,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18619.61,18625.61,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18625.61,18627.61,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-18627.61,18628.61,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-18628.61,18631.61,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18631.61,18635.61,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18635.61,18639.61,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18639.61,18641.61,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18641.61,18648.11,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18648.11,18649.6,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-18649.6,18652.6,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18652.6,18657.1,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18657.1,18658.6,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18658.6,18662.6,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18662.6,18665.1,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18665.1,18676.6,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18676.6,18679.1,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-18679.1,18685.6,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18685.6,18687.1,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18687.1,18714.6,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18714.6,18717.1,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18717.1,18719.6,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18719.6,18735.1,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18735.1,18737.6,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18737.6,18763.1,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18763.1,18765.1,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-18765.1,18774.1,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18774.1,18776.1,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-18776.1,18790.6,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18790.6,18802.6,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18802.6,18811.59,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18811.59,18817.59,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18817.59,18819.09,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18819.09,18846.09,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18846.09,18857.59,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18857.59,18859.59,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-18859.59,18862.59,9,Clay Shale,0.495,False,Silty clay-shale
-18862.59,18865.59,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-18865.59,18869.09,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18869.09,18870.59,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18870.59,18874.59,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18874.59,18877.09,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18877.09,18910.09,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18910.09,18912.59,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18912.59,18915.09,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-18915.09,18922.09,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18922.09,18924.59,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18924.59,18928.09,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-18928.09,18962.08,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18962.08,18963.58,30,Clay Shale,0.026,True,Silty clay-shale|Calcareous clay-shale|Marl
-18963.58,18973.08,3,Silty clay-shale,0.111,False,Marl|Clay Shale|Calcareous clay-shale
-18973.08,18993.58,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-18993.58,18995.58,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-18995.58,18999.58,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-18999.58,19001.08,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19001.08,19028.58,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19028.58,19031.08,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19031.08,19064.08,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19064.08,19066.58,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19066.58,19071.08,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19071.08,19080.08,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-19080.08,19081.58,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19081.58,19144.57,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19144.57,19147.07,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19147.07,19149.07,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19149.07,19153.07,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-19153.07,19154.57,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19154.57,19170.07,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19170.07,19172.57,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19172.57,19204.57,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19204.57,19208.07,9,Clay Shale,0.495,False,Silty clay-shale
-19208.07,19209.07,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-19209.07,19211.57,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19211.57,19215.57,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19215.57,19218.07,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19218.07,19245.57,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19245.57,19256.07,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-19256.07,19257.57,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19257.57,19267.57,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19267.57,19271.07,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19271.07,19275.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19275.06,19277.56,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19277.56,19281.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19281.56,19285.06,5,Medium Sand,0.084,True,Coarse Sandstone|Medium Sandstone|Fine Sandstone
-19285.06,19287.56,11,Calcareous Ss Siltstone,0.154,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-19287.56,19290.06,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-19290.06,19293.06,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19293.06,19295.06,24,Clay Shale,0.025,True,Silty clay-shale|Calcareous clay-shale|Marl
-19295.06,19310.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19310.06,19313.06,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19313.06,19314.06,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-19314.06,19319.06,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19319.06,19322.06,21,Marl,0.008,True,Clay Shale|Silty clay-shale|Calcareous clay-shale
-19322.06,19326.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19326.06,19329.56,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19329.56,19347.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19347.56,19349.56,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19349.56,19361.06,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19361.06,19372.06,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-19372.06,19373.56,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19373.56,19389.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19389.06,19394.06,5,Medium Sand,0.084,True,Coarse Sandstone|Medium Sandstone|Fine Sandstone
-19394.06,19395.56,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19395.56,19412.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19412.06,19414.06,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19414.06,19423.56,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19423.56,19434.05,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-19434.05,19435.55,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19435.55,19451.05,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19451.05,19453.55,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19453.55,19467.55,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19467.55,19481.05,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19481.05,19486.55,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19486.55,19491.55,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19491.55,19494.55,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19494.55,19496.55,24,Clay Shale,0.025,True,Silty clay-shale|Calcareous clay-shale|Marl
-19496.55,19510.55,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19510.55,19513.05,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19513.05,19524.55,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19524.55,19528.05,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19528.05,19531.05,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19531.05,19532.55,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19532.55,19535.55,9,Clay Shale,0.495,False,Silty clay-shale
-19535.55,19538.55,12,Silty clay-shale,0.027,True,Clay Shale|Calcareous clay-shale|Marl
-19538.55,19540.55,28,Marl,0.179,False,Clay Shale
-19540.55,19548.55,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19548.55,19551.05,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-19551.05,19552.05,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-19552.05,19556.55,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19556.55,19558.55,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-19558.55,19561.05,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19561.05,19572.55,-1,Blank (no pattern),0.5,True,
-19572.55,19583.55,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-19583.55,19586.54,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19586.54,19589.54,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19589.54,19591.04,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19591.04,19627.54,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19627.54,19631.04,12,Silty clay-shale,0.027,True,Clay Shale|Calcareous clay-shale|Marl
-19631.04,19632.04,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-19632.04,19636.54,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19636.54,19637.54,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-19637.54,19640.54,21,Marl,0.008,True,Clay Shale|Silty clay-shale|Calcareous clay-shale
-19640.54,19656.04,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19656.04,19658.54,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19658.54,19661.54,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-19661.54,19664.54,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19664.54,19666.04,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19666.04,19683.54,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19683.54,19686.04,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-19686.04,19688.54,25,Marl,0.017,True,Clay Shale|Silty clay-shale|Calcareous clay-shale
-19688.54,19702.54,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-19702.54,19704.54,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-19704.54,19720.04,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19720.04,19722.54,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19722.54,19755.53,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19755.53,19758.03,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19758.03,19764.53,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19764.53,19768.03,12,Silty clay-shale,0.027,True,Clay Shale|Calcareous clay-shale|Marl
-19768.03,19769.03,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-19769.03,19778.53,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19778.53,19780.03,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19780.03,19795.53,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19795.53,19800.03,8,Clay Shale,0.509,False,Silty clay-shale
-19800.03,19806.03,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19806.03,19808.03,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-19808.03,19817.53,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-19817.53,19820.03,4,Calcareous Ss Siltstone,0.427,False,Medium Sand|Coarse Sandstone|Medium Sandstone
-19820.03,19822.53,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-19822.53,19823.53,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-19823.53,19831.03,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19831.03,19832.53,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19832.53,19860.03,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19860.03,19862.53,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19862.53,19897.02,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19897.02,19904.52,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19904.52,19906.02,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19906.02,19920.52,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19920.52,19932.52,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19932.52,19936.02,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19936.02,19939.02,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-19939.02,19940.52,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19940.52,19956.02,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19956.02,19958.52,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19958.52,19991.52,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-19991.52,19994.02,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-19994.02,20004.02,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20004.02,20017.02,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20017.02,20018.52,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20018.52,20029.02,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20029.02,20031.52,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20031.52,20082.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20082.01,20085.01,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-20085.01,20096.01,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20096.01,20097.51,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20097.51,20101.51,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20101.51,20104.01,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20104.01,20124.51,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20124.51,20127.51,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-20127.51,20128.51,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-20128.51,20133.01,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20133.01,20139.51,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20139.51,20142.01,24,Clay Shale,0.025,True,Silty clay-shale|Calcareous clay-shale|Marl
-20142.01,20146.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20146.01,20148.51,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20148.51,20155.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20155.01,20158.51,12,Silty clay-shale,0.027,True,Clay Shale|Calcareous clay-shale|Marl
-20158.51,20159.51,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-20159.51,20168.51,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20168.51,20170.01,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20170.01,20174.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20174.01,20176.51,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20176.51,20185.51,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20185.51,20187.01,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-20187.01,20190.01,9,Clay Shale,0.495,False,Silty clay-shale
-20190.01,20192.51,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20192.51,20198.01,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20198.01,20201.51,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20201.51,20206.51,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20206.51,20208.01,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20208.01,20219.5,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20219.5,20222.0,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-20222.0,20225.0,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20225.0,20228.5,13,Calcareous clay-shale,0.01,True,Silty clay-shale|Marl|Clay Shale
-20228.5,20229.5,33,Marl,0.107,False,Clay Shale|Silty clay-shale|Calcareous clay-shale
-20229.5,20234.0,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20234.0,20237.0,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20237.0,20238.5,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20238.5,20266.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20266.0,20268.5,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20268.5,20289.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20289.0,20291.5,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-20291.5,20297.0,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20297.0,20298.5,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20298.5,20351.0,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20351.0,20353.0,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-20353.0,20357.0,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20357.0,20358.5,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20358.5,20364.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20364.49,20366.99,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20366.99,20374.49,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20374.49,20375.99,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20375.99,20387.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20387.49,20392.49,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-20392.49,20393.99,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20393.99,20397.99,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20397.99,20400.49,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20400.49,20433.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20433.49,20435.99,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20435.99,20441.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20441.49,20447.99,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20447.99,20449.49,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20449.49,20452.49,9,Clay Shale,0.495,False,Silty clay-shale
-20452.49,20454.99,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-20454.99,20458.49,14,Medium Sandstone,0.011,True,Fine Sandstone|Fine Sand|Medium Sand
-20458.49,20459.99,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20459.99,20487.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20487.49,20489.99,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20489.99,20503.49,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20503.49,20505.99,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20505.99,20508.99,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-20508.99,20511.49,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20511.49,20513.49,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-20513.49,20516.49,9,Clay Shale,0.495,False,Silty clay-shale
-20516.49,20519.98,4,Calcareous Ss Siltstone,0.427,False,Medium Sand|Coarse Sandstone|Medium Sandstone
-20519.98,20521.48,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20521.48,20531.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20531.98,20538.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20538.98,20541.48,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-20541.48,20545.48,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20545.48,20546.98,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20546.98,20549.98,9,Clay Shale,0.495,False,Silty clay-shale
-20549.98,20555.98,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-20555.98,20557.48,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20557.48,20561.48,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20561.48,20563.98,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20563.98,20584.48,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20584.48,20593.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20593.98,20596.98,9,Clay Shale,0.495,False,Silty clay-shale
-20596.98,20599.48,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20599.48,20637.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20637.98,20640.48,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20640.48,20649.98,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20649.98,20652.48,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20652.48,20685.47,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20685.47,20687.97,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20687.97,20720.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20720.97,20723.47,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20723.47,20737.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20737.97,20738.97,32,Calcareous clay-shale,0.126,False,Marl|Silty clay-shale
-20738.97,20742.47,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20742.47,20756.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20756.97,20768.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20768.97,20780.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20780.97,20793.47,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20793.47,20795.97,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20795.97,20827.97,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20827.97,20839.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20839.96,20851.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20851.96,20863.46,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20863.46,20875.46,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20875.46,20887.46,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20887.46,20908.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20908.96,20911.46,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20911.46,20944.46,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20944.46,20946.96,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-20946.96,20978.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20978.96,20982.46,9,Clay Shale,0.495,False,Silty clay-shale
-20982.46,20984.96,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-20984.96,21012.45,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21012.45,21014.95,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21014.95,21113.45,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21113.45,21115.95,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21115.95,21147.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21147.94,21159.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21159.94,21171.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21171.94,21183.44,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21183.44,21195.44,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21195.44,21207.44,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21207.44,21219.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21219.94,21224.44,8,Clay Shale,0.509,False,Silty clay-shale
-21224.44,21240.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21240.94,21249.44,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21249.44,21250.94,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21250.94,21262.94,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21262.94,21293.44,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21293.44,21296.94,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-21296.94,21299.43,25,Marl,0.017,True,Clay Shale|Silty clay-shale|Calcareous clay-shale
-21299.43,21300.93,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21300.93,21323.43,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21323.43,21329.93,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21329.93,21331.43,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-21331.43,21334.43,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21334.43,21336.93,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21336.93,21338.43,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21338.43,21342.43,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21342.43,21344.93,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21344.93,21401.43,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21401.43,21413.43,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21413.43,21422.43,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21422.43,21428.43,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21428.43,21430.43,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-21430.43,21444.93,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21444.93,21456.92,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21456.92,21468.92,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21468.92,21480.42,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21480.42,21517.92,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21517.92,21521.92,9,Clay Shale,0.495,False,Silty clay-shale
-21521.92,21525.42,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21525.42,21530.92,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21530.92,21532.42,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21532.42,21570.92,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21570.92,21582.92,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21582.92,21594.92,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21594.92,21596.42,31,Calcareous clay-shale,0.083,False,Marl|Silty clay-shale
-21596.42,21599.92,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21599.92,21601.42,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21601.42,21615.91,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21615.91,21624.91,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21624.91,21627.91,8,Clay Shale,0.509,False,Silty clay-shale
-21627.91,21630.91,9,Clay Shale,0.495,False,Silty clay-shale
-21630.91,21632.41,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-21632.41,21638.41,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21638.41,21639.91,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21639.91,21717.41,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21717.41,21746.41,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21746.41,21758.41,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21758.41,21770.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21770.4,21781.9,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21781.9,21793.9,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21793.9,21805.9,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21805.9,21808.4,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-21808.4,21811.4,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-21811.4,21813.4,24,Clay Shale,0.025,True,Silty clay-shale|Calcareous clay-shale|Marl
-21813.4,21820.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21820.4,21822.9,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21822.9,21837.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21837.4,21851.4,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21851.4,21856.9,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-21856.9,21858.9,24,Clay Shale,0.025,True,Silty clay-shale|Calcareous clay-shale|Marl
-21858.9,21876.9,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21876.9,21880.4,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-21880.4,21883.4,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-21883.4,21885.9,24,Clay Shale,0.025,True,Silty clay-shale|Calcareous clay-shale|Marl
-21885.9,21930.39,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21930.39,21932.89,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-21932.89,21938.39,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21938.39,21939.89,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21939.89,21942.39,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-21942.39,21948.89,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21948.89,21950.89,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-21950.89,21961.89,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21961.89,21963.89,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-21963.89,21973.39,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21973.39,21977.89,9,Clay Shale,0.495,False,Silty clay-shale
-21977.89,21981.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21981.89,21984.39,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21984.39,21985.89,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-21985.89,21991.89,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-21991.89,21993.39,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21993.39,21997.39,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-21997.39,21999.89,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-21999.89,22036.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22036.89,22048.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22048.89,22055.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22055.89,22059.39,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22059.39,22065.89,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22065.89,22067.39,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-22067.39,22069.39,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22069.39,22076.39,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22076.39,22079.88,8,Clay Shale,0.509,False,Silty clay-shale
-22079.88,22100.88,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22100.88,22103.38,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-22103.38,22106.38,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-22106.38,22107.88,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22107.88,22110.88,9,Clay Shale,0.495,False,Silty clay-shale
-22110.88,22117.38,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22117.38,22118.88,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22118.88,22121.88,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22121.88,22124.88,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22124.88,22126.88,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-22126.88,22139.88,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22139.88,22159.38,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22159.38,22160.88,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22160.88,22176.38,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22176.38,22189.38,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22189.38,22190.88,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22190.88,22193.88,9,Clay Shale,0.495,False,Silty clay-shale
-22193.88,22196.88,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-22196.88,22202.88,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22202.88,22204.38,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22204.38,22220.38,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22220.38,22250.87,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22250.87,22254.37,13,Calcareous clay-shale,0.01,True,Silty clay-shale|Marl|Clay Shale
-22254.37,22257.87,15,Clay Shale,0.014,True,Marl|Silty clay-shale|Calcareous clay-shale
-22257.87,22259.87,28,Marl,0.179,False,Clay Shale
-22259.87,22264.87,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-22264.87,22272.37,4,Calcareous Ss Siltstone,0.427,False,Medium Sand|Coarse Sandstone|Medium Sandstone
-22272.37,22277.37,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22277.37,22278.87,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22278.87,22280.37,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22280.37,22295.37,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22295.37,22301.87,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22301.87,22304.87,16,Calcareous clay-shale,0.053,False,Silty clay-shale|Marl|Clay Shale
-22304.87,22305.87,34,Silty,0.031,True,Fine Sand|Fine Sandstone|Medium Sandstone
-22305.87,22310.37,4,Calcareous Ss Siltstone,0.427,False,Medium Sand|Coarse Sandstone|Medium Sandstone
-22310.37,22347.37,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22347.37,22348.87,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22348.87,22365.37,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22365.37,22373.87,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-22373.87,22384.37,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22384.37,22385.87,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22385.87,22394.86,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22394.86,22401.36,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22401.36,22403.86,4,Calcareous Ss Siltstone,0.427,False,Medium Sand|Coarse Sandstone|Medium Sandstone
-22403.86,22406.36,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-22406.36,22409.36,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-22409.36,22410.86,4,Calcareous Ss Siltstone,0.427,False,Medium Sand|Coarse Sandstone|Medium Sandstone
-22410.86,22413.86,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22413.86,22416.36,19,Silty clay-shale,0.014,True,Clay Shale|Calcareous clay-shale|Marl
-22416.36,22419.86,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-22419.86,22440.86,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22440.86,22442.36,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22442.36,22445.36,9,Clay Shale,0.495,False,Silty clay-shale
-22445.36,22447.86,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22447.86,22464.36,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22464.36,22465.86,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22465.86,22480.36,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22480.36,22484.86,4,Calcareous Ss Siltstone,0.427,False,Medium Sand|Coarse Sandstone|Medium Sandstone
-22484.86,22488.86,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22488.86,22490.36,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22490.36,22499.36,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22499.36,22502.86,2,Marl,0.023,True,Calcareous clay-shale|Silty clay-shale|Clay Shale
-22502.86,22505.36,25,Marl,0.017,True,Clay Shale|Silty clay-shale|Calcareous clay-shale
-22505.36,22511.86,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22511.86,22513.36,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22513.36,22516.36,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22516.36,22521.36,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22521.36,22523.36,27,Clay Shale,0.022,True,Silty clay-shale|Calcareous clay-shale|Marl
-22523.36,22538.86,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22538.86,22541.36,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22541.36,22571.35,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22571.35,22572.85,29,Clay Shale,0.082,True,Silty clay-shale|Marl|Calcareous clay-shale
-22572.85,22574.85,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22574.85,22586.85,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22586.85,22592.85,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22592.85,22595.35,22,Calcareous Ss Siltstone,0.083,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22595.35,22600.35,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22600.35,22601.85,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22601.85,22604.85,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22604.85,22712.84,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22712.84,22714.34,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22714.34,22763.34,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22763.34,22764.84,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22764.84,22791.34,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22791.34,22793.84,26,Calcareous Ss Siltstone,0.095,False,Coarse Sandstone|Medium Sand|Medium Sandstone
-22793.84,22794.84,35,Silty,0.019,True,Fine Sand|Fine Sandstone|Medium Sandstone
-22794.84,22797.84,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22797.84,22799.34,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22799.34,22808.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22808.34,22813.84,0,Medium Sandstone,0.055,True,Medium Sand|Coarse Sandstone|Fine Sandstone
-22813.84,22815.34,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22815.34,22819.34,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22819.34,22821.84,10,Clay Shale,0.031,True,Silty clay-shale|Calcareous clay-shale
-22821.84,22853.84,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22853.84,22865.83,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
-22865.83,22872.83,1,Silty clay-shale,0.467,False,Clay Shale|Calcareous clay-shale
+top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
+11022.24,11100.23,Silty clay-shale,0,2182,2338
+11100.23,11102.73,Blank (no pattern),26,2338,2343
+11102.73,11252.22,Silty clay-shale,0,2343,2642
+11252.22,11277.22,Dolomitic Sandstone,1,2642,2692
+11277.22,11406.21,Silty clay-shale,0,2692,2950
+11406.21,11431.71,Dolomitic Sandstone,1,2950,3001
+11431.71,11635.19,Silty clay-shale,0,3001,3408
+11635.19,11647.69,Dolomitic Sandstone,1,3408,3433
+11647.69,11722.19,Silty clay-shale,0,3433,3582
+11722.19,11739.69,Dolomitic Sandstone,1,3582,3617
+11739.69,11754.68,Silty clay-shale,0,3617,3647
+11754.68,11767.18,Dolomitic Sandstone,1,3647,3672
+11767.18,11800.18,Silty clay-shale,0,3672,3738
+11800.18,11965.67,Dolomitic Sandstone,1,3738,4069
+11965.67,12096.16,Silty clay-shale,0,4069,4330
+12096.16,12136.16,Dolomitic Sandstone,1,4330,4410
+12136.16,12158.66,Silty clay-shale,0,4410,4455
+12158.66,12184.65,Dolomitic Sandstone,1,4455,4507
+12184.65,12247.65,Silty clay-shale,0,4507,4633
+12247.65,12267.15,Dolomitic Sandstone,1,4633,4672
+12267.15,12270.65,Medium Sandstone,16,4672,4679
+12270.65,12282.15,Dolomitic Sandstone,1,4679,4702
+12282.15,12315.14,Silty clay-shale,0,4702,4768
+12315.14,12319.14,Clay Shale,8,4768,4776
+12319.14,12855.6,Silty clay-shale,0,4776,5849
+12855.6,12880.1,Dolomitic Sandstone,1,5849,5898
+12880.1,12989.09,Silty clay-shale,0,5898,6116
+12989.09,12993.59,Clay Shale,8,6116,6125
+12993.59,13207.58,Silty clay-shale,0,6125,6553
+13207.58,13212.08,Clay Shale,8,6553,6562
+13212.08,13350.57,Silty clay-shale,0,6562,6839
+13350.57,13354.57,Clay Shale,8,6839,6847
+13354.57,13373.57,Silty clay-shale,0,6847,6885
+13373.57,13397.57,Dolomitic Sandstone,1,6885,6933
+13397.57,13424.06,Silty clay-shale,0,6933,6986
+13424.06,13436.56,Dolomitic Sandstone,1,6986,7011
+13436.56,13440.06,Coarse Sandstone,5,7011,7018
+13440.06,13446.06,Dolomitic Sandstone,1,7018,7030
+13446.06,13462.56,Silty clay-shale,0,7030,7063
+13462.56,13476.06,Dolomitic Sandstone,1,7063,7090
+13476.06,13509.06,Silty clay-shale,0,7090,7156
+13509.06,13513.56,Clay Shale,8,7156,7165
+13513.56,13531.56,Silty clay-shale,0,7165,7201
+13531.56,13546.05,Dolomitic Sandstone,1,7201,7230
+13546.05,13618.05,Silty clay-shale,0,7230,7374
+13618.05,13691.54,Dolomitic Sandstone,1,7374,7521
+13691.54,13753.04,Silty clay-shale,0,7521,7644
+13753.04,13788.54,Dolomitic Sandstone,1,7644,7715
+13788.54,13831.53,Silty clay-shale,0,7715,7801
+13831.53,13869.53,Dolomitic Sandstone,1,7801,7877
+13869.53,13877.03,Silty clay-shale,0,7877,7892
+13877.03,13901.53,Dolomitic Sandstone,1,7892,7941
+13901.53,13923.03,Silty clay-shale,0,7941,7984
+13923.03,13937.53,Dolomitic Sandstone,1,7984,8013
+13937.53,13950.03,Silty clay-shale,0,8013,8038
+13950.03,13966.02,Dolomitic Sandstone,1,8038,8070
+13966.02,13974.02,Silty clay-shale,0,8070,8086
+13974.02,13992.02,Dolomitic Sandstone,1,8086,8122
+13992.02,13995.52,Silty clay-shale,0,8122,8129
+13995.52,14003.02,Dolomitic Sandstone,1,8129,8144
+14003.02,14022.52,Silty clay-shale,0,8144,8183
+14022.52,14030.02,Dolomitic Sandstone,1,8183,8198
+14030.02,14042.02,Silty clay-shale,0,8198,8222
+14042.02,14050.02,Dolomitic Sandstone,1,8222,8238
+14050.02,14065.52,Silty clay-shale,0,8238,8269
+14065.52,14081.02,Dolomitic Sandstone,1,8269,8300
+14081.02,14094.51,Silty clay-shale,0,8300,8327
+14094.51,14102.01,Dolomitic Sandstone,1,8327,8342
+14102.01,14105.51,Silty clay-shale,0,8342,8349
+14105.51,14109.51,Clay Shale,8,8349,8357
+14109.51,14165.51,Silty clay-shale,0,8357,8469
+14165.51,14176.51,Dolomitic Sandstone,1,8469,8491
+14176.51,14211.01,Silty clay-shale,0,8491,8560
+14211.01,14218.51,Dolomitic Sandstone,1,8560,8575
+14218.51,14222.01,Silty clay-shale,0,8575,8582
+14222.01,14229.51,Dolomitic Sandstone,1,8582,8597
+14229.51,14255.0,Silty clay-shale,0,8597,8648
+14255.0,14264.5,Dolomitic Sandstone,1,8648,8667
+14264.5,14272.0,Silty clay-shale,0,8667,8682
+14272.0,14280.0,Dolomitic Sandstone,1,8682,8698
+14280.0,14283.5,Silty clay-shale,0,8698,8705
+14283.5,14297.5,Dolomitic Sandstone,1,8705,8733
+14297.5,14306.99,Silty clay-shale,0,8733,8752
+14306.99,14336.45,Dolomitic Sandstone,1,8752,8811
+14336.45,14351.93,Silty clay-shale,0,8811,8842
+14351.93,14377.89,Dolomitic Sandstone,1,8842,8894
+14377.89,14500.71,Silty clay-shale,0,8894,9140
+14500.71,14517.69,Dolomitic Sandstone,1,9140,9174
+14517.69,14604.56,Silty clay-shale,0,9174,9348
+14604.56,14610.56,Clay Shale,6,9348,9360
+14610.56,15119.73,Silty clay-shale,0,9360,10379
+15119.73,15123.73,Clay Shale,8,10379,10387
+15123.73,16081.04,Silty clay-shale,0,10387,12298
+16081.04,16085.05,Clay Shale,8,12298,12306
+16085.05,16109.09,Silty clay-shale,0,12306,12354
+16109.09,16174.72,Dolomitic Sandstone,1,12354,12485
+16174.72,16264.39,Silty clay-shale,0,12485,12664
+16264.39,16377.6,Dolomitic Sandstone,1,12664,12890
+16377.6,16382.11,Silty clay-shale,0,12890,12899
+16382.11,16391.13,Dolomitic Sandstone,1,12899,12917
+16391.13,16401.15,Silty clay-shale,0,12917,12937
+16401.15,16414.17,Dolomitic Sandstone,1,12937,12963
+16414.17,16421.18,Silty clay-shale,0,12963,12977
+16421.18,16448.24,Dolomitic Sandstone,1,12977,13031
+16448.24,16539.09,Silty clay-shale,0,13031,13213
+16539.09,16543.57,Clay Shale,8,13213,13222
+16543.57,16550.52,Dolomitic Sandstone,1,13222,13236
+16550.52,16621.09,Silty clay-shale,0,13236,13378
+16621.09,16622.09,Marl,24,13378,13380
+16622.09,16628.55,Dolomitic Sandstone,1,13380,13393
+16628.55,16641.97,Silty clay-shale,0,13393,13420
+16641.97,16650.91,Dolomitic Sandstone,1,13420,13438
+16650.91,16769.19,Silty clay-shale,0,13438,13676
+16769.19,16775.65,Dolomitic Sandstone,1,13676,13689
+16775.65,16877.93,Silty clay-shale,0,13689,13894
+16877.93,16880.42,Calcareous,20,13894,13899
+16880.42,16886.42,Dolomitic Sandstone,1,13899,13911
+16886.42,16945.86,Silty clay-shale,0,13911,14030
+16945.86,16948.86,Clay Shale,18,14030,14036
+16948.86,17247.57,Silty clay-shale,0,14036,14634
+17247.57,17255.57,Dolomitic Sandstone,1,14634,14650
+17255.57,17330.0,Silty clay-shale,0,14650,14799
+17330.0,17345.48,Dolomitic Sandstone,1,14799,14830
+17345.48,17534.3,Silty clay-shale,0,14830,15208
+17534.3,17579.76,Dolomitic Sandstone,1,15208,15299
+17579.76,17689.65,Silty clay-shale,0,15299,15519
+17689.65,17694.65,Calcareous clay-shale,10,15519,15529
+17694.65,17774.07,Marl,2,15529,15688
+17774.07,17778.57,Silty clay-shale,0,15688,15697
+17778.57,17812.04,Marl,2,15697,15764
+17812.04,17844.51,Silty clay-shale,0,15764,15829
+17844.51,17849.5,Calcareous clay-shale,10,15829,15839
+17849.5,17899.95,Marl,2,15839,15940
+17899.95,17903.45,Silt,17,15940,15947
+17903.45,17968.39,Silty clay-shale,0,15947,16077
+17968.39,17972.88,Clay Shale,8,16077,16086
+17972.88,18087.77,Silty clay-shale,0,16086,16316
+18087.77,18091.77,Clay Shale,8,16316,16324
+18091.77,18112.75,Silty clay-shale,0,16324,16366
+18112.75,18118.24,Clay Shale,8,16366,16377
+18118.24,18617.43,Silty clay-shale,0,16377,17375
+18617.43,18624.93,Dolomitic Sandstone,1,17375,17390
+18624.93,18626.93,Clay Shale,22,17390,17394
+18626.93,18638.94,Silty clay-shale,0,17394,17418
+18638.94,18640.94,Clay Shale,19,17418,17422
+18640.94,18657.45,Dolomitic Sandstone,1,17422,17455
+18657.45,18675.96,Silty clay-shale,0,17455,17492
+18675.96,18685.97,Dolomitic Sandstone,1,17492,17512
+18685.97,18762.52,Silty clay-shale,0,17512,17665
+18762.52,18775.03,Dolomitic Sandstone,1,17665,17690
+18775.03,18809.55,Silty clay-shale,0,17690,17759
+18809.55,18818.05,Dolomitic Sandstone,1,17759,17776
+18818.05,18831.56,Silty clay-shale,0,17776,17803
+18831.56,18835.56,Clay Shale,14,17803,17811
+18835.56,18845.57,Silty clay-shale,0,17811,17831
+18845.57,18858.58,Dolomitic Sandstone,1,17831,17857
+18858.58,18862.08,Silty clay-shale,0,17857,17864
+18862.08,18869.59,Dolomitic Sandstone,1,17864,17879
+18869.59,18912.11,Silty clay-shale,0,17879,17964
+18912.11,18921.62,Dolomitic Sandstone,1,17964,17983
+18921.62,18927.62,Clay Shale,8,17983,17995
+18927.62,18993.16,Silty clay-shale,0,17995,18126
+18993.16,19000.17,Dolomitic Sandstone,1,18126,18140
+19000.17,19070.11,Silty clay-shale,0,18140,18280
+19070.11,19080.6,Dolomitic Sandstone,1,18280,18301
+19080.6,19147.54,Silty clay-shale,0,18301,18435
+19147.54,19153.54,Dolomitic Sandstone,1,18435,18447
+19153.54,19244.96,Silty clay-shale,0,18447,18630
+19244.96,19256.45,Dolomitic Sandstone,1,18630,18653
+19256.45,19280.93,Silty clay-shale,0,18653,18702
+19280.93,19286.93,Coarse Sandstone,5,18702,18714
+19286.93,19292.42,Marl,2,18714,18725
+19292.42,19309.41,Silty clay-shale,0,18725,18759
+19309.41,19318.4,Marl,2,18759,18777
+19318.4,19324.4,Silty clay-shale,0,18777,18789
+19324.4,19328.89,Clay Shale,8,18789,18798
+19328.89,19347.88,Silty clay-shale,0,18798,18836
+19347.88,19360.37,Marl,2,18836,18861
+19360.37,19372.36,Dolomitic Sandstone,1,18861,18885
+19372.36,19388.34,Silty clay-shale,0,18885,18917
+19388.34,19394.34,Dolomitic Sandstone,1,18917,18929
+19394.34,19397.84,Silty clay-shale,0,18929,18936
+19397.84,19402.33,Clay Shale,8,18936,18945
+19402.33,19412.32,Silty clay-shale,0,18945,18965
+19412.32,19422.81,Marl,2,18965,18986
+19422.81,19434.3,Dolomitic Sandstone,1,18986,19009
+19434.3,19479.27,Silty clay-shale,0,19009,19099
+19479.27,19493.76,Marl,2,19099,19128
+19493.76,19523.73,Silty clay-shale,0,19128,19188
+19523.73,19530.22,Marl,4,19188,19201
+19530.22,19534.72,Silty clay-shale,0,19201,19210
+19534.72,19560.2,Marl,2,19210,19261
+19560.2,19571.69,Blank (no pattern),26,19261,19284
+19571.69,19582.68,Dolomitic Sandstone,1,19284,19306
+19582.68,19588.68,Marl,4,19306,19318
+19588.68,19626.66,Silty clay-shale,0,19318,19394
+19626.66,19636.66,Marl,2,19394,19414
+19636.66,19657.66,Silty clay-shale,0,19414,19456
+19657.66,19663.66,Marl,4,19456,19468
+19663.66,19680.16,Silty clay-shale,0,19468,19501
+19680.16,19685.15,Calcareous clay-shale,10,19501,19511
+19685.15,19686.15,Marl,25,19511,19513
+19686.15,19703.15,Dolomitic Sandstone,1,19513,19547
+19703.15,19763.64,Silty clay-shale,0,19547,19668
+19763.64,19775.14,Marl,2,19668,19691
+19775.14,19779.14,Calcareous clay-shale,10,19691,19699
+19779.14,19805.14,Silty clay-shale,0,19699,19751
+19805.14,19819.14,Dolomitic Sandstone,1,19751,19779
+19819.14,19828.13,Marl,2,19779,19797
+19828.13,19831.63,Silt,17,19797,19804
+19831.63,19893.63,Silty clay-shale,0,19804,19928
+19893.63,19898.63,Calcareous clay-shale,10,19928,19938
+19898.63,19901.62,Marl,2,19938,19944
+19901.62,19905.12,Silt,17,19944,19951
+19905.12,19931.62,Silty clay-shale,0,19951,20004
+19931.62,19938.12,Marl,4,20004,20017
+19938.12,20002.61,Silty clay-shale,0,20017,20146
+20002.61,20017.11,Dolomitic Sandstone,1,20146,20175
+20017.11,20081.1,Silty clay-shale,0,20175,20303
+20081.1,20096.1,Dolomitic Sandstone,1,20303,20333
+20096.1,20123.59,Silty clay-shale,0,20333,20388
+20123.59,20138.59,Marl,2,20388,20418
+20138.59,20154.09,Silty clay-shale,0,20418,20449
+20154.09,20168.59,Marl,2,20449,20478
+20168.59,20194.58,Silty clay-shale,0,20478,20530
+20194.58,20199.58,Calcareous clay-shale,10,20530,20540
+20199.58,20205.58,Marl,2,20540,20552
+20205.58,20218.58,Silty clay-shale,0,20552,20578
+20218.58,20224.08,Coarse Sandstone,9,20578,20589
+20224.08,20236.08,Marl,2,20589,20613
+20236.08,20288.07,Silty clay-shale,0,20613,20717
+20288.07,20297.07,Dolomitic Sandstone,1,20717,20735
+20297.07,20350.06,Silty clay-shale,0,20735,20841
+20350.06,20357.06,Dolomitic Sandstone,1,20841,20855
+20357.06,20363.56,Silty clay-shale,0,20855,20868
+20363.56,20368.56,Calcareous clay-shale,10,20868,20878
+20368.56,20371.56,Marl,2,20878,20884
+20371.56,20375.06,Silt,17,20884,20891
+20375.06,20384.06,Silty clay-shale,0,20891,20909
+20384.06,20389.06,Calcareous clay-shale,10,20909,20919
+20389.06,20392.56,Marl,15,20919,20926
+20392.56,20440.55,Silty clay-shale,0,20926,21022
+20440.55,20448.05,Dolomitic Sandstone,1,21022,21037
+20448.05,20451.55,Silty clay-shale,0,21037,21044
+20451.55,20458.55,Coarse Sandstone,5,21044,21058
+20458.55,20505.04,Silty clay-shale,0,21058,21151
+20505.04,20512.04,Dolomitic Sandstone,1,21151,21165
+20512.04,20515.54,Silty clay-shale,0,21165,21172
+20515.54,20520.54,Dolomitic Sandstone,11,21172,21182
+20520.54,20538.04,Silty clay-shale,0,21182,21217
+20538.04,20545.54,Dolomitic Sandstone,1,21217,21232
+20545.54,20549.03,Silty clay-shale,0,21232,21239
+20549.03,20556.03,Dolomitic Sandstone,1,21239,21253
+20556.03,20737.01,Silty clay-shale,0,21253,21615
+20737.01,20741.51,Clay Shale,8,21615,21624
+20741.51,21240.07,Silty clay-shale,0,21624,22620
+21240.07,21250.08,Dolomitic Sandstone,1,22620,22640
+21250.08,21293.14,Silty clay-shale,0,22640,22726
+21293.14,21300.65,Marl,15,22726,22741
+21300.65,21321.68,Silty clay-shale,0,22741,22783
+21321.68,21337.7,Dolomitic Sandstone,1,22783,22815
+21337.7,21420.8,Silty clay-shale,0,22815,22981
+21420.8,21429.82,Dolomitic Sandstone,1,22981,22999
+21429.82,21517.93,Silty clay-shale,0,22999,23175
+21517.93,21523.94,Clay Shale,8,23175,23187
+21523.94,21531.95,Dolomitic Sandstone,1,23187,23203
+21531.95,21595.03,Silty clay-shale,0,23203,23329
+21595.03,21601.04,Dolomitic Sandstone,1,23329,23341
+21601.04,21623.57,Silty clay-shale,0,23341,23386
+21623.57,21626.07,Clay Shale,21,23386,23391
+21626.07,21632.08,Silty clay-shale,0,23391,23403
+21632.08,21639.59,Dolomitic Sandstone,1,23403,23418
+21639.59,21806.3,Silty clay-shale,0,23418,23751
+21806.3,21811.81,Marl,2,23751,23762
+21811.81,21850.86,Silty clay-shale,0,23762,23840
+21850.86,21857.37,Marl,4,23840,23853
+21857.37,21877.4,Silty clay-shale,0,23853,23893
+21877.4,21883.91,Marl,4,23893,23906
+21883.91,21930.97,Silty clay-shale,0,23906,24000
+21930.97,21938.98,Dolomitic Sandstone,1,24000,24016
+21938.98,21940.48,Clay Shale,23,24016,24019
+21940.48,21949.49,Dolomitic Sandstone,1,24019,24037
+21949.49,21951.49,Clay Shale,22,24037,24041
+21951.49,21964.01,Dolomitic Sandstone,1,24041,24066
+21964.01,21986.04,Silty clay-shale,0,24066,24110
+21986.04,21993.55,Dolomitic Sandstone,1,24110,24125
+21993.55,22101.69,Silty clay-shale,0,24125,24341
+22101.69,22107.19,Marl,2,24341,24352
+22107.19,22110.2,Clay Shale,19,24352,24358
+22110.2,22127.22,Dolomitic Sandstone,1,24358,24392
+22127.22,22140.74,Silty clay-shale,0,24392,24419
+22140.74,22161.26,Dolomitic Sandstone,1,24419,24460
+22161.26,22177.29,Silty clay-shale,0,24460,24492
+22177.29,22191.3,Dolomitic Sandstone,1,24492,24520
+22191.3,22194.81,Silty clay-shale,0,24520,24527
+22194.81,22204.82,Dolomitic Sandstone,1,24527,24547
+22204.82,22221.34,Silty clay-shale,0,24547,24580
+22221.34,22251.88,Dolomitic Sandstone,1,24580,24641
+22251.88,22265.9,Marl,4,24641,24669
+22265.9,22270.41,Dolomitic Sandstone,1,24669,24678
+22270.41,22273.41,Calcareous,13,24678,24684
+22273.41,22280.92,Dolomitic Sandstone,1,24684,24699
+22280.92,22302.95,Silty clay-shale,0,24699,24743
+22302.95,22308.96,Dolomitic Sandstone,7,24743,24755
+22308.96,22311.46,Calcareous,13,24755,24760
+22311.46,22349.51,Dolomitic Sandstone,1,24760,24836
+22349.51,22365.53,Silty clay-shale,0,24836,24868
+22365.53,22375.04,Marl,2,24868,24887
+22375.04,22386.56,Dolomitic Sandstone,1,24887,24910
+22386.56,22396.07,Silty clay-shale,0,24910,24929
+22396.07,22405.08,Dolomitic Sandstone,1,24929,24947
+22405.08,22410.59,Marl,2,24947,24958
+22410.59,22415.09,Dolomitic Sandstone,1,24958,24967
+22415.09,22419.6,Marl,2,24967,24976
+22419.6,22443.13,Dolomitic Sandstone,1,24976,25023
+22443.13,22446.63,Silty clay-shale,0,25023,25030
+22446.63,22481.68,Dolomitic Sandstone,1,25030,25100
+22481.68,22486.19,Calcareous,13,25100,25109
+22486.19,22491.19,Dolomitic Sandstone,7,25109,25119
+22491.19,22500.7,Silty clay-shale,0,25119,25138
+22500.7,22505.21,Marl,2,25138,25147
+22505.21,22524.24,Dolomitic Sandstone,1,25147,25185
+22524.24,22569.29,Silty clay-shale,0,25185,25275
+22569.29,22573.3,Clay Shale,8,25275,25283
+22573.3,22594.33,Silty clay-shale,0,25283,25325
+22594.33,22800.32,Dolomitic Sandstone,1,25325,25737
+22800.32,22809.82,Silty clay-shale,0,25737,25756
+22809.82,22816.32,Dolomitic Sandstone,1,25756,25769
+22816.32,22874.31,Silty clay-shale,0,25769,25885

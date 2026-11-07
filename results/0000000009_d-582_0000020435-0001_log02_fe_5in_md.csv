@@ -1,22 +1,22 @@
-top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
-23500.02,23508.95,0,Clay,0.169,True,Shale|Silty|Dolomite
-23508.95,23530.4,1,Sand and Sandstone,0.77,False,Anhydrite
-23530.4,23559.69,0,Clay,0.169,True,Shale|Silty|Dolomite
-23559.69,23570.62,2,Siltstone,0.658,False,
-23570.62,23579.45,0,Clay,0.169,True,Shale|Silty|Dolomite
-23579.45,23590.92,2,Siltstone,0.658,False,
-23590.92,23600.35,1,Sand and Sandstone,0.77,False,Anhydrite
-23600.35,23639.07,0,Clay,0.169,True,Shale|Silty|Dolomite
-23639.07,23651.29,1,Sand and Sandstone,0.77,False,Anhydrite
-23651.29,23658.62,0,Clay,0.169,True,Shale|Silty|Dolomite
-23658.62,23670.4,1,Sand and Sandstone,0.77,False,Anhydrite
-23670.4,23679.88,2,Siltstone,0.658,False,
-23679.88,23710.36,1,Sand and Sandstone,0.77,False,Anhydrite
-23710.36,23719.84,2,Siltstone,0.658,False,
-23719.84,23730.42,1,Sand and Sandstone,0.77,False,Anhydrite
-23730.42,23740.55,2,Siltstone,0.658,False,
-23740.55,23749.08,0,Clay,0.169,True,Shale|Silty|Dolomite
-23749.08,23760.3,1,Sand and Sandstone,0.77,False,Anhydrite
-23760.3,23779.36,0,Clay,0.169,True,Shale|Silty|Dolomite
-23779.36,23790.69,2,Siltstone,0.658,False,
-23790.69,23799.22,0,Clay,0.169,True,Shale|Silty|Dolomite
+top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
+23500.09,23510.0,Shale,0,4387,4586
+23510.0,23530.0,Sandstone,1,4586,4988
+23530.0,23560.0,Shale,0,4988,5590
+23560.0,23570.0,Siltstone,2,5590,5790
+23570.0,23580.0,Shale,0,5790,5990
+23580.0,23590.0,Siltstone,2,5990,6190
+23590.0,23600.0,Sandstone,1,6190,6391
+23600.0,23640.0,Shale,0,6391,7193
+23640.0,23650.0,Sandstone,1,7193,7394
+23650.0,23660.0,Shale,0,7394,7594
+23660.0,23670.0,Sandstone,1,7594,7795
+23670.0,23680.0,Siltstone,2,7795,7996
+23680.0,23710.0,Sandstone,1,7996,8596
+23710.0,23720.0,Siltstone,2,8596,8797
+23720.0,23730.0,Sandstone,1,8797,8997
+23730.0,23740.0,Siltstone,2,8997,9198
+23740.0,23750.0,Shale,0,9198,9398
+23750.0,23760.0,Sandstone,1,9398,9598
+23760.0,23780.0,Shale,0,9598,9998
+23780.0,23790.0,Siltstone,2,9998,10199
+23790.0,23800.0,Shale,0,10199,10400

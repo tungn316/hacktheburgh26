@@ -1,13 +1,43 @@
 {
   "image": "60812401020000_xom_ocs-g_20351_ju103_st00bp00_mudlog_10200-30900ft_5in_tvd.tif",
+  "image_size": [
+    1700,
+    209000
+  ],
   "depth_fit": {
-    "px_per_ft": 1029.5098,
-    "labels_used": 35,
-    "labels_read": 141,
-    "mean_residual_ft": 0.884,
-    "label_rotation_deg": 0
+    "px_per_ft": 43.0333,
+    "labels_used": 3,
+    "labels_read": 131,
+    "labels_rejected": 128,
+    "mean_residual_ft": 0.94,
+    "label_rotation_deg": 0,
+    "chunks_ocrd": "52/52",
+    "labels": [
+      [
+        43828.0,
+        442.0
+      ],
+      [
+        123242.0,
+        2288.0
+      ],
+      [
+        134258.0,
+        2543.0
+      ]
+    ]
   },
   "legend": [
+    {
+      "name": "Clay-shale",
+      "box": [
+        107,
+        657,
+        172,
+        706
+      ],
+      "white": false
+    },
     {
       "name": "Silty clay-shale",
       "box": [
@@ -247,264 +277,4531 @@
         987
       ],
       "white": false
-    },
-    {
-      "name": "Clay-shale",
-      "box": [
-        107,
-        657,
-        172,
-        706
-      ],
-      "white": false
     }
   ],
-  "n_groups": 8,
+  "identical_legend_symbols": [],
+  "n_groups": 15,
+  "snap_grid": null,
+  "warnings": [
+    "only 3 depth labels agree on a scale (43.033 px/ft): depths are unreliable"
+  ],
+  "timings_s": {
+    "depth": 15.34,
+    "segment": 1.02,
+    "legend": 0.41,
+    "intervals": 0.47,
+    "total": 17.25
+  },
   "intervals": [
     {
-      "top_ft": 108.93,
-      "base_ft": 120.38,
-      "group": 1,
+      "top_depth": -463.18,
+      "bottom_depth": -430.67,
       "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 4875,
+      "bottom_y": 6274,
       "confidence": 0.99,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 4875,
-      "y_base_px": 16661
+      "alternatives": []
     },
     {
-      "top_ft": 120.38,
-      "base_ft": 124.12,
-      "group": 4,
-      "lithology": "Clay-shale",
-      "confidence": 0.411,
+      "top_depth": -430.67,
+      "bottom_depth": -428.21,
+      "lithology": "Dry",
+      "cluster_id": 6,
+      "top_y": 6274,
+      "bottom_y": 6380,
+      "confidence": 0.011,
+      "ambiguous": true,
       "alternatives": [
-        "Silty clay-shale"
-      ],
-      "ambiguous": false,
-      "y_top_px": 16661,
-      "y_base_px": 20510
+        "rock",
+        "FIT",
+        "Mud gain"
+      ]
     },
     {
-      "top_ft": 124.12,
-      "base_ft": 222.88,
-      "group": 0,
-      "lithology": "Halite",
-      "confidence": 0.868,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 20510,
-      "y_base_px": 122190
-    },
-    {
-      "top_ft": 222.88,
-      "base_ft": 235.44,
-      "group": 1,
+      "top_depth": -428.21,
+      "bottom_depth": -391.84,
       "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 6380,
+      "bottom_y": 7945,
       "confidence": 0.99,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 122190,
-      "y_base_px": 135114
+      "alternatives": []
     },
     {
-      "top_ft": 235.44,
-      "base_ft": 241.51,
-      "group": 4,
-      "lithology": "Clay-shale",
-      "confidence": 0.411,
+      "top_depth": -391.84,
+      "bottom_depth": -390.8,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 7945,
+      "bottom_y": 7990,
+      "confidence": 0.947,
+      "ambiguous": false,
       "alternatives": [
-        "Silty clay-shale"
-      ],
-      "ambiguous": false,
-      "y_top_px": 135114,
-      "y_base_px": 141369
+        "Coarse Sand",
+        "rock"
+      ]
     },
     {
-      "top_ft": 241.51,
-      "base_ft": 247.9,
-      "group": 1,
+      "top_depth": -390.8,
+      "bottom_depth": -368.33,
       "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 7990,
+      "bottom_y": 8957,
       "confidence": 0.99,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 141369,
-      "y_base_px": 147940
+      "alternatives": []
     },
     {
-      "top_ft": 247.9,
-      "base_ft": 252.22,
-      "group": 4,
-      "lithology": "Clay-shale",
-      "confidence": 0.411,
+      "top_depth": -368.33,
+      "bottom_depth": -365.68,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 8957,
+      "bottom_y": 9071,
+      "confidence": 0.114,
+      "ambiguous": false,
       "alternatives": [
-        "Silty clay-shale"
-      ],
-      "ambiguous": false,
-      "y_top_px": 147940,
-      "y_base_px": 152396
+        "Fine Sand",
+        "Coarse Sand"
+      ]
     },
     {
-      "top_ft": 252.22,
-      "base_ft": 256.1,
-      "group": 2,
+      "top_depth": -365.68,
+      "bottom_depth": -183.77,
       "lithology": "Clay-shale",
-      "confidence": 0.181,
-      "alternatives": [
-        "Silty clay-shale"
-      ],
+      "cluster_id": 1,
+      "top_y": 9071,
+      "bottom_y": 16899,
+      "confidence": 0.99,
       "ambiguous": false,
-      "y_top_px": 152396,
-      "y_base_px": 156388
+      "alternatives": []
     },
     {
-      "top_ft": 256.1,
-      "base_ft": 260.22,
-      "group": 4,
-      "lithology": "Clay-shale",
-      "confidence": 0.411,
-      "alternatives": [
-        "Silty clay-shale"
-      ],
-      "ambiguous": false,
-      "y_top_px": 156388,
-      "y_base_px": 160624
-    },
-    {
-      "top_ft": 260.22,
-      "base_ft": 267.73,
-      "group": 4,
-      "lithology": "Clay-shale",
-      "confidence": 0.411,
-      "alternatives": [
-        "Silty clay-shale"
-      ],
-      "ambiguous": false,
-      "y_top_px": 160624,
-      "y_base_px": 168355
-    },
-    {
-      "top_ft": 267.73,
-      "base_ft": 276.7,
-      "group": 2,
-      "lithology": "Clay-shale",
-      "confidence": 0.181,
-      "alternatives": [
-        "Silty clay-shale"
-      ],
-      "ambiguous": false,
-      "y_top_px": 168355,
-      "y_base_px": 177589
-    },
-    {
-      "top_ft": 276.7,
-      "base_ft": 277.72,
-      "group": 7,
+      "top_depth": -183.77,
+      "bottom_depth": -181.94,
       "lithology": "Limestone",
-      "confidence": 0.002,
+      "cluster_id": 5,
+      "top_y": 16899,
+      "bottom_y": 16978,
+      "confidence": 0.208,
+      "ambiguous": true,
       "alternatives": [
         "Calcareous",
-        "Dolomitic Limestone",
-        "Chalk"
-      ],
-      "ambiguous": true,
-      "y_top_px": 177589,
-      "y_base_px": 178643
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
     },
     {
-      "top_ft": 277.72,
-      "base_ft": 282.84,
-      "group": 2,
+      "top_depth": -181.94,
+      "bottom_depth": -176.96,
       "lithology": "Clay-shale",
-      "confidence": 0.181,
-      "alternatives": [
-        "Silty clay-shale"
-      ],
-      "ambiguous": false,
-      "y_top_px": 178643,
-      "y_base_px": 183918
-    },
-    {
-      "top_ft": 282.84,
-      "base_ft": 284.13,
-      "group": 1,
-      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 16978,
+      "bottom_y": 17192,
       "confidence": 0.99,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 183918,
-      "y_base_px": 185245
+      "alternatives": []
     },
     {
-      "top_ft": 284.13,
-      "base_ft": 287.64,
-      "group": 3,
-      "lithology": "rock",
-      "confidence": 0.093,
+      "top_depth": -176.96,
+      "bottom_depth": -173.36,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 17192,
+      "bottom_y": 17347,
+      "confidence": 0.208,
+      "ambiguous": true,
       "alternatives": [
-        "Fine Sand",
-        "Coarse Sand"
-      ],
-      "ambiguous": false,
-      "y_top_px": 185245,
-      "y_base_px": 188858
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
     },
     {
-      "top_ft": 287.64,
-      "base_ft": 289.45,
-      "group": 6,
+      "top_depth": -173.36,
+      "bottom_depth": -162.21,
       "lithology": "Clay-shale",
-      "confidence": 0.265,
-      "alternatives": [
-        "Silty clay-shale"
-      ],
+      "cluster_id": 1,
+      "top_y": 17347,
+      "bottom_y": 17827,
+      "confidence": 0.99,
       "ambiguous": false,
-      "y_top_px": 188858,
-      "y_base_px": 190718
+      "alternatives": []
     },
     {
-      "top_ft": 289.45,
-      "base_ft": 298.24,
-      "group": 3,
-      "lithology": "rock",
-      "confidence": 0.093,
+      "top_depth": -162.21,
+      "bottom_depth": -158.44,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 17827,
+      "bottom_y": 17989,
+      "confidence": 0.208,
+      "ambiguous": true,
       "alternatives": [
-        "Fine Sand",
-        "Coarse Sand"
-      ],
-      "ambiguous": false,
-      "y_top_px": 190718,
-      "y_base_px": 199764
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
     },
     {
-      "top_ft": 298.24,
-      "base_ft": 301.37,
-      "group": 5,
+      "top_depth": -158.44,
+      "bottom_depth": -148.96,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 17989,
+      "bottom_y": 18397,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": -148.96,
+      "bottom_depth": -147.13,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 18397,
+      "bottom_y": 18476,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": -147.13,
+      "bottom_depth": -131.23,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 18476,
+      "bottom_y": 19160,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": -131.23,
+      "bottom_depth": -129.4,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 19160,
+      "bottom_y": 19239,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": -129.4,
+      "bottom_depth": -99.86,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 19239,
+      "bottom_y": 20510,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": -99.86,
+      "bottom_depth": 2263.55,
+      "lithology": "Halite",
+      "cluster_id": 0,
+      "top_y": 20510,
+      "bottom_y": 122190,
+      "confidence": 0.868,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2263.55,
+      "bottom_depth": 2285.58,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 122190,
+      "bottom_y": 123138,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2285.58,
+      "bottom_depth": 2286.63,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 123138,
+      "bottom_y": 123183,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2286.63,
+      "bottom_depth": 2562.89,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 123183,
+      "bottom_y": 135114,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2562.89,
+      "bottom_depth": 2564.89,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 135114,
+      "bottom_y": 135200,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2564.89,
+      "bottom_depth": 2569.4,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 135200,
+      "bottom_y": 135394,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2569.4,
+      "bottom_depth": 2571.19,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 135394,
+      "bottom_y": 135471,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2571.19,
+      "bottom_depth": 2573.28,
       "lithology": "Silty clay-shale",
-      "confidence": 0.129,
+      "cluster_id": 11,
+      "top_y": 135471,
+      "bottom_y": 135561,
+      "confidence": 0.133,
+      "ambiguous": false,
       "alternatives": [
         "Clay-shale",
         "Mud gain",
         "Mud loss"
-      ],
-      "ambiguous": false,
-      "y_top_px": 199764,
-      "y_base_px": 202992
+      ]
     },
     {
-      "top_ft": 301.37,
-      "base_ft": 307.08,
-      "group": 3,
+      "top_depth": 2573.28,
+      "bottom_depth": 2577.35,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 135561,
+      "bottom_y": 135736,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2577.35,
+      "bottom_depth": 2578.81,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 135736,
+      "bottom_y": 135799,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2578.81,
+      "bottom_depth": 2587.45,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 135799,
+      "bottom_y": 136171,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2587.45,
+      "bottom_depth": 2588.89,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 136171,
+      "bottom_y": 136233,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2588.89,
+      "bottom_depth": 2593.05,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 136233,
+      "bottom_y": 136412,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2593.05,
+      "bottom_depth": 2594.7,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 136412,
+      "bottom_y": 136483,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2594.7,
+      "bottom_depth": 2615.8,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 136483,
+      "bottom_y": 137391,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2615.8,
+      "bottom_depth": 2617.04,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 137391,
+      "bottom_y": 137444,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2617.04,
+      "bottom_depth": 2619.8,
+      "lithology": "Silty clay-shale",
+      "cluster_id": 11,
+      "top_y": 137444,
+      "bottom_y": 137563,
+      "confidence": 0.133,
+      "ambiguous": false,
+      "alternatives": [
+        "Clay-shale",
+        "Mud gain",
+        "Mud loss"
+      ]
+    },
+    {
+      "top_depth": 2619.8,
+      "bottom_depth": 2628.54,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 137563,
+      "bottom_y": 137939,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2628.54,
+      "bottom_depth": 2630.0,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 137939,
+      "bottom_y": 138002,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2630.0,
+      "bottom_depth": 2636.49,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 138002,
+      "bottom_y": 138281,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2636.49,
+      "bottom_depth": 2638.83,
+      "lithology": "Silty clay-shale",
+      "cluster_id": 11,
+      "top_y": 138281,
+      "bottom_y": 138382,
+      "confidence": 0.133,
+      "ambiguous": false,
+      "alternatives": [
+        "Clay-shale",
+        "Mud gain",
+        "Mud loss"
+      ]
+    },
+    {
+      "top_depth": 2638.83,
+      "bottom_depth": 2649.94,
+      "lithology": "Clay-shale",
+      "cluster_id": 7,
+      "top_y": 138382,
+      "bottom_y": 138860,
+      "confidence": 0.135,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale",
+        "Calcareous",
+        "Limestone"
+      ]
+    },
+    {
+      "top_depth": 2649.94,
+      "bottom_depth": 2652.01,
+      "lithology": "Silty clay-shale",
+      "cluster_id": 11,
+      "top_y": 138860,
+      "bottom_y": 138949,
+      "confidence": 0.133,
+      "ambiguous": false,
+      "alternatives": [
+        "Clay-shale",
+        "Mud gain",
+        "Mud loss"
+      ]
+    },
+    {
+      "top_depth": 2652.01,
+      "bottom_depth": 2653.1,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 138949,
+      "bottom_y": 138996,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2653.1,
+      "bottom_depth": 2656.17,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 138996,
+      "bottom_y": 139128,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2656.17,
+      "bottom_depth": 2658.38,
+      "lithology": "Silty clay-shale",
+      "cluster_id": 11,
+      "top_y": 139128,
+      "bottom_y": 139223,
+      "confidence": 0.133,
+      "ambiguous": false,
+      "alternatives": [
+        "Clay-shale",
+        "Mud gain",
+        "Mud loss"
+      ]
+    },
+    {
+      "top_depth": 2658.38,
+      "bottom_depth": 2659.98,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 139223,
+      "bottom_y": 139292,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2659.98,
+      "bottom_depth": 2670.13,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 139292,
+      "bottom_y": 139729,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2670.13,
+      "bottom_depth": 2672.5,
+      "lithology": "Calcareous",
+      "cluster_id": 12,
+      "top_y": 139729,
+      "bottom_y": 139831,
+      "confidence": 0.033,
+      "ambiguous": true,
+      "alternatives": [
+        "Limestone",
+        "Dolomitic Limestone",
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 2672.5,
+      "bottom_depth": 2676.85,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 139831,
+      "bottom_y": 140018,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2676.85,
+      "bottom_depth": 2680.99,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 140018,
+      "bottom_y": 140196,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2680.99,
+      "bottom_depth": 2682.45,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 140196,
+      "bottom_y": 140259,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2682.45,
+      "bottom_depth": 2686.4,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 140259,
+      "bottom_y": 140429,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2686.4,
+      "bottom_depth": 2688.24,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 140429,
+      "bottom_y": 140508,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2688.24,
+      "bottom_depth": 2710.68,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 140508,
+      "bottom_y": 141474,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2710.68,
+      "bottom_depth": 2713.12,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 141474,
+      "bottom_y": 141579,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2713.12,
+      "bottom_depth": 2715.63,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 141579,
+      "bottom_y": 141687,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2715.63,
+      "bottom_depth": 2717.31,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 141687,
+      "bottom_y": 141759,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2717.31,
+      "bottom_depth": 2746.61,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 141759,
+      "bottom_y": 143020,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2746.61,
+      "bottom_depth": 2748.61,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 143020,
+      "bottom_y": 143106,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2748.61,
+      "bottom_depth": 2775.17,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 143106,
+      "bottom_y": 144249,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2775.17,
+      "bottom_depth": 2776.19,
+      "lithology": "Dry",
+      "cluster_id": 6,
+      "top_y": 144249,
+      "bottom_y": 144293,
+      "confidence": 0.011,
+      "ambiguous": true,
+      "alternatives": [
+        "rock",
+        "FIT",
+        "Mud gain"
+      ]
+    },
+    {
+      "top_depth": 2776.19,
+      "bottom_depth": 2817.76,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 144293,
+      "bottom_y": 146082,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2817.76,
+      "bottom_depth": 2818.79,
+      "lithology": "Dry",
+      "cluster_id": 6,
+      "top_y": 146082,
+      "bottom_y": 146126,
+      "confidence": 0.011,
+      "ambiguous": true,
+      "alternatives": [
+        "rock",
+        "FIT",
+        "Mud gain"
+      ]
+    },
+    {
+      "top_depth": 2818.79,
+      "bottom_depth": 2860.94,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 146126,
+      "bottom_y": 147940,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2860.94,
+      "bottom_depth": 2862.71,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 147940,
+      "bottom_y": 148016,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2862.71,
+      "bottom_depth": 2865.22,
+      "lithology": "Calcareous",
+      "cluster_id": 13,
+      "top_y": 148016,
+      "bottom_y": 148124,
+      "confidence": 0.007,
+      "ambiguous": true,
+      "alternatives": [
+        "Limestone",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2865.22,
+      "bottom_depth": 2868.19,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 148124,
+      "bottom_y": 148252,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2868.19,
+      "bottom_depth": 2869.86,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 148252,
+      "bottom_y": 148324,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2869.86,
+      "bottom_depth": 2876.02,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 148324,
+      "bottom_y": 148589,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2876.02,
+      "bottom_depth": 2877.86,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 148589,
+      "bottom_y": 148668,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2877.86,
+      "bottom_depth": 2884.18,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 148668,
+      "bottom_y": 148940,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2884.18,
+      "bottom_depth": 2885.43,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 148940,
+      "bottom_y": 148994,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2885.43,
+      "bottom_depth": 2890.03,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 148994,
+      "bottom_y": 149192,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2890.03,
+      "bottom_depth": 2891.03,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 149192,
+      "bottom_y": 149235,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2891.03,
+      "bottom_depth": 2895.29,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 149235,
+      "bottom_y": 149418,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2895.29,
+      "bottom_depth": 2897.35,
+      "lithology": "Calcareous",
+      "cluster_id": 12,
+      "top_y": 149418,
+      "bottom_y": 149507,
+      "confidence": 0.033,
+      "ambiguous": true,
+      "alternatives": [
+        "Limestone",
+        "Dolomitic Limestone",
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 2897.35,
+      "bottom_depth": 2900.1,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 149507,
+      "bottom_y": 149625,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2900.1,
+      "bottom_depth": 2901.33,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 149625,
+      "bottom_y": 149678,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2901.33,
+      "bottom_depth": 2929.24,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 149678,
+      "bottom_y": 150879,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2929.24,
+      "bottom_depth": 2931.03,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 150879,
+      "bottom_y": 150956,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2931.03,
+      "bottom_depth": 2940.27,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 150956,
+      "bottom_y": 151354,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2940.27,
+      "bottom_depth": 2942.04,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 151354,
+      "bottom_y": 151430,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2942.04,
+      "bottom_depth": 2946.41,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 151430,
+      "bottom_y": 151618,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2946.41,
+      "bottom_depth": 2948.22,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 151618,
+      "bottom_y": 151696,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2948.22,
+      "bottom_depth": 2958.54,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 151696,
+      "bottom_y": 152140,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2958.54,
+      "bottom_depth": 2961.21,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 152140,
+      "bottom_y": 152255,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2961.21,
+      "bottom_depth": 2966.11,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 152255,
+      "bottom_y": 152466,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2966.11,
+      "bottom_depth": 2969.72,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 152466,
+      "bottom_y": 152621,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2969.72,
+      "bottom_depth": 2971.9,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 152621,
+      "bottom_y": 152715,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2971.9,
+      "bottom_depth": 2980.38,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 152715,
+      "bottom_y": 153080,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2980.38,
+      "bottom_depth": 2984.94,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 153080,
+      "bottom_y": 153276,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2984.94,
+      "bottom_depth": 2990.03,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 153276,
+      "bottom_y": 153495,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 2990.03,
+      "bottom_depth": 2999.23,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 153495,
+      "bottom_y": 153891,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2999.23,
+      "bottom_depth": 3001.76,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 153891,
+      "bottom_y": 154000,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3001.76,
+      "bottom_depth": 3004.27,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 154000,
+      "bottom_y": 154108,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3004.27,
+      "bottom_depth": 3006.06,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 154108,
+      "bottom_y": 154185,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3006.06,
+      "bottom_depth": 3009.17,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 154185,
+      "bottom_y": 154319,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3009.17,
+      "bottom_depth": 3011.68,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 154319,
+      "bottom_y": 154427,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3011.68,
+      "bottom_depth": 3014.61,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 154427,
+      "bottom_y": 154553,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3014.61,
+      "bottom_depth": 3016.35,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 154553,
+      "bottom_y": 154628,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3016.35,
+      "bottom_depth": 3019.1,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 154628,
+      "bottom_y": 154746,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3019.1,
+      "bottom_depth": 3020.86,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 154746,
+      "bottom_y": 154822,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3020.86,
+      "bottom_depth": 3027.42,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 154822,
+      "bottom_y": 155104,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3027.42,
+      "bottom_depth": 3032.83,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 155104,
+      "bottom_y": 155337,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3032.83,
+      "bottom_depth": 3039.71,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 155337,
+      "bottom_y": 155633,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3039.71,
+      "bottom_depth": 3042.59,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 155633,
+      "bottom_y": 155757,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3042.59,
+      "bottom_depth": 3048.75,
+      "lithology": "Clay-shale",
+      "cluster_id": 7,
+      "top_y": 155757,
+      "bottom_y": 156022,
+      "confidence": 0.135,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale",
+        "Calcareous",
+        "Limestone"
+      ]
+    },
+    {
+      "top_depth": 3048.75,
+      "bottom_depth": 3057.25,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 156022,
+      "bottom_y": 156388,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3057.25,
+      "bottom_depth": 3065.55,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 156388,
+      "bottom_y": 156745,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3065.55,
+      "bottom_depth": 3068.99,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 156745,
+      "bottom_y": 156893,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3068.99,
+      "bottom_depth": 3083.33,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 156893,
+      "bottom_y": 157510,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3083.33,
+      "bottom_depth": 3085.84,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 157510,
+      "bottom_y": 157618,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3085.84,
+      "bottom_depth": 3088.39,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 157618,
+      "bottom_y": 157728,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3088.39,
+      "bottom_depth": 3089.65,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 157728,
+      "bottom_y": 157782,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3089.65,
+      "bottom_depth": 3095.43,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 157782,
+      "bottom_y": 158031,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3095.43,
+      "bottom_depth": 3097.06,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 158031,
+      "bottom_y": 158101,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3097.06,
+      "bottom_depth": 3105.73,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 158101,
+      "bottom_y": 158474,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3105.73,
+      "bottom_depth": 3108.98,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 158474,
+      "bottom_y": 158614,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3108.98,
+      "bottom_depth": 3117.21,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 158614,
+      "bottom_y": 158968,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3117.21,
+      "bottom_depth": 3119.02,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 158968,
+      "bottom_y": 159046,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3119.02,
+      "bottom_depth": 3122.27,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 159046,
+      "bottom_y": 159186,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3122.27,
+      "bottom_depth": 3123.71,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 159186,
+      "bottom_y": 159248,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3123.71,
+      "bottom_depth": 3126.22,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 159248,
+      "bottom_y": 159356,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3126.22,
+      "bottom_depth": 3128.59,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 159356,
+      "bottom_y": 159458,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3128.59,
+      "bottom_depth": 3132.82,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 159458,
+      "bottom_y": 159640,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3132.82,
+      "bottom_depth": 3134.26,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 159640,
+      "bottom_y": 159702,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3134.26,
+      "bottom_depth": 3144.23,
+      "lithology": "Clay-shale",
+      "cluster_id": 9,
+      "top_y": 159702,
+      "bottom_y": 160131,
+      "confidence": 0.249,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale"
+      ]
+    },
+    {
+      "top_depth": 3144.23,
+      "bottom_depth": 3145.49,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 160131,
+      "bottom_y": 160185,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3145.49,
+      "bottom_depth": 3148.28,
+      "lithology": "Calcareous",
+      "cluster_id": 12,
+      "top_y": 160185,
+      "bottom_y": 160305,
+      "confidence": 0.033,
+      "ambiguous": true,
+      "alternatives": [
+        "Limestone",
+        "Dolomitic Limestone",
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 3148.28,
+      "bottom_depth": 3150.62,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 160305,
+      "bottom_y": 160406,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3150.62,
+      "bottom_depth": 3151.9,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 160406,
+      "bottom_y": 160461,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3151.9,
+      "bottom_depth": 3177.02,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 160461,
+      "bottom_y": 161542,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3177.02,
+      "bottom_depth": 3178.28,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 161542,
+      "bottom_y": 161596,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3178.28,
+      "bottom_depth": 3190.57,
+      "lithology": "Clay-shale",
+      "cluster_id": 7,
+      "top_y": 161596,
+      "bottom_y": 162125,
+      "confidence": 0.135,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale",
+        "Calcareous",
+        "Limestone"
+      ]
+    },
+    {
+      "top_depth": 3190.57,
+      "bottom_depth": 3191.82,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 162125,
+      "bottom_y": 162179,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3191.82,
+      "bottom_depth": 3208.21,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 162179,
+      "bottom_y": 162884,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3208.21,
+      "bottom_depth": 3210.14,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 162884,
+      "bottom_y": 162967,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3210.14,
+      "bottom_depth": 3214.16,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 162967,
+      "bottom_y": 163140,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3214.16,
+      "bottom_depth": 3215.62,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 163140,
+      "bottom_y": 163203,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3215.62,
+      "bottom_depth": 3222.5,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 163203,
+      "bottom_y": 163499,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3222.5,
+      "bottom_depth": 3223.94,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 163499,
+      "bottom_y": 163561,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3223.94,
+      "bottom_depth": 3227.19,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 163561,
+      "bottom_y": 163701,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3227.19,
+      "bottom_depth": 3228.66,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 163701,
+      "bottom_y": 163764,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3228.66,
+      "bottom_depth": 3248.13,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 163764,
+      "bottom_y": 164602,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3248.13,
+      "bottom_depth": 3249.73,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 164602,
+      "bottom_y": 164671,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3249.73,
+      "bottom_depth": 3256.01,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 164671,
+      "bottom_y": 164941,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3256.01,
+      "bottom_depth": 3257.84,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 164941,
+      "bottom_y": 165020,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3257.84,
+      "bottom_depth": 3262.23,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 165020,
+      "bottom_y": 165209,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3262.23,
+      "bottom_depth": 3264.26,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 165209,
+      "bottom_y": 165296,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3264.26,
+      "bottom_depth": 3269.39,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 165296,
+      "bottom_y": 165517,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3269.39,
+      "bottom_depth": 3271.95,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 165517,
+      "bottom_y": 165627,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3271.95,
+      "bottom_depth": 3278.57,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 165627,
+      "bottom_y": 165912,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3278.57,
+      "bottom_depth": 3281.5,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 165912,
+      "bottom_y": 166038,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3281.5,
+      "bottom_depth": 3296.12,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 166038,
+      "bottom_y": 166667,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3296.12,
+      "bottom_depth": 3297.9,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 166667,
+      "bottom_y": 166744,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3297.9,
+      "bottom_depth": 3316.56,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 166744,
+      "bottom_y": 167547,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3316.56,
+      "bottom_depth": 3317.63,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 167547,
+      "bottom_y": 167593,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3317.63,
+      "bottom_depth": 3329.97,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 167593,
+      "bottom_y": 168124,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3329.97,
+      "bottom_depth": 3331.27,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 168124,
+      "bottom_y": 168180,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3331.27,
+      "bottom_depth": 3335.34,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 168180,
+      "bottom_y": 168355,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3335.34,
+      "bottom_depth": 3339.43,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 168355,
+      "bottom_y": 168531,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3339.43,
+      "bottom_depth": 3345.38,
+      "lithology": "Clay-shale",
+      "cluster_id": 9,
+      "top_y": 168531,
+      "bottom_y": 168787,
+      "confidence": 0.249,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale"
+      ]
+    },
+    {
+      "top_depth": 3345.38,
+      "bottom_depth": 3347.7,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 168787,
+      "bottom_y": 168887,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3347.7,
+      "bottom_depth": 3351.26,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 168887,
+      "bottom_y": 169040,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3351.26,
+      "bottom_depth": 3353.09,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 169040,
+      "bottom_y": 169119,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3353.09,
+      "bottom_depth": 3359.44,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 169119,
+      "bottom_y": 169392,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3359.44,
+      "bottom_depth": 3362.34,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 169392,
+      "bottom_y": 169517,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3362.34,
+      "bottom_depth": 3371.22,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 169517,
+      "bottom_y": 169899,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3371.22,
+      "bottom_depth": 3375.43,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 169899,
+      "bottom_y": 170080,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3375.43,
+      "bottom_depth": 3389.53,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 170080,
+      "bottom_y": 170687,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3389.53,
+      "bottom_depth": 3390.55,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 170687,
+      "bottom_y": 170731,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3390.55,
+      "bottom_depth": 3393.9,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 170731,
+      "bottom_y": 170875,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3393.9,
+      "bottom_depth": 3395.46,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 170875,
+      "bottom_y": 170942,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3395.46,
+      "bottom_depth": 3399.38,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 170942,
+      "bottom_y": 171111,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3399.38,
+      "bottom_depth": 3401.73,
+      "lithology": "Calcareous",
+      "cluster_id": 13,
+      "top_y": 171111,
+      "bottom_y": 171212,
+      "confidence": 0.007,
+      "ambiguous": true,
+      "alternatives": [
+        "Limestone",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3401.73,
+      "bottom_depth": 3406.8,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 171212,
+      "bottom_y": 171430,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3406.8,
+      "bottom_depth": 3409.52,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 171430,
+      "bottom_y": 171547,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3409.52,
+      "bottom_depth": 3417.21,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 171547,
+      "bottom_y": 171878,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3417.21,
+      "bottom_depth": 3419.65,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 171878,
+      "bottom_y": 171983,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3419.65,
+      "bottom_depth": 3424.39,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 171983,
+      "bottom_y": 172187,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3424.39,
+      "bottom_depth": 3427.06,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 172187,
+      "bottom_y": 172302,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3427.06,
+      "bottom_depth": 3434.03,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 172302,
+      "bottom_y": 172602,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3434.03,
+      "bottom_depth": 3438.82,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 172602,
+      "bottom_y": 172808,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3438.82,
+      "bottom_depth": 3453.44,
+      "lithology": "Clay-shale",
+      "cluster_id": 7,
+      "top_y": 172808,
+      "bottom_y": 173437,
+      "confidence": 0.135,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale",
+        "Calcareous",
+        "Limestone"
+      ]
+    },
+    {
+      "top_depth": 3453.44,
+      "bottom_depth": 3456.2,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 173437,
+      "bottom_y": 173556,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3456.2,
+      "bottom_depth": 3457.85,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 173556,
+      "bottom_y": 173627,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3457.85,
+      "bottom_depth": 3460.64,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 173627,
+      "bottom_y": 173747,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3460.64,
+      "bottom_depth": 3467.73,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 173747,
+      "bottom_y": 174052,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3467.73,
+      "bottom_depth": 3469.61,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 174052,
+      "bottom_y": 174133,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3469.61,
+      "bottom_depth": 3480.93,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 174133,
+      "bottom_y": 174620,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3480.93,
+      "bottom_depth": 3482.65,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 174620,
+      "bottom_y": 174694,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3482.65,
+      "bottom_depth": 3498.01,
+      "lithology": "Clay-shale",
+      "cluster_id": 4,
+      "top_y": 174694,
+      "bottom_y": 175355,
+      "confidence": 0.395,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale"
+      ]
+    },
+    {
+      "top_depth": 3498.01,
+      "bottom_depth": 3499.77,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 175355,
+      "bottom_y": 175431,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3499.77,
+      "bottom_depth": 3503.0,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 175431,
+      "bottom_y": 175570,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3503.0,
+      "bottom_depth": 3504.72,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 175570,
+      "bottom_y": 175644,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3504.72,
+      "bottom_depth": 3510.09,
+      "lithology": "Clay-shale",
+      "cluster_id": 4,
+      "top_y": 175644,
+      "bottom_y": 175875,
+      "confidence": 0.395,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale"
+      ]
+    },
+    {
+      "top_depth": 3510.09,
+      "bottom_depth": 3512.13,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 175875,
+      "bottom_y": 175963,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3512.13,
+      "bottom_depth": 3515.34,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 175963,
+      "bottom_y": 176101,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3515.34,
+      "bottom_depth": 3517.06,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 176101,
+      "bottom_y": 176175,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3517.06,
+      "bottom_depth": 3526.82,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 176175,
+      "bottom_y": 176595,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3526.82,
+      "bottom_depth": 3528.33,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 176595,
+      "bottom_y": 176660,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3528.33,
+      "bottom_depth": 3534.47,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 176660,
+      "bottom_y": 176924,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3534.47,
+      "bottom_depth": 3535.51,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 176924,
+      "bottom_y": 176969,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3535.51,
+      "bottom_depth": 3541.34,
+      "lithology": "Clay-shale",
+      "cluster_id": 9,
+      "top_y": 176969,
+      "bottom_y": 177220,
+      "confidence": 0.249,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale"
+      ]
+    },
+    {
+      "top_depth": 3541.34,
+      "bottom_depth": 3543.16,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 177220,
+      "bottom_y": 177298,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3543.16,
+      "bottom_depth": 3549.92,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 177298,
+      "bottom_y": 177589,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3549.92,
+      "bottom_depth": 3552.78,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 177589,
+      "bottom_y": 177712,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3552.78,
+      "bottom_depth": 3555.43,
+      "lithology": "Calcareous",
+      "cluster_id": 12,
+      "top_y": 177712,
+      "bottom_y": 177826,
+      "confidence": 0.033,
+      "ambiguous": true,
+      "alternatives": [
+        "Limestone",
+        "Dolomitic Limestone",
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 3555.43,
+      "bottom_depth": 3556.56,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 177826,
+      "bottom_y": 177875,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3556.56,
+      "bottom_depth": 3559.98,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 177875,
+      "bottom_y": 178022,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3559.98,
+      "bottom_depth": 3565.58,
+      "lithology": "Clay-shale",
+      "cluster_id": 9,
+      "top_y": 178022,
+      "bottom_y": 178263,
+      "confidence": 0.249,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale"
+      ]
+    },
+    {
+      "top_depth": 3565.58,
+      "bottom_depth": 3568.25,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 178263,
+      "bottom_y": 178378,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3568.25,
+      "bottom_depth": 3574.02,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 178378,
+      "bottom_y": 178626,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3574.02,
+      "bottom_depth": 3578.57,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 178626,
+      "bottom_y": 178822,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3578.57,
+      "bottom_depth": 3580.66,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 178822,
+      "bottom_y": 178912,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3580.66,
+      "bottom_depth": 3583.99,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 178912,
+      "bottom_y": 179055,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3583.99,
+      "bottom_depth": 3587.24,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 179055,
+      "bottom_y": 179195,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3587.24,
+      "bottom_depth": 3590.98,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 179195,
+      "bottom_y": 179356,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3590.98,
+      "bottom_depth": 3595.07,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 179356,
+      "bottom_y": 179532,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3595.07,
+      "bottom_depth": 3598.65,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 179532,
+      "bottom_y": 179686,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3598.65,
+      "bottom_depth": 3603.23,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 179686,
+      "bottom_y": 179883,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3603.23,
+      "bottom_depth": 3605.92,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 179883,
+      "bottom_y": 179999,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3605.92,
+      "bottom_depth": 3611.5,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 179999,
+      "bottom_y": 180239,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3611.5,
+      "bottom_depth": 3613.29,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 180239,
+      "bottom_y": 180316,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3613.29,
+      "bottom_depth": 3619.56,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 180316,
+      "bottom_y": 180586,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3619.56,
+      "bottom_depth": 3621.44,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 180586,
+      "bottom_y": 180667,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3621.44,
+      "bottom_depth": 3626.3,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 180667,
+      "bottom_y": 180876,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3626.3,
+      "bottom_depth": 3628.79,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 180876,
+      "bottom_y": 180983,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3628.79,
+      "bottom_depth": 3631.16,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 180983,
+      "bottom_y": 181085,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3631.16,
+      "bottom_depth": 3633.51,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 181085,
+      "bottom_y": 181186,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3633.51,
+      "bottom_depth": 3635.22,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 181186,
+      "bottom_y": 181260,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3635.22,
+      "bottom_depth": 3640.29,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 181260,
+      "bottom_y": 181478,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3640.29,
+      "bottom_depth": 3646.05,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 181478,
+      "bottom_y": 181726,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3646.05,
+      "bottom_depth": 3647.4,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 181726,
+      "bottom_y": 181784,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3647.4,
+      "bottom_depth": 3650.63,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 181784,
+      "bottom_y": 181923,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3650.63,
+      "bottom_depth": 3652.42,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 181923,
+      "bottom_y": 182000,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3652.42,
+      "bottom_depth": 3671.5,
+      "lithology": "Clay-shale",
+      "cluster_id": 4,
+      "top_y": 182000,
+      "bottom_y": 182821,
+      "confidence": 0.395,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty clay-shale"
+      ]
+    },
+    {
+      "top_depth": 3671.5,
+      "bottom_depth": 3673.1,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 182821,
+      "bottom_y": 182890,
+      "confidence": 0.208,
+      "ambiguous": true,
+      "alternatives": [
+        "Calcareous",
+        "Chalk",
+        "Dolomitic Limestone"
+      ]
+    },
+    {
+      "top_depth": 3673.1,
+      "bottom_depth": 3676.43,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 182890,
+      "bottom_y": 183033,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3676.43,
+      "bottom_depth": 3689.07,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 183033,
+      "bottom_y": 183577,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3689.07,
+      "bottom_depth": 3695.36,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 183577,
+      "bottom_y": 183848,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3695.36,
+      "bottom_depth": 3727.83,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 183848,
+      "bottom_y": 185245,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3727.83,
+      "bottom_depth": 3744.07,
       "lithology": "rock",
-      "confidence": 0.093,
+      "cluster_id": 2,
+      "top_y": 185245,
+      "bottom_y": 185944,
+      "confidence": 0.114,
+      "ambiguous": false,
       "alternatives": [
         "Fine Sand",
         "Coarse Sand"
-      ],
+      ]
+    },
+    {
+      "top_depth": 3744.07,
+      "bottom_depth": 3745.4,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 185944,
+      "bottom_y": 186001,
+      "confidence": 0.99,
       "ambiguous": false,
-      "y_top_px": 202992,
-      "y_base_px": 208873
+      "alternatives": []
+    },
+    {
+      "top_depth": 3745.4,
+      "bottom_depth": 3763.06,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 186001,
+      "bottom_y": 186761,
+      "confidence": 0.114,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 3763.06,
+      "bottom_depth": 3764.33,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 186761,
+      "bottom_y": 186816,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3764.33,
+      "bottom_depth": 3778.51,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 186816,
+      "bottom_y": 187426,
+      "confidence": 0.114,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 3778.51,
+      "bottom_depth": 3779.51,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 187426,
+      "bottom_y": 187469,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3779.51,
+      "bottom_depth": 3791.48,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 187469,
+      "bottom_y": 187984,
+      "confidence": 0.114,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 3791.48,
+      "bottom_depth": 3795.84,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 187984,
+      "bottom_y": 188172,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3795.84,
+      "bottom_depth": 3798.98,
+      "lithology": "Silty clay-shale",
+      "cluster_id": 11,
+      "top_y": 188172,
+      "bottom_y": 188307,
+      "confidence": 0.133,
+      "ambiguous": false,
+      "alternatives": [
+        "Clay-shale",
+        "Mud gain",
+        "Mud loss"
+      ]
+    },
+    {
+      "top_depth": 3798.98,
+      "bottom_depth": 3804.58,
+      "lithology": "Clay-shale",
+      "cluster_id": 8,
+      "top_y": 188307,
+      "bottom_y": 188548,
+      "confidence": 0.026,
+      "ambiguous": true,
+      "alternatives": [
+        "Silty clay-shale"
+      ]
+    },
+    {
+      "top_depth": 3804.58,
+      "bottom_depth": 3811.79,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 188548,
+      "bottom_y": 188858,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3811.79,
+      "bottom_depth": 3817.6,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 188858,
+      "bottom_y": 189108,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3817.6,
+      "bottom_depth": 3818.59,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 189108,
+      "bottom_y": 189151,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3818.59,
+      "bottom_depth": 3823.34,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 189151,
+      "bottom_y": 189355,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3823.34,
+      "bottom_depth": 3826.1,
+      "lithology": "Dry",
+      "cluster_id": 6,
+      "top_y": 189355,
+      "bottom_y": 189474,
+      "confidence": 0.011,
+      "ambiguous": true,
+      "alternatives": [
+        "rock",
+        "FIT",
+        "Mud gain"
+      ]
+    },
+    {
+      "top_depth": 3826.1,
+      "bottom_depth": 3832.17,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 189474,
+      "bottom_y": 189735,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3832.17,
+      "bottom_depth": 3833.3,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 189735,
+      "bottom_y": 189784,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3833.3,
+      "bottom_depth": 3850.9,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 189784,
+      "bottom_y": 190541,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3850.9,
+      "bottom_depth": 3852.75,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 190541,
+      "bottom_y": 190621,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3852.75,
+      "bottom_depth": 3855.01,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 190621,
+      "bottom_y": 190718,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3855.01,
+      "bottom_depth": 3868.7,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 190718,
+      "bottom_y": 191307,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3868.7,
+      "bottom_depth": 3869.83,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 191307,
+      "bottom_y": 191356,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3869.83,
+      "bottom_depth": 3879.41,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 191356,
+      "bottom_y": 191768,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3879.41,
+      "bottom_depth": 3880.85,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 191768,
+      "bottom_y": 191830,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3880.85,
+      "bottom_depth": 3883.31,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 191830,
+      "bottom_y": 191936,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3883.31,
+      "bottom_depth": 3885.94,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 191936,
+      "bottom_y": 192049,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3885.94,
+      "bottom_depth": 3891.58,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 192049,
+      "bottom_y": 192292,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3891.58,
+      "bottom_depth": 3893.0,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 192292,
+      "bottom_y": 192353,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3893.0,
+      "bottom_depth": 3899.09,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 192353,
+      "bottom_y": 192615,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3899.09,
+      "bottom_depth": 3901.28,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 192615,
+      "bottom_y": 192709,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3901.28,
+      "bottom_depth": 3903.92,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 192709,
+      "bottom_y": 192823,
+      "confidence": 0.114,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 3903.92,
+      "bottom_depth": 3907.18,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 192823,
+      "bottom_y": 192963,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3907.18,
+      "bottom_depth": 3909.43,
+      "lithology": "rock",
+      "cluster_id": 14,
+      "top_y": 192963,
+      "bottom_y": 193060,
+      "confidence": 0.099,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 3909.43,
+      "bottom_depth": 3910.87,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 193060,
+      "bottom_y": 193122,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3910.87,
+      "bottom_depth": 3925.51,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 193122,
+      "bottom_y": 193752,
+      "confidence": 0.114,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 3925.51,
+      "bottom_depth": 3926.56,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 193752,
+      "bottom_y": 193797,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3926.56,
+      "bottom_depth": 3930.07,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 193797,
+      "bottom_y": 193948,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3930.07,
+      "bottom_depth": 3932.9,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 193948,
+      "bottom_y": 194070,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3932.9,
+      "bottom_depth": 3938.8,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 194070,
+      "bottom_y": 194324,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3938.8,
+      "bottom_depth": 3940.31,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 194324,
+      "bottom_y": 194389,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3940.31,
+      "bottom_depth": 3945.45,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 194389,
+      "bottom_y": 194610,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3945.45,
+      "bottom_depth": 3947.82,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 194610,
+      "bottom_y": 194712,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3947.82,
+      "bottom_depth": 3955.23,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 194712,
+      "bottom_y": 195031,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3955.23,
+      "bottom_depth": 3957.12,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 195031,
+      "bottom_y": 195112,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3957.12,
+      "bottom_depth": 3966.55,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 195112,
+      "bottom_y": 195518,
+      "confidence": 0.114,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 3966.55,
+      "bottom_depth": 3971.85,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 195518,
+      "bottom_y": 195746,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3971.85,
+      "bottom_depth": 3975.26,
+      "lithology": "Dry",
+      "cluster_id": 6,
+      "top_y": 195746,
+      "bottom_y": 195893,
+      "confidence": 0.011,
+      "ambiguous": true,
+      "alternatives": [
+        "rock",
+        "FIT",
+        "Mud gain"
+      ]
+    },
+    {
+      "top_depth": 3975.26,
+      "bottom_depth": 3978.4,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 195893,
+      "bottom_y": 196028,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3978.4,
+      "bottom_depth": 3984.4,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 196028,
+      "bottom_y": 196286,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3984.4,
+      "bottom_depth": 3986.3,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 196286,
+      "bottom_y": 196368,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3986.3,
+      "bottom_depth": 3990.42,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 196368,
+      "bottom_y": 196545,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3990.42,
+      "bottom_depth": 3993.78,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 196545,
+      "bottom_y": 196690,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3993.78,
+      "bottom_depth": 3996.92,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 196690,
+      "bottom_y": 196825,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 3996.92,
+      "bottom_depth": 3998.25,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 196825,
+      "bottom_y": 196882,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3998.25,
+      "bottom_depth": 4001.31,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 196882,
+      "bottom_y": 197014,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4001.31,
+      "bottom_depth": 4005.01,
+      "lithology": "Dry",
+      "cluster_id": 6,
+      "top_y": 197014,
+      "bottom_y": 197173,
+      "confidence": 0.011,
+      "ambiguous": true,
+      "alternatives": [
+        "rock",
+        "FIT",
+        "Mud gain"
+      ]
+    },
+    {
+      "top_depth": 4005.01,
+      "bottom_depth": 4007.7,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 197173,
+      "bottom_y": 197289,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4007.7,
+      "bottom_depth": 4011.84,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 197289,
+      "bottom_y": 197467,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4011.84,
+      "bottom_depth": 4015.07,
+      "lithology": "Dry",
+      "cluster_id": 6,
+      "top_y": 197467,
+      "bottom_y": 197606,
+      "confidence": 0.011,
+      "ambiguous": true,
+      "alternatives": [
+        "rock",
+        "FIT",
+        "Mud gain"
+      ]
+    },
+    {
+      "top_depth": 4015.07,
+      "bottom_depth": 4019.07,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 197606,
+      "bottom_y": 197778,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4019.07,
+      "bottom_depth": 4020.58,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 197778,
+      "bottom_y": 197843,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4020.58,
+      "bottom_depth": 4037.66,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 197843,
+      "bottom_y": 198578,
+      "confidence": 0.114,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 4037.66,
+      "bottom_depth": 4039.56,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 198578,
+      "bottom_y": 198660,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4039.56,
+      "bottom_depth": 4043.07,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 198660,
+      "bottom_y": 198811,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4043.07,
+      "bottom_depth": 4049.07,
+      "lithology": "Dry",
+      "cluster_id": 6,
+      "top_y": 198811,
+      "bottom_y": 199069,
+      "confidence": 0.011,
+      "ambiguous": true,
+      "alternatives": [
+        "rock",
+        "FIT",
+        "Mud gain"
+      ]
+    },
+    {
+      "top_depth": 4049.07,
+      "bottom_depth": 4065.22,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 199069,
+      "bottom_y": 199764,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4065.22,
+      "bottom_depth": 4067.12,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 199764,
+      "bottom_y": 199846,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4067.12,
+      "bottom_depth": 4070.26,
+      "lithology": "rock",
+      "cluster_id": 2,
+      "top_y": 199846,
+      "bottom_y": 199981,
+      "confidence": 0.114,
+      "ambiguous": false,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ]
+    },
+    {
+      "top_depth": 4070.26,
+      "bottom_depth": 4071.89,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 199981,
+      "bottom_y": 200051,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4071.89,
+      "bottom_depth": 4077.93,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 200051,
+      "bottom_y": 200311,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4077.93,
+      "bottom_depth": 4079.93,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 200311,
+      "bottom_y": 200397,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4079.93,
+      "bottom_depth": 4082.23,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 200397,
+      "bottom_y": 200496,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4082.23,
+      "bottom_depth": 4087.27,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 200496,
+      "bottom_y": 200713,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4087.27,
+      "bottom_depth": 4090.11,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 200713,
+      "bottom_y": 200835,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4090.11,
+      "bottom_depth": 4092.2,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 200835,
+      "bottom_y": 200925,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4092.2,
+      "bottom_depth": 4096.73,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 200925,
+      "bottom_y": 201120,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4096.73,
+      "bottom_depth": 4098.08,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 201120,
+      "bottom_y": 201178,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4098.08,
+      "bottom_depth": 4101.61,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 201178,
+      "bottom_y": 201330,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4101.61,
+      "bottom_depth": 4107.86,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 201330,
+      "bottom_y": 201599,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4107.86,
+      "bottom_depth": 4109.0,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 201599,
+      "bottom_y": 201648,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4109.0,
+      "bottom_depth": 4116.9,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 201648,
+      "bottom_y": 201988,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4116.9,
+      "bottom_depth": 4118.32,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 201988,
+      "bottom_y": 202049,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4118.32,
+      "bottom_depth": 4122.87,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 202049,
+      "bottom_y": 202245,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4122.87,
+      "bottom_depth": 4124.29,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 202245,
+      "bottom_y": 202306,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4124.29,
+      "bottom_depth": 4129.84,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 202306,
+      "bottom_y": 202545,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4129.84,
+      "bottom_depth": 4131.89,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 202545,
+      "bottom_y": 202633,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4131.89,
+      "bottom_depth": 4139.39,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 202633,
+      "bottom_y": 202956,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4139.39,
+      "bottom_depth": 4146.04,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 202956,
+      "bottom_y": 203242,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4146.04,
+      "bottom_depth": 4147.11,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 203242,
+      "bottom_y": 203288,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4147.11,
+      "bottom_depth": 4161.42,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 203288,
+      "bottom_y": 203904,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4161.42,
+      "bottom_depth": 4165.72,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 203904,
+      "bottom_y": 204089,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4165.72,
+      "bottom_depth": 4167.74,
+      "lithology": "Silty clay-shale",
+      "cluster_id": 11,
+      "top_y": 204089,
+      "bottom_y": 204176,
+      "confidence": 0.133,
+      "ambiguous": false,
+      "alternatives": [
+        "Clay-shale",
+        "Mud gain",
+        "Mud loss"
+      ]
+    },
+    {
+      "top_depth": 4167.74,
+      "bottom_depth": 4173.88,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 204176,
+      "bottom_y": 204440,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4173.88,
+      "bottom_depth": 4183.68,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 204440,
+      "bottom_y": 204862,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4183.68,
+      "bottom_depth": 4186.15,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 204862,
+      "bottom_y": 204968,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4186.15,
+      "bottom_depth": 4190.59,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 204968,
+      "bottom_y": 205159,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4190.59,
+      "bottom_depth": 4195.16,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 205159,
+      "bottom_y": 205356,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4195.16,
+      "bottom_depth": 4210.92,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 205356,
+      "bottom_y": 206034,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4210.92,
+      "bottom_depth": 4216.82,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 206034,
+      "bottom_y": 206288,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4216.82,
+      "bottom_depth": 4225.35,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 206288,
+      "bottom_y": 206655,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4225.35,
+      "bottom_depth": 4227.65,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 206655,
+      "bottom_y": 206754,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4227.65,
+      "bottom_depth": 4233.25,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 206754,
+      "bottom_y": 206995,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4233.25,
+      "bottom_depth": 4235.11,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 206995,
+      "bottom_y": 207075,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4235.11,
+      "bottom_depth": 4250.73,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 207075,
+      "bottom_y": 207747,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
+    },
+    {
+      "top_depth": 4250.73,
+      "bottom_depth": 4253.86,
+      "lithology": "Clay-shale",
+      "cluster_id": 1,
+      "top_y": 207747,
+      "bottom_y": 207882,
+      "confidence": 0.99,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4253.86,
+      "bottom_depth": 4257.42,
+      "lithology": "Fine Sand",
+      "cluster_id": 3,
+      "top_y": 207882,
+      "bottom_y": 208035,
+      "confidence": 0.947,
+      "ambiguous": false,
+      "alternatives": [
+        "Coarse Sand",
+        "rock"
+      ]
     }
-  ],
-  "seconds": 29.8
+  ]
 }

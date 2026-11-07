@@ -1,11 +1,91 @@
 {
   "image": "0000000009_d-582_0000020435-0001_log05_chromatograph_ratio.tif",
+  "image_size": [
+    4864,
+    13051
+  ],
   "depth_fit": {
     "px_per_ft": 20.0317,
     "labels_used": 18,
     "labels_read": 18,
-    "mean_residual_ft": 0.078,
-    "label_rotation_deg": 90
+    "labels_rejected": 0,
+    "mean_residual_ft": 0.104,
+    "label_rotation_deg": 90,
+    "chunks_ocrd": "2/2",
+    "labels": [
+      [
+        4587.0,
+        24960.0
+      ],
+      [
+        4975.0,
+        24980.0
+      ],
+      [
+        5786.5,
+        25020.0
+      ],
+      [
+        6183.5,
+        25040.0
+      ],
+      [
+        6586.0,
+        25060.0
+      ],
+      [
+        6985.5,
+        25080.0
+      ],
+      [
+        7387.0,
+        25100.0
+      ],
+      [
+        7786.5,
+        25120.0
+      ],
+      [
+        8189.0,
+        25140.0
+      ],
+      [
+        8590.0,
+        25160.0
+      ],
+      [
+        8990.0,
+        25180.0
+      ],
+      [
+        9391.0,
+        25200.0
+      ],
+      [
+        9791.0,
+        25220.0
+      ],
+      [
+        10192.5,
+        25240.0
+      ],
+      [
+        10591.5,
+        25260.0
+      ],
+      [
+        10992.5,
+        25280.0
+      ],
+      [
+        11391.0,
+        25300.0
+      ],
+      [
+        11792.5,
+        25320.0
+      ]
+    ]
   },
   "legend": [
     {
@@ -35,16 +115,6 @@
         1634,
         2940,
         1755
-      ],
-      "white": false
-    },
-    {
-      "name": "Coal",
-      "box": [
-        2010,
-        1866,
-        2182,
-        1989
       ],
       "white": false
     },
@@ -79,7 +149,7 @@
       "white": false
     },
     {
-      "name": "Sand and Sandstone",
+      "name": "Sandstone",
       "box": [
         2263,
         2133,
@@ -99,6 +169,16 @@
       "white": false
     },
     {
+      "name": "Coal",
+      "box": [
+        2010,
+        1866,
+        2182,
+        1989
+      ],
+      "white": false
+    },
+    {
       "name": "Anhydrite",
       "box": [
         2516,
@@ -109,378 +189,328 @@
       "white": false
     }
   ],
+  "identical_legend_symbols": [
+    [
+      "Clay",
+      "Shale"
+    ]
+  ],
   "n_groups": 9,
+  "snap_grid": {
+    "step_ft": 10.0,
+    "tolerance_ft": 1.5,
+    "on_grid_fraction": 0.864,
+    "boundaries_snapped": 21,
+    "short_piece_edges_moved_to_grid": 2,
+    "slivers_absorbed": 0
+  },
+  "warnings": [],
+  "timings_s": {
+    "depth": 0.58,
+    "segment": 0.2,
+    "legend": 0.84,
+    "intervals": 0.07,
+    "total": 1.69
+  },
   "intervals": [
     {
-      "top_ft": 24949.95,
-      "base_ft": 24961.73,
-      "group": 4,
+      "top_depth": 24950.0,
+      "bottom_depth": 24960.0,
       "lithology": "Siltstone",
+      "cluster_id": 4,
+      "top_y": 4387,
+      "bottom_y": 4587,
       "confidence": 0.716,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 4381,
-      "y_base_px": 4617
+      "alternatives": []
     },
     {
-      "top_ft": 24961.73,
-      "base_ft": 24969.72,
-      "group": 2,
-      "lithology": "Clay",
-      "confidence": 0.13,
+      "top_depth": 24960.0,
+      "bottom_depth": 24970.0,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 4587,
+      "bottom_y": 4781,
+      "confidence": 0.225,
+      "ambiguous": true,
       "alternatives": [
-        "Shale",
+        "Clay",
         "Silty",
         "Dolomite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 4617,
-      "y_base_px": 4777
+      ]
     },
     {
-      "top_ft": 24969.72,
-      "base_ft": 24980.45,
-      "group": 3,
-      "lithology": "Sand and Sandstone",
+      "top_depth": 24970.0,
+      "bottom_depth": 24980.0,
+      "lithology": "Sandstone",
+      "cluster_id": 3,
+      "top_y": 4781,
+      "bottom_y": 4975,
       "confidence": 0.204,
+      "ambiguous": true,
       "alternatives": [
         "Anhydrite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 4777,
-      "y_base_px": 4992
+      ]
     },
     {
-      "top_ft": 24980.45,
-      "base_ft": 24988.49,
-      "group": 2,
-      "lithology": "Clay",
-      "confidence": 0.13,
+      "top_depth": 24980.0,
+      "bottom_depth": 25000.0,
+      "lithology": "Shale",
+      "cluster_id": 1,
+      "top_y": 4975,
+      "bottom_y": 5381,
+      "confidence": 0.571,
+      "ambiguous": true,
       "alternatives": [
-        "Shale",
+        "Clay",
         "Silty",
         "Dolomite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 4992,
-      "y_base_px": 5153
+      ]
     },
     {
-      "top_ft": 24988.49,
-      "base_ft": 24999.77,
-      "group": 1,
-      "lithology": "Clay",
-      "confidence": 0.15,
+      "top_depth": 25000.0,
+      "bottom_depth": 25010.0,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 5381,
+      "bottom_y": 5584,
+      "confidence": 0.757,
+      "ambiguous": false,
       "alternatives": [
-        "Shale",
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 25010.0,
+      "bottom_depth": 25020.0,
+      "lithology": "Shale",
+      "cluster_id": 1,
+      "top_y": 5584,
+      "bottom_y": 5786,
+      "confidence": 0.571,
+      "ambiguous": true,
+      "alternatives": [
+        "Clay",
         "Silty",
         "Dolomite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 5153,
-      "y_base_px": 5379
+      ]
     },
     {
-      "top_ft": 24999.77,
-      "base_ft": 25010.46,
-      "group": 0,
-      "lithology": "Sand and Sandstone",
+      "top_depth": 25020.0,
+      "bottom_depth": 25040.0,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 5786,
+      "bottom_y": 6184,
       "confidence": 0.757,
+      "ambiguous": false,
       "alternatives": [
         "Anhydrite"
-      ],
-      "ambiguous": false,
-      "y_top_px": 5379,
-      "y_base_px": 5593
+      ]
     },
     {
-      "top_ft": 25010.46,
-      "base_ft": 25019.24,
-      "group": 1,
-      "lithology": "Clay",
-      "confidence": 0.15,
+      "top_depth": 25040.0,
+      "bottom_depth": 25050.0,
+      "lithology": "Siltstone",
+      "cluster_id": 5,
+      "top_y": 6184,
+      "bottom_y": 6385,
+      "confidence": 0.706,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 25050.0,
+      "bottom_depth": 25080.0,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 6385,
+      "bottom_y": 6986,
+      "confidence": 0.757,
+      "ambiguous": false,
       "alternatives": [
-        "Shale",
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 25080.0,
+      "bottom_depth": 25090.0,
+      "lithology": "Siltstone",
+      "cluster_id": 5,
+      "top_y": 6986,
+      "bottom_y": 7186,
+      "confidence": 0.706,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 25090.0,
+      "bottom_depth": 25120.0,
+      "lithology": "Shale",
+      "cluster_id": 1,
+      "top_y": 7186,
+      "bottom_y": 7786,
+      "confidence": 0.571,
+      "ambiguous": true,
+      "alternatives": [
+        "Clay",
         "Silty",
         "Dolomite"
-      ],
+      ]
+    },
+    {
+      "top_depth": 25120.0,
+      "bottom_depth": 25130.0,
+      "lithology": "Siltstone",
+      "cluster_id": 5,
+      "top_y": 7786,
+      "bottom_y": 7988,
+      "confidence": 0.706,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 25130.0,
+      "bottom_depth": 25140.0,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 7988,
+      "bottom_y": 8189,
+      "confidence": 0.757,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 25140.0,
+      "bottom_depth": 25150.0,
+      "lithology": "Siltstone",
+      "cluster_id": 5,
+      "top_y": 8189,
+      "bottom_y": 8390,
+      "confidence": 0.706,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 25150.0,
+      "bottom_depth": 25180.0,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 8390,
+      "bottom_y": 8990,
+      "confidence": 0.757,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 25180.0,
+      "bottom_depth": 25190.0,
+      "lithology": "Siltstone",
+      "cluster_id": 5,
+      "top_y": 8990,
+      "bottom_y": 9190,
+      "confidence": 0.706,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 25190.0,
+      "bottom_depth": 25210.0,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 9190,
+      "bottom_y": 9591,
+      "confidence": 0.757,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 25210.0,
+      "bottom_depth": 25220.0,
+      "lithology": "Siltstone",
+      "cluster_id": 5,
+      "top_y": 9591,
+      "bottom_y": 9791,
+      "confidence": 0.706,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 25220.0,
+      "bottom_depth": 25240.0,
+      "lithology": "Shale",
+      "cluster_id": 1,
+      "top_y": 9791,
+      "bottom_y": 10192,
+      "confidence": 0.571,
       "ambiguous": true,
-      "y_top_px": 5593,
-      "y_base_px": 5769
-    },
-    {
-      "top_ft": 25019.24,
-      "base_ft": 25040.41,
-      "group": 0,
-      "lithology": "Sand and Sandstone",
-      "confidence": 0.757,
       "alternatives": [
-        "Anhydrite"
-      ],
-      "ambiguous": false,
-      "y_top_px": 5769,
-      "y_base_px": 6193
-    },
-    {
-      "top_ft": 25040.41,
-      "base_ft": 25049.89,
-      "group": 5,
-      "lithology": "Siltstone",
-      "confidence": 0.706,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 6193,
-      "y_base_px": 6383
-    },
-    {
-      "top_ft": 25049.89,
-      "base_ft": 25080.4,
-      "group": 0,
-      "lithology": "Sand and Sandstone",
-      "confidence": 0.757,
-      "alternatives": [
-        "Anhydrite"
-      ],
-      "ambiguous": false,
-      "y_top_px": 6383,
-      "y_base_px": 6994
-    },
-    {
-      "top_ft": 25080.4,
-      "base_ft": 25090.58,
-      "group": 5,
-      "lithology": "Siltstone",
-      "confidence": 0.706,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 6994,
-      "y_base_px": 7198
-    },
-    {
-      "top_ft": 25090.58,
-      "base_ft": 25119.03,
-      "group": 1,
-      "lithology": "Clay",
-      "confidence": 0.15,
-      "alternatives": [
-        "Shale",
+        "Clay",
         "Silty",
         "Dolomite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 7198,
-      "y_base_px": 7768
+      ]
     },
     {
-      "top_ft": 25119.03,
-      "base_ft": 25129.92,
-      "group": 5,
-      "lithology": "Siltstone",
-      "confidence": 0.706,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 7768,
-      "y_base_px": 7986
-    },
-    {
-      "top_ft": 25129.92,
-      "base_ft": 25140.45,
-      "group": 0,
-      "lithology": "Sand and Sandstone",
-      "confidence": 0.757,
-      "alternatives": [
-        "Anhydrite"
-      ],
-      "ambiguous": false,
-      "y_top_px": 7986,
-      "y_base_px": 8197
-    },
-    {
-      "top_ft": 25140.45,
-      "base_ft": 25149.84,
-      "group": 5,
-      "lithology": "Siltstone",
-      "confidence": 0.706,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 8197,
-      "y_base_px": 8385
-    },
-    {
-      "top_ft": 25149.84,
-      "base_ft": 25180.44,
-      "group": 0,
-      "lithology": "Sand and Sandstone",
-      "confidence": 0.757,
-      "alternatives": [
-        "Anhydrite"
-      ],
-      "ambiguous": false,
-      "y_top_px": 8385,
-      "y_base_px": 8998
-    },
-    {
-      "top_ft": 25180.44,
-      "base_ft": 25189.92,
-      "group": 5,
-      "lithology": "Siltstone",
-      "confidence": 0.706,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 8998,
-      "y_base_px": 9188
-    },
-    {
-      "top_ft": 25189.92,
-      "base_ft": 25210.39,
-      "group": 0,
-      "lithology": "Sand and Sandstone",
-      "confidence": 0.757,
-      "alternatives": [
-        "Anhydrite"
-      ],
-      "ambiguous": false,
-      "y_top_px": 9188,
-      "y_base_px": 9598
-    },
-    {
-      "top_ft": 25210.39,
-      "base_ft": 25220.87,
-      "group": 5,
-      "lithology": "Siltstone",
-      "confidence": 0.706,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 9598,
-      "y_base_px": 9808
-    },
-    {
-      "top_ft": 25220.87,
-      "base_ft": 25235.65,
-      "group": 1,
-      "lithology": "Clay",
-      "confidence": 0.15,
-      "alternatives": [
-        "Shale",
-        "Silty",
-        "Dolomite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 9808,
-      "y_base_px": 10104
-    },
-    {
-      "top_ft": 25235.65,
-      "base_ft": 25239.14,
-      "group": 2,
-      "lithology": "Clay",
-      "confidence": 0.13,
-      "alternatives": [
-        "Shale",
-        "Silty",
-        "Dolomite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 10104,
-      "y_base_px": 10174
-    },
-    {
-      "top_ft": 25239.14,
-      "base_ft": 25251.57,
-      "group": 3,
-      "lithology": "Sand and Sandstone",
+      "top_depth": 25240.0,
+      "bottom_depth": 25251.55,
+      "lithology": "Sandstone",
+      "cluster_id": 3,
+      "top_y": 10192,
+      "bottom_y": 10423,
       "confidence": 0.204,
+      "ambiguous": true,
       "alternatives": [
         "Anhydrite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 10174,
-      "y_base_px": 10423
+      ]
     },
     {
-      "top_ft": 25251.57,
-      "base_ft": 25256.62,
-      "group": 2,
-      "lithology": "Clay",
-      "confidence": 0.13,
+      "top_depth": 25251.55,
+      "bottom_depth": 25280.0,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 10423,
+      "bottom_y": 10992,
+      "confidence": 0.225,
+      "ambiguous": true,
       "alternatives": [
-        "Shale",
+        "Clay",
         "Silty",
         "Dolomite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 10423,
-      "y_base_px": 10524
+      ]
     },
     {
-      "top_ft": 25256.62,
-      "base_ft": 25279.83,
-      "group": 2,
-      "lithology": "Clay",
-      "confidence": 0.13,
-      "alternatives": [
-        "Shale",
-        "Silty",
-        "Dolomite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 10524,
-      "y_base_px": 10989
-    },
-    {
-      "top_ft": 25279.83,
-      "base_ft": 25282.33,
-      "group": 3,
-      "lithology": "Sand and Sandstone",
-      "confidence": 0.204,
-      "alternatives": [
-        "Anhydrite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 10989,
-      "y_base_px": 11039
-    },
-    {
-      "top_ft": 25282.33,
-      "base_ft": 25286.52,
-      "group": 8,
-      "lithology": "Sand and Sandstone",
+      "top_depth": 25280.0,
+      "bottom_depth": 25290.0,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 10992,
+      "bottom_y": 11192,
       "confidence": 0.698,
-      "alternatives": [
-        "Anhydrite"
-      ],
       "ambiguous": false,
-      "y_top_px": 11039,
-      "y_base_px": 11123
-    },
-    {
-      "top_ft": 25286.52,
-      "base_ft": 25291.51,
-      "group": 7,
-      "lithology": "Sand and Sandstone",
-      "confidence": 0.157,
       "alternatives": [
         "Anhydrite"
-      ],
-      "ambiguous": true,
-      "y_top_px": 11123,
-      "y_base_px": 11223
+      ]
     },
     {
-      "top_ft": 25291.51,
-      "base_ft": 25300.2,
-      "group": 6,
+      "top_depth": 25290.0,
+      "bottom_depth": 25300.0,
       "lithology": "Silty",
+      "cluster_id": 6,
+      "top_y": 11192,
+      "bottom_y": 11391,
       "confidence": 0.273,
+      "ambiguous": false,
       "alternatives": [
         "Clay",
         "Shale",
         "Dolomite"
-      ],
-      "ambiguous": false,
-      "y_top_px": 11223,
-      "y_base_px": 11397
+      ]
     }
-  ],
-  "seconds": 1.5
+  ]
 }

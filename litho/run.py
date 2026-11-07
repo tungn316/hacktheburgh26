@@ -79,9 +79,13 @@ def main() -> None:
         try:
             r = run_file(img, js, a.out)
             amb = sum(iv["ambiguous"] for iv in r["intervals"])
+            grid = f"snap {r['snap_grid']['step_ft']:g} ft" if r["snap_grid"] else "no grid"
             print(f"[{i}/{len(pairs)}] {img.name[:60]:60} {len(r['intervals']):4d} intervals, "
-                  f"{r['n_groups']} groups, {r['depth_fit']['labels_used']} depth labels, "
-                  f"{amb} ambiguous, {r['seconds']}s", flush=True)
+                  f"{r['n_groups']} groups, {r['depth_fit']['labels_used']} depth labels "
+                  f"({r['depth_fit']['labels_rejected']} rejected), {grid}, {amb} ambiguous, "
+                  f"{r['timings_s']['total']}s", flush=True)
+            for w in r["warnings"]:
+                print(f"    warning: {w}", flush=True)
             ok += 1
         except Exception as e:  # keep going over a folder
             print(f"[{i}/{len(pairs)}] {img.name}: FAILED {type(e).__name__}: {e}", flush=True)

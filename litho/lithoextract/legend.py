@@ -3,19 +3,20 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+import difflib
+import re
+
 import cv2
 import numpy as np
 import pytesseract
 from PIL import Image
 
-import difflib
-
-from .features import describe, row_stats
+from .features import classify_pixels, describe, row_stats
 from .shape import shape_descriptor
 
 VOCAB = [
     "Limestone", "Dolomite", "Anhydrite", "Halite", "Salt", "Gypsum", "Coal", "Lignite", "Clay", "Claystone",
-    "Shale", "Mudstone", "Marl", "Siltstone", "Silty", "Sand", "Sandstone", "and", "Conglomerate", "Breccia",
+    "Shale", "Mudstone", "Marl", "Siltstone", "Silt", "Silty", "Sand", "Sandstone", "and", "Conglomerate", "Breccia",
     "Chert", "Tuff", "Volcanic", "Igneous", "Cement", "Calcareous", "Dolomitic", "Argillaceous", "Others",
 ]
 
@@ -27,6 +28,7 @@ class Swatch:
     descriptor: np.ndarray  # window-stat descriptor (same space as column rows)
     shape: np.ndarray  # scale-free stroke-shape descriptor, used for matching
     is_white: bool
+    ink: np.ndarray  # binary ink mask of the swatch interior, for spotting identical symbols
 
 
 def _nonwhite(rgb: np.ndarray) -> np.ndarray:
@@ -67,7 +69,10 @@ def _rects(mask: np.ndarray, close_px: int = 3) -> list[tuple[int, int, int, int
     return out
 
 
-def _text_lines(rgb: np.ndarray, scale: float) -> list[tuple[str, tuple[float, float, float, float]]]:
+def _text_lines(rgb: np.ndarray, scale: float, swatches=()) -> list[tuple[str, tuple[float, float, float, float]]]:
+    """OCR'd text lines. ``swatches`` are small drawn boxes: words inside them are pattern noise
+    ("i=", "fre]") and are dropped, and a line never continues across one, so the labels of two
+    legend columns side by side stay separate."""
     pil = Image.fromarray(rgb)
     if scale != 1:
         pil = pil.resize((int(pil.width * scale), int(pil.height * scale)), Image.LANCZOS)
@@ -77,7 +82,15 @@ def _text_lines(rgb: np.ndarray, scale: float) -> list[tuple[str, tuple[float, f
         t = t.strip()
         if t and float(d["conf"][i]) > 30 and any(ch.isalpha() for ch in t):
             l, tp, w, h = (d[k][i] / scale for k in ("left", "top", "width", "height"))
+            cx, cy = l + w / 2, tp + h / 2
+            if any(a <= cx <= c and b <= cy <= d for a, b, c, d in swatches):
+                continue
             words.append([t, l, tp, l + w, tp + h])
+
+    def box_between(L, w) -> bool:
+        return any(L[3] - 2 <= a and c <= w[1] + 2 and b < max(L[4], w[4]) and d > min(L[2], w[2])
+                   for a, b, c, d in swatches)
+
     # Join words into lines: similar vertical centre and small horizontal gap.
     words.sort(key=lambda w: (round((w[2] + w[4]) / 2 / 6), w[1]))
     lines: list[list] = []
@@ -85,7 +98,8 @@ def _text_lines(rgb: np.ndarray, scale: float) -> list[tuple[str, tuple[float, f
         if lines:
             L = lines[-1]
             hgt = max(w[4] - w[2], L[4] - L[2])
-            if abs((w[2] + w[4]) / 2 - (L[2] + L[4]) / 2) < 0.5 * hgt and 0 <= w[1] - L[3] < 1.5 * hgt:
+            if abs((w[2] + w[4]) / 2 - (L[2] + L[4]) / 2) < 0.5 * hgt and 0 <= w[1] - L[3] < 1.5 * hgt \
+                    and not box_between(L, w):
                 L[0] += " " + w[0]
                 L[3], L[2], L[4] = w[3], min(L[2], w[2]), max(L[4], w[4])
                 continue
@@ -113,9 +127,10 @@ def _assign_labels(rects, lines) -> dict[tuple, str]:
             right = -6 <= a - x1 <= max(1.5 * w, 40) and y0 - 0.5 * th <= cy <= y1 + 0.5 * th
             below = -6 <= b - y1 <= 1.3 * h and x0 - 0.25 * w <= cx <= x1 + 0.25 * w
             if right or below:
-                cands.append(((x1 - x0) * (y1 - y0), r))
+                gap = max(0.0, a - x1) if right else max(0.0, b - y1)
+                cands.append((round(gap / 4), not right, -(x1 - x0) * (y1 - y0), r))
         if cands:
-            r = max(cands)[1]
+            r = min(cands)[3]  # the nearest box; on a tie one to the left beats one above, then the largest
             hits.setdefault(r, []).append((cy, a, t, th))
     out = {}
     for r, v in hits.items():
@@ -143,6 +158,19 @@ def _clean(name: str) -> str:
     return " ".join(out)
 
 
+def canonical_name(name: str) -> str:
+    """Collapse "X and Xy" legend names onto the specific rock: "Sand and Sandstone" -> "Sandstone".
+
+    Only when one half is a prefix of the other, so genuine mixtures ("Shale and Clay") are kept.
+    """
+    parts = [p.strip() for p in re.split(r"\s+(?:and|&)\s+|\s*/\s*", name.strip(), flags=re.I)]
+    if len(parts) == 2 and all(parts):
+        a, b = sorted(parts, key=len)
+        if b.lower().startswith(a.lower()):
+            return b
+    return name.strip()
+
+
 def _ocr_strip(rgb: np.ndarray, scale: float) -> str:
     pil = Image.fromarray(rgb)
     pil = pil.resize((int(pil.width * scale * 2), int(pil.height * scale * 2)), Image.LANCZOS)
@@ -154,10 +182,19 @@ def parse_legend(page, px_per_ft: float, box=None) -> list[Swatch]:
     x0, y0, x1, y1 = box or page.boxes["lithology_legend"]
     rgb = page.crop((x0, y0, x1, y1))
     scale = max(1.0, 300.0 / page.dpi) if page.dpi else 2.0
-    lines = _text_lines(rgb, scale)
     out = []
     close_px = max(3, int(round((page.dpi or 150) / 100)) + 1)
-    rects = _rects(_nonwhite(rgb), close_px)
+    # Closing bridges broken outlines on scans, but also glues swatches stacked with a 1-2 px gap
+    # into one tall blob; detect both ways and keep every rectangle found.
+    nw = _nonwhite(rgb)
+    rects = list(dict.fromkeys(_rects(nw, close_px) + _rects(nw, 1)))
+    # Swatch-sized boxes: at least ~0.15 in on a side (letter outlines are smaller), small next to
+    # the legend, and with no other swatch-sized box inside (that would be a frame).
+    min_side = 0.15 * (page.dpi or 150)
+    sized = [r for r in rects if min(r[2] - r[0], r[3] - r[1]) >= min_side and (r[2] - r[0]) * (r[3] - r[1]) < 0.05 * nw.size]
+    small = [r for r in sized
+             if not any(q != r and r[0] <= q[0] and q[2] <= r[2] and r[1] <= q[1] and q[3] <= r[3] for q in sized)]
+    lines = _text_lines(rgb, scale, small)
     labelled = _assign_labels(rects, lines)
     # Fallback: rectangles the same size as labelled swatches but with no label → OCR the strip
     # where the label should be (to the right or below, following the labelled ones).
@@ -170,13 +207,17 @@ def parse_legend(page, px_per_ft: float, box=None) -> list[Swatch]:
             if any(abs(r[0] - k[0]) < 5 and abs(r[1] - k[1]) < 5 for k in labelled):
                 continue
             a, b, c, d = r
-            strip = rgb[d : int(d + 0.9 * hs), a : c] if below_layout else rgb[b:d, c : int(c + 4 * ws)]
+            if below_layout:
+                strip = rgb[d : int(d + 0.9 * hs), a : c]
+            else:  # up to the next swatch on the same row, so the next column's label is not read too
+                right_edge = min([q[0] for q in small if q[0] > c and q[1] < d and q[3] > b] + [int(c + 4 * ws)])
+                strip = rgb[b:d, c : right_edge - 2]
             if strip.size:
                 t = _ocr_strip(strip, scale)
                 if t:
                     labelled[r] = t
     for r, name in labelled.items():
-        name = _clean(name)
+        name = canonical_name(_clean(name))
         a, b, c, d = r
         inset = max(3, int(0.08 * min(c - a, d - b)))
         inner = rgb[b + inset : d - inset, a + inset : c - inset]
@@ -185,5 +226,24 @@ def parse_legend(page, px_per_ft: float, box=None) -> list[Swatch]:
         st, _ = row_stats(inner)
         desc = describe(st.sum(0), len(st), inner.shape[1], px_per_ft)
         is_white = bool(desc[0] < 0.01 and desc[2:-2].sum() < 0.02)
-        out.append(Swatch(name, (x0 + a, y0 + b, x0 + c, y0 + d), desc, shape_descriptor(inner), is_white))
+        out.append(Swatch(name, (x0 + a, y0 + b, x0 + c, y0 + d), desc, shape_descriptor(inner), is_white,
+                          classify_pixels(inner)[0]))
     return out
+
+
+def ink_similarity(a: np.ndarray, b: np.ndarray, tol_px: int = 2) -> float:
+    """Share of each swatch's ink that the other has within tol_px (the worse of the two directions).
+
+    1.0 means the two legend symbols are drawn identically (e.g. Clay and Shale on some logs).
+    """
+    h, w = min(a.shape[0], b.shape[0]), min(a.shape[1], b.shape[1])
+    if h < 4 or w < 4:
+        return 0.0
+    A = cv2.resize(a.astype(np.uint8), (w, h), interpolation=cv2.INTER_NEAREST)
+    B = cv2.resize(b.astype(np.uint8), (w, h), interpolation=cv2.INTER_NEAREST)
+    k = np.ones((2 * tol_px + 1, 2 * tol_px + 1), np.uint8)
+    dA, dB = cv2.dilate(A, k) > 0, cv2.dilate(B, k) > 0
+    A, B = A > 0, B > 0
+    if A.sum() < 20 or B.sum() < 20:
+        return 0.0
+    return float(min((A & dB).sum() / A.sum(), (B & dA).sum() / B.sum()))

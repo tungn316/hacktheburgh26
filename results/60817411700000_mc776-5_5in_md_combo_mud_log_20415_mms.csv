@@ -1,173 +1,156 @@
-top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
-9990.43,10599.12,0,Halite,0.746,False,
-10599.12,10600.42,-1,Silty Shale,0.8,False,
-10600.42,10848.82,0,Halite,0.746,False,
-10848.82,10851.22,4,Halite,0.483,False,
-10851.22,11687.42,0,Halite,0.746,False,
-11687.42,11700.42,-1,Silty Shale,0.8,False,
-11700.42,12048.92,0,Halite,0.746,False,
-12048.92,12051.72,2,Oil_Moderate,0.063,False,Oil_Good|Halite
-12051.72,12299.02,0,Halite,0.746,False,
-12299.02,12300.42,-1,Silty Shale,0.8,False,
-12300.42,13825.61,0,Halite,0.746,False,
-13825.61,13858.81,-1,Silty Shale,0.8,False,
-13858.81,14983.3,-1,Silty Shale,0.8,False,
-14983.3,15010.7,-1,Silty Shale,0.8,False,
-15010.7,15027.1,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15027.1,15150.2,-1,Silty Shale,0.8,False,
-15150.2,15162.1,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15162.1,15170.5,-1,Silty Shale,0.8,False,
-15170.5,15175.8,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15175.8,15188.7,-1,Silty Shale,0.8,False,
-15188.7,15193.6,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15193.6,15205.5,-1,Silty Shale,0.8,False,
-15205.5,15210.8,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15210.8,15369.7,-1,Silty Shale,0.8,False,
-15369.7,15377.1,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15377.1,15380.9,-1,Silty Shale,0.8,False,
-15380.9,15384.4,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15384.4,15401.0,-1,Silty Shale,0.8,False,
-15401.0,15408.2,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15408.2,15413.1,-1,Silty Shale,0.8,False,
-15413.1,15419.1,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15419.1,15430.5,-1,Silty Shale,0.8,False,
-15430.5,15435.0,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15435.0,15441.6,-1,Silty Shale,0.8,False,
-15441.6,15447.5,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15447.5,15460.2,-1,Silty Shale,0.8,False,
-15460.2,15464.9,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15464.9,15477.6,-1,Silty Shale,0.8,False,
-15477.6,15480.6,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15480.6,15487.4,-1,Silty Shale,0.8,False,
-15487.4,15494.5,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15494.5,15505.0,-1,Silty Shale,0.8,False,
-15505.0,15510.7,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15510.7,15520.8,-1,Silty Shale,0.8,False,
-15520.8,15530.0,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15530.0,15593.8,-1,Silty Shale,0.8,False,
-15593.8,15600.3,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15600.3,15619.9,-1,Silty Shale,0.8,False,
-15619.9,15624.7,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15624.7,15649.2,-1,Silty Shale,0.8,False,
-15649.2,15650.8,-1,Silty Shale,0.8,False,
-15650.8,15680.2,-1,Silty Shale,0.8,False,
-15680.2,15685.1,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15685.1,15779.7,-1,Silty Shale,0.8,False,
-15779.7,15788.5,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15788.5,15847.8,-1,Silty Shale,0.8,False,
-15847.8,15858.0,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15858.0,15870.6,-1,Silty Shale,0.8,False,
-15870.6,15904.3,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15904.3,15908.2,-1,Silty Shale,0.8,False,
-15908.2,15913.6,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15913.6,15918.2,-1,Silty Shale,0.8,False,
-15918.2,15929.1,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15929.1,15930.7,-1,Silty Shale,0.8,False,
-15930.7,15939.9,-1,Silty Shale,0.8,False,
-15939.9,15943.1,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15943.1,15947.2,-1,Silty Shale,0.8,False,
-15947.2,15949.9,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15949.9,15973.0,-1,Silty Shale,0.8,False,
-15973.0,15978.4,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-15978.4,16239.2,-1,Silty Shale,0.8,False,
-16239.2,16240.8,-1,Silty Shale,0.8,False,
-16240.8,16252.3,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16252.3,16265.6,-1,Silty Shale,0.8,False,
-16265.6,16274.0,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16274.0,16299.8,-1,Silty Shale,0.8,False,
-16299.8,16306.0,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16306.0,16334.8,-1,Silty Shale,0.8,False,
-16334.8,16339.4,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16339.4,16360.1,-1,Silty Shale,0.8,False,
-16360.1,16364.3,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16364.3,16388.0,-1,Silty Shale,0.8,False,
-16388.0,16399.9,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16399.9,16438.8,-1,Silty Shale,0.8,False,
-16438.8,16455.8,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16455.8,16570.99,-1,Silty Shale,0.8,False,
-16570.99,16576.99,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16576.99,16597.79,-1,Silty Shale,0.8,False,
-16597.79,16604.99,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16604.99,16795.59,-1,Silty Shale,0.8,False,
-16795.59,16796.79,-1,Silty Shale,0.8,False,
-16796.79,16802.69,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16802.69,16844.59,-1,Silty Shale,0.8,False,
-16844.59,16848.59,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16848.59,16869.59,-1,Silty Shale,0.8,False,
-16869.59,16872.19,3,Marl,0.938,False,
-16872.19,16877.89,-1,Silty Shale,0.8,False,
-16877.89,16894.29,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16894.29,16926.29,-1,Silty Shale,0.8,False,
-16926.29,16944.69,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-16944.69,17231.99,-1,Silty Shale,0.8,False,
-17231.99,17234.39,-1,Silty Shale,0.8,False,
-17234.39,17242.19,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17242.19,17274.89,-1,Silty Shale,0.8,False,
-17274.89,17280.09,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17280.09,17298.89,-1,Silty Shale,0.8,False,
-17298.89,17305.29,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17305.29,17375.89,-1,Silty Shale,0.8,False,
-17375.89,17381.59,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17381.59,17400.19,-1,Silty Shale,0.8,False,
-17400.19,17401.29,-1,Silty Shale,0.8,False,
-17401.29,17406.79,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17406.79,17409.59,-1,Silty Shale,0.8,False,
-17409.59,17422.69,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17422.69,17425.09,-1,Silty Shale,0.8,False,
-17425.09,17430.49,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17430.49,17431.59,-1,Silty Shale,0.8,False,
-17431.59,17435.89,-1,Silty Shale,0.8,False,
-17435.89,17440.89,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17440.89,17451.19,-1,Silty Shale,0.8,False,
-17451.19,17453.99,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17453.99,17487.89,-1,Silty Shale,0.8,False,
-17487.89,17512.29,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17512.29,17782.79,-1,Silty Shale,0.8,False,
-17782.79,17783.89,-1,Silty Shale,0.8,False,
-17783.89,17791.89,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-17791.89,17997.59,-1,Silty Shale,0.8,False,
-17997.59,17998.89,-1,Silty Shale,0.8,False,
-17998.89,18115.49,-1,Silty Shale,0.8,False,
-18115.49,18174.19,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18174.19,18197.79,-1,Silty Shale,0.8,False,
-18197.79,18203.99,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18203.99,18303.69,-1,Silty Shale,0.8,False,
-18303.69,18306.79,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18306.79,18521.89,-1,Silty Shale,0.8,False,
-18521.89,18527.39,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18527.39,18580.88,-1,Silty Shale,0.8,False,
-18580.88,18585.48,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18585.48,18618.88,-1,Silty Shale,0.8,False,
-18618.88,18625.68,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18625.68,18637.88,-1,Silty Shale,0.8,False,
-18637.88,18641.48,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18641.48,18882.38,-1,Silty Shale,0.8,False,
-18882.38,18887.88,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18887.88,18893.78,-1,Silty Shale,0.8,False,
-18893.78,18896.38,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18896.38,18972.58,-1,Silty Shale,0.8,False,
-18972.58,18978.58,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-18978.58,19029.38,-1,Silty Shale,0.8,False,
-19029.38,19036.38,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-19036.38,19039.38,-1,Silty Shale,0.8,False,
-19039.38,19042.18,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-19042.18,19048.88,-1,Silty Shale,0.8,False,
-19048.88,19052.38,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-19052.38,19062.18,-1,Silty Shale,0.8,False,
-19062.18,19068.08,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-19068.08,19079.48,-1,Silty Shale,0.8,False,
-19079.48,19258.78,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-19258.78,19879.28,-1,Silty Shale,0.8,False,
-19879.28,19890.88,-1,Silty Shale,0.8,False,
-19890.88,19897.88,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-19897.88,19901.78,-1,Silty Shale,0.8,False,
-19901.78,19908.18,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-19908.18,19910.18,-1,Silty Shale,0.8,False,
-19910.18,19990.38,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-19990.38,19998.28,-1,Silty Shale,0.8,False,
-19998.28,20058.78,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-20058.78,20063.18,-1,Silty Shale,0.8,False,
-20063.18,20071.48,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
-20071.48,20405.88,-1,Silty Shale,0.8,False,
-20405.88,20411.48,-1,Silty Shale,0.8,False,
-20411.48,20415.48,1,Fine Sandstone,0.0,True,Mediurn Sandstone|Siltstone|Chert
+top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
+9990.43,10599.13,Halite,0,44105,50192
+10599.13,10600.43,Silty Shale,5,50192,50205
+10600.43,11687.43,Halite,0,50205,61075
+11687.43,11700.43,Silty Shale,5,61075,61205
+11700.43,12048.93,Halite,0,61205,64690
+12048.93,12051.73,Oil_Good,2,64690,64718
+12051.73,12299.03,Halite,0,64718,67191
+12299.03,12300.43,Silty Shale,5,67191,67205
+12300.43,13825.63,Halite,0,67205,82457
+13825.63,15010.73,Silty Shale,5,82457,94308
+15010.73,15027.13,Fine Sandstone,1,94308,94472
+15027.13,15150.23,Silty Shale,5,94472,95703
+15150.23,15162.13,Fine Sandstone,1,95703,95822
+15162.13,15170.53,Silty Shale,5,95822,95906
+15170.53,15175.83,Fine Sandstone,1,95906,95959
+15175.83,15188.73,Silty Shale,5,95959,96088
+15188.73,15193.63,Fine Sandstone,1,96088,96137
+15193.63,15205.53,Silty Shale,5,96137,96256
+15205.53,15210.83,Fine Sandstone,1,96256,96309
+15210.83,15369.73,Silty Shale,5,96309,97898
+15369.73,15377.13,Fine Sandstone,1,97898,97972
+15377.13,15380.93,Silty Shale,5,97972,98010
+15380.93,15384.43,Fine Sandstone,1,98010,98045
+15384.43,15401.03,Silty Shale,5,98045,98211
+15401.03,15408.23,Fine Sandstone,1,98211,98283
+15408.23,15413.13,Silty Shale,5,98283,98332
+15413.13,15419.13,Fine Sandstone,1,98332,98392
+15419.13,15430.53,Silty Shale,5,98392,98506
+15430.53,15435.03,Fine Sandstone,1,98506,98551
+15435.03,15441.63,Silty Shale,5,98551,98617
+15441.63,15447.53,Fine Sandstone,1,98617,98676
+15447.53,15460.23,Silty Shale,5,98676,98803
+15460.23,15464.93,Fine Sandstone,1,98803,98850
+15464.93,15477.63,Silty Shale,5,98850,98977
+15477.63,15480.63,Fine Sandstone,1,98977,99007
+15480.63,15487.43,Silty Shale,5,99007,99075
+15487.43,15494.53,Fine Sandstone,1,99075,99146
+15494.53,15505.03,Silty Shale,5,99146,99251
+15505.03,15510.73,Fine Sandstone,1,99251,99308
+15510.73,15520.83,Silty Shale,5,99308,99409
+15520.83,15530.03,Fine Sandstone,1,99409,99501
+15530.03,15593.83,Silty Shale,5,99501,100139
+15593.83,15600.33,Fine Sandstone,1,100139,100204
+15600.33,15619.93,Silty Shale,5,100204,100400
+15619.93,15624.73,Fine Sandstone,1,100400,100448
+15624.73,15680.23,Silty Shale,5,100448,101003
+15680.23,15685.13,Fine Sandstone,1,101003,101052
+15685.13,15779.73,Silty Shale,5,101052,101998
+15779.73,15788.53,Fine Sandstone,1,101998,102086
+15788.53,15847.83,Silty Shale,5,102086,102679
+15847.83,15858.03,Fine Sandstone,1,102679,102781
+15858.03,15870.63,Silty Shale,5,102781,102907
+15870.63,15904.33,Fine Sandstone,1,102907,103244
+15904.33,15908.23,Silty Shale,5,103244,103283
+15908.23,15913.63,Fine Sandstone,1,103283,103337
+15913.63,15918.23,Silty Shale,5,103337,103383
+15918.23,15929.13,Fine Sandstone,1,103383,103492
+15929.13,15939.93,Silty Shale,5,103492,103600
+15939.93,15943.13,Fine Sandstone,1,103600,103632
+15943.13,15947.23,Silty Shale,5,103632,103673
+15947.23,15949.93,Fine Sandstone,1,103673,103700
+15949.93,15973.03,Silty Shale,5,103700,103931
+15973.03,15978.43,Fine Sandstone,1,103931,103985
+15978.43,16240.83,Silty Shale,5,103985,106609
+16240.83,16252.33,Fine Sandstone,1,106609,106724
+16252.33,16265.63,Silty Shale,5,106724,106857
+16265.63,16274.03,Fine Sandstone,1,106857,106941
+16274.03,16299.83,Silty Shale,5,106941,107199
+16299.83,16306.03,Fine Sandstone,1,107199,107261
+16306.03,16334.83,Silty Shale,5,107261,107549
+16334.83,16339.43,Fine Sandstone,1,107549,107595
+16339.43,16360.13,Silty Shale,5,107595,107802
+16360.13,16364.33,Fine Sandstone,1,107802,107844
+16364.33,16388.03,Silty Shale,5,107844,108081
+16388.03,16399.93,Fine Sandstone,1,108081,108200
+16399.93,16438.83,Silty Shale,5,108200,108589
+16438.83,16455.83,Fine Sandstone,1,108589,108759
+16455.83,16571.03,Silty Shale,5,108759,109911
+16571.03,16577.03,Fine Sandstone,1,109911,109971
+16577.03,16597.83,Silty Shale,5,109971,110179
+16597.83,16605.02,Fine Sandstone,1,110179,110251
+16605.02,16796.81,Silty Shale,5,110251,112169
+16796.81,16802.71,Fine Sandstone,1,112169,112228
+16802.71,16844.6,Silty Shale,5,112228,112647
+16844.6,16848.6,Fine Sandstone,1,112647,112687
+16848.6,16869.6,Silty Shale,5,112687,112897
+16869.6,16872.2,Marl,3,112897,112923
+16872.2,16877.9,Silty Shale,5,112923,112980
+16877.9,16894.3,Fine Sandstone,1,112980,113144
+16894.3,16926.3,Silty Shale,5,113144,113464
+16926.3,16944.7,Fine Sandstone,1,113464,113648
+16944.7,17234.37,Silty Shale,5,113648,116545
+17234.37,17242.17,Fine Sandstone,1,116545,116623
+17242.17,17274.87,Silty Shale,5,116623,116950
+17274.87,17280.07,Fine Sandstone,1,116950,117002
+17280.07,17298.87,Silty Shale,5,117002,117190
+17298.87,17305.27,Fine Sandstone,1,117190,117254
+17305.27,17375.87,Silty Shale,5,117254,117960
+17375.87,17381.57,Fine Sandstone,1,117960,118017
+17381.57,17401.27,Silty Shale,5,118017,118214
+17401.27,17406.77,Fine Sandstone,1,118214,118269
+17406.77,17409.57,Silty Shale,5,118269,118297
+17409.57,17422.67,Fine Sandstone,1,118297,118428
+17422.67,17425.07,Silty Shale,5,118428,118452
+17425.07,17430.47,Fine Sandstone,1,118452,118506
+17430.47,17435.87,Silty Shale,5,118506,118560
+17435.87,17440.87,Fine Sandstone,1,118560,118610
+17440.87,17451.17,Silty Shale,5,118610,118713
+17451.17,17453.97,Fine Sandstone,1,118713,118741
+17453.97,17487.87,Silty Shale,5,118741,119080
+17487.87,17512.27,Fine Sandstone,1,119080,119324
+17512.27,17783.87,Silty Shale,5,119324,122040
+17783.87,17791.87,Fine Sandstone,1,122040,122120
+17791.87,18115.47,Silty Shale,5,122120,125356
+18115.47,18174.17,Fine Sandstone,1,125356,125943
+18174.17,18197.77,Silty Shale,5,125943,126179
+18197.77,18203.97,Fine Sandstone,1,126179,126241
+18203.97,18303.67,Silty Shale,5,126241,127238
+18303.67,18306.77,Fine Sandstone,1,127238,127269
+18306.77,18521.87,Silty Shale,5,127269,129420
+18521.87,18527.37,Fine Sandstone,1,129420,129475
+18527.37,18580.87,Silty Shale,5,129475,130010
+18580.87,18585.47,Fine Sandstone,1,130010,130056
+18585.47,18618.87,Silty Shale,5,130056,130390
+18618.87,18625.67,Fine Sandstone,1,130390,130458
+18625.67,18637.87,Silty Shale,5,130458,130580
+18637.87,18641.47,Fine Sandstone,1,130580,130616
+18641.47,18882.37,Silty Shale,5,130616,133025
+18882.37,18887.87,Fine Sandstone,1,133025,133080
+18887.87,18893.77,Silty Shale,5,133080,133139
+18893.77,18896.37,Fine Sandstone,1,133139,133165
+18896.37,18972.57,Silty Shale,5,133165,133927
+18972.57,18978.57,Fine Sandstone,1,133927,133987
+18978.57,19029.37,Silty Shale,5,133987,134495
+19029.37,19036.37,Fine Sandstone,1,134495,134565
+19036.37,19039.37,Silty Shale,5,134565,134595
+19039.37,19042.17,Fine Sandstone,1,134595,134623
+19042.17,19048.87,Silty Shale,5,134623,134690
+19048.87,19052.37,Fine Sandstone,1,134690,134725
+19052.37,19062.17,Silty Shale,5,134725,134823
+19062.17,19068.07,Fine Sandstone,1,134823,134882
+19068.07,19079.47,Silty Shale,5,134882,134996
+19079.47,19258.77,Fine Sandstone,1,134996,136789
+19258.77,19890.87,Silty Shale,5,136789,143110
+19890.87,19897.87,Fine Sandstone,1,143110,143180
+19897.87,19901.77,Silty Shale,5,143180,143219
+19901.77,19908.17,Fine Sandstone,1,143219,143283
+19908.17,19910.17,Silty Shale,5,143283,143303
+19910.17,19990.37,Fine Sandstone,1,143303,144105
+19990.37,19998.27,Silty Shale,5,144105,144184
+19998.27,20058.77,Fine Sandstone,1,144184,144789
+20058.77,20063.17,Silty Shale,5,144789,144833
+20063.17,20071.47,Fine Sandstone,1,144833,144916
+20071.47,20411.47,Silty Shale,5,144916,148316
+20411.47,20415.47,Fine Sandstone,1,148316,148356

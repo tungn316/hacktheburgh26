@@ -1,2336 +1,672 @@
-top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
-10051.18,10054.18,13,Halite,0.107,False,Sylvite
-10054.18,10054.93,42,Halite,0.149,False,Sylvite
-10054.93,10058.43,13,Halite,0.107,False,Sylvite
-10058.43,10059.18,42,Halite,0.149,False,Sylvite
-10059.18,10062.93,13,Halite,0.107,False,Sylvite
-10062.93,10063.68,42,Halite,0.149,False,Sylvite
-10063.68,10067.18,13,Halite,0.107,False,Sylvite
-10067.18,10067.93,42,Halite,0.149,False,Sylvite
-10067.93,10071.68,13,Halite,0.107,False,Sylvite
-10071.68,10072.43,42,Halite,0.149,False,Sylvite
-10072.43,10075.93,13,Halite,0.107,False,Sylvite
-10075.93,10076.68,42,Halite,0.149,False,Sylvite
-10076.68,10080.43,13,Halite,0.107,False,Sylvite
-10080.43,10081.18,42,Halite,0.149,False,Sylvite
-10081.18,10084.68,13,Halite,0.107,False,Sylvite
-10084.68,10085.43,42,Halite,0.149,False,Sylvite
-10085.43,10089.18,13,Halite,0.107,False,Sylvite
-10089.18,10089.93,42,Halite,0.149,False,Sylvite
-10089.93,10093.43,13,Halite,0.107,False,Sylvite
-10093.43,10094.18,42,Halite,0.149,False,Sylvite
-10094.18,10097.93,13,Halite,0.107,False,Sylvite
-10097.93,10098.68,42,Halite,0.149,False,Sylvite
-10098.68,10102.18,13,Halite,0.107,False,Sylvite
-10102.18,10102.93,42,Halite,0.149,False,Sylvite
-10102.93,10106.68,13,Halite,0.107,False,Sylvite
-10106.68,10107.43,42,Halite,0.149,False,Sylvite
-10107.43,10110.93,13,Halite,0.107,False,Sylvite
-10110.93,10111.68,42,Halite,0.149,False,Sylvite
-10111.68,10115.43,13,Halite,0.107,False,Sylvite
-10115.43,10116.18,42,Halite,0.149,False,Sylvite
-10116.18,10119.68,13,Halite,0.107,False,Sylvite
-10119.68,10120.43,42,Halite,0.149,False,Sylvite
-10120.43,10124.18,13,Halite,0.107,False,Sylvite
-10124.18,10124.93,42,Halite,0.149,False,Sylvite
-10124.93,10128.43,13,Halite,0.107,False,Sylvite
-10128.43,10129.18,42,Halite,0.149,False,Sylvite
-10129.18,10132.93,13,Halite,0.107,False,Sylvite
-10132.93,10133.68,42,Halite,0.149,False,Sylvite
-10133.68,10137.18,13,Halite,0.107,False,Sylvite
-10137.18,10137.93,42,Halite,0.149,False,Sylvite
-10137.93,10141.68,13,Halite,0.107,False,Sylvite
-10141.68,10142.43,42,Halite,0.149,False,Sylvite
-10142.43,10145.93,13,Halite,0.107,False,Sylvite
-10145.93,10146.68,42,Halite,0.149,False,Sylvite
-10146.68,10150.43,13,Halite,0.107,False,Sylvite
-10150.43,10151.18,42,Halite,0.149,False,Sylvite
-10151.18,10154.68,13,Halite,0.107,False,Sylvite
-10154.68,10155.43,42,Halite,0.149,False,Sylvite
-10155.43,10159.18,13,Halite,0.107,False,Sylvite
-10159.18,10159.93,42,Halite,0.149,False,Sylvite
-10159.93,10163.43,13,Halite,0.107,False,Sylvite
-10163.43,10164.18,42,Halite,0.149,False,Sylvite
-10164.18,10167.93,13,Halite,0.107,False,Sylvite
-10167.93,10168.68,42,Halite,0.149,False,Sylvite
-10168.68,10172.18,13,Halite,0.107,False,Sylvite
-10172.18,10172.93,42,Halite,0.149,False,Sylvite
-10172.93,10176.68,13,Halite,0.107,False,Sylvite
-10176.68,10177.43,42,Halite,0.149,False,Sylvite
-10177.43,10180.93,13,Halite,0.107,False,Sylvite
-10180.93,10181.68,42,Halite,0.149,False,Sylvite
-10181.68,10185.43,13,Halite,0.107,False,Sylvite
-10185.43,10186.18,42,Halite,0.149,False,Sylvite
-10186.18,10189.68,13,Halite,0.107,False,Sylvite
-10189.68,10190.43,42,Halite,0.149,False,Sylvite
-10190.43,10194.18,13,Halite,0.107,False,Sylvite
-10194.18,10194.93,42,Halite,0.149,False,Sylvite
-10194.93,10198.43,13,Halite,0.107,False,Sylvite
-10198.43,10199.18,42,Halite,0.149,False,Sylvite
-10199.18,10202.93,13,Halite,0.107,False,Sylvite
-10202.93,10203.68,42,Halite,0.149,False,Sylvite
-10203.68,10207.18,13,Halite,0.107,False,Sylvite
-10207.18,10207.93,42,Halite,0.149,False,Sylvite
-10207.93,10211.68,13,Halite,0.107,False,Sylvite
-10211.68,10212.43,42,Halite,0.149,False,Sylvite
-10212.43,10215.93,13,Halite,0.107,False,Sylvite
-10215.93,10216.68,42,Halite,0.149,False,Sylvite
-10216.68,10220.43,13,Halite,0.107,False,Sylvite
-10220.43,10221.18,42,Halite,0.149,False,Sylvite
-10221.18,10224.68,13,Halite,0.107,False,Sylvite
-10224.68,10225.43,42,Halite,0.149,False,Sylvite
-10225.43,10229.18,13,Halite,0.107,False,Sylvite
-10229.18,10229.93,42,Halite,0.149,False,Sylvite
-10229.93,10233.43,13,Halite,0.107,False,Sylvite
-10233.43,10234.18,42,Halite,0.149,False,Sylvite
-10234.18,10237.93,13,Halite,0.107,False,Sylvite
-10237.93,10238.68,42,Halite,0.149,False,Sylvite
-10238.68,10242.18,13,Halite,0.107,False,Sylvite
-10242.18,10242.93,42,Halite,0.149,False,Sylvite
-10242.93,10246.68,13,Halite,0.107,False,Sylvite
-10246.68,10247.43,42,Halite,0.149,False,Sylvite
-10247.43,10250.93,13,Halite,0.107,False,Sylvite
-10250.93,10251.68,42,Halite,0.149,False,Sylvite
-10251.68,10255.43,13,Halite,0.107,False,Sylvite
-10255.43,10256.18,42,Halite,0.149,False,Sylvite
-10256.18,10259.68,13,Halite,0.107,False,Sylvite
-10259.68,10260.43,42,Halite,0.149,False,Sylvite
-10260.43,10264.18,13,Halite,0.107,False,Sylvite
-10264.18,10264.93,42,Halite,0.149,False,Sylvite
-10264.93,10268.43,13,Halite,0.107,False,Sylvite
-10268.43,10269.18,42,Halite,0.149,False,Sylvite
-10269.18,10272.93,13,Halite,0.107,False,Sylvite
-10272.93,10273.68,42,Halite,0.149,False,Sylvite
-10273.68,10277.18,13,Halite,0.107,False,Sylvite
-10277.18,10277.93,42,Halite,0.149,False,Sylvite
-10277.93,10281.68,13,Halite,0.107,False,Sylvite
-10281.68,10282.43,42,Halite,0.149,False,Sylvite
-10282.43,10285.93,13,Halite,0.107,False,Sylvite
-10285.93,10286.68,42,Halite,0.149,False,Sylvite
-10286.68,10290.43,13,Halite,0.107,False,Sylvite
-10290.43,10291.18,42,Halite,0.149,False,Sylvite
-10291.18,10294.68,13,Halite,0.107,False,Sylvite
-10294.68,10295.43,42,Halite,0.149,False,Sylvite
-10295.43,10299.18,13,Halite,0.107,False,Sylvite
-10299.18,10299.93,42,Halite,0.149,False,Sylvite
-10299.93,10303.43,13,Halite,0.107,False,Sylvite
-10303.43,10304.18,42,Halite,0.149,False,Sylvite
-10304.18,10307.93,13,Halite,0.107,False,Sylvite
-10307.93,10308.68,42,Halite,0.149,False,Sylvite
-10308.68,10312.18,13,Halite,0.107,False,Sylvite
-10312.18,10312.93,42,Halite,0.149,False,Sylvite
-10312.93,10316.68,13,Halite,0.107,False,Sylvite
-10316.68,10317.43,42,Halite,0.149,False,Sylvite
-10317.43,10320.93,13,Halite,0.107,False,Sylvite
-10320.93,10321.68,42,Halite,0.149,False,Sylvite
-10321.68,10325.43,13,Halite,0.107,False,Sylvite
-10325.43,10326.18,42,Halite,0.149,False,Sylvite
-10326.18,10329.68,13,Halite,0.107,False,Sylvite
-10329.68,10330.43,42,Halite,0.149,False,Sylvite
-10330.43,10334.18,13,Halite,0.107,False,Sylvite
-10334.18,10334.93,42,Halite,0.149,False,Sylvite
-10334.93,10338.43,13,Halite,0.107,False,Sylvite
-10338.43,10339.18,42,Halite,0.149,False,Sylvite
-10339.18,10342.93,13,Halite,0.107,False,Sylvite
-10342.93,10343.68,42,Halite,0.149,False,Sylvite
-10343.68,10347.18,13,Halite,0.107,False,Sylvite
-10347.18,10347.93,42,Halite,0.149,False,Sylvite
-10347.93,10351.68,13,Halite,0.107,False,Sylvite
-10351.68,10352.43,42,Halite,0.149,False,Sylvite
-10352.43,10355.93,13,Halite,0.107,False,Sylvite
-10355.93,10356.68,42,Halite,0.149,False,Sylvite
-10356.68,10360.43,13,Halite,0.107,False,Sylvite
-10360.43,10361.18,42,Halite,0.149,False,Sylvite
-10361.18,10364.68,13,Halite,0.107,False,Sylvite
-10364.68,10365.43,42,Halite,0.149,False,Sylvite
-10365.43,10369.18,13,Halite,0.107,False,Sylvite
-10369.18,10369.93,42,Halite,0.149,False,Sylvite
-10369.93,10373.43,13,Halite,0.107,False,Sylvite
-10373.43,10374.18,42,Halite,0.149,False,Sylvite
-10374.18,10377.93,13,Halite,0.107,False,Sylvite
-10377.93,10378.68,42,Halite,0.149,False,Sylvite
-10378.68,10382.18,13,Halite,0.107,False,Sylvite
-10382.18,10382.93,42,Halite,0.149,False,Sylvite
-10382.93,10386.68,13,Halite,0.107,False,Sylvite
-10386.68,10387.43,42,Halite,0.149,False,Sylvite
-10387.43,10390.93,13,Halite,0.107,False,Sylvite
-10390.93,10391.68,42,Halite,0.149,False,Sylvite
-10391.68,10395.43,13,Halite,0.107,False,Sylvite
-10395.43,10396.18,42,Halite,0.149,False,Sylvite
-10396.18,10399.68,13,Halite,0.107,False,Sylvite
-10399.68,10400.43,42,Halite,0.149,False,Sylvite
-10400.43,10404.18,13,Halite,0.107,False,Sylvite
-10404.18,10404.93,42,Halite,0.149,False,Sylvite
-10404.93,10408.43,13,Halite,0.107,False,Sylvite
-10408.43,10409.18,42,Halite,0.149,False,Sylvite
-10409.18,10412.93,13,Halite,0.107,False,Sylvite
-10412.93,10413.68,42,Halite,0.149,False,Sylvite
-10413.68,10417.18,13,Halite,0.107,False,Sylvite
-10417.18,10417.93,42,Halite,0.149,False,Sylvite
-10417.93,10421.68,13,Halite,0.107,False,Sylvite
-10421.68,10422.43,42,Halite,0.149,False,Sylvite
-10422.43,10425.93,13,Halite,0.107,False,Sylvite
-10425.93,10426.68,42,Halite,0.149,False,Sylvite
-10426.68,10430.43,13,Halite,0.107,False,Sylvite
-10430.43,10431.18,42,Halite,0.149,False,Sylvite
-10431.18,10434.68,13,Halite,0.107,False,Sylvite
-10434.68,10435.43,42,Halite,0.149,False,Sylvite
-10435.43,10439.18,13,Halite,0.107,False,Sylvite
-10439.18,10439.93,42,Halite,0.149,False,Sylvite
-10439.93,10443.43,13,Halite,0.107,False,Sylvite
-10443.43,10444.18,42,Halite,0.149,False,Sylvite
-10444.18,10447.93,13,Halite,0.107,False,Sylvite
-10447.93,10448.68,42,Halite,0.149,False,Sylvite
-10448.68,10452.18,13,Halite,0.107,False,Sylvite
-10452.18,10452.93,42,Halite,0.149,False,Sylvite
-10452.93,10456.68,13,Halite,0.107,False,Sylvite
-10456.68,10457.43,42,Halite,0.149,False,Sylvite
-10457.43,10460.93,13,Halite,0.107,False,Sylvite
-10460.93,10461.68,42,Halite,0.149,False,Sylvite
-10461.68,10465.43,13,Halite,0.107,False,Sylvite
-10465.43,10466.18,42,Halite,0.149,False,Sylvite
-10466.18,10469.68,13,Halite,0.107,False,Sylvite
-10469.68,10470.43,42,Halite,0.149,False,Sylvite
-10470.43,10474.18,13,Halite,0.107,False,Sylvite
-10474.18,10474.93,42,Halite,0.149,False,Sylvite
-10474.93,10478.43,13,Halite,0.107,False,Sylvite
-10478.43,10479.18,42,Halite,0.149,False,Sylvite
-10479.18,10482.93,13,Halite,0.107,False,Sylvite
-10482.93,10483.68,42,Halite,0.149,False,Sylvite
-10483.68,10487.18,13,Halite,0.107,False,Sylvite
-10487.18,10487.93,42,Halite,0.149,False,Sylvite
-10487.93,10491.68,13,Halite,0.107,False,Sylvite
-10491.68,10492.43,42,Halite,0.149,False,Sylvite
-10492.43,10495.93,13,Halite,0.107,False,Sylvite
-10495.93,10496.68,42,Halite,0.149,False,Sylvite
-10496.68,10500.43,13,Halite,0.107,False,Sylvite
-10500.43,10501.18,42,Halite,0.149,False,Sylvite
-10501.18,10504.68,13,Halite,0.107,False,Sylvite
-10504.68,10505.43,42,Halite,0.149,False,Sylvite
-10505.43,10509.18,13,Halite,0.107,False,Sylvite
-10509.18,10509.93,42,Halite,0.149,False,Sylvite
-10509.93,10513.43,13,Halite,0.107,False,Sylvite
-10513.43,10514.18,42,Halite,0.149,False,Sylvite
-10514.18,10517.93,13,Halite,0.107,False,Sylvite
-10517.93,10518.68,42,Halite,0.149,False,Sylvite
-10518.68,10522.18,13,Halite,0.107,False,Sylvite
-10522.18,10522.93,42,Halite,0.149,False,Sylvite
-10522.93,10526.68,13,Halite,0.107,False,Sylvite
-10526.68,10527.43,42,Halite,0.149,False,Sylvite
-10527.43,10530.93,13,Halite,0.107,False,Sylvite
-10530.93,10531.68,42,Halite,0.149,False,Sylvite
-10531.68,10535.43,13,Halite,0.107,False,Sylvite
-10535.43,10536.18,42,Halite,0.149,False,Sylvite
-10536.18,10539.68,13,Halite,0.107,False,Sylvite
-10539.68,10540.43,42,Halite,0.149,False,Sylvite
-10540.43,10544.18,13,Halite,0.107,False,Sylvite
-10544.18,10544.93,42,Halite,0.149,False,Sylvite
-10544.93,10548.43,13,Halite,0.107,False,Sylvite
-10548.43,10549.18,42,Halite,0.149,False,Sylvite
-10549.18,10552.93,13,Halite,0.107,False,Sylvite
-10552.93,10553.68,42,Halite,0.149,False,Sylvite
-10553.68,10557.18,13,Halite,0.107,False,Sylvite
-10557.18,10557.93,42,Halite,0.149,False,Sylvite
-10557.93,10561.68,13,Halite,0.107,False,Sylvite
-10561.68,10562.43,42,Halite,0.149,False,Sylvite
-10562.43,10565.93,13,Halite,0.107,False,Sylvite
-10565.93,10566.68,42,Halite,0.149,False,Sylvite
-10566.68,10570.43,13,Halite,0.107,False,Sylvite
-10570.43,10571.18,42,Halite,0.149,False,Sylvite
-10571.18,10574.68,13,Halite,0.107,False,Sylvite
-10574.68,10575.43,42,Halite,0.149,False,Sylvite
-10575.43,10579.18,13,Halite,0.107,False,Sylvite
-10579.18,10579.93,42,Halite,0.149,False,Sylvite
-10579.93,10583.43,13,Halite,0.107,False,Sylvite
-10583.43,10584.18,42,Halite,0.149,False,Sylvite
-10584.18,10587.93,13,Halite,0.107,False,Sylvite
-10587.93,10588.68,42,Halite,0.149,False,Sylvite
-10588.68,10592.18,13,Halite,0.107,False,Sylvite
-10592.18,10592.93,42,Halite,0.149,False,Sylvite
-10592.93,10596.68,13,Halite,0.107,False,Sylvite
-10596.68,10597.43,42,Halite,0.149,False,Sylvite
-10597.43,10600.93,13,Halite,0.107,False,Sylvite
-10600.93,10601.68,42,Halite,0.149,False,Sylvite
-10601.68,10605.43,13,Halite,0.107,False,Sylvite
-10605.43,10606.18,42,Halite,0.149,False,Sylvite
-10606.18,10609.68,13,Halite,0.107,False,Sylvite
-10609.68,10610.43,42,Halite,0.149,False,Sylvite
-10610.43,10614.18,13,Halite,0.107,False,Sylvite
-10614.18,10614.93,42,Halite,0.149,False,Sylvite
-10614.93,10618.43,13,Halite,0.107,False,Sylvite
-10618.43,10619.18,42,Halite,0.149,False,Sylvite
-10619.18,10622.93,13,Halite,0.107,False,Sylvite
-10622.93,10623.68,42,Halite,0.149,False,Sylvite
-10623.68,10627.18,13,Halite,0.107,False,Sylvite
-10627.18,10627.93,42,Halite,0.149,False,Sylvite
-10627.93,10631.68,13,Halite,0.107,False,Sylvite
-10631.68,10632.43,42,Halite,0.149,False,Sylvite
-10632.43,10635.93,13,Halite,0.107,False,Sylvite
-10635.93,10636.68,42,Halite,0.149,False,Sylvite
-10636.68,10640.43,13,Halite,0.107,False,Sylvite
-10640.43,10641.18,42,Halite,0.149,False,Sylvite
-10641.18,10644.68,13,Halite,0.107,False,Sylvite
-10644.68,10645.43,42,Halite,0.149,False,Sylvite
-10645.43,10649.18,13,Halite,0.107,False,Sylvite
-10649.18,10649.93,42,Halite,0.149,False,Sylvite
-10649.93,10653.43,13,Halite,0.107,False,Sylvite
-10653.43,10654.18,42,Halite,0.149,False,Sylvite
-10654.18,10657.93,13,Halite,0.107,False,Sylvite
-10657.93,10658.68,42,Halite,0.149,False,Sylvite
-10658.68,10662.18,13,Halite,0.107,False,Sylvite
-10662.18,10662.93,42,Halite,0.149,False,Sylvite
-10662.93,10666.68,13,Halite,0.107,False,Sylvite
-10666.68,10667.43,42,Halite,0.149,False,Sylvite
-10667.43,10670.93,13,Halite,0.107,False,Sylvite
-10670.93,10671.68,42,Halite,0.149,False,Sylvite
-10671.68,10675.43,13,Halite,0.107,False,Sylvite
-10675.43,10676.18,42,Halite,0.149,False,Sylvite
-10676.18,10679.68,13,Halite,0.107,False,Sylvite
-10679.68,10680.43,42,Halite,0.149,False,Sylvite
-10680.43,10684.18,13,Halite,0.107,False,Sylvite
-10684.18,10684.93,42,Halite,0.149,False,Sylvite
-10684.93,10688.43,13,Halite,0.107,False,Sylvite
-10688.43,10689.18,42,Halite,0.149,False,Sylvite
-10689.18,10692.93,13,Halite,0.107,False,Sylvite
-10692.93,10693.68,42,Halite,0.149,False,Sylvite
-10693.68,10697.18,13,Halite,0.107,False,Sylvite
-10697.18,10697.93,42,Halite,0.149,False,Sylvite
-10697.93,10701.68,13,Halite,0.107,False,Sylvite
-10701.68,10702.43,42,Halite,0.149,False,Sylvite
-10702.43,10705.93,13,Halite,0.107,False,Sylvite
-10705.93,10706.68,42,Halite,0.149,False,Sylvite
-10706.68,10710.43,13,Halite,0.107,False,Sylvite
-10710.43,10711.18,42,Halite,0.149,False,Sylvite
-10711.18,10714.68,13,Halite,0.107,False,Sylvite
-10714.68,10715.43,42,Halite,0.149,False,Sylvite
-10715.43,10719.18,13,Halite,0.107,False,Sylvite
-10719.18,10719.93,42,Halite,0.149,False,Sylvite
-10719.93,10723.43,13,Halite,0.107,False,Sylvite
-10723.43,10724.18,42,Halite,0.149,False,Sylvite
-10724.18,10727.93,13,Halite,0.107,False,Sylvite
-10727.93,10728.68,42,Halite,0.149,False,Sylvite
-10728.68,10732.18,13,Halite,0.107,False,Sylvite
-10732.18,10732.93,42,Halite,0.149,False,Sylvite
-10732.93,10736.68,13,Halite,0.107,False,Sylvite
-10736.68,10737.43,42,Halite,0.149,False,Sylvite
-10737.43,10740.93,13,Halite,0.107,False,Sylvite
-10740.93,10741.68,42,Halite,0.149,False,Sylvite
-10741.68,10745.43,13,Halite,0.107,False,Sylvite
-10745.43,10746.18,42,Halite,0.149,False,Sylvite
-10746.18,10749.68,13,Halite,0.107,False,Sylvite
-10749.68,10750.43,42,Halite,0.149,False,Sylvite
-10750.43,10754.18,13,Halite,0.107,False,Sylvite
-10754.18,10754.93,42,Halite,0.149,False,Sylvite
-10754.93,10758.43,13,Halite,0.107,False,Sylvite
-10758.43,10759.18,42,Halite,0.149,False,Sylvite
-10759.18,10762.93,13,Halite,0.107,False,Sylvite
-10762.93,10763.68,42,Halite,0.149,False,Sylvite
-10763.68,10767.18,13,Halite,0.107,False,Sylvite
-10767.18,10767.93,42,Halite,0.149,False,Sylvite
-10767.93,10771.68,13,Halite,0.107,False,Sylvite
-10771.68,10772.43,42,Halite,0.149,False,Sylvite
-10772.43,10775.93,13,Halite,0.107,False,Sylvite
-10775.93,10776.68,42,Halite,0.149,False,Sylvite
-10776.68,10780.43,13,Halite,0.107,False,Sylvite
-10780.43,10781.18,42,Halite,0.149,False,Sylvite
-10781.18,10784.68,13,Halite,0.107,False,Sylvite
-10784.68,10785.43,42,Halite,0.149,False,Sylvite
-10785.43,10789.18,13,Halite,0.107,False,Sylvite
-10789.18,10789.93,42,Halite,0.149,False,Sylvite
-10789.93,10793.43,13,Halite,0.107,False,Sylvite
-10793.43,10794.18,42,Halite,0.149,False,Sylvite
-10794.18,10797.93,13,Halite,0.107,False,Sylvite
-10797.93,10798.68,42,Halite,0.149,False,Sylvite
-10798.68,10802.18,13,Halite,0.107,False,Sylvite
-10802.18,10802.93,42,Halite,0.149,False,Sylvite
-10802.93,10806.68,13,Halite,0.107,False,Sylvite
-10806.68,10807.43,42,Halite,0.149,False,Sylvite
-10807.43,10810.93,13,Halite,0.107,False,Sylvite
-10810.93,10811.68,42,Halite,0.149,False,Sylvite
-10811.68,10815.43,13,Halite,0.107,False,Sylvite
-10815.43,10816.18,42,Halite,0.149,False,Sylvite
-10816.18,10819.68,13,Halite,0.107,False,Sylvite
-10819.68,10820.43,42,Halite,0.149,False,Sylvite
-10820.43,10824.18,13,Halite,0.107,False,Sylvite
-10824.18,10824.93,42,Halite,0.149,False,Sylvite
-10824.93,10828.43,13,Halite,0.107,False,Sylvite
-10828.43,10829.18,42,Halite,0.149,False,Sylvite
-10829.18,10832.93,13,Halite,0.107,False,Sylvite
-10832.93,10833.68,42,Halite,0.149,False,Sylvite
-10833.68,10837.18,13,Halite,0.107,False,Sylvite
-10837.18,10837.93,42,Halite,0.149,False,Sylvite
-10837.93,10841.68,13,Halite,0.107,False,Sylvite
-10841.68,10842.43,42,Halite,0.149,False,Sylvite
-10842.43,10845.93,13,Halite,0.107,False,Sylvite
-10845.93,10846.68,42,Halite,0.149,False,Sylvite
-10846.68,10850.43,13,Halite,0.107,False,Sylvite
-10850.43,10851.18,42,Halite,0.149,False,Sylvite
-10851.18,10854.68,13,Halite,0.107,False,Sylvite
-10854.68,10855.43,42,Halite,0.149,False,Sylvite
-10855.43,10859.18,13,Halite,0.107,False,Sylvite
-10859.18,10859.93,42,Halite,0.149,False,Sylvite
-10859.93,10863.43,13,Halite,0.107,False,Sylvite
-10863.43,10864.18,42,Halite,0.149,False,Sylvite
-10864.18,10867.93,13,Halite,0.107,False,Sylvite
-10867.93,10868.68,42,Halite,0.149,False,Sylvite
-10868.68,10872.18,13,Halite,0.107,False,Sylvite
-10872.18,10872.93,42,Halite,0.149,False,Sylvite
-10872.93,10876.68,13,Halite,0.107,False,Sylvite
-10876.68,10877.43,42,Halite,0.149,False,Sylvite
-10877.43,10880.93,13,Halite,0.107,False,Sylvite
-10880.93,10881.68,42,Halite,0.149,False,Sylvite
-10881.68,10885.43,13,Halite,0.107,False,Sylvite
-10885.43,10886.18,42,Halite,0.149,False,Sylvite
-10886.18,10889.68,13,Halite,0.107,False,Sylvite
-10889.68,10890.43,42,Halite,0.149,False,Sylvite
-10890.43,10894.18,13,Halite,0.107,False,Sylvite
-10894.18,10894.93,42,Halite,0.149,False,Sylvite
-10894.93,10898.43,13,Halite,0.107,False,Sylvite
-10898.43,10899.18,42,Halite,0.149,False,Sylvite
-10899.18,10902.93,13,Halite,0.107,False,Sylvite
-10902.93,10903.68,42,Halite,0.149,False,Sylvite
-10903.68,10907.18,13,Halite,0.107,False,Sylvite
-10907.18,10907.93,42,Halite,0.149,False,Sylvite
-10907.93,10911.68,13,Halite,0.107,False,Sylvite
-10911.68,10912.43,42,Halite,0.149,False,Sylvite
-10912.43,10915.93,13,Halite,0.107,False,Sylvite
-10915.93,10916.68,42,Halite,0.149,False,Sylvite
-10916.68,10920.43,13,Halite,0.107,False,Sylvite
-10920.43,10921.18,42,Halite,0.149,False,Sylvite
-10921.18,10924.68,13,Halite,0.107,False,Sylvite
-10924.68,10925.43,42,Halite,0.149,False,Sylvite
-10925.43,10929.18,13,Halite,0.107,False,Sylvite
-10929.18,10929.93,42,Halite,0.149,False,Sylvite
-10929.93,10933.43,13,Halite,0.107,False,Sylvite
-10933.43,10934.18,42,Halite,0.149,False,Sylvite
-10934.18,10937.93,13,Halite,0.107,False,Sylvite
-10937.93,10938.68,42,Halite,0.149,False,Sylvite
-10938.68,10942.18,13,Halite,0.107,False,Sylvite
-10942.18,10942.93,42,Halite,0.149,False,Sylvite
-10942.93,10946.68,13,Halite,0.107,False,Sylvite
-10946.68,10947.43,42,Halite,0.149,False,Sylvite
-10947.43,10950.93,13,Halite,0.107,False,Sylvite
-10950.93,10951.68,42,Halite,0.149,False,Sylvite
-10951.68,10955.43,13,Halite,0.107,False,Sylvite
-10955.43,10956.18,42,Halite,0.149,False,Sylvite
-10956.18,10959.68,13,Halite,0.107,False,Sylvite
-10959.68,10960.43,42,Halite,0.149,False,Sylvite
-10960.43,10964.18,13,Halite,0.107,False,Sylvite
-10964.18,10964.93,42,Halite,0.149,False,Sylvite
-10964.93,10968.43,13,Halite,0.107,False,Sylvite
-10968.43,10969.18,42,Halite,0.149,False,Sylvite
-10969.18,10972.93,13,Halite,0.107,False,Sylvite
-10972.93,10973.68,42,Halite,0.149,False,Sylvite
-10973.68,10977.18,13,Halite,0.107,False,Sylvite
-10977.18,10977.93,42,Halite,0.149,False,Sylvite
-10977.93,10981.68,13,Halite,0.107,False,Sylvite
-10981.68,10982.43,42,Halite,0.149,False,Sylvite
-10982.43,10985.93,13,Halite,0.107,False,Sylvite
-10985.93,10986.68,42,Halite,0.149,False,Sylvite
-10986.68,10990.43,13,Halite,0.107,False,Sylvite
-10990.43,10991.18,42,Halite,0.149,False,Sylvite
-10991.18,10994.68,13,Halite,0.107,False,Sylvite
-10994.68,10995.43,42,Halite,0.149,False,Sylvite
-10995.43,10999.18,13,Halite,0.107,False,Sylvite
-10999.18,10999.93,42,Halite,0.149,False,Sylvite
-10999.93,11003.43,13,Halite,0.107,False,Sylvite
-11003.43,11004.18,42,Halite,0.149,False,Sylvite
-11004.18,11007.93,13,Halite,0.107,False,Sylvite
-11007.93,11008.68,42,Halite,0.149,False,Sylvite
-11008.68,11012.18,13,Halite,0.107,False,Sylvite
-11012.18,11012.93,42,Halite,0.149,False,Sylvite
-11012.93,11016.68,13,Halite,0.107,False,Sylvite
-11016.68,11017.43,42,Halite,0.149,False,Sylvite
-11017.43,11020.93,13,Halite,0.107,False,Sylvite
-11020.93,11021.68,42,Halite,0.149,False,Sylvite
-11021.68,11025.43,13,Halite,0.107,False,Sylvite
-11025.43,11026.18,42,Halite,0.149,False,Sylvite
-11026.18,11029.68,13,Halite,0.107,False,Sylvite
-11029.68,11030.43,42,Halite,0.149,False,Sylvite
-11030.43,11034.18,13,Halite,0.107,False,Sylvite
-11034.18,11034.93,42,Halite,0.149,False,Sylvite
-11034.93,11038.43,13,Halite,0.107,False,Sylvite
-11038.43,11039.18,42,Halite,0.149,False,Sylvite
-11039.18,11042.93,13,Halite,0.107,False,Sylvite
-11042.93,11043.68,42,Halite,0.149,False,Sylvite
-11043.68,11047.18,13,Halite,0.107,False,Sylvite
-11047.18,11047.93,42,Halite,0.149,False,Sylvite
-11047.93,11051.68,13,Halite,0.107,False,Sylvite
-11051.68,11052.43,42,Halite,0.149,False,Sylvite
-11052.43,11055.93,13,Halite,0.107,False,Sylvite
-11055.93,11056.68,42,Halite,0.149,False,Sylvite
-11056.68,11060.43,13,Halite,0.107,False,Sylvite
-11060.43,11061.18,42,Halite,0.149,False,Sylvite
-11061.18,11064.68,13,Halite,0.107,False,Sylvite
-11064.68,11065.43,42,Halite,0.149,False,Sylvite
-11065.43,11069.18,13,Halite,0.107,False,Sylvite
-11069.18,11069.93,42,Halite,0.149,False,Sylvite
-11069.93,11073.43,13,Halite,0.107,False,Sylvite
-11073.43,11074.18,42,Halite,0.149,False,Sylvite
-11074.18,11077.93,13,Halite,0.107,False,Sylvite
-11077.93,11078.68,42,Halite,0.149,False,Sylvite
-11078.68,11082.18,13,Halite,0.107,False,Sylvite
-11082.18,11082.93,42,Halite,0.149,False,Sylvite
-11082.93,11086.68,13,Halite,0.107,False,Sylvite
-11086.68,11087.43,42,Halite,0.149,False,Sylvite
-11087.43,11090.93,13,Halite,0.107,False,Sylvite
-11090.93,11091.68,42,Halite,0.149,False,Sylvite
-11091.68,11095.43,13,Halite,0.107,False,Sylvite
-11095.43,11096.18,42,Halite,0.149,False,Sylvite
-11096.18,11099.68,13,Halite,0.107,False,Sylvite
-11099.68,11100.43,42,Halite,0.149,False,Sylvite
-11100.43,11104.18,13,Halite,0.107,False,Sylvite
-11104.18,11104.93,42,Halite,0.149,False,Sylvite
-11104.93,11108.43,13,Halite,0.107,False,Sylvite
-11108.43,11109.18,42,Halite,0.149,False,Sylvite
-11109.18,11112.93,13,Halite,0.107,False,Sylvite
-11112.93,11113.68,42,Halite,0.149,False,Sylvite
-11113.68,11117.18,13,Halite,0.107,False,Sylvite
-11117.18,11117.93,42,Halite,0.149,False,Sylvite
-11117.93,11121.68,13,Halite,0.107,False,Sylvite
-11121.68,11122.43,42,Halite,0.149,False,Sylvite
-11122.43,11125.93,13,Halite,0.107,False,Sylvite
-11125.93,11126.68,42,Halite,0.149,False,Sylvite
-11126.68,11130.43,13,Halite,0.107,False,Sylvite
-11130.43,11131.18,42,Halite,0.149,False,Sylvite
-11131.18,11134.68,13,Halite,0.107,False,Sylvite
-11134.68,11135.43,42,Halite,0.149,False,Sylvite
-11135.43,11139.18,13,Halite,0.107,False,Sylvite
-11139.18,11139.93,42,Halite,0.149,False,Sylvite
-11139.93,11143.43,13,Halite,0.107,False,Sylvite
-11143.43,11144.18,42,Halite,0.149,False,Sylvite
-11144.18,11147.93,13,Halite,0.107,False,Sylvite
-11147.93,11148.68,42,Halite,0.149,False,Sylvite
-11148.68,11152.18,13,Halite,0.107,False,Sylvite
-11152.18,11152.93,42,Halite,0.149,False,Sylvite
-11152.93,11156.68,13,Halite,0.107,False,Sylvite
-11156.68,11157.43,42,Halite,0.149,False,Sylvite
-11157.43,11160.93,13,Halite,0.107,False,Sylvite
-11160.93,11161.68,42,Halite,0.149,False,Sylvite
-11161.68,11165.43,13,Halite,0.107,False,Sylvite
-11165.43,11166.18,42,Halite,0.149,False,Sylvite
-11166.18,11169.68,13,Halite,0.107,False,Sylvite
-11169.68,11170.43,42,Halite,0.149,False,Sylvite
-11170.43,11174.18,13,Halite,0.107,False,Sylvite
-11174.18,11174.93,42,Halite,0.149,False,Sylvite
-11174.93,11178.43,13,Halite,0.107,False,Sylvite
-11178.43,11179.18,42,Halite,0.149,False,Sylvite
-11179.18,11182.93,13,Halite,0.107,False,Sylvite
-11182.93,11183.68,42,Halite,0.149,False,Sylvite
-11183.68,11187.18,13,Halite,0.107,False,Sylvite
-11187.18,11187.93,42,Halite,0.149,False,Sylvite
-11187.93,11191.68,13,Halite,0.107,False,Sylvite
-11191.68,11192.43,42,Halite,0.149,False,Sylvite
-11192.43,11195.93,13,Halite,0.107,False,Sylvite
-11195.93,11196.68,42,Halite,0.149,False,Sylvite
-11196.68,11200.43,13,Halite,0.107,False,Sylvite
-11200.43,11201.18,42,Halite,0.149,False,Sylvite
-11201.18,11204.68,13,Halite,0.107,False,Sylvite
-11204.68,11205.43,42,Halite,0.149,False,Sylvite
-11205.43,11209.18,13,Halite,0.107,False,Sylvite
-11209.18,11209.93,42,Halite,0.149,False,Sylvite
-11209.93,11213.43,13,Halite,0.107,False,Sylvite
-11213.43,11214.18,42,Halite,0.149,False,Sylvite
-11214.18,11217.93,13,Halite,0.107,False,Sylvite
-11217.93,11218.68,42,Halite,0.149,False,Sylvite
-11218.68,11222.18,13,Halite,0.107,False,Sylvite
-11222.18,11222.93,42,Halite,0.149,False,Sylvite
-11222.93,11226.68,13,Halite,0.107,False,Sylvite
-11226.68,11227.43,42,Halite,0.149,False,Sylvite
-11227.43,11230.93,13,Halite,0.107,False,Sylvite
-11230.93,11231.68,42,Halite,0.149,False,Sylvite
-11231.68,11235.43,13,Halite,0.107,False,Sylvite
-11235.43,11236.18,42,Halite,0.149,False,Sylvite
-11236.18,11239.68,13,Halite,0.107,False,Sylvite
-11239.68,11240.43,42,Halite,0.149,False,Sylvite
-11240.43,11244.18,13,Halite,0.107,False,Sylvite
-11244.18,11244.93,42,Halite,0.149,False,Sylvite
-11244.93,11248.43,13,Halite,0.107,False,Sylvite
-11248.43,11249.18,42,Halite,0.149,False,Sylvite
-11249.18,11252.93,13,Halite,0.107,False,Sylvite
-11252.93,11253.68,42,Halite,0.149,False,Sylvite
-11253.68,11257.18,13,Halite,0.107,False,Sylvite
-11257.18,11257.93,42,Halite,0.149,False,Sylvite
-11257.93,11261.68,13,Halite,0.107,False,Sylvite
-11261.68,11262.43,42,Halite,0.149,False,Sylvite
-11262.43,11265.93,13,Halite,0.107,False,Sylvite
-11265.93,11266.68,42,Halite,0.149,False,Sylvite
-11266.68,11270.43,13,Halite,0.107,False,Sylvite
-11270.43,11271.18,42,Halite,0.149,False,Sylvite
-11271.18,11274.68,13,Halite,0.107,False,Sylvite
-11274.68,11275.43,42,Halite,0.149,False,Sylvite
-11275.43,11279.18,13,Halite,0.107,False,Sylvite
-11279.18,11279.93,42,Halite,0.149,False,Sylvite
-11279.93,11283.43,13,Halite,0.107,False,Sylvite
-11283.43,11284.18,42,Halite,0.149,False,Sylvite
-11284.18,11287.93,13,Halite,0.107,False,Sylvite
-11287.93,11288.68,42,Halite,0.149,False,Sylvite
-11288.68,11292.18,13,Halite,0.107,False,Sylvite
-11292.18,11292.93,42,Halite,0.149,False,Sylvite
-11292.93,11296.68,13,Halite,0.107,False,Sylvite
-11296.68,11297.43,42,Halite,0.149,False,Sylvite
-11297.43,11300.93,13,Halite,0.107,False,Sylvite
-11300.93,11301.68,42,Halite,0.149,False,Sylvite
-11301.68,11305.43,13,Halite,0.107,False,Sylvite
-11305.43,11306.18,42,Halite,0.149,False,Sylvite
-11306.18,11309.68,13,Halite,0.107,False,Sylvite
-11309.68,11310.43,42,Halite,0.149,False,Sylvite
-11310.43,11314.18,13,Halite,0.107,False,Sylvite
-11314.18,11314.93,42,Halite,0.149,False,Sylvite
-11314.93,11318.43,13,Halite,0.107,False,Sylvite
-11318.43,11319.18,42,Halite,0.149,False,Sylvite
-11319.18,11322.93,13,Halite,0.107,False,Sylvite
-11322.93,11323.68,42,Halite,0.149,False,Sylvite
-11323.68,11327.18,13,Halite,0.107,False,Sylvite
-11327.18,11327.93,42,Halite,0.149,False,Sylvite
-11327.93,11331.68,13,Halite,0.107,False,Sylvite
-11331.68,11332.43,42,Halite,0.149,False,Sylvite
-11332.43,11335.93,13,Halite,0.107,False,Sylvite
-11335.93,11336.68,42,Halite,0.149,False,Sylvite
-11336.68,11340.43,13,Halite,0.107,False,Sylvite
-11340.43,11341.18,42,Halite,0.149,False,Sylvite
-11341.18,11344.68,13,Halite,0.107,False,Sylvite
-11344.68,11345.43,42,Halite,0.149,False,Sylvite
-11345.43,11349.18,13,Halite,0.107,False,Sylvite
-11349.18,11349.93,42,Halite,0.149,False,Sylvite
-11349.93,11353.43,13,Halite,0.107,False,Sylvite
-11353.43,11354.18,42,Halite,0.149,False,Sylvite
-11354.18,11357.93,13,Halite,0.107,False,Sylvite
-11357.93,11358.68,42,Halite,0.149,False,Sylvite
-11358.68,11362.18,13,Halite,0.107,False,Sylvite
-11362.18,11362.93,42,Halite,0.149,False,Sylvite
-11362.93,11366.68,13,Halite,0.107,False,Sylvite
-11366.68,11367.43,42,Halite,0.149,False,Sylvite
-11367.43,11370.93,13,Halite,0.107,False,Sylvite
-11370.93,11371.68,42,Halite,0.149,False,Sylvite
-11371.68,11375.43,13,Halite,0.107,False,Sylvite
-11375.43,11376.18,42,Halite,0.149,False,Sylvite
-11376.18,11379.68,13,Halite,0.107,False,Sylvite
-11379.68,11380.43,42,Halite,0.149,False,Sylvite
-11380.43,11384.18,13,Halite,0.107,False,Sylvite
-11384.18,11384.93,42,Halite,0.149,False,Sylvite
-11384.93,11388.43,13,Halite,0.107,False,Sylvite
-11388.43,11389.18,42,Halite,0.149,False,Sylvite
-11389.18,11392.93,13,Halite,0.107,False,Sylvite
-11392.93,11393.68,42,Halite,0.149,False,Sylvite
-11393.68,11397.18,13,Halite,0.107,False,Sylvite
-11397.18,11397.93,42,Halite,0.149,False,Sylvite
-11397.93,11401.68,13,Halite,0.107,False,Sylvite
-11401.68,11402.43,42,Halite,0.149,False,Sylvite
-11402.43,11405.93,13,Halite,0.107,False,Sylvite
-11405.93,11406.68,42,Halite,0.149,False,Sylvite
-11406.68,11410.43,13,Halite,0.107,False,Sylvite
-11410.43,11411.18,42,Halite,0.149,False,Sylvite
-11411.18,11414.68,13,Halite,0.107,False,Sylvite
-11414.68,11415.43,42,Halite,0.149,False,Sylvite
-11415.43,11419.18,13,Halite,0.107,False,Sylvite
-11419.18,11419.93,42,Halite,0.149,False,Sylvite
-11419.93,11423.43,13,Halite,0.107,False,Sylvite
-11423.43,11424.18,42,Halite,0.149,False,Sylvite
-11424.18,11427.93,13,Halite,0.107,False,Sylvite
-11427.93,11428.68,42,Halite,0.149,False,Sylvite
-11428.68,11432.18,13,Halite,0.107,False,Sylvite
-11432.18,11432.93,42,Halite,0.149,False,Sylvite
-11432.93,11436.68,13,Halite,0.107,False,Sylvite
-11436.68,11437.43,42,Halite,0.149,False,Sylvite
-11437.43,11440.93,13,Halite,0.107,False,Sylvite
-11440.93,11441.68,42,Halite,0.149,False,Sylvite
-11441.68,11445.43,13,Halite,0.107,False,Sylvite
-11445.43,11446.18,42,Halite,0.149,False,Sylvite
-11446.18,11449.68,13,Halite,0.107,False,Sylvite
-11449.68,11450.43,42,Halite,0.149,False,Sylvite
-11450.43,11454.18,13,Halite,0.107,False,Sylvite
-11454.18,11454.93,42,Halite,0.149,False,Sylvite
-11454.93,11458.43,13,Halite,0.107,False,Sylvite
-11458.43,11459.18,42,Halite,0.149,False,Sylvite
-11459.18,11462.93,13,Halite,0.107,False,Sylvite
-11462.93,11463.68,42,Halite,0.149,False,Sylvite
-11463.68,11467.18,13,Halite,0.107,False,Sylvite
-11467.18,11467.93,42,Halite,0.149,False,Sylvite
-11467.93,11471.68,13,Halite,0.107,False,Sylvite
-11471.68,11472.43,42,Halite,0.149,False,Sylvite
-11472.43,11475.93,13,Halite,0.107,False,Sylvite
-11475.93,11476.68,42,Halite,0.149,False,Sylvite
-11476.68,11480.43,13,Halite,0.107,False,Sylvite
-11480.43,11481.18,42,Halite,0.149,False,Sylvite
-11481.18,11484.68,13,Halite,0.107,False,Sylvite
-11484.68,11485.43,42,Halite,0.149,False,Sylvite
-11485.43,11489.18,13,Halite,0.107,False,Sylvite
-11489.18,11489.93,42,Halite,0.149,False,Sylvite
-11489.93,11493.43,13,Halite,0.107,False,Sylvite
-11493.43,11494.18,42,Halite,0.149,False,Sylvite
-11494.18,11497.93,13,Halite,0.107,False,Sylvite
-11497.93,11498.68,42,Halite,0.149,False,Sylvite
-11498.68,11502.18,13,Halite,0.107,False,Sylvite
-11502.18,11502.93,42,Halite,0.149,False,Sylvite
-11502.93,11506.68,13,Halite,0.107,False,Sylvite
-11506.68,11507.43,42,Halite,0.149,False,Sylvite
-11507.43,11510.93,13,Halite,0.107,False,Sylvite
-11510.93,11511.68,42,Halite,0.149,False,Sylvite
-11511.68,11515.43,13,Halite,0.107,False,Sylvite
-11515.43,11516.18,42,Halite,0.149,False,Sylvite
-11516.18,11519.68,13,Halite,0.107,False,Sylvite
-11519.68,11520.43,42,Halite,0.149,False,Sylvite
-11520.43,11524.18,13,Halite,0.107,False,Sylvite
-11524.18,11524.93,42,Halite,0.149,False,Sylvite
-11524.93,11528.43,13,Halite,0.107,False,Sylvite
-11528.43,11529.18,42,Halite,0.149,False,Sylvite
-11529.18,11532.93,13,Halite,0.107,False,Sylvite
-11532.93,11533.68,42,Halite,0.149,False,Sylvite
-11533.68,11537.18,13,Halite,0.107,False,Sylvite
-11537.18,11537.93,42,Halite,0.149,False,Sylvite
-11537.93,11541.68,13,Halite,0.107,False,Sylvite
-11541.68,11542.43,42,Halite,0.149,False,Sylvite
-11542.43,11545.93,13,Halite,0.107,False,Sylvite
-11545.93,11546.68,42,Halite,0.149,False,Sylvite
-11546.68,11550.43,13,Halite,0.107,False,Sylvite
-11550.43,11551.18,42,Halite,0.149,False,Sylvite
-11551.18,11554.68,13,Halite,0.107,False,Sylvite
-11554.68,11555.43,42,Halite,0.149,False,Sylvite
-11555.43,11559.18,13,Halite,0.107,False,Sylvite
-11559.18,11559.93,42,Halite,0.149,False,Sylvite
-11559.93,11563.43,13,Halite,0.107,False,Sylvite
-11563.43,11564.18,42,Halite,0.149,False,Sylvite
-11564.18,11567.93,13,Halite,0.107,False,Sylvite
-11567.93,11568.68,42,Halite,0.149,False,Sylvite
-11568.68,11572.18,13,Halite,0.107,False,Sylvite
-11572.18,11572.93,42,Halite,0.149,False,Sylvite
-11572.93,11576.68,13,Halite,0.107,False,Sylvite
-11576.68,11577.43,42,Halite,0.149,False,Sylvite
-11577.43,11580.93,13,Halite,0.107,False,Sylvite
-11580.93,11581.68,42,Halite,0.149,False,Sylvite
-11581.68,11585.43,13,Halite,0.107,False,Sylvite
-11585.43,11586.18,42,Halite,0.149,False,Sylvite
-11586.18,11589.68,13,Halite,0.107,False,Sylvite
-11589.68,11590.43,42,Halite,0.149,False,Sylvite
-11590.43,11594.18,13,Halite,0.107,False,Sylvite
-11594.18,11594.93,42,Halite,0.149,False,Sylvite
-11594.93,11598.43,13,Halite,0.107,False,Sylvite
-11598.43,11599.18,42,Halite,0.149,False,Sylvite
-11599.18,11602.93,13,Halite,0.107,False,Sylvite
-11602.93,11603.68,42,Halite,0.149,False,Sylvite
-11603.68,11607.18,13,Halite,0.107,False,Sylvite
-11607.18,11607.93,42,Halite,0.149,False,Sylvite
-11607.93,11611.68,13,Halite,0.107,False,Sylvite
-11611.68,11612.43,42,Halite,0.149,False,Sylvite
-11612.43,11615.93,13,Halite,0.107,False,Sylvite
-11615.93,11616.68,42,Halite,0.149,False,Sylvite
-11616.68,11620.43,13,Halite,0.107,False,Sylvite
-11620.43,11621.18,42,Halite,0.149,False,Sylvite
-11621.18,11624.68,13,Halite,0.107,False,Sylvite
-11624.68,11625.43,42,Halite,0.149,False,Sylvite
-11625.43,11629.18,13,Halite,0.107,False,Sylvite
-11629.18,11629.93,42,Halite,0.149,False,Sylvite
-11629.93,11633.43,13,Halite,0.107,False,Sylvite
-11633.43,11634.18,42,Halite,0.149,False,Sylvite
-11634.18,11637.93,13,Halite,0.107,False,Sylvite
-11637.93,11638.68,42,Halite,0.149,False,Sylvite
-11638.68,11642.18,13,Halite,0.107,False,Sylvite
-11642.18,11642.93,42,Halite,0.149,False,Sylvite
-11642.93,11646.68,13,Halite,0.107,False,Sylvite
-11646.68,11647.43,42,Halite,0.149,False,Sylvite
-11647.43,11650.93,13,Halite,0.107,False,Sylvite
-11650.93,11651.68,42,Halite,0.149,False,Sylvite
-11651.68,11655.43,13,Halite,0.107,False,Sylvite
-11655.43,11656.18,42,Halite,0.149,False,Sylvite
-11656.18,11659.68,13,Halite,0.107,False,Sylvite
-11659.68,11660.43,42,Halite,0.149,False,Sylvite
-11660.43,11664.18,13,Halite,0.107,False,Sylvite
-11664.18,11664.93,42,Halite,0.149,False,Sylvite
-11664.93,11668.43,13,Halite,0.107,False,Sylvite
-11668.43,11669.18,42,Halite,0.149,False,Sylvite
-11669.18,11672.93,13,Halite,0.107,False,Sylvite
-11672.93,11673.68,42,Halite,0.149,False,Sylvite
-11673.68,11677.18,13,Halite,0.107,False,Sylvite
-11677.18,11677.93,42,Halite,0.149,False,Sylvite
-11677.93,11681.68,13,Halite,0.107,False,Sylvite
-11681.68,11682.43,42,Halite,0.149,False,Sylvite
-11682.43,11685.93,13,Halite,0.107,False,Sylvite
-11685.93,11686.68,42,Halite,0.149,False,Sylvite
-11686.68,11690.43,13,Halite,0.107,False,Sylvite
-11690.43,11691.18,42,Halite,0.149,False,Sylvite
-11691.18,11694.68,13,Halite,0.107,False,Sylvite
-11694.68,11695.43,42,Halite,0.149,False,Sylvite
-11695.43,11699.18,13,Halite,0.107,False,Sylvite
-11699.18,11699.93,42,Halite,0.149,False,Sylvite
-11699.93,11703.43,13,Halite,0.107,False,Sylvite
-11703.43,11704.18,42,Halite,0.149,False,Sylvite
-11704.18,11707.93,13,Halite,0.107,False,Sylvite
-11707.93,11708.68,42,Halite,0.149,False,Sylvite
-11708.68,11712.18,13,Halite,0.107,False,Sylvite
-11712.18,11712.93,42,Halite,0.149,False,Sylvite
-11712.93,11716.68,13,Halite,0.107,False,Sylvite
-11716.68,11717.43,42,Halite,0.149,False,Sylvite
-11717.43,11720.93,13,Halite,0.107,False,Sylvite
-11720.93,11721.68,42,Halite,0.149,False,Sylvite
-11721.68,11725.43,13,Halite,0.107,False,Sylvite
-11725.43,11726.18,42,Halite,0.149,False,Sylvite
-11726.18,11729.68,13,Halite,0.107,False,Sylvite
-11729.68,11730.43,42,Halite,0.149,False,Sylvite
-11730.43,11734.18,13,Halite,0.107,False,Sylvite
-11734.18,11734.93,42,Halite,0.149,False,Sylvite
-11734.93,11738.43,13,Halite,0.107,False,Sylvite
-11738.43,11739.18,42,Halite,0.149,False,Sylvite
-11739.18,11742.93,13,Halite,0.107,False,Sylvite
-11742.93,11743.68,42,Halite,0.149,False,Sylvite
-11743.68,11747.18,13,Halite,0.107,False,Sylvite
-11747.18,11747.93,42,Halite,0.149,False,Sylvite
-11747.93,11751.68,13,Halite,0.107,False,Sylvite
-11751.68,11752.43,42,Halite,0.149,False,Sylvite
-11752.43,11755.93,13,Halite,0.107,False,Sylvite
-11755.93,11756.68,42,Halite,0.149,False,Sylvite
-11756.68,11760.43,13,Halite,0.107,False,Sylvite
-11760.43,11761.18,42,Halite,0.149,False,Sylvite
-11761.18,11764.68,13,Halite,0.107,False,Sylvite
-11764.68,11765.43,42,Halite,0.149,False,Sylvite
-11765.43,11769.18,13,Halite,0.107,False,Sylvite
-11769.18,11769.93,42,Halite,0.149,False,Sylvite
-11769.93,11773.43,13,Halite,0.107,False,Sylvite
-11773.43,11774.18,42,Halite,0.149,False,Sylvite
-11774.18,11777.93,13,Halite,0.107,False,Sylvite
-11777.93,11778.68,42,Halite,0.149,False,Sylvite
-11778.68,11782.18,13,Halite,0.107,False,Sylvite
-11782.18,11782.93,42,Halite,0.149,False,Sylvite
-11782.93,11786.68,13,Halite,0.107,False,Sylvite
-11786.68,11787.43,42,Halite,0.149,False,Sylvite
-11787.43,11790.93,13,Halite,0.107,False,Sylvite
-11790.93,11791.68,42,Halite,0.149,False,Sylvite
-11791.68,11795.43,13,Halite,0.107,False,Sylvite
-11795.43,11796.18,42,Halite,0.149,False,Sylvite
-11796.18,11799.68,13,Halite,0.107,False,Sylvite
-11799.68,11800.43,42,Halite,0.149,False,Sylvite
-11800.43,11804.18,13,Halite,0.107,False,Sylvite
-11804.18,11804.93,42,Halite,0.149,False,Sylvite
-11804.93,11808.43,13,Halite,0.107,False,Sylvite
-11808.43,11809.18,42,Halite,0.149,False,Sylvite
-11809.18,11812.93,13,Halite,0.107,False,Sylvite
-11812.93,11813.68,42,Halite,0.149,False,Sylvite
-11813.68,11817.18,13,Halite,0.107,False,Sylvite
-11817.18,11817.93,42,Halite,0.149,False,Sylvite
-11817.93,11821.68,13,Halite,0.107,False,Sylvite
-11821.68,11822.43,42,Halite,0.149,False,Sylvite
-11822.43,11825.93,13,Halite,0.107,False,Sylvite
-11825.93,11826.68,42,Halite,0.149,False,Sylvite
-11826.68,11830.43,13,Halite,0.107,False,Sylvite
-11830.43,11831.18,42,Halite,0.149,False,Sylvite
-11831.18,11834.68,13,Halite,0.107,False,Sylvite
-11834.68,11835.43,42,Halite,0.149,False,Sylvite
-11835.43,11839.18,13,Halite,0.107,False,Sylvite
-11839.18,11839.93,42,Halite,0.149,False,Sylvite
-11839.93,11843.43,13,Halite,0.107,False,Sylvite
-11843.43,11844.18,42,Halite,0.149,False,Sylvite
-11844.18,11847.93,13,Halite,0.107,False,Sylvite
-11847.93,11848.68,42,Halite,0.149,False,Sylvite
-11848.68,11852.18,13,Halite,0.107,False,Sylvite
-11852.18,11852.93,42,Halite,0.149,False,Sylvite
-11852.93,11856.68,13,Halite,0.107,False,Sylvite
-11856.68,11857.43,42,Halite,0.149,False,Sylvite
-11857.43,11860.93,13,Halite,0.107,False,Sylvite
-11860.93,11861.68,42,Halite,0.149,False,Sylvite
-11861.68,11865.43,13,Halite,0.107,False,Sylvite
-11865.43,11866.18,42,Halite,0.149,False,Sylvite
-11866.18,11869.68,13,Halite,0.107,False,Sylvite
-11869.68,11870.43,42,Halite,0.149,False,Sylvite
-11870.43,11874.18,13,Halite,0.107,False,Sylvite
-11874.18,11874.93,42,Halite,0.149,False,Sylvite
-11874.93,11878.43,13,Halite,0.107,False,Sylvite
-11878.43,11879.18,42,Halite,0.149,False,Sylvite
-11879.18,11882.93,13,Halite,0.107,False,Sylvite
-11882.93,11883.68,42,Halite,0.149,False,Sylvite
-11883.68,11887.18,13,Halite,0.107,False,Sylvite
-11887.18,11887.93,42,Halite,0.149,False,Sylvite
-11887.93,11891.68,13,Halite,0.107,False,Sylvite
-11891.68,11892.43,42,Halite,0.149,False,Sylvite
-11892.43,11895.93,13,Halite,0.107,False,Sylvite
-11895.93,11896.68,42,Halite,0.149,False,Sylvite
-11896.68,11900.43,13,Halite,0.107,False,Sylvite
-11900.43,11901.18,42,Halite,0.149,False,Sylvite
-11901.18,11904.68,13,Halite,0.107,False,Sylvite
-11904.68,11905.43,42,Halite,0.149,False,Sylvite
-11905.43,11909.18,13,Halite,0.107,False,Sylvite
-11909.18,11909.93,42,Halite,0.149,False,Sylvite
-11909.93,11913.43,13,Halite,0.107,False,Sylvite
-11913.43,11914.18,42,Halite,0.149,False,Sylvite
-11914.18,11917.93,13,Halite,0.107,False,Sylvite
-11917.93,11918.68,42,Halite,0.149,False,Sylvite
-11918.68,11922.18,13,Halite,0.107,False,Sylvite
-11922.18,11922.93,42,Halite,0.149,False,Sylvite
-11922.93,11926.68,13,Halite,0.107,False,Sylvite
-11926.68,11927.43,42,Halite,0.149,False,Sylvite
-11927.43,11930.93,13,Halite,0.107,False,Sylvite
-11930.93,11931.68,42,Halite,0.149,False,Sylvite
-11931.68,11935.43,13,Halite,0.107,False,Sylvite
-11935.43,11936.18,42,Halite,0.149,False,Sylvite
-11936.18,11939.68,13,Halite,0.107,False,Sylvite
-11939.68,11940.43,42,Halite,0.149,False,Sylvite
-11940.43,11944.18,13,Halite,0.107,False,Sylvite
-11944.18,11944.93,42,Halite,0.149,False,Sylvite
-11944.93,11948.43,13,Halite,0.107,False,Sylvite
-11948.43,11949.18,42,Halite,0.149,False,Sylvite
-11949.18,11952.93,13,Halite,0.107,False,Sylvite
-11952.93,11953.68,42,Halite,0.149,False,Sylvite
-11953.68,11957.18,13,Halite,0.107,False,Sylvite
-11957.18,11957.93,42,Halite,0.149,False,Sylvite
-11957.93,11961.68,13,Halite,0.107,False,Sylvite
-11961.68,11962.43,42,Halite,0.149,False,Sylvite
-11962.43,11965.93,13,Halite,0.107,False,Sylvite
-11965.93,11966.68,42,Halite,0.149,False,Sylvite
-11966.68,11970.43,13,Halite,0.107,False,Sylvite
-11970.43,11971.18,42,Halite,0.149,False,Sylvite
-11971.18,11974.68,13,Halite,0.107,False,Sylvite
-11974.68,11975.43,42,Halite,0.149,False,Sylvite
-11975.43,11979.18,13,Halite,0.107,False,Sylvite
-11979.18,11979.93,42,Halite,0.149,False,Sylvite
-11979.93,11983.43,13,Halite,0.107,False,Sylvite
-11983.43,11984.18,42,Halite,0.149,False,Sylvite
-11984.18,11987.93,13,Halite,0.107,False,Sylvite
-11987.93,11988.68,42,Halite,0.149,False,Sylvite
-11988.68,11992.18,13,Halite,0.107,False,Sylvite
-11992.18,11992.93,42,Halite,0.149,False,Sylvite
-11992.93,11996.68,13,Halite,0.107,False,Sylvite
-11996.68,11997.43,42,Halite,0.149,False,Sylvite
-11997.43,12000.93,13,Halite,0.107,False,Sylvite
-12000.93,12001.68,42,Halite,0.149,False,Sylvite
-12001.68,12005.43,13,Halite,0.107,False,Sylvite
-12005.43,12006.18,42,Halite,0.149,False,Sylvite
-12006.18,12009.68,13,Halite,0.107,False,Sylvite
-12009.68,12010.43,42,Halite,0.149,False,Sylvite
-12010.43,12014.18,13,Halite,0.107,False,Sylvite
-12014.18,12014.93,42,Halite,0.149,False,Sylvite
-12014.93,12018.43,13,Halite,0.107,False,Sylvite
-12018.43,12019.18,42,Halite,0.149,False,Sylvite
-12019.18,12022.93,13,Halite,0.107,False,Sylvite
-12022.93,12023.68,42,Halite,0.149,False,Sylvite
-12023.68,12027.18,13,Halite,0.107,False,Sylvite
-12027.18,12027.93,42,Halite,0.149,False,Sylvite
-12027.93,12031.68,13,Halite,0.107,False,Sylvite
-12031.68,12032.43,42,Halite,0.149,False,Sylvite
-12032.43,12035.93,13,Halite,0.107,False,Sylvite
-12035.93,12036.68,42,Halite,0.149,False,Sylvite
-12036.68,12040.43,13,Halite,0.107,False,Sylvite
-12040.43,12041.18,42,Halite,0.149,False,Sylvite
-12041.18,12044.68,13,Halite,0.107,False,Sylvite
-12044.68,12045.43,42,Halite,0.149,False,Sylvite
-12045.43,12049.18,13,Halite,0.107,False,Sylvite
-12049.18,12049.93,42,Halite,0.149,False,Sylvite
-12049.93,12053.43,13,Halite,0.107,False,Sylvite
-12053.43,12054.18,42,Halite,0.149,False,Sylvite
-12054.18,12057.93,13,Halite,0.107,False,Sylvite
-12057.93,12058.68,42,Halite,0.149,False,Sylvite
-12058.68,12062.18,13,Halite,0.107,False,Sylvite
-12062.18,12062.93,42,Halite,0.149,False,Sylvite
-12062.93,12066.68,13,Halite,0.107,False,Sylvite
-12066.68,12067.43,42,Halite,0.149,False,Sylvite
-12067.43,12070.93,13,Halite,0.107,False,Sylvite
-12070.93,12071.68,42,Halite,0.149,False,Sylvite
-12071.68,12075.43,13,Halite,0.107,False,Sylvite
-12075.43,12076.18,42,Halite,0.149,False,Sylvite
-12076.18,12079.68,13,Halite,0.107,False,Sylvite
-12079.68,12080.43,42,Halite,0.149,False,Sylvite
-12080.43,12084.18,13,Halite,0.107,False,Sylvite
-12084.18,12084.93,42,Halite,0.149,False,Sylvite
-12084.93,12088.43,13,Halite,0.107,False,Sylvite
-12088.43,12089.18,42,Halite,0.149,False,Sylvite
-12089.18,12092.93,13,Halite,0.107,False,Sylvite
-12092.93,12093.68,42,Halite,0.149,False,Sylvite
-12093.68,12097.18,13,Halite,0.107,False,Sylvite
-12097.18,12097.93,42,Halite,0.149,False,Sylvite
-12097.93,12101.68,13,Halite,0.107,False,Sylvite
-12101.68,12102.43,42,Halite,0.149,False,Sylvite
-12102.43,12105.93,13,Halite,0.107,False,Sylvite
-12105.93,12106.68,42,Halite,0.149,False,Sylvite
-12106.68,12110.43,13,Halite,0.107,False,Sylvite
-12110.43,12111.18,42,Halite,0.149,False,Sylvite
-12111.18,12114.68,13,Halite,0.107,False,Sylvite
-12114.68,12115.43,42,Halite,0.149,False,Sylvite
-12115.43,12119.18,13,Halite,0.107,False,Sylvite
-12119.18,12119.93,42,Halite,0.149,False,Sylvite
-12119.93,12123.43,13,Halite,0.107,False,Sylvite
-12123.43,12124.18,42,Halite,0.149,False,Sylvite
-12124.18,12127.93,13,Halite,0.107,False,Sylvite
-12127.93,12128.68,42,Halite,0.149,False,Sylvite
-12128.68,12132.18,13,Halite,0.107,False,Sylvite
-12132.18,12132.93,42,Halite,0.149,False,Sylvite
-12132.93,12136.68,13,Halite,0.107,False,Sylvite
-12136.68,12137.43,42,Halite,0.149,False,Sylvite
-12137.43,12140.93,13,Halite,0.107,False,Sylvite
-12140.93,12141.68,42,Halite,0.149,False,Sylvite
-12141.68,12145.43,13,Halite,0.107,False,Sylvite
-12145.43,12146.18,42,Halite,0.149,False,Sylvite
-12146.18,12149.68,13,Halite,0.107,False,Sylvite
-12149.68,12150.43,42,Halite,0.149,False,Sylvite
-12150.43,12154.18,13,Halite,0.107,False,Sylvite
-12154.18,12154.93,42,Halite,0.149,False,Sylvite
-12154.93,12158.43,13,Halite,0.107,False,Sylvite
-12158.43,12159.18,42,Halite,0.149,False,Sylvite
-12159.18,12162.93,13,Halite,0.107,False,Sylvite
-12162.93,12163.68,42,Halite,0.149,False,Sylvite
-12163.68,12167.18,13,Halite,0.107,False,Sylvite
-12167.18,12167.93,42,Halite,0.149,False,Sylvite
-12167.93,12171.68,13,Halite,0.107,False,Sylvite
-12171.68,12172.43,42,Halite,0.149,False,Sylvite
-12172.43,12175.93,13,Halite,0.107,False,Sylvite
-12175.93,12176.68,42,Halite,0.149,False,Sylvite
-12176.68,12180.43,13,Halite,0.107,False,Sylvite
-12180.43,12181.18,42,Halite,0.149,False,Sylvite
-12181.18,12184.68,13,Halite,0.107,False,Sylvite
-12184.68,12185.43,42,Halite,0.149,False,Sylvite
-12185.43,12189.18,13,Halite,0.107,False,Sylvite
-12189.18,12189.93,42,Halite,0.149,False,Sylvite
-12189.93,12193.43,13,Halite,0.107,False,Sylvite
-12193.43,12194.18,42,Halite,0.149,False,Sylvite
-12194.18,12197.93,13,Halite,0.107,False,Sylvite
-12197.93,12198.68,42,Halite,0.149,False,Sylvite
-12198.68,12202.18,13,Halite,0.107,False,Sylvite
-12202.18,12202.93,42,Halite,0.149,False,Sylvite
-12202.93,12206.68,13,Halite,0.107,False,Sylvite
-12206.68,12207.43,42,Halite,0.149,False,Sylvite
-12207.43,12210.93,13,Halite,0.107,False,Sylvite
-12210.93,12211.68,42,Halite,0.149,False,Sylvite
-12211.68,12215.43,13,Halite,0.107,False,Sylvite
-12215.43,12216.18,42,Halite,0.149,False,Sylvite
-12216.18,12219.68,13,Halite,0.107,False,Sylvite
-12219.68,12220.43,42,Halite,0.149,False,Sylvite
-12220.43,12224.18,13,Halite,0.107,False,Sylvite
-12224.18,12224.93,42,Halite,0.149,False,Sylvite
-12224.93,12228.43,13,Halite,0.107,False,Sylvite
-12228.43,12229.18,42,Halite,0.149,False,Sylvite
-12229.18,12232.93,13,Halite,0.107,False,Sylvite
-12232.93,12233.68,42,Halite,0.149,False,Sylvite
-12233.68,12237.18,13,Halite,0.107,False,Sylvite
-12237.18,12237.93,42,Halite,0.149,False,Sylvite
-12237.93,12241.68,13,Halite,0.107,False,Sylvite
-12241.68,12242.43,42,Halite,0.149,False,Sylvite
-12242.43,12245.93,13,Halite,0.107,False,Sylvite
-12245.93,12246.68,42,Halite,0.149,False,Sylvite
-12246.68,12250.43,13,Halite,0.107,False,Sylvite
-12250.43,12251.18,42,Halite,0.149,False,Sylvite
-12251.18,12254.68,13,Halite,0.107,False,Sylvite
-12254.68,12255.43,42,Halite,0.149,False,Sylvite
-12255.43,12259.18,13,Halite,0.107,False,Sylvite
-12259.18,12259.93,42,Halite,0.149,False,Sylvite
-12259.93,12263.43,13,Halite,0.107,False,Sylvite
-12263.43,12264.18,42,Halite,0.149,False,Sylvite
-12264.18,12267.93,13,Halite,0.107,False,Sylvite
-12267.93,12268.68,42,Halite,0.149,False,Sylvite
-12268.68,12272.18,13,Halite,0.107,False,Sylvite
-12272.18,12272.93,42,Halite,0.149,False,Sylvite
-12272.93,12276.68,13,Halite,0.107,False,Sylvite
-12276.68,12277.43,42,Halite,0.149,False,Sylvite
-12277.43,12280.93,13,Halite,0.107,False,Sylvite
-12280.93,12281.68,42,Halite,0.149,False,Sylvite
-12281.68,12285.43,13,Halite,0.107,False,Sylvite
-12285.43,12286.18,42,Halite,0.149,False,Sylvite
-12286.18,12289.68,13,Halite,0.107,False,Sylvite
-12289.68,12290.43,42,Halite,0.149,False,Sylvite
-12290.43,12294.18,13,Halite,0.107,False,Sylvite
-12294.18,12294.93,42,Halite,0.149,False,Sylvite
-12294.93,12298.43,13,Halite,0.107,False,Sylvite
-12298.43,12299.18,42,Halite,0.149,False,Sylvite
-12299.18,12302.93,13,Halite,0.107,False,Sylvite
-12302.93,12303.68,42,Halite,0.149,False,Sylvite
-12303.68,12307.18,13,Halite,0.107,False,Sylvite
-12307.18,12307.93,42,Halite,0.149,False,Sylvite
-12307.93,12311.68,13,Halite,0.107,False,Sylvite
-12311.68,12312.43,42,Halite,0.149,False,Sylvite
-12312.43,12315.93,13,Halite,0.107,False,Sylvite
-12315.93,12316.68,42,Halite,0.149,False,Sylvite
-12316.68,12320.43,13,Halite,0.107,False,Sylvite
-12320.43,12321.18,42,Halite,0.149,False,Sylvite
-12321.18,12324.68,13,Halite,0.107,False,Sylvite
-12324.68,12325.43,42,Halite,0.149,False,Sylvite
-12325.43,12329.18,13,Halite,0.107,False,Sylvite
-12329.18,12329.93,42,Halite,0.149,False,Sylvite
-12329.93,12333.43,13,Halite,0.107,False,Sylvite
-12333.43,12334.18,42,Halite,0.149,False,Sylvite
-12334.18,12337.93,13,Halite,0.107,False,Sylvite
-12337.93,12338.68,42,Halite,0.149,False,Sylvite
-12338.68,12342.18,13,Halite,0.107,False,Sylvite
-12342.18,12342.93,42,Halite,0.149,False,Sylvite
-12342.93,12346.68,13,Halite,0.107,False,Sylvite
-12346.68,12347.43,42,Halite,0.149,False,Sylvite
-12347.43,12350.93,13,Halite,0.107,False,Sylvite
-12350.93,12351.68,42,Halite,0.149,False,Sylvite
-12351.68,12355.43,13,Halite,0.107,False,Sylvite
-12355.43,12356.18,42,Halite,0.149,False,Sylvite
-12356.18,12359.68,13,Halite,0.107,False,Sylvite
-12359.68,12360.43,42,Halite,0.149,False,Sylvite
-12360.43,12364.18,13,Halite,0.107,False,Sylvite
-12364.18,12364.93,42,Halite,0.149,False,Sylvite
-12364.93,12368.43,13,Halite,0.107,False,Sylvite
-12368.43,12369.18,42,Halite,0.149,False,Sylvite
-12369.18,12372.93,13,Halite,0.107,False,Sylvite
-12372.93,12373.68,42,Halite,0.149,False,Sylvite
-12373.68,12377.18,13,Halite,0.107,False,Sylvite
-12377.18,12377.93,42,Halite,0.149,False,Sylvite
-12377.93,12381.68,13,Halite,0.107,False,Sylvite
-12381.68,12382.43,42,Halite,0.149,False,Sylvite
-12382.43,12385.93,13,Halite,0.107,False,Sylvite
-12385.93,12386.68,42,Halite,0.149,False,Sylvite
-12386.68,12390.43,13,Halite,0.107,False,Sylvite
-12390.43,12391.18,42,Halite,0.149,False,Sylvite
-12391.18,12394.68,13,Halite,0.107,False,Sylvite
-12394.68,12395.43,42,Halite,0.149,False,Sylvite
-12395.43,12399.18,13,Halite,0.107,False,Sylvite
-12399.18,12399.93,42,Halite,0.149,False,Sylvite
-12399.93,12403.43,13,Halite,0.107,False,Sylvite
-12403.43,12404.18,42,Halite,0.149,False,Sylvite
-12404.18,12407.93,13,Halite,0.107,False,Sylvite
-12407.93,12408.68,42,Halite,0.149,False,Sylvite
-12408.68,12412.18,13,Halite,0.107,False,Sylvite
-12412.18,12412.93,42,Halite,0.149,False,Sylvite
-12412.93,12416.68,13,Halite,0.107,False,Sylvite
-12416.68,12417.43,42,Halite,0.149,False,Sylvite
-12417.43,12420.93,13,Halite,0.107,False,Sylvite
-12420.93,12421.68,42,Halite,0.149,False,Sylvite
-12421.68,12425.43,13,Halite,0.107,False,Sylvite
-12425.43,12426.18,42,Halite,0.149,False,Sylvite
-12426.18,12429.68,13,Halite,0.107,False,Sylvite
-12429.68,12430.43,42,Halite,0.149,False,Sylvite
-12430.43,12434.18,13,Halite,0.107,False,Sylvite
-12434.18,12434.93,42,Halite,0.149,False,Sylvite
-12434.93,12438.43,13,Halite,0.107,False,Sylvite
-12438.43,12439.18,42,Halite,0.149,False,Sylvite
-12439.18,12442.93,13,Halite,0.107,False,Sylvite
-12442.93,12443.68,42,Halite,0.149,False,Sylvite
-12443.68,12447.18,13,Halite,0.107,False,Sylvite
-12447.18,12447.93,42,Halite,0.149,False,Sylvite
-12447.93,12451.68,13,Halite,0.107,False,Sylvite
-12451.68,12452.43,42,Halite,0.149,False,Sylvite
-12452.43,12455.93,13,Halite,0.107,False,Sylvite
-12455.93,12456.68,42,Halite,0.149,False,Sylvite
-12456.68,12460.43,13,Halite,0.107,False,Sylvite
-12460.43,12461.18,42,Halite,0.149,False,Sylvite
-12461.18,12464.68,13,Halite,0.107,False,Sylvite
-12464.68,12465.43,42,Halite,0.149,False,Sylvite
-12465.43,12469.18,13,Halite,0.107,False,Sylvite
-12469.18,12469.93,42,Halite,0.149,False,Sylvite
-12469.93,12473.43,13,Halite,0.107,False,Sylvite
-12473.43,12474.18,42,Halite,0.149,False,Sylvite
-12474.18,12477.93,13,Halite,0.107,False,Sylvite
-12477.93,12478.68,42,Halite,0.149,False,Sylvite
-12478.68,12482.18,13,Halite,0.107,False,Sylvite
-12482.18,12482.93,42,Halite,0.149,False,Sylvite
-12482.93,12486.68,13,Halite,0.107,False,Sylvite
-12486.68,12487.43,42,Halite,0.149,False,Sylvite
-12487.43,12490.93,13,Halite,0.107,False,Sylvite
-12490.93,12491.68,42,Halite,0.149,False,Sylvite
-12491.68,12495.43,13,Halite,0.107,False,Sylvite
-12495.43,12496.18,42,Halite,0.149,False,Sylvite
-12496.18,12499.68,13,Halite,0.107,False,Sylvite
-12499.68,12500.43,42,Halite,0.149,False,Sylvite
-12500.43,12504.18,13,Halite,0.107,False,Sylvite
-12504.18,12504.93,42,Halite,0.149,False,Sylvite
-12504.93,12508.43,13,Halite,0.107,False,Sylvite
-12508.43,12509.18,42,Halite,0.149,False,Sylvite
-12509.18,12512.93,13,Halite,0.107,False,Sylvite
-12512.93,12513.68,42,Halite,0.149,False,Sylvite
-12513.68,12517.18,13,Halite,0.107,False,Sylvite
-12517.18,12517.93,42,Halite,0.149,False,Sylvite
-12517.93,12521.68,13,Halite,0.107,False,Sylvite
-12521.68,12522.43,42,Halite,0.149,False,Sylvite
-12522.43,12525.93,13,Halite,0.107,False,Sylvite
-12525.93,12526.68,42,Halite,0.149,False,Sylvite
-12526.68,12530.43,13,Halite,0.107,False,Sylvite
-12530.43,12531.18,42,Halite,0.149,False,Sylvite
-12531.18,12534.68,13,Halite,0.107,False,Sylvite
-12534.68,12535.43,42,Halite,0.149,False,Sylvite
-12535.43,12539.18,13,Halite,0.107,False,Sylvite
-12539.18,12539.93,42,Halite,0.149,False,Sylvite
-12539.93,12543.43,13,Halite,0.107,False,Sylvite
-12543.43,12544.18,42,Halite,0.149,False,Sylvite
-12544.18,12547.93,13,Halite,0.107,False,Sylvite
-12547.93,12548.68,42,Halite,0.149,False,Sylvite
-12548.68,12552.18,13,Halite,0.107,False,Sylvite
-12552.18,12552.93,42,Halite,0.149,False,Sylvite
-12552.93,12556.68,13,Halite,0.107,False,Sylvite
-12556.68,12557.43,42,Halite,0.149,False,Sylvite
-12557.43,12560.93,13,Halite,0.107,False,Sylvite
-12560.93,12561.68,42,Halite,0.149,False,Sylvite
-12561.68,12565.43,13,Halite,0.107,False,Sylvite
-12565.43,12566.18,42,Halite,0.149,False,Sylvite
-12566.18,12569.68,13,Halite,0.107,False,Sylvite
-12569.68,12570.43,42,Halite,0.149,False,Sylvite
-12570.43,12574.18,13,Halite,0.107,False,Sylvite
-12574.18,12574.93,42,Halite,0.149,False,Sylvite
-12574.93,12578.43,13,Halite,0.107,False,Sylvite
-12578.43,12579.18,42,Halite,0.149,False,Sylvite
-12579.18,12582.93,13,Halite,0.107,False,Sylvite
-12582.93,12583.68,42,Halite,0.149,False,Sylvite
-12583.68,12587.18,13,Halite,0.107,False,Sylvite
-12587.18,12587.93,42,Halite,0.149,False,Sylvite
-12587.93,12591.68,13,Halite,0.107,False,Sylvite
-12591.68,12592.43,42,Halite,0.149,False,Sylvite
-12592.43,12595.93,13,Halite,0.107,False,Sylvite
-12595.93,12596.68,42,Halite,0.149,False,Sylvite
-12596.68,12600.43,13,Halite,0.107,False,Sylvite
-12600.43,12601.18,42,Halite,0.149,False,Sylvite
-12601.18,12604.68,13,Halite,0.107,False,Sylvite
-12604.68,12605.43,42,Halite,0.149,False,Sylvite
-12605.43,12609.18,13,Halite,0.107,False,Sylvite
-12609.18,12609.93,42,Halite,0.149,False,Sylvite
-12609.93,12613.43,13,Halite,0.107,False,Sylvite
-12613.43,12614.18,42,Halite,0.149,False,Sylvite
-12614.18,12617.93,13,Halite,0.107,False,Sylvite
-12617.93,12618.68,42,Halite,0.149,False,Sylvite
-12618.68,12622.18,13,Halite,0.107,False,Sylvite
-12622.18,12622.93,42,Halite,0.149,False,Sylvite
-12622.93,12626.68,13,Halite,0.107,False,Sylvite
-12626.68,12627.43,42,Halite,0.149,False,Sylvite
-12627.43,12630.93,13,Halite,0.107,False,Sylvite
-12630.93,12631.68,42,Halite,0.149,False,Sylvite
-12631.68,12635.43,13,Halite,0.107,False,Sylvite
-12635.43,12636.18,42,Halite,0.149,False,Sylvite
-12636.18,12639.68,13,Halite,0.107,False,Sylvite
-12639.68,12640.43,42,Halite,0.149,False,Sylvite
-12640.43,12644.18,13,Halite,0.107,False,Sylvite
-12644.18,12644.93,42,Halite,0.149,False,Sylvite
-12644.93,12648.43,13,Halite,0.107,False,Sylvite
-12648.43,12649.18,42,Halite,0.149,False,Sylvite
-12649.18,12652.93,13,Halite,0.107,False,Sylvite
-12652.93,12653.68,42,Halite,0.149,False,Sylvite
-12653.68,12657.18,13,Halite,0.107,False,Sylvite
-12657.18,12657.93,42,Halite,0.149,False,Sylvite
-12657.93,12661.68,13,Halite,0.107,False,Sylvite
-12661.68,12662.43,42,Halite,0.149,False,Sylvite
-12662.43,12665.93,13,Halite,0.107,False,Sylvite
-12665.93,12666.68,42,Halite,0.149,False,Sylvite
-12666.68,12670.43,13,Halite,0.107,False,Sylvite
-12670.43,12671.18,42,Halite,0.149,False,Sylvite
-12671.18,12674.68,13,Halite,0.107,False,Sylvite
-12674.68,12675.43,42,Halite,0.149,False,Sylvite
-12675.43,12679.18,13,Halite,0.107,False,Sylvite
-12679.18,12679.93,42,Halite,0.149,False,Sylvite
-12679.93,12683.43,13,Halite,0.107,False,Sylvite
-12683.43,12684.18,42,Halite,0.149,False,Sylvite
-12684.18,12687.93,13,Halite,0.107,False,Sylvite
-12687.93,12688.68,42,Halite,0.149,False,Sylvite
-12688.68,12692.18,13,Halite,0.107,False,Sylvite
-12692.18,12692.93,42,Halite,0.149,False,Sylvite
-12692.93,12696.68,13,Halite,0.107,False,Sylvite
-12696.68,12697.43,42,Halite,0.149,False,Sylvite
-12697.43,12700.93,13,Halite,0.107,False,Sylvite
-12700.93,12701.68,42,Halite,0.149,False,Sylvite
-12701.68,12705.43,13,Halite,0.107,False,Sylvite
-12705.43,12706.18,42,Halite,0.149,False,Sylvite
-12706.18,12709.68,13,Halite,0.107,False,Sylvite
-12709.68,12710.43,42,Halite,0.149,False,Sylvite
-12710.43,12714.18,13,Halite,0.107,False,Sylvite
-12714.18,12714.93,42,Halite,0.149,False,Sylvite
-12714.93,12718.43,13,Halite,0.107,False,Sylvite
-12718.43,12719.18,42,Halite,0.149,False,Sylvite
-12719.18,12722.93,13,Halite,0.107,False,Sylvite
-12722.93,12723.68,42,Halite,0.149,False,Sylvite
-12723.68,12727.18,13,Halite,0.107,False,Sylvite
-12727.18,12727.93,42,Halite,0.149,False,Sylvite
-12727.93,12731.68,13,Halite,0.107,False,Sylvite
-12731.68,12732.43,42,Halite,0.149,False,Sylvite
-12732.43,12735.93,13,Halite,0.107,False,Sylvite
-12735.93,12736.68,42,Halite,0.149,False,Sylvite
-12736.68,12740.43,13,Halite,0.107,False,Sylvite
-12740.43,12741.18,42,Halite,0.149,False,Sylvite
-12741.18,12744.68,13,Halite,0.107,False,Sylvite
-12744.68,12745.43,42,Halite,0.149,False,Sylvite
-12745.43,12749.18,13,Halite,0.107,False,Sylvite
-12749.18,12749.93,42,Halite,0.149,False,Sylvite
-12749.93,12753.43,13,Halite,0.107,False,Sylvite
-12753.43,12754.18,42,Halite,0.149,False,Sylvite
-12754.18,12757.93,13,Halite,0.107,False,Sylvite
-12757.93,12758.68,42,Halite,0.149,False,Sylvite
-12758.68,12762.18,13,Halite,0.107,False,Sylvite
-12762.18,12762.93,42,Halite,0.149,False,Sylvite
-12762.93,12766.68,13,Halite,0.107,False,Sylvite
-12766.68,12767.43,42,Halite,0.149,False,Sylvite
-12767.43,12770.93,13,Halite,0.107,False,Sylvite
-12770.93,12771.68,42,Halite,0.149,False,Sylvite
-12771.68,12775.43,13,Halite,0.107,False,Sylvite
-12775.43,12776.18,42,Halite,0.149,False,Sylvite
-12776.18,12779.68,13,Halite,0.107,False,Sylvite
-12779.68,12780.43,42,Halite,0.149,False,Sylvite
-12780.43,12784.18,13,Halite,0.107,False,Sylvite
-12784.18,12784.93,42,Halite,0.149,False,Sylvite
-12784.93,12788.43,13,Halite,0.107,False,Sylvite
-12788.43,12789.18,42,Halite,0.149,False,Sylvite
-12789.18,12792.93,13,Halite,0.107,False,Sylvite
-12792.93,12793.68,42,Halite,0.149,False,Sylvite
-12793.68,12797.18,13,Halite,0.107,False,Sylvite
-12797.18,12797.93,42,Halite,0.149,False,Sylvite
-12797.93,12801.68,13,Halite,0.107,False,Sylvite
-12801.68,12802.43,42,Halite,0.149,False,Sylvite
-12802.43,12805.93,13,Halite,0.107,False,Sylvite
-12805.93,12806.68,42,Halite,0.149,False,Sylvite
-12806.68,12810.43,13,Halite,0.107,False,Sylvite
-12810.43,12811.18,42,Halite,0.149,False,Sylvite
-12811.18,12814.68,13,Halite,0.107,False,Sylvite
-12814.68,12815.43,42,Halite,0.149,False,Sylvite
-12815.43,12819.18,13,Halite,0.107,False,Sylvite
-12819.18,12819.93,42,Halite,0.149,False,Sylvite
-12819.93,12823.43,13,Halite,0.107,False,Sylvite
-12823.43,12824.18,42,Halite,0.149,False,Sylvite
-12824.18,12827.93,13,Halite,0.107,False,Sylvite
-12827.93,12828.68,42,Halite,0.149,False,Sylvite
-12828.68,12832.18,13,Halite,0.107,False,Sylvite
-12832.18,12832.93,42,Halite,0.149,False,Sylvite
-12832.93,12836.68,13,Halite,0.107,False,Sylvite
-12836.68,12837.43,42,Halite,0.149,False,Sylvite
-12837.43,12840.93,13,Halite,0.107,False,Sylvite
-12840.93,12841.68,42,Halite,0.149,False,Sylvite
-12841.68,12845.43,13,Halite,0.107,False,Sylvite
-12845.43,12846.18,42,Halite,0.149,False,Sylvite
-12846.18,12849.68,13,Halite,0.107,False,Sylvite
-12849.68,12850.43,42,Halite,0.149,False,Sylvite
-12850.43,12854.18,13,Halite,0.107,False,Sylvite
-12854.18,12854.93,42,Halite,0.149,False,Sylvite
-12854.93,12858.43,13,Halite,0.107,False,Sylvite
-12858.43,12859.18,42,Halite,0.149,False,Sylvite
-12859.18,12862.93,13,Halite,0.107,False,Sylvite
-12862.93,12863.68,42,Halite,0.149,False,Sylvite
-12863.68,12867.18,13,Halite,0.107,False,Sylvite
-12867.18,12867.93,42,Halite,0.149,False,Sylvite
-12867.93,12871.68,13,Halite,0.107,False,Sylvite
-12871.68,12872.43,42,Halite,0.149,False,Sylvite
-12872.43,12875.93,13,Halite,0.107,False,Sylvite
-12875.93,12876.68,42,Halite,0.149,False,Sylvite
-12876.68,12880.43,13,Halite,0.107,False,Sylvite
-12880.43,12881.18,42,Halite,0.149,False,Sylvite
-12881.18,12884.68,13,Halite,0.107,False,Sylvite
-12884.68,12885.43,42,Halite,0.149,False,Sylvite
-12885.43,12889.18,13,Halite,0.107,False,Sylvite
-12889.18,12889.93,42,Halite,0.149,False,Sylvite
-12889.93,12893.43,13,Halite,0.107,False,Sylvite
-12893.43,12894.18,42,Halite,0.149,False,Sylvite
-12894.18,12897.93,13,Halite,0.107,False,Sylvite
-12897.93,12898.68,42,Halite,0.149,False,Sylvite
-12898.68,12902.18,13,Halite,0.107,False,Sylvite
-12902.18,12902.93,42,Halite,0.149,False,Sylvite
-12902.93,12906.68,13,Halite,0.107,False,Sylvite
-12906.68,12907.43,42,Halite,0.149,False,Sylvite
-12907.43,12910.93,13,Halite,0.107,False,Sylvite
-12910.93,12911.68,42,Halite,0.149,False,Sylvite
-12911.68,12915.43,13,Halite,0.107,False,Sylvite
-12915.43,12916.18,42,Halite,0.149,False,Sylvite
-12916.18,12919.68,13,Halite,0.107,False,Sylvite
-12919.68,12920.43,42,Halite,0.149,False,Sylvite
-12920.43,12924.18,13,Halite,0.107,False,Sylvite
-12924.18,12924.93,42,Halite,0.149,False,Sylvite
-12924.93,12928.43,13,Halite,0.107,False,Sylvite
-12928.43,12929.18,42,Halite,0.149,False,Sylvite
-12929.18,12932.93,13,Halite,0.107,False,Sylvite
-12932.93,12933.68,42,Halite,0.149,False,Sylvite
-12933.68,12937.18,13,Halite,0.107,False,Sylvite
-12937.18,12937.93,42,Halite,0.149,False,Sylvite
-12937.93,12941.68,13,Halite,0.107,False,Sylvite
-12941.68,12942.43,42,Halite,0.149,False,Sylvite
-12942.43,12945.93,13,Halite,0.107,False,Sylvite
-12945.93,12946.68,42,Halite,0.149,False,Sylvite
-12946.68,12950.43,13,Halite,0.107,False,Sylvite
-12950.43,12951.18,42,Halite,0.149,False,Sylvite
-12951.18,12954.68,13,Halite,0.107,False,Sylvite
-12954.68,12955.43,42,Halite,0.149,False,Sylvite
-12955.43,12959.18,13,Halite,0.107,False,Sylvite
-12959.18,12959.93,42,Halite,0.149,False,Sylvite
-12959.93,12963.43,13,Halite,0.107,False,Sylvite
-12963.43,12964.18,42,Halite,0.149,False,Sylvite
-12964.18,12967.93,13,Halite,0.107,False,Sylvite
-12967.93,12968.68,42,Halite,0.149,False,Sylvite
-12968.68,12972.18,13,Halite,0.107,False,Sylvite
-12972.18,12972.93,42,Halite,0.149,False,Sylvite
-12972.93,12976.68,13,Halite,0.107,False,Sylvite
-12976.68,12977.43,42,Halite,0.149,False,Sylvite
-12977.43,12980.93,13,Halite,0.107,False,Sylvite
-12980.93,12981.68,42,Halite,0.149,False,Sylvite
-12981.68,12985.43,13,Halite,0.107,False,Sylvite
-12985.43,12986.18,42,Halite,0.149,False,Sylvite
-12986.18,12989.68,13,Halite,0.107,False,Sylvite
-12989.68,12990.43,42,Halite,0.149,False,Sylvite
-12990.43,12994.18,13,Halite,0.107,False,Sylvite
-12994.18,12994.93,42,Halite,0.149,False,Sylvite
-12994.93,12998.43,13,Halite,0.107,False,Sylvite
-12998.43,12999.18,42,Halite,0.149,False,Sylvite
-12999.18,13002.93,13,Halite,0.107,False,Sylvite
-13002.93,13003.68,42,Halite,0.149,False,Sylvite
-13003.68,13007.18,13,Halite,0.107,False,Sylvite
-13007.18,13007.93,42,Halite,0.149,False,Sylvite
-13007.93,13011.68,13,Halite,0.107,False,Sylvite
-13011.68,13012.43,42,Halite,0.149,False,Sylvite
-13012.43,13015.93,13,Halite,0.107,False,Sylvite
-13015.93,13016.68,42,Halite,0.149,False,Sylvite
-13016.68,13020.43,13,Halite,0.107,False,Sylvite
-13020.43,13021.18,42,Halite,0.149,False,Sylvite
-13021.18,13024.68,13,Halite,0.107,False,Sylvite
-13024.68,13025.43,42,Halite,0.149,False,Sylvite
-13025.43,13029.18,13,Halite,0.107,False,Sylvite
-13029.18,13029.93,42,Halite,0.149,False,Sylvite
-13029.93,13033.43,13,Halite,0.107,False,Sylvite
-13033.43,13034.18,42,Halite,0.149,False,Sylvite
-13034.18,13037.93,13,Halite,0.107,False,Sylvite
-13037.93,13038.68,42,Halite,0.149,False,Sylvite
-13038.68,13042.18,13,Halite,0.107,False,Sylvite
-13042.18,13042.93,42,Halite,0.149,False,Sylvite
-13042.93,13046.68,13,Halite,0.107,False,Sylvite
-13046.68,13047.43,42,Halite,0.149,False,Sylvite
-13047.43,13050.93,13,Halite,0.107,False,Sylvite
-13050.93,13051.68,42,Halite,0.149,False,Sylvite
-13051.68,13055.43,13,Halite,0.107,False,Sylvite
-13055.43,13056.18,42,Halite,0.149,False,Sylvite
-13056.18,13059.68,13,Halite,0.107,False,Sylvite
-13059.68,13060.43,42,Halite,0.149,False,Sylvite
-13060.43,13064.18,13,Halite,0.107,False,Sylvite
-13064.18,13064.93,42,Halite,0.149,False,Sylvite
-13064.93,13068.43,13,Halite,0.107,False,Sylvite
-13068.43,13069.18,42,Halite,0.149,False,Sylvite
-13069.18,13072.93,13,Halite,0.107,False,Sylvite
-13072.93,13073.68,42,Halite,0.149,False,Sylvite
-13073.68,13077.18,13,Halite,0.107,False,Sylvite
-13077.18,13077.93,42,Halite,0.149,False,Sylvite
-13077.93,13081.68,13,Halite,0.107,False,Sylvite
-13081.68,13082.43,42,Halite,0.149,False,Sylvite
-13082.43,13085.93,13,Halite,0.107,False,Sylvite
-13085.93,13086.68,42,Halite,0.149,False,Sylvite
-13086.68,13090.43,13,Halite,0.107,False,Sylvite
-13090.43,13091.18,42,Halite,0.149,False,Sylvite
-13091.18,13094.68,13,Halite,0.107,False,Sylvite
-13094.68,13095.43,42,Halite,0.149,False,Sylvite
-13095.43,13099.18,13,Halite,0.107,False,Sylvite
-13099.18,13099.93,42,Halite,0.149,False,Sylvite
-13099.93,13103.43,13,Halite,0.107,False,Sylvite
-13103.43,13104.18,42,Halite,0.149,False,Sylvite
-13104.18,13107.93,13,Halite,0.107,False,Sylvite
-13107.93,13108.68,42,Halite,0.149,False,Sylvite
-13108.68,13112.18,13,Halite,0.107,False,Sylvite
-13112.18,13112.93,42,Halite,0.149,False,Sylvite
-13112.93,13116.68,13,Halite,0.107,False,Sylvite
-13116.68,13117.43,42,Halite,0.149,False,Sylvite
-13117.43,13120.93,13,Halite,0.107,False,Sylvite
-13120.93,13121.68,42,Halite,0.149,False,Sylvite
-13121.68,13125.43,13,Halite,0.107,False,Sylvite
-13125.43,13126.18,42,Halite,0.149,False,Sylvite
-13126.18,13129.68,13,Halite,0.107,False,Sylvite
-13129.68,13130.43,42,Halite,0.149,False,Sylvite
-13130.43,13134.18,13,Halite,0.107,False,Sylvite
-13134.18,13134.93,42,Halite,0.149,False,Sylvite
-13134.93,13138.43,13,Halite,0.107,False,Sylvite
-13138.43,13139.18,42,Halite,0.149,False,Sylvite
-13139.18,13142.93,13,Halite,0.107,False,Sylvite
-13142.93,13143.68,42,Halite,0.149,False,Sylvite
-13143.68,13147.18,13,Halite,0.107,False,Sylvite
-13147.18,13147.93,42,Halite,0.149,False,Sylvite
-13147.93,13151.68,13,Halite,0.107,False,Sylvite
-13151.68,13152.43,42,Halite,0.149,False,Sylvite
-13152.43,13155.93,13,Halite,0.107,False,Sylvite
-13155.93,13156.68,42,Halite,0.149,False,Sylvite
-13156.68,13160.43,13,Halite,0.107,False,Sylvite
-13160.43,13161.18,42,Halite,0.149,False,Sylvite
-13161.18,13164.68,13,Halite,0.107,False,Sylvite
-13164.68,13165.43,42,Halite,0.149,False,Sylvite
-13165.43,13169.18,13,Halite,0.107,False,Sylvite
-13169.18,13169.93,42,Halite,0.149,False,Sylvite
-13169.93,13173.43,13,Halite,0.107,False,Sylvite
-13173.43,13174.18,42,Halite,0.149,False,Sylvite
-13174.18,13177.93,13,Halite,0.107,False,Sylvite
-13177.93,13178.68,42,Halite,0.149,False,Sylvite
-13178.68,13182.18,13,Halite,0.107,False,Sylvite
-13182.18,13182.93,42,Halite,0.149,False,Sylvite
-13182.93,13186.68,13,Halite,0.107,False,Sylvite
-13186.68,13187.43,42,Halite,0.149,False,Sylvite
-13187.43,13190.93,13,Halite,0.107,False,Sylvite
-13190.93,13191.68,42,Halite,0.149,False,Sylvite
-13191.68,13195.43,13,Halite,0.107,False,Sylvite
-13195.43,13196.18,42,Halite,0.149,False,Sylvite
-13196.18,13199.68,13,Halite,0.107,False,Sylvite
-13199.68,13200.43,42,Halite,0.149,False,Sylvite
-13200.43,13204.18,13,Halite,0.107,False,Sylvite
-13204.18,13204.93,42,Halite,0.149,False,Sylvite
-13204.93,13208.43,13,Halite,0.107,False,Sylvite
-13208.43,13209.18,42,Halite,0.149,False,Sylvite
-13209.18,13212.93,13,Halite,0.107,False,Sylvite
-13212.93,13213.68,42,Halite,0.149,False,Sylvite
-13213.68,13217.18,13,Halite,0.107,False,Sylvite
-13217.18,13217.93,42,Halite,0.149,False,Sylvite
-13217.93,13221.68,13,Halite,0.107,False,Sylvite
-13221.68,13222.43,42,Halite,0.149,False,Sylvite
-13222.43,13225.93,13,Halite,0.107,False,Sylvite
-13225.93,13226.68,42,Halite,0.149,False,Sylvite
-13226.68,13230.43,13,Halite,0.107,False,Sylvite
-13230.43,13231.18,42,Halite,0.149,False,Sylvite
-13231.18,13234.68,13,Halite,0.107,False,Sylvite
-13234.68,13235.43,42,Halite,0.149,False,Sylvite
-13235.43,13239.18,13,Halite,0.107,False,Sylvite
-13239.18,13239.93,42,Halite,0.149,False,Sylvite
-13239.93,13243.43,13,Halite,0.107,False,Sylvite
-13243.43,13244.18,42,Halite,0.149,False,Sylvite
-13244.18,13247.93,13,Halite,0.107,False,Sylvite
-13247.93,13248.68,42,Halite,0.149,False,Sylvite
-13248.68,13252.18,13,Halite,0.107,False,Sylvite
-13252.18,13252.93,42,Halite,0.149,False,Sylvite
-13252.93,13256.68,13,Halite,0.107,False,Sylvite
-13256.68,13257.43,42,Halite,0.149,False,Sylvite
-13257.43,13260.93,13,Halite,0.107,False,Sylvite
-13260.93,13261.68,42,Halite,0.149,False,Sylvite
-13261.68,13265.43,13,Halite,0.107,False,Sylvite
-13265.43,13266.18,42,Halite,0.149,False,Sylvite
-13266.18,13269.68,13,Halite,0.107,False,Sylvite
-13269.68,13270.43,42,Halite,0.149,False,Sylvite
-13270.43,13274.18,13,Halite,0.107,False,Sylvite
-13274.18,13274.93,42,Halite,0.149,False,Sylvite
-13274.93,13278.43,13,Halite,0.107,False,Sylvite
-13278.43,13279.18,42,Halite,0.149,False,Sylvite
-13279.18,13282.93,13,Halite,0.107,False,Sylvite
-13282.93,13283.68,42,Halite,0.149,False,Sylvite
-13283.68,13287.18,13,Halite,0.107,False,Sylvite
-13287.18,13287.93,42,Halite,0.149,False,Sylvite
-13287.93,13291.68,13,Halite,0.107,False,Sylvite
-13291.68,13292.43,42,Halite,0.149,False,Sylvite
-13292.43,13295.93,13,Halite,0.107,False,Sylvite
-13295.93,13296.68,42,Halite,0.149,False,Sylvite
-13296.68,13300.43,13,Halite,0.107,False,Sylvite
-13300.43,13301.18,42,Halite,0.149,False,Sylvite
-13301.18,13304.68,13,Halite,0.107,False,Sylvite
-13304.68,13305.43,42,Halite,0.149,False,Sylvite
-13305.43,13309.18,13,Halite,0.107,False,Sylvite
-13309.18,13309.93,42,Halite,0.149,False,Sylvite
-13309.93,13313.43,13,Halite,0.107,False,Sylvite
-13313.43,13314.18,42,Halite,0.149,False,Sylvite
-13314.18,13317.93,13,Halite,0.107,False,Sylvite
-13317.93,13318.68,42,Halite,0.149,False,Sylvite
-13318.68,13322.18,13,Halite,0.107,False,Sylvite
-13322.18,13322.93,42,Halite,0.149,False,Sylvite
-13322.93,13326.68,13,Halite,0.107,False,Sylvite
-13326.68,13327.43,42,Halite,0.149,False,Sylvite
-13327.43,13330.93,13,Halite,0.107,False,Sylvite
-13330.93,13331.68,42,Halite,0.149,False,Sylvite
-13331.68,13335.43,13,Halite,0.107,False,Sylvite
-13335.43,13336.18,42,Halite,0.149,False,Sylvite
-13336.18,13339.68,13,Halite,0.107,False,Sylvite
-13339.68,13340.43,42,Halite,0.149,False,Sylvite
-13340.43,13344.18,13,Halite,0.107,False,Sylvite
-13344.18,13344.93,42,Halite,0.149,False,Sylvite
-13344.93,13348.43,13,Halite,0.107,False,Sylvite
-13348.43,13349.18,42,Halite,0.149,False,Sylvite
-13349.18,13352.93,13,Halite,0.107,False,Sylvite
-13352.93,13353.68,42,Halite,0.149,False,Sylvite
-13353.68,13357.18,13,Halite,0.107,False,Sylvite
-13357.18,13357.93,42,Halite,0.149,False,Sylvite
-13357.93,13361.68,13,Halite,0.107,False,Sylvite
-13361.68,13362.43,42,Halite,0.149,False,Sylvite
-13362.43,13365.93,13,Halite,0.107,False,Sylvite
-13365.93,13366.68,42,Halite,0.149,False,Sylvite
-13366.68,13370.43,13,Halite,0.107,False,Sylvite
-13370.43,13371.18,42,Halite,0.149,False,Sylvite
-13371.18,13374.68,13,Halite,0.107,False,Sylvite
-13374.68,13375.43,42,Halite,0.149,False,Sylvite
-13375.43,13379.18,13,Halite,0.107,False,Sylvite
-13379.18,13379.93,42,Halite,0.149,False,Sylvite
-13379.93,13383.43,13,Halite,0.107,False,Sylvite
-13383.43,13384.18,42,Halite,0.149,False,Sylvite
-13384.18,13387.93,13,Halite,0.107,False,Sylvite
-13387.93,13388.68,42,Halite,0.149,False,Sylvite
-13388.68,13392.18,13,Halite,0.107,False,Sylvite
-13392.18,13392.93,42,Halite,0.149,False,Sylvite
-13392.93,13396.68,13,Halite,0.107,False,Sylvite
-13396.68,13397.43,42,Halite,0.149,False,Sylvite
-13397.43,13400.93,13,Halite,0.107,False,Sylvite
-13400.93,13401.68,42,Halite,0.149,False,Sylvite
-13401.68,13405.43,13,Halite,0.107,False,Sylvite
-13405.43,13406.18,42,Halite,0.149,False,Sylvite
-13406.18,13409.68,13,Halite,0.107,False,Sylvite
-13409.68,13410.43,42,Halite,0.149,False,Sylvite
-13410.43,13414.18,13,Halite,0.107,False,Sylvite
-13414.18,13414.93,42,Halite,0.149,False,Sylvite
-13414.93,13418.43,13,Halite,0.107,False,Sylvite
-13418.43,13419.18,42,Halite,0.149,False,Sylvite
-13419.18,13422.93,13,Halite,0.107,False,Sylvite
-13422.93,13423.68,42,Halite,0.149,False,Sylvite
-13423.68,13427.18,13,Halite,0.107,False,Sylvite
-13427.18,13427.93,42,Halite,0.149,False,Sylvite
-13427.93,13431.68,13,Halite,0.107,False,Sylvite
-13431.68,13432.43,42,Halite,0.149,False,Sylvite
-13432.43,13435.93,13,Halite,0.107,False,Sylvite
-13435.93,13436.68,42,Halite,0.149,False,Sylvite
-13436.68,13440.43,13,Halite,0.107,False,Sylvite
-13440.43,13441.18,42,Halite,0.149,False,Sylvite
-13441.18,13444.68,13,Halite,0.107,False,Sylvite
-13444.68,13445.43,42,Halite,0.149,False,Sylvite
-13445.43,13449.18,13,Halite,0.107,False,Sylvite
-13449.18,13449.93,42,Halite,0.149,False,Sylvite
-13449.93,13453.43,13,Halite,0.107,False,Sylvite
-13453.43,13454.18,42,Halite,0.149,False,Sylvite
-13454.18,13457.93,13,Halite,0.107,False,Sylvite
-13457.93,13458.68,42,Halite,0.149,False,Sylvite
-13458.68,13462.18,13,Halite,0.107,False,Sylvite
-13462.18,13462.93,42,Halite,0.149,False,Sylvite
-13462.93,13466.68,13,Halite,0.107,False,Sylvite
-13466.68,13467.43,42,Halite,0.149,False,Sylvite
-13467.43,13470.93,13,Halite,0.107,False,Sylvite
-13470.93,13471.68,42,Halite,0.149,False,Sylvite
-13471.68,13475.43,13,Halite,0.107,False,Sylvite
-13475.43,13476.18,42,Halite,0.149,False,Sylvite
-13476.18,13479.68,13,Halite,0.107,False,Sylvite
-13479.68,13480.43,42,Halite,0.149,False,Sylvite
-13480.43,13484.18,13,Halite,0.107,False,Sylvite
-13484.18,13484.93,42,Halite,0.149,False,Sylvite
-13484.93,13488.43,13,Halite,0.107,False,Sylvite
-13488.43,13489.18,42,Halite,0.149,False,Sylvite
-13489.18,13492.93,13,Halite,0.107,False,Sylvite
-13492.93,13493.68,42,Halite,0.149,False,Sylvite
-13493.68,13497.18,13,Halite,0.107,False,Sylvite
-13497.18,13497.93,42,Halite,0.149,False,Sylvite
-13497.93,13501.68,13,Halite,0.107,False,Sylvite
-13501.68,13502.43,42,Halite,0.149,False,Sylvite
-13502.43,13505.93,13,Halite,0.107,False,Sylvite
-13505.93,13506.68,42,Halite,0.149,False,Sylvite
-13506.68,13510.43,13,Halite,0.107,False,Sylvite
-13510.43,13511.18,42,Halite,0.149,False,Sylvite
-13511.18,13514.68,13,Halite,0.107,False,Sylvite
-13514.68,13515.43,42,Halite,0.149,False,Sylvite
-13515.43,13519.18,13,Halite,0.107,False,Sylvite
-13519.18,13519.93,42,Halite,0.149,False,Sylvite
-13519.93,13523.43,13,Halite,0.107,False,Sylvite
-13523.43,13524.18,42,Halite,0.149,False,Sylvite
-13524.18,13527.93,13,Halite,0.107,False,Sylvite
-13527.93,13528.68,42,Halite,0.149,False,Sylvite
-13528.68,13532.18,13,Halite,0.107,False,Sylvite
-13532.18,13532.93,42,Halite,0.149,False,Sylvite
-13532.93,13536.68,13,Halite,0.107,False,Sylvite
-13536.68,13537.43,42,Halite,0.149,False,Sylvite
-13537.43,13540.93,13,Halite,0.107,False,Sylvite
-13540.93,13541.68,42,Halite,0.149,False,Sylvite
-13541.68,13545.43,13,Halite,0.107,False,Sylvite
-13545.43,13546.18,42,Halite,0.149,False,Sylvite
-13546.18,13549.68,13,Halite,0.107,False,Sylvite
-13549.68,13550.43,42,Halite,0.149,False,Sylvite
-13550.43,13554.18,13,Halite,0.107,False,Sylvite
-13554.18,13554.93,42,Halite,0.149,False,Sylvite
-13554.93,13558.43,13,Halite,0.107,False,Sylvite
-13558.43,13559.18,42,Halite,0.149,False,Sylvite
-13559.18,13562.93,13,Halite,0.107,False,Sylvite
-13562.93,13563.68,42,Halite,0.149,False,Sylvite
-13563.68,13567.18,13,Halite,0.107,False,Sylvite
-13567.18,13568.68,36,Halite,0.419,False,Sylvite
-13568.68,13652.43,-1,Blank (no pattern),0.5,True,
-13652.43,14212.18,0,Shale grey,0.83,False,
-14212.18,14216.43,2,Siltstone,0.916,False,Silty Siltstone
-14216.43,14223.68,0,Shale grey,0.83,False,
-14223.68,14225.68,2,Siltstone,0.916,False,Silty Siltstone
-14225.68,14241.68,0,Shale grey,0.83,False,
-14241.68,14244.43,2,Siltstone,0.916,False,Silty Siltstone
-14244.43,14253.43,0,Shale grey,0.83,False,
-14253.43,14258.43,2,Siltstone,0.916,False,Silty Siltstone
-14258.43,14267.18,0,Shale grey,0.83,False,
-14267.18,14273.43,2,Siltstone,0.916,False,Silty Siltstone
-14273.43,14275.43,15,Shale grey,0.545,False,Clay
-14275.43,14278.18,26,Shale grey,0.42,False,Clay
-14278.18,14285.18,2,Siltstone,0.916,False,Silty Siltstone
-14285.18,14288.43,19,Sandstone,0.026,True,Tuff|Sand|Core
-14288.43,14289.43,39,Shale grey,0.571,False,
-14289.43,14293.18,14,Siltstone,0.382,False,Silty Siltstone
-14293.18,14296.18,1,Sandstone,0.953,False,Sand|Tuff
-14296.18,14304.43,2,Siltstone,0.916,False,Silty Siltstone
-14304.43,14306.43,0,Shale grey,0.83,False,
-14306.43,14315.68,2,Siltstone,0.916,False,Silty Siltstone
-14315.68,14316.68,39,Shale grey,0.571,False,
-14316.68,14322.43,2,Siltstone,0.916,False,Silty Siltstone
-14322.43,14323.18,43,Core,0.096,False,Bitumen|Sidewall core
-14323.18,14330.18,2,Siltstone,0.916,False,Silty Siltstone
-14330.18,14332.18,0,Shale grey,0.83,False,
-14332.18,14338.43,2,Siltstone,0.916,False,Silty Siltstone
-14338.43,14340.43,0,Shale grey,0.83,False,
-14340.43,14345.68,2,Siltstone,0.916,False,Silty Siltstone
-14345.68,14348.18,0,Shale grey,0.83,False,
-14348.18,14360.43,2,Siltstone,0.916,False,Silty Siltstone
-14360.43,14363.68,0,Shale grey,0.83,False,
-14363.68,14369.68,2,Siltstone,0.916,False,Silty Siltstone
-14369.68,14371.93,0,Shale grey,0.83,False,
-14371.93,14379.43,2,Siltstone,0.916,False,Silty Siltstone
-14379.43,14380.93,-1,Blank (no pattern),0.5,True,
-14380.93,14390.93,2,Siltstone,0.916,False,Silty Siltstone
-14390.93,14392.43,37,Sand,0.082,False,Sandstone|Tuff
-14392.43,14399.43,2,Siltstone,0.916,False,Silty Siltstone
-14399.43,14401.43,15,Shale grey,0.545,False,Clay
-14401.43,14404.18,26,Shale grey,0.42,False,Clay
-14404.18,14410.18,2,Siltstone,0.916,False,Silty Siltstone
-14410.18,14417.68,0,Shale grey,0.83,False,
-14417.68,14423.43,2,Siltstone,0.916,False,Silty Siltstone
-14423.43,14425.93,0,Shale grey,0.83,False,
-14425.93,14429.18,11,Siltstone,0.12,False,Silty Siltstone
-14429.18,14433.43,9,Shale grey,0.9,False,
-14433.43,14442.43,2,Siltstone,0.916,False,Silty Siltstone
-14442.43,14496.43,0,Shale grey,0.83,False,
-14496.43,14500.43,12,Siltstone,0.207,False,Silty Siltstone
-14500.43,14504.43,0,Shale grey,0.83,False,
-14504.43,14507.93,12,Siltstone,0.207,False,Silty Siltstone
-14507.93,14514.68,0,Shale grey,0.83,False,
-14514.68,14533.93,2,Siltstone,0.916,False,Silty Siltstone
-14533.93,14597.68,0,Shale grey,0.83,False,
-14597.68,14603.68,2,Siltstone,0.916,False,Silty Siltstone
-14603.68,14616.93,0,Shale grey,0.83,False,
-14616.93,14628.43,2,Siltstone,0.916,False,Silty Siltstone
-14628.43,14635.93,0,Shale grey,0.83,False,
-14635.93,14646.43,2,Siltstone,0.916,False,Silty Siltstone
-14646.43,14665.93,0,Shale grey,0.83,False,
-14665.93,14671.43,2,Siltstone,0.916,False,Silty Siltstone
-14671.43,14696.18,0,Shale grey,0.83,False,
-14696.18,14707.43,2,Siltstone,0.916,False,Silty Siltstone
-14707.43,14718.93,0,Shale grey,0.83,False,
-14718.93,14722.43,17,Sand,0.152,True,Sandstone|Tuff
-14722.43,14726.18,2,Siltstone,0.916,False,Silty Siltstone
-14726.18,14729.68,1,Sandstone,0.953,False,Sand|Tuff
-14729.68,14743.68,0,Shale grey,0.83,False,
-14743.68,14748.43,1,Sandstone,0.953,False,Sand|Tuff
-14748.43,14750.43,2,Siltstone,0.916,False,Silty Siltstone
-14750.43,14752.43,35,Sand,0.091,False,Sandstone|Tuff
-14752.43,14770.68,0,Shale grey,0.83,False,
-14770.68,14775.68,2,Siltstone,0.916,False,Silty Siltstone
-14775.68,14779.18,1,Sandstone,0.953,False,Sand|Tuff
-14779.18,14780.18,41,Shale grey,0.282,False,
-14780.18,14792.43,2,Siltstone,0.916,False,Silty Siltstone
-14792.43,14799.68,0,Shale grey,0.83,False,
-14799.68,14802.43,2,Siltstone,0.916,False,Silty Siltstone
-14802.43,14804.68,1,Sandstone,0.953,False,Sand|Tuff
-14804.68,14815.43,2,Siltstone,0.916,False,Silty Siltstone
-14815.43,14832.93,0,Shale grey,0.83,False,
-14832.93,14838.43,2,Siltstone,0.916,False,Silty Siltstone
-14838.43,14849.43,0,Shale grey,0.83,False,
-14849.43,14855.43,2,Siltstone,0.916,False,Silty Siltstone
-14855.43,14861.18,1,Sandstone,0.953,False,Sand|Tuff
-14861.18,14876.18,0,Shale grey,0.83,False,
-14876.18,14880.93,2,Siltstone,0.916,False,Silty Siltstone
-14880.93,14884.43,1,Sandstone,0.953,False,Sand|Tuff
-14884.43,14888.43,2,Siltstone,0.916,False,Silty Siltstone
-14888.43,14898.18,0,Shale grey,0.83,False,
-14898.18,14902.93,1,Sandstone,0.953,False,Sand|Tuff
-14902.93,14925.68,0,Shale grey,0.83,False,
-14925.68,14933.18,2,Siltstone,0.916,False,Silty Siltstone
-14933.18,14939.93,1,Sandstone,0.953,False,Sand|Tuff
-14939.93,14943.43,0,Shale grey,0.83,False,
-14943.43,14954.43,1,Sandstone,0.953,False,Sand|Tuff
-14954.43,14960.43,2,Siltstone,0.916,False,Silty Siltstone
-14960.43,14966.93,1,Sandstone,0.953,False,Sand|Tuff
-14966.93,14971.18,0,Shale grey,0.83,False,
-14971.18,14979.18,1,Sandstone,0.953,False,Sand|Tuff
-14979.18,14983.93,2,Siltstone,0.916,False,Silty Siltstone
-14983.93,14986.18,0,Shale grey,0.83,False,
-14986.18,14989.18,20,Shale grey,0.264,False,Clay
-14989.18,14992.43,2,Siltstone,0.916,False,Silty Siltstone
-14992.43,15004.18,1,Sandstone,0.953,False,Sand|Tuff
-15004.18,15008.43,2,Siltstone,0.916,False,Silty Siltstone
-15008.43,15010.93,0,Shale grey,0.83,False,
-15010.93,15013.18,0,Shale grey,0.83,False,
-15013.18,15017.68,2,Siltstone,0.916,False,Silty Siltstone
-15017.68,15025.18,1,Sandstone,0.953,False,Sand|Tuff
-15025.18,15027.68,0,Shale grey,0.83,False,
-15027.68,15034.43,1,Sandstone,0.953,False,Sand|Tuff
-15034.43,15038.43,2,Siltstone,0.916,False,Silty Siltstone
-15038.43,15041.18,0,Shale grey,0.83,False,
-15041.18,15050.93,2,Siltstone,0.916,False,Silty Siltstone
-15050.93,15055.93,1,Sandstone,0.953,False,Sand|Tuff
-15055.93,15065.43,2,Siltstone,0.916,False,Silty Siltstone
-15065.43,15071.68,1,Sandstone,0.953,False,Sand|Tuff
-15071.68,15089.18,0,Shale grey,0.83,False,
-15089.18,15091.93,27,Shale grey,0.341,False,Clay
-15091.93,15118.18,1,Sandstone,0.953,False,Sand|Tuff
-15118.18,15121.43,17,Sand,0.152,True,Sandstone|Tuff
-15121.43,15130.18,0,Shale grey,0.83,False,
-15130.18,15136.18,2,Siltstone,0.916,False,Silty Siltstone
-15136.18,15143.68,0,Shale grey,0.83,False,
-15143.68,15154.68,1,Sandstone,0.953,False,Sand|Tuff
-15154.68,15157.43,4,Sandstone,0.01,True,Sand|Tuff
-15157.43,15169.18,0,Shale grey,0.83,False,
-15169.18,15173.68,8,Siltstone,0.085,False,Silty Siltstone
-15173.68,15175.43,24,Silty Siltstone,0.013,True,Siltstone
-15175.43,15188.43,0,Shale grey,0.83,False,
-15188.43,15190.93,22,Shale grey,0.42,False,Clay
-15190.93,15195.18,0,Shale grey,0.83,False,
-15195.18,15197.68,21,Shale grey,0.371,False,Clay
-15197.68,15205.43,2,Siltstone,0.916,False,Silty Siltstone
-15205.43,15226.43,0,Shale grey,0.83,False,
-15226.43,15229.43,21,Shale grey,0.371,False,Clay
-15229.43,15232.18,10,Tuff,0.166,True,Sandstone|Sand
-15232.18,15236.43,0,Shale grey,0.83,False,
-15236.43,15239.68,2,Siltstone,0.916,False,Silty Siltstone
-15239.68,15242.68,7,Silty Siltstone,0.14,False,Siltstone|Sidewall core|Core
-15242.68,15247.93,0,Shale grey,0.83,False,
-15247.93,15253.68,2,Siltstone,0.916,False,Silty Siltstone
-15253.68,15262.68,0,Shale grey,0.83,False,
-15262.68,15267.43,2,Siltstone,0.916,False,Silty Siltstone
-15267.43,15270.43,0,Shale grey,0.83,False,
-15270.43,15275.18,1,Sandstone,0.953,False,Sand|Tuff
-15275.18,15281.68,0,Shale grey,0.83,False,
-15281.68,15286.43,2,Siltstone,0.916,False,Silty Siltstone
-15286.43,15305.18,0,Shale grey,0.83,False,
-15305.18,15308.93,1,Sandstone,0.953,False,Sand|Tuff
-15308.93,15326.43,0,Shale grey,0.83,False,
-15326.43,15329.43,2,Siltstone,0.916,False,Silty Siltstone
-15329.43,15370.68,0,Shale grey,0.83,False,
-15370.68,15376.18,1,Sandstone,0.953,False,Sand|Tuff
-15376.18,15408.43,0,Shale grey,0.83,False,
-15408.43,15418.18,2,Siltstone,0.916,False,Silty Siltstone
-15418.18,15436.18,0,Shale grey,0.83,False,
-15436.18,15440.68,2,Siltstone,0.916,False,Silty Siltstone
-15440.68,15447.18,0,Shale grey,0.83,False,
-15447.18,15452.43,2,Siltstone,0.916,False,Silty Siltstone
-15452.43,15473.93,0,Shale grey,0.83,False,
-15473.93,15478.68,1,Sandstone,0.953,False,Sand|Tuff
-15478.68,15500.68,0,Shale grey,0.83,False,
-15500.68,15505.68,2,Siltstone,0.916,False,Silty Siltstone
-15505.68,15551.93,0,Shale grey,0.83,False,
-15551.93,15554.68,2,Siltstone,0.916,False,Silty Siltstone
-15554.68,15557.68,7,Silty Siltstone,0.14,False,Siltstone|Sidewall core|Core
-15557.68,15586.18,0,Shale grey,0.83,False,
-15586.18,15594.68,2,Siltstone,0.916,False,Silty Siltstone
-15594.68,15609.68,0,Shale grey,0.83,False,
-15609.68,15617.43,2,Siltstone,0.916,False,Silty Siltstone
-15617.43,15646.93,0,Shale grey,0.83,False,
-15646.93,15655.18,2,Siltstone,0.916,False,Silty Siltstone
-15655.18,15674.18,0,Shale grey,0.83,False,
-15674.18,15677.18,22,Shale grey,0.42,False,Clay
-15677.18,15681.18,1,Sandstone,0.953,False,Sand|Tuff
-15681.18,15695.18,0,Shale grey,0.83,False,
-15695.18,15703.93,2,Siltstone,0.916,False,Silty Siltstone
-15703.93,15712.68,0,Shale grey,0.83,False,
-15712.68,15714.93,0,Shale grey,0.83,False,
-15714.93,15720.43,1,Sandstone,0.953,False,Sand|Tuff
-15720.43,15722.18,24,Silty Siltstone,0.013,True,Siltstone
-15722.18,15743.93,0,Shale grey,0.83,False,
-15743.93,15752.18,2,Siltstone,0.916,False,Silty Siltstone
-15752.18,15754.18,1,Sandstone,0.953,False,Sand|Tuff
-15754.18,15761.18,2,Siltstone,0.916,False,Silty Siltstone
-15761.18,15764.68,1,Sandstone,0.953,False,Sand|Tuff
-15764.68,15773.43,0,Shale grey,0.83,False,
-15773.43,15779.43,2,Siltstone,0.916,False,Silty Siltstone
-15779.43,15782.68,1,Sandstone,0.953,False,Sand|Tuff
-15782.68,15785.93,11,Siltstone,0.12,False,Silty Siltstone
-15785.93,15789.43,0,Shale grey,0.83,False,
-15789.43,15791.68,1,Sandstone,0.953,False,Sand|Tuff
-15791.68,15809.43,0,Shale grey,0.83,False,
-15809.43,15813.18,2,Siltstone,0.916,False,Silty Siltstone
-15813.18,15819.43,0,Shale grey,0.83,False,
-15819.43,15823.18,2,Siltstone,0.916,False,Silty Siltstone
-15823.18,15859.18,0,Shale grey,0.83,False,
-15859.18,15863.68,2,Siltstone,0.916,False,Silty Siltstone
-15863.68,15903.93,0,Shale grey,0.83,False,
-15903.93,15909.43,2,Siltstone,0.916,False,Silty Siltstone
-15909.43,15913.18,1,Sandstone,0.953,False,Sand|Tuff
-15913.18,15916.18,2,Siltstone,0.916,False,Silty Siltstone
-15916.18,15935.18,0,Shale grey,0.83,False,
-15935.18,15943.18,2,Siltstone,0.916,False,Silty Siltstone
-15943.18,15945.68,1,Sandstone,0.953,False,Sand|Tuff
-15945.68,15950.18,2,Siltstone,0.916,False,Silty Siltstone
-15950.18,15969.68,0,Shale grey,0.83,False,
-15969.68,15975.68,2,Siltstone,0.916,False,Silty Siltstone
-15975.68,15978.43,1,Sandstone,0.953,False,Sand|Tuff
-15978.43,15987.18,2,Siltstone,0.916,False,Silty Siltstone
-15987.18,16040.18,0,Shale grey,0.83,False,
-16040.18,16043.43,2,Siltstone,0.916,False,Silty Siltstone
-16043.43,16048.18,1,Sandstone,0.953,False,Sand|Tuff
-16048.18,16064.43,0,Shale grey,0.83,False,
-16064.43,16071.68,2,Siltstone,0.916,False,Silty Siltstone
-16071.68,16108.93,1,Sandstone,0.953,False,Sand|Tuff
-16108.93,16116.43,2,Siltstone,0.916,False,Silty Siltstone
-16116.43,16127.93,0,Shale grey,0.83,False,
-16127.93,16133.68,2,Siltstone,0.916,False,Silty Siltstone
-16133.68,16147.68,0,Shale grey,0.83,False,
-16147.68,16153.68,2,Siltstone,0.916,False,Silty Siltstone
-16153.68,16165.93,0,Shale grey,0.83,False,
-16165.93,16172.93,2,Siltstone,0.916,False,Silty Siltstone
-16172.93,16207.18,0,Shale grey,0.83,False,
-16207.18,16215.43,2,Siltstone,0.916,False,Silty Siltstone
-16215.43,16254.93,0,Shale grey,0.83,False,
-16254.93,16261.68,1,Sandstone,0.953,False,Sand|Tuff
-16261.68,16277.93,0,Shale grey,0.83,False,
-16277.93,16284.43,2,Siltstone,0.916,False,Silty Siltstone
-16284.43,16518.93,0,Shale grey,0.83,False,
-16518.93,16522.68,15,Shale grey,0.545,False,Clay
-16522.68,16600.18,0,Shale grey,0.83,False,
-16600.18,16604.68,2,Siltstone,0.916,False,Silty Siltstone
-16604.68,16608.43,0,Shale grey,0.83,False,
-16608.43,16616.43,2,Siltstone,0.916,False,Silty Siltstone
-16616.43,16632.93,0,Shale grey,0.83,False,
-16632.93,16636.43,2,Siltstone,0.916,False,Silty Siltstone
-16636.43,16657.43,0,Shale grey,0.83,False,
-16657.43,16660.18,2,Siltstone,0.916,False,Silty Siltstone
-16660.18,16688.68,0,Shale grey,0.83,False,
-16688.68,16691.68,23,Shale grey,0.429,False,Clay
-16691.68,16694.93,12,Siltstone,0.207,False,Silty Siltstone
-16694.93,16701.68,0,Shale grey,0.83,False,
-16701.68,16705.43,2,Siltstone,0.916,False,Silty Siltstone
-16705.43,16721.43,0,Shale grey,0.83,False,
-16721.43,16726.43,2,Siltstone,0.916,False,Silty Siltstone
-16726.43,16731.18,1,Sandstone,0.953,False,Sand|Tuff
-16731.18,16737.43,2,Siltstone,0.916,False,Silty Siltstone
-16737.43,16750.93,0,Shale grey,0.83,False,
-16750.93,16755.43,2,Siltstone,0.916,False,Silty Siltstone
-16755.43,16764.18,0,Shale grey,0.83,False,
-16764.18,16769.18,2,Siltstone,0.916,False,Silty Siltstone
-16769.18,16771.18,1,Sandstone,0.953,False,Sand|Tuff
-16771.18,16772.68,38,Silty Siltstone,0.033,True,Sidewall core|Siltstone|MDT Core
-16772.68,16775.93,2,Siltstone,0.916,False,Silty Siltstone
-16775.93,16784.43,0,Shale grey,0.83,False,
-16784.43,16789.18,2,Siltstone,0.916,False,Silty Siltstone
-16789.18,16791.68,1,Sandstone,0.953,False,Sand|Tuff
-16791.68,16797.18,2,Siltstone,0.916,False,Silty Siltstone
-16797.18,16802.43,0,Shale grey,0.83,False,
-16802.43,16806.43,2,Siltstone,0.916,False,Silty Siltstone
-16806.43,16808.68,1,Sandstone,0.953,False,Sand|Tuff
-16808.68,16815.18,2,Siltstone,0.916,False,Silty Siltstone
-16815.18,16820.43,0,Shale grey,0.83,False,
-16820.43,16825.18,2,Siltstone,0.916,False,Silty Siltstone
-16825.18,16827.68,1,Sandstone,0.953,False,Sand|Tuff
-16827.68,16831.18,14,Siltstone,0.382,False,Silty Siltstone
-16831.18,16838.68,0,Shale grey,0.83,False,
-16838.68,16845.43,2,Siltstone,0.916,False,Silty Siltstone
-16845.43,16847.93,1,Sandstone,0.953,False,Sand|Tuff
-16847.93,16859.43,2,Siltstone,0.916,False,Silty Siltstone
-16859.43,16863.43,9,Shale grey,0.9,False,
-16863.43,16872.43,2,Siltstone,0.916,False,Silty Siltstone
-16872.43,16874.68,0,Shale grey,0.83,False,
-16874.68,16877.68,24,Silty Siltstone,0.013,True,Siltstone
-16877.68,16883.93,1,Sandstone,0.953,False,Sand|Tuff
-16883.93,16888.18,0,Shale grey,0.83,False,
-16888.18,16894.43,2,Siltstone,0.916,False,Silty Siltstone
-16894.43,16900.93,0,Shale grey,0.83,False,
-16900.93,16904.93,2,Siltstone,0.916,False,Silty Siltstone
-16904.93,16908.43,1,Sandstone,0.953,False,Sand|Tuff
-16908.43,16933.18,0,Shale grey,0.83,False,
-16933.18,16939.43,2,Siltstone,0.916,False,Silty Siltstone
-16939.43,16941.43,17,Sand,0.152,True,Sandstone|Tuff
-16941.43,16951.18,0,Shale grey,0.83,False,
-16951.18,16955.93,4,Sandstone,0.01,True,Sand|Tuff
-16955.93,16964.68,0,Shale grey,0.83,False,
-16964.68,16969.43,2,Siltstone,0.916,False,Silty Siltstone
-16969.43,16986.68,0,Shale grey,0.83,False,
-16986.68,16991.18,2,Siltstone,0.916,False,Silty Siltstone
-16991.18,16997.68,0,Shale grey,0.83,False,
-16997.68,17003.18,2,Siltstone,0.916,False,Silty Siltstone
-17003.18,17013.93,0,Shale grey,0.83,False,
-17013.93,17018.93,2,Siltstone,0.916,False,Silty Siltstone
-17018.93,17021.68,1,Sandstone,0.953,False,Sand|Tuff
-17021.68,17025.68,2,Siltstone,0.916,False,Silty Siltstone
-17025.68,17037.93,0,Shale grey,0.83,False,
-17037.93,17042.68,2,Siltstone,0.916,False,Silty Siltstone
-17042.68,17062.43,0,Shale grey,0.83,False,
-17062.43,17068.18,2,Siltstone,0.916,False,Silty Siltstone
-17068.18,17070.93,1,Sandstone,0.953,False,Sand|Tuff
-17070.93,17076.43,2,Siltstone,0.916,False,Silty Siltstone
-17076.43,17085.93,0,Shale grey,0.83,False,
-17085.93,17092.18,2,Siltstone,0.916,False,Silty Siltstone
-17092.18,17107.68,0,Shale grey,0.83,False,
-17107.68,17119.18,2,Siltstone,0.916,False,Silty Siltstone
-17119.18,17153.18,0,Shale grey,0.83,False,
-17153.18,17156.43,2,Siltstone,0.916,False,Silty Siltstone
-17156.43,17471.93,0,Shale grey,0.83,False,
-17471.93,17476.68,7,Silty Siltstone,0.14,False,Siltstone|Sidewall core|Core
-17476.68,17481.18,1,Sandstone,0.953,False,Sand|Tuff
-17481.18,17483.68,2,Siltstone,0.916,False,Silty Siltstone
-17483.68,17485.93,17,Sand,0.152,True,Sandstone|Tuff
-17485.93,17492.43,0,Shale grey,0.83,False,
-17492.43,17498.43,2,Siltstone,0.916,False,Silty Siltstone
-17498.43,17499.43,37,Sand,0.082,False,Sandstone|Tuff
-17499.43,17501.68,1,Sandstone,0.953,False,Sand|Tuff
-17501.68,17505.18,2,Siltstone,0.916,False,Silty Siltstone
-17505.18,17507.18,0,Shale grey,0.83,False,
-17507.18,17510.43,14,Siltstone,0.382,False,Silty Siltstone
-17510.43,17512.93,1,Sandstone,0.953,False,Sand|Tuff
-17512.93,17519.18,2,Siltstone,0.916,False,Silty Siltstone
-17519.18,17530.68,1,Sandstone,0.953,False,Sand|Tuff
-17530.68,17533.43,4,Sandstone,0.01,True,Sand|Tuff
-17533.43,17551.68,0,Shale grey,0.83,False,
-17551.68,17576.93,1,Sandstone,0.953,False,Sand|Tuff
-17576.93,17584.93,0,Shale grey,0.83,False,
-17584.93,17587.18,0,Shale grey,0.83,False,
-17587.18,17589.93,28,Siltstone,0.669,False,Silty Siltstone
-17589.93,17603.93,1,Sandstone,0.953,False,Sand|Tuff
-17603.93,17612.18,0,Shale grey,0.83,False,
-17612.18,17617.43,2,Siltstone,0.916,False,Silty Siltstone
-17617.43,17627.43,1,Sandstone,0.953,False,Sand|Tuff
-17627.43,17634.93,2,Siltstone,0.916,False,Silty Siltstone
-17634.93,17643.93,0,Shale grey,0.83,False,
-17643.93,17682.18,1,Sandstone,0.953,False,Sand|Tuff
-17682.18,17685.43,2,Siltstone,0.916,False,Silty Siltstone
-17685.43,17690.68,1,Sandstone,0.953,False,Sand|Tuff
-17690.68,17693.93,2,Siltstone,0.916,False,Silty Siltstone
-17693.93,17702.93,1,Sandstone,0.953,False,Sand|Tuff
-17702.93,17754.93,0,Shale grey,0.83,False,
-17754.93,17759.18,1,Sandstone,0.953,False,Sand|Tuff
-17759.18,17762.68,0,Shale grey,0.83,False,
-17762.68,17775.93,1,Sandstone,0.953,False,Sand|Tuff
-17775.93,17780.68,0,Shale grey,0.83,False,
-17780.68,17817.93,1,Sandstone,0.953,False,Sand|Tuff
-17817.93,17821.43,17,Sand,0.152,True,Sandstone|Tuff
-17821.43,17824.18,0,Shale grey,0.83,False,
-17824.18,17883.18,1,Sandstone,0.953,False,Sand|Tuff
-17883.18,17888.68,0,Shale grey,0.83,False,
-17888.68,17960.43,1,Sandstone,0.953,False,Sand|Tuff
-17960.43,17973.93,0,Shale grey,0.83,False,
-17973.93,17999.18,1,Sandstone,0.953,False,Sand|Tuff
-17999.18,18002.18,25,Siltstone,0.263,False,Silty Siltstone
-18002.18,18006.68,1,Sandstone,0.953,False,Sand|Tuff
-18006.68,18011.18,0,Shale grey,0.83,False,
-18011.18,18043.18,1,Sandstone,0.953,False,Sand|Tuff
-18043.18,18047.18,2,Siltstone,0.916,False,Silty Siltstone
-18047.18,18101.18,1,Sandstone,0.953,False,Sand|Tuff
-18101.18,18118.68,0,Shale grey,0.83,False,
-18118.68,18218.93,1,Sandstone,0.953,False,Sand|Tuff
-18218.93,18221.68,17,Sand,0.152,True,Sandstone|Tuff
-18221.68,18226.18,0,Shale grey,0.83,False,
-18226.18,18241.68,1,Sandstone,0.953,False,Sand|Tuff
-18241.68,18244.43,17,Sand,0.152,True,Sandstone|Tuff
-18244.43,18249.43,0,Shale grey,0.83,False,
-18249.43,18253.43,4,Sandstone,0.01,True,Sand|Tuff
-18253.43,18256.18,0,Shale grey,0.83,False,
-18256.18,18264.18,1,Sandstone,0.953,False,Sand|Tuff
-18264.18,18284.18,0,Shale grey,0.83,False,
-18284.18,18298.68,1,Sandstone,0.953,False,Sand|Tuff
-18298.68,18320.18,0,Shale grey,0.83,False,
-18320.18,18322.93,29,Shale grey,0.815,False,
-18322.93,18334.18,0,Shale grey,0.83,False,
-18334.18,18338.68,1,Sandstone,0.953,False,Sand|Tuff
-18338.68,18347.43,0,Shale grey,0.83,False,
-18347.43,18362.93,1,Sandstone,0.953,False,Sand|Tuff
-18362.93,18365.68,6,Sand,0.088,True,Sandstone|Sidewall core|Tuff
-18365.68,18459.68,0,Shale grey,0.83,False,
-18459.68,18462.43,0,Shale grey,0.83,False,
-18462.43,18515.68,0,Shale grey,0.83,False,
-18515.68,18521.18,2,Siltstone,0.916,False,Silty Siltstone
-18521.18,18539.18,0,Shale grey,0.83,False,
-18539.18,18542.43,2,Siltstone,0.916,False,Silty Siltstone
-18542.43,18595.93,0,Shale grey,0.83,False,
-18595.93,18599.68,16,Sidewall core,0.327,False,Core
-18599.68,18731.18,0,Shale grey,0.83,False,
-18731.18,18732.43,39,Shale grey,0.571,False,
-18732.43,18991.18,0,Shale grey,0.83,False,
-18991.18,18998.93,1,Sandstone,0.953,False,Sand|Tuff
-18998.93,19001.18,0,Shale grey,0.83,False,
-19001.18,19010.18,1,Sandstone,0.953,False,Sand|Tuff
-19010.18,19020.93,0,Shale grey,0.83,False,
-19020.93,19024.18,14,Siltstone,0.382,False,Silty Siltstone
-19024.18,19030.18,0,Shale grey,0.83,False,
-19030.18,19034.43,4,Sandstone,0.01,True,Sand|Tuff
-19034.43,19036.43,2,Siltstone,0.916,False,Silty Siltstone
-19036.43,19051.68,1,Sandstone,0.953,False,Sand|Tuff
-19051.68,19054.43,17,Sand,0.152,True,Sandstone|Tuff
-19054.43,19059.43,0,Shale grey,0.83,False,
-19059.43,19073.93,1,Sandstone,0.953,False,Sand|Tuff
-19073.93,19089.93,0,Shale grey,0.83,False,
-19089.93,19094.68,2,Siltstone,0.916,False,Silty Siltstone
-19094.68,19108.68,0,Shale grey,0.83,False,
-19108.68,19112.68,2,Siltstone,0.916,False,Silty Siltstone
-19112.68,19121.43,0,Shale grey,0.83,False,
-19121.43,19160.68,1,Sandstone,0.953,False,Sand|Tuff
-19160.68,19164.43,2,Siltstone,0.916,False,Silty Siltstone
-19164.43,19181.18,1,Sandstone,0.953,False,Sand|Tuff
-19181.18,19184.68,0,Shale grey,0.83,False,
-19184.68,19223.18,1,Sandstone,0.953,False,Sand|Tuff
-19223.18,19227.43,0,Shale grey,0.83,False,
-19227.43,19235.18,2,Siltstone,0.916,False,Silty Siltstone
-19235.18,19248.43,1,Sandstone,0.953,False,Sand|Tuff
-19248.43,19258.68,0,Shale grey,0.83,False,
-19258.68,19261.43,30,Shale grey,0.344,False,Clay
-19261.43,19293.18,1,Sandstone,0.953,False,Sand|Tuff
-19293.18,19297.18,0,Shale grey,0.83,False,
-19297.18,19301.68,1,Sandstone,0.953,False,Sand|Tuff
-19301.68,19314.93,0,Shale grey,0.83,False,
-19314.93,19322.18,1,Sandstone,0.953,False,Sand|Tuff
-19322.18,19335.93,0,Shale grey,0.83,False,
-19335.93,19344.43,1,Sandstone,0.953,False,Sand|Tuff
-19344.43,19351.18,0,Shale grey,0.83,False,
-19351.18,19355.43,10,Tuff,0.166,True,Sandstone|Sand
-19355.43,19358.93,0,Shale grey,0.83,False,
-19358.93,19364.43,1,Sandstone,0.953,False,Sand|Tuff
-19364.43,19367.68,0,Shale grey,0.83,False,
-19367.68,19371.43,17,Sand,0.152,True,Sandstone|Tuff
-19371.43,19380.18,0,Shale grey,0.83,False,
-19380.18,19383.43,1,Sandstone,0.953,False,Sand|Tuff
-19383.43,19393.68,0,Shale grey,0.83,False,
-19393.68,19399.43,1,Sandstone,0.953,False,Sand|Tuff
-19399.43,19410.18,0,Shale grey,0.83,False,
-19410.18,19412.93,6,Sand,0.088,True,Sandstone|Sidewall core|Tuff
-19412.93,19417.18,0,Shale grey,0.83,False,
-19417.18,19423.18,1,Sandstone,0.953,False,Sand|Tuff
-19423.18,19438.68,0,Shale grey,0.83,False,
-19438.68,19441.43,30,Shale grey,0.344,False,Clay
-19441.43,19444.43,1,Sandstone,0.953,False,Sand|Tuff
-19444.43,19456.68,0,Shale grey,0.83,False,
-19456.68,19462.18,1,Sandstone,0.953,False,Sand|Tuff
-19462.18,19470.93,0,Shale grey,0.83,False,
-19470.93,19473.68,17,Sand,0.152,True,Sandstone|Tuff
-19473.68,19481.43,0,Shale grey,0.83,False,
-19481.43,19483.93,0,Shale grey,0.83,False,
-19483.93,19487.18,1,Sandstone,0.953,False,Sand|Tuff
-19487.18,19499.43,0,Shale grey,0.83,False,
-19499.43,19502.93,10,Tuff,0.166,True,Sandstone|Sand
-19502.93,19509.43,0,Shale grey,0.83,False,
-19509.43,19517.68,1,Sandstone,0.953,False,Sand|Tuff
-19517.68,19524.18,0,Shale grey,0.83,False,
-19524.18,19528.93,1,Sandstone,0.953,False,Sand|Tuff
-19528.93,19535.43,0,Shale grey,0.83,False,
-19535.43,19538.93,10,Tuff,0.166,True,Sandstone|Sand
-19538.93,19542.43,0,Shale grey,0.83,False,
-19542.43,19547.93,1,Sandstone,0.953,False,Sand|Tuff
-19547.93,19575.68,0,Shale grey,0.83,False,
-19575.68,19578.43,31,Shale grey,0.42,False,Clay
-19578.43,19582.93,1,Sandstone,0.953,False,Sand|Tuff
-19582.93,19600.68,0,Shale grey,0.83,False,
-19600.68,19606.18,1,Sandstone,0.953,False,Sand|Tuff
-19606.18,19630.43,0,Shale grey,0.83,False,
-19630.43,19633.18,9,Shale grey,0.9,False,
-19633.18,19658.68,0,Shale grey,0.83,False,
-19658.68,19664.18,1,Sandstone,0.953,False,Sand|Tuff
-19664.18,19679.43,0,Shale grey,0.83,False,
-19679.43,19682.18,31,Shale grey,0.42,False,Clay
-19682.18,19685.43,1,Sandstone,0.953,False,Sand|Tuff
-19685.43,19699.68,0,Shale grey,0.83,False,
-19699.68,19702.43,15,Shale grey,0.545,False,Clay
-19702.43,19705.18,0,Shale grey,0.83,False,
-19705.18,19709.93,1,Sandstone,0.953,False,Sand|Tuff
-19709.93,19716.43,0,Shale grey,0.83,False,
-19716.43,19720.43,4,Sandstone,0.01,True,Sand|Tuff
-19720.43,19762.68,0,Shale grey,0.83,False,
-19762.68,19768.18,4,Sandstone,0.01,True,Sand|Tuff
-19768.18,19784.93,0,Shale grey,0.83,False,
-19784.93,19789.93,4,Sandstone,0.01,True,Sand|Tuff
-19789.93,19792.18,0,Shale grey,0.83,False,
-19792.18,19796.68,1,Sandstone,0.953,False,Sand|Tuff
-19796.68,19816.43,0,Shale grey,0.83,False,
-19816.43,19819.43,21,Shale grey,0.371,False,Clay
-19819.43,19823.68,1,Sandstone,0.953,False,Sand|Tuff
-19823.68,19830.18,0,Shale grey,0.83,False,
-19830.18,19832.43,1,Sandstone,0.953,False,Sand|Tuff
-19832.43,19837.93,0,Shale grey,0.83,False,
-19837.93,19841.68,1,Sandstone,0.953,False,Sand|Tuff
-19841.68,19848.18,0,Shale grey,0.83,False,
-19848.18,19853.93,1,Sandstone,0.953,False,Sand|Tuff
-19853.93,19878.68,0,Shale grey,0.83,False,
-19878.68,19882.43,4,Sandstone,0.01,True,Sand|Tuff
-19882.43,19907.68,0,Shale grey,0.83,False,
-19907.68,19913.68,1,Sandstone,0.953,False,Sand|Tuff
-19913.68,19946.43,0,Shale grey,0.83,False,
-19946.43,19949.68,15,Shale grey,0.545,False,Clay
-19949.68,19950.68,39,Shale grey,0.571,False,
-19950.68,19955.18,4,Sandstone,0.01,True,Sand|Tuff
-19955.18,19978.43,0,Shale grey,0.83,False,
-19978.43,19983.43,6,Sand,0.088,True,Sandstone|Sidewall core|Tuff
-19983.43,20003.18,0,Shale grey,0.83,False,
-20003.18,20004.43,40,Shale grey,0.316,False,Bitumen
-20004.43,20036.93,0,Shale grey,0.83,False,
-20036.93,20039.68,32,Shale grey,0.555,False,Clay
-20039.68,20042.93,1,Sandstone,0.953,False,Sand|Tuff
-20042.93,20060.43,0,Shale grey,0.83,False,
-20060.43,20065.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20065.18,20068.93,0,Shale grey,0.83,False,
-20068.93,20072.43,10,Tuff,0.166,True,Sandstone|Sand
-20072.43,20076.43,0,Shale grey,0.83,False,
-20076.43,20081.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20081.18,20087.93,0,Shale grey,0.83,False,
-20087.93,20092.18,1,Sandstone,0.953,False,Sand|Tuff
-20092.18,20111.18,0,Shale grey,0.83,False,
-20111.18,20117.43,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20117.43,20129.43,0,Shale grey,0.83,False,
-20129.43,20134.18,1,Sandstone,0.953,False,Sand|Tuff
-20134.18,20139.43,0,Shale grey,0.83,False,
-20139.43,20146.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20146.18,20150.18,1,Sandstone,0.953,False,Sand|Tuff
-20150.18,20167.68,0,Shale grey,0.83,False,
-20167.68,20171.18,1,Sandstone,0.953,False,Sand|Tuff
-20171.18,20173.18,0,Shale grey,0.83,False,
-20173.18,20177.93,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20177.93,20182.18,0,Shale grey,0.83,False,
-20182.18,20184.68,4,Sandstone,0.01,True,Sand|Tuff
-20184.68,20187.43,0,Shale grey,0.83,False,
-20187.43,20189.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20189.18,20192.68,18,Sandstone,0.094,True,Sand|Tuff
-20192.68,20205.93,0,Shale grey,0.83,False,
-20205.93,20210.43,4,Sandstone,0.01,True,Sand|Tuff
-20210.43,20217.18,0,Shale grey,0.83,False,
-20217.18,20219.68,10,Tuff,0.166,True,Sandstone|Sand
-20219.68,20222.93,0,Shale grey,0.83,False,
-20222.93,20227.18,4,Sandstone,0.01,True,Sand|Tuff
-20227.18,20231.93,0,Shale grey,0.83,False,
-20231.93,20236.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20236.18,20239.68,18,Sandstone,0.094,True,Sand|Tuff
-20239.68,20245.18,0,Shale grey,0.83,False,
-20245.18,20251.18,1,Sandstone,0.953,False,Sand|Tuff
-20251.18,20257.93,0,Shale grey,0.83,False,
-20257.93,20261.43,10,Tuff,0.166,True,Sandstone|Sand
-20261.43,20273.43,0,Shale grey,0.83,False,
-20273.43,20278.18,1,Sandstone,0.953,False,Sand|Tuff
-20278.18,20291.43,0,Shale grey,0.83,False,
-20291.43,20294.93,1,Sandstone,0.953,False,Sand|Tuff
-20294.93,20299.18,0,Shale grey,0.83,False,
-20299.18,20301.68,1,Sandstone,0.953,False,Sand|Tuff
-20301.68,20307.18,0,Shale grey,0.83,False,
-20307.18,20311.93,1,Sandstone,0.953,False,Sand|Tuff
-20311.93,20327.18,0,Shale grey,0.83,False,
-20327.18,20332.43,5,Marl,0.422,False,Limestone|Dolomitic Clay
-20332.43,20336.68,0,Shale grey,0.83,False,
-20336.68,20339.93,1,Sandstone,0.953,False,Sand|Tuff
-20339.93,20354.43,0,Shale grey,0.83,False,
-20354.43,20357.93,10,Tuff,0.166,True,Sandstone|Sand
-20357.93,20396.93,0,Shale grey,0.83,False,
-20396.93,20399.68,33,Shale grey,0.289,False,Clay
-20399.68,20419.43,1,Sandstone,0.953,False,Sand|Tuff
-20419.43,20422.43,4,Sandstone,0.01,True,Sand|Tuff
-20422.43,20459.43,0,Shale grey,0.83,False,
-20459.43,20469.68,2,Siltstone,0.916,False,Silty Siltstone
-20469.68,20479.18,0,Shale grey,0.83,False,
-20479.18,20485.43,2,Siltstone,0.916,False,Silty Siltstone
-20485.43,20490.43,0,Shale grey,0.83,False,
-20490.43,20495.43,2,Siltstone,0.916,False,Silty Siltstone
-20495.43,20505.18,0,Shale grey,0.83,False,
-20505.18,20508.68,11,Siltstone,0.12,False,Silty Siltstone
-20508.68,20514.68,0,Shale grey,0.83,False,
-20514.68,20519.18,2,Siltstone,0.916,False,Silty Siltstone
-20519.18,20535.18,0,Shale grey,0.83,False,
-20535.18,20539.18,2,Siltstone,0.916,False,Silty Siltstone
-20539.18,20551.18,0,Shale grey,0.83,False,
-20551.18,20555.93,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20555.93,20568.43,0,Shale grey,0.83,False,
-20568.43,20575.18,2,Siltstone,0.916,False,Silty Siltstone
-20575.18,20580.43,0,Shale grey,0.83,False,
-20580.43,20585.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20585.18,20591.68,0,Shale grey,0.83,False,
-20591.68,20600.18,2,Siltstone,0.916,False,Silty Siltstone
-20600.18,20608.93,0,Shale grey,0.83,False,
-20608.93,20617.68,2,Siltstone,0.916,False,Silty Siltstone
-20617.68,20625.18,0,Shale grey,0.83,False,
-20625.18,20630.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20630.18,20644.68,0,Shale grey,0.83,False,
-20644.68,20647.43,2,Siltstone,0.916,False,Silty Siltstone
-20647.43,20653.93,0,Shale grey,0.83,False,
-20653.93,20659.18,2,Siltstone,0.916,False,Silty Siltstone
-20659.18,20670.18,0,Shale grey,0.83,False,
-20670.18,20675.18,2,Siltstone,0.916,False,Silty Siltstone
-20675.18,20689.68,0,Shale grey,0.83,False,
-20689.68,20693.18,5,Marl,0.422,False,Limestone|Dolomitic Clay
-20693.18,20711.93,0,Shale grey,0.83,False,
-20711.93,20714.68,34,Shale grey,0.424,False,Clay
-20714.68,20721.93,2,Siltstone,0.916,False,Silty Siltstone
-20721.93,20731.18,0,Shale grey,0.83,False,
-20731.18,20735.68,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20735.68,20747.18,0,Shale grey,0.83,False,
-20747.18,20752.18,2,Siltstone,0.916,False,Silty Siltstone
-20752.18,20773.68,0,Shale grey,0.83,False,
-20773.68,20777.68,2,Siltstone,0.916,False,Silty Siltstone
-20777.68,20778.68,39,Shale grey,0.571,False,
-20778.68,20783.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20783.18,20788.93,0,Shale grey,0.83,False,
-20788.93,20794.18,2,Siltstone,0.916,False,Silty Siltstone
-20794.18,20805.18,0,Shale grey,0.83,False,
-20805.18,20811.43,2,Siltstone,0.916,False,Silty Siltstone
-20811.43,20826.93,0,Shale grey,0.83,False,
-20826.93,20831.43,2,Siltstone,0.916,False,Silty Siltstone
-20831.43,20841.18,0,Shale grey,0.83,False,
-20841.18,20846.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20846.18,20852.18,0,Shale grey,0.83,False,
-20852.18,20857.18,0,Shale grey,0.83,False,
-20857.18,20861.68,2,Siltstone,0.916,False,Silty Siltstone
-20861.68,20863.43,24,Silty Siltstone,0.013,True,Siltstone
-20863.43,20880.93,2,Siltstone,0.916,False,Silty Siltstone
-20880.93,20897.43,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20897.43,20905.93,0,Shale grey,0.83,False,
-20905.93,20910.43,2,Siltstone,0.916,False,Silty Siltstone
-20910.43,20915.93,0,Shale grey,0.83,False,
-20915.93,20920.18,11,Siltstone,0.12,False,Silty Siltstone
-20920.18,20931.43,0,Shale grey,0.83,False,
-20931.43,20933.68,3,Marl,0.31,True,Limestone|Dolomitic Clay
-20933.68,20964.18,0,Shale grey,0.83,False,
-20964.18,20968.18,12,Siltstone,0.207,False,Silty Siltstone
-20968.18,20990.18,1,Sandstone,0.953,False,Sand|Tuff
-20990.18,20996.93,0,Shale grey,0.83,False,
-20996.93,21008.18,1,Sandstone,0.953,False,Sand|Tuff
-21008.18,21014.68,0,Shale grey,0.83,False,
-21014.68,21023.93,1,Sandstone,0.953,False,Sand|Tuff
-21023.93,21028.18,0,Shale grey,0.83,False,
-21028.18,21036.43,1,Sandstone,0.953,False,Sand|Tuff
-21036.43,21043.93,0,Shale grey,0.83,False,
-21043.93,21063.18,1,Sandstone,0.953,False,Sand|Tuff
-21063.18,21071.18,0,Shale grey,0.83,False,
-21071.18,21074.43,2,Siltstone,0.916,False,Silty Siltstone
-21074.43,21103.18,0,Shale grey,0.83,False,
-21103.18,21111.43,1,Sandstone,0.953,False,Sand|Tuff
-21111.43,21115.93,0,Shale grey,0.83,False,
-21115.93,21118.18,9,Shale grey,0.9,False,
-21118.18,21124.43,2,Siltstone,0.916,False,Silty Siltstone
-21124.43,21139.68,0,Shale grey,0.83,False,
-21139.68,21143.68,2,Siltstone,0.916,False,Silty Siltstone
-21143.68,21146.68,7,Silty Siltstone,0.14,False,Siltstone|Sidewall core|Core
-21146.68,21167.18,0,Shale grey,0.83,False,
-21167.18,21171.68,1,Sandstone,0.953,False,Sand|Tuff
-21171.68,21176.43,2,Siltstone,0.916,False,Silty Siltstone
-21176.43,21183.68,0,Shale grey,0.83,False,
-21183.68,21188.18,2,Siltstone,0.916,False,Silty Siltstone
-21188.18,21205.68,0,Shale grey,0.83,False,
-21205.68,21213.18,2,Siltstone,0.916,False,Silty Siltstone
-21213.18,21225.18,0,Shale grey,0.83,False,
-21225.18,21233.18,2,Siltstone,0.916,False,Silty Siltstone
-21233.18,21243.68,0,Shale grey,0.83,False,
-21243.68,21248.43,2,Siltstone,0.916,False,Silty Siltstone
-21248.43,21264.18,0,Shale grey,0.83,False,
-21264.18,21270.43,2,Siltstone,0.916,False,Silty Siltstone
-21270.43,21271.18,43,Core,0.096,False,Bitumen|Sidewall core
-21271.18,21284.18,2,Siltstone,0.916,False,Silty Siltstone
-21284.18,21286.43,0,Shale grey,0.83,False,
-21286.43,21300.43,2,Siltstone,0.916,False,Silty Siltstone
-21300.43,21308.43,1,Sandstone,0.953,False,Sand|Tuff
-21308.43,21310.93,0,Shale grey,0.83,False,
-21310.93,21316.18,2,Siltstone,0.916,False,Silty Siltstone
-21316.18,21339.68,0,Shale grey,0.83,False,
-21339.68,21342.43,27,Shale grey,0.341,False,Clay
-21342.43,21347.93,1,Sandstone,0.953,False,Sand|Tuff
-21347.93,21352.18,0,Shale grey,0.83,False,
-21352.18,21360.43,2,Siltstone,0.916,False,Silty Siltstone
-21360.43,21368.18,0,Shale grey,0.83,False,
-21368.18,21377.18,2,Siltstone,0.916,False,Silty Siltstone
-21377.18,21407.18,0,Shale grey,0.83,False,
-21407.18,21413.18,2,Siltstone,0.916,False,Silty Siltstone
-21413.18,21438.93,0,Shale grey,0.83,False,
-21438.93,21443.68,2,Siltstone,0.916,False,Silty Siltstone
-21443.68,21459.68,0,Shale grey,0.83,False,
-21459.68,21471.43,2,Siltstone,0.916,False,Silty Siltstone
-21471.43,21499.93,0,Shale grey,0.83,False,
-21499.93,21512.18,1,Sandstone,0.953,False,Sand|Tuff
-21512.18,21524.43,0,Shale grey,0.83,False,
-21524.43,21536.43,2,Siltstone,0.916,False,Silty Siltstone
-21536.43,21541.18,0,Shale grey,0.83,False,
-21541.18,21552.43,1,Sandstone,0.953,False,Sand|Tuff
-21552.43,21563.43,0,Shale grey,0.83,False,
-21563.43,21567.93,2,Siltstone,0.916,False,Silty Siltstone
-21567.93,21574.18,0,Shale grey,0.83,False,
-21574.18,21579.43,1,Sandstone,0.953,False,Sand|Tuff
-21579.43,21580.93,-1,Blank (no pattern),0.5,True,
-21580.93,21586.18,0,Shale grey,0.83,False,
-21586.18,21590.93,4,Sandstone,0.01,True,Sand|Tuff
-21590.93,21603.18,0,Shale grey,0.83,False,
-21603.18,21608.18,1,Sandstone,0.953,False,Sand|Tuff
-21608.18,21620.18,0,Shale grey,0.83,False,
-21620.18,21622.18,3,Marl,0.31,True,Limestone|Dolomitic Clay
-21622.18,21633.18,0,Shale grey,0.83,False,
-21633.18,21642.43,2,Siltstone,0.916,False,Silty Siltstone
-21642.43,21657.68,0,Shale grey,0.83,False,
-21657.68,21664.43,2,Siltstone,0.916,False,Silty Siltstone
-21664.43,21687.18,0,Shale grey,0.83,False,
-21687.18,21693.43,2,Siltstone,0.916,False,Silty Siltstone
-21693.43,21705.18,0,Shale grey,0.83,False,
-21705.18,21713.43,2,Siltstone,0.916,False,Silty Siltstone
-21713.43,21728.93,0,Shale grey,0.83,False,
-21728.93,21732.68,3,Marl,0.31,True,Limestone|Dolomitic Clay
-21732.68,21746.18,0,Shale grey,0.83,False,
-21746.18,21752.93,2,Siltstone,0.916,False,Silty Siltstone
-21752.93,21760.93,0,Shale grey,0.83,False,
-21760.93,21763.43,0,Shale grey,0.83,False,
-21763.43,21771.18,2,Siltstone,0.916,False,Silty Siltstone
-21771.18,21801.43,0,Shale grey,0.83,False,
-21801.43,21804.43,2,Siltstone,0.916,False,Silty Siltstone
-21804.43,21830.18,0,Shale grey,0.83,False,
-21830.18,21839.43,2,Siltstone,0.916,False,Silty Siltstone
-21839.43,21847.18,0,Shale grey,0.83,False,
-21847.18,21864.43,2,Siltstone,0.916,False,Silty Siltstone
-21864.43,21868.93,0,Shale grey,0.83,False,
-21868.93,21872.18,11,Siltstone,0.12,False,Silty Siltstone
-21872.18,21882.18,0,Shale grey,0.83,False,
-21882.18,21887.93,3,Marl,0.31,True,Limestone|Dolomitic Clay
-21887.93,21894.43,0,Shale grey,0.83,False,
-21894.43,21897.18,24,Silty Siltstone,0.013,True,Siltstone
-21897.18,21922.43,0,Shale grey,0.83,False,
-21922.43,21927.93,2,Siltstone,0.916,False,Silty Siltstone
-21927.93,21962.93,0,Shale grey,0.83,False,
+top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
+10051.17,13568.67,Halite,0,1727,15797
+13568.67,13652.17,Blank (no pattern),35,15797,16131
+13652.17,14212.17,Shale grey,1,16131,18371
+14212.17,14216.67,Siltstone,3,18371,18389
+14216.67,14222.42,Shale grey,1,18389,18412
+14222.42,14225.67,Clay,19,18412,18425
+14225.67,14240.92,Shale grey,1,18425,18486
+14240.92,14244.42,Siltstone,6,18486,18500
+14244.42,14253.42,Shale grey,1,18500,18536
+14253.42,14258.42,Siltstone,3,18536,18556
+14258.42,14266.92,Shale grey,1,18556,18590
+14266.92,14273.92,Siltstone,3,18590,18618
+14273.92,14276.42,Shale grey,1,18618,18628
+14276.42,14284.17,Siltstone,3,18628,18659
+14284.17,14286.42,Sandstone,2,18659,18668
+14286.42,14289.67,Clay,20,18668,18681
+14289.67,14293.42,Siltstone,8,18681,18696
+14293.42,14297.17,Sandstone,2,18696,18711
+14297.17,14303.92,Siltstone,3,18711,18738
+14303.92,14306.42,Shale grey,1,18738,18748
+14306.42,14315.42,Siltstone,3,18748,18784
+14315.42,14316.67,Shale grey,12,18784,18789
+14316.67,14321.92,Siltstone,3,18789,18810
+14321.92,14323.67,Shale grey,12,18810,18817
+14323.67,14330.17,Siltstone,3,18817,18843
+14330.17,14332.17,Shale grey,1,18843,18851
+14332.17,14338.42,Siltstone,3,18851,18876
+14338.42,14340.42,Shale grey,1,18876,18884
+14340.42,14345.67,Siltstone,3,18884,18905
+14345.67,14348.17,Shale grey,1,18905,18915
+14348.17,14360.42,Siltstone,3,18915,18964
+14360.42,14363.67,Shale grey,1,18964,18977
+14363.67,14369.67,Siltstone,3,18977,19001
+14369.67,14371.92,Shale grey,1,19001,19010
+14371.92,14378.67,Siltstone,3,19010,19037
+14378.67,14380.92,Shale grey,1,19037,19046
+14380.92,14390.92,Siltstone,3,19046,19086
+14390.92,14392.42,Sand,28,19086,19092
+14392.42,14399.92,Siltstone,3,19092,19122
+14399.92,14402.42,Shale grey,1,19122,19132
+14402.42,14410.17,Siltstone,3,19132,19163
+14410.17,14418.67,Shale grey,1,19163,19197
+14418.67,14423.67,Siltstone,3,19197,19217
+14423.67,14425.92,Shale grey,1,19217,19226
+14425.92,14430.17,Siltstone,6,19226,19243
+14430.17,14433.42,Shale grey,1,19243,19256
+14433.42,14442.42,Siltstone,3,19256,19292
+14442.42,14496.42,Shale grey,1,19292,19508
+14496.42,14500.17,Siltstone,6,19508,19523
+14500.17,14504.42,Shale grey,1,19523,19540
+14504.42,14507.92,Siltstone,6,19540,19554
+14507.92,14514.42,Shale grey,1,19554,19580
+14514.42,14534.17,Siltstone,3,19580,19659
+14534.17,14597.67,Shale grey,1,19659,19913
+14597.67,14603.67,Siltstone,3,19913,19937
+14603.67,14616.92,Shale grey,1,19937,19990
+14616.92,14628.42,Siltstone,3,19990,20036
+14628.42,14635.92,Shale grey,1,20036,20066
+14635.92,14646.42,Siltstone,3,20066,20108
+14646.42,14665.92,Shale grey,1,20108,20186
+14665.92,14671.42,Siltstone,3,20186,20208
+14671.42,14696.17,Shale grey,1,20208,20307
+14696.17,14707.42,Siltstone,3,20307,20352
+14707.42,14718.92,Shale grey,1,20352,20398
+14718.92,14722.42,Sandstone,16,20398,20412
+14722.42,14726.17,Siltstone,3,20412,20427
+14726.17,14729.17,Sandstone,2,20427,20439
+14729.17,14744.17,Shale grey,1,20439,20499
+14744.17,14752.42,Sandstone,2,20499,20532
+14752.42,14770.92,Shale grey,1,20532,20606
+14770.92,14775.67,Siltstone,3,20606,20625
+14775.67,14778.92,Sandstone,2,20625,20638
+14778.92,14780.42,Shale grey,31,20638,20644
+14780.42,14792.42,Siltstone,3,20644,20692
+14792.42,14799.17,Shale grey,1,20692,20719
+14799.17,14802.42,Siltstone,3,20719,20732
+14802.42,14805.92,Sandstone,2,20732,20746
+14805.92,14815.17,Siltstone,3,20746,20783
+14815.17,14832.92,Shale grey,1,20783,20854
+14832.92,14838.42,Siltstone,3,20854,20876
+14838.42,14849.42,Shale grey,1,20876,20920
+14849.42,14855.67,Siltstone,3,20920,20945
+14855.67,14861.17,Sandstone,2,20945,20967
+14861.17,14876.17,Shale grey,1,20967,21027
+14876.17,14881.17,Siltstone,3,21027,21047
+14881.17,14884.42,Sandstone,2,21047,21060
+14884.42,14888.42,Siltstone,3,21060,21076
+14888.42,14899.17,Shale grey,1,21076,21119
+14899.17,14902.92,Sandstone,2,21119,21134
+14902.92,14925.67,Shale grey,1,21134,21225
+14925.67,14933.17,Siltstone,3,21225,21255
+14933.17,14939.92,Sandstone,2,21255,21282
+14939.92,14944.17,Shale grey,1,21282,21299
+14944.17,14954.42,Sandstone,2,21299,21340
+14954.42,14961.17,Siltstone,3,21340,21367
+14961.17,14967.17,Sandstone,2,21367,21391
+14967.17,14971.67,Shale grey,1,21391,21409
+14971.67,14979.17,Sandstone,2,21409,21439
+14979.17,14983.42,Siltstone,3,21439,21456
+14983.42,14987.42,Shale grey,1,21456,21472
+14987.42,14988.67,Sand,33,21472,21477
+14988.67,14992.42,Siltstone,3,21477,21492
+14992.42,15004.17,Sandstone,2,21492,21539
+15004.17,15008.67,Siltstone,3,21539,21557
+15008.67,15013.17,Shale grey,1,21557,21575
+15013.17,15017.67,Siltstone,3,21575,21593
+15017.67,15025.17,Sandstone,2,21593,21623
+15025.17,15027.67,Shale grey,1,21623,21633
+15027.67,15034.92,Sandstone,2,21633,21662
+15034.92,15038.92,Siltstone,3,21662,21678
+15038.92,15041.17,Shale grey,1,21678,21687
+15041.17,15050.92,Siltstone,3,21687,21726
+15050.92,15055.92,Sandstone,2,21726,21746
+15055.92,15065.92,Siltstone,3,21746,21786
+15065.92,15071.17,Sandstone,2,21786,21807
+15071.17,15089.92,Shale grey,1,21807,21882
+15089.92,15118.17,Sandstone,2,21882,21995
+15118.17,15130.17,Shale grey,1,21995,22043
+15130.17,15136.17,Siltstone,3,22043,22067
+15136.17,15144.42,Shale grey,1,22067,22100
+15144.42,15156.92,Sandstone,2,22100,22150
+15156.92,15169.17,Shale grey,1,22150,22199
+15169.17,15172.17,Clay,22,22199,22211
+15172.17,15175.17,Siltstone,3,22211,22223
+15175.17,15197.17,Shale grey,1,22223,22311
+15197.17,15206.17,Siltstone,3,22311,22347
+15206.17,15226.42,Shale grey,1,22347,22428
+15226.42,15231.42,Sandstone,5,22428,22448
+15231.42,15235.92,Shale grey,1,22448,22466
+15235.92,15240.92,Siltstone,3,22466,22486
+15240.92,15242.67,Blank (no pattern),35,22486,22493
+15242.67,15247.92,Shale grey,1,22493,22514
+15247.92,15252.92,Siltstone,3,22514,22534
+15252.92,15262.67,Shale grey,1,22534,22573
+15262.67,15266.92,Siltstone,3,22573,22590
+15266.92,15270.92,Shale grey,1,22590,22606
+15270.92,15274.17,Sandstone,2,22606,22619
+15274.17,15281.67,Shale grey,1,22619,22649
+15281.67,15287.17,Siltstone,3,22649,22671
+15287.17,15305.17,Shale grey,1,22671,22743
+15305.17,15308.92,Sandstone,2,22743,22758
+15308.92,15327.67,Shale grey,1,22758,22833
+15327.67,15329.42,Siltstone,3,22833,22840
+15329.42,15370.67,Shale grey,1,22840,23005
+15370.67,15376.17,Sandstone,2,23005,23027
+15376.17,15408.42,Shale grey,1,23027,23156
+15408.42,15418.17,Siltstone,3,23156,23195
+15418.17,15435.92,Shale grey,1,23195,23266
+15435.92,15440.67,Siltstone,3,23266,23285
+15440.67,15447.17,Shale grey,1,23285,23311
+15447.17,15452.92,Siltstone,3,23311,23334
+15452.92,15473.92,Shale grey,1,23334,23418
+15473.92,15477.92,Sandstone,2,23418,23434
+15477.92,15499.92,Shale grey,1,23434,23522
+15499.92,15504.92,Siltstone,6,23522,23542
+15504.92,15551.92,Shale grey,1,23542,23730
+15551.92,15555.92,Siltstone,3,23730,23746
+15555.92,15557.67,Blank (no pattern),35,23746,23753
+15557.67,15587.17,Shale grey,1,23753,23871
+15587.17,15594.67,Siltstone,3,23871,23901
+15594.67,15610.92,Shale grey,1,23901,23966
+15610.92,15618.17,Siltstone,3,23966,23995
+15618.17,15646.92,Shale grey,1,23995,24110
+15646.92,15655.17,Siltstone,3,24110,24143
+15655.17,15676.67,Shale grey,1,24143,24229
+15676.67,15681.17,Sandstone,2,24229,24247
+15681.17,15695.17,Shale grey,1,24247,24303
+15695.17,15703.42,Siltstone,3,24303,24336
+15703.42,15714.92,Shale grey,1,24336,24382
+15714.92,15720.42,Sandstone,2,24382,24404
+15720.42,15743.92,Shale grey,1,24404,24498
+15743.92,15752.17,Siltstone,3,24498,24531
+15752.17,15754.67,Sandstone,2,24531,24541
+15754.67,15761.17,Siltstone,3,24541,24567
+15761.17,15764.17,Sandstone,2,24567,24579
+15764.17,15774.42,Shale grey,1,24579,24620
+15774.42,15780.17,Siltstone,3,24620,24643
+15780.17,15782.67,Sandstone,2,24643,24653
+15782.67,15784.17,Siltstone,3,24653,24659
+15784.17,15788.42,Shale grey,1,24659,24676
+15788.42,15791.67,Tuff,21,24676,24689
+15791.67,15809.17,Shale grey,1,24689,24759
+15809.17,15813.92,Siltstone,3,24759,24778
+15813.92,15819.42,Shale grey,1,24778,24800
+15819.42,15823.17,Siltstone,3,24800,24815
+15823.17,15859.67,Shale grey,1,24815,24961
+15859.67,15863.67,Siltstone,3,24961,24977
+15863.67,15904.42,Shale grey,1,24977,25140
+15904.42,15909.42,Siltstone,3,25140,25160
+15909.42,15913.17,Sandstone,2,25160,25175
+15913.17,15916.17,Siltstone,3,25175,25187
+15916.17,15935.17,Shale grey,1,25187,25263
+15935.17,15943.17,Siltstone,3,25263,25295
+15943.17,15945.42,Sandstone,2,25295,25304
+15945.42,15950.17,Siltstone,3,25304,25323
+15950.17,15969.67,Shale grey,1,25323,25401
+15969.67,15975.67,Siltstone,3,25401,25425
+15975.67,15978.42,Sandstone,2,25425,25436
+15978.42,15986.42,Siltstone,3,25436,25468
+15986.42,16039.92,Shale grey,1,25468,25682
+16039.92,16043.67,Siltstone,3,25682,25697
+16043.67,16048.17,Sandstone,2,25697,25715
+16048.17,16064.42,Shale grey,1,25715,25780
+16064.42,16071.67,Siltstone,3,25780,25809
+16071.67,16109.17,Sandstone,2,25809,25959
+16109.17,16116.42,Siltstone,3,25959,25988
+16116.42,16128.42,Shale grey,1,25988,26036
+16128.42,16133.67,Siltstone,3,26036,26057
+16133.67,16147.92,Shale grey,1,26057,26114
+16147.92,16152.92,Siltstone,3,26114,26134
+16152.92,16165.92,Shale grey,1,26134,26186
+16165.92,16172.92,Siltstone,3,26186,26214
+16172.92,16207.17,Shale grey,1,26214,26351
+16207.17,16215.42,Siltstone,3,26351,26384
+16215.42,16254.92,Shale grey,1,26384,26542
+16254.92,16260.92,Sandstone,2,26542,26566
+16260.92,16277.92,Shale grey,1,26566,26634
+16277.92,16284.42,Siltstone,3,26634,26660
+16284.42,16600.67,Shale grey,1,26660,27925
+16600.67,16604.67,Siltstone,3,27925,27941
+16604.67,16608.42,Shale grey,1,27941,27956
+16608.42,16617.17,Siltstone,3,27956,27991
+16617.17,16632.92,Shale grey,1,27991,28054
+16632.92,16637.17,Siltstone,3,28054,28071
+16637.17,16657.42,Shale grey,1,28071,28152
+16657.42,16660.42,Siltstone,3,28152,28164
+16660.42,16691.17,Shale grey,1,28164,28287
+16691.17,16694.92,Siltstone,6,28287,28302
+16694.92,16701.42,Shale grey,1,28302,28328
+16701.42,16705.17,Siltstone,3,28328,28343
+16705.17,16721.42,Shale grey,1,28343,28408
+16721.42,16726.42,Siltstone,3,28408,28428
+16726.42,16731.67,Sandstone,2,28428,28449
+16731.67,16737.42,Siltstone,3,28449,28472
+16737.42,16750.92,Shale grey,1,28472,28526
+16750.92,16755.42,Siltstone,3,28526,28544
+16755.42,16764.17,Shale grey,1,28544,28579
+16764.17,16769.17,Siltstone,3,28579,28599
+16769.17,16771.17,Sandstone,2,28599,28607
+16771.17,16775.92,Siltstone,3,28607,28626
+16775.92,16783.92,Shale grey,1,28626,28658
+16783.92,16789.17,Siltstone,3,28658,28679
+16789.17,16791.42,Sandstone,2,28679,28688
+16791.42,16796.42,Siltstone,3,28688,28708
+16796.42,16801.92,Shale grey,1,28708,28730
+16801.92,16805.67,Siltstone,3,28730,28745
+16805.67,16809.42,Sandstone,2,28745,28760
+16809.42,16814.42,Siltstone,3,28760,28780
+16814.42,16819.92,Shale grey,1,28780,28802
+16819.92,16825.17,Siltstone,3,28802,28823
+16825.17,16827.42,Sandstone,2,28823,28832
+16827.42,16831.17,Siltstone,8,28832,28847
+16831.17,16838.67,Shale grey,1,28847,28877
+16838.67,16844.67,Siltstone,3,28877,28901
+16844.67,16848.92,Sandstone,2,28901,28918
+16848.92,16860.17,Siltstone,3,28918,28963
+16860.17,16863.42,Shale grey,1,28963,28976
+16863.42,16871.42,Siltstone,3,28976,29008
+16871.42,16874.67,Shale grey,1,29008,29021
+16874.67,16878.92,Siltstone,8,29021,29038
+16878.92,16880.67,Sand,28,29038,29045
+16880.67,16882.92,Sandstone,2,29045,29054
+16882.92,16888.17,Shale grey,1,29054,29075
+16888.17,16894.42,Siltstone,3,29075,29100
+16894.42,16899.92,Shale grey,1,29100,29122
+16899.92,16904.92,Siltstone,3,29122,29142
+16904.92,16908.42,Sandstone,2,29142,29156
+16908.42,16934.17,Shale grey,1,29156,29259
+16934.17,16939.17,Siltstone,3,29259,29279
+16939.17,16940.92,Sandstone,29,29279,29286
+16940.92,16952.17,Shale grey,1,29286,29331
+16952.17,16956.17,Sandstone,2,29331,29347
+16956.17,16964.67,Shale grey,1,29347,29381
+16964.67,16970.17,Siltstone,3,29381,29403
+16970.17,16986.67,Shale grey,1,29403,29469
+16986.67,16990.17,Siltstone,8,29469,29483
+16990.17,16998.42,Shale grey,1,29483,29516
+16998.42,17003.17,Siltstone,3,29516,29535
+17003.17,17014.92,Shale grey,1,29535,29582
+17014.92,17018.92,Siltstone,6,29582,29598
+17018.92,17022.42,Sandstone,2,29598,29612
+17022.42,17025.67,Siltstone,3,29612,29625
+17025.67,17037.92,Shale grey,1,29625,29674
+17037.92,17042.67,Siltstone,3,29674,29693
+17042.67,17063.17,Shale grey,1,29693,29775
+17063.17,17068.17,Siltstone,3,29775,29795
+17068.17,17070.42,Sandstone,2,29795,29804
+17070.42,17076.42,Siltstone,3,29804,29828
+17076.42,17085.92,Shale grey,1,29828,29866
+17085.92,17092.17,Siltstone,3,29866,29891
+17092.17,17107.67,Shale grey,1,29891,29953
+17107.67,17119.17,Siltstone,3,29953,29999
+17119.17,17153.17,Shale grey,1,29999,30135
+17153.17,17156.42,Siltstone,3,30135,30148
+17156.42,17472.92,Shale grey,1,30148,31414
+17472.92,17476.17,Siltstone,15,31414,31427
+17476.17,17481.17,Sandstone,2,31427,31447
+17481.17,17483.67,Siltstone,3,31447,31457
+17483.67,17485.42,Sandstone,2,31457,31464
+17485.42,17493.42,Shale grey,1,31464,31496
+17493.42,17498.42,Siltstone,3,31496,31516
+17498.42,17501.67,Sandstone,2,31516,31529
+17501.67,17505.92,Siltstone,3,31529,31546
+17505.92,17507.17,Shale grey,12,31546,31551
+17507.17,17510.67,Siltstone,8,31551,31565
+17510.67,17512.92,Sandstone,2,31565,31574
+17512.92,17519.67,Siltstone,3,31574,31601
+17519.67,17532.92,Sandstone,2,31601,31654
+17532.92,17552.17,Shale grey,1,31654,31731
+17552.17,17576.92,Sandstone,2,31731,31830
+17576.92,17587.17,Shale grey,1,31830,31871
+17587.17,17590.17,Siltstone,3,31871,31883
+17590.17,17603.92,Sandstone,2,31883,31938
+17603.92,17612.17,Shale grey,1,31938,31971
+17612.17,17617.42,Siltstone,3,31971,31992
+17617.42,17628.42,Sandstone,2,31992,32036
+17628.42,17634.92,Siltstone,3,32036,32062
+17634.92,17636.67,Sidewall core,30,32062,32069
+17636.67,17644.42,Shale grey,1,32069,32100
+17644.42,17682.17,Sandstone,2,32100,32251
+17682.17,17685.42,Siltstone,3,32251,32264
+17685.42,17690.67,Sandstone,2,32264,32285
+17690.67,17693.92,Siltstone,3,32285,32298
+17693.92,17702.92,Sandstone,2,32298,32334
+17702.92,17754.92,Shale grey,1,32334,32542
+17754.92,17759.17,Sandstone,2,32542,32559
+17759.17,17762.67,Shale grey,1,32559,32573
+17762.67,17775.92,Sandstone,2,32573,32626
+17775.92,17780.67,Shale grey,1,32626,32645
+17780.67,17817.92,Sandstone,2,32645,32794
+17817.92,17824.17,Shale grey,17,32794,32819
+17824.17,17883.92,Sandstone,2,32819,33058
+17883.92,17889.42,Shale grey,1,33058,33080
+17889.42,17960.42,Sandstone,2,33080,33364
+17960.42,17973.92,Shale grey,1,33364,33418
+17973.92,18000.67,Sandstone,2,33418,33525
+18000.67,18003.17,Siltstone,3,33525,33535
+18003.17,18006.67,Sandstone,2,33535,33549
+18006.67,18011.17,Shale grey,1,33549,33567
+18011.17,18043.17,Sandstone,2,33567,33695
+18043.17,18047.17,Siltstone,3,33695,33711
+18047.17,18101.17,Sandstone,2,33711,33927
+18101.17,18118.67,Shale grey,1,33927,33997
+18118.67,18221.17,Sandstone,2,33997,34407
+18221.17,18226.17,Shale grey,1,34407,34427
+18226.17,18244.17,Sandstone,2,34427,34499
+18244.17,18249.42,Shale grey,1,34499,34520
+18249.42,18252.92,Sandstone,2,34520,34534
+18252.92,18256.67,Shale grey,12,34534,34549
+18256.67,18263.42,Sandstone,2,34549,34576
+18263.42,18284.17,Shale grey,1,34576,34659
+18284.17,18299.17,Sandstone,2,34659,34719
+18299.17,18334.17,Shale grey,1,34719,34859
+18334.17,18338.67,Sandstone,2,34859,34877
+18338.67,18347.42,Shale grey,1,34877,34912
+18347.42,18365.17,Sandstone,2,34912,34983
+18365.17,18516.17,Shale grey,1,34983,35587
+18516.17,18521.17,Siltstone,3,35587,35607
+18521.17,18539.17,Shale grey,1,35607,35679
+18539.17,18542.42,Siltstone,3,35679,35692
+18542.42,18595.92,Shale grey,1,35692,35906
+18595.92,18599.67,Sidewall core,13,35906,35921
+18599.67,18991.17,Shale grey,1,35921,37487
+18991.17,18998.92,Sandstone,2,37487,37518
+18998.92,19001.67,Shale grey,1,37518,37529
+19001.67,19010.17,Sandstone,2,37529,37563
+19010.17,19020.92,Shale grey,1,37563,37606
+19020.92,19024.17,Siltstone,8,37606,37619
+19024.17,19030.67,Shale grey,1,37619,37645
+19030.67,19033.92,Sandstone,2,37645,37658
+19033.92,19036.42,Siltstone,3,37658,37668
+19036.42,19053.92,Sandstone,2,37668,37738
+19053.92,19059.92,Shale grey,1,37738,37762
+19059.92,19073.92,Sandstone,2,37762,37818
+19073.92,19089.92,Shale grey,1,37818,37882
+19089.92,19094.67,Siltstone,3,37882,37901
+19094.67,19108.67,Shale grey,1,37901,37957
+19108.67,19112.67,Siltstone,8,37957,37973
+19112.67,19122.42,Shale grey,1,37973,38012
+19122.42,19160.67,Sandstone,2,38012,38165
+19160.67,19163.92,Siltstone,3,38165,38178
+19163.92,19181.17,Sandstone,2,38178,38247
+19181.17,19184.67,Shale grey,1,38247,38261
+19184.67,19221.92,Sandstone,2,38261,38410
+19221.92,19227.42,Shale grey,1,38410,38432
+19227.42,19234.17,Siltstone,3,38432,38459
+19234.17,19248.42,Sandstone,2,38459,38516
+19248.42,19259.42,Shale grey,1,38516,38560
+19259.42,19293.42,Sandstone,2,38560,38696
+19293.42,19297.17,Shale grey,1,38696,38711
+19297.17,19301.67,Sandstone,2,38711,38729
+19301.67,19314.92,Shale grey,1,38729,38782
+19314.92,19321.67,Sandstone,2,38782,38809
+19321.67,19335.92,Shale grey,1,38809,38866
+19335.92,19343.92,Sandstone,2,38866,38898
+19343.92,19352.17,Shale grey,1,38898,38931
+19352.17,19354.67,Sandstone,2,38931,38941
+19354.67,19359.92,Shale grey,1,38941,38962
+19359.92,19363.67,Sandstone,2,38962,38977
+19363.67,19367.67,Shale grey,1,38977,38993
+19367.67,19370.67,Sandstone,16,38993,39005
+19370.67,19380.17,Shale grey,1,39005,39043
+19380.17,19383.42,Sandstone,2,39043,39056
+19383.42,19394.92,Shale grey,1,39056,39102
+19394.92,19399.42,Sandstone,2,39102,39120
+19399.42,19410.17,Shale grey,1,39120,39163
+19410.17,19413.17,Sandstone,16,39163,39175
+19413.17,19418.17,Shale grey,1,39175,39195
+19418.17,19423.17,Sandstone,2,39195,39215
+19423.17,19439.42,Shale grey,1,39215,39280
+19439.42,19444.42,Sandstone,2,39280,39300
+19444.42,19456.67,Shale grey,1,39300,39349
+19456.67,19461.42,Sandstone,2,39349,39368
+19461.42,19471.42,Shale grey,1,39368,39408
+19471.42,19473.67,Sandstone,2,39408,39417
+19473.67,19483.67,Shale grey,1,39417,39457
+19483.67,19487.17,Sandstone,2,39457,39471
+19487.17,19499.42,Shale grey,1,39471,39520
+19499.42,19501.92,Sandstone,2,39520,39530
+19501.92,19509.92,Shale grey,1,39530,39562
+19509.92,19517.17,Sandstone,2,39562,39591
+19517.17,19524.17,Shale grey,1,39591,39619
+19524.17,19528.42,Sandstone,2,39619,39636
+19528.42,19535.42,Shale grey,1,39636,39664
+19535.42,19537.92,Sandstone,2,39664,39674
+19537.92,19541.67,Shale grey,12,39674,39689
+19541.67,19547.92,Sandstone,2,39689,39714
+19547.92,19576.67,Shale grey,1,39714,39829
+19576.67,19582.92,Sandstone,2,39829,39854
+19582.92,19600.67,Shale grey,1,39854,39925
+19600.67,19605.42,Sandstone,2,39925,39944
+19605.42,19658.67,Shale grey,1,39944,40157
+19658.67,19663.67,Sandstone,2,40157,40177
+19663.67,19680.42,Shale grey,1,40177,40244
+19680.42,19685.42,Sandstone,2,40244,40264
+19685.42,19705.67,Shale grey,1,40264,40345
+19705.67,19708.92,Sandstone,2,40345,40358
+19708.92,19716.92,Shale grey,1,40358,40390
+19716.92,19719.92,Sandstone,2,40390,40402
+19719.92,19763.92,Shale grey,1,40402,40578
+19763.92,19768.17,Sandstone,2,40578,40595
+19768.17,19784.92,Shale grey,1,40595,40662
+19784.92,19789.42,Sandstone,2,40662,40680
+19789.42,19792.17,Shale grey,1,40680,40691
+19792.17,19796.67,Sandstone,2,40691,40709
+19796.67,19819.42,Shale grey,1,40709,40800
+19819.42,19823.17,Sandstone,2,40800,40815
+19823.17,19829.17,Shale grey,1,40815,40839
+19829.17,19832.42,Tuff,21,40839,40852
+19832.42,19838.42,Shale grey,1,40852,40876
+19838.42,19841.67,Sandstone,2,40876,40889
+19841.67,19847.17,Shale grey,1,40889,40911
+19847.17,19853.92,Sandstone,2,40911,40938
+19853.92,19879.67,Shale grey,1,40938,41041
+19879.67,19882.42,Sandstone,2,41041,41052
+19882.42,19908.17,Shale grey,1,41052,41155
+19908.17,19913.17,Sandstone,2,41155,41175
+19913.17,19951.67,Shale grey,1,41175,41329
+19951.67,19955.17,Sandstone,2,41329,41343
+19955.17,20039.17,Shale grey,1,41343,41679
+20039.17,20043.17,Sandstone,2,41679,41695
+20043.17,20061.17,Shale grey,1,41695,41767
+20061.17,20065.17,Marl,4,41767,41783
+20065.17,20069.92,Shale grey,1,41783,41802
+20069.92,20072.42,Sandstone,2,41802,41812
+20072.42,20076.42,Shale grey,1,41812,41828
+20076.42,20081.17,Marl,4,41828,41847
+20081.17,20088.42,Shale grey,1,41847,41876
+20088.42,20091.42,Sandstone,2,41876,41888
+20091.42,20112.42,Shale grey,1,41888,41972
+20112.42,20118.17,Marl,4,41972,41995
+20118.17,20129.42,Shale grey,1,41995,42040
+20129.42,20134.17,Sandstone,2,42040,42059
+20134.17,20139.42,Shale grey,1,42059,42080
+20139.42,20146.17,Marl,4,42080,42107
+20146.17,20149.67,Sandstone,2,42107,42121
+20149.67,20167.67,Shale grey,1,42121,42193
+20167.67,20171.17,Sandstone,2,42193,42207
+20171.17,20173.17,Shale grey,1,42207,42215
+20173.17,20177.92,Marl,4,42215,42234
+20177.92,20182.67,Shale grey,1,42234,42253
+20182.67,20184.67,Sandstone,2,42253,42261
+20184.67,20187.42,Shale grey,1,42261,42272
+20187.42,20192.17,Dolomitic Clay,7,42272,42291
+20192.17,20205.92,Shale grey,1,42291,42346
+20205.92,20209.67,Sandstone,14,42346,42361
+20209.67,20216.42,Shale grey,1,42361,42388
+20216.42,20219.67,Tuff,21,42388,42401
+20219.67,20223.92,Shale grey,1,42401,42418
+20223.92,20227.17,Sandstone,2,42418,42431
+20227.17,20231.92,Shale grey,1,42431,42450
+20231.92,20236.17,Marl,4,42450,42467
+20236.17,20238.92,Sandstone,25,42467,42478
+20238.92,20245.17,Shale grey,1,42478,42503
+20245.17,20251.17,Sandstone,2,42503,42527
+20251.17,20258.92,Shale grey,1,42527,42558
+20258.92,20261.42,Sandstone,2,42558,42568
+20261.42,20273.42,Shale grey,1,42568,42616
+20273.42,20278.17,Sandstone,2,42616,42635
+20278.17,20291.42,Shale grey,1,42635,42688
+20291.42,20295.17,Sandstone,2,42688,42703
+20295.17,20299.17,Shale grey,1,42703,42719
+20299.17,20301.67,Sandstone,2,42719,42729
+20301.67,20308.17,Shale grey,1,42729,42755
+20308.17,20311.42,Sandstone,2,42755,42768
+20311.42,20328.42,Shale grey,1,42768,42836
+20328.42,20331.42,Marl,4,42836,42848
+20331.42,20336.67,Shale grey,1,42848,42869
+20336.67,20340.17,Sandstone,2,42869,42883
+20340.17,20354.42,Shale grey,1,42883,42940
+20354.42,20356.92,Sandstone,2,42940,42950
+20356.92,20398.17,Shale grey,1,42950,43115
+20398.17,20421.92,Sandstone,2,43115,43210
+20421.92,20459.42,Shale grey,1,43210,43360
+20459.42,20470.17,Siltstone,3,43360,43403
+20470.17,20480.17,Shale grey,1,43403,43443
+20480.17,20485.17,Siltstone,3,43443,43463
+20485.17,20490.42,Shale grey,1,43463,43484
+20490.42,20496.17,Siltstone,3,43484,43507
+20496.17,20505.17,Shale grey,1,43507,43543
+20505.17,20508.67,Siltstone,6,43543,43557
+20508.67,20514.17,Shale grey,1,43557,43579
+20514.17,20518.17,Siltstone,3,43579,43595
+20518.17,20535.42,Shale grey,1,43595,43664
+20535.42,20539.17,Siltstone,3,43664,43679
+20539.17,20551.17,Shale grey,1,43679,43727
+20551.17,20555.92,Marl,4,43727,43746
+20555.92,20568.42,Shale grey,1,43746,43796
+20568.42,20575.17,Siltstone,3,43796,43823
+20575.17,20580.42,Shale grey,1,43823,43844
+20580.42,20585.17,Marl,4,43844,43863
+20585.17,20592.67,Shale grey,1,43863,43893
+20592.67,20599.17,Siltstone,3,43893,43919
+20599.17,20608.92,Shale grey,1,43919,43958
+20608.92,20616.92,Siltstone,3,43958,43990
+20616.92,20625.17,Shale grey,1,43990,44023
+20625.17,20630.17,Marl,4,44023,44043
+20630.17,20643.67,Shale grey,1,44043,44097
+20643.67,20647.42,Siltstone,8,44097,44112
+20647.42,20653.92,Shale grey,1,44112,44138
+20653.92,20659.17,Siltstone,3,44138,44159
+20659.17,20670.42,Shale grey,1,44159,44204
+20670.42,20675.17,Siltstone,3,44204,44223
+20675.17,20690.92,Shale grey,1,44223,44286
+20690.92,20693.92,Marl,4,44286,44298
+20693.92,20712.92,Shale grey,1,44298,44374
+20712.92,20721.92,Siltstone,3,44374,44410
+20721.92,20731.17,Shale grey,1,44410,44447
+20731.17,20737.17,Marl,4,44447,44471
+20737.17,20747.17,Shale grey,1,44471,44511
+20747.17,20752.17,Siltstone,3,44511,44531
+20752.17,20773.92,Shale grey,1,44531,44618
+20773.92,20777.67,Siltstone,8,44618,44633
+20777.67,20779.67,Shale grey,1,44633,44641
+20779.67,20783.67,Marl,4,44641,44657
+20783.67,20788.92,Shale grey,1,44657,44678
+20788.92,20794.17,Siltstone,3,44678,44699
+20794.17,20805.17,Shale grey,1,44699,44743
+20805.17,20811.42,Siltstone,3,44743,44768
+20811.42,20826.92,Shale grey,1,44768,44830
+20826.92,20831.67,Siltstone,3,44830,44849
+20831.67,20841.17,Shale grey,1,44849,44887
+20841.17,20846.17,Marl,4,44887,44907
+20846.17,20857.92,Shale grey,1,44907,44954
+20857.92,20861.67,Siltstone,3,44954,44969
+20861.67,20862.67,Shale grey,34,44969,44973
+20862.67,20880.92,Siltstone,3,44973,45046
+20880.92,20899.17,Marl,4,45046,45119
+20899.17,20905.92,Shale grey,1,45119,45146
+20905.92,20909.92,Siltstone,6,45146,45162
+20909.92,20916.92,Shale grey,1,45162,45190
+20916.92,20920.17,Siltstone,6,45190,45203
+20920.17,20931.42,Shale grey,1,45203,45248
+20931.42,20934.17,Marl,4,45248,45259
+20934.17,20964.17,Shale grey,1,45259,45379
+20964.17,20968.17,Siltstone,6,45379,45395
+20968.17,20990.17,Sandstone,2,45395,45483
+20990.17,20996.92,Shale grey,1,45483,45510
+20996.92,21008.17,Sandstone,2,45510,45555
+21008.17,21015.17,Shale grey,1,45555,45583
+21015.17,21024.17,Sandstone,2,45583,45619
+21024.17,21028.67,Shale grey,1,45619,45637
+21028.67,21035.92,Sandstone,2,45637,45666
+21035.92,21044.42,Shale grey,1,45666,45700
+21044.42,21063.17,Sandstone,2,45700,45775
+21063.17,21070.92,Shale grey,1,45775,45806
+21070.92,21074.67,Siltstone,3,45806,45821
+21074.67,21103.17,Shale grey,1,45821,45935
+21103.17,21111.42,Sandstone,2,45935,45968
+21111.42,21118.92,Shale grey,1,45968,45998
+21118.92,21124.17,Siltstone,3,45998,46019
+21124.17,21139.67,Shale grey,1,46019,46081
+21139.67,21144.92,Siltstone,3,46081,46102
+21144.92,21146.67,Blank (no pattern),35,46102,46109
+21146.67,21167.92,Shale grey,1,46109,46194
+21167.92,21170.92,Sandstone,2,46194,46206
+21170.92,21176.92,Siltstone,3,46206,46230
+21176.92,21183.42,Shale grey,1,46230,46256
+21183.42,21188.17,Siltstone,3,46256,46275
+21188.17,21205.67,Shale grey,1,46275,46345
+21205.67,21213.92,Siltstone,3,46345,46378
+21213.92,21225.17,Shale grey,1,46378,46423
+21225.17,21232.17,Siltstone,3,46423,46451
+21232.17,21243.17,Shale grey,1,46451,46495
+21243.17,21248.92,Siltstone,3,46495,46518
+21248.92,21264.17,Shale grey,1,46518,46579
+21264.17,21270.42,Siltstone,3,46579,46604
+21270.42,21271.92,Shale grey,12,46604,46610
+21271.92,21284.92,Siltstone,3,46610,46662
+21284.92,21286.42,Blank (no pattern),35,46662,46668
+21286.42,21300.42,Siltstone,3,46668,46724
+21300.42,21308.42,Sandstone,2,46724,46756
+21308.42,21310.92,Shale grey,1,46756,46766
+21310.92,21316.17,Siltstone,3,46766,46787
+21316.17,21340.42,Shale grey,1,46787,46884
+21340.42,21348.17,Sandstone,2,46884,46915
+21348.17,21352.92,Shale grey,1,46915,46934
+21352.92,21359.92,Siltstone,3,46934,46962
+21359.92,21368.17,Shale grey,1,46962,46995
+21368.17,21376.17,Siltstone,3,46995,47027
+21376.17,21406.92,Shale grey,1,47027,47150
+21406.92,21413.17,Siltstone,3,47150,47175
+21413.17,21438.67,Shale grey,1,47175,47277
+21438.67,21443.67,Siltstone,3,47277,47297
+21443.67,21460.92,Shale grey,1,47297,47366
+21460.92,21471.67,Siltstone,3,47366,47409
+21471.67,21499.92,Shale grey,1,47409,47522
+21499.92,21512.17,Sandstone,2,47522,47571
+21512.17,21524.42,Shale grey,1,47571,47620
+21524.42,21536.42,Siltstone,3,47620,47668
+21536.42,21541.17,Shale grey,1,47668,47687
+21541.17,21551.42,Sandstone,2,47687,47728
+21551.42,21564.67,Shale grey,1,47728,47781
+21564.67,21568.17,Siltstone,3,47781,47795
+21568.17,21574.17,Shale grey,1,47795,47819
+21574.17,21579.42,Sandstone,2,47819,47840
+21579.42,21587.17,Shale grey,1,47840,47871
+21587.17,21591.17,Sandstone,2,47871,47887
+21591.17,21603.17,Shale grey,1,47887,47935
+21603.17,21607.67,Sandstone,2,47935,47953
+21607.67,21619.17,Shale grey,1,47953,47999
+21619.17,21622.67,Marl,18,47999,48013
+21622.67,21633.42,Shale grey,1,48013,48056
+21633.42,21641.42,Siltstone,3,48056,48088
+21641.42,21656.92,Shale grey,1,48088,48150
+21656.92,21664.42,Siltstone,3,48150,48180
+21664.42,21687.17,Shale grey,1,48180,48271
+21687.17,21692.92,Siltstone,3,48271,48294
+21692.92,21705.17,Shale grey,1,48294,48343
+21705.17,21713.42,Siltstone,3,48343,48376
+21713.42,21730.17,Shale grey,1,48376,48443
+21730.17,21733.17,Marl,4,48443,48455
+21733.17,21745.92,Shale grey,1,48455,48506
+21745.92,21752.92,Siltstone,3,48506,48534
+21752.92,21763.42,Shale grey,1,48534,48576
+21763.42,21771.92,Siltstone,3,48576,48610
+21771.92,21801.42,Shale grey,1,48610,48728
+21801.42,21804.42,Siltstone,3,48728,48740
+21804.42,21829.92,Shale grey,1,48740,48842
+21829.92,21839.42,Siltstone,3,48842,48880
+21839.42,21848.17,Shale grey,1,48880,48915
+21848.17,21863.92,Siltstone,3,48915,48978
+21863.92,21868.92,Shale grey,1,48978,48998
+21868.92,21873.17,Siltstone,6,48998,49015
+21873.17,21882.17,Shale grey,1,49015,49051
+21882.17,21887.92,Marl,4,49051,49074
+21887.92,21894.42,Shale grey,1,49074,49100
+21894.42,21898.17,Siltstone,15,49100,49115
+21898.17,21921.42,Shale grey,1,49115,49208
+21921.42,21928.17,Siltstone,3,49208,49235
+21928.17,21962.92,Shale grey,1,49235,49374

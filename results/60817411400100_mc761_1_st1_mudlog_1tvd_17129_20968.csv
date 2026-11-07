@@ -1,990 +1,114 @@
-top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
-17128.47,17131.14,-1,Blank (no pattern),0.5,True,
-17131.14,17136.47,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17136.47,17137.81,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17137.81,17142.48,-1,Blank (no pattern),0.5,True,
-17142.48,17143.81,32,Carbonaceous,0.152,False,Not Available|Sample
-17143.81,17147.81,-1,Blank (no pattern),0.5,True,
-17147.81,17152.48,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17152.48,17153.81,32,Carbonaceous,0.152,False,Not Available|Sample
-17153.81,17159.15,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17159.15,17163.15,-1,Blank (no pattern),0.5,True,
-17163.15,17165.15,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17165.15,17170.48,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17170.48,17173.82,-1,Blank (no pattern),0.5,True,
-17173.82,17185.15,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17185.15,17186.48,32,Carbonaceous,0.152,False,Not Available|Sample
-17186.48,17190.48,-1,Blank (no pattern),0.5,True,
-17190.48,17195.15,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17195.15,17196.49,32,Carbonaceous,0.152,False,Not Available|Sample
-17196.49,17201.82,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17201.82,17205.82,-1,Blank (no pattern),0.5,True,
-17205.82,17207.82,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17207.82,17211.82,-1,Blank (no pattern),0.5,True,
-17211.82,17216.49,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17216.49,17217.82,32,Carbonaceous,0.152,False,Not Available|Sample
-17217.82,17223.16,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17223.16,17227.83,-1,Blank (no pattern),0.5,True,
-17227.83,17229.16,32,Carbonaceous,0.152,False,Not Available|Sample
-17229.16,17233.16,-1,Blank (no pattern),0.5,True,
-17233.16,17237.83,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17237.83,17239.16,32,Carbonaceous,0.152,False,Not Available|Sample
-17239.16,17244.5,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17244.5,17249.16,-1,Blank (no pattern),0.5,True,
-17249.16,17250.5,32,Carbonaceous,0.152,False,Not Available|Sample
-17250.5,17255.83,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17255.83,17259.16,-1,Blank (no pattern),0.5,True,
-17259.16,17260.5,32,Carbonaceous,0.152,False,Not Available|Sample
-17260.5,17265.83,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17265.83,17270.5,-1,Blank (no pattern),0.5,True,
-17270.5,17271.83,32,Carbonaceous,0.152,False,Not Available|Sample
-17271.83,17277.17,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17277.17,17280.5,-1,Blank (no pattern),0.5,True,
-17280.5,17291.84,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17291.84,17293.17,32,Carbonaceous,0.152,False,Not Available|Sample
-17293.17,17297.17,-1,Blank (no pattern),0.5,True,
-17297.17,17301.84,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17301.84,17303.17,32,Carbonaceous,0.152,False,Not Available|Sample
-17303.17,17307.17,-1,Blank (no pattern),0.5,True,
-17307.17,17308.51,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17308.51,17313.17,-1,Blank (no pattern),0.5,True,
-17313.17,17314.51,32,Carbonaceous,0.152,False,Not Available|Sample
-17314.51,17319.84,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17319.84,17323.18,-1,Blank (no pattern),0.5,True,
-17323.18,17328.51,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17328.51,17329.84,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17329.84,17334.51,-1,Blank (no pattern),0.5,True,
-17334.51,17335.85,32,Carbonaceous,0.152,False,Not Available|Sample
-17335.85,17341.18,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17341.18,17344.51,-1,Blank (no pattern),0.5,True,
-17344.51,17345.85,32,Carbonaceous,0.152,False,Not Available|Sample
-17345.85,17351.18,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17351.18,17355.18,-1,Blank (no pattern),0.5,True,
-17355.18,17357.18,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17357.18,17362.52,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17362.52,17365.85,-1,Blank (no pattern),0.5,True,
-17365.85,17367.18,32,Carbonaceous,0.152,False,Not Available|Sample
-17367.18,17373.19,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17373.19,17378.52,3,Sample,0.011,True,Not Available
-17378.52,17381.85,26,Sample,0.009,True,Not Available
-17381.85,17387.19,12,Sample,0.008,True,Not Available
-17387.19,17391.19,3,Sample,0.011,True,Not Available
-17391.19,17400.52,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17400.52,17402.52,24,Sample,0.007,True,Not Available
-17402.52,17411.86,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17411.86,17415.86,20,Sample,0.053,False,Not Available|Dolomite|Limestone
-17415.86,17421.86,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-17421.86,17426.53,3,Sample,0.011,True,Not Available
-17426.53,17430.53,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17430.53,17437.2,7,Sample,0.012,True,Not Available
-17437.2,17439.2,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17439.2,17443.2,21,Breccia,0.175,False,
-17443.2,17445.2,9,Breccia,0.6,False,
-17445.2,17447.87,24,Sample,0.007,True,Not Available
-17447.87,17449.87,30,Sample,0.038,False,Not Available|Dolomite|Limestone
-17449.87,17455.2,13,Breccia,0.205,False,
-17455.2,17457.87,24,Sample,0.007,True,Not Available
-17457.87,17463.2,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-17463.2,17468.54,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17468.54,17473.2,-1,Blank (no pattern),0.5,True,
-17473.2,17477.21,7,Sample,0.012,True,Not Available
-17477.21,17478.54,32,Carbonaceous,0.152,False,Not Available|Sample
-17478.54,17483.87,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17483.87,17488.54,-1,Blank (no pattern),0.5,True,
-17488.54,17489.87,32,Carbonaceous,0.152,False,Not Available|Sample
-17489.87,17493.88,-1,Blank (no pattern),0.5,True,
-17493.88,17498.54,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17498.54,17499.88,32,Carbonaceous,0.152,False,Not Available|Sample
-17499.88,17503.88,-1,Blank (no pattern),0.5,True,
-17503.88,17509.88,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17509.88,17511.88,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17511.88,17516.55,3,Sample,0.011,True,Not Available
-17516.55,17520.55,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17520.55,17524.55,-1,Blank (no pattern),0.5,True,
-17524.55,17530.55,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17530.55,17531.88,32,Carbonaceous,0.152,False,Not Available|Sample
-17531.88,17535.88,-1,Blank (no pattern),0.5,True,
-17535.88,17540.55,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17540.55,17541.88,32,Carbonaceous,0.152,False,Not Available|Sample
-17541.88,17547.22,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17547.22,17551.89,-1,Blank (no pattern),0.5,True,
-17551.89,17557.22,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17557.22,17559.22,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-17559.22,17561.22,17,Breccia,0.398,False,
-17561.22,17565.22,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17565.22,17569.22,-1,Blank (no pattern),0.5,True,
-17569.22,17575.89,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17575.89,17579.89,2,Breccia,0.512,False,
-17579.89,17583.89,17,Breccia,0.398,False,
-17583.89,17591.23,2,Breccia,0.512,False,
-17591.23,17593.89,4,Sample,0.012,True,Not Available|Breccia
-17593.89,17595.89,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17595.89,17599.9,-1,Blank (no pattern),0.5,True,
-17599.9,17605.9,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17605.9,17607.23,32,Carbonaceous,0.152,False,Not Available|Sample
-17607.23,17611.23,-1,Blank (no pattern),0.5,True,
-17611.23,17615.9,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17615.9,17617.23,32,Carbonaceous,0.152,False,Not Available|Sample
-17617.23,17622.57,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17622.57,17627.23,-1,Blank (no pattern),0.5,True,
-17627.23,17628.57,32,Carbonaceous,0.152,False,Not Available|Sample
-17628.57,17633.9,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17633.9,17637.24,-1,Blank (no pattern),0.5,True,
-17637.24,17638.57,32,Carbonaceous,0.152,False,Not Available|Sample
-17638.57,17643.9,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17643.9,17648.57,-1,Blank (no pattern),0.5,True,
-17648.57,17649.9,32,Carbonaceous,0.152,False,Not Available|Sample
-17649.9,17653.91,-1,Blank (no pattern),0.5,True,
-17653.91,17658.57,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17658.57,17659.91,32,Carbonaceous,0.152,False,Not Available|Sample
-17659.91,17665.24,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17665.24,17669.91,-1,Blank (no pattern),0.5,True,
-17669.91,17671.24,32,Carbonaceous,0.152,False,Not Available|Sample
-17671.24,17675.24,-1,Blank (no pattern),0.5,True,
-17675.24,17679.91,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17679.91,17681.24,32,Carbonaceous,0.152,False,Not Available|Sample
-17681.24,17685.24,-1,Blank (no pattern),0.5,True,
-17685.24,17691.25,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17691.25,17692.58,32,Carbonaceous,0.152,False,Not Available|Sample
-17692.58,17696.58,-1,Blank (no pattern),0.5,True,
-17696.58,17701.25,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17701.25,17702.58,32,Carbonaceous,0.152,False,Not Available|Sample
-17702.58,17706.58,-1,Blank (no pattern),0.5,True,
-17706.58,17712.58,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17712.58,17713.92,32,Carbonaceous,0.152,False,Not Available|Sample
-17713.92,17717.92,-1,Blank (no pattern),0.5,True,
-17717.92,17722.58,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17722.58,17723.92,32,Carbonaceous,0.152,False,Not Available|Sample
-17723.92,17727.92,-1,Blank (no pattern),0.5,True,
-17727.92,17733.92,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17733.92,17735.25,32,Carbonaceous,0.152,False,Not Available|Sample
-17735.25,17739.25,-1,Blank (no pattern),0.5,True,
-17739.25,17743.92,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17743.92,17745.92,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-17745.92,17749.92,-1,Blank (no pattern),0.5,True,
-17749.92,17765.26,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17765.26,17766.59,32,Carbonaceous,0.152,False,Not Available|Sample
-17766.59,17770.59,-1,Blank (no pattern),0.5,True,
-17770.59,17776.6,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17776.6,17777.93,32,Carbonaceous,0.152,False,Not Available|Sample
-17777.93,17781.93,-1,Blank (no pattern),0.5,True,
-17781.93,17786.6,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17786.6,17787.93,32,Carbonaceous,0.152,False,Not Available|Sample
-17787.93,17791.93,-1,Blank (no pattern),0.5,True,
-17791.93,17797.93,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17797.93,17799.27,32,Carbonaceous,0.152,False,Not Available|Sample
-17799.27,17804.6,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17804.6,17807.93,-1,Blank (no pattern),0.5,True,
-17807.93,17809.27,32,Carbonaceous,0.152,False,Not Available|Sample
-17809.27,17813.27,-1,Blank (no pattern),0.5,True,
-17813.27,17819.27,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17819.27,17820.6,32,Carbonaceous,0.152,False,Not Available|Sample
-17820.6,17825.94,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17825.94,17829.94,-1,Blank (no pattern),0.5,True,
-17829.94,17831.27,32,Carbonaceous,0.152,False,Not Available|Sample
-17831.27,17836.61,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17836.61,17840.61,-1,Blank (no pattern),0.5,True,
-17840.61,17841.94,32,Carbonaceous,0.152,False,Not Available|Sample
-17841.94,17847.27,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17847.27,17851.28,-1,Blank (no pattern),0.5,True,
-17851.28,17852.61,32,Carbonaceous,0.152,False,Not Available|Sample
-17852.61,17857.94,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17857.94,17861.94,-1,Blank (no pattern),0.5,True,
-17861.94,17863.28,32,Carbonaceous,0.152,False,Not Available|Sample
-17863.28,17867.28,-1,Blank (no pattern),0.5,True,
-17867.28,17871.95,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17871.95,17873.28,32,Carbonaceous,0.152,False,Not Available|Sample
-17873.28,17878.61,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17878.61,17883.28,-1,Blank (no pattern),0.5,True,
-17883.28,17884.62,32,Carbonaceous,0.152,False,Not Available|Sample
-17884.62,17889.95,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17889.95,17893.28,-1,Blank (no pattern),0.5,True,
-17893.28,17894.62,32,Carbonaceous,0.152,False,Not Available|Sample
-17894.62,17899.95,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17899.95,17904.62,-1,Blank (no pattern),0.5,True,
-17904.62,17905.95,32,Carbonaceous,0.152,False,Not Available|Sample
-17905.95,17909.95,-1,Blank (no pattern),0.5,True,
-17909.95,17915.29,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17915.29,17916.62,32,Carbonaceous,0.152,False,Not Available|Sample
-17916.62,17921.96,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17921.96,17925.96,-1,Blank (no pattern),0.5,True,
-17925.96,17927.29,32,Carbonaceous,0.152,False,Not Available|Sample
-17927.29,17931.29,-1,Blank (no pattern),0.5,True,
-17931.29,17936.63,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17936.63,17937.96,32,Carbonaceous,0.152,False,Not Available|Sample
-17937.96,17941.96,-1,Blank (no pattern),0.5,True,
-17941.96,17947.29,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17947.29,17948.63,32,Carbonaceous,0.152,False,Not Available|Sample
-17948.63,17953.96,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17953.96,17957.3,-1,Blank (no pattern),0.5,True,
-17957.3,17961.96,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17961.96,17963.96,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-17963.96,17968.63,-1,Blank (no pattern),0.5,True,
-17968.63,17969.96,32,Carbonaceous,0.152,False,Not Available|Sample
-17969.96,17975.3,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17975.3,17978.63,-1,Blank (no pattern),0.5,True,
-17978.63,17979.97,32,Carbonaceous,0.152,False,Not Available|Sample
-17979.97,17983.97,-1,Blank (no pattern),0.5,True,
-17983.97,17989.97,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-17989.97,17991.3,32,Carbonaceous,0.152,False,Not Available|Sample
-17991.3,17995.3,-1,Blank (no pattern),0.5,True,
-17995.3,18000.64,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18000.64,18001.97,32,Carbonaceous,0.152,False,Not Available|Sample
-18001.97,18007.31,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18007.31,18011.31,-1,Blank (no pattern),0.5,True,
-18011.31,18012.64,32,Carbonaceous,0.152,False,Not Available|Sample
-18012.64,18017.97,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18017.97,18021.97,-1,Blank (no pattern),0.5,True,
-18021.97,18023.31,32,Carbonaceous,0.152,False,Not Available|Sample
-18023.31,18027.31,-1,Blank (no pattern),0.5,True,
-18027.31,18032.64,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18032.64,18033.98,32,Carbonaceous,0.152,False,Not Available|Sample
-18033.98,18039.31,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18039.31,18042.64,-1,Blank (no pattern),0.5,True,
-18042.64,18047.98,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18047.98,18049.98,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-18049.98,18053.98,-1,Blank (no pattern),0.5,True,
-18053.98,18055.98,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18055.98,18059.98,12,Sample,0.008,True,Not Available
-18059.98,18069.32,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18069.32,18074.65,3,Sample,0.011,True,Not Available
-18074.65,18076.65,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18076.65,18081.32,-1,Blank (no pattern),0.5,True,
-18081.32,18083.99,24,Sample,0.007,True,Not Available
-18083.99,18088.65,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-18088.65,18092.65,3,Sample,0.011,True,Not Available
-18092.65,18101.99,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18101.99,18105.99,-1,Blank (no pattern),0.5,True,
-18105.99,18107.99,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18107.99,18111.32,3,Sample,0.011,True,Not Available
-18111.32,18113.99,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-18113.99,18115.33,24,Sample,0.007,True,Not Available
-18115.33,18119.33,12,Sample,0.008,True,Not Available
-18119.33,18120.66,33,Carbonaceous,0.293,False,
-18120.66,18125.99,10,Sample,0.071,False,Not Available|Dolomite|Limestone
-18125.99,18130.66,-1,Blank (no pattern),0.5,True,
-18130.66,18134.0,3,Sample,0.011,True,Not Available
-18134.0,18136.0,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18136.0,18140.0,-1,Blank (no pattern),0.5,True,
-18140.0,18146.0,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18146.0,18147.33,32,Carbonaceous,0.152,False,Not Available|Sample
-18147.33,18152.67,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18152.67,18157.33,16,Sample,0.046,False,Not Available|Dolomite|Limestone
-18157.33,18167.34,2,Breccia,0.512,False,
-18167.34,18170.0,23,Sample,0.007,True,Not Available|Breccia
-18170.0,18172.0,30,Sample,0.038,False,Not Available|Dolomite|Limestone
-18172.0,18176.0,7,Sample,0.012,True,Not Available
-18176.0,18186.67,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18186.67,18188.67,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18188.67,18192.67,-1,Blank (no pattern),0.5,True,
-18192.67,18197.34,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18197.34,18198.67,32,Carbonaceous,0.152,False,Not Available|Sample
-18198.67,18204.01,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18204.01,18208.01,-1,Blank (no pattern),0.5,True,
-18208.01,18210.01,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18210.01,18214.01,-1,Blank (no pattern),0.5,True,
-18214.01,18229.35,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18229.35,18232.01,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-18232.01,18241.35,2,Breccia,0.512,False,
-18241.35,18245.35,4,Sample,0.012,True,Not Available|Breccia
-18245.35,18248.02,17,Breccia,0.398,False,
-18248.02,18251.35,2,Breccia,0.512,False,
-18251.35,18254.68,26,Sample,0.009,True,Not Available
-18254.68,18259.35,2,Breccia,0.512,False,
-18259.35,18264.69,11,Breccia,0.141,False,Sample|Not Available
-18264.69,18268.02,5,Breccia,0.391,False,
-18268.02,18270.69,17,Breccia,0.398,False,
-18270.69,18276.02,2,Breccia,0.512,False,
-18276.02,18278.02,9,Breccia,0.6,False,
-18278.02,18282.02,5,Breccia,0.391,False,
-18282.02,18286.02,-1,Blank (no pattern),0.5,True,
-18286.02,18290.02,2,Breccia,0.512,False,
-18290.02,18294.69,5,Breccia,0.391,False,
-18294.69,18304.69,2,Breccia,0.512,False,
-18304.69,18306.69,9,Breccia,0.6,False,
-18306.69,18309.36,17,Breccia,0.398,False,
-18309.36,18313.36,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18313.36,18319.36,9,Breccia,0.6,False,
-18319.36,18322.7,4,Sample,0.012,True,Not Available|Breccia
-18322.7,18327.37,2,Breccia,0.512,False,
-18327.37,18330.03,4,Sample,0.012,True,Not Available|Breccia
-18330.03,18332.03,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18332.03,18336.03,-1,Blank (no pattern),0.5,True,
-18336.03,18338.03,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-18338.03,18348.04,2,Breccia,0.512,False,
-18348.04,18350.7,-1,Blank (no pattern),0.5,True,
-18350.7,18353.37,17,Breccia,0.398,False,
-18353.37,18358.7,2,Breccia,0.512,False,
-18358.7,18363.37,6,Breccia,0.53,False,
-18363.37,18365.37,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18365.37,18369.37,-1,Blank (no pattern),0.5,True,
-18369.37,18374.04,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18374.04,18376.04,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18376.04,18380.04,-1,Blank (no pattern),0.5,True,
-18380.04,18384.71,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18384.71,18386.71,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18386.71,18390.71,-1,Blank (no pattern),0.5,True,
-18390.71,18406.05,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18406.05,18408.05,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18408.05,18414.05,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18414.05,18418.05,4,Sample,0.012,True,Not Available|Breccia
-18418.05,18420.05,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18420.05,18427.38,6,Breccia,0.53,False,
-18427.38,18430.05,4,Sample,0.012,True,Not Available|Breccia
-18430.05,18432.05,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18432.05,18436.05,-1,Blank (no pattern),0.5,True,
-18436.05,18437.39,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18437.39,18442.05,-1,Blank (no pattern),0.5,True,
-18442.05,18443.39,32,Carbonaceous,0.152,False,Not Available|Sample
-18443.39,18448.72,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18448.72,18452.72,4,Sample,0.012,True,Not Available|Breccia
-18452.72,18454.72,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18454.72,18458.72,11,Breccia,0.141,False,Sample|Not Available
-18458.72,18461.39,-1,Blank (no pattern),0.5,True,
-18461.39,18466.72,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18466.72,18468.06,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18468.06,18472.06,-1,Blank (no pattern),0.5,True,
-18472.06,18474.06,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18474.06,18478.06,-1,Blank (no pattern),0.5,True,
-18478.06,18482.73,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18482.73,18484.06,32,Carbonaceous,0.152,False,Not Available|Sample
-18484.06,18489.4,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18489.4,18493.4,-1,Blank (no pattern),0.5,True,
-18493.4,18495.4,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18495.4,18499.4,-1,Blank (no pattern),0.5,True,
-18499.4,18504.06,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18504.06,18505.4,32,Carbonaceous,0.152,False,Not Available|Sample
-18505.4,18510.73,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18510.73,18515.4,-1,Blank (no pattern),0.5,True,
-18515.4,18516.73,32,Carbonaceous,0.152,False,Not Available|Sample
-18516.73,18520.73,-1,Blank (no pattern),0.5,True,
-18520.73,18525.4,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18525.4,18526.74,32,Carbonaceous,0.152,False,Not Available|Sample
-18526.74,18530.74,-1,Blank (no pattern),0.5,True,
-18530.74,18536.74,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18536.74,18538.07,32,Carbonaceous,0.152,False,Not Available|Sample
-18538.07,18542.74,4,Sample,0.012,True,Not Available|Breccia
-18542.74,18546.07,11,Breccia,0.141,False,Sample|Not Available
-18546.07,18548.07,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18548.07,18553.41,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18553.41,18557.41,-1,Blank (no pattern),0.5,True,
-18557.41,18559.41,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18559.41,18564.74,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18564.74,18568.08,-1,Blank (no pattern),0.5,True,
-18568.08,18573.41,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18573.41,18574.74,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18574.74,18578.75,-1,Blank (no pattern),0.5,True,
-18578.75,18580.75,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18580.75,18584.75,-1,Blank (no pattern),0.5,True,
-18584.75,18589.41,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18589.41,18590.75,32,Carbonaceous,0.152,False,Not Available|Sample
-18590.75,18596.08,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18596.08,18600.75,-1,Blank (no pattern),0.5,True,
-18600.75,18610.75,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18610.75,18612.09,32,Carbonaceous,0.152,False,Not Available|Sample
-18612.09,18616.09,-1,Blank (no pattern),0.5,True,
-18616.09,18632.09,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18632.09,18633.42,32,Carbonaceous,0.152,False,Not Available|Sample
-18633.42,18638.76,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18638.76,18643.42,-1,Blank (no pattern),0.5,True,
-18643.42,18644.76,32,Carbonaceous,0.152,False,Not Available|Sample
-18644.76,18648.76,-1,Blank (no pattern),0.5,True,
-18648.76,18653.43,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18653.43,18654.76,32,Carbonaceous,0.152,False,Not Available|Sample
-18654.76,18660.09,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18660.09,18664.09,-1,Blank (no pattern),0.5,True,
-18664.09,18666.1,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18666.1,18670.1,-1,Blank (no pattern),0.5,True,
-18670.1,18674.76,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18674.76,18676.1,32,Carbonaceous,0.152,False,Not Available|Sample
-18676.1,18681.43,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18681.43,18685.43,-1,Blank (no pattern),0.5,True,
-18685.43,18687.43,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18687.43,18691.43,-1,Blank (no pattern),0.5,True,
-18691.43,18696.1,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18696.1,18697.43,32,Carbonaceous,0.152,False,Not Available|Sample
-18697.43,18702.77,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18702.77,18706.77,-1,Blank (no pattern),0.5,True,
-18706.77,18708.77,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18708.77,18712.77,-1,Blank (no pattern),0.5,True,
-18712.77,18717.44,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18717.44,18718.77,32,Carbonaceous,0.152,False,Not Available|Sample
-18718.77,18722.77,-1,Blank (no pattern),0.5,True,
-18722.77,18728.11,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18728.11,18730.11,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18730.11,18734.11,-1,Blank (no pattern),0.5,True,
-18734.11,18738.78,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18738.78,18740.11,32,Carbonaceous,0.152,False,Not Available|Sample
-18740.11,18744.11,-1,Blank (no pattern),0.5,True,
-18744.11,18749.44,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18749.44,18751.44,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18751.44,18756.78,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18756.78,18760.11,-1,Blank (no pattern),0.5,True,
-18760.11,18770.78,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18770.78,18772.78,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18772.78,18776.78,-1,Blank (no pattern),0.5,True,
-18776.78,18781.45,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18781.45,18782.78,32,Carbonaceous,0.152,False,Not Available|Sample
-18782.78,18786.78,-1,Blank (no pattern),0.5,True,
-18786.78,18792.12,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18792.12,18794.12,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18794.12,18799.45,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18799.45,18802.79,-1,Blank (no pattern),0.5,True,
-18802.79,18804.12,32,Carbonaceous,0.152,False,Not Available|Sample
-18804.12,18809.46,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18809.46,18813.46,-1,Blank (no pattern),0.5,True,
-18813.46,18815.46,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18815.46,18819.46,-1,Blank (no pattern),0.5,True,
-18819.46,18824.13,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18824.13,18825.46,32,Carbonaceous,0.152,False,Not Available|Sample
-18825.46,18829.46,-1,Blank (no pattern),0.5,True,
-18829.46,18838.79,2,Breccia,0.512,False,
-18838.79,18843.46,17,Breccia,0.398,False,
-18843.46,18844.8,9,Breccia,0.6,False,
-18844.8,18850.13,2,Breccia,0.512,False,
-18850.13,18853.46,17,Breccia,0.398,False,
-18853.46,18854.8,9,Breccia,0.6,False,
-18854.8,18860.13,2,Breccia,0.512,False,
-18860.13,18863.47,26,Sample,0.009,True,Not Available
-18863.47,18867.47,2,Breccia,0.512,False,
-18867.47,18870.13,-1,Blank (no pattern),0.5,True,
-18870.13,18871.47,32,Carbonaceous,0.152,False,Not Available|Sample
-18871.47,18875.47,-1,Blank (no pattern),0.5,True,
-18875.47,18880.14,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18880.14,18882.14,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18882.14,18886.14,-1,Blank (no pattern),0.5,True,
-18886.14,18890.8,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18890.8,18892.14,32,Carbonaceous,0.152,False,Not Available|Sample
-18892.14,18896.14,-1,Blank (no pattern),0.5,True,
-18896.14,18901.47,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18901.47,18903.47,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18903.47,18907.47,-1,Blank (no pattern),0.5,True,
-18907.47,18912.14,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18912.14,18913.48,32,Carbonaceous,0.152,False,Not Available|Sample
-18913.48,18919.48,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18919.48,18924.81,11,Breccia,0.141,False,Sample|Not Available
-18924.81,18926.81,9,Breccia,0.6,False,
-18926.81,18934.81,5,Breccia,0.391,False,
-18934.81,18936.81,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18936.81,18940.81,-1,Blank (no pattern),0.5,True,
-18940.81,18946.15,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18946.15,18948.15,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-18948.15,18952.15,-1,Blank (no pattern),0.5,True,
-18952.15,18956.82,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18956.82,18958.15,32,Carbonaceous,0.152,False,Not Available|Sample
-18958.15,18962.15,-1,Blank (no pattern),0.5,True,
-18962.15,18968.15,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18968.15,18969.49,32,Carbonaceous,0.152,False,Not Available|Sample
-18969.49,18973.49,-1,Blank (no pattern),0.5,True,
-18973.49,18978.15,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18978.15,18979.49,32,Carbonaceous,0.152,False,Not Available|Sample
-18979.49,18983.49,-1,Blank (no pattern),0.5,True,
-18983.49,18989.49,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18989.49,18990.82,32,Carbonaceous,0.152,False,Not Available|Sample
-18990.82,18996.16,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-18996.16,19000.16,-1,Blank (no pattern),0.5,True,
-19000.16,19002.16,24,Sample,0.007,True,Not Available
-19002.16,19006.83,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-19006.83,19010.83,3,Sample,0.011,True,Not Available
-19010.83,19013.49,-1,Blank (no pattern),0.5,True,
-19013.49,19018.83,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19018.83,19020.16,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19020.16,19024.83,7,Sample,0.012,True,Not Available
-19024.83,19026.83,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19026.83,19030.83,-1,Blank (no pattern),0.5,True,
-19030.83,19032.16,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19032.16,19038.17,7,Sample,0.012,True,Not Available
-19038.17,19040.17,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19040.17,19044.17,-1,Blank (no pattern),0.5,True,
-19044.17,19049.5,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19049.5,19052.17,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-19052.17,19056.17,20,Sample,0.053,False,Not Available|Dolomite|Limestone
-19056.17,19060.17,22,Breccia,0.398,False,
-19060.17,19062.84,-1,Blank (no pattern),0.5,True,
-19062.84,19064.84,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19064.84,19068.84,5,Breccia,0.391,False,
-19068.84,19079.51,2,Breccia,0.512,False,
-19079.51,19081.51,9,Breccia,0.6,False,
-19081.51,19085.51,17,Breccia,0.398,False,
-19085.51,19090.17,2,Breccia,0.512,False,
-19090.17,19091.51,9,Breccia,0.6,False,
-19091.51,19095.51,17,Breccia,0.398,False,
-19095.51,19100.84,2,Breccia,0.512,False,
-19100.84,19102.84,9,Breccia,0.6,False,
-19102.84,19106.84,17,Breccia,0.398,False,
-19106.84,19122.18,2,Breccia,0.512,False,
-19122.18,19124.18,9,Breccia,0.6,False,
-19124.18,19126.85,17,Breccia,0.398,False,
-19126.85,19130.85,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19130.85,19134.85,4,Sample,0.012,True,Not Available|Breccia
-19134.85,19137.52,17,Breccia,0.398,False,
-19137.52,19140.18,-1,Blank (no pattern),0.5,True,
-19140.18,19145.52,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19145.52,19146.85,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19146.85,19151.52,-1,Blank (no pattern),0.5,True,
-19151.52,19160.85,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19160.85,19162.86,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19162.86,19166.86,2,Breccia,0.512,False,
-19166.86,19170.86,17,Breccia,0.398,False,
-19170.86,19175.52,2,Breccia,0.512,False,
-19175.52,19177.52,9,Breccia,0.6,False,
-19177.52,19182.86,2,Breccia,0.512,False,
-19182.86,19186.86,17,Breccia,0.398,False,
-19186.86,19188.19,9,Breccia,0.6,False,
-19188.19,19192.19,17,Breccia,0.398,False,
-19192.19,19196.86,2,Breccia,0.512,False,
-19196.86,19198.86,9,Breccia,0.6,False,
-19198.86,19202.86,17,Breccia,0.398,False,
-19202.86,19207.53,2,Breccia,0.512,False,
-19207.53,19209.53,9,Breccia,0.6,False,
-19209.53,19214.87,2,Breccia,0.512,False,
-19214.87,19218.87,17,Breccia,0.398,False,
-19218.87,19220.2,9,Breccia,0.6,False,
-19220.2,19226.2,2,Breccia,0.512,False,
-19226.2,19228.87,-1,Blank (no pattern),0.5,True,
-19228.87,19230.2,32,Carbonaceous,0.152,False,Not Available|Sample
-19230.2,19236.2,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19236.2,19238.87,28,Breccia,0.427,False,
-19238.87,19241.54,-1,Blank (no pattern),0.5,True,
-19241.54,19246.87,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19246.87,19248.87,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-19248.87,19253.54,5,Breccia,0.391,False,
-19253.54,19254.87,9,Breccia,0.6,False,
-19254.87,19260.21,2,Breccia,0.512,False,
-19260.21,19262.87,-1,Blank (no pattern),0.5,True,
-19262.87,19267.54,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19267.54,19270.21,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-19270.21,19272.88,17,Breccia,0.398,False,
-19272.88,19278.21,2,Breccia,0.512,False,
-19278.21,19282.88,6,Breccia,0.53,False,
-19282.88,19284.88,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19284.88,19288.88,11,Breccia,0.141,False,Sample|Not Available
-19288.88,19291.55,-1,Blank (no pattern),0.5,True,
-19291.55,19296.88,14,Sample,0.075,False,Not Available|Dolomite|Limestone
-19296.88,19298.88,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19298.88,19304.22,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19304.22,19308.22,-1,Blank (no pattern),0.5,True,
-19308.22,19310.22,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19310.22,19314.22,-1,Blank (no pattern),0.5,True,
-19314.22,19318.88,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19318.88,19320.22,32,Carbonaceous,0.152,False,Not Available|Sample
-19320.22,19325.55,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19325.55,19329.55,-1,Blank (no pattern),0.5,True,
-19329.55,19331.55,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19331.55,19335.55,-1,Blank (no pattern),0.5,True,
-19335.55,19340.22,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19340.22,19341.56,32,Carbonaceous,0.152,False,Not Available|Sample
-19341.56,19346.89,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19346.89,19350.89,-1,Blank (no pattern),0.5,True,
-19350.89,19352.89,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19352.89,19355.56,17,Breccia,0.398,False,
-19355.56,19360.89,2,Breccia,0.512,False,
-19360.89,19362.23,9,Breccia,0.6,False,
-19362.23,19366.89,17,Breccia,0.398,False,
-19366.89,19368.23,9,Breccia,0.6,False,
-19368.23,19373.56,2,Breccia,0.512,False,
-19373.56,19376.9,17,Breccia,0.398,False,
-19376.9,19378.23,9,Breccia,0.6,False,
-19378.23,19382.9,17,Breccia,0.398,False,
-19382.9,19386.23,5,Breccia,0.391,False,
-19386.23,19390.9,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-19390.9,19394.23,27,Breccia,0.398,False,
-19394.23,19398.23,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19398.23,19402.23,11,Breccia,0.141,False,Sample|Not Available
-19402.23,19404.23,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19404.23,19409.57,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19409.57,19413.57,-1,Blank (no pattern),0.5,True,
-19413.57,19415.57,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19415.57,19419.57,-1,Blank (no pattern),0.5,True,
-19419.57,19424.24,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19424.24,19425.57,32,Carbonaceous,0.152,False,Not Available|Sample
-19425.57,19430.91,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19430.91,19434.91,-1,Blank (no pattern),0.5,True,
-19434.91,19436.91,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19436.91,19440.91,-1,Blank (no pattern),0.5,True,
-19440.91,19445.58,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19445.58,19446.91,32,Carbonaceous,0.152,False,Not Available|Sample
-19446.91,19452.24,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19452.24,19456.24,-1,Blank (no pattern),0.5,True,
-19456.24,19458.24,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19458.24,19462.24,-1,Blank (no pattern),0.5,True,
-19462.24,19466.91,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19466.91,19468.25,32,Carbonaceous,0.152,False,Not Available|Sample
-19468.25,19473.58,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19473.58,19478.25,-1,Blank (no pattern),0.5,True,
-19478.25,19479.58,32,Carbonaceous,0.152,False,Not Available|Sample
-19479.58,19483.58,-1,Blank (no pattern),0.5,True,
-19483.58,19488.25,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19488.25,19489.58,32,Carbonaceous,0.152,False,Not Available|Sample
-19489.58,19494.92,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19494.92,19499.59,-1,Blank (no pattern),0.5,True,
-19499.59,19509.59,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19509.59,19510.92,32,Carbonaceous,0.152,False,Not Available|Sample
-19510.92,19516.25,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19516.25,19520.26,-1,Blank (no pattern),0.5,True,
-19520.26,19522.26,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19522.26,19526.26,-1,Blank (no pattern),0.5,True,
-19526.26,19530.92,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19530.92,19532.26,32,Carbonaceous,0.152,False,Not Available|Sample
-19532.26,19536.26,-1,Blank (no pattern),0.5,True,
-19536.26,19541.59,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19541.59,19543.59,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19543.59,19547.59,-1,Blank (no pattern),0.5,True,
-19547.59,19552.26,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19552.26,19553.6,32,Carbonaceous,0.152,False,Not Available|Sample
-19553.6,19557.6,-1,Blank (no pattern),0.5,True,
-19557.6,19562.93,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19562.93,19564.93,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19564.93,19568.93,-1,Blank (no pattern),0.5,True,
-19568.93,19573.6,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19573.6,19574.93,32,Carbonaceous,0.152,False,Not Available|Sample
-19574.93,19578.93,-1,Blank (no pattern),0.5,True,
-19578.93,19584.27,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19584.27,19586.27,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19586.27,19590.27,-1,Blank (no pattern),0.5,True,
-19590.27,19594.94,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19594.94,19596.27,32,Carbonaceous,0.152,False,Not Available|Sample
-19596.27,19600.27,-1,Blank (no pattern),0.5,True,
-19600.27,19601.6,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19601.6,19607.61,4,Sample,0.012,True,Not Available|Breccia
-19607.61,19609.61,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19609.61,19613.61,-1,Blank (no pattern),0.5,True,
-19613.61,19618.27,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19618.27,19620.27,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19620.27,19624.28,-1,Blank (no pattern),0.5,True,
-19624.28,19628.94,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19628.94,19630.28,32,Carbonaceous,0.152,False,Not Available|Sample
-19630.28,19634.28,-1,Blank (no pattern),0.5,True,
-19634.28,19639.61,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19639.61,19641.61,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19641.61,19645.61,-1,Blank (no pattern),0.5,True,
-19645.61,19650.28,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19650.28,19652.28,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19652.28,19656.28,-1,Blank (no pattern),0.5,True,
-19656.28,19660.95,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19660.95,19662.95,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19662.95,19667.62,-1,Blank (no pattern),0.5,True,
-19667.62,19670.28,17,Breccia,0.398,False,
-19670.28,19672.95,-1,Blank (no pattern),0.5,True,
-19672.95,19676.95,2,Breccia,0.512,False,
-19676.95,19680.29,17,Breccia,0.398,False,
-19680.29,19682.95,-1,Blank (no pattern),0.5,True,
-19682.95,19688.29,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19688.29,19689.62,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19689.62,19693.62,-1,Blank (no pattern),0.5,True,
-19693.62,19695.62,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19695.62,19699.62,-1,Blank (no pattern),0.5,True,
-19699.62,19704.29,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19704.29,19705.62,32,Carbonaceous,0.152,False,Not Available|Sample
-19705.62,19709.62,-1,Blank (no pattern),0.5,True,
-19709.62,19714.96,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19714.96,19716.96,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19716.96,19720.96,-1,Blank (no pattern),0.5,True,
-19720.96,19725.63,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19725.63,19726.96,32,Carbonaceous,0.152,False,Not Available|Sample
-19726.96,19737.63,3,Sample,0.011,True,Not Available
-19737.63,19739.63,5,Breccia,0.391,False,
-19739.63,19744.3,12,Sample,0.008,True,Not Available
-19744.3,19746.3,30,Sample,0.038,False,Not Available|Dolomite|Limestone
-19746.3,19750.3,11,Breccia,0.141,False,Sample|Not Available
-19750.3,19753.63,27,Breccia,0.398,False,
-19753.63,19756.3,24,Sample,0.007,True,Not Available
-19756.3,19760.97,2,Breccia,0.512,False,
-19760.97,19764.97,23,Sample,0.007,True,Not Available|Breccia
-19764.97,19768.97,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19768.97,19774.3,3,Sample,0.011,True,Not Available
-19774.3,19776.3,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19776.3,19782.97,7,Sample,0.012,True,Not Available
-19782.97,19784.97,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19784.97,19790.97,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19790.97,19793.64,12,Sample,0.008,True,Not Available
-19793.64,19796.31,-1,Blank (no pattern),0.5,True,
-19796.31,19802.31,10,Sample,0.071,False,Not Available|Dolomite|Limestone
-19802.31,19804.31,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19804.31,19808.98,3,Sample,0.011,True,Not Available
-19808.98,19810.98,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19810.98,19814.98,12,Sample,0.008,True,Not Available
-19814.98,19820.31,11,Breccia,0.141,False,Sample|Not Available
-19820.31,19822.98,13,Breccia,0.205,False,
-19822.98,19826.98,24,Sample,0.007,True,Not Available
-19826.98,19829.65,17,Breccia,0.398,False,
-19829.65,19834.31,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-19834.31,19836.98,17,Breccia,0.398,False,
-19836.98,19840.98,24,Sample,0.007,True,Not Available
-19840.98,19845.65,2,Breccia,0.512,False,
-19845.65,19850.32,4,Sample,0.012,True,Not Available|Breccia
-19850.32,19852.32,12,Sample,0.008,True,Not Available
-19852.32,19855.65,5,Breccia,0.391,False,
-19855.65,19860.32,2,Breccia,0.512,False,
-19860.32,19863.65,17,Breccia,0.398,False,
-19863.65,19869.65,7,Sample,0.012,True,Not Available
-19869.65,19871.66,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19871.66,19875.66,4,Sample,0.012,True,Not Available|Breccia
-19875.66,19878.32,-1,Blank (no pattern),0.5,True,
-19878.32,19883.66,11,Breccia,0.141,False,Sample|Not Available
-19883.66,19885.66,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19885.66,19891.66,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19891.66,19897.66,11,Breccia,0.141,False,Sample|Not Available
-19897.66,19900.33,-1,Blank (no pattern),0.5,True,
-19900.33,19905.66,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19905.66,19907.0,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19907.0,19911.66,-1,Blank (no pattern),0.5,True,
-19911.66,19913.66,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19913.66,19918.33,11,Breccia,0.141,False,Sample|Not Available
-19918.33,19921.66,26,Sample,0.009,True,Not Available
-19921.66,19924.33,17,Breccia,0.398,False,
-19924.33,19929.67,2,Breccia,0.512,False,
-19929.67,19932.33,-1,Blank (no pattern),0.5,True,
-19932.33,19933.67,32,Carbonaceous,0.152,False,Not Available|Sample
-19933.67,19939.0,11,Breccia,0.141,False,Sample|Not Available
-19939.0,19940.33,32,Carbonaceous,0.152,False,Not Available|Sample
-19940.33,19945.0,4,Sample,0.012,True,Not Available|Breccia
-19945.0,19949.67,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19949.67,19951.67,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-19951.67,19955.67,-1,Blank (no pattern),0.5,True,
-19955.67,19957.67,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19957.67,19961.67,-1,Blank (no pattern),0.5,True,
-19961.67,19966.34,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19966.34,19967.67,32,Carbonaceous,0.152,False,Not Available|Sample
-19967.67,19971.67,-1,Blank (no pattern),0.5,True,
-19971.67,19977.01,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19977.01,19979.01,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-19979.01,19983.01,-1,Blank (no pattern),0.5,True,
-19983.01,19987.68,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-19987.68,19989.01,32,Carbonaceous,0.152,False,Not Available|Sample
-19989.01,19993.01,-1,Blank (no pattern),0.5,True,
-19993.01,20009.01,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20009.01,20010.35,32,Carbonaceous,0.152,False,Not Available|Sample
-20010.35,20014.35,-1,Blank (no pattern),0.5,True,
-20014.35,20016.35,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20016.35,20020.35,-1,Blank (no pattern),0.5,True,
-20020.35,20025.02,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20025.02,20027.02,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20027.02,20030.35,-1,Blank (no pattern),0.5,True,
-20030.35,20031.69,32,Carbonaceous,0.152,False,Not Available|Sample
-20031.69,20037.02,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20037.02,20041.69,-1,Blank (no pattern),0.5,True,
-20041.69,20043.02,32,Carbonaceous,0.152,False,Not Available|Sample
-20043.02,20047.02,-1,Blank (no pattern),0.5,True,
-20047.02,20056.36,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20056.36,20058.36,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20058.36,20063.02,-1,Blank (no pattern),0.5,True,
-20063.02,20064.36,32,Carbonaceous,0.152,False,Not Available|Sample
-20064.36,20068.36,-1,Blank (no pattern),0.5,True,
-20068.36,20073.03,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20073.03,20074.36,32,Carbonaceous,0.152,False,Not Available|Sample
-20074.36,20078.36,-1,Blank (no pattern),0.5,True,
-20078.36,20084.36,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20084.36,20085.7,32,Carbonaceous,0.152,False,Not Available|Sample
-20085.7,20089.7,-1,Blank (no pattern),0.5,True,
-20089.7,20099.03,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20099.03,20101.03,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20101.03,20105.7,-1,Blank (no pattern),0.5,True,
-20105.7,20107.03,32,Carbonaceous,0.152,False,Not Available|Sample
-20107.03,20111.03,-1,Blank (no pattern),0.5,True,
-20111.03,20115.7,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20115.7,20117.03,32,Carbonaceous,0.152,False,Not Available|Sample
-20117.03,20123.04,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20123.04,20128.37,11,Breccia,0.141,False,Sample|Not Available
-20128.37,20133.04,2,Breccia,0.512,False,
-20133.04,20135.7,-1,Blank (no pattern),0.5,True,
-20135.7,20137.04,32,Carbonaceous,0.152,False,Not Available|Sample
-20137.04,20141.71,-1,Blank (no pattern),0.5,True,
-20141.71,20144.37,17,Breccia,0.398,False,
-20144.37,20148.37,2,Breccia,0.512,False,
-20148.37,20151.04,-1,Blank (no pattern),0.5,True,
-20151.04,20157.04,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20157.04,20161.71,2,Breccia,0.512,False,
-20161.71,20164.38,-1,Blank (no pattern),0.5,True,
-20164.38,20165.71,32,Carbonaceous,0.152,False,Not Available|Sample
-20165.71,20171.04,11,Breccia,0.141,False,Sample|Not Available
-20171.04,20173.04,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20173.04,20180.38,4,Sample,0.012,True,Not Available|Breccia
-20180.38,20181.71,32,Carbonaceous,0.152,False,Not Available|Sample
-20181.71,20187.71,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20187.71,20192.38,5,Breccia,0.391,False,
-20192.38,20195.05,-1,Blank (no pattern),0.5,True,
-20195.05,20197.72,17,Breccia,0.398,False,
-20197.72,20202.38,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20202.38,20207.05,5,Breccia,0.391,False,
-20207.05,20216.39,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20216.39,20221.05,-1,Blank (no pattern),0.5,True,
-20221.05,20222.39,32,Carbonaceous,0.152,False,Not Available|Sample
-20222.39,20227.72,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20227.72,20231.06,-1,Blank (no pattern),0.5,True,
-20231.06,20232.39,32,Carbonaceous,0.152,False,Not Available|Sample
-20232.39,20236.39,-1,Blank (no pattern),0.5,True,
-20236.39,20241.72,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20241.72,20243.72,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20243.72,20247.73,-1,Blank (no pattern),0.5,True,
-20247.73,20252.39,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20252.39,20253.73,32,Carbonaceous,0.152,False,Not Available|Sample
-20253.73,20257.73,-1,Blank (no pattern),0.5,True,
-20257.73,20273.73,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20273.73,20275.06,32,Carbonaceous,0.152,False,Not Available|Sample
-20275.06,20280.4,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20280.4,20285.07,-1,Blank (no pattern),0.5,True,
-20285.07,20295.07,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20295.07,20296.4,32,Carbonaceous,0.152,False,Not Available|Sample
-20296.4,20301.74,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20301.74,20305.74,-1,Blank (no pattern),0.5,True,
-20305.74,20307.74,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20307.74,20311.74,-1,Blank (no pattern),0.5,True,
-20311.74,20316.41,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20316.41,20317.74,32,Carbonaceous,0.152,False,Not Available|Sample
-20317.74,20323.07,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20323.07,20327.74,-1,Blank (no pattern),0.5,True,
-20327.74,20332.41,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20332.41,20334.41,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20334.41,20337.74,-1,Blank (no pattern),0.5,True,
-20337.74,20343.08,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20343.08,20344.41,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20344.41,20349.08,-1,Blank (no pattern),0.5,True,
-20349.08,20370.42,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20370.42,20371.75,32,Carbonaceous,0.152,False,Not Available|Sample
-20371.75,20375.75,-1,Blank (no pattern),0.5,True,
-20375.75,20380.42,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20380.42,20381.75,32,Carbonaceous,0.152,False,Not Available|Sample
-20381.75,20385.75,-1,Blank (no pattern),0.5,True,
-20385.75,20391.09,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20391.09,20393.09,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20393.09,20398.42,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20398.42,20401.75,-1,Blank (no pattern),0.5,True,
-20401.75,20403.09,32,Carbonaceous,0.152,False,Not Available|Sample
-20403.09,20406.42,5,Breccia,0.391,False,
-20406.42,20411.09,18,Maristone sare,0.216,False,
-20411.09,20413.09,17,Breccia,0.398,False,
-20413.09,20417.76,19,Maristone sare,0.754,False,
-20417.76,20423.09,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20423.09,20426.43,28,Breccia,0.427,False,
-20426.43,20430.43,25,Sample,0.012,True,Not Available
-20430.43,20435.76,15,Maristone sare,0.016,True,Sample|Not Available
-20435.76,20437.09,32,Carbonaceous,0.152,False,Not Available|Sample
-20437.09,20442.43,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20442.43,20446.43,-1,Blank (no pattern),0.5,True,
-20446.43,20448.43,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20448.43,20452.43,-1,Blank (no pattern),0.5,True,
-20452.43,20457.1,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20457.1,20458.43,32,Carbonaceous,0.152,False,Not Available|Sample
-20458.43,20463.77,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20463.77,20468.43,-1,Blank (no pattern),0.5,True,
-20468.43,20469.77,32,Carbonaceous,0.152,False,Not Available|Sample
-20469.77,20475.1,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20475.1,20478.44,-1,Blank (no pattern),0.5,True,
-20478.44,20479.77,32,Carbonaceous,0.152,False,Not Available|Sample
-20479.77,20483.77,-1,Blank (no pattern),0.5,True,
-20483.77,20489.1,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20489.1,20491.1,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20491.1,20496.44,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20496.44,20499.77,-1,Blank (no pattern),0.5,True,
-20499.77,20501.11,32,Carbonaceous,0.152,False,Not Available|Sample
-20501.11,20505.11,-1,Blank (no pattern),0.5,True,
-20505.11,20510.44,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20510.44,20512.44,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20512.44,20516.44,-1,Blank (no pattern),0.5,True,
-20516.44,20521.11,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20521.11,20522.44,32,Carbonaceous,0.152,False,Not Available|Sample
-20522.44,20527.78,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20527.78,20531.78,-1,Blank (no pattern),0.5,True,
-20531.78,20533.78,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20533.78,20537.78,-1,Blank (no pattern),0.5,True,
-20537.78,20542.45,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20542.45,20543.78,32,Carbonaceous,0.152,False,Not Available|Sample
-20543.78,20547.78,-1,Blank (no pattern),0.5,True,
-20547.78,20559.12,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20559.12,20560.45,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20560.45,20563.79,-1,Blank (no pattern),0.5,True,
-20563.79,20574.45,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20574.45,20576.45,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20576.45,20581.79,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20581.79,20585.12,-1,Blank (no pattern),0.5,True,
-20585.12,20586.46,32,Carbonaceous,0.152,False,Not Available|Sample
-20586.46,20590.46,-1,Blank (no pattern),0.5,True,
-20590.46,20601.13,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20601.13,20603.13,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20603.13,20606.46,-1,Blank (no pattern),0.5,True,
-20606.46,20607.79,32,Carbonaceous,0.152,False,Not Available|Sample
-20607.79,20613.13,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20613.13,20617.13,-1,Blank (no pattern),0.5,True,
-20617.13,20619.13,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20619.13,20623.13,-1,Blank (no pattern),0.5,True,
-20623.13,20627.8,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20627.8,20629.13,32,Carbonaceous,0.152,False,Not Available|Sample
-20629.13,20633.13,-1,Blank (no pattern),0.5,True,
-20633.13,20638.47,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20638.47,20640.47,29,Sample,0.071,False,Not Available|Limestone|Dolomite
-20640.47,20644.47,-1,Blank (no pattern),0.5,True,
-20644.47,20653.8,0,Sample,0.084,False,Not Available|Dolomite|Limestone
-20653.8,20655.8,8,Sample,0.075,False,Not Available|Dolomite|Limestone
-20655.8,20660.47,-1,Blank (no pattern),0.5,True,
-20660.47,20661.8,32,Carbonaceous,0.152,False,Not Available|Sample
-20661.8,20666.47,-1,Blank (no pattern),0.5,True,
-20666.47,20667.8,34,Carbonaceous,0.168,False,Sample|Not Available
-20667.8,20671.81,-1,Blank (no pattern),0.5,True,
-20671.81,20687.81,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20687.81,20689.14,34,Carbonaceous,0.168,False,Sample|Not Available
-20689.14,20694.48,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20694.48,20699.14,-1,Blank (no pattern),0.5,True,
-20699.14,20700.48,34,Carbonaceous,0.168,False,Sample|Not Available
-20700.48,20704.48,-1,Blank (no pattern),0.5,True,
-20704.48,20709.15,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20709.15,20710.48,34,Carbonaceous,0.168,False,Sample|Not Available
-20710.48,20714.48,-1,Blank (no pattern),0.5,True,
-20714.48,20719.81,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20719.81,20721.81,31,Sample,0.072,False,Not Available|Dolomite|Limestone
-20721.81,20727.15,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20727.15,20730.48,-1,Blank (no pattern),0.5,True,
-20730.48,20731.82,34,Carbonaceous,0.168,False,Sample|Not Available
-20731.82,20737.15,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20737.15,20741.15,-1,Blank (no pattern),0.5,True,
-20741.15,20743.15,31,Sample,0.072,False,Not Available|Dolomite|Limestone
-20743.15,20747.15,-1,Blank (no pattern),0.5,True,
-20747.15,20751.82,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20751.82,20753.15,34,Carbonaceous,0.168,False,Sample|Not Available
-20753.15,20758.49,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20758.49,20763.16,-1,Blank (no pattern),0.5,True,
-20763.16,20773.16,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20773.16,20774.49,34,Carbonaceous,0.168,False,Sample|Not Available
-20774.49,20778.49,-1,Blank (no pattern),0.5,True,
-20778.49,20794.49,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20794.49,20795.83,34,Carbonaceous,0.168,False,Sample|Not Available
-20795.83,20799.83,-1,Blank (no pattern),0.5,True,
-20799.83,20805.16,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20805.16,20807.16,31,Sample,0.072,False,Not Available|Dolomite|Limestone
-20807.16,20812.5,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20812.5,20815.83,-1,Blank (no pattern),0.5,True,
-20815.83,20832.5,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20832.5,20833.84,31,Sample,0.072,False,Not Available|Dolomite|Limestone
-20833.84,20837.17,-1,Blank (no pattern),0.5,True,
-20837.17,20841.84,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20841.84,20843.84,31,Sample,0.072,False,Not Available|Dolomite|Limestone
-20843.84,20848.51,-1,Blank (no pattern),0.5,True,
-20848.51,20849.84,34,Carbonaceous,0.168,False,Sample|Not Available
-20849.84,20853.84,-1,Blank (no pattern),0.5,True,
-20853.84,20858.51,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20858.51,20859.84,34,Carbonaceous,0.168,False,Sample|Not Available
-20859.84,20863.84,-1,Blank (no pattern),0.5,True,
-20863.84,20869.84,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20869.84,20871.18,34,Carbonaceous,0.168,False,Sample|Not Available
-20871.18,20875.18,-1,Blank (no pattern),0.5,True,
-20875.18,20879.84,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20879.84,20881.18,34,Carbonaceous,0.168,False,Sample|Not Available
-20881.18,20885.18,-1,Blank (no pattern),0.5,True,
-20885.18,20901.18,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20901.18,20902.52,34,Carbonaceous,0.168,False,Sample|Not Available
-20902.52,20907.85,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20907.85,20912.52,-1,Blank (no pattern),0.5,True,
-20912.52,20917.18,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20917.18,20919.19,31,Sample,0.072,False,Not Available|Dolomite|Limestone
-20919.19,20922.52,-1,Blank (no pattern),0.5,True,
-20922.52,20923.85,34,Carbonaceous,0.168,False,Sample|Not Available
-20923.85,20929.19,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20929.19,20933.19,-1,Blank (no pattern),0.5,True,
-20933.19,20935.19,31,Sample,0.072,False,Not Available|Dolomite|Limestone
-20935.19,20939.19,2,Breccia,0.512,False,
-20939.19,20942.52,17,Breccia,0.398,False,
-20942.52,20946.52,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20946.52,20950.52,5,Breccia,0.391,False,
-20950.52,20953.86,2,Breccia,0.512,False,
-20953.86,20957.86,1,Sample,0.087,False,Not Available|Dolomite|Limestone
-20957.86,20966.53,4,Sample,0.012,True,Not Available|Breccia
+top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
+17130.67,17373.33,Shale,0,2394,2758
+17373.33,17393.33,Claystone,10,2758,2788
+17393.33,17400.67,Shale,0,2788,2799
+17400.67,17405.33,Claystone,15,2799,2806
+17405.33,17421.33,Shale,0,2806,2830
+17421.33,17429.33,Claystone,15,2830,2842
+17429.33,17439.33,Shale,0,2842,2857
+17439.33,17447.33,Sandstone,23,2857,2869
+17447.33,17458.0,Claystone,12,2869,2885
+17458.0,17510.0,Shale,0,2885,2963
+17510.0,17519.33,Claystone,15,2963,2977
+17519.33,17559.33,Shale,0,2977,3037
+17559.33,17564.0,Breccia,5,3037,3044
+17564.0,17576.0,Shale,0,3044,3062
+17576.0,17594.0,Sandstone,1,3062,3089
+17594.0,18055.33,Shale,0,3089,3781
+18055.33,18062.67,Claystone,10,3781,3792
+18062.67,18088.0,Shale,7,3792,3830
+18088.0,18095.33,Claystone,15,3830,3841
+18095.33,18157.33,Shale,0,3841,3934
+18157.33,18170.0,Sandstone,1,3934,3953
+18170.0,18232.0,Shale,0,3953,4046
+18232.0,18240.0,Sandstone,1,4046,4058
+18240.0,18254.67,Breccia,5,4058,4080
+18254.67,18259.33,Sandstone,1,4080,4087
+18259.33,18270.0,Breccia,5,4087,4103
+18270.0,18276.0,Sandstone,1,4103,4112
+18276.0,18284.67,Breccia,13,4112,4125
+18284.67,18286.0,Shale,37,4125,4127
+18286.0,18312.0,Sandstone,1,4127,4166
+18312.0,18319.33,Conglomerate-,2,4166,4177
+18319.33,18330.0,Sandstone,8,4177,4193
+18330.0,18338.0,Shale,0,4193,4205
+18338.0,18348.0,Sandstone,1,4205,4220
+18348.0,18353.33,Breccia,5,4220,4228
+18353.33,18363.33,Sandstone,1,4228,4243
+18363.33,18418.0,Shale,0,4243,4325
+18418.0,18430.0,Sandstone,8,4325,4343
+18430.0,18452.67,Shale,0,4343,4377
+18452.67,18461.33,Claystone,18,4377,4390
+18461.33,18538.0,Shale,0,4390,4505
+18538.0,18542.67,Claystone,18,4505,4512
+18542.67,18824.0,Shale,0,4512,4934
+18824.0,18832.0,Claystone,18,4934,4946
+18832.0,18870.0,Sandstone,1,4946,5003
+18870.0,18924.67,Shale,0,5003,5085
+18924.67,18934.67,Breccia,13,5085,5100
+18934.67,19006.0,Shale,0,5100,5207
+19006.0,19013.33,Claystone,15,5207,5218
+19013.33,19030.67,Shale,25,5218,5244
+19030.67,19038.67,Claystone,21,5244,5256
+19038.67,19054.67,Shale,0,5256,5280
+19054.67,19064.0,Claystone,16,5280,5294
+19064.0,19122.67,Sandstone,1,5294,5382
+19122.67,19162.67,Shale,0,5382,5442
+19162.67,19228.0,Sandstone,1,5442,5540
+19228.0,19236.0,Shale,0,5540,5552
+19236.0,19241.33,Breccia,5,5552,5560
+19241.33,19253.33,Shale,3,5560,5578
+19253.33,19262.0,Sandstone,1,5578,5591
+19262.0,19270.0,Shale,0,5591,5603
+19270.0,19282.67,Sandstone,1,5603,5622
+19282.67,19352.67,Shale,0,5622,5727
+19352.67,19382.67,Sandstone,1,5727,5772
+19382.67,19390.0,Shale,3,5772,5783
+19390.0,19396.67,Breccia,26,5783,5793
+19396.67,19600.0,Shale,0,5793,6098
+19600.0,19608.0,Claystone,18,6098,6110
+19608.0,19667.33,Shale,0,6110,6199
+19667.33,19675.33,Breccia,5,6199,6211
+19675.33,19682.67,Sandstone,8,6211,6222
+19682.67,19730.67,Shale,0,6222,6294
+19730.67,19737.33,Claystone,10,6294,6304
+19737.33,19746.0,Shale,19,6304,6317
+19746.0,19758.67,Breccia,13,6317,6336
+19758.67,19767.33,Claystone,20,6336,6349
+19767.33,19774.67,Shale,7,6349,6360
+19774.67,19783.33,Claystone,21,6360,6373
+19783.33,19790.67,Shale,0,6373,6384
+19790.67,19796.0,Claystone,10,6384,6392
+19796.0,19814.67,Shale,7,6392,6420
+19814.67,19822.67,Claystone,9,6420,6432
+19822.67,19834.0,Shale,3,6432,6449
+19834.0,19857.33,Claystone,9,6449,6484
+19857.33,19863.33,Sandstone,1,6484,6493
+19863.33,19869.33,Claystone,21,6493,6502
+19869.33,19891.33,Shale,4,6502,6535
+19891.33,19900.0,Breccia,5,6535,6548
+19900.0,19912.69,Shale,0,6548,6567
+19912.69,19921.38,Claystone,18,6567,6580
+19921.38,19929.4,Sandstone,1,6580,6592
+19929.4,19932.07,Blank (no pattern),38,6592,6596
+19932.07,20122.49,Shale,0,6596,6881
+20122.49,20133.18,Sandstone,8,6881,6897
+20133.18,20141.87,Shale,0,6897,6910
+20141.87,20151.22,Sandstone,8,6910,6924
+20151.22,20157.24,Shale,0,6924,6933
+20157.24,20164.59,Sandstone,8,6933,6944
+20164.59,20171.94,Shale,3,6944,6955
+20171.94,20180.62,Claystone,22,6955,6968
+20180.62,20185.97,Shale,0,6968,6976
+20185.97,20200.0,Breccia,5,6976,6997
+20200.0,20202.0,Shale,36,6997,7000
+20202.0,20210.0,Breccia,5,7000,7012
+20210.0,20404.0,Shale,0,7012,7303
+20404.0,20418.0,Sandstone,6,7303,7324
+20418.0,20420.67,Blank (no pattern),38,7324,7328
+20420.67,20430.67,Breccia,14,7328,7343
+20430.67,20436.0,Claystone,29,7343,7351
+20436.0,20935.34,Shale,0,7351,8100
+20935.34,20938.01,Sandstone,33,8100,8104
+20938.01,20956.01,Conglomerate-,2,8104,8131
+20956.01,20966.68,Claystone,18,8131,8147

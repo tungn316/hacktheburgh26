@@ -43,6 +43,34 @@ class Column:
         return s
 
 
+def pattern_period(stats: np.ndarray, *, chunk: int = 600, max_lag: int = 120) -> int | None:
+    """Typical vertical repeat of the column's symbols, in rows (None if no clear repeat).
+
+    Symbols are drawn at a fixed size on the paper, so on a compressed depth scale (1 in per
+    100 ft) one repeat of a pattern can span many feet. A boundary detector whose windows are
+    shorter than that sees "dash row" and "gap" as different rocks; this tells it how big
+    its windows must be. Measured by autocorrelation of ink per row in chunks down the column
+    (first clear peak = the fundamental repeat), median over the chunks.
+    """
+    sig = stats[:, 0].astype(np.float64)
+    found = []
+    for a in range(0, max(1, len(sig) - chunk + 1), chunk):
+        x = sig[a : a + chunk] - sig[a : a + chunk].mean()
+        den = float(np.dot(x, x))
+        if len(x) < 3 * max_lag or den <= 0:
+            continue
+        ac = np.array([np.dot(x[:-k], x[k:]) / den for k in range(1, max_lag)])
+        below = np.where(ac < 0.2)[0]
+        if not len(below):
+            continue
+        # The first clear peak after the dip is the fundamental repeat (later ones are multiples).
+        peaks = [k for k in range(below[0] + 1, len(ac) - 1)
+                 if ac[k] > 0.3 and ac[k] >= ac[k - 1] and ac[k] >= ac[k + 1]]
+        if peaks:
+            found.append(peaks[0] + 1)  # ac[k] is lag k + 1
+    return int(np.median(found)) if len(found) >= 3 else None
+
+
 def _peaks(score: np.ndarray, thr: float, min_dist: int) -> list[int]:
     taken = np.zeros(len(score), bool)
     out = []
@@ -79,6 +107,11 @@ def segment_column(
 ) -> tuple[list[Segment], Column]:
     col = Column(rgb, px_per_ft)
     half = max(4, int(round(window_ft * px_per_ft)))
+    period = pattern_period(col.stats)
+    if period and half < period:
+        # A window must hold at least one whole repeat of the symbol, or the symbol itself reads as bedding.
+        half = period
+    col.half, col.period = half, period
     score = col.change_score(half)
     cuts = sorted(set([0, *[_refine(col, b, half) for b in _peaks(score, thr, half)], col.n]))
 

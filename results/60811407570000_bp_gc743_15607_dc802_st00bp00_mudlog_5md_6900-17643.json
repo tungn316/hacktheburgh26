@@ -1,15 +1,145 @@
 {
   "image": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643.tif",
+  "image_size": [
+    1700,
+    110000
+  ],
   "depth_fit": {
     "px_per_ft": 10.0137,
     "labels_used": 28,
     "labels_read": 48,
-    "mean_residual_ft": 0.024,
-    "label_rotation_deg": 0
+    "labels_rejected": 20,
+    "mean_residual_ft": 0.032,
+    "label_rotation_deg": 0,
+    "chunks_ocrd": "27/27",
+    "labels": [
+      [
+        42594.0,
+        0.0
+      ],
+      [
+        42794.0,
+        20.0
+      ],
+      [
+        43195.0,
+        60.0
+      ],
+      [
+        43395.0,
+        80.0
+      ],
+      [
+        44597.0,
+        200.0
+      ],
+      [
+        45197.0,
+        260.0
+      ],
+      [
+        45398.0,
+        280.0
+      ],
+      [
+        47601.0,
+        500.0
+      ],
+      [
+        48202.0,
+        560.0
+      ],
+      [
+        48502.0,
+        590.0
+      ],
+      [
+        48602.0,
+        600.0
+      ],
+      [
+        48802.0,
+        620.0
+      ],
+      [
+        49203.0,
+        660.0
+      ],
+      [
+        49503.0,
+        690.0
+      ],
+      [
+        49604.0,
+        700.0
+      ],
+      [
+        49804.0,
+        720.0
+      ],
+      [
+        50204.0,
+        760.0
+      ],
+      [
+        50405.0,
+        780.0
+      ],
+      [
+        50505.0,
+        790.0
+      ],
+      [
+        50605.0,
+        800.0
+      ],
+      [
+        50805.0,
+        820.0
+      ],
+      [
+        51206.0,
+        860.0
+      ],
+      [
+        51406.0,
+        880.0
+      ],
+      [
+        51506.0,
+        890.0
+      ],
+      [
+        51606.0,
+        900.0
+      ],
+      [
+        52207.0,
+        960.0
+      ],
+      [
+        52407.0,
+        980.0
+      ],
+      [
+        52508.0,
+        990.0
+      ]
+    ]
   },
   "legend": [
     {
-      "name": "Clay Shale",
+      "name": "Shale",
+      "box": [
+        533,
+        562,
+        546,
+        572
+      ],
+      "white": true
+    },
+    {
+      "name": "Clay",
       "box": [
         458,
         542,
@@ -59,6 +189,16 @@
       "white": false
     },
     {
+      "name": "Bituminous Limestone",
+      "box": [
+        458,
+        663,
+        521,
+        714
+      ],
+      "white": false
+    },
+    {
       "name": "Coarse Sandstone",
       "box": [
         953,
@@ -99,16 +239,6 @@
       "white": false
     },
     {
-      "name": "Medium Sand",
-      "box": [
-        458,
-        785,
-        521,
-        835
-      ],
-      "white": false
-    },
-    {
       "name": "Calcareous",
       "box": [
         705,
@@ -119,7 +249,17 @@
       "white": false
     },
     {
-      "name": "Silty",
+      "name": "Dolomitic Sandstone",
+      "box": [
+        953,
+        785,
+        1016,
+        835
+      ],
+      "white": false
+    },
+    {
+      "name": "Silt",
       "box": [
         458,
         845,
@@ -134,6 +274,16 @@
         705,
         845,
         769,
+        896
+      ],
+      "white": false
+    },
+    {
+      "name": "Chert",
+      "box": [
+        953,
+        845,
+        1016,
         896
       ],
       "white": false
@@ -179,11 +329,21 @@
       "white": false
     },
     {
-      "name": "Argil and Sand re Halite Dolomite ws Gypsum",
+      "name": "Argil and Sand Dolomite",
       "box": [
         705,
         966,
         769,
+        1017
+      ],
+      "white": false
+    },
+    {
+      "name": "Halite",
+      "box": [
+        953,
+        966,
+        1016,
         1017
       ],
       "white": false
@@ -199,12 +359,22 @@
       "white": false
     },
     {
-      "name": "ae Sylvite",
+      "name": "Gypsum",
+      "box": [
+        705,
+        1027,
+        769,
+        1078
+      ],
+      "white": false
+    },
+    {
+      "name": "Sylvite",
       "box": [
         953,
-        966,
+        1027,
         1016,
-        1017
+        1078
       ],
       "white": false
     },
@@ -217,1300 +387,1329 @@
         1138
       ],
       "white": false
+    },
+    {
+      "name": "Coallignite",
+      "box": [
+        458,
+        1087,
+        521,
+        1138
+      ],
+      "white": false
+    },
+    {
+      "name": "Basalt",
+      "box": [
+        705,
+        1087,
+        769,
+        1138
+      ],
+      "white": false
     }
   ],
+  "identical_legend_symbols": [],
   "n_groups": 3,
+  "snap_grid": null,
+  "warnings": [],
+  "timings_s": {
+    "depth": 7.61,
+    "segment": 0.49,
+    "legend": 0.62,
+    "intervals": 0.2,
+    "total": 8.92
+  },
   "intervals": [
     {
-      "top_ft": -439.7,
-      "base_ft": 383.18,
-      "group": 0,
+      "top_depth": -439.7,
+      "bottom_depth": 383.16,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 38191,
+      "bottom_y": 46431,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 38191,
-      "y_base_px": 46431
+        "Clay"
+      ]
     },
     {
-      "top_ft": 383.18,
-      "base_ft": 386.47,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 383.16,
+      "bottom_depth": 386.45,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 46431,
+      "bottom_y": 46464,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 46431,
-      "y_base_px": 46464
+      ]
     },
     {
-      "top_ft": 386.47,
-      "base_ft": 410.34,
-      "group": 0,
+      "top_depth": 386.45,
+      "bottom_depth": 410.32,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 46464,
+      "bottom_y": 46703,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 46464,
-      "y_base_px": 46703
+        "Clay"
+      ]
     },
     {
-      "top_ft": 410.34,
-      "base_ft": 425.92,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 410.32,
+      "bottom_depth": 425.9,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 46703,
+      "bottom_y": 46859,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 46703,
-      "y_base_px": 46859
+      ]
     },
     {
-      "top_ft": 425.92,
-      "base_ft": 457.58,
-      "group": 0,
+      "top_depth": 425.9,
+      "bottom_depth": 457.56,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 46859,
+      "bottom_y": 47176,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 46859,
-      "y_base_px": 47176
+        "Clay"
+      ]
     },
     {
-      "top_ft": 457.58,
-      "base_ft": 486.64,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 457.56,
+      "bottom_depth": 486.62,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 47176,
+      "bottom_y": 47467,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 47176,
-      "y_base_px": 47467
+      ]
     },
     {
-      "top_ft": 486.64,
-      "base_ft": 539.96,
-      "group": 0,
+      "top_depth": 486.62,
+      "bottom_depth": 539.93,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 47467,
+      "bottom_y": 48001,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 47467,
-      "y_base_px": 48001
+        "Clay"
+      ]
     },
     {
-      "top_ft": 539.96,
-      "base_ft": 590.3,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 539.93,
+      "bottom_depth": 590.3,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 48001,
+      "bottom_y": 48505,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 48001,
-      "y_base_px": 48505
+      ]
     },
     {
-      "top_ft": 590.3,
-      "base_ft": 626.55,
-      "group": 0,
+      "top_depth": 590.3,
+      "bottom_depth": 626.58,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 48505,
+      "bottom_y": 48868,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 48505,
-      "y_base_px": 48868
+        "Clay"
+      ]
     },
     {
-      "top_ft": 626.55,
-      "base_ft": 752.57,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 626.58,
+      "bottom_depth": 752.6,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 48868,
+      "bottom_y": 50130,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 48868,
-      "y_base_px": 50130
+      ]
     },
     {
-      "top_ft": 752.57,
-      "base_ft": 1417.86,
-      "group": 0,
+      "top_depth": 752.6,
+      "bottom_depth": 1417.81,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 50130,
+      "bottom_y": 56792,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 50130,
-      "y_base_px": 56792
+        "Clay"
+      ]
     },
     {
-      "top_ft": 1417.86,
-      "base_ft": 1491.36,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 1417.81,
+      "bottom_depth": 1491.31,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 56792,
+      "bottom_y": 57528,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 56792,
-      "y_base_px": 57528
+      ]
     },
     {
-      "top_ft": 1491.36,
-      "base_ft": 1588.73,
-      "group": 0,
+      "top_depth": 1491.31,
+      "bottom_depth": 1588.68,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 57528,
+      "bottom_y": 58503,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 57528,
-      "y_base_px": 58503
+        "Clay"
+      ]
     },
     {
-      "top_ft": 1588.73,
-      "base_ft": 1621.78,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 1588.68,
+      "bottom_depth": 1621.74,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 58503,
+      "bottom_y": 58834,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 58503,
-      "y_base_px": 58834
+      ]
     },
     {
-      "top_ft": 1621.78,
-      "base_ft": 1924.27,
-      "group": 0,
+      "top_depth": 1621.74,
+      "bottom_depth": 1924.22,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 58834,
+      "bottom_y": 61863,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 58834,
-      "y_base_px": 61863
+        "Clay"
+      ]
     },
     {
-      "top_ft": 1924.27,
-      "base_ft": 1952.63,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 1924.22,
+      "bottom_depth": 1952.58,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 61863,
+      "bottom_y": 62147,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 61863,
-      "y_base_px": 62147
+      ]
     },
     {
-      "top_ft": 1952.63,
-      "base_ft": 2864.88,
-      "group": 0,
+      "top_depth": 1952.58,
+      "bottom_depth": 2864.83,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 62147,
+      "bottom_y": 71282,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 62147,
-      "y_base_px": 71282
+        "Clay"
+      ]
     },
     {
-      "top_ft": 2864.88,
-      "base_ft": 2870.28,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 2864.83,
+      "bottom_depth": 2870.23,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 71282,
+      "bottom_y": 71336,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 71282,
-      "y_base_px": 71336
+      ]
     },
     {
-      "top_ft": 2870.28,
-      "base_ft": 2897.34,
-      "group": 0,
+      "top_depth": 2870.23,
+      "bottom_depth": 2897.29,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 71336,
+      "bottom_y": 71607,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 71336,
-      "y_base_px": 71607
+        "Clay"
+      ]
     },
     {
-      "top_ft": 2897.34,
-      "base_ft": 2904.03,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 2897.29,
+      "bottom_depth": 2903.98,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 71607,
+      "bottom_y": 71674,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 71607,
-      "y_base_px": 71674
+      ]
     },
     {
-      "top_ft": 2904.03,
-      "base_ft": 2920.21,
-      "group": 0,
+      "top_depth": 2903.98,
+      "bottom_depth": 2920.16,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 71674,
+      "bottom_y": 71836,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 71674,
-      "y_base_px": 71836
+        "Clay"
+      ]
     },
     {
-      "top_ft": 2920.21,
-      "base_ft": 2925.7,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 2920.16,
+      "bottom_depth": 2925.65,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 71836,
+      "bottom_y": 71891,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 71836,
-      "y_base_px": 71891
+      ]
     },
     {
-      "top_ft": 2925.7,
-      "base_ft": 2962.15,
-      "group": 0,
+      "top_depth": 2925.65,
+      "bottom_depth": 2962.1,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 71891,
+      "bottom_y": 72256,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 71891,
-      "y_base_px": 72256
+        "Clay"
+      ]
     },
     {
-      "top_ft": 2962.15,
-      "base_ft": 2967.54,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 2962.1,
+      "bottom_depth": 2967.49,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 72256,
+      "bottom_y": 72310,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 72256,
-      "y_base_px": 72310
+      ]
     },
     {
-      "top_ft": 2967.54,
-      "base_ft": 2998.8,
-      "group": 0,
+      "top_depth": 2967.49,
+      "bottom_depth": 2998.75,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 72310,
+      "bottom_y": 72623,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 72310,
-      "y_base_px": 72623
+        "Clay"
+      ]
     },
     {
-      "top_ft": 2998.8,
-      "base_ft": 3008.29,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 2998.75,
+      "bottom_depth": 3008.24,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 72623,
+      "bottom_y": 72718,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 72623,
-      "y_base_px": 72718
+      ]
     },
     {
-      "top_ft": 3008.29,
-      "base_ft": 3021.77,
-      "group": 0,
+      "top_depth": 3008.24,
+      "bottom_depth": 3021.72,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 72718,
+      "bottom_y": 72853,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 72718,
-      "y_base_px": 72853
+        "Clay"
+      ]
     },
     {
-      "top_ft": 3021.77,
-      "base_ft": 3037.25,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 3021.72,
+      "bottom_depth": 3037.2,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 72853,
+      "bottom_y": 73008,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 72853,
-      "y_base_px": 73008
+      ]
     },
     {
-      "top_ft": 3037.25,
-      "base_ft": 3131.12,
-      "group": 0,
+      "top_depth": 3037.2,
+      "bottom_depth": 3131.07,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 73008,
+      "bottom_y": 73948,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 73008,
-      "y_base_px": 73948
+        "Clay"
+      ]
     },
     {
-      "top_ft": 3131.12,
-      "base_ft": 3146.0,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 3131.07,
+      "bottom_depth": 3145.95,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 73948,
+      "bottom_y": 74097,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 73948,
-      "y_base_px": 74097
+      ]
     },
     {
-      "top_ft": 3146.0,
-      "base_ft": 3351.02,
-      "group": 0,
+      "top_depth": 3145.95,
+      "bottom_depth": 3350.97,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 74097,
+      "bottom_y": 76150,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 74097,
-      "y_base_px": 76150
+        "Clay"
+      ]
     },
     {
-      "top_ft": 3351.02,
-      "base_ft": 3365.7,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 3350.97,
+      "bottom_depth": 3365.65,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 76150,
+      "bottom_y": 76297,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 76150,
-      "y_base_px": 76297
+      ]
     },
     {
-      "top_ft": 3365.7,
-      "base_ft": 3716.82,
-      "group": 0,
+      "top_depth": 3365.65,
+      "bottom_depth": 3716.77,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 76297,
+      "bottom_y": 79813,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 76297,
-      "y_base_px": 79813
+        "Clay"
+      ]
     },
     {
-      "top_ft": 3716.82,
-      "base_ft": 3729.4,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 3716.77,
+      "bottom_depth": 3729.35,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 79813,
+      "bottom_y": 79939,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 79813,
-      "y_base_px": 79939
+      ]
     },
     {
-      "top_ft": 3729.4,
-      "base_ft": 3806.5,
-      "group": 0,
+      "top_depth": 3729.35,
+      "bottom_depth": 3806.45,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 79939,
+      "bottom_y": 80711,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 79939,
-      "y_base_px": 80711
+        "Clay"
+      ]
     },
     {
-      "top_ft": 3806.5,
-      "base_ft": 4046.37,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 3806.45,
+      "bottom_depth": 4046.32,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 80711,
+      "bottom_y": 83113,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 80711,
-      "y_base_px": 83113
+      ]
     },
     {
-      "top_ft": 4046.37,
-      "base_ft": 4116.67,
-      "group": 0,
+      "top_depth": 4046.32,
+      "bottom_depth": 4116.62,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 83113,
+      "bottom_y": 83817,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 83113,
-      "y_base_px": 83817
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4116.67,
-      "base_ft": 4157.22,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4116.62,
+      "bottom_depth": 4157.17,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 83817,
+      "bottom_y": 84223,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 83817,
-      "y_base_px": 84223
+      ]
     },
     {
-      "top_ft": 4157.22,
-      "base_ft": 4242.4,
-      "group": 0,
+      "top_depth": 4157.17,
+      "bottom_depth": 4242.35,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 84223,
+      "bottom_y": 85076,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 84223,
-      "y_base_px": 85076
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4242.4,
-      "base_ft": 4264.67,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4242.35,
+      "bottom_depth": 4264.62,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 85076,
+      "bottom_y": 85299,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 85076,
-      "y_base_px": 85299
+      ]
     },
     {
-      "top_ft": 4264.67,
-      "base_ft": 4332.98,
-      "group": 0,
+      "top_depth": 4264.62,
+      "bottom_depth": 4332.93,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 85299,
+      "bottom_y": 85983,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 85299,
-      "y_base_px": 85983
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4332.98,
-      "base_ft": 4363.43,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4332.93,
+      "bottom_depth": 4363.38,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 85983,
+      "bottom_y": 86288,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 85983,
-      "y_base_px": 86288
+      ]
     },
     {
-      "top_ft": 4363.43,
-      "base_ft": 4461.4,
-      "group": 0,
+      "top_depth": 4363.38,
+      "bottom_depth": 4461.35,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 86288,
+      "bottom_y": 87269,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 86288,
-      "y_base_px": 87269
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4461.4,
-      "base_ft": 4474.88,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4461.35,
+      "bottom_depth": 4474.83,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 87269,
+      "bottom_y": 87404,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 87269,
-      "y_base_px": 87404
+      ]
     },
     {
-      "top_ft": 4474.88,
-      "base_ft": 4524.91,
-      "group": 0,
+      "top_depth": 4474.83,
+      "bottom_depth": 4524.86,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 87404,
+      "bottom_y": 87905,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 87404,
-      "y_base_px": 87905
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4524.91,
-      "base_ft": 4531.7,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4524.86,
+      "bottom_depth": 4531.65,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 87905,
+      "bottom_y": 87973,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 87905,
-      "y_base_px": 87973
+      ]
     },
     {
-      "top_ft": 4531.7,
-      "base_ft": 4676.7,
-      "group": 0,
+      "top_depth": 4531.65,
+      "bottom_depth": 4676.66,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 87973,
+      "bottom_y": 89425,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 87973,
-      "y_base_px": 89425
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4676.7,
-      "base_ft": 4726.34,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4676.66,
+      "bottom_depth": 4726.29,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 89425,
+      "bottom_y": 89922,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 89425,
-      "y_base_px": 89922
+      ]
     },
     {
-      "top_ft": 4726.34,
-      "base_ft": 4741.22,
-      "group": 0,
+      "top_depth": 4726.29,
+      "bottom_depth": 4741.17,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 89922,
+      "bottom_y": 90071,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 89922,
-      "y_base_px": 90071
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4741.22,
-      "base_ft": 4761.59,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4741.17,
+      "bottom_depth": 4761.54,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 90071,
+      "bottom_y": 90275,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 90071,
-      "y_base_px": 90275
+      ]
     },
     {
-      "top_ft": 4761.59,
-      "base_ft": 4768.98,
-      "group": 0,
+      "top_depth": 4761.54,
+      "bottom_depth": 4768.93,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 90275,
+      "bottom_y": 90349,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 90275,
-      "y_base_px": 90349
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4768.98,
-      "base_ft": 4787.95,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4768.93,
+      "bottom_depth": 4787.9,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 90349,
+      "bottom_y": 90539,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 90349,
-      "y_base_px": 90539
+      ]
     },
     {
-      "top_ft": 4787.95,
-      "base_ft": 4816.31,
-      "group": 0,
+      "top_depth": 4787.9,
+      "bottom_depth": 4816.27,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 90539,
+      "bottom_y": 90823,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 90539,
-      "y_base_px": 90823
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4816.31,
-      "base_ft": 4875.73,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4816.27,
+      "bottom_depth": 4875.68,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 90823,
+      "bottom_y": 91418,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 90823,
-      "y_base_px": 91418
+      ]
     },
     {
-      "top_ft": 4875.73,
-      "base_ft": 4946.74,
-      "group": 0,
+      "top_depth": 4875.68,
+      "bottom_depth": 4946.69,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 91418,
+      "bottom_y": 92129,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 91418,
-      "y_base_px": 92129
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4946.74,
-      "base_ft": 4954.23,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4946.69,
+      "bottom_depth": 4954.18,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 92129,
+      "bottom_y": 92204,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 92129,
-      "y_base_px": 92204
+      ]
     },
     {
-      "top_ft": 4954.23,
-      "base_ft": 4959.62,
-      "group": 0,
+      "top_depth": 4954.18,
+      "bottom_depth": 4959.57,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 92204,
+      "bottom_y": 92258,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 92204,
-      "y_base_px": 92258
+        "Clay"
+      ]
     },
     {
-      "top_ft": 4959.62,
-      "base_ft": 4965.71,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 4959.57,
+      "bottom_depth": 4965.66,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 92258,
+      "bottom_y": 92319,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 92258,
-      "y_base_px": 92319
+      ]
     },
     {
-      "top_ft": 4965.71,
-      "base_ft": 5018.44,
-      "group": 0,
+      "top_depth": 4965.66,
+      "bottom_depth": 5018.39,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 92319,
+      "bottom_y": 92847,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 92319,
-      "y_base_px": 92847
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5018.44,
-      "base_ft": 5033.32,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5018.39,
+      "bottom_depth": 5033.27,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 92847,
+      "bottom_y": 92996,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 92847,
-      "y_base_px": 92996
+      ]
     },
     {
-      "top_ft": 5033.32,
-      "base_ft": 5036.61,
-      "group": 0,
+      "top_depth": 5033.27,
+      "bottom_depth": 5036.56,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 92996,
+      "bottom_y": 93029,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 92996,
-      "y_base_px": 93029
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5036.61,
-      "base_ft": 5070.47,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5036.56,
+      "bottom_depth": 5070.42,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 93029,
+      "bottom_y": 93368,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 93029,
-      "y_base_px": 93368
+      ]
     },
     {
-      "top_ft": 5070.47,
-      "base_ft": 5246.92,
-      "group": 0,
+      "top_depth": 5070.42,
+      "bottom_depth": 5246.88,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 93368,
+      "bottom_y": 95135,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 93368,
-      "y_base_px": 95135
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5246.92,
-      "base_ft": 5255.01,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5246.88,
+      "bottom_depth": 5254.96,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 95135,
+      "bottom_y": 95216,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 95135,
-      "y_base_px": 95216
+      ]
     },
     {
-      "top_ft": 5255.01,
-      "base_ft": 5267.2,
-      "group": 0,
+      "top_depth": 5254.96,
+      "bottom_depth": 5267.15,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 95216,
+      "bottom_y": 95338,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 95216,
-      "y_base_px": 95338
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5267.2,
-      "base_ft": 5275.29,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5267.15,
+      "bottom_depth": 5275.24,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 95338,
+      "bottom_y": 95419,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 95338,
-      "y_base_px": 95419
+      ]
     },
     {
-      "top_ft": 5275.29,
-      "base_ft": 5341.4,
-      "group": 0,
+      "top_depth": 5275.24,
+      "bottom_depth": 5341.35,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 95419,
+      "bottom_y": 96081,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 95419,
-      "y_base_px": 96081
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5341.4,
-      "base_ft": 5459.63,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5341.35,
+      "bottom_depth": 5459.58,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 96081,
+      "bottom_y": 97265,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 96081,
-      "y_base_px": 97265
+      ]
     },
     {
-      "top_ft": 5459.63,
-      "base_ft": 5485.3,
-      "group": 0,
+      "top_depth": 5459.58,
+      "bottom_depth": 5485.25,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 97265,
+      "bottom_y": 97522,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 97265,
-      "y_base_px": 97522
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5485.3,
-      "base_ft": 5500.18,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5485.25,
+      "bottom_depth": 5500.13,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 97522,
+      "bottom_y": 97671,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 97522,
-      "y_base_px": 97671
+      ]
     },
     {
-      "top_ft": 5500.18,
-      "base_ft": 5577.97,
-      "group": 0,
+      "top_depth": 5500.13,
+      "bottom_depth": 5577.92,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 97671,
+      "bottom_y": 98450,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 97671,
-      "y_base_px": 98450
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5577.97,
-      "base_ft": 5589.46,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5577.92,
+      "bottom_depth": 5589.41,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 98450,
+      "bottom_y": 98565,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98450,
-      "y_base_px": 98565
+      ]
     },
     {
-      "top_ft": 5589.46,
-      "base_ft": 5728.17,
-      "group": 0,
+      "top_depth": 5589.41,
+      "bottom_depth": 5728.12,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 98565,
+      "bottom_y": 99954,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98565,
-      "y_base_px": 99954
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5728.17,
-      "base_ft": 5811.25,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5728.12,
+      "bottom_depth": 5811.2,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 99954,
+      "bottom_y": 100786,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 99954,
-      "y_base_px": 100786
+      ]
     },
     {
-      "top_ft": 5811.25,
-      "base_ft": 5836.92,
-      "group": 0,
+      "top_depth": 5811.2,
+      "bottom_depth": 5836.87,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 100786,
+      "bottom_y": 101043,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 100786,
-      "y_base_px": 101043
+        "Clay"
+      ]
     },
     {
-      "top_ft": 5836.92,
-      "base_ft": 5877.56,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 5836.87,
+      "bottom_depth": 5877.51,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 101043,
+      "bottom_y": 101450,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 101043,
-      "y_base_px": 101450
+      ]
     },
     {
-      "top_ft": 5877.56,
-      "base_ft": 6030.95,
-      "group": 0,
+      "top_depth": 5877.51,
+      "bottom_depth": 6030.9,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 101450,
+      "bottom_y": 102986,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 101450,
-      "y_base_px": 102986
+        "Clay"
+      ]
     },
     {
-      "top_ft": 6030.95,
-      "base_ft": 6037.74,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 6030.9,
+      "bottom_depth": 6037.69,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 102986,
+      "bottom_y": 103054,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 102986,
-      "y_base_px": 103054
+      ]
     },
     {
-      "top_ft": 6037.74,
-      "base_ft": 6049.93,
-      "group": 0,
+      "top_depth": 6037.69,
+      "bottom_depth": 6049.88,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 103054,
+      "bottom_y": 103176,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 103054,
-      "y_base_px": 103176
+        "Clay"
+      ]
     },
     {
-      "top_ft": 6049.93,
-      "base_ft": 6055.32,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 6049.88,
+      "bottom_depth": 6055.27,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 103176,
+      "bottom_y": 103230,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 103176,
-      "y_base_px": 103230
+      ]
     },
     {
-      "top_ft": 6055.32,
-      "base_ft": 6154.68,
-      "group": 0,
+      "top_depth": 6055.27,
+      "bottom_depth": 6154.63,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 103230,
+      "bottom_y": 104225,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 103230,
-      "y_base_px": 104225
+        "Clay"
+      ]
     },
     {
-      "top_ft": 6154.68,
-      "base_ft": 6161.47,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 6154.63,
+      "bottom_depth": 6161.42,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 104225,
+      "bottom_y": 104293,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 104225,
-      "y_base_px": 104293
+      ]
     },
     {
-      "top_ft": 6161.47,
-      "base_ft": 6193.23,
-      "group": 0,
+      "top_depth": 6161.42,
+      "bottom_depth": 6193.18,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 104293,
+      "bottom_y": 104611,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 104293,
-      "y_base_px": 104611
+        "Clay"
+      ]
     },
     {
-      "top_ft": 6193.23,
-      "base_ft": 6199.92,
-      "group": 1,
-      "lithology": "Medium Sand",
-      "confidence": 0.905,
+      "top_depth": 6193.18,
+      "bottom_depth": 6199.87,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 1,
+      "top_y": 104611,
+      "bottom_y": 104678,
+      "confidence": 0.244,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 104611,
-      "y_base_px": 104678
+      ]
     },
     {
-      "top_ft": 6199.92,
-      "base_ft": 6215.2,
-      "group": 0,
+      "top_depth": 6199.87,
+      "bottom_depth": 6215.15,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 104678,
+      "bottom_y": 104831,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 104678,
-      "y_base_px": 104831
+        "Clay"
+      ]
     },
     {
-      "top_ft": 6215.2,
-      "base_ft": 6306.28,
-      "group": 2,
-      "lithology": "Medium Sand",
-      "confidence": 0.071,
+      "top_depth": 6215.15,
+      "bottom_depth": 6306.23,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 2,
+      "top_y": 104831,
+      "bottom_y": 105743,
+      "confidence": 0.437,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 104831,
-      "y_base_px": 105743
+      ]
     },
     {
-      "top_ft": 6306.28,
-      "base_ft": 6311.47,
-      "group": 0,
+      "top_depth": 6306.23,
+      "bottom_depth": 6311.42,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 105743,
+      "bottom_y": 105795,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 105743,
-      "y_base_px": 105795
+        "Clay"
+      ]
     },
     {
-      "top_ft": 6311.47,
-      "base_ft": 6316.86,
-      "group": 2,
-      "lithology": "Medium Sand",
-      "confidence": 0.071,
+      "top_depth": 6311.42,
+      "bottom_depth": 6316.81,
+      "lithology": "Dolomitic Sandstone",
+      "cluster_id": 2,
+      "top_y": 105795,
+      "bottom_y": 105849,
+      "confidence": 0.437,
+      "ambiguous": true,
       "alternatives": [
         "Medium Sandstone",
         "Coarse Sandstone",
         "Fine Sandstone"
-      ],
-      "ambiguous": true,
-      "y_top_px": 105795,
-      "y_base_px": 105849
+      ]
     },
     {
-      "top_ft": 6316.86,
-      "base_ft": 6378.48,
-      "group": 0,
+      "top_depth": 6316.81,
+      "bottom_depth": 6378.43,
       "lithology": "Marl",
+      "cluster_id": 0,
+      "top_y": 105849,
+      "bottom_y": 106466,
       "confidence": 0.124,
+      "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay Shale"
-      ],
-      "ambiguous": true,
-      "y_top_px": 105849,
-      "y_base_px": 106466
+        "Clay"
+      ]
     }
-  ],
-  "seconds": 39.7
+  ]
 }

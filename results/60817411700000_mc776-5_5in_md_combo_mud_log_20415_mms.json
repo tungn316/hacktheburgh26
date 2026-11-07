@@ -1,11 +1,943 @@
 {
   "image": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms.tif",
+  "image_size": [
+    1536,
+    150000
+  ],
   "depth_fit": {
     "px_per_ft": 10.0,
-    "labels_used": 685,
-    "labels_read": 736,
-    "mean_residual_ft": 0.014,
-    "label_rotation_deg": 0
+    "labels_used": 231,
+    "labels_read": 248,
+    "labels_rejected": 17,
+    "mean_residual_ft": 0.0,
+    "label_rotation_deg": 0,
+    "chunks_ocrd": "12/37",
+    "labels": [
+      [
+        1200.7,
+        5700.0
+      ],
+      [
+        1400.7,
+        5720.0
+      ],
+      [
+        1600.7,
+        5740.0
+      ],
+      [
+        1800.7,
+        5760.0
+      ],
+      [
+        2000.7,
+        5780.0
+      ],
+      [
+        2200.7,
+        5800.0
+      ],
+      [
+        2400.7,
+        5820.0
+      ],
+      [
+        2600.7,
+        5840.0
+      ],
+      [
+        2800.7,
+        5860.0
+      ],
+      [
+        3000.7,
+        5880.0
+      ],
+      [
+        3200.7,
+        5900.0
+      ],
+      [
+        3400.7,
+        5920.0
+      ],
+      [
+        3600.7,
+        5940.0
+      ],
+      [
+        3800.7,
+        5960.0
+      ],
+      [
+        4000.7,
+        5980.0
+      ],
+      [
+        4200.7,
+        6000.0
+      ],
+      [
+        4400.7,
+        6020.0
+      ],
+      [
+        4600.7,
+        6040.0
+      ],
+      [
+        4800.7,
+        6060.0
+      ],
+      [
+        5000.7,
+        6080.0
+      ],
+      [
+        5200.7,
+        6100.0
+      ],
+      [
+        13200.7,
+        6900.0
+      ],
+      [
+        13400.7,
+        6920.0
+      ],
+      [
+        13600.7,
+        6940.0
+      ],
+      [
+        13800.7,
+        6960.0
+      ],
+      [
+        14000.7,
+        6980.0
+      ],
+      [
+        14200.7,
+        7000.0
+      ],
+      [
+        14400.7,
+        7020.0
+      ],
+      [
+        14600.7,
+        7040.0
+      ],
+      [
+        14800.7,
+        7060.0
+      ],
+      [
+        15000.7,
+        7080.0
+      ],
+      [
+        15200.7,
+        7100.0
+      ],
+      [
+        15400.7,
+        7120.0
+      ],
+      [
+        15600.7,
+        7140.0
+      ],
+      [
+        15800.7,
+        7160.0
+      ],
+      [
+        16000.7,
+        7180.0
+      ],
+      [
+        16200.7,
+        7200.0
+      ],
+      [
+        16400.7,
+        7220.0
+      ],
+      [
+        16600.7,
+        7240.0
+      ],
+      [
+        16800.7,
+        7260.0
+      ],
+      [
+        17000.7,
+        7280.0
+      ],
+      [
+        17200.7,
+        7300.0
+      ],
+      [
+        29200.7,
+        8500.0
+      ],
+      [
+        29600.7,
+        8540.0
+      ],
+      [
+        29800.7,
+        8560.0
+      ],
+      [
+        30000.7,
+        8580.0
+      ],
+      [
+        30200.7,
+        8600.0
+      ],
+      [
+        30400.7,
+        8620.0
+      ],
+      [
+        30600.7,
+        8640.0
+      ],
+      [
+        30800.7,
+        8660.0
+      ],
+      [
+        31000.7,
+        8680.0
+      ],
+      [
+        31200.7,
+        8700.0
+      ],
+      [
+        31400.7,
+        8720.0
+      ],
+      [
+        31600.7,
+        8740.0
+      ],
+      [
+        31800.7,
+        8760.0
+      ],
+      [
+        32000.7,
+        8780.0
+      ],
+      [
+        32200.7,
+        8800.0
+      ],
+      [
+        32400.7,
+        8820.0
+      ],
+      [
+        32600.7,
+        8840.0
+      ],
+      [
+        32800.7,
+        8860.0
+      ],
+      [
+        33000.7,
+        8880.0
+      ],
+      [
+        33200.7,
+        8900.0
+      ],
+      [
+        41200.7,
+        9700.0
+      ],
+      [
+        41400.7,
+        9720.0
+      ],
+      [
+        41600.7,
+        9740.0
+      ],
+      [
+        41800.7,
+        9760.0
+      ],
+      [
+        42000.7,
+        9780.0
+      ],
+      [
+        42200.7,
+        9800.0
+      ],
+      [
+        42400.7,
+        9820.0
+      ],
+      [
+        42600.7,
+        9840.0
+      ],
+      [
+        42800.7,
+        9860.0
+      ],
+      [
+        43000.7,
+        9880.0
+      ],
+      [
+        43200.7,
+        9900.0
+      ],
+      [
+        43400.7,
+        9920.0
+      ],
+      [
+        43600.7,
+        9940.0
+      ],
+      [
+        43800.7,
+        9960.0
+      ],
+      [
+        44000.7,
+        9980.0
+      ],
+      [
+        44200.7,
+        10000.0
+      ],
+      [
+        44400.7,
+        10020.0
+      ],
+      [
+        44600.7,
+        10040.0
+      ],
+      [
+        44800.7,
+        10060.0
+      ],
+      [
+        45000.7,
+        10080.0
+      ],
+      [
+        45200.7,
+        10100.0
+      ],
+      [
+        53200.7,
+        10900.0
+      ],
+      [
+        53400.7,
+        10920.0
+      ],
+      [
+        53600.7,
+        10940.0
+      ],
+      [
+        53800.7,
+        10960.0
+      ],
+      [
+        54000.7,
+        10980.0
+      ],
+      [
+        54200.7,
+        11000.0
+      ],
+      [
+        54400.7,
+        11020.0
+      ],
+      [
+        54600.7,
+        11040.0
+      ],
+      [
+        54800.7,
+        11060.0
+      ],
+      [
+        55000.7,
+        11080.0
+      ],
+      [
+        55200.7,
+        11100.0
+      ],
+      [
+        55400.7,
+        11120.0
+      ],
+      [
+        55600.7,
+        11140.0
+      ],
+      [
+        55800.7,
+        11160.0
+      ],
+      [
+        56000.7,
+        11180.0
+      ],
+      [
+        56200.7,
+        11200.0
+      ],
+      [
+        56400.7,
+        11220.0
+      ],
+      [
+        56600.7,
+        11240.0
+      ],
+      [
+        56800.7,
+        11260.0
+      ],
+      [
+        57000.7,
+        11280.0
+      ],
+      [
+        57200.7,
+        11300.0
+      ],
+      [
+        65200.7,
+        12100.0
+      ],
+      [
+        65400.7,
+        12120.0
+      ],
+      [
+        65600.7,
+        12140.0
+      ],
+      [
+        65800.7,
+        12160.0
+      ],
+      [
+        66000.7,
+        12180.0
+      ],
+      [
+        66200.7,
+        12200.0
+      ],
+      [
+        66400.7,
+        12220.0
+      ],
+      [
+        66600.7,
+        12240.0
+      ],
+      [
+        66800.7,
+        12260.0
+      ],
+      [
+        67000.7,
+        12280.0
+      ],
+      [
+        67200.7,
+        12300.0
+      ],
+      [
+        67400.7,
+        12320.0
+      ],
+      [
+        67600.7,
+        12340.0
+      ],
+      [
+        67800.7,
+        12360.0
+      ],
+      [
+        68000.7,
+        12380.0
+      ],
+      [
+        68200.7,
+        12400.0
+      ],
+      [
+        68400.7,
+        12420.0
+      ],
+      [
+        68600.7,
+        12440.0
+      ],
+      [
+        68800.7,
+        12460.0
+      ],
+      [
+        69000.7,
+        12480.0
+      ],
+      [
+        69200.7,
+        12500.0
+      ],
+      [
+        81200.7,
+        13700.0
+      ],
+      [
+        81400.7,
+        13720.0
+      ],
+      [
+        81600.7,
+        13740.0
+      ],
+      [
+        81800.7,
+        13760.0
+      ],
+      [
+        82000.7,
+        13780.0
+      ],
+      [
+        82200.7,
+        13800.0
+      ],
+      [
+        82400.7,
+        13820.0
+      ],
+      [
+        82600.7,
+        13840.0
+      ],
+      [
+        82800.7,
+        13860.0
+      ],
+      [
+        83000.7,
+        13880.0
+      ],
+      [
+        83200.7,
+        13900.0
+      ],
+      [
+        83400.7,
+        13920.0
+      ],
+      [
+        83600.7,
+        13940.0
+      ],
+      [
+        83800.7,
+        13960.0
+      ],
+      [
+        84000.7,
+        13980.0
+      ],
+      [
+        84200.7,
+        14000.0
+      ],
+      [
+        84400.7,
+        14020.0
+      ],
+      [
+        84600.7,
+        14040.0
+      ],
+      [
+        84800.7,
+        14060.0
+      ],
+      [
+        85000.7,
+        14080.0
+      ],
+      [
+        85200.7,
+        14100.0
+      ],
+      [
+        93200.7,
+        14900.0
+      ],
+      [
+        93400.7,
+        14920.0
+      ],
+      [
+        93600.7,
+        14940.0
+      ],
+      [
+        93800.7,
+        14960.0
+      ],
+      [
+        94000.7,
+        14980.0
+      ],
+      [
+        94800.7,
+        15060.0
+      ],
+      [
+        105200.7,
+        16100.0
+      ],
+      [
+        105400.7,
+        16120.0
+      ],
+      [
+        105600.7,
+        16140.0
+      ],
+      [
+        105800.7,
+        16160.0
+      ],
+      [
+        106000.7,
+        16180.0
+      ],
+      [
+        106200.7,
+        16200.0
+      ],
+      [
+        106400.7,
+        16220.0
+      ],
+      [
+        106600.7,
+        16240.0
+      ],
+      [
+        106800.7,
+        16260.0
+      ],
+      [
+        107000.7,
+        16280.0
+      ],
+      [
+        107200.7,
+        16300.0
+      ],
+      [
+        107400.7,
+        16320.0
+      ],
+      [
+        107600.7,
+        16340.0
+      ],
+      [
+        107800.7,
+        16360.0
+      ],
+      [
+        108000.7,
+        16380.0
+      ],
+      [
+        108200.7,
+        16400.0
+      ],
+      [
+        108400.7,
+        16420.0
+      ],
+      [
+        108600.7,
+        16440.0
+      ],
+      [
+        108800.7,
+        16460.0
+      ],
+      [
+        109000.7,
+        16480.0
+      ],
+      [
+        109200.7,
+        16500.0
+      ],
+      [
+        117201.3,
+        17300.0
+      ],
+      [
+        117401.3,
+        17320.0
+      ],
+      [
+        117601.3,
+        17340.0
+      ],
+      [
+        117801.3,
+        17360.0
+      ],
+      [
+        118001.3,
+        17380.0
+      ],
+      [
+        118201.3,
+        17400.0
+      ],
+      [
+        118401.3,
+        17420.0
+      ],
+      [
+        118601.3,
+        17440.0
+      ],
+      [
+        118801.3,
+        17460.0
+      ],
+      [
+        119001.3,
+        17480.0
+      ],
+      [
+        119201.3,
+        17500.0
+      ],
+      [
+        119601.3,
+        17540.0
+      ],
+      [
+        119801.3,
+        17560.0
+      ],
+      [
+        120001.3,
+        17580.0
+      ],
+      [
+        120201.3,
+        17600.0
+      ],
+      [
+        120401.3,
+        17620.0
+      ],
+      [
+        120601.3,
+        17640.0
+      ],
+      [
+        120801.3,
+        17660.0
+      ],
+      [
+        121001.3,
+        17680.0
+      ],
+      [
+        121201.3,
+        17700.0
+      ],
+      [
+        133201.3,
+        18900.0
+      ],
+      [
+        133401.3,
+        18920.0
+      ],
+      [
+        133601.3,
+        18940.0
+      ],
+      [
+        133801.3,
+        18960.0
+      ],
+      [
+        134001.3,
+        18980.0
+      ],
+      [
+        134201.3,
+        19000.0
+      ],
+      [
+        134401.3,
+        19020.0
+      ],
+      [
+        134601.3,
+        19040.0
+      ],
+      [
+        134801.3,
+        19060.0
+      ],
+      [
+        135001.3,
+        19080.0
+      ],
+      [
+        135201.3,
+        19100.0
+      ],
+      [
+        135401.3,
+        19120.0
+      ],
+      [
+        135601.3,
+        19140.0
+      ],
+      [
+        135801.3,
+        19160.0
+      ],
+      [
+        136001.3,
+        19180.0
+      ],
+      [
+        136201.3,
+        19200.0
+      ],
+      [
+        136401.3,
+        19220.0
+      ],
+      [
+        136601.3,
+        19240.0
+      ],
+      [
+        136801.3,
+        19260.0
+      ],
+      [
+        137001.3,
+        19280.0
+      ],
+      [
+        137201.3,
+        19300.0
+      ],
+      [
+        145201.3,
+        20100.0
+      ],
+      [
+        145401.3,
+        20120.0
+      ],
+      [
+        145601.3,
+        20140.0
+      ],
+      [
+        145801.3,
+        20160.0
+      ],
+      [
+        146001.3,
+        20180.0
+      ],
+      [
+        146201.3,
+        20200.0
+      ],
+      [
+        146401.3,
+        20220.0
+      ],
+      [
+        146601.3,
+        20240.0
+      ],
+      [
+        146801.3,
+        20260.0
+      ],
+      [
+        147001.3,
+        20280.0
+      ],
+      [
+        147201.3,
+        20300.0
+      ],
+      [
+        147401.3,
+        20320.0
+      ],
+      [
+        147601.3,
+        20340.0
+      ],
+      [
+        147801.3,
+        20360.0
+      ],
+      [
+        148001.3,
+        20380.0
+      ],
+      [
+        148201.3,
+        20400.0
+      ],
+      [
+        148401.3,
+        20420.0
+      ]
+    ]
   },
   "legend": [
     {
@@ -259,2191 +1191,2018 @@
       "white": false
     }
   ],
+  "identical_legend_symbols": [
+    [
+      "Oil_Good",
+      "Oil_Moderate"
+    ]
+  ],
   "n_groups": 5,
+  "snap_grid": null,
+  "warnings": [],
+  "timings_s": {
+    "depth": 2.55,
+    "segment": 0.54,
+    "legend": 0.27,
+    "intervals": 0.15,
+    "total": 3.52
+  },
   "intervals": [
     {
-      "top_ft": 9990.43,
-      "base_ft": 10599.12,
-      "group": 0,
+      "top_depth": 9990.43,
+      "bottom_depth": 10599.13,
       "lithology": "Halite",
+      "cluster_id": 0,
+      "top_y": 44105,
+      "bottom_y": 50192,
       "confidence": 0.746,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 44105,
-      "y_base_px": 50192
+      "alternatives": []
     },
     {
-      "top_ft": 10599.12,
-      "base_ft": 10600.42,
-      "group": -1,
+      "top_depth": 10599.13,
+      "bottom_depth": 10600.43,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 50192,
+      "bottom_y": 50205,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 50192,
-      "y_base_px": 50205
+      "alternatives": []
     },
     {
-      "top_ft": 10600.42,
-      "base_ft": 10848.82,
-      "group": 0,
+      "top_depth": 10600.43,
+      "bottom_depth": 11687.43,
       "lithology": "Halite",
+      "cluster_id": 0,
+      "top_y": 50205,
+      "bottom_y": 61075,
       "confidence": 0.746,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 50205,
-      "y_base_px": 52689
+      "alternatives": []
     },
     {
-      "top_ft": 10848.82,
-      "base_ft": 10851.22,
-      "group": 4,
-      "lithology": "Halite",
-      "confidence": 0.483,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 52689,
-      "y_base_px": 52713
-    },
-    {
-      "top_ft": 10851.22,
-      "base_ft": 11687.42,
-      "group": 0,
-      "lithology": "Halite",
-      "confidence": 0.746,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 52713,
-      "y_base_px": 61075
-    },
-    {
-      "top_ft": 11687.42,
-      "base_ft": 11700.42,
-      "group": -1,
+      "top_depth": 11687.43,
+      "bottom_depth": 11700.43,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 61075,
+      "bottom_y": 61205,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 61075,
-      "y_base_px": 61205
+      "alternatives": []
     },
     {
-      "top_ft": 11700.42,
-      "base_ft": 12048.92,
-      "group": 0,
+      "top_depth": 11700.43,
+      "bottom_depth": 12048.93,
       "lithology": "Halite",
+      "cluster_id": 0,
+      "top_y": 61205,
+      "bottom_y": 64690,
       "confidence": 0.746,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 61205,
-      "y_base_px": 64690
+      "alternatives": []
     },
     {
-      "top_ft": 12048.92,
-      "base_ft": 12051.72,
-      "group": 2,
-      "lithology": "Oil_Moderate",
-      "confidence": 0.063,
+      "top_depth": 12048.93,
+      "bottom_depth": 12051.73,
+      "lithology": "Oil_Good",
+      "cluster_id": 2,
+      "top_y": 64690,
+      "bottom_y": 64718,
+      "confidence": 0.152,
+      "ambiguous": true,
       "alternatives": [
-        "Oil_Good",
+        "Oil_Moderate",
         "Halite"
-      ],
-      "ambiguous": false,
-      "y_top_px": 64690,
-      "y_base_px": 64718
+      ]
     },
     {
-      "top_ft": 12051.72,
-      "base_ft": 12299.02,
-      "group": 0,
+      "top_depth": 12051.73,
+      "bottom_depth": 12299.03,
       "lithology": "Halite",
+      "cluster_id": 0,
+      "top_y": 64718,
+      "bottom_y": 67191,
       "confidence": 0.746,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 64718,
-      "y_base_px": 67191
+      "alternatives": []
     },
     {
-      "top_ft": 12299.02,
-      "base_ft": 12300.42,
-      "group": -1,
+      "top_depth": 12299.03,
+      "bottom_depth": 12300.43,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 67191,
+      "bottom_y": 67205,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 67191,
-      "y_base_px": 67205
+      "alternatives": []
     },
     {
-      "top_ft": 12300.42,
-      "base_ft": 13825.61,
-      "group": 0,
+      "top_depth": 12300.43,
+      "bottom_depth": 13825.63,
       "lithology": "Halite",
+      "cluster_id": 0,
+      "top_y": 67205,
+      "bottom_y": 82457,
       "confidence": 0.746,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 67205,
-      "y_base_px": 82457
+      "alternatives": []
     },
     {
-      "top_ft": 13825.61,
-      "base_ft": 13858.81,
-      "group": -1,
+      "top_depth": 13825.63,
+      "bottom_depth": 15010.73,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 82457,
+      "bottom_y": 94308,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 82457,
-      "y_base_px": 82789
+      "alternatives": []
     },
     {
-      "top_ft": 13858.81,
-      "base_ft": 14983.3,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 82789,
-      "y_base_px": 94034
-    },
-    {
-      "top_ft": 14983.3,
-      "base_ft": 15010.7,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 94034,
-      "y_base_px": 94308
-    },
-    {
-      "top_ft": 15010.7,
-      "base_ft": 15027.1,
-      "group": 1,
+      "top_depth": 15010.73,
+      "bottom_depth": 15027.13,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 94308,
+      "bottom_y": 94472,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 94308,
-      "y_base_px": 94472
+      ]
     },
     {
-      "top_ft": 15027.1,
-      "base_ft": 15150.2,
-      "group": -1,
+      "top_depth": 15027.13,
+      "bottom_depth": 15150.23,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 94472,
+      "bottom_y": 95703,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 94472,
-      "y_base_px": 95703
+      "alternatives": []
     },
     {
-      "top_ft": 15150.2,
-      "base_ft": 15162.1,
-      "group": 1,
+      "top_depth": 15150.23,
+      "bottom_depth": 15162.13,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 95703,
+      "bottom_y": 95822,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 95703,
-      "y_base_px": 95822
+      ]
     },
     {
-      "top_ft": 15162.1,
-      "base_ft": 15170.5,
-      "group": -1,
+      "top_depth": 15162.13,
+      "bottom_depth": 15170.53,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 95822,
+      "bottom_y": 95906,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 95822,
-      "y_base_px": 95906
+      "alternatives": []
     },
     {
-      "top_ft": 15170.5,
-      "base_ft": 15175.8,
-      "group": 1,
+      "top_depth": 15170.53,
+      "bottom_depth": 15175.83,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 95906,
+      "bottom_y": 95959,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 95906,
-      "y_base_px": 95959
+      ]
     },
     {
-      "top_ft": 15175.8,
-      "base_ft": 15188.7,
-      "group": -1,
+      "top_depth": 15175.83,
+      "bottom_depth": 15188.73,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 95959,
+      "bottom_y": 96088,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 95959,
-      "y_base_px": 96088
+      "alternatives": []
     },
     {
-      "top_ft": 15188.7,
-      "base_ft": 15193.6,
-      "group": 1,
+      "top_depth": 15188.73,
+      "bottom_depth": 15193.63,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 96088,
+      "bottom_y": 96137,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 96088,
-      "y_base_px": 96137
+      ]
     },
     {
-      "top_ft": 15193.6,
-      "base_ft": 15205.5,
-      "group": -1,
+      "top_depth": 15193.63,
+      "bottom_depth": 15205.53,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 96137,
+      "bottom_y": 96256,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 96137,
-      "y_base_px": 96256
+      "alternatives": []
     },
     {
-      "top_ft": 15205.5,
-      "base_ft": 15210.8,
-      "group": 1,
+      "top_depth": 15205.53,
+      "bottom_depth": 15210.83,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 96256,
+      "bottom_y": 96309,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 96256,
-      "y_base_px": 96309
+      ]
     },
     {
-      "top_ft": 15210.8,
-      "base_ft": 15369.7,
-      "group": -1,
+      "top_depth": 15210.83,
+      "bottom_depth": 15369.73,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 96309,
+      "bottom_y": 97898,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 96309,
-      "y_base_px": 97898
+      "alternatives": []
     },
     {
-      "top_ft": 15369.7,
-      "base_ft": 15377.1,
-      "group": 1,
+      "top_depth": 15369.73,
+      "bottom_depth": 15377.13,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 97898,
+      "bottom_y": 97972,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 97898,
-      "y_base_px": 97972
+      ]
     },
     {
-      "top_ft": 15377.1,
-      "base_ft": 15380.9,
-      "group": -1,
+      "top_depth": 15377.13,
+      "bottom_depth": 15380.93,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 97972,
+      "bottom_y": 98010,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 97972,
-      "y_base_px": 98010
+      "alternatives": []
     },
     {
-      "top_ft": 15380.9,
-      "base_ft": 15384.4,
-      "group": 1,
+      "top_depth": 15380.93,
+      "bottom_depth": 15384.43,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 98010,
+      "bottom_y": 98045,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98010,
-      "y_base_px": 98045
+      ]
     },
     {
-      "top_ft": 15384.4,
-      "base_ft": 15401.0,
-      "group": -1,
+      "top_depth": 15384.43,
+      "bottom_depth": 15401.03,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 98045,
+      "bottom_y": 98211,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 98045,
-      "y_base_px": 98211
+      "alternatives": []
     },
     {
-      "top_ft": 15401.0,
-      "base_ft": 15408.2,
-      "group": 1,
+      "top_depth": 15401.03,
+      "bottom_depth": 15408.23,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 98211,
+      "bottom_y": 98283,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98211,
-      "y_base_px": 98283
+      ]
     },
     {
-      "top_ft": 15408.2,
-      "base_ft": 15413.1,
-      "group": -1,
+      "top_depth": 15408.23,
+      "bottom_depth": 15413.13,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 98283,
+      "bottom_y": 98332,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 98283,
-      "y_base_px": 98332
+      "alternatives": []
     },
     {
-      "top_ft": 15413.1,
-      "base_ft": 15419.1,
-      "group": 1,
+      "top_depth": 15413.13,
+      "bottom_depth": 15419.13,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 98332,
+      "bottom_y": 98392,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98332,
-      "y_base_px": 98392
+      ]
     },
     {
-      "top_ft": 15419.1,
-      "base_ft": 15430.5,
-      "group": -1,
+      "top_depth": 15419.13,
+      "bottom_depth": 15430.53,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 98392,
+      "bottom_y": 98506,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 98392,
-      "y_base_px": 98506
+      "alternatives": []
     },
     {
-      "top_ft": 15430.5,
-      "base_ft": 15435.0,
-      "group": 1,
+      "top_depth": 15430.53,
+      "bottom_depth": 15435.03,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 98506,
+      "bottom_y": 98551,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98506,
-      "y_base_px": 98551
+      ]
     },
     {
-      "top_ft": 15435.0,
-      "base_ft": 15441.6,
-      "group": -1,
+      "top_depth": 15435.03,
+      "bottom_depth": 15441.63,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 98551,
+      "bottom_y": 98617,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 98551,
-      "y_base_px": 98617
+      "alternatives": []
     },
     {
-      "top_ft": 15441.6,
-      "base_ft": 15447.5,
-      "group": 1,
+      "top_depth": 15441.63,
+      "bottom_depth": 15447.53,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 98617,
+      "bottom_y": 98676,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98617,
-      "y_base_px": 98676
+      ]
     },
     {
-      "top_ft": 15447.5,
-      "base_ft": 15460.2,
-      "group": -1,
+      "top_depth": 15447.53,
+      "bottom_depth": 15460.23,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 98676,
+      "bottom_y": 98803,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 98676,
-      "y_base_px": 98803
+      "alternatives": []
     },
     {
-      "top_ft": 15460.2,
-      "base_ft": 15464.9,
-      "group": 1,
+      "top_depth": 15460.23,
+      "bottom_depth": 15464.93,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 98803,
+      "bottom_y": 98850,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98803,
-      "y_base_px": 98850
+      ]
     },
     {
-      "top_ft": 15464.9,
-      "base_ft": 15477.6,
-      "group": -1,
+      "top_depth": 15464.93,
+      "bottom_depth": 15477.63,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 98850,
+      "bottom_y": 98977,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 98850,
-      "y_base_px": 98977
+      "alternatives": []
     },
     {
-      "top_ft": 15477.6,
-      "base_ft": 15480.6,
-      "group": 1,
+      "top_depth": 15477.63,
+      "bottom_depth": 15480.63,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 98977,
+      "bottom_y": 99007,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 98977,
-      "y_base_px": 99007
+      ]
     },
     {
-      "top_ft": 15480.6,
-      "base_ft": 15487.4,
-      "group": -1,
+      "top_depth": 15480.63,
+      "bottom_depth": 15487.43,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 99007,
+      "bottom_y": 99075,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 99007,
-      "y_base_px": 99075
+      "alternatives": []
     },
     {
-      "top_ft": 15487.4,
-      "base_ft": 15494.5,
-      "group": 1,
+      "top_depth": 15487.43,
+      "bottom_depth": 15494.53,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 99075,
+      "bottom_y": 99146,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 99075,
-      "y_base_px": 99146
+      ]
     },
     {
-      "top_ft": 15494.5,
-      "base_ft": 15505.0,
-      "group": -1,
+      "top_depth": 15494.53,
+      "bottom_depth": 15505.03,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 99146,
+      "bottom_y": 99251,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 99146,
-      "y_base_px": 99251
+      "alternatives": []
     },
     {
-      "top_ft": 15505.0,
-      "base_ft": 15510.7,
-      "group": 1,
+      "top_depth": 15505.03,
+      "bottom_depth": 15510.73,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 99251,
+      "bottom_y": 99308,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 99251,
-      "y_base_px": 99308
+      ]
     },
     {
-      "top_ft": 15510.7,
-      "base_ft": 15520.8,
-      "group": -1,
+      "top_depth": 15510.73,
+      "bottom_depth": 15520.83,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 99308,
+      "bottom_y": 99409,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 99308,
-      "y_base_px": 99409
+      "alternatives": []
     },
     {
-      "top_ft": 15520.8,
-      "base_ft": 15530.0,
-      "group": 1,
+      "top_depth": 15520.83,
+      "bottom_depth": 15530.03,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 99409,
+      "bottom_y": 99501,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 99409,
-      "y_base_px": 99501
+      ]
     },
     {
-      "top_ft": 15530.0,
-      "base_ft": 15593.8,
-      "group": -1,
+      "top_depth": 15530.03,
+      "bottom_depth": 15593.83,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 99501,
+      "bottom_y": 100139,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 99501,
-      "y_base_px": 100139
+      "alternatives": []
     },
     {
-      "top_ft": 15593.8,
-      "base_ft": 15600.3,
-      "group": 1,
+      "top_depth": 15593.83,
+      "bottom_depth": 15600.33,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 100139,
+      "bottom_y": 100204,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 100139,
-      "y_base_px": 100204
+      ]
     },
     {
-      "top_ft": 15600.3,
-      "base_ft": 15619.9,
-      "group": -1,
+      "top_depth": 15600.33,
+      "bottom_depth": 15619.93,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 100204,
+      "bottom_y": 100400,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 100204,
-      "y_base_px": 100400
+      "alternatives": []
     },
     {
-      "top_ft": 15619.9,
-      "base_ft": 15624.7,
-      "group": 1,
+      "top_depth": 15619.93,
+      "bottom_depth": 15624.73,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 100400,
+      "bottom_y": 100448,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 100400,
-      "y_base_px": 100448
+      ]
     },
     {
-      "top_ft": 15624.7,
-      "base_ft": 15649.2,
-      "group": -1,
+      "top_depth": 15624.73,
+      "bottom_depth": 15680.23,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 100448,
+      "bottom_y": 101003,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 100448,
-      "y_base_px": 100693
+      "alternatives": []
     },
     {
-      "top_ft": 15649.2,
-      "base_ft": 15650.8,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 100693,
-      "y_base_px": 100709
-    },
-    {
-      "top_ft": 15650.8,
-      "base_ft": 15680.2,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 100709,
-      "y_base_px": 101003
-    },
-    {
-      "top_ft": 15680.2,
-      "base_ft": 15685.1,
-      "group": 1,
+      "top_depth": 15680.23,
+      "bottom_depth": 15685.13,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 101003,
+      "bottom_y": 101052,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 101003,
-      "y_base_px": 101052
+      ]
     },
     {
-      "top_ft": 15685.1,
-      "base_ft": 15779.7,
-      "group": -1,
+      "top_depth": 15685.13,
+      "bottom_depth": 15779.73,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 101052,
+      "bottom_y": 101998,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 101052,
-      "y_base_px": 101998
+      "alternatives": []
     },
     {
-      "top_ft": 15779.7,
-      "base_ft": 15788.5,
-      "group": 1,
+      "top_depth": 15779.73,
+      "bottom_depth": 15788.53,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 101998,
+      "bottom_y": 102086,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 101998,
-      "y_base_px": 102086
+      ]
     },
     {
-      "top_ft": 15788.5,
-      "base_ft": 15847.8,
-      "group": -1,
+      "top_depth": 15788.53,
+      "bottom_depth": 15847.83,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 102086,
+      "bottom_y": 102679,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 102086,
-      "y_base_px": 102679
+      "alternatives": []
     },
     {
-      "top_ft": 15847.8,
-      "base_ft": 15858.0,
-      "group": 1,
+      "top_depth": 15847.83,
+      "bottom_depth": 15858.03,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 102679,
+      "bottom_y": 102781,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 102679,
-      "y_base_px": 102781
+      ]
     },
     {
-      "top_ft": 15858.0,
-      "base_ft": 15870.6,
-      "group": -1,
+      "top_depth": 15858.03,
+      "bottom_depth": 15870.63,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 102781,
+      "bottom_y": 102907,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 102781,
-      "y_base_px": 102907
+      "alternatives": []
     },
     {
-      "top_ft": 15870.6,
-      "base_ft": 15904.3,
-      "group": 1,
+      "top_depth": 15870.63,
+      "bottom_depth": 15904.33,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 102907,
+      "bottom_y": 103244,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 102907,
-      "y_base_px": 103244
+      ]
     },
     {
-      "top_ft": 15904.3,
-      "base_ft": 15908.2,
-      "group": -1,
+      "top_depth": 15904.33,
+      "bottom_depth": 15908.23,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 103244,
+      "bottom_y": 103283,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 103244,
-      "y_base_px": 103283
+      "alternatives": []
     },
     {
-      "top_ft": 15908.2,
-      "base_ft": 15913.6,
-      "group": 1,
+      "top_depth": 15908.23,
+      "bottom_depth": 15913.63,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 103283,
+      "bottom_y": 103337,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 103283,
-      "y_base_px": 103337
+      ]
     },
     {
-      "top_ft": 15913.6,
-      "base_ft": 15918.2,
-      "group": -1,
+      "top_depth": 15913.63,
+      "bottom_depth": 15918.23,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 103337,
+      "bottom_y": 103383,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 103337,
-      "y_base_px": 103383
+      "alternatives": []
     },
     {
-      "top_ft": 15918.2,
-      "base_ft": 15929.1,
-      "group": 1,
+      "top_depth": 15918.23,
+      "bottom_depth": 15929.13,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 103383,
+      "bottom_y": 103492,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 103383,
-      "y_base_px": 103492
+      ]
     },
     {
-      "top_ft": 15929.1,
-      "base_ft": 15930.7,
-      "group": -1,
+      "top_depth": 15929.13,
+      "bottom_depth": 15939.93,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 103492,
+      "bottom_y": 103600,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 103492,
-      "y_base_px": 103508
+      "alternatives": []
     },
     {
-      "top_ft": 15930.7,
-      "base_ft": 15939.9,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 103508,
-      "y_base_px": 103600
-    },
-    {
-      "top_ft": 15939.9,
-      "base_ft": 15943.1,
-      "group": 1,
+      "top_depth": 15939.93,
+      "bottom_depth": 15943.13,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 103600,
+      "bottom_y": 103632,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 103600,
-      "y_base_px": 103632
+      ]
     },
     {
-      "top_ft": 15943.1,
-      "base_ft": 15947.2,
-      "group": -1,
+      "top_depth": 15943.13,
+      "bottom_depth": 15947.23,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 103632,
+      "bottom_y": 103673,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 103632,
-      "y_base_px": 103673
+      "alternatives": []
     },
     {
-      "top_ft": 15947.2,
-      "base_ft": 15949.9,
-      "group": 1,
+      "top_depth": 15947.23,
+      "bottom_depth": 15949.93,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 103673,
+      "bottom_y": 103700,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 103673,
-      "y_base_px": 103700
+      ]
     },
     {
-      "top_ft": 15949.9,
-      "base_ft": 15973.0,
-      "group": -1,
+      "top_depth": 15949.93,
+      "bottom_depth": 15973.03,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 103700,
+      "bottom_y": 103931,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 103700,
-      "y_base_px": 103931
+      "alternatives": []
     },
     {
-      "top_ft": 15973.0,
-      "base_ft": 15978.4,
-      "group": 1,
+      "top_depth": 15973.03,
+      "bottom_depth": 15978.43,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 103931,
+      "bottom_y": 103985,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 103931,
-      "y_base_px": 103985
+      ]
     },
     {
-      "top_ft": 15978.4,
-      "base_ft": 16239.2,
-      "group": -1,
+      "top_depth": 15978.43,
+      "bottom_depth": 16240.83,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 103985,
+      "bottom_y": 106609,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 103985,
-      "y_base_px": 106593
+      "alternatives": []
     },
     {
-      "top_ft": 16239.2,
-      "base_ft": 16240.8,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 106593,
-      "y_base_px": 106609
-    },
-    {
-      "top_ft": 16240.8,
-      "base_ft": 16252.3,
-      "group": 1,
+      "top_depth": 16240.83,
+      "bottom_depth": 16252.33,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 106609,
+      "bottom_y": 106724,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 106609,
-      "y_base_px": 106724
+      ]
     },
     {
-      "top_ft": 16252.3,
-      "base_ft": 16265.6,
-      "group": -1,
+      "top_depth": 16252.33,
+      "bottom_depth": 16265.63,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 106724,
+      "bottom_y": 106857,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 106724,
-      "y_base_px": 106857
+      "alternatives": []
     },
     {
-      "top_ft": 16265.6,
-      "base_ft": 16274.0,
-      "group": 1,
+      "top_depth": 16265.63,
+      "bottom_depth": 16274.03,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 106857,
+      "bottom_y": 106941,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 106857,
-      "y_base_px": 106941
+      ]
     },
     {
-      "top_ft": 16274.0,
-      "base_ft": 16299.8,
-      "group": -1,
+      "top_depth": 16274.03,
+      "bottom_depth": 16299.83,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 106941,
+      "bottom_y": 107199,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 106941,
-      "y_base_px": 107199
+      "alternatives": []
     },
     {
-      "top_ft": 16299.8,
-      "base_ft": 16306.0,
-      "group": 1,
+      "top_depth": 16299.83,
+      "bottom_depth": 16306.03,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 107199,
+      "bottom_y": 107261,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 107199,
-      "y_base_px": 107261
+      ]
     },
     {
-      "top_ft": 16306.0,
-      "base_ft": 16334.8,
-      "group": -1,
+      "top_depth": 16306.03,
+      "bottom_depth": 16334.83,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 107261,
+      "bottom_y": 107549,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 107261,
-      "y_base_px": 107549
+      "alternatives": []
     },
     {
-      "top_ft": 16334.8,
-      "base_ft": 16339.4,
-      "group": 1,
+      "top_depth": 16334.83,
+      "bottom_depth": 16339.43,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 107549,
+      "bottom_y": 107595,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 107549,
-      "y_base_px": 107595
+      ]
     },
     {
-      "top_ft": 16339.4,
-      "base_ft": 16360.1,
-      "group": -1,
+      "top_depth": 16339.43,
+      "bottom_depth": 16360.13,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 107595,
+      "bottom_y": 107802,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 107595,
-      "y_base_px": 107802
+      "alternatives": []
     },
     {
-      "top_ft": 16360.1,
-      "base_ft": 16364.3,
-      "group": 1,
+      "top_depth": 16360.13,
+      "bottom_depth": 16364.33,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 107802,
+      "bottom_y": 107844,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 107802,
-      "y_base_px": 107844
+      ]
     },
     {
-      "top_ft": 16364.3,
-      "base_ft": 16388.0,
-      "group": -1,
+      "top_depth": 16364.33,
+      "bottom_depth": 16388.03,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 107844,
+      "bottom_y": 108081,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 107844,
-      "y_base_px": 108081
+      "alternatives": []
     },
     {
-      "top_ft": 16388.0,
-      "base_ft": 16399.9,
-      "group": 1,
+      "top_depth": 16388.03,
+      "bottom_depth": 16399.93,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 108081,
+      "bottom_y": 108200,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 108081,
-      "y_base_px": 108200
+      ]
     },
     {
-      "top_ft": 16399.9,
-      "base_ft": 16438.8,
-      "group": -1,
+      "top_depth": 16399.93,
+      "bottom_depth": 16438.83,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 108200,
+      "bottom_y": 108589,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 108200,
-      "y_base_px": 108589
+      "alternatives": []
     },
     {
-      "top_ft": 16438.8,
-      "base_ft": 16455.8,
-      "group": 1,
+      "top_depth": 16438.83,
+      "bottom_depth": 16455.83,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 108589,
+      "bottom_y": 108759,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 108589,
-      "y_base_px": 108759
+      ]
     },
     {
-      "top_ft": 16455.8,
-      "base_ft": 16570.99,
-      "group": -1,
+      "top_depth": 16455.83,
+      "bottom_depth": 16571.03,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 108759,
+      "bottom_y": 109911,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 108759,
-      "y_base_px": 109911
+      "alternatives": []
     },
     {
-      "top_ft": 16570.99,
-      "base_ft": 16576.99,
-      "group": 1,
+      "top_depth": 16571.03,
+      "bottom_depth": 16577.03,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 109911,
+      "bottom_y": 109971,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 109911,
-      "y_base_px": 109971
+      ]
     },
     {
-      "top_ft": 16576.99,
-      "base_ft": 16597.79,
-      "group": -1,
+      "top_depth": 16577.03,
+      "bottom_depth": 16597.83,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 109971,
+      "bottom_y": 110179,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 109971,
-      "y_base_px": 110179
+      "alternatives": []
     },
     {
-      "top_ft": 16597.79,
-      "base_ft": 16604.99,
-      "group": 1,
+      "top_depth": 16597.83,
+      "bottom_depth": 16605.02,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 110179,
+      "bottom_y": 110251,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 110179,
-      "y_base_px": 110251
+      ]
     },
     {
-      "top_ft": 16604.99,
-      "base_ft": 16795.59,
-      "group": -1,
+      "top_depth": 16605.02,
+      "bottom_depth": 16796.81,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 110251,
+      "bottom_y": 112169,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 110251,
-      "y_base_px": 112157
+      "alternatives": []
     },
     {
-      "top_ft": 16795.59,
-      "base_ft": 16796.79,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 112157,
-      "y_base_px": 112169
-    },
-    {
-      "top_ft": 16796.79,
-      "base_ft": 16802.69,
-      "group": 1,
+      "top_depth": 16796.81,
+      "bottom_depth": 16802.71,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 112169,
+      "bottom_y": 112228,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 112169,
-      "y_base_px": 112228
+      ]
     },
     {
-      "top_ft": 16802.69,
-      "base_ft": 16844.59,
-      "group": -1,
+      "top_depth": 16802.71,
+      "bottom_depth": 16844.6,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 112228,
+      "bottom_y": 112647,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 112228,
-      "y_base_px": 112647
+      "alternatives": []
     },
     {
-      "top_ft": 16844.59,
-      "base_ft": 16848.59,
-      "group": 1,
+      "top_depth": 16844.6,
+      "bottom_depth": 16848.6,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 112647,
+      "bottom_y": 112687,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 112647,
-      "y_base_px": 112687
+      ]
     },
     {
-      "top_ft": 16848.59,
-      "base_ft": 16869.59,
-      "group": -1,
+      "top_depth": 16848.6,
+      "bottom_depth": 16869.6,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 112687,
+      "bottom_y": 112897,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 112687,
-      "y_base_px": 112897
+      "alternatives": []
     },
     {
-      "top_ft": 16869.59,
-      "base_ft": 16872.19,
-      "group": 3,
+      "top_depth": 16869.6,
+      "bottom_depth": 16872.2,
       "lithology": "Marl",
+      "cluster_id": 3,
+      "top_y": 112897,
+      "bottom_y": 112923,
       "confidence": 0.938,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 112897,
-      "y_base_px": 112923
+      "alternatives": []
     },
     {
-      "top_ft": 16872.19,
-      "base_ft": 16877.89,
-      "group": -1,
+      "top_depth": 16872.2,
+      "bottom_depth": 16877.9,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 112923,
+      "bottom_y": 112980,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 112923,
-      "y_base_px": 112980
+      "alternatives": []
     },
     {
-      "top_ft": 16877.89,
-      "base_ft": 16894.29,
-      "group": 1,
+      "top_depth": 16877.9,
+      "bottom_depth": 16894.3,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 112980,
+      "bottom_y": 113144,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 112980,
-      "y_base_px": 113144
+      ]
     },
     {
-      "top_ft": 16894.29,
-      "base_ft": 16926.29,
-      "group": -1,
+      "top_depth": 16894.3,
+      "bottom_depth": 16926.3,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 113144,
+      "bottom_y": 113464,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 113144,
-      "y_base_px": 113464
+      "alternatives": []
     },
     {
-      "top_ft": 16926.29,
-      "base_ft": 16944.69,
-      "group": 1,
+      "top_depth": 16926.3,
+      "bottom_depth": 16944.7,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 113464,
+      "bottom_y": 113648,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 113464,
-      "y_base_px": 113648
+      ]
     },
     {
-      "top_ft": 16944.69,
-      "base_ft": 17231.99,
-      "group": -1,
+      "top_depth": 16944.7,
+      "bottom_depth": 17234.37,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 113648,
+      "bottom_y": 116545,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 113648,
-      "y_base_px": 116521
+      "alternatives": []
     },
     {
-      "top_ft": 17231.99,
-      "base_ft": 17234.39,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 116521,
-      "y_base_px": 116545
-    },
-    {
-      "top_ft": 17234.39,
-      "base_ft": 17242.19,
-      "group": 1,
+      "top_depth": 17234.37,
+      "bottom_depth": 17242.17,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 116545,
+      "bottom_y": 116623,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 116545,
-      "y_base_px": 116623
+      ]
     },
     {
-      "top_ft": 17242.19,
-      "base_ft": 17274.89,
-      "group": -1,
+      "top_depth": 17242.17,
+      "bottom_depth": 17274.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 116623,
+      "bottom_y": 116950,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 116623,
-      "y_base_px": 116950
+      "alternatives": []
     },
     {
-      "top_ft": 17274.89,
-      "base_ft": 17280.09,
-      "group": 1,
+      "top_depth": 17274.87,
+      "bottom_depth": 17280.07,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 116950,
+      "bottom_y": 117002,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 116950,
-      "y_base_px": 117002
+      ]
     },
     {
-      "top_ft": 17280.09,
-      "base_ft": 17298.89,
-      "group": -1,
+      "top_depth": 17280.07,
+      "bottom_depth": 17298.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 117002,
+      "bottom_y": 117190,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 117002,
-      "y_base_px": 117190
+      "alternatives": []
     },
     {
-      "top_ft": 17298.89,
-      "base_ft": 17305.29,
-      "group": 1,
+      "top_depth": 17298.87,
+      "bottom_depth": 17305.27,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 117190,
+      "bottom_y": 117254,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 117190,
-      "y_base_px": 117254
+      ]
     },
     {
-      "top_ft": 17305.29,
-      "base_ft": 17375.89,
-      "group": -1,
+      "top_depth": 17305.27,
+      "bottom_depth": 17375.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 117254,
+      "bottom_y": 117960,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 117254,
-      "y_base_px": 117960
+      "alternatives": []
     },
     {
-      "top_ft": 17375.89,
-      "base_ft": 17381.59,
-      "group": 1,
+      "top_depth": 17375.87,
+      "bottom_depth": 17381.57,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 117960,
+      "bottom_y": 118017,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 117960,
-      "y_base_px": 118017
+      ]
     },
     {
-      "top_ft": 17381.59,
-      "base_ft": 17400.19,
-      "group": -1,
+      "top_depth": 17381.57,
+      "bottom_depth": 17401.27,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 118017,
+      "bottom_y": 118214,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 118017,
-      "y_base_px": 118203
+      "alternatives": []
     },
     {
-      "top_ft": 17400.19,
-      "base_ft": 17401.29,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 118203,
-      "y_base_px": 118214
-    },
-    {
-      "top_ft": 17401.29,
-      "base_ft": 17406.79,
-      "group": 1,
+      "top_depth": 17401.27,
+      "bottom_depth": 17406.77,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 118214,
+      "bottom_y": 118269,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 118214,
-      "y_base_px": 118269
+      ]
     },
     {
-      "top_ft": 17406.79,
-      "base_ft": 17409.59,
-      "group": -1,
+      "top_depth": 17406.77,
+      "bottom_depth": 17409.57,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 118269,
+      "bottom_y": 118297,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 118269,
-      "y_base_px": 118297
+      "alternatives": []
     },
     {
-      "top_ft": 17409.59,
-      "base_ft": 17422.69,
-      "group": 1,
+      "top_depth": 17409.57,
+      "bottom_depth": 17422.67,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 118297,
+      "bottom_y": 118428,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 118297,
-      "y_base_px": 118428
+      ]
     },
     {
-      "top_ft": 17422.69,
-      "base_ft": 17425.09,
-      "group": -1,
+      "top_depth": 17422.67,
+      "bottom_depth": 17425.07,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 118428,
+      "bottom_y": 118452,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 118428,
-      "y_base_px": 118452
+      "alternatives": []
     },
     {
-      "top_ft": 17425.09,
-      "base_ft": 17430.49,
-      "group": 1,
+      "top_depth": 17425.07,
+      "bottom_depth": 17430.47,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 118452,
+      "bottom_y": 118506,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 118452,
-      "y_base_px": 118506
+      ]
     },
     {
-      "top_ft": 17430.49,
-      "base_ft": 17431.59,
-      "group": -1,
+      "top_depth": 17430.47,
+      "bottom_depth": 17435.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 118506,
+      "bottom_y": 118560,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 118506,
-      "y_base_px": 118517
+      "alternatives": []
     },
     {
-      "top_ft": 17431.59,
-      "base_ft": 17435.89,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 118517,
-      "y_base_px": 118560
-    },
-    {
-      "top_ft": 17435.89,
-      "base_ft": 17440.89,
-      "group": 1,
+      "top_depth": 17435.87,
+      "bottom_depth": 17440.87,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 118560,
+      "bottom_y": 118610,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 118560,
-      "y_base_px": 118610
+      ]
     },
     {
-      "top_ft": 17440.89,
-      "base_ft": 17451.19,
-      "group": -1,
+      "top_depth": 17440.87,
+      "bottom_depth": 17451.17,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 118610,
+      "bottom_y": 118713,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 118610,
-      "y_base_px": 118713
+      "alternatives": []
     },
     {
-      "top_ft": 17451.19,
-      "base_ft": 17453.99,
-      "group": 1,
+      "top_depth": 17451.17,
+      "bottom_depth": 17453.97,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 118713,
+      "bottom_y": 118741,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 118713,
-      "y_base_px": 118741
+      ]
     },
     {
-      "top_ft": 17453.99,
-      "base_ft": 17487.89,
-      "group": -1,
+      "top_depth": 17453.97,
+      "bottom_depth": 17487.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 118741,
+      "bottom_y": 119080,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 118741,
-      "y_base_px": 119080
+      "alternatives": []
     },
     {
-      "top_ft": 17487.89,
-      "base_ft": 17512.29,
-      "group": 1,
+      "top_depth": 17487.87,
+      "bottom_depth": 17512.27,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 119080,
+      "bottom_y": 119324,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 119080,
-      "y_base_px": 119324
+      ]
     },
     {
-      "top_ft": 17512.29,
-      "base_ft": 17782.79,
-      "group": -1,
+      "top_depth": 17512.27,
+      "bottom_depth": 17783.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 119324,
+      "bottom_y": 122040,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 119324,
-      "y_base_px": 122029
+      "alternatives": []
     },
     {
-      "top_ft": 17782.79,
-      "base_ft": 17783.89,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 122029,
-      "y_base_px": 122040
-    },
-    {
-      "top_ft": 17783.89,
-      "base_ft": 17791.89,
-      "group": 1,
+      "top_depth": 17783.87,
+      "bottom_depth": 17791.87,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 122040,
+      "bottom_y": 122120,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 122040,
-      "y_base_px": 122120
+      ]
     },
     {
-      "top_ft": 17791.89,
-      "base_ft": 17997.59,
-      "group": -1,
+      "top_depth": 17791.87,
+      "bottom_depth": 18115.47,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 122120,
+      "bottom_y": 125356,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 122120,
-      "y_base_px": 124177
+      "alternatives": []
     },
     {
-      "top_ft": 17997.59,
-      "base_ft": 17998.89,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 124177,
-      "y_base_px": 124190
-    },
-    {
-      "top_ft": 17998.89,
-      "base_ft": 18115.49,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 124190,
-      "y_base_px": 125356
-    },
-    {
-      "top_ft": 18115.49,
-      "base_ft": 18174.19,
-      "group": 1,
+      "top_depth": 18115.47,
+      "bottom_depth": 18174.17,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 125356,
+      "bottom_y": 125943,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 125356,
-      "y_base_px": 125943
+      ]
     },
     {
-      "top_ft": 18174.19,
-      "base_ft": 18197.79,
-      "group": -1,
+      "top_depth": 18174.17,
+      "bottom_depth": 18197.77,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 125943,
+      "bottom_y": 126179,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 125943,
-      "y_base_px": 126179
+      "alternatives": []
     },
     {
-      "top_ft": 18197.79,
-      "base_ft": 18203.99,
-      "group": 1,
+      "top_depth": 18197.77,
+      "bottom_depth": 18203.97,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 126179,
+      "bottom_y": 126241,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 126179,
-      "y_base_px": 126241
+      ]
     },
     {
-      "top_ft": 18203.99,
-      "base_ft": 18303.69,
-      "group": -1,
+      "top_depth": 18203.97,
+      "bottom_depth": 18303.67,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 126241,
+      "bottom_y": 127238,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 126241,
-      "y_base_px": 127238
+      "alternatives": []
     },
     {
-      "top_ft": 18303.69,
-      "base_ft": 18306.79,
-      "group": 1,
+      "top_depth": 18303.67,
+      "bottom_depth": 18306.77,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 127238,
+      "bottom_y": 127269,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 127238,
-      "y_base_px": 127269
+      ]
     },
     {
-      "top_ft": 18306.79,
-      "base_ft": 18521.89,
-      "group": -1,
+      "top_depth": 18306.77,
+      "bottom_depth": 18521.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 127269,
+      "bottom_y": 129420,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 127269,
-      "y_base_px": 129420
+      "alternatives": []
     },
     {
-      "top_ft": 18521.89,
-      "base_ft": 18527.39,
-      "group": 1,
+      "top_depth": 18521.87,
+      "bottom_depth": 18527.37,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 129420,
+      "bottom_y": 129475,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 129420,
-      "y_base_px": 129475
+      ]
     },
     {
-      "top_ft": 18527.39,
-      "base_ft": 18580.88,
-      "group": -1,
+      "top_depth": 18527.37,
+      "bottom_depth": 18580.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 129475,
+      "bottom_y": 130010,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 129475,
-      "y_base_px": 130010
+      "alternatives": []
     },
     {
-      "top_ft": 18580.88,
-      "base_ft": 18585.48,
-      "group": 1,
+      "top_depth": 18580.87,
+      "bottom_depth": 18585.47,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 130010,
+      "bottom_y": 130056,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 130010,
-      "y_base_px": 130056
+      ]
     },
     {
-      "top_ft": 18585.48,
-      "base_ft": 18618.88,
-      "group": -1,
+      "top_depth": 18585.47,
+      "bottom_depth": 18618.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 130056,
+      "bottom_y": 130390,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 130056,
-      "y_base_px": 130390
+      "alternatives": []
     },
     {
-      "top_ft": 18618.88,
-      "base_ft": 18625.68,
-      "group": 1,
+      "top_depth": 18618.87,
+      "bottom_depth": 18625.67,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 130390,
+      "bottom_y": 130458,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 130390,
-      "y_base_px": 130458
+      ]
     },
     {
-      "top_ft": 18625.68,
-      "base_ft": 18637.88,
-      "group": -1,
+      "top_depth": 18625.67,
+      "bottom_depth": 18637.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 130458,
+      "bottom_y": 130580,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 130458,
-      "y_base_px": 130580
+      "alternatives": []
     },
     {
-      "top_ft": 18637.88,
-      "base_ft": 18641.48,
-      "group": 1,
+      "top_depth": 18637.87,
+      "bottom_depth": 18641.47,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 130580,
+      "bottom_y": 130616,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 130580,
-      "y_base_px": 130616
+      ]
     },
     {
-      "top_ft": 18641.48,
-      "base_ft": 18882.38,
-      "group": -1,
+      "top_depth": 18641.47,
+      "bottom_depth": 18882.37,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 130616,
+      "bottom_y": 133025,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 130616,
-      "y_base_px": 133025
+      "alternatives": []
     },
     {
-      "top_ft": 18882.38,
-      "base_ft": 18887.88,
-      "group": 1,
+      "top_depth": 18882.37,
+      "bottom_depth": 18887.87,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 133025,
+      "bottom_y": 133080,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 133025,
-      "y_base_px": 133080
+      ]
     },
     {
-      "top_ft": 18887.88,
-      "base_ft": 18893.78,
-      "group": -1,
+      "top_depth": 18887.87,
+      "bottom_depth": 18893.77,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 133080,
+      "bottom_y": 133139,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 133080,
-      "y_base_px": 133139
+      "alternatives": []
     },
     {
-      "top_ft": 18893.78,
-      "base_ft": 18896.38,
-      "group": 1,
+      "top_depth": 18893.77,
+      "bottom_depth": 18896.37,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 133139,
+      "bottom_y": 133165,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 133139,
-      "y_base_px": 133165
+      ]
     },
     {
-      "top_ft": 18896.38,
-      "base_ft": 18972.58,
-      "group": -1,
+      "top_depth": 18896.37,
+      "bottom_depth": 18972.57,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 133165,
+      "bottom_y": 133927,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 133165,
-      "y_base_px": 133927
+      "alternatives": []
     },
     {
-      "top_ft": 18972.58,
-      "base_ft": 18978.58,
-      "group": 1,
+      "top_depth": 18972.57,
+      "bottom_depth": 18978.57,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 133927,
+      "bottom_y": 133987,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 133927,
-      "y_base_px": 133987
+      ]
     },
     {
-      "top_ft": 18978.58,
-      "base_ft": 19029.38,
-      "group": -1,
+      "top_depth": 18978.57,
+      "bottom_depth": 19029.37,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 133987,
+      "bottom_y": 134495,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 133987,
-      "y_base_px": 134495
+      "alternatives": []
     },
     {
-      "top_ft": 19029.38,
-      "base_ft": 19036.38,
-      "group": 1,
+      "top_depth": 19029.37,
+      "bottom_depth": 19036.37,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 134495,
+      "bottom_y": 134565,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 134495,
-      "y_base_px": 134565
+      ]
     },
     {
-      "top_ft": 19036.38,
-      "base_ft": 19039.38,
-      "group": -1,
+      "top_depth": 19036.37,
+      "bottom_depth": 19039.37,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 134565,
+      "bottom_y": 134595,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 134565,
-      "y_base_px": 134595
+      "alternatives": []
     },
     {
-      "top_ft": 19039.38,
-      "base_ft": 19042.18,
-      "group": 1,
+      "top_depth": 19039.37,
+      "bottom_depth": 19042.17,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 134595,
+      "bottom_y": 134623,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 134595,
-      "y_base_px": 134623
+      ]
     },
     {
-      "top_ft": 19042.18,
-      "base_ft": 19048.88,
-      "group": -1,
+      "top_depth": 19042.17,
+      "bottom_depth": 19048.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 134623,
+      "bottom_y": 134690,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 134623,
-      "y_base_px": 134690
+      "alternatives": []
     },
     {
-      "top_ft": 19048.88,
-      "base_ft": 19052.38,
-      "group": 1,
+      "top_depth": 19048.87,
+      "bottom_depth": 19052.37,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 134690,
+      "bottom_y": 134725,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 134690,
-      "y_base_px": 134725
+      ]
     },
     {
-      "top_ft": 19052.38,
-      "base_ft": 19062.18,
-      "group": -1,
+      "top_depth": 19052.37,
+      "bottom_depth": 19062.17,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 134725,
+      "bottom_y": 134823,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 134725,
-      "y_base_px": 134823
+      "alternatives": []
     },
     {
-      "top_ft": 19062.18,
-      "base_ft": 19068.08,
-      "group": 1,
+      "top_depth": 19062.17,
+      "bottom_depth": 19068.07,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 134823,
+      "bottom_y": 134882,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 134823,
-      "y_base_px": 134882
+      ]
     },
     {
-      "top_ft": 19068.08,
-      "base_ft": 19079.48,
-      "group": -1,
+      "top_depth": 19068.07,
+      "bottom_depth": 19079.47,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 134882,
+      "bottom_y": 134996,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 134882,
-      "y_base_px": 134996
+      "alternatives": []
     },
     {
-      "top_ft": 19079.48,
-      "base_ft": 19258.78,
-      "group": 1,
+      "top_depth": 19079.47,
+      "bottom_depth": 19258.77,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 134996,
+      "bottom_y": 136789,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 134996,
-      "y_base_px": 136789
+      ]
     },
     {
-      "top_ft": 19258.78,
-      "base_ft": 19879.28,
-      "group": -1,
+      "top_depth": 19258.77,
+      "bottom_depth": 19890.87,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 136789,
+      "bottom_y": 143110,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 136789,
-      "y_base_px": 142994
+      "alternatives": []
     },
     {
-      "top_ft": 19879.28,
-      "base_ft": 19890.88,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 142994,
-      "y_base_px": 143110
-    },
-    {
-      "top_ft": 19890.88,
-      "base_ft": 19897.88,
-      "group": 1,
+      "top_depth": 19890.87,
+      "bottom_depth": 19897.87,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 143110,
+      "bottom_y": 143180,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 143110,
-      "y_base_px": 143180
+      ]
     },
     {
-      "top_ft": 19897.88,
-      "base_ft": 19901.78,
-      "group": -1,
+      "top_depth": 19897.87,
+      "bottom_depth": 19901.77,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 143180,
+      "bottom_y": 143219,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 143180,
-      "y_base_px": 143219
+      "alternatives": []
     },
     {
-      "top_ft": 19901.78,
-      "base_ft": 19908.18,
-      "group": 1,
+      "top_depth": 19901.77,
+      "bottom_depth": 19908.17,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 143219,
+      "bottom_y": 143283,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 143219,
-      "y_base_px": 143283
+      ]
     },
     {
-      "top_ft": 19908.18,
-      "base_ft": 19910.18,
-      "group": -1,
+      "top_depth": 19908.17,
+      "bottom_depth": 19910.17,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 143283,
+      "bottom_y": 143303,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 143283,
-      "y_base_px": 143303
+      "alternatives": []
     },
     {
-      "top_ft": 19910.18,
-      "base_ft": 19990.38,
-      "group": 1,
+      "top_depth": 19910.17,
+      "bottom_depth": 19990.37,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 143303,
+      "bottom_y": 144105,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 143303,
-      "y_base_px": 144105
+      ]
     },
     {
-      "top_ft": 19990.38,
-      "base_ft": 19998.28,
-      "group": -1,
+      "top_depth": 19990.37,
+      "bottom_depth": 19998.27,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 144105,
+      "bottom_y": 144184,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 144105,
-      "y_base_px": 144184
+      "alternatives": []
     },
     {
-      "top_ft": 19998.28,
-      "base_ft": 20058.78,
-      "group": 1,
+      "top_depth": 19998.27,
+      "bottom_depth": 20058.77,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 144184,
+      "bottom_y": 144789,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 144184,
-      "y_base_px": 144789
+      ]
     },
     {
-      "top_ft": 20058.78,
-      "base_ft": 20063.18,
-      "group": -1,
+      "top_depth": 20058.77,
+      "bottom_depth": 20063.17,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 144789,
+      "bottom_y": 144833,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 144789,
-      "y_base_px": 144833
+      "alternatives": []
     },
     {
-      "top_ft": 20063.18,
-      "base_ft": 20071.48,
-      "group": 1,
+      "top_depth": 20063.17,
+      "bottom_depth": 20071.47,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 144833,
+      "bottom_y": 144916,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 144833,
-      "y_base_px": 144916
+      ]
     },
     {
-      "top_ft": 20071.48,
-      "base_ft": 20405.88,
-      "group": -1,
+      "top_depth": 20071.47,
+      "bottom_depth": 20411.47,
       "lithology": "Silty Shale",
+      "cluster_id": 5,
+      "top_y": 144916,
+      "bottom_y": 148316,
       "confidence": 0.8,
-      "alternatives": [],
       "ambiguous": false,
-      "y_top_px": 144916,
-      "y_base_px": 148260
+      "alternatives": []
     },
     {
-      "top_ft": 20405.88,
-      "base_ft": 20411.48,
-      "group": -1,
-      "lithology": "Silty Shale",
-      "confidence": 0.8,
-      "alternatives": [],
-      "ambiguous": false,
-      "y_top_px": 148260,
-      "y_base_px": 148316
-    },
-    {
-      "top_ft": 20411.48,
-      "base_ft": 20415.48,
-      "group": 1,
+      "top_depth": 20411.47,
+      "bottom_depth": 20415.47,
       "lithology": "Fine Sandstone",
+      "cluster_id": 1,
+      "top_y": 148316,
+      "bottom_y": 148356,
       "confidence": 0.0,
+      "ambiguous": true,
       "alternatives": [
         "Mediurn Sandstone",
         "Siltstone",
         "Chert"
-      ],
-      "ambiguous": true,
-      "y_top_px": 148316,
-      "y_base_px": 148356
+      ]
     }
-  ],
-  "seconds": 15.2
+  ]
 }
