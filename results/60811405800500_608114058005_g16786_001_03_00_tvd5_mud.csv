@@ -1,0 +1,150 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+8700.42,8898.41,0,Halite,0.701,False,
+8898.41,8900.41,-1,Blank (no pattern),0.5,True,
+8900.41,9197.91,0,Halite,0.701,False,
+9197.91,9200.41,-1,Blank (no pattern),0.5,True,
+9200.41,9398.81,0,Halite,0.701,False,
+9398.81,9400.41,-1,Blank (no pattern),0.5,True,
+9400.41,9868.4,0,Halite,0.701,False,
+9868.4,9870.4,-1,Blank (no pattern),0.5,True,
+9870.4,10228.39,0,Halite,0.701,False,
+10228.39,10230.39,-1,Blank (no pattern),0.5,True,
+10230.39,10498.39,0,Halite,0.701,False,
+10498.39,10500.39,-1,Blank (no pattern),0.5,True,
+10500.39,10768.38,0,Halite,0.701,False,
+10768.38,10769.48,-1,Blank (no pattern),0.5,True,
+10769.48,11218.37,0,Halite,0.701,False,
+11218.37,11220.37,-1,Blank (no pattern),0.5,True,
+11220.37,11498.87,0,Halite,0.701,False,
+11498.87,11500.47,-1,Blank (no pattern),0.5,True,
+11500.47,11856.66,0,Halite,0.701,False,
+11856.66,11860.46,-1,Blank (no pattern),0.5,True,
+11860.46,12195.65,0,Halite,0.701,False,
+12195.65,12200.45,-1,Blank (no pattern),0.5,True,
+12200.45,12892.44,0,Halite,0.701,False,
+12892.44,12899.44,-1,Blank (no pattern),0.5,True,
+12899.44,13236.24,0,Halite,0.701,False,
+13236.24,13238.04,-1,Blank (no pattern),0.5,True,
+13238.04,14899.51,0,Halite,0.701,False,
+14899.51,14900.51,-1,Blank (no pattern),0.5,True,
+14900.51,16537.48,0,Halite,0.701,False,
+16537.48,16538.48,-1,Blank (no pattern),0.5,True,
+16538.48,17240.56,0,Halite,0.701,False,
+17240.56,17243.86,1,Shale,0.698,False,
+17243.86,17248.86,0,Halite,0.701,False,
+17248.86,18337.44,1,Shale,0.698,False,
+18337.44,18339.04,-1,Blank (no pattern),0.5,True,
+18339.04,19009.83,1,Shale,0.698,False,
+19009.83,19015.13,2,Fine Sandstone,0.608,False,Chert|Volcanic
+19015.13,19142.83,1,Shale,0.698,False,
+19142.83,19151.13,2,Fine Sandstone,0.608,False,Chert|Volcanic
+19151.13,19195.23,1,Shale,0.698,False,
+19195.23,19230.23,2,Fine Sandstone,0.608,False,Chert|Volcanic
+19230.23,19321.63,1,Shale,0.698,False,
+19321.63,19353.73,2,Fine Sandstone,0.608,False,Chert|Volcanic
+19353.73,19488.72,1,Shale,0.698,False,
+19488.72,19500.72,2,Fine Sandstone,0.608,False,Chert|Volcanic
+19500.72,19505.62,1,Shale,0.698,False,
+19505.62,19512.62,2,Fine Sandstone,0.608,False,Chert|Volcanic
+19512.62,19579.72,1,Shale,0.698,False,
+19579.72,19597.82,2,Fine Sandstone,0.608,False,Chert|Volcanic
+19597.82,19667.52,1,Shale,0.698,False,
+19667.52,19677.72,2,Fine Sandstone,0.608,False,Chert|Volcanic
+19677.72,20046.11,1,Shale,0.698,False,
+20046.11,20050.81,-1,Blank (no pattern),0.5,True,
+20050.81,20096.71,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20096.71,20103.41,1,Shale,0.698,False,
+20103.41,20107.41,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20107.41,20250.61,1,Shale,0.698,False,
+20250.61,20262.71,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20262.71,20287.81,1,Shale,0.698,False,
+20287.81,20292.81,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20292.81,20612.7,1,Shale,0.698,False,
+20612.7,20616.1,-1,Blank (no pattern),0.5,True,
+20616.1,20638.2,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20638.2,20643.8,1,Shale,0.698,False,
+20643.8,20647.9,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20647.9,20892.1,1,Shale,0.698,False,
+20892.1,20894.6,-1,Blank (no pattern),0.5,True,
+20894.6,20948.6,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20948.6,20956.5,1,Shale,0.698,False,
+20956.5,20962.8,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20962.8,20968.6,1,Shale,0.698,False,
+20968.6,20976.7,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20976.7,20983.3,1,Shale,0.698,False,
+20983.3,20998.0,2,Fine Sandstone,0.608,False,Chert|Volcanic
+20998.0,21008.5,1,Shale,0.698,False,
+21008.5,21043.5,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21043.5,21072.4,1,Shale,0.698,False,
+21072.4,21105.29,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21105.29,21117.19,1,Shale,0.698,False,
+21117.19,21123.19,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21123.19,21125.99,1,Shale,0.698,False,
+21125.99,21160.89,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21160.89,21248.69,1,Shale,0.698,False,
+21248.69,21258.59,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21258.59,21263.29,1,Shale,0.698,False,
+21263.29,21276.09,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21276.09,21300.39,1,Shale,0.698,False,
+21300.39,21306.69,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21306.69,21315.99,1,Shale,0.698,False,
+21315.99,21367.89,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21367.89,21377.09,1,Shale,0.698,False,
+21377.09,21394.79,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21394.79,21430.19,1,Shale,0.698,False,
+21430.19,21442.89,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21442.89,21446.39,1,Shale,0.698,False,
+21446.39,21463.19,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21463.19,21521.79,1,Shale,0.698,False,
+21521.79,21534.69,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21534.69,21537.49,1,Shale,0.698,False,
+21537.49,21540.69,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21540.69,21562.19,1,Shale,0.698,False,
+21562.19,21570.29,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21570.29,21901.18,1,Shale,0.698,False,
+21901.18,21906.18,-1,Blank (no pattern),0.5,True,
+21906.18,21935.58,2,Fine Sandstone,0.608,False,Chert|Volcanic
+21935.58,21997.68,1,Shale,0.698,False,
+21997.68,22070.98,3,Siltstone,0.98,False,Oil and Gas
+22070.98,22080.68,1,Shale,0.698,False,
+22080.68,22085.38,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22085.38,22123.98,1,Shale,0.698,False,
+22123.98,22128.98,3,Siltstone,0.98,False,Oil and Gas
+22128.98,22147.28,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22147.28,22155.78,3,Siltstone,0.98,False,Oil and Gas
+22155.78,22167.58,1,Shale,0.698,False,
+22167.58,22176.58,3,Siltstone,0.98,False,Oil and Gas
+22176.58,22182.08,1,Shale,0.698,False,
+22182.08,22193.98,3,Siltstone,0.98,False,Oil and Gas
+22193.98,22200.67,1,Shale,0.698,False,
+22200.67,22207.77,3,Siltstone,0.98,False,Oil and Gas
+22207.77,22247.47,1,Shale,0.698,False,
+22247.47,22252.07,3,Siltstone,0.98,False,Oil and Gas
+22252.07,22362.17,1,Shale,0.698,False,
+22362.17,22370.37,3,Siltstone,0.98,False,Oil and Gas
+22370.37,22496.87,1,Shale,0.698,False,
+22496.87,22506.57,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22506.57,22568.27,1,Shale,0.698,False,
+22568.27,22575.67,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22575.67,22613.07,1,Shale,0.698,False,
+22613.07,22624.37,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22624.37,22637.47,1,Shale,0.698,False,
+22637.47,22653.07,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22653.07,22812.46,1,Shale,0.698,False,
+22812.46,22831.76,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22831.76,22838.06,1,Shale,0.698,False,
+22838.06,22910.96,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22910.96,22969.86,1,Shale,0.698,False,
+22969.86,22994.36,2,Fine Sandstone,0.608,False,Chert|Volcanic
+22994.36,23001.26,1,Shale,0.698,False,
+23001.26,23010.36,2,Fine Sandstone,0.608,False,Chert|Volcanic
+23010.36,23015.16,1,Shale,0.698,False,
+23015.16,23018.96,2,Fine Sandstone,0.608,False,Chert|Volcanic
+23018.96,23025.06,1,Shale,0.698,False,
+23025.06,23098.76,2,Fine Sandstone,0.608,False,Chert|Volcanic
+23098.76,23135.16,1,Shale,0.698,False,
+23135.16,23341.15,2,Fine Sandstone,0.608,False,Chert|Volcanic
+23341.15,23342.95,-1,Blank (no pattern),0.5,True,
+23342.95,23362.35,1,Shale,0.698,False,
+23362.35,23371.85,2,Fine Sandstone,0.608,False,Chert|Volcanic
+23371.85,23507.95,1,Shale,0.698,False,

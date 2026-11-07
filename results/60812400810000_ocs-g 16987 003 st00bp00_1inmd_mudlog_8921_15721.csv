@@ -1,0 +1,897 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+8852.68,8854.35,29,Mud loss,0.087,False,FIT|Survey
+8854.35,8905.19,0,Casing Top,0.301,False,
+8905.19,8906.86,29,Mud loss,0.087,False,FIT|Survey
+8906.86,12318.69,-1,Void eee Medium Sand,0.8,False,
+12318.69,12322.86,9,Gas_Good,0.145,False,Oil and Gas|Casing shoe|Dry
+12322.86,12324.53,30,Gas_Good,0.053,True,Oil and Gas|Oil_Good|Dry
+12324.53,12326.61,7,Casing shoe,0.36,False,Gas_Good|Dry
+12326.61,12446.21,-1,Void eee Medium Sand,0.8,False,
+12446.21,12447.88,25,Clay-shale,0.828,False,
+12447.88,12473.3,1,Clay-shale,0.979,False,
+12473.3,12475.8,14,Clay-shale,0.84,False,
+12475.8,12482.89,1,Clay-shale,0.979,False,
+12482.89,12484.14,31,Casing shoe,0.002,True,Clay-shale
+12484.14,12487.89,1,Clay-shale,0.979,False,
+12487.89,12490.39,14,Clay-shale,0.84,False,
+12490.39,12501.22,1,Clay-shale,0.979,False,
+12501.22,12502.47,31,Casing shoe,0.002,True,Clay-shale
+12502.47,12517.06,1,Clay-shale,0.979,False,
+12517.06,12519.56,14,Clay-shale,0.84,False,
+12519.56,12522.89,1,Clay-shale,0.979,False,
+12522.89,12524.56,24,Clay-shale,0.862,False,
+12524.56,12526.64,14,Clay-shale,0.84,False,
+12526.64,12534.14,1,Clay-shale,0.979,False,
+12534.14,12535.39,31,Casing shoe,0.002,True,Clay-shale
+12535.39,12546.23,1,Clay-shale,0.979,False,
+12546.23,12548.73,14,Clay-shale,0.84,False,
+12548.73,12549.98,31,Casing shoe,0.002,True,Clay-shale
+12549.98,12553.73,1,Clay-shale,0.979,False,
+12553.73,12555.81,14,Clay-shale,0.84,False,
+12555.81,12574.15,1,Clay-shale,0.979,False,
+12574.15,12575.4,31,Casing shoe,0.002,True,Clay-shale
+12575.4,12577.9,14,Clay-shale,0.84,False,
+12577.9,12581.24,1,Clay-shale,0.979,False,
+12581.24,12582.9,24,Clay-shale,0.862,False,
+12582.9,12584.99,14,Clay-shale,0.84,False,
+12584.99,12592.49,1,Clay-shale,0.979,False,
+12592.49,12593.74,31,Casing shoe,0.002,True,Clay-shale
+12593.74,12604.57,1,Clay-shale,0.979,False,
+12604.57,12607.07,14,Clay-shale,0.84,False,
+12607.07,12608.32,31,Casing shoe,0.002,True,Clay-shale
+12608.32,12622.91,1,Clay-shale,0.979,False,
+12622.91,12625.41,14,Clay-shale,0.84,False,
+12625.41,12643.33,1,Clay-shale,0.979,False,
+12643.33,12644.58,31,Casing shoe,0.002,True,Clay-shale
+12644.58,12652.08,1,Clay-shale,0.979,False,
+12652.08,12654.58,14,Clay-shale,0.84,False,
+12654.58,12661.25,1,Clay-shale,0.979,False,
+12661.25,12662.92,24,Clay-shale,0.862,False,
+12662.92,12665.42,14,Clay-shale,0.84,False,
+12665.42,12666.67,31,Casing shoe,0.002,True,Clay-shale
+12666.67,12670.42,1,Clay-shale,0.979,False,
+12670.42,12672.5,14,Clay-shale,0.84,False,
+12672.5,12677.09,6,Mud loss,0.04,True,FIT|Survey|Dry
+12677.09,12680.0,1,Clay-shale,0.979,False,
+12680.0,12683.75,1,Clay-shale,0.979,False,
+12683.75,12686.25,14,Clay-shale,0.84,False,
+12686.25,12687.5,31,Casing shoe,0.002,True,Clay-shale
+12687.5,12698.34,1,Clay-shale,0.979,False,
+12698.34,12700.84,14,Clay-shale,0.84,False,
+12700.84,12702.09,31,Casing shoe,0.002,True,Clay-shale
+12702.09,12704.59,14,Clay-shale,0.84,False,
+12704.59,12706.67,15,Clay-shale,0.148,False,Mud loss
+12706.67,12712.09,2,Silty,0.393,False,"cinder,"
+12712.09,12713.76,24,Clay-shale,0.862,False,
+12713.76,12716.68,14,Clay-shale,0.84,False,
+12716.68,12717.93,31,Casing shoe,0.002,True,Clay-shale
+12717.93,12728.76,1,Clay-shale,0.979,False,
+12728.76,12731.26,14,Clay-shale,0.84,False,
+12731.26,12732.51,31,Casing shoe,0.002,True,Clay-shale
+12732.51,12735.01,14,Clay-shale,0.84,False,
+12735.01,12737.51,4,"cinder,",0.07,False,Silty|Dry
+12737.51,12742.1,2,Silty,0.393,False,"cinder,"
+12742.1,12743.76,24,Clay-shale,0.862,False,
+12743.76,12746.68,14,Clay-shale,0.84,False,
+12746.68,12747.93,31,Casing shoe,0.002,True,Clay-shale
+12747.93,12758.77,1,Clay-shale,0.979,False,
+12758.77,12761.27,14,Clay-shale,0.84,False,
+12761.27,12762.52,31,Casing shoe,0.002,True,Clay-shale
+12762.52,12765.43,17,FIT,0.005,True,Clay-shale|Dry|Survey
+12765.43,12775.85,2,Silty,0.393,False,"cinder,"
+12775.85,12777.94,24,Clay-shale,0.862,False,
+12777.94,12780.44,14,Clay-shale,0.84,False,
+12780.44,12787.1,2,Silty,0.393,False,"cinder,"
+12787.1,12788.77,24,Clay-shale,0.862,False,
+12788.77,12803.36,1,Clay-shale,0.979,False,
+12803.36,12806.27,14,Clay-shale,0.84,False,
+12806.27,12807.94,25,Clay-shale,0.828,False,
+12807.94,12810.44,14,Clay-shale,0.84,False,
+12810.44,12813.78,1,Clay-shale,0.979,False,
+12813.78,12815.03,31,Casing shoe,0.002,True,Clay-shale
+12815.03,12818.78,1,Clay-shale,0.979,False,
+12818.78,12821.28,14,Clay-shale,0.84,False,
+12821.28,12825.03,1,Clay-shale,0.979,False,
+12825.03,12830.03,2,Silty,0.393,False,"cinder,"
+12830.03,12833.78,1,Clay-shale,0.979,False,
+12833.78,12836.7,14,Clay-shale,0.84,False,
+12836.7,12837.95,31,Casing shoe,0.002,True,Clay-shale
+12837.95,12848.78,1,Clay-shale,0.979,False,
+12848.78,12851.28,14,Clay-shale,0.84,False,
+12851.28,12852.53,31,Casing shoe,0.002,True,Clay-shale
+12852.53,12856.28,1,Clay-shale,0.979,False,
+12856.28,12858.37,14,Clay-shale,0.84,False,
+12858.37,12862.12,1,Clay-shale,0.979,False,
+12862.12,12863.37,31,Casing shoe,0.002,True,Clay-shale
+12863.37,12866.7,14,Clay-shale,0.84,False,
+12866.7,12867.95,31,Casing shoe,0.002,True,Clay-shale
+12867.95,12878.79,1,Clay-shale,0.979,False,
+12878.79,12881.29,14,Clay-shale,0.84,False,
+12881.29,12882.54,31,Casing shoe,0.002,True,Clay-shale
+12882.54,12893.37,1,Clay-shale,0.979,False,
+12893.37,12896.71,14,Clay-shale,0.84,False,
+12896.71,12900.46,1,Clay-shale,0.979,False,
+12900.46,12902.54,4,"cinder,",0.07,False,Silty|Dry
+12902.54,12905.04,23,Mud loss,0.13,False,FIT|Survey
+12905.04,12907.54,14,Clay-shale,0.84,False,
+12907.54,12910.88,2,Silty,0.393,False,"cinder,"
+12910.88,12912.96,24,Clay-shale,0.862,False,
+12912.96,12916.71,1,Clay-shale,0.979,False,
+12916.71,12918.79,14,Clay-shale,0.84,False,
+12918.79,12922.54,1,Clay-shale,0.979,False,
+12922.54,12923.79,31,Casing shoe,0.002,True,Clay-shale
+12923.79,12926.71,14,Clay-shale,0.84,False,
+12926.71,12927.96,31,Casing shoe,0.002,True,Clay-shale
+12927.96,12931.71,1,Clay-shale,0.979,False,
+12931.71,12933.8,14,Clay-shale,0.84,False,
+12933.8,12937.55,1,Clay-shale,0.979,False,
+12937.55,12938.8,31,Casing shoe,0.002,True,Clay-shale
+12938.8,12946.3,1,Clay-shale,0.979,False,
+12946.3,12948.38,14,Clay-shale,0.84,False,
+12948.38,12952.13,1,Clay-shale,0.979,False,
+12952.13,12953.38,31,Casing shoe,0.002,True,Clay-shale
+12953.38,12956.72,14,Clay-shale,0.84,False,
+12956.72,12957.97,31,Casing shoe,0.002,True,Clay-shale
+12957.97,12961.72,1,Clay-shale,0.979,False,
+12961.72,12963.8,14,Clay-shale,0.84,False,
+12963.8,12965.89,24,Clay-shale,0.862,False,
+12965.89,12968.8,2,Silty,0.393,False,"cinder,"
+12968.8,12971.3,14,Clay-shale,0.84,False,
+12971.3,12972.55,31,Casing shoe,0.002,True,Clay-shale
+12972.55,12983.39,1,Clay-shale,0.979,False,
+12983.39,12986.72,14,Clay-shale,0.84,False,
+12986.72,12987.97,31,Casing shoe,0.002,True,Clay-shale
+12987.97,12998.81,1,Clay-shale,0.979,False,
+12998.81,13001.31,14,Clay-shale,0.84,False,
+13001.31,13008.39,1,Clay-shale,0.979,False,
+13008.39,13009.64,31,Casing shoe,0.002,True,Clay-shale
+13009.64,13012.14,14,Clay-shale,0.84,False,
+13012.14,13015.06,4,"cinder,",0.07,False,Silty|Dry
+13015.06,13018.81,2,Silty,0.393,False,"cinder,"
+13018.81,13021.73,18,Clay-shale,0.697,False,
+13021.73,13023.81,26,Clay-shale,0.11,False,Oil and Gas|Oil_Good
+13023.81,13027.98,10,Clay-shale,0.244,False,
+13027.98,13030.06,27,"cinder,",0.094,False,Silty
+13030.06,13033.81,2,Silty,0.393,False,"cinder,"
+13033.81,13037.15,1,Clay-shale,0.979,False,
+13037.15,13042.15,5,Silty,0.143,False,"cinder,"
+13042.15,13043.82,24,Clay-shale,0.862,False,
+13043.82,13046.73,14,Clay-shale,0.84,False,
+13046.73,13047.98,31,Casing shoe,0.002,True,Clay-shale
+13047.98,13051.73,1,Clay-shale,0.979,False,
+13051.73,13053.82,14,Clay-shale,0.84,False,
+13053.82,13061.32,1,Clay-shale,0.979,False,
+13061.32,13062.57,31,Casing shoe,0.002,True,Clay-shale
+13062.57,13073.4,1,Clay-shale,0.979,False,
+13073.4,13076.74,14,Clay-shale,0.84,False,
+13076.74,13077.99,31,Casing shoe,0.002,True,Clay-shale
+13077.99,13088.82,1,Clay-shale,0.979,False,
+13088.82,13091.32,14,Clay-shale,0.84,False,
+13091.32,13092.57,31,Casing shoe,0.002,True,Clay-shale
+13092.57,13103.41,1,Clay-shale,0.979,False,
+13103.41,13106.33,14,Clay-shale,0.84,False,
+13106.33,13107.99,25,Clay-shale,0.828,False,
+13107.99,13110.49,14,Clay-shale,0.84,False,
+13110.49,13113.83,1,Clay-shale,0.979,False,
+13113.83,13115.08,31,Casing shoe,0.002,True,Clay-shale
+13115.08,13118.83,1,Clay-shale,0.979,False,
+13118.83,13121.33,14,Clay-shale,0.84,False,
+13121.33,13122.58,31,Casing shoe,0.002,True,Clay-shale
+13122.58,13129.66,1,Clay-shale,0.979,False,
+13129.66,13132.16,14,Clay-shale,0.84,False,
+13132.16,13135.91,1,Clay-shale,0.979,False,
+13135.91,13138.83,2,Silty,0.393,False,"cinder,"
+13138.83,13148.83,1,Clay-shale,0.979,False,
+13148.83,13151.33,14,Clay-shale,0.84,False,
+13151.33,13158.42,1,Clay-shale,0.979,False,
+13158.42,13159.67,31,Casing shoe,0.002,True,Clay-shale
+13159.67,13163.42,1,Clay-shale,0.979,False,
+13163.42,13166.75,14,Clay-shale,0.84,False,
+13166.75,13168.0,31,Casing shoe,0.002,True,Clay-shale
+13168.0,13178.84,1,Clay-shale,0.979,False,
+13178.84,13180.92,14,Clay-shale,0.84,False,
+13180.92,13183.84,2,Silty,0.393,False,"cinder,"
+13183.84,13193.84,1,Clay-shale,0.979,False,
+13193.84,13196.76,14,Clay-shale,0.84,False,
+13196.76,13198.01,31,Casing shoe,0.002,True,Clay-shale
+13198.01,13212.59,1,Clay-shale,0.979,False,
+13212.59,13215.09,14,Clay-shale,0.84,False,
+13215.09,13218.43,1,Clay-shale,0.979,False,
+13218.43,13219.68,31,Casing shoe,0.002,True,Clay-shale
+13219.68,13223.43,1,Clay-shale,0.979,False,
+13223.43,13226.76,14,Clay-shale,0.84,False,
+13226.76,13228.01,31,Casing shoe,0.002,True,Clay-shale
+13228.01,13235.1,1,Clay-shale,0.979,False,
+13235.1,13237.6,14,Clay-shale,0.84,False,
+13237.6,13240.93,2,Silty,0.393,False,"cinder,"
+13240.93,13243.02,24,Clay-shale,0.862,False,
+13243.02,13245.52,14,Clay-shale,0.84,False,
+13245.52,13247.6,4,"cinder,",0.07,False,Silty|Dry
+13247.6,13250.1,23,Mud loss,0.13,False,FIT|Survey
+13250.1,13252.6,14,Clay-shale,0.84,False,
+13252.6,13256.77,1,Clay-shale,0.979,False,
+13256.77,13258.02,31,Casing shoe,0.002,True,Clay-shale
+13258.02,13269.27,1,Clay-shale,0.979,False,
+13269.27,13275.1,2,Silty,0.393,False,"cinder,"
+13275.1,13276.77,24,Clay-shale,0.862,False,
+13276.77,13283.86,1,Clay-shale,0.979,False,
+13283.86,13286.77,14,Clay-shale,0.84,False,
+13286.77,13288.02,31,Casing shoe,0.002,True,Clay-shale
+13288.02,13291.77,1,Clay-shale,0.979,False,
+13291.77,13293.86,14,Clay-shale,0.84,False,
+13293.86,13297.61,1,Clay-shale,0.979,False,
+13297.61,13299.28,24,Clay-shale,0.862,False,
+13299.28,13303.03,5,Silty,0.143,False,"cinder,"
+13303.03,13305.53,14,Clay-shale,0.84,False,
+13305.53,13308.86,1,Clay-shale,0.979,False,
+13308.86,13310.94,24,Clay-shale,0.862,False,
+13310.94,13313.86,2,Silty,0.393,False,"cinder,"
+13313.86,13316.78,14,Clay-shale,0.84,False,
+13316.78,13318.03,31,Casing shoe,0.002,True,Clay-shale
+13318.03,13320.53,14,Clay-shale,0.84,False,
+13320.53,13323.86,15,Clay-shale,0.148,False,Mud loss
+13323.86,13325.11,32,Silty,0.098,False,"cinder,"
+13325.11,13328.86,1,Clay-shale,0.979,False,
+13328.86,13331.36,14,Clay-shale,0.84,False,
+13331.36,13334.28,15,Clay-shale,0.148,False,Mud loss
+13334.28,13336.78,4,"cinder,",0.07,False,Silty|Dry
+13336.78,13343.87,1,Clay-shale,0.979,False,
+13343.87,13346.78,14,Clay-shale,0.84,False,
+13346.78,13348.03,31,Casing shoe,0.002,True,Clay-shale
+13348.03,13358.87,1,Clay-shale,0.979,False,
+13358.87,13361.37,14,Clay-shale,0.84,False,
+13361.37,13364.29,15,Clay-shale,0.148,False,Mud loss
+13364.29,13366.79,4,"cinder,",0.07,False,Silty|Dry
+13366.79,13369.7,19,Clay-shale,0.376,False,
+13369.7,13373.87,2,Silty,0.393,False,"cinder,"
+13373.87,13375.96,14,Clay-shale,0.84,False,
+13375.96,13378.87,2,Silty,0.393,False,"cinder,"
+13378.87,13392.63,1,Clay-shale,0.979,False,
+13392.63,13395.13,14,Clay-shale,0.84,False,
+13395.13,13398.04,1,Clay-shale,0.979,False,
+13398.04,13400.96,2,Silty,0.393,False,"cinder,"
+13400.96,13403.88,1,Clay-shale,0.979,False,
+13403.88,13406.38,14,Clay-shale,0.84,False,
+13406.38,13408.04,25,Clay-shale,0.828,False,
+13408.04,13411.8,1,Clay-shale,0.979,False,
+13411.8,13413.88,14,Clay-shale,0.84,False,
+13413.88,13415.96,24,Clay-shale,0.862,False,
+13415.96,13420.55,2,Silty,0.393,False,"cinder,"
+13420.55,13423.05,24,Clay-shale,0.862,False,
+13423.05,13425.55,14,Clay-shale,0.84,False,
+13425.55,13432.22,1,Clay-shale,0.979,False,
+13432.22,13433.88,24,Clay-shale,0.862,False,
+13433.88,13436.38,14,Clay-shale,0.84,False,
+13436.38,13438.05,25,Clay-shale,0.828,False,
+13438.05,13441.8,1,Clay-shale,0.979,False,
+13441.8,13443.88,14,Clay-shale,0.84,False,
+13443.88,13451.39,1,Clay-shale,0.979,False,
+13451.39,13454.3,15,Clay-shale,0.148,False,Mud loss
+13454.3,13456.8,4,"cinder,",0.07,False,Silty|Dry
+13456.8,13460.14,1,Clay-shale,0.979,False,
+13460.14,13462.64,14,Clay-shale,0.84,False,
+13462.64,13465.97,2,Silty,0.393,False,"cinder,"
+13465.97,13468.05,24,Clay-shale,0.862,False,
+13468.05,13471.81,1,Clay-shale,0.979,False,
+13471.81,13473.89,14,Clay-shale,0.84,False,
+13473.89,13477.22,1,Clay-shale,0.979,False,
+13477.22,13478.89,24,Clay-shale,0.862,False,
+13478.89,13481.39,14,Clay-shale,0.84,False,
+13481.39,13482.64,31,Casing shoe,0.002,True,Clay-shale
+13482.64,13485.14,14,Clay-shale,0.84,False,
+13485.14,13487.64,4,"cinder,",0.07,False,Silty|Dry
+13487.64,13490.14,23,Mud loss,0.13,False,FIT|Survey
+13490.14,13492.64,14,Clay-shale,0.84,False,
+13492.64,13495.98,2,Silty,0.393,False,"cinder,"
+13495.98,13498.06,24,Clay-shale,0.862,False,
+13498.06,13501.81,5,Silty,0.143,False,"cinder,"
+13501.81,13505.14,1,Clay-shale,0.979,False,
+13505.14,13507.64,14,Clay-shale,0.84,False,
+13507.64,13509.31,24,Clay-shale,0.862,False,
+13509.31,13513.06,5,Silty,0.143,False,"cinder,"
+13513.06,13515.56,14,Clay-shale,0.84,False,
+13515.56,13518.9,1,Clay-shale,0.979,False,
+13518.9,13520.15,31,Casing shoe,0.002,True,Clay-shale
+13520.15,13523.9,1,Clay-shale,0.979,False,
+13523.9,13526.81,14,Clay-shale,0.84,False,
+13526.81,13548.07,1,Clay-shale,0.979,False,
+13548.07,13552.24,2,Silty,0.393,False,"cinder,"
+13552.24,13553.9,15,Clay-shale,0.148,False,Mud loss
+13553.9,13556.82,14,Clay-shale,0.84,False,
+13556.82,13558.07,31,Casing shoe,0.002,True,Clay-shale
+13558.07,13561.82,5,Silty,0.143,False,"cinder,"
+13561.82,13563.9,14,Clay-shale,0.84,False,
+13563.9,13571.41,1,Clay-shale,0.979,False,
+13571.41,13572.66,31,Casing shoe,0.002,True,Clay-shale
+13572.66,13583.49,1,Clay-shale,0.979,False,
+13583.49,13585.99,14,Clay-shale,0.84,False,
+13585.99,13591.83,2,Silty,0.393,False,"cinder,"
+13591.83,13593.91,14,Clay-shale,0.84,False,
+13593.91,13601.41,1,Clay-shale,0.979,False,
+13601.41,13602.66,31,Casing shoe,0.002,True,Clay-shale
+13602.66,13613.5,1,Clay-shale,0.979,False,
+13613.5,13616.41,14,Clay-shale,0.84,False,
+13616.41,13618.08,25,Clay-shale,0.828,False,
+13618.08,13625.16,1,Clay-shale,0.979,False,
+13625.16,13627.67,14,Clay-shale,0.84,False,
+13627.67,13629.33,15,Clay-shale,0.148,False,Mud loss
+13629.33,13633.5,2,Silty,0.393,False,"cinder,"
+13633.5,13640.17,1,Clay-shale,0.979,False,
+13640.17,13642.67,14,Clay-shale,0.84,False,
+13642.67,13646.42,1,Clay-shale,0.979,False,
+13646.42,13648.09,25,Clay-shale,0.828,False,
+13648.09,13658.92,1,Clay-shale,0.979,False,
+13658.92,13661.0,14,Clay-shale,0.84,False,
+13661.0,13663.92,2,Silty,0.393,False,"cinder,"
+13663.92,13667.26,1,Clay-shale,0.979,False,
+13667.26,13672.26,5,Silty,0.143,False,"cinder,"
+13672.26,13673.92,24,Clay-shale,0.862,False,
+13673.92,13676.42,14,Clay-shale,0.84,False,
+13676.42,13678.09,25,Clay-shale,0.828,False,
+13678.09,13688.93,1,Clay-shale,0.979,False,
+13688.93,13691.43,14,Clay-shale,0.84,False,
+13691.43,13692.68,31,Casing shoe,0.002,True,Clay-shale
+13692.68,13696.43,1,Clay-shale,0.979,False,
+13696.43,13698.51,14,Clay-shale,0.84,False,
+13698.51,13700.18,25,Clay-shale,0.828,False,
+13700.18,13703.93,13,Mud loss,0.025,True,FIT|Survey|Dry
+13703.93,13706.85,14,Clay-shale,0.84,False,
+13706.85,13713.93,1,Clay-shale,0.979,False,
+13713.93,13715.18,31,Casing shoe,0.002,True,Clay-shale
+13715.18,13717.68,14,Clay-shale,0.84,False,
+13717.68,13723.1,4,"cinder,",0.07,False,Silty|Dry
+13723.1,13725.6,14,Clay-shale,0.84,False,
+13725.6,13728.93,1,Clay-shale,0.979,False,
+13728.93,13730.18,31,Casing shoe,0.002,True,Clay-shale
+13730.18,13733.93,1,Clay-shale,0.979,False,
+13733.93,13736.43,14,Clay-shale,0.84,False,
+13736.43,13738.1,25,Clay-shale,0.828,False,
+13738.1,13740.6,14,Clay-shale,0.84,False,
+13740.6,13742.69,4,"cinder,",0.07,False,Silty|Dry
+13742.69,13745.19,23,Mud loss,0.13,False,FIT|Survey
+13745.19,13747.69,14,Clay-shale,0.84,False,
+13747.69,13751.44,1,Clay-shale,0.979,False,
+13751.44,13754.35,15,Clay-shale,0.148,False,Mud loss
+13754.35,13756.85,4,"cinder,",0.07,False,Silty|Dry
+13756.85,13763.94,1,Clay-shale,0.979,False,
+13763.94,13766.44,14,Clay-shale,0.84,False,
+13766.44,13768.11,25,Clay-shale,0.828,False,
+13768.11,13771.86,1,Clay-shale,0.979,False,
+13771.86,13773.94,14,Clay-shale,0.84,False,
+13773.94,13777.69,1,Clay-shale,0.979,False,
+13777.69,13782.69,2,Silty,0.393,False,"cinder,"
+13782.69,13786.86,1,Clay-shale,0.979,False,
+13786.86,13788.94,14,Clay-shale,0.84,False,
+13788.94,13792.69,1,Clay-shale,0.979,False,
+13792.69,13793.94,31,Casing shoe,0.002,True,Clay-shale
+13793.94,13796.86,14,Clay-shale,0.84,False,
+13796.86,13807.7,1,Clay-shale,0.979,False,
+13807.7,13813.11,4,"cinder,",0.07,False,Silty|Dry
+13813.11,13815.61,14,Clay-shale,0.84,False,
+13815.61,13818.95,1,Clay-shale,0.979,False,
+13818.95,13820.2,31,Casing shoe,0.002,True,Clay-shale
+13820.2,13823.95,1,Clay-shale,0.979,False,
+13823.95,13826.45,14,Clay-shale,0.84,False,
+13826.45,13828.12,25,Clay-shale,0.828,False,
+13828.12,13831.87,1,Clay-shale,0.979,False,
+13831.87,13833.95,14,Clay-shale,0.84,False,
+13833.95,13836.03,24,Clay-shale,0.862,False,
+13836.03,13838.95,2,Silty,0.393,False,"cinder,"
+13838.95,13841.45,14,Clay-shale,0.84,False,
+13841.45,13842.7,31,Casing shoe,0.002,True,Clay-shale
+13842.7,13846.45,1,Clay-shale,0.979,False,
+13846.45,13848.54,14,Clay-shale,0.84,False,
+13848.54,13852.29,1,Clay-shale,0.979,False,
+13852.29,13853.54,31,Casing shoe,0.002,True,Clay-shale
+13853.54,13856.45,14,Clay-shale,0.84,False,
+13856.45,13858.12,25,Clay-shale,0.828,False,
+13858.12,13861.87,1,Clay-shale,0.979,False,
+13861.87,13863.96,14,Clay-shale,0.84,False,
+13863.96,13867.71,1,Clay-shale,0.979,False,
+13867.71,13873.12,4,"cinder,",0.07,False,Silty|Dry
+13873.12,13876.87,1,Clay-shale,0.979,False,
+13876.87,13878.96,14,Clay-shale,0.84,False,
+13878.96,13882.29,1,Clay-shale,0.979,False,
+13882.29,13883.96,24,Clay-shale,0.862,False,
+13883.96,13886.46,14,Clay-shale,0.84,False,
+13886.46,13888.13,25,Clay-shale,0.828,False,
+13888.13,13891.88,1,Clay-shale,0.979,False,
+13891.88,13893.96,14,Clay-shale,0.84,False,
+13893.96,13897.3,1,Clay-shale,0.979,False,
+13897.3,13898.96,24,Clay-shale,0.862,False,
+13898.96,13901.46,14,Clay-shale,0.84,False,
+13901.46,13902.71,31,Casing shoe,0.002,True,Clay-shale
+13902.71,13906.46,1,Clay-shale,0.979,False,
+13906.46,13908.55,14,Clay-shale,0.84,False,
+13908.55,13912.3,1,Clay-shale,0.979,False,
+13912.3,13913.55,31,Casing shoe,0.002,True,Clay-shale
+13913.55,13916.46,14,Clay-shale,0.84,False,
+13916.46,13918.13,25,Clay-shale,0.828,False,
+13918.13,13928.97,1,Clay-shale,0.979,False,
+13928.97,13931.47,14,Clay-shale,0.84,False,
+13931.47,13942.3,1,Clay-shale,0.979,False,
+13942.3,13943.55,31,Casing shoe,0.002,True,Clay-shale
+13943.55,13946.47,14,Clay-shale,0.84,False,
+13946.47,13948.14,25,Clay-shale,0.828,False,
+13948.14,13951.89,1,Clay-shale,0.979,False,
+13951.89,13953.97,14,Clay-shale,0.84,False,
+13953.97,13968.56,1,Clay-shale,0.979,False,
+13968.56,13969.81,31,Casing shoe,0.002,True,Clay-shale
+13969.81,13973.56,1,Clay-shale,0.979,False,
+13973.56,13976.48,14,Clay-shale,0.84,False,
+13976.48,13978.14,25,Clay-shale,0.828,False,
+13978.14,13981.89,1,Clay-shale,0.979,False,
+13981.89,13983.98,14,Clay-shale,0.84,False,
+13983.98,13987.31,1,Clay-shale,0.979,False,
+13987.31,13988.98,24,Clay-shale,0.862,False,
+13988.98,13991.48,14,Clay-shale,0.84,False,
+13991.48,13992.73,31,Casing shoe,0.002,True,Clay-shale
+13992.73,13996.48,1,Clay-shale,0.979,False,
+13996.48,13998.56,14,Clay-shale,0.84,False,
+13998.56,14006.48,1,Clay-shale,0.979,False,
+14006.48,14008.15,25,Clay-shale,0.828,False,
+14008.15,14010.65,14,Clay-shale,0.84,False,
+14010.65,14013.98,1,Clay-shale,0.979,False,
+14013.98,14015.23,31,Casing shoe,0.002,True,Clay-shale
+14015.23,14018.98,1,Clay-shale,0.979,False,
+14018.98,14021.48,14,Clay-shale,0.84,False,
+14021.48,14022.73,31,Casing shoe,0.002,True,Clay-shale
+14022.73,14026.48,1,Clay-shale,0.979,False,
+14026.48,14028.57,14,Clay-shale,0.84,False,
+14028.57,14031.9,1,Clay-shale,0.979,False,
+14031.9,14033.57,24,Clay-shale,0.862,False,
+14033.57,14036.49,14,Clay-shale,0.84,False,
+14036.49,14038.15,25,Clay-shale,0.828,False,
+14038.15,14041.9,1,Clay-shale,0.979,False,
+14041.9,14043.99,14,Clay-shale,0.84,False,
+14043.99,14051.49,1,Clay-shale,0.979,False,
+14051.49,14052.74,31,Casing shoe,0.002,True,Clay-shale
+14052.74,14056.49,1,Clay-shale,0.979,False,
+14056.49,14058.57,14,Clay-shale,0.84,False,
+14058.57,14061.91,1,Clay-shale,0.979,False,
+14061.91,14063.57,24,Clay-shale,0.862,False,
+14063.57,14066.49,14,Clay-shale,0.84,False,
+14066.49,14068.16,25,Clay-shale,0.828,False,
+14068.16,14071.91,1,Clay-shale,0.979,False,
+14071.91,14073.99,14,Clay-shale,0.84,False,
+14073.99,14081.49,1,Clay-shale,0.979,False,
+14081.49,14082.74,31,Casing shoe,0.002,True,Clay-shale
+14082.74,14086.49,1,Clay-shale,0.979,False,
+14086.49,14088.58,14,Clay-shale,0.84,False,
+14088.58,14092.33,1,Clay-shale,0.979,False,
+14092.33,14093.58,31,Casing shoe,0.002,True,Clay-shale
+14093.58,14096.91,14,Clay-shale,0.84,False,
+14096.91,14098.16,31,Casing shoe,0.002,True,Clay-shale
+14098.16,14101.91,1,Clay-shale,0.979,False,
+14101.91,14104.0,14,Clay-shale,0.84,False,
+14104.0,14107.33,1,Clay-shale,0.979,False,
+14107.33,14109.0,24,Clay-shale,0.862,False,
+14109.0,14111.5,14,Clay-shale,0.84,False,
+14111.5,14112.75,31,Casing shoe,0.002,True,Clay-shale
+14112.75,14116.5,1,Clay-shale,0.979,False,
+14116.5,14118.58,14,Clay-shale,0.84,False,
+14118.58,14122.33,1,Clay-shale,0.979,False,
+14122.33,14123.58,31,Casing shoe,0.002,True,Clay-shale
+14123.58,14126.5,14,Clay-shale,0.84,False,
+14126.5,14128.17,25,Clay-shale,0.828,False,
+14128.17,14131.92,1,Clay-shale,0.979,False,
+14131.92,14134.0,14,Clay-shale,0.84,False,
+14134.0,14137.34,1,Clay-shale,0.979,False,
+14137.34,14139.0,24,Clay-shale,0.862,False,
+14139.0,14141.5,14,Clay-shale,0.84,False,
+14141.5,14156.51,1,Clay-shale,0.979,False,
+14156.51,14158.17,25,Clay-shale,0.828,False,
+14158.17,14161.92,1,Clay-shale,0.979,False,
+14161.92,14164.01,14,Clay-shale,0.84,False,
+14164.01,14167.34,1,Clay-shale,0.979,False,
+14167.34,14169.01,24,Clay-shale,0.862,False,
+14169.01,14171.51,14,Clay-shale,0.84,False,
+14171.51,14172.76,31,Casing shoe,0.002,True,Clay-shale
+14172.76,14176.51,1,Clay-shale,0.979,False,
+14176.51,14178.59,14,Clay-shale,0.84,False,
+14178.59,14186.51,1,Clay-shale,0.979,False,
+14186.51,14188.18,25,Clay-shale,0.828,False,
+14188.18,14191.93,1,Clay-shale,0.979,False,
+14191.93,14194.01,14,Clay-shale,0.84,False,
+14194.01,14201.51,1,Clay-shale,0.979,False,
+14201.51,14202.76,31,Casing shoe,0.002,True,Clay-shale
+14202.76,14206.51,1,Clay-shale,0.979,False,
+14206.51,14208.6,14,Clay-shale,0.84,False,
+14208.6,14216.52,1,Clay-shale,0.979,False,
+14216.52,14218.18,25,Clay-shale,0.828,False,
+14218.18,14221.93,1,Clay-shale,0.979,False,
+14221.93,14224.02,14,Clay-shale,0.84,False,
+14224.02,14227.35,1,Clay-shale,0.979,False,
+14227.35,14229.02,24,Clay-shale,0.862,False,
+14229.02,14231.52,14,Clay-shale,0.84,False,
+14231.52,14241.94,1,Clay-shale,0.979,False,
+14241.94,14243.6,24,Clay-shale,0.862,False,
+14243.6,14246.52,14,Clay-shale,0.84,False,
+14246.52,14248.19,25,Clay-shale,0.828,False,
+14248.19,14251.94,1,Clay-shale,0.979,False,
+14251.94,14254.02,14,Clay-shale,0.84,False,
+14254.02,14257.36,1,Clay-shale,0.979,False,
+14257.36,14259.02,24,Clay-shale,0.862,False,
+14259.02,14261.52,14,Clay-shale,0.84,False,
+14261.52,14262.77,31,Casing shoe,0.002,True,Clay-shale
+14262.77,14266.53,1,Clay-shale,0.979,False,
+14266.53,14268.61,14,Clay-shale,0.84,False,
+14268.61,14272.36,1,Clay-shale,0.979,False,
+14272.36,14273.61,31,Casing shoe,0.002,True,Clay-shale
+14273.61,14276.53,14,Clay-shale,0.84,False,
+14276.53,14278.19,25,Clay-shale,0.828,False,
+14278.19,14281.94,1,Clay-shale,0.979,False,
+14281.94,14284.03,14,Clay-shale,0.84,False,
+14284.03,14287.36,1,Clay-shale,0.979,False,
+14287.36,14289.03,24,Clay-shale,0.862,False,
+14289.03,14291.53,14,Clay-shale,0.84,False,
+14291.53,14292.78,31,Casing shoe,0.002,True,Clay-shale
+14292.78,14296.53,1,Clay-shale,0.979,False,
+14296.53,14298.61,14,Clay-shale,0.84,False,
+14298.61,14302.36,1,Clay-shale,0.979,False,
+14302.36,14303.61,31,Casing shoe,0.002,True,Clay-shale
+14303.61,14306.53,14,Clay-shale,0.84,False,
+14306.53,14308.2,25,Clay-shale,0.828,False,
+14308.2,14311.95,1,Clay-shale,0.979,False,
+14311.95,14314.03,14,Clay-shale,0.84,False,
+14314.03,14321.53,1,Clay-shale,0.979,False,
+14321.53,14322.78,31,Casing shoe,0.002,True,Clay-shale
+14322.78,14326.54,1,Clay-shale,0.979,False,
+14326.54,14328.62,14,Clay-shale,0.84,False,
+14328.62,14336.54,1,Clay-shale,0.979,False,
+14336.54,14338.2,25,Clay-shale,0.828,False,
+14338.2,14340.7,14,Clay-shale,0.84,False,
+14340.7,14351.54,1,Clay-shale,0.979,False,
+14351.54,14352.79,31,Casing shoe,0.002,True,Clay-shale
+14352.79,14356.54,1,Clay-shale,0.979,False,
+14356.54,14358.62,14,Clay-shale,0.84,False,
+14358.62,14362.37,1,Clay-shale,0.979,False,
+14362.37,14363.63,31,Casing shoe,0.002,True,Clay-shale
+14363.63,14366.13,14,Clay-shale,0.84,False,
+14366.13,14371.96,2,Silty,0.393,False,"cinder,"
+14371.96,14374.04,14,Clay-shale,0.84,False,
+14374.04,14392.38,1,Clay-shale,0.979,False,
+14392.38,14393.63,31,Casing shoe,0.002,True,Clay-shale
+14393.63,14396.55,14,Clay-shale,0.84,False,
+14396.55,14398.21,25,Clay-shale,0.828,False,
+14398.21,14401.96,1,Clay-shale,0.979,False,
+14401.96,14404.05,14,Clay-shale,0.84,False,
+14404.05,14411.13,1,Clay-shale,0.979,False,
+14411.13,14414.05,2,Silty,0.393,False,"cinder,"
+14414.05,14416.97,1,Clay-shale,0.979,False,
+14416.97,14419.05,14,Clay-shale,0.84,False,
+14419.05,14422.8,1,Clay-shale,0.979,False,
+14422.8,14430.3,2,Silty,0.393,False,"cinder,"
+14430.3,14431.97,24,Clay-shale,0.862,False,
+14431.97,14434.05,14,Clay-shale,0.84,False,
+14434.05,14437.39,1,Clay-shale,0.979,False,
+14437.39,14439.05,24,Clay-shale,0.862,False,
+14439.05,14441.14,14,Clay-shale,0.84,False,
+14441.14,14444.06,2,Silty,0.393,False,"cinder,"
+14444.06,14446.56,14,Clay-shale,0.84,False,
+14446.56,14453.22,-1,Void eee Medium Sand,0.8,False,
+14453.22,14457.39,9,Gas_Good,0.145,False,Oil and Gas|Casing shoe|Dry
+14457.39,14459.06,30,Gas_Good,0.053,True,Oil and Gas|Oil_Good|Dry
+14459.06,14461.14,28,Dry,0.223,False,Gas_Good|Mud loss|Survey
+14461.14,14464.06,-1,Void eee Medium Sand,0.8,False,
+14464.06,14469.89,3,Dry,0.083,True,Gas_Good|Survey|Mud loss
+14469.89,14476.98,-1,Void eee Medium Sand,0.8,False,
+14476.98,14480.31,1,Clay-shale,0.979,False,
+14480.31,14482.81,14,Clay-shale,0.84,False,
+14482.81,14486.56,1,Clay-shale,0.979,False,
+14486.56,14488.23,25,Clay-shale,0.828,False,
+14488.23,14491.98,1,Clay-shale,0.979,False,
+14491.98,14494.06,14,Clay-shale,0.84,False,
+14494.06,14497.81,1,Clay-shale,0.979,False,
+14497.81,14503.23,4,"cinder,",0.07,False,Silty|Dry
+14503.23,14505.73,14,Clay-shale,0.84,False,
+14505.73,14509.07,1,Clay-shale,0.979,False,
+14509.07,14510.32,31,Casing shoe,0.002,True,Clay-shale
+14510.32,14512.82,17,FIT,0.005,True,Clay-shale|Dry|Survey
+14512.82,14516.15,2,Silty,0.393,False,"cinder,"
+14516.15,14518.23,24,Clay-shale,0.862,False,
+14518.23,14525.32,1,Clay-shale,0.979,False,
+14525.32,14527.82,14,Clay-shale,0.84,False,
+14527.82,14530.32,2,Silty,0.393,False,"cinder,"
+14530.32,14533.24,20,Mud loss,0.046,False,Dry|FIT|Survey
+14533.24,14535.74,14,Clay-shale,0.84,False,
+14535.74,14537.82,4,"cinder,",0.07,False,Silty|Dry
+14537.82,14539.91,2,Silty,0.393,False,"cinder,"
+14539.91,14542.41,14,Clay-shale,0.84,False,
+14542.41,14546.16,2,Silty,0.393,False,"cinder,"
+14546.16,14548.24,24,Clay-shale,0.862,False,
+14548.24,14559.08,1,Clay-shale,0.979,False,
+14559.08,14561.58,14,Clay-shale,0.84,False,
+14561.58,14563.66,24,Clay-shale,0.862,False,
+14563.66,14574.08,2,Silty,0.393,False,"cinder,"
+14574.08,14576.58,14,Clay-shale,0.84,False,
+14576.58,14578.25,25,Clay-shale,0.828,False,
+14578.25,14585.33,1,Clay-shale,0.979,False,
+14585.33,14587.83,14,Clay-shale,0.84,False,
+14587.83,14591.16,2,Silty,0.393,False,"cinder,"
+14591.16,14593.25,24,Clay-shale,0.862,False,
+14593.25,14597.42,1,Clay-shale,0.979,False,
+14597.42,14602.42,5,Silty,0.143,False,"cinder,"
+14602.42,14604.08,24,Clay-shale,0.862,False,
+14604.08,14607.0,14,Clay-shale,0.84,False,
+14607.0,14608.25,31,Casing shoe,0.002,True,Clay-shale
+14608.25,14610.75,14,Clay-shale,0.84,False,
+14610.75,14617.42,2,Silty,0.393,False,"cinder,"
+14617.42,14619.09,24,Clay-shale,0.862,False,
+14619.09,14621.59,14,Clay-shale,0.84,False,
+14621.59,14625.34,1,Clay-shale,0.979,False,
+14625.34,14627.84,4,"cinder,",0.07,False,Silty|Dry
+14627.84,14632.42,2,Silty,0.393,False,"cinder,"
+14632.42,14634.09,24,Clay-shale,0.862,False,
+14634.09,14637.01,14,Clay-shale,0.84,False,
+14637.01,14640.76,1,Clay-shale,0.979,False,
+14640.76,14644.09,2,Silty,0.393,False,"cinder,"
+14644.09,14645.34,31,Casing shoe,0.002,True,Clay-shale
+14645.34,14650.34,2,Silty,0.393,False,"cinder,"
+14650.34,14653.26,20,Mud loss,0.046,False,Dry|FIT|Survey
+14653.26,14655.76,14,Clay-shale,0.84,False,
+14655.76,14662.84,1,Clay-shale,0.979,False,
+14662.84,14664.09,31,Casing shoe,0.002,True,Clay-shale
+14664.09,14667.01,14,Clay-shale,0.84,False,
+14667.01,14669.09,24,Clay-shale,0.862,False,
+14669.09,14672.01,2,Silty,0.393,False,"cinder,"
+14672.01,14679.1,1,Clay-shale,0.979,False,
+14679.1,14681.6,14,Clay-shale,0.84,False,
+14681.6,14688.68,1,Clay-shale,0.979,False,
+14688.68,14689.93,31,Casing shoe,0.002,True,Clay-shale
+14689.93,14692.85,17,FIT,0.005,True,Clay-shale|Dry|Survey
+14692.85,14697.02,2,Silty,0.393,False,"cinder,"
+14697.02,14699.1,2,Silty,0.393,False,"cinder,"
+14699.1,14702.02,1,Clay-shale,0.979,False,
+14702.02,14704.1,14,Clay-shale,0.84,False,
+14704.1,14706.18,24,Clay-shale,0.862,False,
+14706.18,14709.1,2,Silty,0.393,False,"cinder,"
+14709.1,14711.6,14,Clay-shale,0.84,False,
+14711.6,14726.6,1,Clay-shale,0.979,False,
+14726.6,14728.27,25,Clay-shale,0.828,False,
+14728.27,14739.11,1,Clay-shale,0.979,False,
+14739.11,14741.19,14,Clay-shale,0.84,False,
+14741.19,14744.11,2,Silty,0.393,False,"cinder,"
+14744.11,14747.02,1,Clay-shale,0.979,False,
+14747.02,14749.11,14,Clay-shale,0.84,False,
+14749.11,14752.44,4,"cinder,",0.07,False,Silty|Dry
+14752.44,14754.11,15,Clay-shale,0.148,False,Mud loss
+14754.11,14757.03,14,Clay-shale,0.84,False,
+14757.03,14774.95,1,Clay-shale,0.979,False,
+14774.95,14776.61,24,Clay-shale,0.862,False,
+14776.61,14779.11,14,Clay-shale,0.84,False,
+14779.11,14782.86,2,Silty,0.393,False,"cinder,"
+14782.86,14785.78,1,Clay-shale,0.979,False,
+14785.78,14794.95,2,Silty,0.393,False,"cinder,"
+14794.95,14797.87,14,Clay-shale,0.84,False,
+14797.87,14801.2,1,Clay-shale,0.979,False,
+14801.2,14802.87,25,Clay-shale,0.828,False,
+14802.87,14805.37,14,Clay-shale,0.84,False,
+14805.37,14808.7,1,Clay-shale,0.979,False,
+14808.7,14809.95,31,Casing shoe,0.002,True,Clay-shale
+14809.95,14813.7,1,Clay-shale,0.979,False,
+14813.7,14816.62,14,Clay-shale,0.84,False,
+14816.62,14818.29,25,Clay-shale,0.828,False,
+14818.29,14822.45,1,Clay-shale,0.979,False,
+14822.45,14830.79,2,Silty,0.393,False,"cinder,"
+14830.79,14833.29,24,Clay-shale,0.862,False,
+14833.29,14835.79,14,Clay-shale,0.84,False,
+14835.79,14838.29,2,Silty,0.393,False,"cinder,"
+14838.29,14840.37,24,Clay-shale,0.862,False,
+14840.37,14844.12,1,Clay-shale,0.979,False,
+14844.12,14846.62,14,Clay-shale,0.84,False,
+14846.62,14848.29,25,Clay-shale,0.828,False,
+14848.29,14852.04,1,Clay-shale,0.979,False,
+14852.04,14854.13,14,Clay-shale,0.84,False,
+14854.13,14865.38,1,Clay-shale,0.979,False,
+14865.38,14867.04,24,Clay-shale,0.862,False,
+14867.04,14874.13,2,Silty,0.393,False,"cinder,"
+14874.13,14877.05,14,Clay-shale,0.84,False,
+14877.05,14878.3,31,Casing shoe,0.002,True,Clay-shale
+14878.3,14880.38,19,Clay-shale,0.376,False,
+14880.38,14885.8,2,Silty,0.393,False,"cinder,"
+14885.8,14887.88,14,Clay-shale,0.84,False,
+14887.88,14895.38,1,Clay-shale,0.979,False,
+14895.38,14899.97,1,Clay-shale,0.979,False,
+14899.97,14903.72,1,Clay-shale,0.979,False,
+14903.72,14906.63,14,Clay-shale,0.84,False,
+14906.63,14908.3,25,Clay-shale,0.828,False,
+14908.3,14912.05,1,Clay-shale,0.979,False,
+14912.05,14914.14,14,Clay-shale,0.84,False,
+14914.14,14917.89,1,Clay-shale,0.979,False,
+14917.89,14919.14,31,Casing shoe,0.002,True,Clay-shale
+14919.14,14925.39,2,Silty,0.393,False,"cinder,"
+14925.39,14927.06,24,Clay-shale,0.862,False,
+14927.06,14930.39,1,Clay-shale,0.979,False,
+14930.39,14932.89,14,Clay-shale,0.84,False,
+14932.89,14935.81,1,Clay-shale,0.979,False,
+14935.81,14940.39,2,Silty,0.393,False,"cinder,"
+14940.39,14942.06,24,Clay-shale,0.862,False,
+14942.06,14945.39,1,Clay-shale,0.979,False,
+14945.39,14947.89,14,Clay-shale,0.84,False,
+14947.89,14951.64,1,Clay-shale,0.979,False,
+14951.64,14952.89,31,Casing shoe,0.002,True,Clay-shale
+14952.89,14956.64,1,Clay-shale,0.979,False,
+14956.64,14958.73,14,Clay-shale,0.84,False,
+14958.73,14965.81,1,Clay-shale,0.979,False,
+14965.81,14967.9,2,Silty,0.393,False,"cinder,"
+14967.9,14970.81,14,Clay-shale,0.84,False,
+14970.81,14973.31,2,Silty,0.393,False,"cinder,"
+14973.31,14975.4,24,Clay-shale,0.862,False,
+14975.4,14977.9,14,Clay-shale,0.84,False,
+14977.9,14981.65,1,Clay-shale,0.979,False,
+14981.65,14982.9,31,Casing shoe,0.002,True,Clay-shale
+14982.9,14986.65,1,Clay-shale,0.979,False,
+14986.65,14988.73,14,Clay-shale,0.84,False,
+14988.73,14996.65,1,Clay-shale,0.979,False,
+14996.65,14998.32,25,Clay-shale,0.828,False,
+14998.32,15002.07,1,Clay-shale,0.979,False,
+15002.07,15004.15,14,Clay-shale,0.84,False,
+15004.15,15007.49,1,Clay-shale,0.979,False,
+15007.49,15009.15,24,Clay-shale,0.862,False,
+15009.15,15011.65,14,Clay-shale,0.84,False,
+15011.65,15018.74,1,Clay-shale,0.979,False,
+15018.74,15021.65,20,Mud loss,0.046,False,Dry|FIT|Survey
+15021.65,15024.57,2,Silty,0.393,False,"cinder,"
+15024.57,15026.66,14,Clay-shale,0.84,False,
+15026.66,15029.57,20,Mud loss,0.046,False,Dry|FIT|Survey
+15029.57,15032.49,2,Silty,0.393,False,"cinder,"
+15032.49,15035.41,1,Clay-shale,0.979,False,
+15035.41,15039.16,1,Clay-shale,0.979,False,
+15039.16,15041.66,14,Clay-shale,0.84,False,
+15041.66,15048.74,1,Clay-shale,0.979,False,
+15048.74,15049.99,31,Casing shoe,0.002,True,Clay-shale
+15049.99,15053.74,1,Clay-shale,0.979,False,
+15053.74,15056.66,14,Clay-shale,0.84,False,
+15056.66,15058.33,25,Clay-shale,0.828,False,
+15058.33,15065.41,1,Clay-shale,0.979,False,
+15065.41,15069.58,11,"cinder,",0.013,True,Silty|FIT|Dry
+15069.58,15071.66,19,Clay-shale,0.376,False,
+15071.66,15072.91,31,Casing shoe,0.002,True,Clay-shale
+15072.91,15076.66,1,Clay-shale,0.979,False,
+15076.66,15078.75,14,Clay-shale,0.84,False,
+15078.75,15086.67,1,Clay-shale,0.979,False,
+15086.67,15088.33,25,Clay-shale,0.828,False,
+15088.33,15099.17,1,Clay-shale,0.979,False,
+15099.17,15101.67,14,Clay-shale,0.84,False,
+15101.67,15108.75,1,Clay-shale,0.979,False,
+15108.75,15110.0,31,Casing shoe,0.002,True,Clay-shale
+15110.0,15112.5,14,Clay-shale,0.84,False,
+15112.5,15115.84,2,Silty,0.393,False,"cinder,"
+15115.84,15118.34,24,Clay-shale,0.862,False,
+15118.34,15120.84,14,Clay-shale,0.84,False,
+15120.84,15138.76,1,Clay-shale,0.979,False,
+15138.76,15140.01,31,Casing shoe,0.002,True,Clay-shale
+15140.01,15142.51,14,Clay-shale,0.84,False,
+15142.51,15145.84,2,Silty,0.393,False,"cinder,"
+15145.84,15148.34,24,Clay-shale,0.862,False,
+15148.34,15150.84,14,Clay-shale,0.84,False,
+15150.84,15152.93,24,Clay-shale,0.862,False,
+15152.93,15157.51,2,Silty,0.393,False,"cinder,"
+15157.51,15159.18,24,Clay-shale,0.862,False,
+15159.18,15161.68,14,Clay-shale,0.84,False,
+15161.68,15162.93,31,Casing shoe,0.002,True,Clay-shale
+15162.93,15166.68,1,Clay-shale,0.979,False,
+15166.68,15168.76,14,Clay-shale,0.84,False,
+15168.76,15171.68,1,Clay-shale,0.979,False,
+15171.68,15178.35,-1,Void eee Medium Sand,0.8,False,
+15178.35,15182.52,7,Casing shoe,0.36,False,Gas_Good|Dry
+15182.52,15183.77,9,Gas_Good,0.145,False,Oil and Gas|Casing shoe|Dry
+15183.77,15186.27,21,Mud loss,0.216,False,FIT|Survey|Dry
+15186.27,15187.52,-1,Void eee Medium Sand,0.8,False,
+15187.52,15190.43,21,Mud loss,0.216,False,FIT|Survey|Dry
+15190.43,15195.02,7,Casing shoe,0.36,False,Gas_Good|Dry
+15195.02,15198.35,-1,Void eee Medium Sand,0.8,False,
+15198.35,15202.52,9,Gas_Good,0.145,False,Oil and Gas|Casing shoe|Dry
+15202.52,15205.85,7,Casing shoe,0.36,False,Gas_Good|Dry
+15205.85,15225.44,-1,Void eee Medium Sand,0.8,False,
+15225.44,15228.77,16,Clay-shale,0.98,False,
+15228.77,15236.27,1,Clay-shale,0.979,False,
+15236.27,15237.53,31,Casing shoe,0.002,True,Clay-shale
+15237.53,15241.28,1,Clay-shale,0.979,False,
+15241.28,15243.36,14,Clay-shale,0.84,False,
+15243.36,15265.45,1,Clay-shale,0.979,False,
+15265.45,15266.7,31,Casing shoe,0.002,True,Clay-shale
+15266.7,15270.45,1,Clay-shale,0.979,False,
+15270.45,15272.53,14,Clay-shale,0.84,False,
+15272.53,15309.2,1,Clay-shale,0.979,False,
+15309.2,15310.45,31,Casing shoe,0.002,True,Clay-shale
+15310.45,15321.29,1,Clay-shale,0.979,False,
+15321.29,15323.79,14,Clay-shale,0.84,False,
+15323.79,15325.04,31,Casing shoe,0.002,True,Clay-shale
+15325.04,15328.79,1,Clay-shale,0.979,False,
+15328.79,15330.87,14,Clay-shale,0.84,False,
+15330.87,15338.38,1,Clay-shale,0.979,False,
+15338.38,15339.63,31,Casing shoe,0.002,True,Clay-shale
+15339.63,15350.46,1,Clay-shale,0.979,False,
+15350.46,15352.96,14,Clay-shale,0.84,False,
+15352.96,15354.21,31,Casing shoe,0.002,True,Clay-shale
+15354.21,15379.63,1,Clay-shale,0.979,False,
+15379.63,15382.13,14,Clay-shale,0.84,False,
+15382.13,15383.38,31,Casing shoe,0.002,True,Clay-shale
+15383.38,15394.22,1,Clay-shale,0.979,False,
+15394.22,15396.72,14,Clay-shale,0.84,False,
+15396.72,15397.97,31,Casing shoe,0.002,True,Clay-shale
+15397.97,15408.8,1,Clay-shale,0.979,False,
+15408.8,15411.3,14,Clay-shale,0.84,False,
+15411.3,15412.56,31,Casing shoe,0.002,True,Clay-shale
+15412.56,15419.64,1,Clay-shale,0.979,False,
+15419.64,15422.14,14,Clay-shale,0.84,False,
+15422.14,15424.64,25,Clay-shale,0.828,False,
+15424.64,15431.31,-1,Void eee Medium Sand,0.8,False,
+15431.31,15435.48,7,Casing shoe,0.36,False,Gas_Good|Dry
+15435.48,15436.73,9,Gas_Good,0.145,False,Oil and Gas|Casing shoe|Dry
+15436.73,15439.23,21,Mud loss,0.216,False,FIT|Survey|Dry
+15439.23,15440.48,-1,Void eee Medium Sand,0.8,False,
+15440.48,15443.39,21,Mud loss,0.216,False,FIT|Survey|Dry
+15443.39,15447.98,8,Oil_Poor,0.612,False,Oil_Good|Oil and Gas
+15447.98,15451.31,-1,Void eee Medium Sand,0.8,False,
+15451.31,15455.48,9,Gas_Good,0.145,False,Oil and Gas|Casing shoe|Dry
+15455.48,15458.81,7,Casing shoe,0.36,False,Gas_Good|Dry
+15458.81,15478.4,-1,Void eee Medium Sand,0.8,False,
+15478.4,15481.73,1,Clay-shale,0.979,False,
+15481.73,15484.23,14,Clay-shale,0.84,False,
+15484.23,15498.82,1,Clay-shale,0.979,False,
+15498.82,15500.07,31,Casing shoe,0.002,True,Clay-shale
+15500.07,15510.91,1,Clay-shale,0.979,False,
+15510.91,15513.41,14,Clay-shale,0.84,False,
+15513.41,15514.66,31,Casing shoe,0.002,True,Clay-shale
+15514.66,15521.74,1,Clay-shale,0.979,False,
+15521.74,15524.24,14,Clay-shale,0.84,False,
+15524.24,15531.74,1,Clay-shale,0.979,False,
+15531.74,15536.33,1,Clay-shale,0.979,False,
+15536.33,15538.83,14,Clay-shale,0.84,False,
+15538.83,15542.16,1,Clay-shale,0.979,False,
+15542.16,15543.83,25,Clay-shale,0.828,False,
+15543.83,15546.33,14,Clay-shale,0.84,False,
+15546.33,15549.66,1,Clay-shale,0.979,False,
+15549.66,15550.91,31,Casing shoe,0.002,True,Clay-shale
+15550.91,15554.66,1,Clay-shale,0.979,False,
+15554.66,15557.16,14,Clay-shale,0.84,False,
+15557.16,15558.41,31,Casing shoe,0.002,True,Clay-shale
+15558.41,15562.16,1,Clay-shale,0.979,False,
+15562.16,15564.25,14,Clay-shale,0.84,False,
+15564.25,15567.58,1,Clay-shale,0.979,False,
+15567.58,15569.25,24,Clay-shale,0.862,False,
+15569.25,15583.83,1,Clay-shale,0.979,False,
+15583.83,15586.33,14,Clay-shale,0.84,False,
+15586.33,15587.59,31,Casing shoe,0.002,True,Clay-shale
+15587.59,15594.67,1,Clay-shale,0.979,False,
+15594.67,15597.17,14,Clay-shale,0.84,False,
+15597.17,15604.25,1,Clay-shale,0.979,False,
+15604.25,15605.92,24,Clay-shale,0.862,False,
+15605.92,15613.01,1,Clay-shale,0.979,False,
+15613.01,15615.51,14,Clay-shale,0.84,False,
+15615.51,15616.76,31,Casing shoe,0.002,True,Clay-shale
+15616.76,15620.51,1,Clay-shale,0.979,False,
+15620.51,15622.59,14,Clay-shale,0.84,False,
+15622.59,15629.68,1,Clay-shale,0.979,False,
+15629.68,15631.34,25,Clay-shale,0.828,False,
+15631.34,15635.09,1,Clay-shale,0.979,False,
+15635.09,15637.18,14,Clay-shale,0.84,False,
+15637.18,15644.26,1,Clay-shale,0.979,False,
+15644.26,15645.93,25,Clay-shale,0.828,False,
+15645.93,15649.68,1,Clay-shale,0.979,False,
+15649.68,15651.76,14,Clay-shale,0.84,False,
+15651.76,15655.1,1,Clay-shale,0.979,False,
+15655.1,15656.76,24,Clay-shale,0.862,False,
+15656.76,15659.26,14,Clay-shale,0.84,False,
+15659.26,15660.51,31,Casing shoe,0.002,True,Clay-shale
+15660.51,15664.26,1,Clay-shale,0.979,False,
+15664.26,15666.35,14,Clay-shale,0.84,False,
+15666.35,15673.43,1,Clay-shale,0.979,False,
+15673.43,15675.1,25,Clay-shale,0.828,False,
+15675.1,15682.18,1,Clay-shale,0.979,False,
+15682.18,15684.69,14,Clay-shale,0.84,False,
+15684.69,15688.44,1,Clay-shale,0.979,False,
+15688.44,15689.69,31,Casing shoe,0.002,True,Clay-shale
+15689.69,15693.44,1,Clay-shale,0.979,False,
+15693.44,15695.1,14,Clay-shale,0.84,False,
+15695.1,15698.02,22,Clay-shale,0.544,False,
+15698.02,15701.77,1,Clay-shale,0.979,False,
+15701.77,15703.02,31,Casing shoe,0.002,True,Clay-shale
+15703.02,15706.77,1,Clay-shale,0.979,False,
+15706.77,15708.86,14,Clay-shale,0.84,False,
+15708.86,15715.94,1,Clay-shale,0.979,False,
+15715.94,15741.36,-1,Void eee Medium Sand,0.8,False,
+15741.36,15745.53,12,FIT,0.022,True,Dry|Survey|Oil_Poor

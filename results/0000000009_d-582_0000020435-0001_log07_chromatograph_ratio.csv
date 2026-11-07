@@ -1,0 +1,36 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+25400.09,25418.97,1,Clay,0.026,True,Silty|Shale|Dolomite
+25418.97,25421.07,8,Dolomite,0.122,True,Limestone|Silty|Halite
+25421.07,25428.61,6,Siltstone,0.535,False,
+25428.61,25431.61,8,Dolomite,0.122,True,Limestone|Silty|Halite
+25431.61,25459.17,1,Clay,0.026,True,Silty|Shale|Dolomite
+25459.17,25462.37,7,Silty,0.779,False,Clay|Shale|Dolomite
+25462.37,25474.36,1,Clay,0.026,True,Silty|Shale|Dolomite
+25474.36,25489.44,1,Clay,0.026,True,Silty|Shale|Dolomite
+25489.44,25500.58,6,Siltstone,0.535,False,
+25500.58,25507.82,1,Clay,0.026,True,Silty|Shale|Dolomite
+25507.82,25508.82,10,Clay,0.085,True,Shale|Silty|Dolomite
+25508.82,25511.61,9,Silty,0.238,False,Dolomite|Limestone|Clay
+25511.61,25519.4,5,Sand and Sandstone,0.951,False,Anhydrite
+25519.4,25533.69,3,Siltstone,0.632,False,
+25533.69,25540.33,5,Sand and Sandstone,0.951,False,Anhydrite
+25540.33,25551.46,3,Siltstone,0.632,False,
+25551.46,25558.61,2,Clay,0.174,True,Shale|Silty|Dolomite
+25558.61,25570.34,5,Sand and Sandstone,0.951,False,Anhydrite
+25570.34,25579.28,2,Clay,0.174,True,Shale|Silty|Dolomite
+25579.28,25590.57,3,Siltstone,0.632,False,
+25590.57,25605.6,2,Clay,0.174,True,Shale|Silty|Dolomite
+25605.6,25626.78,1,Clay,0.026,True,Silty|Shale|Dolomite
+25626.78,25629.67,7,Silty,0.779,False,Clay|Shale|Dolomite
+25629.67,25641.61,4,Sand and Sandstone,0.365,True,Anhydrite
+25641.61,25647.85,1,Clay,0.026,True,Silty|Shale|Dolomite
+25647.85,25649.95,10,Clay,0.085,True,Shale|Silty|Dolomite
+25649.95,25661.63,1,Clay,0.026,True,Silty|Shale|Dolomite
+25661.63,25667.18,1,Clay,0.026,True,Silty|Shale|Dolomite
+25667.18,25669.68,7,Silty,0.779,False,Clay|Shale|Dolomite
+25669.68,25680.36,1,Clay,0.026,True,Silty|Shale|Dolomite
+25680.36,25681.66,1,Clay,0.026,True,Silty|Shale|Dolomite
+25681.66,25689.05,1,Clay,0.026,True,Silty|Shale|Dolomite
+25689.05,25691.05,8,Dolomite,0.122,True,Limestone|Silty|Halite
+25691.05,25699.89,6,Siltstone,0.535,False,
+25699.89,25739.09,0,Siltstone,0.613,False,

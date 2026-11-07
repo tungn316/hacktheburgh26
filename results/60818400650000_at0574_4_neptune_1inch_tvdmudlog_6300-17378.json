@@ -1,0 +1,7919 @@
+{
+  "image": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.tif",
+  "depth_fit": {
+    "px_per_ft": 3.0033,
+    "labels_used": 33,
+    "labels_read": 39,
+    "mean_residual_ft": 0.339,
+    "label_rotation_deg": 0
+  },
+  "legend": [
+    {
+      "name": "Tuff",
+      "box": [
+        24,
+        1316,
+        119,
+        1389
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomite",
+      "box": [
+        496,
+        1316,
+        593,
+        1389
+      ],
+      "white": false
+    },
+    {
+      "name": "Marl",
+      "box": [
+        969,
+        1316,
+        1067,
+        1389
+      ],
+      "white": false
+    },
+    {
+      "name": "Chert",
+      "box": [
+        1443,
+        1316,
+        1539,
+        1389
+      ],
+      "white": false
+    },
+    {
+      "name": "Conglomerate",
+      "box": [
+        1918,
+        1316,
+        2012,
+        1389
+      ],
+      "white": false
+    },
+    {
+      "name": "Clay/Shale",
+      "box": [
+        24,
+        1421,
+        119,
+        1494
+      ],
+      "white": false
+    },
+    {
+      "name": "Anhydrite",
+      "box": [
+        496,
+        1421,
+        593,
+        1494
+      ],
+      "white": false
+    },
+    {
+      "name": "Coal-lignite",
+      "box": [
+        1443,
+        1421,
+        1539,
+        1494
+      ],
+      "white": false
+    },
+    {
+      "name": "Granite",
+      "box": [
+        1917,
+        1421,
+        2012,
+        1494
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud loss",
+      "box": [
+        25,
+        1527,
+        119,
+        1599
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud gain",
+      "box": [
+        497,
+        1527,
+        593,
+        1599
+      ],
+      "white": false
+    },
+    {
+      "name": "Shoe",
+      "box": [
+        970,
+        1527,
+        1067,
+        1599
+      ],
+      "white": false
+    },
+    {
+      "name": "Oil and Gas",
+      "box": [
+        1918,
+        1527,
+        2012,
+        1599
+      ],
+      "white": false
+    },
+    {
+      "name": "Gas",
+      "box": [
+        25,
+        1633,
+        119,
+        1705
+      ],
+      "white": false
+    },
+    {
+      "name": "Pumps Off Gas",
+      "box": [
+        970,
+        1633,
+        1067,
+        1705
+      ],
+      "white": false
+    },
+    {
+      "name": "Formation Gas",
+      "box": [
+        1444,
+        1633,
+        1539,
+        1705
+      ],
+      "white": false
+    },
+    {
+      "name": "Background Gas",
+      "box": [
+        1918,
+        1633,
+        2012,
+        1705
+      ],
+      "white": false
+    }
+  ],
+  "n_groups": 17,
+  "intervals": [
+    {
+      "top_ft": 9364.76,
+      "base_ft": 9366.75,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 11894,
+      "y_base_px": 11900
+    },
+    {
+      "top_ft": 9366.75,
+      "base_ft": 9371.42,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 11900,
+      "y_base_px": 11914
+    },
+    {
+      "top_ft": 9371.42,
+      "base_ft": 9374.08,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 11914,
+      "y_base_px": 11922
+    },
+    {
+      "top_ft": 9374.08,
+      "base_ft": 9378.74,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 11922,
+      "y_base_px": 11936
+    },
+    {
+      "top_ft": 9378.74,
+      "base_ft": 9382.74,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 11936,
+      "y_base_px": 11948
+    },
+    {
+      "top_ft": 9382.74,
+      "base_ft": 9386.73,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 11948,
+      "y_base_px": 11960
+    },
+    {
+      "top_ft": 9386.73,
+      "base_ft": 9392.73,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 11960,
+      "y_base_px": 11978
+    },
+    {
+      "top_ft": 9392.73,
+      "base_ft": 9397.39,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 11978,
+      "y_base_px": 11992
+    },
+    {
+      "top_ft": 9397.39,
+      "base_ft": 9398.72,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 11992,
+      "y_base_px": 11996
+    },
+    {
+      "top_ft": 9398.72,
+      "base_ft": 9402.71,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 11996,
+      "y_base_px": 12008
+    },
+    {
+      "top_ft": 9402.71,
+      "base_ft": 9405.04,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12008,
+      "y_base_px": 12015
+    },
+    {
+      "top_ft": 9405.04,
+      "base_ft": 9409.71,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12015,
+      "y_base_px": 12029
+    },
+    {
+      "top_ft": 9409.71,
+      "base_ft": 9411.7,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12029,
+      "y_base_px": 12035
+    },
+    {
+      "top_ft": 9411.7,
+      "base_ft": 9414.7,
+      "group": 10,
+      "lithology": "Chert",
+      "confidence": 0.058,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12035,
+      "y_base_px": 12044
+    },
+    {
+      "top_ft": 9414.7,
+      "base_ft": 9418.7,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12044,
+      "y_base_px": 12056
+    },
+    {
+      "top_ft": 9418.7,
+      "base_ft": 9422.69,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12056,
+      "y_base_px": 12068
+    },
+    {
+      "top_ft": 9422.69,
+      "base_ft": 9426.69,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12068,
+      "y_base_px": 12080
+    },
+    {
+      "top_ft": 9426.69,
+      "base_ft": 9430.68,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12080,
+      "y_base_px": 12092
+    },
+    {
+      "top_ft": 9430.68,
+      "base_ft": 9446.67,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12092,
+      "y_base_px": 12140
+    },
+    {
+      "top_ft": 9446.67,
+      "base_ft": 9450.33,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12140,
+      "y_base_px": 12151
+    },
+    {
+      "top_ft": 9450.33,
+      "base_ft": 9452.66,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12151,
+      "y_base_px": 12158
+    },
+    {
+      "top_ft": 9452.66,
+      "base_ft": 9456.65,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12158,
+      "y_base_px": 12170
+    },
+    {
+      "top_ft": 9456.65,
+      "base_ft": 9462.98,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12170,
+      "y_base_px": 12189
+    },
+    {
+      "top_ft": 9462.98,
+      "base_ft": 9466.64,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12189,
+      "y_base_px": 12200
+    },
+    {
+      "top_ft": 9466.64,
+      "base_ft": 9467.98,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12200,
+      "y_base_px": 12204
+    },
+    {
+      "top_ft": 9467.98,
+      "base_ft": 9471.31,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12204,
+      "y_base_px": 12214
+    },
+    {
+      "top_ft": 9471.31,
+      "base_ft": 9490.62,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12214,
+      "y_base_px": 12272
+    },
+    {
+      "top_ft": 9490.62,
+      "base_ft": 9494.61,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12272,
+      "y_base_px": 12284
+    },
+    {
+      "top_ft": 9494.61,
+      "base_ft": 9498.61,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12284,
+      "y_base_px": 12296
+    },
+    {
+      "top_ft": 9498.61,
+      "base_ft": 9502.6,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12296,
+      "y_base_px": 12308
+    },
+    {
+      "top_ft": 9502.6,
+      "base_ft": 9506.6,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12308,
+      "y_base_px": 12320
+    },
+    {
+      "top_ft": 9506.6,
+      "base_ft": 9510.6,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12320,
+      "y_base_px": 12332
+    },
+    {
+      "top_ft": 9510.6,
+      "base_ft": 9512.59,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12332,
+      "y_base_px": 12338
+    },
+    {
+      "top_ft": 9512.59,
+      "base_ft": 9515.26,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12338,
+      "y_base_px": 12346
+    },
+    {
+      "top_ft": 9515.26,
+      "base_ft": 9518.59,
+      "group": 8,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12346,
+      "y_base_px": 12356
+    },
+    {
+      "top_ft": 9518.59,
+      "base_ft": 9534.57,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12356,
+      "y_base_px": 12404
+    },
+    {
+      "top_ft": 9534.57,
+      "base_ft": 9537.23,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12404,
+      "y_base_px": 12412
+    },
+    {
+      "top_ft": 9537.23,
+      "base_ft": 9542.56,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12412,
+      "y_base_px": 12428
+    },
+    {
+      "top_ft": 9542.56,
+      "base_ft": 9578.52,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12428,
+      "y_base_px": 12536
+    },
+    {
+      "top_ft": 9578.52,
+      "base_ft": 9582.52,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12536,
+      "y_base_px": 12548
+    },
+    {
+      "top_ft": 9582.52,
+      "base_ft": 9586.18,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12548,
+      "y_base_px": 12559
+    },
+    {
+      "top_ft": 9586.18,
+      "base_ft": 9592.17,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12559,
+      "y_base_px": 12577
+    },
+    {
+      "top_ft": 9592.17,
+      "base_ft": 9594.84,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12577,
+      "y_base_px": 12585
+    },
+    {
+      "top_ft": 9594.84,
+      "base_ft": 9598.83,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12585,
+      "y_base_px": 12597
+    },
+    {
+      "top_ft": 9598.83,
+      "base_ft": 9602.83,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12597,
+      "y_base_px": 12609
+    },
+    {
+      "top_ft": 9602.83,
+      "base_ft": 9607.49,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12609,
+      "y_base_px": 12623
+    },
+    {
+      "top_ft": 9607.49,
+      "base_ft": 9608.82,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12623,
+      "y_base_px": 12627
+    },
+    {
+      "top_ft": 9608.82,
+      "base_ft": 9612.82,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12627,
+      "y_base_px": 12639
+    },
+    {
+      "top_ft": 9612.82,
+      "base_ft": 9616.48,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12639,
+      "y_base_px": 12650
+    },
+    {
+      "top_ft": 9616.48,
+      "base_ft": 9619.14,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12650,
+      "y_base_px": 12658
+    },
+    {
+      "top_ft": 9619.14,
+      "base_ft": 9622.81,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12658,
+      "y_base_px": 12669
+    },
+    {
+      "top_ft": 9622.81,
+      "base_ft": 9624.47,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12669,
+      "y_base_px": 12674
+    },
+    {
+      "top_ft": 9624.47,
+      "base_ft": 9626.8,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12674,
+      "y_base_px": 12681
+    },
+    {
+      "top_ft": 9626.8,
+      "base_ft": 9630.8,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12681,
+      "y_base_px": 12693
+    },
+    {
+      "top_ft": 9630.8,
+      "base_ft": 9634.79,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12693,
+      "y_base_px": 12705
+    },
+    {
+      "top_ft": 9634.79,
+      "base_ft": 9638.79,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12705,
+      "y_base_px": 12717
+    },
+    {
+      "top_ft": 9638.79,
+      "base_ft": 9642.78,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12717,
+      "y_base_px": 12729
+    },
+    {
+      "top_ft": 9642.78,
+      "base_ft": 9647.44,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12729,
+      "y_base_px": 12743
+    },
+    {
+      "top_ft": 9647.44,
+      "base_ft": 9650.77,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12743,
+      "y_base_px": 12753
+    },
+    {
+      "top_ft": 9650.77,
+      "base_ft": 9654.44,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12753,
+      "y_base_px": 12764
+    },
+    {
+      "top_ft": 9654.44,
+      "base_ft": 9655.77,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12764,
+      "y_base_px": 12768
+    },
+    {
+      "top_ft": 9655.77,
+      "base_ft": 9659.1,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12768,
+      "y_base_px": 12778
+    },
+    {
+      "top_ft": 9659.1,
+      "base_ft": 9662.76,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12778,
+      "y_base_px": 12789
+    },
+    {
+      "top_ft": 9662.76,
+      "base_ft": 9664.09,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12789,
+      "y_base_px": 12793
+    },
+    {
+      "top_ft": 9664.09,
+      "base_ft": 9670.75,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12793,
+      "y_base_px": 12813
+    },
+    {
+      "top_ft": 9670.75,
+      "base_ft": 9678.74,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12813,
+      "y_base_px": 12837
+    },
+    {
+      "top_ft": 9678.74,
+      "base_ft": 9682.07,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12837,
+      "y_base_px": 12847
+    },
+    {
+      "top_ft": 9682.07,
+      "base_ft": 9683.74,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12847,
+      "y_base_px": 12852
+    },
+    {
+      "top_ft": 9683.74,
+      "base_ft": 9686.73,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12852,
+      "y_base_px": 12861
+    },
+    {
+      "top_ft": 9686.73,
+      "base_ft": 9690.4,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12861,
+      "y_base_px": 12872
+    },
+    {
+      "top_ft": 9690.4,
+      "base_ft": 9691.73,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12872,
+      "y_base_px": 12876
+    },
+    {
+      "top_ft": 9691.73,
+      "base_ft": 9694.73,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12876,
+      "y_base_px": 12885
+    },
+    {
+      "top_ft": 9694.73,
+      "base_ft": 9699.05,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12885,
+      "y_base_px": 12898
+    },
+    {
+      "top_ft": 9699.05,
+      "base_ft": 9702.38,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12898,
+      "y_base_px": 12908
+    },
+    {
+      "top_ft": 9702.38,
+      "base_ft": 9706.05,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12908,
+      "y_base_px": 12919
+    },
+    {
+      "top_ft": 9706.05,
+      "base_ft": 9712.71,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12919,
+      "y_base_px": 12939
+    },
+    {
+      "top_ft": 9712.71,
+      "base_ft": 9714.7,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12939,
+      "y_base_px": 12945
+    },
+    {
+      "top_ft": 9714.7,
+      "base_ft": 9717.37,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12945,
+      "y_base_px": 12953
+    },
+    {
+      "top_ft": 9717.37,
+      "base_ft": 9719.37,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12953,
+      "y_base_px": 12959
+    },
+    {
+      "top_ft": 9719.37,
+      "base_ft": 9722.7,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12959,
+      "y_base_px": 12969
+    },
+    {
+      "top_ft": 9722.7,
+      "base_ft": 9728.69,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 12969,
+      "y_base_px": 12987
+    },
+    {
+      "top_ft": 9728.69,
+      "base_ft": 9736.68,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 12987,
+      "y_base_px": 13011
+    },
+    {
+      "top_ft": 9736.68,
+      "base_ft": 9740.68,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13011,
+      "y_base_px": 13023
+    },
+    {
+      "top_ft": 9740.68,
+      "base_ft": 9741.67,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13023,
+      "y_base_px": 13026
+    },
+    {
+      "top_ft": 9741.67,
+      "base_ft": 9748.33,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13026,
+      "y_base_px": 13046
+    },
+    {
+      "top_ft": 9748.33,
+      "base_ft": 9749.67,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13046,
+      "y_base_px": 13050
+    },
+    {
+      "top_ft": 9749.67,
+      "base_ft": 9752.33,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13050,
+      "y_base_px": 13058
+    },
+    {
+      "top_ft": 9752.33,
+      "base_ft": 9753.99,
+      "group": 15,
+      "lithology": "Chert",
+      "confidence": 0.073,
+      "alternatives": [
+        "Granite",
+        "Anhydrite"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13058,
+      "y_base_px": 13063
+    },
+    {
+      "top_ft": 9753.99,
+      "base_ft": 9756.99,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13063,
+      "y_base_px": 13072
+    },
+    {
+      "top_ft": 9756.99,
+      "base_ft": 9758.32,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13072,
+      "y_base_px": 13076
+    },
+    {
+      "top_ft": 9758.32,
+      "base_ft": 9761.65,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13076,
+      "y_base_px": 13086
+    },
+    {
+      "top_ft": 9761.65,
+      "base_ft": 9764.65,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13086,
+      "y_base_px": 13095
+    },
+    {
+      "top_ft": 9764.65,
+      "base_ft": 9768.64,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 13095,
+      "y_base_px": 13107
+    },
+    {
+      "top_ft": 9768.64,
+      "base_ft": 9776.64,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13107,
+      "y_base_px": 13131
+    },
+    {
+      "top_ft": 9776.64,
+      "base_ft": 9804.6,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13131,
+      "y_base_px": 13215
+    },
+    {
+      "top_ft": 9804.6,
+      "base_ft": 9807.6,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13215,
+      "y_base_px": 13224
+    },
+    {
+      "top_ft": 9807.6,
+      "base_ft": 9810.27,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13224,
+      "y_base_px": 13232
+    },
+    {
+      "top_ft": 9810.27,
+      "base_ft": 9816.59,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13232,
+      "y_base_px": 13251
+    },
+    {
+      "top_ft": 9816.59,
+      "base_ft": 9846.89,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13251,
+      "y_base_px": 13342
+    },
+    {
+      "top_ft": 9846.89,
+      "base_ft": 9849.56,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13342,
+      "y_base_px": 13350
+    },
+    {
+      "top_ft": 9849.56,
+      "base_ft": 9850.55,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13350,
+      "y_base_px": 13353
+    },
+    {
+      "top_ft": 9850.55,
+      "base_ft": 9853.55,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13353,
+      "y_base_px": 13362
+    },
+    {
+      "top_ft": 9853.55,
+      "base_ft": 9855.55,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13362,
+      "y_base_px": 13368
+    },
+    {
+      "top_ft": 9855.55,
+      "base_ft": 9858.88,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13368,
+      "y_base_px": 13378
+    },
+    {
+      "top_ft": 9858.88,
+      "base_ft": 9863.21,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13378,
+      "y_base_px": 13391
+    },
+    {
+      "top_ft": 9863.21,
+      "base_ft": 9866.87,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13391,
+      "y_base_px": 13402
+    },
+    {
+      "top_ft": 9866.87,
+      "base_ft": 9872.86,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13402,
+      "y_base_px": 13420
+    },
+    {
+      "top_ft": 9872.86,
+      "base_ft": 9882.85,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13420,
+      "y_base_px": 13450
+    },
+    {
+      "top_ft": 9882.85,
+      "base_ft": 9886.85,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13450,
+      "y_base_px": 13462
+    },
+    {
+      "top_ft": 9886.85,
+      "base_ft": 9892.84,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13462,
+      "y_base_px": 13480
+    },
+    {
+      "top_ft": 9892.84,
+      "base_ft": 9898.83,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13480,
+      "y_base_px": 13498
+    },
+    {
+      "top_ft": 9898.83,
+      "base_ft": 9906.83,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13498,
+      "y_base_px": 13522
+    },
+    {
+      "top_ft": 9906.83,
+      "base_ft": 9912.15,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13522,
+      "y_base_px": 13538
+    },
+    {
+      "top_ft": 9912.15,
+      "base_ft": 9913.15,
+      "group": 16,
+      "lithology": "Tuff",
+      "confidence": 0.236,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13538,
+      "y_base_px": 13541
+    },
+    {
+      "top_ft": 9913.15,
+      "base_ft": 9916.15,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13541,
+      "y_base_px": 13550
+    },
+    {
+      "top_ft": 9916.15,
+      "base_ft": 9917.48,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13550,
+      "y_base_px": 13554
+    },
+    {
+      "top_ft": 9917.48,
+      "base_ft": 9924.14,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13554,
+      "y_base_px": 13574
+    },
+    {
+      "top_ft": 9924.14,
+      "base_ft": 9931.8,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13574,
+      "y_base_px": 13597
+    },
+    {
+      "top_ft": 9931.8,
+      "base_ft": 9933.13,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13597,
+      "y_base_px": 13601
+    },
+    {
+      "top_ft": 9933.13,
+      "base_ft": 9939.46,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13601,
+      "y_base_px": 13620
+    },
+    {
+      "top_ft": 9939.46,
+      "base_ft": 9975.08,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13620,
+      "y_base_px": 13727
+    },
+    {
+      "top_ft": 9975.08,
+      "base_ft": 9980.08,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13727,
+      "y_base_px": 13742
+    },
+    {
+      "top_ft": 9980.08,
+      "base_ft": 9986.74,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13742,
+      "y_base_px": 13762
+    },
+    {
+      "top_ft": 9986.74,
+      "base_ft": 10022.36,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13762,
+      "y_base_px": 13869
+    },
+    {
+      "top_ft": 10022.36,
+      "base_ft": 10026.69,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13869,
+      "y_base_px": 13882
+    },
+    {
+      "top_ft": 10026.69,
+      "base_ft": 10028.69,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 13882,
+      "y_base_px": 13888
+    },
+    {
+      "top_ft": 10028.69,
+      "base_ft": 10042.68,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13888,
+      "y_base_px": 13930
+    },
+    {
+      "top_ft": 10042.68,
+      "base_ft": 10053.66,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13930,
+      "y_base_px": 13963
+    },
+    {
+      "top_ft": 10053.66,
+      "base_ft": 10060.66,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 13963,
+      "y_base_px": 13984
+    },
+    {
+      "top_ft": 10060.66,
+      "base_ft": 10068.98,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 13984,
+      "y_base_px": 14009
+    },
+    {
+      "top_ft": 10068.98,
+      "base_ft": 10072.64,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14009,
+      "y_base_px": 14020
+    },
+    {
+      "top_ft": 10072.64,
+      "base_ft": 10073.97,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14020,
+      "y_base_px": 14024
+    },
+    {
+      "top_ft": 10073.97,
+      "base_ft": 10076.64,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14024,
+      "y_base_px": 14032
+    },
+    {
+      "top_ft": 10076.64,
+      "base_ft": 10078.3,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14032,
+      "y_base_px": 14037
+    },
+    {
+      "top_ft": 10078.3,
+      "base_ft": 10080.63,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14037,
+      "y_base_px": 14044
+    },
+    {
+      "top_ft": 10080.63,
+      "base_ft": 10084.3,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14044,
+      "y_base_px": 14055
+    },
+    {
+      "top_ft": 10084.3,
+      "base_ft": 10091.95,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14055,
+      "y_base_px": 14078
+    },
+    {
+      "top_ft": 10091.95,
+      "base_ft": 10097.62,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14078,
+      "y_base_px": 14095
+    },
+    {
+      "top_ft": 10097.62,
+      "base_ft": 10100.61,
+      "group": 11,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14095,
+      "y_base_px": 14104
+    },
+    {
+      "top_ft": 10100.61,
+      "base_ft": 10103.94,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14104,
+      "y_base_px": 14114
+    },
+    {
+      "top_ft": 10103.94,
+      "base_ft": 10105.27,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14114,
+      "y_base_px": 14118
+    },
+    {
+      "top_ft": 10105.27,
+      "base_ft": 10107.94,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14118,
+      "y_base_px": 14126
+    },
+    {
+      "top_ft": 10107.94,
+      "base_ft": 10109.6,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14126,
+      "y_base_px": 14131
+    },
+    {
+      "top_ft": 10109.6,
+      "base_ft": 10111.93,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14131,
+      "y_base_px": 14138
+    },
+    {
+      "top_ft": 10111.93,
+      "base_ft": 10125.58,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14138,
+      "y_base_px": 14179
+    },
+    {
+      "top_ft": 10125.58,
+      "base_ft": 10128.58,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14179,
+      "y_base_px": 14188
+    },
+    {
+      "top_ft": 10128.58,
+      "base_ft": 10135.24,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14188,
+      "y_base_px": 14208
+    },
+    {
+      "top_ft": 10135.24,
+      "base_ft": 10136.24,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14208,
+      "y_base_px": 14211
+    },
+    {
+      "top_ft": 10136.24,
+      "base_ft": 10140.9,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14211,
+      "y_base_px": 14225
+    },
+    {
+      "top_ft": 10140.9,
+      "base_ft": 10150.89,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14225,
+      "y_base_px": 14255
+    },
+    {
+      "top_ft": 10150.89,
+      "base_ft": 10152.22,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14255,
+      "y_base_px": 14259
+    },
+    {
+      "top_ft": 10152.22,
+      "base_ft": 10154.89,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14259,
+      "y_base_px": 14267
+    },
+    {
+      "top_ft": 10154.89,
+      "base_ft": 10156.55,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14267,
+      "y_base_px": 14272
+    },
+    {
+      "top_ft": 10156.55,
+      "base_ft": 10158.88,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14272,
+      "y_base_px": 14279
+    },
+    {
+      "top_ft": 10158.88,
+      "base_ft": 10174.86,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14279,
+      "y_base_px": 14327
+    },
+    {
+      "top_ft": 10174.86,
+      "base_ft": 10178.86,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14327,
+      "y_base_px": 14339
+    },
+    {
+      "top_ft": 10178.86,
+      "base_ft": 10189.85,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14339,
+      "y_base_px": 14372
+    },
+    {
+      "top_ft": 10189.85,
+      "base_ft": 10193.84,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14372,
+      "y_base_px": 14384
+    },
+    {
+      "top_ft": 10193.84,
+      "base_ft": 10194.84,
+      "group": 16,
+      "lithology": "Tuff",
+      "confidence": 0.236,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14384,
+      "y_base_px": 14387
+    },
+    {
+      "top_ft": 10194.84,
+      "base_ft": 10197.84,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14387,
+      "y_base_px": 14396
+    },
+    {
+      "top_ft": 10197.84,
+      "base_ft": 10199.17,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14396,
+      "y_base_px": 14400
+    },
+    {
+      "top_ft": 10199.17,
+      "base_ft": 10201.83,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14400,
+      "y_base_px": 14408
+    },
+    {
+      "top_ft": 10201.83,
+      "base_ft": 10206.83,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14408,
+      "y_base_px": 14423
+    },
+    {
+      "top_ft": 10206.83,
+      "base_ft": 10218.82,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14423,
+      "y_base_px": 14459
+    },
+    {
+      "top_ft": 10218.82,
+      "base_ft": 10221.48,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14459,
+      "y_base_px": 14467
+    },
+    {
+      "top_ft": 10221.48,
+      "base_ft": 10229.14,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14467,
+      "y_base_px": 14490
+    },
+    {
+      "top_ft": 10229.14,
+      "base_ft": 10232.8,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14490,
+      "y_base_px": 14501
+    },
+    {
+      "top_ft": 10232.8,
+      "base_ft": 10236.8,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14501,
+      "y_base_px": 14513
+    },
+    {
+      "top_ft": 10236.8,
+      "base_ft": 10238.79,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14513,
+      "y_base_px": 14519
+    },
+    {
+      "top_ft": 10238.79,
+      "base_ft": 10240.46,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 14519,
+      "y_base_px": 14524
+    },
+    {
+      "top_ft": 10240.46,
+      "base_ft": 10245.79,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14524,
+      "y_base_px": 14540
+    },
+    {
+      "top_ft": 10245.79,
+      "base_ft": 10274.75,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14540,
+      "y_base_px": 14627
+    },
+    {
+      "top_ft": 10274.75,
+      "base_ft": 10278.75,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14627,
+      "y_base_px": 14639
+    },
+    {
+      "top_ft": 10278.75,
+      "base_ft": 10290.74,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14639,
+      "y_base_px": 14675
+    },
+    {
+      "top_ft": 10290.74,
+      "base_ft": 10293.07,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14675,
+      "y_base_px": 14682
+    },
+    {
+      "top_ft": 10293.07,
+      "base_ft": 10299.39,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14682,
+      "y_base_px": 14701
+    },
+    {
+      "top_ft": 10299.39,
+      "base_ft": 10334.69,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14701,
+      "y_base_px": 14807
+    },
+    {
+      "top_ft": 10334.69,
+      "base_ft": 10338.68,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14807,
+      "y_base_px": 14819
+    },
+    {
+      "top_ft": 10338.68,
+      "base_ft": 10339.68,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14819,
+      "y_base_px": 14822
+    },
+    {
+      "top_ft": 10339.68,
+      "base_ft": 10351.0,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14822,
+      "y_base_px": 14856
+    },
+    {
+      "top_ft": 10351.0,
+      "base_ft": 10358.99,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14856,
+      "y_base_px": 14880
+    },
+    {
+      "top_ft": 10358.99,
+      "base_ft": 10365.99,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14880,
+      "y_base_px": 14901
+    },
+    {
+      "top_ft": 10365.99,
+      "base_ft": 10369.98,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14901,
+      "y_base_px": 14913
+    },
+    {
+      "top_ft": 10369.98,
+      "base_ft": 10370.98,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14913,
+      "y_base_px": 14916
+    },
+    {
+      "top_ft": 10370.98,
+      "base_ft": 10377.64,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14916,
+      "y_base_px": 14936
+    },
+    {
+      "top_ft": 10377.64,
+      "base_ft": 10379.31,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 14936,
+      "y_base_px": 14941
+    },
+    {
+      "top_ft": 10379.31,
+      "base_ft": 10382.3,
+      "group": 11,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14941,
+      "y_base_px": 14950
+    },
+    {
+      "top_ft": 10382.3,
+      "base_ft": 10428.58,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14950,
+      "y_base_px": 15089
+    },
+    {
+      "top_ft": 10428.58,
+      "base_ft": 10432.58,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15089,
+      "y_base_px": 15101
+    },
+    {
+      "top_ft": 10432.58,
+      "base_ft": 10433.91,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15101,
+      "y_base_px": 15105
+    },
+    {
+      "top_ft": 10433.91,
+      "base_ft": 10436.58,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15105,
+      "y_base_px": 15113
+    },
+    {
+      "top_ft": 10436.58,
+      "base_ft": 10438.24,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15113,
+      "y_base_px": 15118
+    },
+    {
+      "top_ft": 10438.24,
+      "base_ft": 10440.57,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15118,
+      "y_base_px": 15125
+    },
+    {
+      "top_ft": 10440.57,
+      "base_ft": 10444.23,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15125,
+      "y_base_px": 15136
+    },
+    {
+      "top_ft": 10444.23,
+      "base_ft": 10448.23,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15136,
+      "y_base_px": 15148
+    },
+    {
+      "top_ft": 10448.23,
+      "base_ft": 10449.56,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15148,
+      "y_base_px": 15152
+    },
+    {
+      "top_ft": 10449.56,
+      "base_ft": 10456.22,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15152,
+      "y_base_px": 15172
+    },
+    {
+      "top_ft": 10456.22,
+      "base_ft": 10457.89,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15172,
+      "y_base_px": 15177
+    },
+    {
+      "top_ft": 10457.89,
+      "base_ft": 10463.88,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15177,
+      "y_base_px": 15195
+    },
+    {
+      "top_ft": 10463.88,
+      "base_ft": 10464.88,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15195,
+      "y_base_px": 15198
+    },
+    {
+      "top_ft": 10464.88,
+      "base_ft": 10475.53,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15198,
+      "y_base_px": 15230
+    },
+    {
+      "top_ft": 10475.53,
+      "base_ft": 10476.53,
+      "group": 16,
+      "lithology": "Tuff",
+      "confidence": 0.236,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15230,
+      "y_base_px": 15233
+    },
+    {
+      "top_ft": 10476.53,
+      "base_ft": 10479.53,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15233,
+      "y_base_px": 15242
+    },
+    {
+      "top_ft": 10479.53,
+      "base_ft": 10480.86,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15242,
+      "y_base_px": 15246
+    },
+    {
+      "top_ft": 10480.86,
+      "base_ft": 10483.52,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15246,
+      "y_base_px": 15254
+    },
+    {
+      "top_ft": 10483.52,
+      "base_ft": 10485.19,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15254,
+      "y_base_px": 15259
+    },
+    {
+      "top_ft": 10485.19,
+      "base_ft": 10487.52,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15259,
+      "y_base_px": 15266
+    },
+    {
+      "top_ft": 10487.52,
+      "base_ft": 10500.84,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15266,
+      "y_base_px": 15306
+    },
+    {
+      "top_ft": 10500.84,
+      "base_ft": 10504.17,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15306,
+      "y_base_px": 15316
+    },
+    {
+      "top_ft": 10504.17,
+      "base_ft": 10508.83,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15316,
+      "y_base_px": 15330
+    },
+    {
+      "top_ft": 10508.83,
+      "base_ft": 10638.69,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 15330,
+      "y_base_px": 15720
+    },
+    {
+      "top_ft": 10638.69,
+      "base_ft": 10642.68,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15720,
+      "y_base_px": 15732
+    },
+    {
+      "top_ft": 10642.68,
+      "base_ft": 10645.35,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 15732,
+      "y_base_px": 15740
+    },
+    {
+      "top_ft": 10645.35,
+      "base_ft": 10649.34,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 15740,
+      "y_base_px": 15752
+    },
+    {
+      "top_ft": 10649.34,
+      "base_ft": 10651.01,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15752,
+      "y_base_px": 15757
+    },
+    {
+      "top_ft": 10651.01,
+      "base_ft": 10655.0,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 15757,
+      "y_base_px": 15769
+    },
+    {
+      "top_ft": 10655.0,
+      "base_ft": 10659.0,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15769,
+      "y_base_px": 15781
+    },
+    {
+      "top_ft": 10659.0,
+      "base_ft": 10662.99,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 15781,
+      "y_base_px": 15793
+    },
+    {
+      "top_ft": 10662.99,
+      "base_ft": 10668.32,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15793,
+      "y_base_px": 15809
+    },
+    {
+      "top_ft": 10668.32,
+      "base_ft": 10670.98,
+      "group": 5,
+      "lithology": "Chert",
+      "confidence": 0.099,
+      "alternatives": [
+        "Anhydrite",
+        "Granite"
+      ],
+      "ambiguous": false,
+      "y_top_px": 15809,
+      "y_base_px": 15817
+    },
+    {
+      "top_ft": 10670.98,
+      "base_ft": 10674.65,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 15817,
+      "y_base_px": 15828
+    },
+    {
+      "top_ft": 10674.65,
+      "base_ft": 10678.31,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15828,
+      "y_base_px": 15839
+    },
+    {
+      "top_ft": 10678.31,
+      "base_ft": 10702.95,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 15839,
+      "y_base_px": 15913
+    },
+    {
+      "top_ft": 10702.95,
+      "base_ft": 10706.94,
+      "group": 4,
+      "lithology": "Chert",
+      "confidence": 0.779,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15913,
+      "y_base_px": 15925
+    },
+    {
+      "top_ft": 10706.94,
+      "base_ft": 10710.27,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15925,
+      "y_base_px": 15935
+    },
+    {
+      "top_ft": 10710.27,
+      "base_ft": 10711.27,
+      "group": 16,
+      "lithology": "Tuff",
+      "confidence": 0.236,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15935,
+      "y_base_px": 15938
+    },
+    {
+      "top_ft": 10711.27,
+      "base_ft": 10714.94,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 15938,
+      "y_base_px": 15949
+    },
+    {
+      "top_ft": 10714.94,
+      "base_ft": 10766.88,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 15949,
+      "y_base_px": 16105
+    },
+    {
+      "top_ft": 10766.88,
+      "base_ft": 10770.21,
+      "group": 6,
+      "lithology": "Granite",
+      "confidence": 0.042,
+      "alternatives": [
+        "Chert"
+      ],
+      "ambiguous": true,
+      "y_top_px": 16105,
+      "y_base_px": 16115
+    },
+    {
+      "top_ft": 10770.21,
+      "base_ft": 10772.54,
+      "group": 14,
+      "lithology": "Coal-lignite",
+      "confidence": 0.262,
+      "alternatives": [
+        "Clay/Shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 16115,
+      "y_base_px": 16122
+    },
+    {
+      "top_ft": 10772.54,
+      "base_ft": 10774.87,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 16122,
+      "y_base_px": 16129
+    },
+    {
+      "top_ft": 10774.87,
+      "base_ft": 10778.87,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16129,
+      "y_base_px": 16141
+    },
+    {
+      "top_ft": 10778.87,
+      "base_ft": 10782.86,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 16141,
+      "y_base_px": 16153
+    },
+    {
+      "top_ft": 10782.86,
+      "base_ft": 10784.86,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16153,
+      "y_base_px": 16159
+    },
+    {
+      "top_ft": 10784.86,
+      "base_ft": 10790.19,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16159,
+      "y_base_px": 16175
+    },
+    {
+      "top_ft": 10790.19,
+      "base_ft": 10793.52,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16175,
+      "y_base_px": 16185
+    },
+    {
+      "top_ft": 10793.52,
+      "base_ft": 10800.17,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16185,
+      "y_base_px": 16205
+    },
+    {
+      "top_ft": 10800.17,
+      "base_ft": 10801.84,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16205,
+      "y_base_px": 16210
+    },
+    {
+      "top_ft": 10801.84,
+      "base_ft": 10804.17,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16210,
+      "y_base_px": 16217
+    },
+    {
+      "top_ft": 10804.17,
+      "base_ft": 10810.83,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16217,
+      "y_base_px": 16237
+    },
+    {
+      "top_ft": 10810.83,
+      "base_ft": 10842.79,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 16237,
+      "y_base_px": 16333
+    },
+    {
+      "top_ft": 10842.79,
+      "base_ft": 10845.13,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16333,
+      "y_base_px": 16340
+    },
+    {
+      "top_ft": 10845.13,
+      "base_ft": 10850.79,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16340,
+      "y_base_px": 16357
+    },
+    {
+      "top_ft": 10850.79,
+      "base_ft": 10890.74,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 16357,
+      "y_base_px": 16477
+    },
+    {
+      "top_ft": 10890.74,
+      "base_ft": 10898.73,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16477,
+      "y_base_px": 16501
+    },
+    {
+      "top_ft": 10898.73,
+      "base_ft": 10918.71,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 16501,
+      "y_base_px": 16561
+    },
+    {
+      "top_ft": 10918.71,
+      "base_ft": 10922.04,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16561,
+      "y_base_px": 16571
+    },
+    {
+      "top_ft": 10922.04,
+      "base_ft": 10929.03,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16571,
+      "y_base_px": 16592
+    },
+    {
+      "top_ft": 10929.03,
+      "base_ft": 10936.69,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16592,
+      "y_base_px": 16615
+    },
+    {
+      "top_ft": 10936.69,
+      "base_ft": 10938.02,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16615,
+      "y_base_px": 16619
+    },
+    {
+      "top_ft": 10938.02,
+      "base_ft": 10949.34,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16619,
+      "y_base_px": 16653
+    },
+    {
+      "top_ft": 10949.34,
+      "base_ft": 10952.34,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16653,
+      "y_base_px": 16662
+    },
+    {
+      "top_ft": 10952.34,
+      "base_ft": 10953.34,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16662,
+      "y_base_px": 16665
+    },
+    {
+      "top_ft": 10953.34,
+      "base_ft": 10959.67,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16665,
+      "y_base_px": 16684
+    },
+    {
+      "top_ft": 10959.67,
+      "base_ft": 11014.94,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 16684,
+      "y_base_px": 16850
+    },
+    {
+      "top_ft": 11014.94,
+      "base_ft": 11022.93,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 16850,
+      "y_base_px": 16874
+    },
+    {
+      "top_ft": 11022.93,
+      "base_ft": 11086.86,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 16874,
+      "y_base_px": 17066
+    },
+    {
+      "top_ft": 11086.86,
+      "base_ft": 11093.19,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17066,
+      "y_base_px": 17085
+    },
+    {
+      "top_ft": 11093.19,
+      "base_ft": 11100.84,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17085,
+      "y_base_px": 17108
+    },
+    {
+      "top_ft": 11100.84,
+      "base_ft": 11102.51,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17108,
+      "y_base_px": 17113
+    },
+    {
+      "top_ft": 11102.51,
+      "base_ft": 11108.84,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17113,
+      "y_base_px": 17132
+    },
+    {
+      "top_ft": 11108.84,
+      "base_ft": 11109.83,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17132,
+      "y_base_px": 17135
+    },
+    {
+      "top_ft": 11109.83,
+      "base_ft": 11112.83,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17135,
+      "y_base_px": 17144
+    },
+    {
+      "top_ft": 11112.83,
+      "base_ft": 11125.82,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17144,
+      "y_base_px": 17183
+    },
+    {
+      "top_ft": 11125.82,
+      "base_ft": 11129.48,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17183,
+      "y_base_px": 17194
+    },
+    {
+      "top_ft": 11129.48,
+      "base_ft": 11132.48,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17194,
+      "y_base_px": 17203
+    },
+    {
+      "top_ft": 11132.48,
+      "base_ft": 11133.47,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17203,
+      "y_base_px": 17206
+    },
+    {
+      "top_ft": 11133.47,
+      "base_ft": 11140.13,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17206,
+      "y_base_px": 17226
+    },
+    {
+      "top_ft": 11140.13,
+      "base_ft": 11141.13,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17226,
+      "y_base_px": 17229
+    },
+    {
+      "top_ft": 11141.13,
+      "base_ft": 11147.46,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17229,
+      "y_base_px": 17248
+    },
+    {
+      "top_ft": 11147.46,
+      "base_ft": 11154.45,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 17248,
+      "y_base_px": 17269
+    },
+    {
+      "top_ft": 11154.45,
+      "base_ft": 11157.12,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17269,
+      "y_base_px": 17277
+    },
+    {
+      "top_ft": 11157.12,
+      "base_ft": 11167.44,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17277,
+      "y_base_px": 17308
+    },
+    {
+      "top_ft": 11167.44,
+      "base_ft": 11171.43,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17308,
+      "y_base_px": 17320
+    },
+    {
+      "top_ft": 11171.43,
+      "base_ft": 11172.76,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17320,
+      "y_base_px": 17324
+    },
+    {
+      "top_ft": 11172.76,
+      "base_ft": 11179.42,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17324,
+      "y_base_px": 17344
+    },
+    {
+      "top_ft": 11179.42,
+      "base_ft": 11180.42,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17344,
+      "y_base_px": 17347
+    },
+    {
+      "top_ft": 11180.42,
+      "base_ft": 11186.75,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17347,
+      "y_base_px": 17366
+    },
+    {
+      "top_ft": 11186.75,
+      "base_ft": 11354.23,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 17366,
+      "y_base_px": 17869
+    },
+    {
+      "top_ft": 11354.23,
+      "base_ft": 11358.23,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17869,
+      "y_base_px": 17881
+    },
+    {
+      "top_ft": 11358.23,
+      "base_ft": 11374.21,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 17881,
+      "y_base_px": 17929
+    },
+    {
+      "top_ft": 11374.21,
+      "base_ft": 11377.87,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17929,
+      "y_base_px": 17940
+    },
+    {
+      "top_ft": 11377.87,
+      "base_ft": 11386.53,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 17940,
+      "y_base_px": 17966
+    },
+    {
+      "top_ft": 11386.53,
+      "base_ft": 11390.19,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 17966,
+      "y_base_px": 17977
+    },
+    {
+      "top_ft": 11390.19,
+      "base_ft": 11429.81,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 17977,
+      "y_base_px": 18096
+    },
+    {
+      "top_ft": 11429.81,
+      "base_ft": 11433.48,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 18096,
+      "y_base_px": 18107
+    },
+    {
+      "top_ft": 11433.48,
+      "base_ft": 11434.48,
+      "group": 16,
+      "lithology": "Tuff",
+      "confidence": 0.236,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 18107,
+      "y_base_px": 18110
+    },
+    {
+      "top_ft": 11434.48,
+      "base_ft": 11437.81,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 18110,
+      "y_base_px": 18120
+    },
+    {
+      "top_ft": 11437.81,
+      "base_ft": 11517.72,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 18120,
+      "y_base_px": 18360
+    },
+    {
+      "top_ft": 11517.72,
+      "base_ft": 11520.71,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 18360,
+      "y_base_px": 18369
+    },
+    {
+      "top_ft": 11520.71,
+      "base_ft": 11523.71,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 18369,
+      "y_base_px": 18378
+    },
+    {
+      "top_ft": 11523.71,
+      "base_ft": 11541.36,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 18378,
+      "y_base_px": 18431
+    },
+    {
+      "top_ft": 11541.36,
+      "base_ft": 11543.69,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 18431,
+      "y_base_px": 18438
+    },
+    {
+      "top_ft": 11543.69,
+      "base_ft": 11559.34,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 18438,
+      "y_base_px": 18485
+    },
+    {
+      "top_ft": 11559.34,
+      "base_ft": 11562.67,
+      "group": 9,
+      "lithology": "Coal-lignite",
+      "confidence": 0.335,
+      "alternatives": [
+        "Clay/Shale",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 18485,
+      "y_base_px": 18495
+    },
+    {
+      "top_ft": 11562.67,
+      "base_ft": 11587.31,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 18495,
+      "y_base_px": 18569
+    },
+    {
+      "top_ft": 11587.31,
+      "base_ft": 11589.97,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 18569,
+      "y_base_px": 18577
+    },
+    {
+      "top_ft": 11589.97,
+      "base_ft": 11591.64,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 18577,
+      "y_base_px": 18582
+    },
+    {
+      "top_ft": 11591.64,
+      "base_ft": 12035.81,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 18582,
+      "y_base_px": 19916
+    },
+    {
+      "top_ft": 12035.81,
+      "base_ft": 12037.15,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19916,
+      "y_base_px": 19920
+    },
+    {
+      "top_ft": 12037.15,
+      "base_ft": 12039.48,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19920,
+      "y_base_px": 19927
+    },
+    {
+      "top_ft": 12039.48,
+      "base_ft": 12041.14,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19927,
+      "y_base_px": 19932
+    },
+    {
+      "top_ft": 12041.14,
+      "base_ft": 12043.47,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19932,
+      "y_base_px": 19939
+    },
+    {
+      "top_ft": 12043.47,
+      "base_ft": 12051.13,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19939,
+      "y_base_px": 19962
+    },
+    {
+      "top_ft": 12051.13,
+      "base_ft": 12054.79,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19962,
+      "y_base_px": 19973
+    },
+    {
+      "top_ft": 12054.79,
+      "base_ft": 12058.79,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19973,
+      "y_base_px": 19985
+    },
+    {
+      "top_ft": 12058.79,
+      "base_ft": 12060.12,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19985,
+      "y_base_px": 19989
+    },
+    {
+      "top_ft": 12060.12,
+      "base_ft": 12063.45,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 19989,
+      "y_base_px": 19999
+    },
+    {
+      "top_ft": 12063.45,
+      "base_ft": 12085.43,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 19999,
+      "y_base_px": 20065
+    },
+    {
+      "top_ft": 12085.43,
+      "base_ft": 12087.09,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20065,
+      "y_base_px": 20070
+    },
+    {
+      "top_ft": 12087.09,
+      "base_ft": 12094.42,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20070,
+      "y_base_px": 20092
+    },
+    {
+      "top_ft": 12094.42,
+      "base_ft": 12103.41,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20092,
+      "y_base_px": 20119
+    },
+    {
+      "top_ft": 12103.41,
+      "base_ft": 12108.4,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20119,
+      "y_base_px": 20134
+    },
+    {
+      "top_ft": 12108.4,
+      "base_ft": 12161.34,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 20134,
+      "y_base_px": 20293
+    },
+    {
+      "top_ft": 12161.34,
+      "base_ft": 12165.34,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20293,
+      "y_base_px": 20305
+    },
+    {
+      "top_ft": 12165.34,
+      "base_ft": 12188.31,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 20305,
+      "y_base_px": 20374
+    },
+    {
+      "top_ft": 12188.31,
+      "base_ft": 12191.98,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20374,
+      "y_base_px": 20385
+    },
+    {
+      "top_ft": 12191.98,
+      "base_ft": 12195.64,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20385,
+      "y_base_px": 20396
+    },
+    {
+      "top_ft": 12195.64,
+      "base_ft": 12248.25,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 20396,
+      "y_base_px": 20554
+    },
+    {
+      "top_ft": 12248.25,
+      "base_ft": 12250.58,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20554,
+      "y_base_px": 20561
+    },
+    {
+      "top_ft": 12250.58,
+      "base_ft": 12255.57,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20561,
+      "y_base_px": 20576
+    },
+    {
+      "top_ft": 12255.57,
+      "base_ft": 12363.45,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 20576,
+      "y_base_px": 20900
+    },
+    {
+      "top_ft": 12363.45,
+      "base_ft": 12369.45,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20900,
+      "y_base_px": 20918
+    },
+    {
+      "top_ft": 12369.45,
+      "base_ft": 12372.11,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20918,
+      "y_base_px": 20926
+    },
+    {
+      "top_ft": 12372.11,
+      "base_ft": 12379.77,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20926,
+      "y_base_px": 20949
+    },
+    {
+      "top_ft": 12379.77,
+      "base_ft": 12380.77,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20949,
+      "y_base_px": 20952
+    },
+    {
+      "top_ft": 12380.77,
+      "base_ft": 12383.43,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20952,
+      "y_base_px": 20960
+    },
+    {
+      "top_ft": 12383.43,
+      "base_ft": 12385.1,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20960,
+      "y_base_px": 20965
+    },
+    {
+      "top_ft": 12385.1,
+      "base_ft": 12391.42,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20965,
+      "y_base_px": 20984
+    },
+    {
+      "top_ft": 12391.42,
+      "base_ft": 12392.42,
+      "group": 16,
+      "lithology": "Tuff",
+      "confidence": 0.236,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20984,
+      "y_base_px": 20987
+    },
+    {
+      "top_ft": 12392.42,
+      "base_ft": 12399.41,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20987,
+      "y_base_px": 21008
+    },
+    {
+      "top_ft": 12399.41,
+      "base_ft": 12403.41,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21008,
+      "y_base_px": 21020
+    },
+    {
+      "top_ft": 12403.41,
+      "base_ft": 12411.07,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21020,
+      "y_base_px": 21043
+    },
+    {
+      "top_ft": 12411.07,
+      "base_ft": 12412.4,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21043,
+      "y_base_px": 21047
+    },
+    {
+      "top_ft": 12412.4,
+      "base_ft": 12423.05,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21047,
+      "y_base_px": 21079
+    },
+    {
+      "top_ft": 12423.05,
+      "base_ft": 12426.72,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21079,
+      "y_base_px": 21090
+    },
+    {
+      "top_ft": 12426.72,
+      "base_ft": 12430.38,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 21090,
+      "y_base_px": 21101
+    },
+    {
+      "top_ft": 12430.38,
+      "base_ft": 12431.71,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21101,
+      "y_base_px": 21105
+    },
+    {
+      "top_ft": 12431.71,
+      "base_ft": 12434.38,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21105,
+      "y_base_px": 21113
+    },
+    {
+      "top_ft": 12434.38,
+      "base_ft": 12437.37,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21113,
+      "y_base_px": 21122
+    },
+    {
+      "top_ft": 12437.37,
+      "base_ft": 12456.02,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 21122,
+      "y_base_px": 21178
+    },
+    {
+      "top_ft": 12456.02,
+      "base_ft": 12459.35,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21178,
+      "y_base_px": 21188
+    },
+    {
+      "top_ft": 12459.35,
+      "base_ft": 12462.01,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21188,
+      "y_base_px": 21196
+    },
+    {
+      "top_ft": 12462.01,
+      "base_ft": 12467.01,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21196,
+      "y_base_px": 21211
+    },
+    {
+      "top_ft": 12467.01,
+      "base_ft": 12477.99,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 21211,
+      "y_base_px": 21244
+    },
+    {
+      "top_ft": 12477.99,
+      "base_ft": 12481.32,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21244,
+      "y_base_px": 21254
+    },
+    {
+      "top_ft": 12481.32,
+      "base_ft": 12482.99,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21254,
+      "y_base_px": 21259
+    },
+    {
+      "top_ft": 12482.99,
+      "base_ft": 12489.31,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21259,
+      "y_base_px": 21278
+    },
+    {
+      "top_ft": 12489.31,
+      "base_ft": 12491.31,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21278,
+      "y_base_px": 21284
+    },
+    {
+      "top_ft": 12491.31,
+      "base_ft": 12510.62,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 21284,
+      "y_base_px": 21342
+    },
+    {
+      "top_ft": 12510.62,
+      "base_ft": 12517.62,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21342,
+      "y_base_px": 21363
+    },
+    {
+      "top_ft": 12517.62,
+      "base_ft": 12520.61,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21363,
+      "y_base_px": 21372
+    },
+    {
+      "top_ft": 12520.61,
+      "base_ft": 12521.61,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21372,
+      "y_base_px": 21375
+    },
+    {
+      "top_ft": 12521.61,
+      "base_ft": 12524.28,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21375,
+      "y_base_px": 21383
+    },
+    {
+      "top_ft": 12524.28,
+      "base_ft": 12525.94,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21383,
+      "y_base_px": 21388
+    },
+    {
+      "top_ft": 12525.94,
+      "base_ft": 12528.94,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21388,
+      "y_base_px": 21397
+    },
+    {
+      "top_ft": 12528.94,
+      "base_ft": 12539.93,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 21397,
+      "y_base_px": 21430
+    },
+    {
+      "top_ft": 12539.93,
+      "base_ft": 12541.92,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21430,
+      "y_base_px": 21436
+    },
+    {
+      "top_ft": 12541.92,
+      "base_ft": 12544.25,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21436,
+      "y_base_px": 21443
+    },
+    {
+      "top_ft": 12544.25,
+      "base_ft": 12551.91,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21443,
+      "y_base_px": 21466
+    },
+    {
+      "top_ft": 12551.91,
+      "base_ft": 12552.91,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21466,
+      "y_base_px": 21469
+    },
+    {
+      "top_ft": 12552.91,
+      "base_ft": 12557.91,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 21469,
+      "y_base_px": 21484
+    },
+    {
+      "top_ft": 12557.91,
+      "base_ft": 13353.7,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 21484,
+      "y_base_px": 23874
+    },
+    {
+      "top_ft": 13353.7,
+      "base_ft": 13357.03,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 23874,
+      "y_base_px": 23884
+    },
+    {
+      "top_ft": 13357.03,
+      "base_ft": 13370.68,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 23884,
+      "y_base_px": 23925
+    },
+    {
+      "top_ft": 13370.68,
+      "base_ft": 13374.01,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 23925,
+      "y_base_px": 23935
+    },
+    {
+      "top_ft": 13374.01,
+      "base_ft": 13407.64,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 23935,
+      "y_base_px": 24036
+    },
+    {
+      "top_ft": 13407.64,
+      "base_ft": 13410.63,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24036,
+      "y_base_px": 24045
+    },
+    {
+      "top_ft": 13410.63,
+      "base_ft": 13459.25,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24045,
+      "y_base_px": 24191
+    },
+    {
+      "top_ft": 13459.25,
+      "base_ft": 13461.58,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 24191,
+      "y_base_px": 24198
+    },
+    {
+      "top_ft": 13461.58,
+      "base_ft": 13464.91,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24198,
+      "y_base_px": 24208
+    },
+    {
+      "top_ft": 13464.91,
+      "base_ft": 13495.54,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24208,
+      "y_base_px": 24300
+    },
+    {
+      "top_ft": 13495.54,
+      "base_ft": 13498.2,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 24300,
+      "y_base_px": 24308
+    },
+    {
+      "top_ft": 13498.2,
+      "base_ft": 13501.2,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24308,
+      "y_base_px": 24317
+    },
+    {
+      "top_ft": 13501.2,
+      "base_ft": 13515.18,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24317,
+      "y_base_px": 24359
+    },
+    {
+      "top_ft": 13515.18,
+      "base_ft": 13517.52,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 24359,
+      "y_base_px": 24366
+    },
+    {
+      "top_ft": 13517.52,
+      "base_ft": 13563.46,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24366,
+      "y_base_px": 24504
+    },
+    {
+      "top_ft": 13563.46,
+      "base_ft": 13566.46,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 24504,
+      "y_base_px": 24513
+    },
+    {
+      "top_ft": 13566.46,
+      "base_ft": 13579.45,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24513,
+      "y_base_px": 24552
+    },
+    {
+      "top_ft": 13579.45,
+      "base_ft": 13587.11,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 24552,
+      "y_base_px": 24575
+    },
+    {
+      "top_ft": 13587.11,
+      "base_ft": 13617.07,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24575,
+      "y_base_px": 24665
+    },
+    {
+      "top_ft": 13617.07,
+      "base_ft": 13621.07,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24665,
+      "y_base_px": 24677
+    },
+    {
+      "top_ft": 13621.07,
+      "base_ft": 13644.38,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24677,
+      "y_base_px": 24747
+    },
+    {
+      "top_ft": 13644.38,
+      "base_ft": 13647.71,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24747,
+      "y_base_px": 24757
+    },
+    {
+      "top_ft": 13647.71,
+      "base_ft": 13650.37,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24757,
+      "y_base_px": 24765
+    },
+    {
+      "top_ft": 13650.37,
+      "base_ft": 13668.35,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24765,
+      "y_base_px": 24819
+    },
+    {
+      "top_ft": 13668.35,
+      "base_ft": 13675.01,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24819,
+      "y_base_px": 24839
+    },
+    {
+      "top_ft": 13675.01,
+      "base_ft": 13678.34,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24839,
+      "y_base_px": 24849
+    },
+    {
+      "top_ft": 13678.34,
+      "base_ft": 13702.31,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24849,
+      "y_base_px": 24921
+    },
+    {
+      "top_ft": 13702.31,
+      "base_ft": 13705.64,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24921,
+      "y_base_px": 24931
+    },
+    {
+      "top_ft": 13705.64,
+      "base_ft": 13715.3,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24931,
+      "y_base_px": 24960
+    },
+    {
+      "top_ft": 13715.3,
+      "base_ft": 13719.29,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 24960,
+      "y_base_px": 24972
+    },
+    {
+      "top_ft": 13719.29,
+      "base_ft": 13734.61,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 24972,
+      "y_base_px": 25018
+    },
+    {
+      "top_ft": 13734.61,
+      "base_ft": 13739.27,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 25018,
+      "y_base_px": 25032
+    },
+    {
+      "top_ft": 13739.27,
+      "base_ft": 13766.57,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25032,
+      "y_base_px": 25114
+    },
+    {
+      "top_ft": 13766.57,
+      "base_ft": 13769.24,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 25114,
+      "y_base_px": 25122
+    },
+    {
+      "top_ft": 13769.24,
+      "base_ft": 13772.57,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25122,
+      "y_base_px": 25132
+    },
+    {
+      "top_ft": 13772.57,
+      "base_ft": 13776.9,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25132,
+      "y_base_px": 25145
+    },
+    {
+      "top_ft": 13776.9,
+      "base_ft": 13807.2,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25145,
+      "y_base_px": 25236
+    },
+    {
+      "top_ft": 13807.2,
+      "base_ft": 13810.86,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25236,
+      "y_base_px": 25247
+    },
+    {
+      "top_ft": 13810.86,
+      "base_ft": 13814.19,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25247,
+      "y_base_px": 25257
+    },
+    {
+      "top_ft": 13814.19,
+      "base_ft": 13855.48,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25257,
+      "y_base_px": 25381
+    },
+    {
+      "top_ft": 13855.48,
+      "base_ft": 13858.14,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 25381,
+      "y_base_px": 25389
+    },
+    {
+      "top_ft": 13858.14,
+      "base_ft": 13861.47,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25389,
+      "y_base_px": 25399
+    },
+    {
+      "top_ft": 13861.47,
+      "base_ft": 13870.13,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25399,
+      "y_base_px": 25425
+    },
+    {
+      "top_ft": 13870.13,
+      "base_ft": 13873.79,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25425,
+      "y_base_px": 25436
+    },
+    {
+      "top_ft": 13873.79,
+      "base_ft": 13875.12,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25436,
+      "y_base_px": 25440
+    },
+    {
+      "top_ft": 13875.12,
+      "base_ft": 13878.45,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25440,
+      "y_base_px": 25450
+    },
+    {
+      "top_ft": 13878.45,
+      "base_ft": 13881.78,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25450,
+      "y_base_px": 25460
+    },
+    {
+      "top_ft": 13881.78,
+      "base_ft": 13885.11,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25460,
+      "y_base_px": 25470
+    },
+    {
+      "top_ft": 13885.11,
+      "base_ft": 13895.43,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25470,
+      "y_base_px": 25501
+    },
+    {
+      "top_ft": 13895.43,
+      "base_ft": 13901.09,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25501,
+      "y_base_px": 25518
+    },
+    {
+      "top_ft": 13901.09,
+      "base_ft": 13905.75,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25518,
+      "y_base_px": 25532
+    },
+    {
+      "top_ft": 13905.75,
+      "base_ft": 13908.09,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 25532,
+      "y_base_px": 25539
+    },
+    {
+      "top_ft": 13908.09,
+      "base_ft": 13936.05,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25539,
+      "y_base_px": 25623
+    },
+    {
+      "top_ft": 13936.05,
+      "base_ft": 13939.38,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25623,
+      "y_base_px": 25633
+    },
+    {
+      "top_ft": 13939.38,
+      "base_ft": 13957.03,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25633,
+      "y_base_px": 25686
+    },
+    {
+      "top_ft": 13957.03,
+      "base_ft": 13960.03,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25686,
+      "y_base_px": 25695
+    },
+    {
+      "top_ft": 13960.03,
+      "base_ft": 13977.01,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25695,
+      "y_base_px": 25746
+    },
+    {
+      "top_ft": 13977.01,
+      "base_ft": 13980.34,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25746,
+      "y_base_px": 25756
+    },
+    {
+      "top_ft": 13980.34,
+      "base_ft": 13983.67,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 25756,
+      "y_base_px": 25766
+    },
+    {
+      "top_ft": 13983.67,
+      "base_ft": 13989.0,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25766,
+      "y_base_px": 25782
+    },
+    {
+      "top_ft": 13989.0,
+      "base_ft": 13994.99,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25782,
+      "y_base_px": 25800
+    },
+    {
+      "top_ft": 13994.99,
+      "base_ft": 13997.32,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25800,
+      "y_base_px": 25807
+    },
+    {
+      "top_ft": 13997.32,
+      "base_ft": 14000.65,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25807,
+      "y_base_px": 25817
+    },
+    {
+      "top_ft": 14000.65,
+      "base_ft": 14004.65,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25817,
+      "y_base_px": 25829
+    },
+    {
+      "top_ft": 14004.65,
+      "base_ft": 14010.97,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25829,
+      "y_base_px": 25848
+    },
+    {
+      "top_ft": 14010.97,
+      "base_ft": 14014.3,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25848,
+      "y_base_px": 25858
+    },
+    {
+      "top_ft": 14014.3,
+      "base_ft": 14021.29,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25858,
+      "y_base_px": 25879
+    },
+    {
+      "top_ft": 14021.29,
+      "base_ft": 14024.62,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 25879,
+      "y_base_px": 25889
+    },
+    {
+      "top_ft": 14024.62,
+      "base_ft": 14092.88,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25889,
+      "y_base_px": 26094
+    },
+    {
+      "top_ft": 14092.88,
+      "base_ft": 14096.21,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 26094,
+      "y_base_px": 26104
+    },
+    {
+      "top_ft": 14096.21,
+      "base_ft": 14099.54,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 26104,
+      "y_base_px": 26114
+    },
+    {
+      "top_ft": 14099.54,
+      "base_ft": 14102.87,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 26114,
+      "y_base_px": 26124
+    },
+    {
+      "top_ft": 14102.87,
+      "base_ft": 14178.79,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 26124,
+      "y_base_px": 26352
+    },
+    {
+      "top_ft": 14178.79,
+      "base_ft": 14181.78,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 26352,
+      "y_base_px": 26361
+    },
+    {
+      "top_ft": 14181.78,
+      "base_ft": 14682.9,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 26361,
+      "y_base_px": 27866
+    },
+    {
+      "top_ft": 14682.9,
+      "base_ft": 14685.56,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 27866,
+      "y_base_px": 27874
+    },
+    {
+      "top_ft": 14685.56,
+      "base_ft": 14686.56,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 27874,
+      "y_base_px": 27877
+    },
+    {
+      "top_ft": 14686.56,
+      "base_ft": 14806.1,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 27877,
+      "y_base_px": 28236
+    },
+    {
+      "top_ft": 14806.1,
+      "base_ft": 14809.09,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 28236,
+      "y_base_px": 28245
+    },
+    {
+      "top_ft": 14809.09,
+      "base_ft": 14812.09,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 28245,
+      "y_base_px": 28254
+    },
+    {
+      "top_ft": 14812.09,
+      "base_ft": 14813.09,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 28254,
+      "y_base_px": 28257
+    },
+    {
+      "top_ft": 14813.09,
+      "base_ft": 14815.75,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 28257,
+      "y_base_px": 28265
+    },
+    {
+      "top_ft": 14815.75,
+      "base_ft": 14817.42,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 28265,
+      "y_base_px": 28270
+    },
+    {
+      "top_ft": 14817.42,
+      "base_ft": 14823.74,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 28270,
+      "y_base_px": 28289
+    },
+    {
+      "top_ft": 14823.74,
+      "base_ft": 14826.74,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 28289,
+      "y_base_px": 28298
+    },
+    {
+      "top_ft": 14826.74,
+      "base_ft": 14897.0,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 28298,
+      "y_base_px": 28509
+    },
+    {
+      "top_ft": 14897.0,
+      "base_ft": 14898.0,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 28509,
+      "y_base_px": 28512
+    },
+    {
+      "top_ft": 14898.0,
+      "base_ft": 14902.66,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 28512,
+      "y_base_px": 28526
+    },
+    {
+      "top_ft": 14902.66,
+      "base_ft": 14914.31,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 28526,
+      "y_base_px": 28561
+    },
+    {
+      "top_ft": 14914.31,
+      "base_ft": 14915.98,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 28561,
+      "y_base_px": 28566
+    },
+    {
+      "top_ft": 14915.98,
+      "base_ft": 15046.83,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 28566,
+      "y_base_px": 28959
+    },
+    {
+      "top_ft": 15046.83,
+      "base_ft": 15049.16,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 28959,
+      "y_base_px": 28966
+    },
+    {
+      "top_ft": 15049.16,
+      "base_ft": 15129.07,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 28966,
+      "y_base_px": 29206
+    },
+    {
+      "top_ft": 15129.07,
+      "base_ft": 15130.41,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29206,
+      "y_base_px": 29210
+    },
+    {
+      "top_ft": 15130.41,
+      "base_ft": 15133.07,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29210,
+      "y_base_px": 29218
+    },
+    {
+      "top_ft": 15133.07,
+      "base_ft": 15140.73,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29218,
+      "y_base_px": 29241
+    },
+    {
+      "top_ft": 15140.73,
+      "base_ft": 15141.73,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29241,
+      "y_base_px": 29244
+    },
+    {
+      "top_ft": 15141.73,
+      "base_ft": 15144.39,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29244,
+      "y_base_px": 29252
+    },
+    {
+      "top_ft": 15144.39,
+      "base_ft": 15146.06,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29252,
+      "y_base_px": 29257
+    },
+    {
+      "top_ft": 15146.06,
+      "base_ft": 15148.39,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29257,
+      "y_base_px": 29264
+    },
+    {
+      "top_ft": 15148.39,
+      "base_ft": 15150.05,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29264,
+      "y_base_px": 29269
+    },
+    {
+      "top_ft": 15150.05,
+      "base_ft": 15153.05,
+      "group": 11,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 29269,
+      "y_base_px": 29278
+    },
+    {
+      "top_ft": 15153.05,
+      "base_ft": 15156.71,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 29278,
+      "y_base_px": 29289
+    },
+    {
+      "top_ft": 15156.71,
+      "base_ft": 15160.37,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29289,
+      "y_base_px": 29300
+    },
+    {
+      "top_ft": 15160.37,
+      "base_ft": 15161.7,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29300,
+      "y_base_px": 29304
+    },
+    {
+      "top_ft": 15161.7,
+      "base_ft": 15164.37,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29304,
+      "y_base_px": 29312
+    },
+    {
+      "top_ft": 15164.37,
+      "base_ft": 15166.7,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29312,
+      "y_base_px": 29319
+    },
+    {
+      "top_ft": 15166.7,
+      "base_ft": 15172.03,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 29319,
+      "y_base_px": 29335
+    },
+    {
+      "top_ft": 15172.03,
+      "base_ft": 15173.36,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29335,
+      "y_base_px": 29339
+    },
+    {
+      "top_ft": 15173.36,
+      "base_ft": 15180.02,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29339,
+      "y_base_px": 29359
+    },
+    {
+      "top_ft": 15180.02,
+      "base_ft": 15181.02,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29359,
+      "y_base_px": 29362
+    },
+    {
+      "top_ft": 15181.02,
+      "base_ft": 15187.68,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29362,
+      "y_base_px": 29382
+    },
+    {
+      "top_ft": 15187.68,
+      "base_ft": 15200.0,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29382,
+      "y_base_px": 29419
+    },
+    {
+      "top_ft": 15200.0,
+      "base_ft": 15203.33,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29419,
+      "y_base_px": 29429
+    },
+    {
+      "top_ft": 15203.33,
+      "base_ft": 15204.66,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29429,
+      "y_base_px": 29433
+    },
+    {
+      "top_ft": 15204.66,
+      "base_ft": 15211.32,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29433,
+      "y_base_px": 29453
+    },
+    {
+      "top_ft": 15211.32,
+      "base_ft": 15212.32,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29453,
+      "y_base_px": 29456
+    },
+    {
+      "top_ft": 15212.32,
+      "base_ft": 15218.97,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29456,
+      "y_base_px": 29476
+    },
+    {
+      "top_ft": 15218.97,
+      "base_ft": 15220.31,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29476,
+      "y_base_px": 29480
+    },
+    {
+      "top_ft": 15220.31,
+      "base_ft": 15226.97,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29480,
+      "y_base_px": 29500
+    },
+    {
+      "top_ft": 15226.97,
+      "base_ft": 15227.96,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29500,
+      "y_base_px": 29503
+    },
+    {
+      "top_ft": 15227.96,
+      "base_ft": 15234.62,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29503,
+      "y_base_px": 29523
+    },
+    {
+      "top_ft": 15234.62,
+      "base_ft": 15235.62,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29523,
+      "y_base_px": 29526
+    },
+    {
+      "top_ft": 15235.62,
+      "base_ft": 15246.28,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29526,
+      "y_base_px": 29558
+    },
+    {
+      "top_ft": 15246.28,
+      "base_ft": 15247.61,
+      "group": 16,
+      "lithology": "Tuff",
+      "confidence": 0.236,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29558,
+      "y_base_px": 29562
+    },
+    {
+      "top_ft": 15247.61,
+      "base_ft": 15250.27,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29562,
+      "y_base_px": 29570
+    },
+    {
+      "top_ft": 15250.27,
+      "base_ft": 15258.26,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29570,
+      "y_base_px": 29594
+    },
+    {
+      "top_ft": 15258.26,
+      "base_ft": 15259.26,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29594,
+      "y_base_px": 29597
+    },
+    {
+      "top_ft": 15259.26,
+      "base_ft": 15272.92,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29597,
+      "y_base_px": 29638
+    },
+    {
+      "top_ft": 15272.92,
+      "base_ft": 15379.8,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 29638,
+      "y_base_px": 29959
+    },
+    {
+      "top_ft": 15379.8,
+      "base_ft": 15386.79,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29959,
+      "y_base_px": 29980
+    },
+    {
+      "top_ft": 15386.79,
+      "base_ft": 15394.45,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 29980,
+      "y_base_px": 30003
+    },
+    {
+      "top_ft": 15394.45,
+      "base_ft": 15395.45,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30003,
+      "y_base_px": 30006
+    },
+    {
+      "top_ft": 15395.45,
+      "base_ft": 15398.11,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30006,
+      "y_base_px": 30014
+    },
+    {
+      "top_ft": 15398.11,
+      "base_ft": 15399.78,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30014,
+      "y_base_px": 30019
+    },
+    {
+      "top_ft": 15399.78,
+      "base_ft": 15402.11,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30019,
+      "y_base_px": 30026
+    },
+    {
+      "top_ft": 15402.11,
+      "base_ft": 15403.77,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30026,
+      "y_base_px": 30031
+    },
+    {
+      "top_ft": 15403.77,
+      "base_ft": 15407.1,
+      "group": 8,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 30031,
+      "y_base_px": 30041
+    },
+    {
+      "top_ft": 15407.1,
+      "base_ft": 15410.1,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30041,
+      "y_base_px": 30050
+    },
+    {
+      "top_ft": 15410.1,
+      "base_ft": 15411.43,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30050,
+      "y_base_px": 30054
+    },
+    {
+      "top_ft": 15411.43,
+      "base_ft": 15414.76,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30054,
+      "y_base_px": 30064
+    },
+    {
+      "top_ft": 15414.76,
+      "base_ft": 15448.39,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 30064,
+      "y_base_px": 30165
+    },
+    {
+      "top_ft": 15448.39,
+      "base_ft": 15450.72,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30165,
+      "y_base_px": 30172
+    },
+    {
+      "top_ft": 15450.72,
+      "base_ft": 15455.38,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30172,
+      "y_base_px": 30186
+    },
+    {
+      "top_ft": 15455.38,
+      "base_ft": 15472.7,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 30186,
+      "y_base_px": 30238
+    },
+    {
+      "top_ft": 15472.7,
+      "base_ft": 15475.69,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30238,
+      "y_base_px": 30247
+    },
+    {
+      "top_ft": 15475.69,
+      "base_ft": 15541.29,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 30247,
+      "y_base_px": 30444
+    },
+    {
+      "top_ft": 15541.29,
+      "base_ft": 15544.62,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30444,
+      "y_base_px": 30454
+    },
+    {
+      "top_ft": 15544.62,
+      "base_ft": 15547.61,
+      "group": 11,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 30454,
+      "y_base_px": 30463
+    },
+    {
+      "top_ft": 15547.61,
+      "base_ft": 15550.94,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30463,
+      "y_base_px": 30473
+    },
+    {
+      "top_ft": 15550.94,
+      "base_ft": 15552.27,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30473,
+      "y_base_px": 30477
+    },
+    {
+      "top_ft": 15552.27,
+      "base_ft": 15558.6,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 30477,
+      "y_base_px": 30496
+    },
+    {
+      "top_ft": 15558.6,
+      "base_ft": 15816.32,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 30496,
+      "y_base_px": 31270
+    },
+    {
+      "top_ft": 15816.32,
+      "base_ft": 15817.65,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31270,
+      "y_base_px": 31274
+    },
+    {
+      "top_ft": 15817.65,
+      "base_ft": 15820.65,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31274,
+      "y_base_px": 31283
+    },
+    {
+      "top_ft": 15820.65,
+      "base_ft": 15822.31,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31283,
+      "y_base_px": 31288
+    },
+    {
+      "top_ft": 15822.31,
+      "base_ft": 15828.64,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31288,
+      "y_base_px": 31307
+    },
+    {
+      "top_ft": 15828.64,
+      "base_ft": 15829.64,
+      "group": 16,
+      "lithology": "Tuff",
+      "confidence": 0.236,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31307,
+      "y_base_px": 31310
+    },
+    {
+      "top_ft": 15829.64,
+      "base_ft": 15847.28,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31310,
+      "y_base_px": 31363
+    },
+    {
+      "top_ft": 15847.28,
+      "base_ft": 15854.28,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31363,
+      "y_base_px": 31384
+    },
+    {
+      "top_ft": 15854.28,
+      "base_ft": 15856.27,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31384,
+      "y_base_px": 31390
+    },
+    {
+      "top_ft": 15856.27,
+      "base_ft": 15864.6,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31390,
+      "y_base_px": 31415
+    },
+    {
+      "top_ft": 15864.6,
+      "base_ft": 15868.26,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31415,
+      "y_base_px": 31426
+    },
+    {
+      "top_ft": 15868.26,
+      "base_ft": 15869.59,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31426,
+      "y_base_px": 31430
+    },
+    {
+      "top_ft": 15869.59,
+      "base_ft": 15874.59,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31430,
+      "y_base_px": 31445
+    },
+    {
+      "top_ft": 15874.59,
+      "base_ft": 15878.58,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31445,
+      "y_base_px": 31457
+    },
+    {
+      "top_ft": 15878.58,
+      "base_ft": 15885.24,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31457,
+      "y_base_px": 31477
+    },
+    {
+      "top_ft": 15885.24,
+      "base_ft": 15892.23,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31477,
+      "y_base_px": 31498
+    },
+    {
+      "top_ft": 15892.23,
+      "base_ft": 15895.56,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31498,
+      "y_base_px": 31508
+    },
+    {
+      "top_ft": 15895.56,
+      "base_ft": 15896.89,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31508,
+      "y_base_px": 31512
+    },
+    {
+      "top_ft": 15896.89,
+      "base_ft": 15902.89,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31512,
+      "y_base_px": 31530
+    },
+    {
+      "top_ft": 15902.89,
+      "base_ft": 15940.85,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31530,
+      "y_base_px": 31644
+    },
+    {
+      "top_ft": 15940.85,
+      "base_ft": 15947.17,
+      "group": 3,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31644,
+      "y_base_px": 31663
+    },
+    {
+      "top_ft": 15947.17,
+      "base_ft": 15950.17,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31663,
+      "y_base_px": 31672
+    },
+    {
+      "top_ft": 15950.17,
+      "base_ft": 15957.49,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31672,
+      "y_base_px": 31694
+    },
+    {
+      "top_ft": 15957.49,
+      "base_ft": 15962.49,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 31694,
+      "y_base_px": 31709
+    },
+    {
+      "top_ft": 15962.49,
+      "base_ft": 15974.81,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31709,
+      "y_base_px": 31746
+    },
+    {
+      "top_ft": 15974.81,
+      "base_ft": 15978.14,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 31746,
+      "y_base_px": 31756
+    },
+    {
+      "top_ft": 15978.14,
+      "base_ft": 15981.47,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31756,
+      "y_base_px": 31766
+    },
+    {
+      "top_ft": 15981.47,
+      "base_ft": 15988.46,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 31766,
+      "y_base_px": 31787
+    },
+    {
+      "top_ft": 15988.46,
+      "base_ft": 16005.44,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31787,
+      "y_base_px": 31838
+    },
+    {
+      "top_ft": 16005.44,
+      "base_ft": 16012.43,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 31838,
+      "y_base_px": 31859
+    },
+    {
+      "top_ft": 16012.43,
+      "base_ft": 16019.43,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 31859,
+      "y_base_px": 31880
+    },
+    {
+      "top_ft": 16019.43,
+      "base_ft": 16066.04,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31880,
+      "y_base_px": 32020
+    },
+    {
+      "top_ft": 16066.04,
+      "base_ft": 16067.04,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32020,
+      "y_base_px": 32023
+    },
+    {
+      "top_ft": 16067.04,
+      "base_ft": 16098.01,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32023,
+      "y_base_px": 32116
+    },
+    {
+      "top_ft": 16098.01,
+      "base_ft": 16100.67,
+      "group": 8,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32116,
+      "y_base_px": 32124
+    },
+    {
+      "top_ft": 16100.67,
+      "base_ft": 16105.0,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32124,
+      "y_base_px": 32137
+    },
+    {
+      "top_ft": 16105.0,
+      "base_ft": 16108.66,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32137,
+      "y_base_px": 32148
+    },
+    {
+      "top_ft": 16108.66,
+      "base_ft": 16118.98,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32148,
+      "y_base_px": 32179
+    },
+    {
+      "top_ft": 16118.98,
+      "base_ft": 16121.98,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 32179,
+      "y_base_px": 32188
+    },
+    {
+      "top_ft": 16121.98,
+      "base_ft": 16125.98,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32188,
+      "y_base_px": 32200
+    },
+    {
+      "top_ft": 16125.98,
+      "base_ft": 16128.97,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 32200,
+      "y_base_px": 32209
+    },
+    {
+      "top_ft": 16128.97,
+      "base_ft": 16139.29,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32209,
+      "y_base_px": 32240
+    },
+    {
+      "top_ft": 16139.29,
+      "base_ft": 16142.62,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32240,
+      "y_base_px": 32250
+    },
+    {
+      "top_ft": 16142.62,
+      "base_ft": 16180.58,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32250,
+      "y_base_px": 32364
+    },
+    {
+      "top_ft": 16180.58,
+      "base_ft": 16183.91,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32364,
+      "y_base_px": 32374
+    },
+    {
+      "top_ft": 16183.91,
+      "base_ft": 16201.56,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32374,
+      "y_base_px": 32427
+    },
+    {
+      "top_ft": 16201.56,
+      "base_ft": 16204.56,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32427,
+      "y_base_px": 32436
+    },
+    {
+      "top_ft": 16204.56,
+      "base_ft": 16245.84,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32436,
+      "y_base_px": 32560
+    },
+    {
+      "top_ft": 16245.84,
+      "base_ft": 16249.17,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 32560,
+      "y_base_px": 32570
+    },
+    {
+      "top_ft": 16249.17,
+      "base_ft": 16269.48,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32570,
+      "y_base_px": 32631
+    },
+    {
+      "top_ft": 16269.48,
+      "base_ft": 16273.15,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32631,
+      "y_base_px": 32642
+    },
+    {
+      "top_ft": 16273.15,
+      "base_ft": 16297.12,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32642,
+      "y_base_px": 32714
+    },
+    {
+      "top_ft": 16297.12,
+      "base_ft": 16300.45,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 32714,
+      "y_base_px": 32724
+    },
+    {
+      "top_ft": 16300.45,
+      "base_ft": 16358.72,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32724,
+      "y_base_px": 32899
+    },
+    {
+      "top_ft": 16358.72,
+      "base_ft": 16362.05,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32899,
+      "y_base_px": 32909
+    },
+    {
+      "top_ft": 16362.05,
+      "base_ft": 16382.36,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32909,
+      "y_base_px": 32970
+    },
+    {
+      "top_ft": 16382.36,
+      "base_ft": 16385.02,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32970,
+      "y_base_px": 32978
+    },
+    {
+      "top_ft": 16385.02,
+      "base_ft": 16388.02,
+      "group": 12,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32978,
+      "y_base_px": 32987
+    },
+    {
+      "top_ft": 16388.02,
+      "base_ft": 16389.69,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32987,
+      "y_base_px": 32992
+    },
+    {
+      "top_ft": 16389.69,
+      "base_ft": 16397.01,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 32992,
+      "y_base_px": 33014
+    },
+    {
+      "top_ft": 16397.01,
+      "base_ft": 16399.34,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33014,
+      "y_base_px": 33021
+    },
+    {
+      "top_ft": 16399.34,
+      "base_ft": 16406.67,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33021,
+      "y_base_px": 33043
+    },
+    {
+      "top_ft": 16406.67,
+      "base_ft": 16413.33,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33043,
+      "y_base_px": 33063
+    },
+    {
+      "top_ft": 16413.33,
+      "base_ft": 16416.99,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33063,
+      "y_base_px": 33074
+    },
+    {
+      "top_ft": 16416.99,
+      "base_ft": 16424.98,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33074,
+      "y_base_px": 33098
+    },
+    {
+      "top_ft": 16424.98,
+      "base_ft": 16430.64,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33098,
+      "y_base_px": 33115
+    },
+    {
+      "top_ft": 16430.64,
+      "base_ft": 16431.64,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33115,
+      "y_base_px": 33118
+    },
+    {
+      "top_ft": 16431.64,
+      "base_ft": 16434.64,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33118,
+      "y_base_px": 33127
+    },
+    {
+      "top_ft": 16434.64,
+      "base_ft": 16436.3,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33127,
+      "y_base_px": 33132
+    },
+    {
+      "top_ft": 16436.3,
+      "base_ft": 16438.63,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33132,
+      "y_base_px": 33139
+    },
+    {
+      "top_ft": 16438.63,
+      "base_ft": 16446.29,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33139,
+      "y_base_px": 33162
+    },
+    {
+      "top_ft": 16446.29,
+      "base_ft": 16450.95,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33162,
+      "y_base_px": 33176
+    },
+    {
+      "top_ft": 16450.95,
+      "base_ft": 16464.94,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33176,
+      "y_base_px": 33218
+    },
+    {
+      "top_ft": 16464.94,
+      "base_ft": 16467.6,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33218,
+      "y_base_px": 33226
+    },
+    {
+      "top_ft": 16467.6,
+      "base_ft": 16473.93,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33226,
+      "y_base_px": 33245
+    },
+    {
+      "top_ft": 16473.93,
+      "base_ft": 16485.25,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33245,
+      "y_base_px": 33279
+    },
+    {
+      "top_ft": 16485.25,
+      "base_ft": 16495.24,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33279,
+      "y_base_px": 33309
+    },
+    {
+      "top_ft": 16495.24,
+      "base_ft": 16496.9,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33309,
+      "y_base_px": 33314
+    },
+    {
+      "top_ft": 16496.9,
+      "base_ft": 16502.89,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33314,
+      "y_base_px": 33332
+    },
+    {
+      "top_ft": 16502.89,
+      "base_ft": 16512.88,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33332,
+      "y_base_px": 33362
+    },
+    {
+      "top_ft": 16512.88,
+      "base_ft": 16516.21,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33362,
+      "y_base_px": 33372
+    },
+    {
+      "top_ft": 16516.21,
+      "base_ft": 16519.54,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33372,
+      "y_base_px": 33382
+    },
+    {
+      "top_ft": 16519.54,
+      "base_ft": 16570.82,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33382,
+      "y_base_px": 33536
+    },
+    {
+      "top_ft": 16570.82,
+      "base_ft": 16574.48,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33536,
+      "y_base_px": 33547
+    },
+    {
+      "top_ft": 16574.48,
+      "base_ft": 16601.79,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33547,
+      "y_base_px": 33629
+    },
+    {
+      "top_ft": 16601.79,
+      "base_ft": 16608.44,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33629,
+      "y_base_px": 33649
+    },
+    {
+      "top_ft": 16608.44,
+      "base_ft": 16701.34,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33649,
+      "y_base_px": 33928
+    },
+    {
+      "top_ft": 16701.34,
+      "base_ft": 16702.67,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33928,
+      "y_base_px": 33932
+    },
+    {
+      "top_ft": 16702.67,
+      "base_ft": 16707.67,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 33932,
+      "y_base_px": 33947
+    },
+    {
+      "top_ft": 16707.67,
+      "base_ft": 16745.63,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33947,
+      "y_base_px": 34061
+    },
+    {
+      "top_ft": 16745.63,
+      "base_ft": 16752.62,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34061,
+      "y_base_px": 34082
+    },
+    {
+      "top_ft": 16752.62,
+      "base_ft": 16859.83,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34082,
+      "y_base_px": 34404
+    },
+    {
+      "top_ft": 16859.83,
+      "base_ft": 16862.83,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 34404,
+      "y_base_px": 34413
+    },
+    {
+      "top_ft": 16862.83,
+      "base_ft": 16873.15,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34413,
+      "y_base_px": 34444
+    },
+    {
+      "top_ft": 16873.15,
+      "base_ft": 16875.15,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 34444,
+      "y_base_px": 34450
+    },
+    {
+      "top_ft": 16875.15,
+      "base_ft": 16877.81,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 34450,
+      "y_base_px": 34458
+    },
+    {
+      "top_ft": 16877.81,
+      "base_ft": 16880.48,
+      "group": 13,
+      "lithology": "Gas",
+      "confidence": 0.001,
+      "alternatives": [
+        "Conglomerate",
+        "Mud loss",
+        "Mud gain"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34458,
+      "y_base_px": 34466
+    },
+    {
+      "top_ft": 16880.48,
+      "base_ft": 16883.47,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34466,
+      "y_base_px": 34475
+    },
+    {
+      "top_ft": 16883.47,
+      "base_ft": 16893.8,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34475,
+      "y_base_px": 34506
+    },
+    {
+      "top_ft": 16893.8,
+      "base_ft": 16896.13,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34506,
+      "y_base_px": 34513
+    },
+    {
+      "top_ft": 16896.13,
+      "base_ft": 16898.79,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 34513,
+      "y_base_px": 34521
+    },
+    {
+      "top_ft": 16898.79,
+      "base_ft": 16900.46,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34521,
+      "y_base_px": 34526
+    },
+    {
+      "top_ft": 16900.46,
+      "base_ft": 16905.78,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34526,
+      "y_base_px": 34542
+    },
+    {
+      "top_ft": 16905.78,
+      "base_ft": 16917.77,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34542,
+      "y_base_px": 34578
+    },
+    {
+      "top_ft": 16917.77,
+      "base_ft": 16923.43,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34578,
+      "y_base_px": 34595
+    },
+    {
+      "top_ft": 16923.43,
+      "base_ft": 16925.43,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34595,
+      "y_base_px": 34601
+    },
+    {
+      "top_ft": 16925.43,
+      "base_ft": 16941.41,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34601,
+      "y_base_px": 34649
+    },
+    {
+      "top_ft": 16941.41,
+      "base_ft": 16945.41,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 34649,
+      "y_base_px": 34661
+    },
+    {
+      "top_ft": 16945.41,
+      "base_ft": 16952.07,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34661,
+      "y_base_px": 34681
+    },
+    {
+      "top_ft": 16952.07,
+      "base_ft": 16969.38,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34681,
+      "y_base_px": 34733
+    },
+    {
+      "top_ft": 16969.38,
+      "base_ft": 16972.04,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34733,
+      "y_base_px": 34741
+    },
+    {
+      "top_ft": 16972.04,
+      "base_ft": 16978.37,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34741,
+      "y_base_px": 34760
+    },
+    {
+      "top_ft": 16978.37,
+      "base_ft": 16979.37,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34760,
+      "y_base_px": 34763
+    },
+    {
+      "top_ft": 16979.37,
+      "base_ft": 16983.03,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34763,
+      "y_base_px": 34774
+    },
+    {
+      "top_ft": 16983.03,
+      "base_ft": 17007.01,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34774,
+      "y_base_px": 34846
+    },
+    {
+      "top_ft": 17007.01,
+      "base_ft": 17009.67,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34846,
+      "y_base_px": 34854
+    },
+    {
+      "top_ft": 17009.67,
+      "base_ft": 17020.99,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34854,
+      "y_base_px": 34888
+    },
+    {
+      "top_ft": 17020.99,
+      "base_ft": 17027.32,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34888,
+      "y_base_px": 34907
+    },
+    {
+      "top_ft": 17027.32,
+      "base_ft": 17030.31,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34907,
+      "y_base_px": 34916
+    },
+    {
+      "top_ft": 17030.31,
+      "base_ft": 17048.29,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34916,
+      "y_base_px": 34970
+    },
+    {
+      "top_ft": 17048.29,
+      "base_ft": 17049.63,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34970,
+      "y_base_px": 34974
+    },
+    {
+      "top_ft": 17049.63,
+      "base_ft": 17052.62,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34974,
+      "y_base_px": 34983
+    },
+    {
+      "top_ft": 17052.62,
+      "base_ft": 17054.62,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34983,
+      "y_base_px": 34989
+    },
+    {
+      "top_ft": 17054.62,
+      "base_ft": 17065.94,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 34989,
+      "y_base_px": 35023
+    },
+    {
+      "top_ft": 17065.94,
+      "base_ft": 17072.27,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35023,
+      "y_base_px": 35042
+    },
+    {
+      "top_ft": 17072.27,
+      "base_ft": 17073.27,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35042,
+      "y_base_px": 35045
+    },
+    {
+      "top_ft": 17073.27,
+      "base_ft": 17080.26,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35045,
+      "y_base_px": 35066
+    },
+    {
+      "top_ft": 17080.26,
+      "base_ft": 17081.26,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35066,
+      "y_base_px": 35069
+    },
+    {
+      "top_ft": 17081.26,
+      "base_ft": 17083.92,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35069,
+      "y_base_px": 35077
+    },
+    {
+      "top_ft": 17083.92,
+      "base_ft": 17089.25,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35077,
+      "y_base_px": 35093
+    },
+    {
+      "top_ft": 17089.25,
+      "base_ft": 17100.57,
+      "group": 1,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35093,
+      "y_base_px": 35127
+    },
+    {
+      "top_ft": 17100.57,
+      "base_ft": 17103.57,
+      "group": 2,
+      "lithology": "Tuff",
+      "confidence": 0.201,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35127,
+      "y_base_px": 35136
+    },
+    {
+      "top_ft": 17103.57,
+      "base_ft": 17117.88,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 35136,
+      "y_base_px": 35179
+    },
+    {
+      "top_ft": 17117.88,
+      "base_ft": 17120.88,
+      "group": 7,
+      "lithology": "Tuff",
+      "confidence": 0.235,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 35179,
+      "y_base_px": 35188
+    },
+    {
+      "top_ft": 17120.88,
+      "base_ft": 17386.25,
+      "group": 0,
+      "lithology": "Clay/Shale",
+      "confidence": 0.325,
+      "alternatives": [
+        "Coal-lignite",
+        "Marl"
+      ],
+      "ambiguous": true,
+      "y_top_px": 35188,
+      "y_base_px": 35985
+    }
+  ],
+  "seconds": 2.9
+}

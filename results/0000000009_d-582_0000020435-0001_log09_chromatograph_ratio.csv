@@ -1,0 +1,12 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+25800.13,25835.33,0,Clay,0.032,True,Silty|Shale|Dolomite
+25835.33,25836.63,4,Clay,0.095,True,Shale|Silty|Dolomite
+25836.63,25846.57,0,Clay,0.032,True,Silty|Shale|Dolomite
+25846.57,25848.37,4,Clay,0.095,True,Shale|Silty|Dolomite
+25848.37,25863.4,3,Clay,0.134,True,Shale|Silty|Dolomite
+25863.4,25869.94,2,Clay,0.174,True,Shale|Silty|Dolomite
+25869.94,25880.33,1,Sand and Sandstone,0.874,False,Anhydrite
+25880.33,25899.1,2,Clay,0.174,True,Shale|Silty|Dolomite
+25899.1,25920.42,1,Sand and Sandstone,0.874,False,Anhydrite
+25920.42,25939.15,2,Clay,0.174,True,Shale|Silty|Dolomite
+25939.15,25968.66,1,Sand and Sandstone,0.874,False,Anhydrite

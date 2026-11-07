@@ -1,0 +1,90 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+-439.7,383.18,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+383.18,386.47,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+386.47,410.34,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+410.34,425.92,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+425.92,457.58,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+457.58,486.64,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+486.64,539.96,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+539.96,590.3,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+590.3,626.55,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+626.55,752.57,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+752.57,1417.86,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+1417.86,1491.36,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+1491.36,1588.73,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+1588.73,1621.78,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+1621.78,1924.27,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+1924.27,1952.63,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+1952.63,2864.88,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+2864.88,2870.28,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+2870.28,2897.34,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+2897.34,2904.03,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+2904.03,2920.21,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+2920.21,2925.7,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+2925.7,2962.15,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+2962.15,2967.54,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+2967.54,2998.8,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+2998.8,3008.29,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+3008.29,3021.77,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+3021.77,3037.25,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+3037.25,3131.12,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+3131.12,3146.0,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+3146.0,3351.02,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+3351.02,3365.7,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+3365.7,3716.82,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+3716.82,3729.4,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+3729.4,3806.5,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+3806.5,4046.37,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4046.37,4116.67,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4116.67,4157.22,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4157.22,4242.4,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4242.4,4264.67,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4264.67,4332.98,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4332.98,4363.43,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4363.43,4461.4,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4461.4,4474.88,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4474.88,4524.91,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4524.91,4531.7,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4531.7,4676.7,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4676.7,4726.34,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4726.34,4741.22,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4741.22,4761.59,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4761.59,4768.98,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4768.98,4787.95,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4787.95,4816.31,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4816.31,4875.73,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4875.73,4946.74,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4946.74,4954.23,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4954.23,4959.62,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+4959.62,4965.71,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+4965.71,5018.44,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5018.44,5033.32,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5033.32,5036.61,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5036.61,5070.47,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5070.47,5246.92,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5246.92,5255.01,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5255.01,5267.2,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5267.2,5275.29,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5275.29,5341.4,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5341.4,5459.63,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5459.63,5485.3,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5485.3,5500.18,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5500.18,5577.97,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5577.97,5589.46,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5589.46,5728.17,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5728.17,5811.25,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5811.25,5836.92,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+5836.92,5877.56,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+5877.56,6030.95,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+6030.95,6037.74,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+6037.74,6049.93,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+6049.93,6055.32,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+6055.32,6154.68,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+6154.68,6161.47,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+6161.47,6193.23,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+6193.23,6199.92,1,Medium Sand,0.905,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+6199.92,6215.2,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+6215.2,6306.28,2,Medium Sand,0.071,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+6306.28,6311.47,0,Marl,0.124,True,Silty clay-shale|Clay Shale
+6311.47,6316.86,2,Medium Sand,0.071,True,Medium Sandstone|Coarse Sandstone|Fine Sandstone
+6316.86,6378.48,0,Marl,0.124,True,Silty clay-shale|Clay Shale

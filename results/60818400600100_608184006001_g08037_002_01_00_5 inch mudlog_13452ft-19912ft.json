@@ -1,0 +1,2637 @@
+{
+  "image": "60818400600100_608184006001_g08037_002_01_00_5 inch mudlog_13452ft-19912ft.tif",
+  "depth_fit": {
+    "px_per_ft": 10.0005,
+    "labels_used": 276,
+    "labels_read": 326,
+    "mean_residual_ft": 0.025,
+    "label_rotation_deg": 0
+  },
+  "legend": [
+    {
+      "name": "Siltstone",
+      "box": [
+        28,
+        657,
+        92,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Sandstone",
+      "box": [
+        343,
+        657,
+        407,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale",
+      "box": [
+        972,
+        657,
+        1036,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Halite",
+      "box": [
+        658,
+        657,
+        722,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Claystone",
+      "box": [
+        1287,
+        657,
+        1351,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone",
+      "box": [
+        28,
+        728,
+        92,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomitic Limestone",
+      "box": [
+        972,
+        728,
+        1036,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomite",
+      "box": [
+        343,
+        728,
+        407,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Marl",
+      "box": [
+        658,
+        728,
+        722,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Chalk",
+      "box": [
+        1287,
+        728,
+        1351,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Anhydrite",
+      "box": [
+        343,
+        798,
+        407,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Chert",
+      "box": [
+        658,
+        798,
+        722,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Volcanic",
+      "box": [
+        972,
+        798,
+        1036,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Granite",
+      "box": [
+        1287,
+        798,
+        1351,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Oil and Gas",
+      "box": [
+        28,
+        868,
+        92,
+        916
+      ],
+      "white": false
+    },
+    {
+      "name": "Gas_Good",
+      "box": [
+        343,
+        868,
+        407,
+        916
+      ],
+      "white": false
+    },
+    {
+      "name": "Dry",
+      "box": [
+        658,
+        868,
+        722,
+        916
+      ],
+      "white": false
+    },
+    {
+      "name": "Fresh water",
+      "box": [
+        972,
+        868,
+        1036,
+        916
+      ],
+      "white": false
+    },
+    {
+      "name": "Salt water",
+      "box": [
+        1287,
+        868,
+        1351,
+        916
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud gain",
+      "box": [
+        28,
+        938,
+        92,
+        986
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud loss",
+      "box": [
+        343,
+        938,
+        407,
+        986
+      ],
+      "white": false
+    },
+    {
+      "name": "Survey",
+      "box": [
+        658,
+        938,
+        722,
+        986
+      ],
+      "white": false
+    },
+    {
+      "name": "eit",
+      "box": [
+        972,
+        938,
+        1036,
+        986
+      ],
+      "white": false
+    },
+    {
+      "name": "Casing shoe",
+      "box": [
+        1287,
+        938,
+        1351,
+        986
+      ],
+      "white": false
+    },
+    {
+      "name": "Gypsum",
+      "box": [
+        28,
+        798,
+        92,
+        846
+      ],
+      "white": false
+    }
+  ],
+  "n_groups": 3,
+  "intervals": [
+    {
+      "top_ft": 13470.65,
+      "base_ft": 13568.14,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 2277,
+      "y_base_px": 3252
+    },
+    {
+      "top_ft": 13568.14,
+      "base_ft": 13573.24,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 3252,
+      "y_base_px": 3303
+    },
+    {
+      "top_ft": 13573.24,
+      "base_ft": 13576.44,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 3303,
+      "y_base_px": 3335
+    },
+    {
+      "top_ft": 13576.44,
+      "base_ft": 13583.44,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 3335,
+      "y_base_px": 3405
+    },
+    {
+      "top_ft": 13583.44,
+      "base_ft": 13620.04,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 3405,
+      "y_base_px": 3771
+    },
+    {
+      "top_ft": 13620.04,
+      "base_ft": 13627.04,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 3771,
+      "y_base_px": 3841
+    },
+    {
+      "top_ft": 13627.04,
+      "base_ft": 13643.34,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 3841,
+      "y_base_px": 4004
+    },
+    {
+      "top_ft": 13643.34,
+      "base_ft": 13649.74,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 4004,
+      "y_base_px": 4068
+    },
+    {
+      "top_ft": 13649.74,
+      "base_ft": 13680.64,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 4068,
+      "y_base_px": 4377
+    },
+    {
+      "top_ft": 13680.64,
+      "base_ft": 13687.34,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 4377,
+      "y_base_px": 4444
+    },
+    {
+      "top_ft": 13687.34,
+      "base_ft": 13700.43,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 4444,
+      "y_base_px": 4575
+    },
+    {
+      "top_ft": 13700.43,
+      "base_ft": 13703.83,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 4575,
+      "y_base_px": 4609
+    },
+    {
+      "top_ft": 13703.83,
+      "base_ft": 13709.43,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 4609,
+      "y_base_px": 4665
+    },
+    {
+      "top_ft": 13709.43,
+      "base_ft": 13713.53,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 4665,
+      "y_base_px": 4706
+    },
+    {
+      "top_ft": 13713.53,
+      "base_ft": 13801.33,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 4706,
+      "y_base_px": 5584
+    },
+    {
+      "top_ft": 13801.33,
+      "base_ft": 13809.73,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 5584,
+      "y_base_px": 5668
+    },
+    {
+      "top_ft": 13809.73,
+      "base_ft": 13825.23,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 5668,
+      "y_base_px": 5823
+    },
+    {
+      "top_ft": 13825.23,
+      "base_ft": 13839.03,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 5823,
+      "y_base_px": 5961
+    },
+    {
+      "top_ft": 13839.03,
+      "base_ft": 13844.63,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 5961,
+      "y_base_px": 6017
+    },
+    {
+      "top_ft": 13844.63,
+      "base_ft": 13855.83,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 6017,
+      "y_base_px": 6129
+    },
+    {
+      "top_ft": 13855.83,
+      "base_ft": 13858.33,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 6129,
+      "y_base_px": 6154
+    },
+    {
+      "top_ft": 13858.33,
+      "base_ft": 13868.43,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 6154,
+      "y_base_px": 6255
+    },
+    {
+      "top_ft": 13868.43,
+      "base_ft": 13890.83,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 6255,
+      "y_base_px": 6479
+    },
+    {
+      "top_ft": 13890.83,
+      "base_ft": 13902.63,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 6479,
+      "y_base_px": 6597
+    },
+    {
+      "top_ft": 13902.63,
+      "base_ft": 13960.82,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 6597,
+      "y_base_px": 7179
+    },
+    {
+      "top_ft": 13960.82,
+      "base_ft": 13977.62,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 7179,
+      "y_base_px": 7347
+    },
+    {
+      "top_ft": 13977.62,
+      "base_ft": 14072.12,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 7347,
+      "y_base_px": 8292
+    },
+    {
+      "top_ft": 14072.12,
+      "base_ft": 14084.82,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 8292,
+      "y_base_px": 8419
+    },
+    {
+      "top_ft": 14084.82,
+      "base_ft": 14104.42,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 8419,
+      "y_base_px": 8615
+    },
+    {
+      "top_ft": 14104.42,
+      "base_ft": 14115.72,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 8615,
+      "y_base_px": 8728
+    },
+    {
+      "top_ft": 14115.72,
+      "base_ft": 14230.41,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 8728,
+      "y_base_px": 9875
+    },
+    {
+      "top_ft": 14230.41,
+      "base_ft": 14238.11,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 9875,
+      "y_base_px": 9952
+    },
+    {
+      "top_ft": 14238.11,
+      "base_ft": 14298.21,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 9952,
+      "y_base_px": 10553
+    },
+    {
+      "top_ft": 14298.21,
+      "base_ft": 14303.81,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 10553,
+      "y_base_px": 10609
+    },
+    {
+      "top_ft": 14303.81,
+      "base_ft": 14378.3,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 10609,
+      "y_base_px": 11354
+    },
+    {
+      "top_ft": 14378.3,
+      "base_ft": 14386.7,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 11354,
+      "y_base_px": 11438
+    },
+    {
+      "top_ft": 14386.7,
+      "base_ft": 14419.7,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 11438,
+      "y_base_px": 11768
+    },
+    {
+      "top_ft": 14419.7,
+      "base_ft": 14491.0,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 11768,
+      "y_base_px": 12481
+    },
+    {
+      "top_ft": 14491.0,
+      "base_ft": 14525.1,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12481,
+      "y_base_px": 12822
+    },
+    {
+      "top_ft": 14525.1,
+      "base_ft": 14530.6,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12822,
+      "y_base_px": 12877
+    },
+    {
+      "top_ft": 14530.6,
+      "base_ft": 14546.4,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 12877,
+      "y_base_px": 13035
+    },
+    {
+      "top_ft": 14546.4,
+      "base_ft": 14552.8,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 13035,
+      "y_base_px": 13099
+    },
+    {
+      "top_ft": 14552.8,
+      "base_ft": 14838.08,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 13099,
+      "y_base_px": 15952
+    },
+    {
+      "top_ft": 14838.08,
+      "base_ft": 14839.38,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 15952,
+      "y_base_px": 15965
+    },
+    {
+      "top_ft": 14839.38,
+      "base_ft": 15313.96,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 15965,
+      "y_base_px": 20711
+    },
+    {
+      "top_ft": 15313.96,
+      "base_ft": 15316.56,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 20711,
+      "y_base_px": 20737
+    },
+    {
+      "top_ft": 15316.56,
+      "base_ft": 15530.65,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 20737,
+      "y_base_px": 22878
+    },
+    {
+      "top_ft": 15530.65,
+      "base_ft": 15560.75,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 22878,
+      "y_base_px": 23179
+    },
+    {
+      "top_ft": 15560.75,
+      "base_ft": 15594.35,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 23179,
+      "y_base_px": 23515
+    },
+    {
+      "top_ft": 15594.35,
+      "base_ft": 15598.05,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 23515,
+      "y_base_px": 23552
+    },
+    {
+      "top_ft": 15598.05,
+      "base_ft": 15615.55,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 23552,
+      "y_base_px": 23727
+    },
+    {
+      "top_ft": 15615.55,
+      "base_ft": 15619.75,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 23727,
+      "y_base_px": 23769
+    },
+    {
+      "top_ft": 15619.75,
+      "base_ft": 15797.64,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 23769,
+      "y_base_px": 25548
+    },
+    {
+      "top_ft": 15797.64,
+      "base_ft": 15803.94,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 25548,
+      "y_base_px": 25611
+    },
+    {
+      "top_ft": 15803.94,
+      "base_ft": 15887.74,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 25611,
+      "y_base_px": 26449
+    },
+    {
+      "top_ft": 15887.74,
+      "base_ft": 15890.34,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 26449,
+      "y_base_px": 26475
+    },
+    {
+      "top_ft": 15890.34,
+      "base_ft": 16653.4,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 26475,
+      "y_base_px": 34106
+    },
+    {
+      "top_ft": 16653.4,
+      "base_ft": 16659.4,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 34106,
+      "y_base_px": 34166
+    },
+    {
+      "top_ft": 16659.4,
+      "base_ft": 16724.4,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 34166,
+      "y_base_px": 34816
+    },
+    {
+      "top_ft": 16724.4,
+      "base_ft": 16768.9,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 34816,
+      "y_base_px": 35261
+    },
+    {
+      "top_ft": 16768.9,
+      "base_ft": 16903.99,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 35261,
+      "y_base_px": 36612
+    },
+    {
+      "top_ft": 16903.99,
+      "base_ft": 16906.59,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 36612,
+      "y_base_px": 36638
+    },
+    {
+      "top_ft": 16906.59,
+      "base_ft": 17164.78,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 36638,
+      "y_base_px": 39220
+    },
+    {
+      "top_ft": 17164.78,
+      "base_ft": 17168.38,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39220,
+      "y_base_px": 39256
+    },
+    {
+      "top_ft": 17168.38,
+      "base_ft": 17175.38,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39256,
+      "y_base_px": 39326
+    },
+    {
+      "top_ft": 17175.38,
+      "base_ft": 17179.48,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39326,
+      "y_base_px": 39367
+    },
+    {
+      "top_ft": 17179.48,
+      "base_ft": 17192.38,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39367,
+      "y_base_px": 39496
+    },
+    {
+      "top_ft": 17192.38,
+      "base_ft": 17195.68,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39496,
+      "y_base_px": 39529
+    },
+    {
+      "top_ft": 17195.68,
+      "base_ft": 17224.37,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39529,
+      "y_base_px": 39816
+    },
+    {
+      "top_ft": 17224.37,
+      "base_ft": 17227.47,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39816,
+      "y_base_px": 39847
+    },
+    {
+      "top_ft": 17227.47,
+      "base_ft": 17238.97,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39847,
+      "y_base_px": 39962
+    },
+    {
+      "top_ft": 17238.97,
+      "base_ft": 17241.27,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39962,
+      "y_base_px": 39985
+    },
+    {
+      "top_ft": 17241.27,
+      "base_ft": 17255.27,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 39985,
+      "y_base_px": 40125
+    },
+    {
+      "top_ft": 17255.27,
+      "base_ft": 17258.77,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 40125,
+      "y_base_px": 40160
+    },
+    {
+      "top_ft": 17258.77,
+      "base_ft": 17291.97,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 40160,
+      "y_base_px": 40492
+    },
+    {
+      "top_ft": 17291.97,
+      "base_ft": 17296.07,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 40492,
+      "y_base_px": 40533
+    },
+    {
+      "top_ft": 17296.07,
+      "base_ft": 17320.67,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 40533,
+      "y_base_px": 40779
+    },
+    {
+      "top_ft": 17320.67,
+      "base_ft": 17325.97,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 40779,
+      "y_base_px": 40832
+    },
+    {
+      "top_ft": 17325.97,
+      "base_ft": 17358.27,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 40832,
+      "y_base_px": 41155
+    },
+    {
+      "top_ft": 17358.27,
+      "base_ft": 17361.97,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 41155,
+      "y_base_px": 41192
+    },
+    {
+      "top_ft": 17361.97,
+      "base_ft": 17421.97,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 41192,
+      "y_base_px": 41792
+    },
+    {
+      "top_ft": 17421.97,
+      "base_ft": 17425.07,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 41792,
+      "y_base_px": 41823
+    },
+    {
+      "top_ft": 17425.07,
+      "base_ft": 17439.96,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 41823,
+      "y_base_px": 41972
+    },
+    {
+      "top_ft": 17439.96,
+      "base_ft": 17445.56,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 41972,
+      "y_base_px": 42028
+    },
+    {
+      "top_ft": 17445.56,
+      "base_ft": 17522.56,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 42028,
+      "y_base_px": 42798
+    },
+    {
+      "top_ft": 17522.56,
+      "base_ft": 17526.36,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 42798,
+      "y_base_px": 42836
+    },
+    {
+      "top_ft": 17526.36,
+      "base_ft": 17601.66,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 42836,
+      "y_base_px": 43589
+    },
+    {
+      "top_ft": 17601.66,
+      "base_ft": 17606.76,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 43589,
+      "y_base_px": 43640
+    },
+    {
+      "top_ft": 17606.76,
+      "base_ft": 17782.05,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 43640,
+      "y_base_px": 45393
+    },
+    {
+      "top_ft": 17782.05,
+      "base_ft": 17786.75,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 45393,
+      "y_base_px": 45440
+    },
+    {
+      "top_ft": 17786.75,
+      "base_ft": 17857.05,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 45440,
+      "y_base_px": 46143
+    },
+    {
+      "top_ft": 17857.05,
+      "base_ft": 17860.55,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 46143,
+      "y_base_px": 46178
+    },
+    {
+      "top_ft": 17860.55,
+      "base_ft": 17900.44,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 46178,
+      "y_base_px": 46577
+    },
+    {
+      "top_ft": 17900.44,
+      "base_ft": 17904.24,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 46577,
+      "y_base_px": 46615
+    },
+    {
+      "top_ft": 17904.24,
+      "base_ft": 17921.74,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 46615,
+      "y_base_px": 46790
+    },
+    {
+      "top_ft": 17921.74,
+      "base_ft": 17924.64,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 46790,
+      "y_base_px": 46819
+    },
+    {
+      "top_ft": 17924.64,
+      "base_ft": 18016.64,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 46819,
+      "y_base_px": 47739
+    },
+    {
+      "top_ft": 18016.64,
+      "base_ft": 18021.54,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 47739,
+      "y_base_px": 47788
+    },
+    {
+      "top_ft": 18021.54,
+      "base_ft": 18043.04,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 47788,
+      "y_base_px": 48003
+    },
+    {
+      "top_ft": 18043.04,
+      "base_ft": 18046.04,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 48003,
+      "y_base_px": 48033
+    },
+    {
+      "top_ft": 18046.04,
+      "base_ft": 18130.73,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 48033,
+      "y_base_px": 48880
+    },
+    {
+      "top_ft": 18130.73,
+      "base_ft": 18147.63,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 48880,
+      "y_base_px": 49049
+    },
+    {
+      "top_ft": 18147.63,
+      "base_ft": 18208.53,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 49049,
+      "y_base_px": 49658
+    },
+    {
+      "top_ft": 18208.53,
+      "base_ft": 18228.73,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 49658,
+      "y_base_px": 49860
+    },
+    {
+      "top_ft": 18228.73,
+      "base_ft": 18249.33,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 49860,
+      "y_base_px": 50066
+    },
+    {
+      "top_ft": 18249.33,
+      "base_ft": 18263.73,
+      "group": 2,
+      "lithology": "Marl",
+      "confidence": 0.059,
+      "alternatives": [
+        "Claystone",
+        "Mud gain",
+        "Mud loss"
+      ],
+      "ambiguous": false,
+      "y_top_px": 50066,
+      "y_base_px": 50210
+    },
+    {
+      "top_ft": 18263.73,
+      "base_ft": 18269.33,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 50210,
+      "y_base_px": 50266
+    },
+    {
+      "top_ft": 18269.33,
+      "base_ft": 18330.32,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 50266,
+      "y_base_px": 50876
+    },
+    {
+      "top_ft": 18330.32,
+      "base_ft": 18334.22,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 50876,
+      "y_base_px": 50915
+    },
+    {
+      "top_ft": 18334.22,
+      "base_ft": 18367.42,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 50915,
+      "y_base_px": 51247
+    },
+    {
+      "top_ft": 18367.42,
+      "base_ft": 18376.72,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 51247,
+      "y_base_px": 51340
+    },
+    {
+      "top_ft": 18376.72,
+      "base_ft": 18470.72,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 51340,
+      "y_base_px": 52280
+    },
+    {
+      "top_ft": 18470.72,
+      "base_ft": 18489.02,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 52280,
+      "y_base_px": 52463
+    },
+    {
+      "top_ft": 18489.02,
+      "base_ft": 18511.22,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 52463,
+      "y_base_px": 52685
+    },
+    {
+      "top_ft": 18511.22,
+      "base_ft": 18882.4,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 52685,
+      "y_base_px": 56397
+    },
+    {
+      "top_ft": 18882.4,
+      "base_ft": 18887.8,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 56397,
+      "y_base_px": 56451
+    },
+    {
+      "top_ft": 18887.8,
+      "base_ft": 18909.2,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 56451,
+      "y_base_px": 56665
+    },
+    {
+      "top_ft": 18909.2,
+      "base_ft": 18915.2,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 56665,
+      "y_base_px": 56725
+    },
+    {
+      "top_ft": 18915.2,
+      "base_ft": 19109.19,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 56725,
+      "y_base_px": 58665
+    },
+    {
+      "top_ft": 19109.19,
+      "base_ft": 19110.49,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 58665,
+      "y_base_px": 58678
+    },
+    {
+      "top_ft": 19110.49,
+      "base_ft": 19114.29,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 58678,
+      "y_base_px": 58716
+    },
+    {
+      "top_ft": 19114.29,
+      "base_ft": 19122.79,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 58716,
+      "y_base_px": 58801
+    },
+    {
+      "top_ft": 19122.79,
+      "base_ft": 19127.69,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 58801,
+      "y_base_px": 58850
+    },
+    {
+      "top_ft": 19127.69,
+      "base_ft": 19156.89,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 58850,
+      "y_base_px": 59142
+    },
+    {
+      "top_ft": 19156.89,
+      "base_ft": 19160.69,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59142,
+      "y_base_px": 59180
+    },
+    {
+      "top_ft": 19160.69,
+      "base_ft": 19180.79,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59180,
+      "y_base_px": 59381
+    },
+    {
+      "top_ft": 19180.79,
+      "base_ft": 19184.69,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59381,
+      "y_base_px": 59420
+    },
+    {
+      "top_ft": 19184.69,
+      "base_ft": 19201.38,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59420,
+      "y_base_px": 59587
+    },
+    {
+      "top_ft": 19201.38,
+      "base_ft": 19206.28,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59587,
+      "y_base_px": 59636
+    },
+    {
+      "top_ft": 19206.28,
+      "base_ft": 19215.38,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59636,
+      "y_base_px": 59727
+    },
+    {
+      "top_ft": 19215.38,
+      "base_ft": 19222.48,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59727,
+      "y_base_px": 59798
+    },
+    {
+      "top_ft": 19222.48,
+      "base_ft": 19237.08,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59798,
+      "y_base_px": 59944
+    },
+    {
+      "top_ft": 19237.08,
+      "base_ft": 19244.08,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 59944,
+      "y_base_px": 60014
+    },
+    {
+      "top_ft": 19244.08,
+      "base_ft": 19256.58,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60014,
+      "y_base_px": 60139
+    },
+    {
+      "top_ft": 19256.58,
+      "base_ft": 19261.48,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60139,
+      "y_base_px": 60188
+    },
+    {
+      "top_ft": 19261.48,
+      "base_ft": 19273.08,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60188,
+      "y_base_px": 60304
+    },
+    {
+      "top_ft": 19273.08,
+      "base_ft": 19277.28,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60304,
+      "y_base_px": 60346
+    },
+    {
+      "top_ft": 19277.28,
+      "base_ft": 19298.88,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60346,
+      "y_base_px": 60562
+    },
+    {
+      "top_ft": 19298.88,
+      "base_ft": 19303.08,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60562,
+      "y_base_px": 60604
+    },
+    {
+      "top_ft": 19303.08,
+      "base_ft": 19334.28,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60604,
+      "y_base_px": 60916
+    },
+    {
+      "top_ft": 19334.28,
+      "base_ft": 19340.08,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60916,
+      "y_base_px": 60974
+    },
+    {
+      "top_ft": 19340.08,
+      "base_ft": 19356.18,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 60974,
+      "y_base_px": 61135
+    },
+    {
+      "top_ft": 19356.18,
+      "base_ft": 19362.28,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 61135,
+      "y_base_px": 61196
+    },
+    {
+      "top_ft": 19362.28,
+      "base_ft": 19389.48,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 61196,
+      "y_base_px": 61468
+    },
+    {
+      "top_ft": 19389.48,
+      "base_ft": 19394.58,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 61468,
+      "y_base_px": 61519
+    },
+    {
+      "top_ft": 19394.58,
+      "base_ft": 19413.58,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 61519,
+      "y_base_px": 61709
+    },
+    {
+      "top_ft": 19413.58,
+      "base_ft": 19417.47,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 61709,
+      "y_base_px": 61748
+    },
+    {
+      "top_ft": 19417.47,
+      "base_ft": 19452.27,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 61748,
+      "y_base_px": 62096
+    },
+    {
+      "top_ft": 19452.27,
+      "base_ft": 19455.87,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62096,
+      "y_base_px": 62132
+    },
+    {
+      "top_ft": 19455.87,
+      "base_ft": 19463.17,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62132,
+      "y_base_px": 62205
+    },
+    {
+      "top_ft": 19463.17,
+      "base_ft": 19466.67,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62205,
+      "y_base_px": 62240
+    },
+    {
+      "top_ft": 19466.67,
+      "base_ft": 19496.57,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62240,
+      "y_base_px": 62539
+    },
+    {
+      "top_ft": 19496.57,
+      "base_ft": 19501.97,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62539,
+      "y_base_px": 62593
+    },
+    {
+      "top_ft": 19501.97,
+      "base_ft": 19526.37,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62593,
+      "y_base_px": 62837
+    },
+    {
+      "top_ft": 19526.37,
+      "base_ft": 19530.17,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62837,
+      "y_base_px": 62875
+    },
+    {
+      "top_ft": 19530.17,
+      "base_ft": 19541.27,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62875,
+      "y_base_px": 62986
+    },
+    {
+      "top_ft": 19541.27,
+      "base_ft": 19546.57,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 62986,
+      "y_base_px": 63039
+    },
+    {
+      "top_ft": 19546.57,
+      "base_ft": 19579.47,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 63039,
+      "y_base_px": 63368
+    },
+    {
+      "top_ft": 19579.47,
+      "base_ft": 19596.77,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 63368,
+      "y_base_px": 63541
+    },
+    {
+      "top_ft": 19596.77,
+      "base_ft": 19602.27,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 63541,
+      "y_base_px": 63596
+    },
+    {
+      "top_ft": 19602.27,
+      "base_ft": 19607.67,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 63596,
+      "y_base_px": 63650
+    },
+    {
+      "top_ft": 19607.67,
+      "base_ft": 19656.06,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 63650,
+      "y_base_px": 64134
+    },
+    {
+      "top_ft": 19656.06,
+      "base_ft": 19661.66,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 64134,
+      "y_base_px": 64190
+    },
+    {
+      "top_ft": 19661.66,
+      "base_ft": 19702.96,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 64190,
+      "y_base_px": 64603
+    },
+    {
+      "top_ft": 19702.96,
+      "base_ft": 19707.16,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 64603,
+      "y_base_px": 64645
+    },
+    {
+      "top_ft": 19707.16,
+      "base_ft": 19739.86,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 64645,
+      "y_base_px": 64972
+    },
+    {
+      "top_ft": 19739.86,
+      "base_ft": 19743.16,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 64972,
+      "y_base_px": 65005
+    },
+    {
+      "top_ft": 19743.16,
+      "base_ft": 19785.76,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 65005,
+      "y_base_px": 65431
+    },
+    {
+      "top_ft": 19785.76,
+      "base_ft": 19789.46,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 65431,
+      "y_base_px": 65468
+    },
+    {
+      "top_ft": 19789.46,
+      "base_ft": 19835.16,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 65468,
+      "y_base_px": 65925
+    },
+    {
+      "top_ft": 19835.16,
+      "base_ft": 19838.76,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 65925,
+      "y_base_px": 65961
+    },
+    {
+      "top_ft": 19838.76,
+      "base_ft": 19855.26,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 65961,
+      "y_base_px": 66126
+    },
+    {
+      "top_ft": 19855.26,
+      "base_ft": 19859.75,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 66126,
+      "y_base_px": 66171
+    },
+    {
+      "top_ft": 19859.75,
+      "base_ft": 19884.65,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 66171,
+      "y_base_px": 66420
+    },
+    {
+      "top_ft": 19884.65,
+      "base_ft": 19887.85,
+      "group": 1,
+      "lithology": "Sandstone",
+      "confidence": 0.946,
+      "alternatives": [
+        "Chert",
+        "Volcanic"
+      ],
+      "ambiguous": false,
+      "y_top_px": 66420,
+      "y_base_px": 66452
+    },
+    {
+      "top_ft": 19887.85,
+      "base_ft": 19912.25,
+      "group": 0,
+      "lithology": "Shale",
+      "confidence": 0.608,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": false,
+      "y_top_px": 66452,
+      "y_base_px": 66696
+    }
+  ],
+  "seconds": 7.0
+}

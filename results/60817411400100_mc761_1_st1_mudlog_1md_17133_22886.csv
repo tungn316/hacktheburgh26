@@ -1,0 +1,2126 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+17133.39,17135.89,-1,Carbonaceous,0.8,False,
+17135.89,17137.39,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17137.39,17141.39,-1,Carbonaceous,0.8,False,
+17141.39,17142.89,17,Available BB Anhydrite,0.305,False,Sample
+17142.89,17146.39,-1,Carbonaceous,0.8,False,
+17146.39,17148.39,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17148.39,17151.89,-1,Carbonaceous,0.8,False,
+17151.89,17153.39,17,Available BB Anhydrite,0.305,False,Sample
+17153.39,17157.39,-1,Carbonaceous,0.8,False,
+17157.39,17158.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17158.89,17162.39,-1,Carbonaceous,0.8,False,
+17162.39,17164.39,17,Available BB Anhydrite,0.305,False,Sample
+17164.39,17167.89,-1,Carbonaceous,0.8,False,
+17167.89,17169.39,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17169.39,17173.39,-1,Carbonaceous,0.8,False,
+17173.39,17174.89,17,Available BB Anhydrite,0.305,False,Sample
+17174.89,17178.4,-1,Carbonaceous,0.8,False,
+17178.4,17180.4,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17180.4,17183.9,-1,Carbonaceous,0.8,False,
+17183.9,17185.4,17,Available BB Anhydrite,0.305,False,Sample
+17185.4,17189.4,-1,Carbonaceous,0.8,False,
+17189.4,17190.9,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17190.9,17194.4,-1,Carbonaceous,0.8,False,
+17194.4,17196.4,17,Available BB Anhydrite,0.305,False,Sample
+17196.4,17199.9,-1,Carbonaceous,0.8,False,
+17199.9,17201.4,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17201.4,17205.4,-1,Carbonaceous,0.8,False,
+17205.4,17206.9,17,Available BB Anhydrite,0.305,False,Sample
+17206.9,17210.4,-1,Carbonaceous,0.8,False,
+17210.4,17212.4,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17212.4,17215.9,-1,Carbonaceous,0.8,False,
+17215.9,17217.4,17,Available BB Anhydrite,0.305,False,Sample
+17217.4,17221.4,-1,Carbonaceous,0.8,False,
+17221.4,17222.9,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17222.9,17226.4,-1,Carbonaceous,0.8,False,
+17226.4,17228.41,17,Available BB Anhydrite,0.305,False,Sample
+17228.41,17231.91,-1,Carbonaceous,0.8,False,
+17231.91,17233.41,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17233.41,17237.41,-1,Carbonaceous,0.8,False,
+17237.41,17238.91,17,Available BB Anhydrite,0.305,False,Sample
+17238.91,17242.41,-1,Carbonaceous,0.8,False,
+17242.41,17244.41,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17244.41,17247.91,-1,Carbonaceous,0.8,False,
+17247.91,17249.41,17,Available BB Anhydrite,0.305,False,Sample
+17249.41,17253.41,-1,Carbonaceous,0.8,False,
+17253.41,17254.91,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17254.91,17258.41,-1,Carbonaceous,0.8,False,
+17258.41,17260.41,17,Available BB Anhydrite,0.305,False,Sample
+17260.41,17263.91,-1,Carbonaceous,0.8,False,
+17263.91,17265.41,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17265.41,17269.41,-1,Carbonaceous,0.8,False,
+17269.41,17270.91,17,Available BB Anhydrite,0.305,False,Sample
+17270.91,17274.41,-1,Carbonaceous,0.8,False,
+17274.41,17276.41,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17276.41,17279.91,-1,Carbonaceous,0.8,False,
+17279.91,17281.42,17,Available BB Anhydrite,0.305,False,Sample
+17281.42,17285.42,-1,Carbonaceous,0.8,False,
+17285.42,17286.92,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17286.92,17290.42,-1,Carbonaceous,0.8,False,
+17290.42,17292.42,17,Available BB Anhydrite,0.305,False,Sample
+17292.42,17295.92,-1,Carbonaceous,0.8,False,
+17295.92,17297.42,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17297.42,17301.42,-1,Carbonaceous,0.8,False,
+17301.42,17302.92,17,Available BB Anhydrite,0.305,False,Sample
+17302.92,17306.42,-1,Carbonaceous,0.8,False,
+17306.42,17308.42,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17308.42,17311.92,-1,Carbonaceous,0.8,False,
+17311.92,17313.42,17,Available BB Anhydrite,0.305,False,Sample
+17313.42,17317.42,-1,Carbonaceous,0.8,False,
+17317.42,17318.92,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17318.92,17322.42,-1,Carbonaceous,0.8,False,
+17322.42,17324.42,17,Available BB Anhydrite,0.305,False,Sample
+17324.42,17327.92,-1,Carbonaceous,0.8,False,
+17327.92,17329.42,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17329.42,17333.43,-1,Carbonaceous,0.8,False,
+17333.43,17334.93,17,Available BB Anhydrite,0.305,False,Sample
+17334.93,17338.43,-1,Carbonaceous,0.8,False,
+17338.43,17340.43,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17340.43,17343.93,-1,Carbonaceous,0.8,False,
+17343.93,17345.43,17,Available BB Anhydrite,0.305,False,Sample
+17345.43,17349.43,-1,Carbonaceous,0.8,False,
+17349.43,17350.93,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17350.93,17354.43,-1,Carbonaceous,0.8,False,
+17354.43,17356.43,17,Available BB Anhydrite,0.305,False,Sample
+17356.43,17359.93,-1,Carbonaceous,0.8,False,
+17359.93,17361.43,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17361.43,17365.43,-1,Carbonaceous,0.8,False,
+17365.43,17366.93,17,Available BB Anhydrite,0.305,False,Sample
+17366.93,17370.43,-1,Carbonaceous,0.8,False,
+17370.43,17372.43,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17372.43,17375.93,-1,Carbonaceous,0.8,False,
+17375.93,17377.43,17,Available BB Anhydrite,0.305,False,Sample
+17377.43,17380.93,-1,Carbonaceous,0.8,False,
+17380.93,17382.43,29,Shale,0.271,False,Claystone|Argillaceous|Salt
+17382.43,17384.44,14,Siltstone,0.504,False,
+17384.44,17387.44,-1,Carbonaceous,0.8,False,
+17387.44,17395.44,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+17395.44,17397.44,14,Siltstone,0.504,False,
+17397.44,17399.94,-1,Carbonaceous,0.8,False,
+17399.94,17401.44,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17401.44,17406.44,3,Argillaceous,0.714,False,Claystone|Shale|Calcareous
+17406.44,17408.44,14,Siltstone,0.504,False,
+17408.44,17410.94,-1,Carbonaceous,0.8,False,
+17410.94,17412.44,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17412.44,17416.44,-1,Carbonaceous,0.8,False,
+17416.44,17418.44,17,Available BB Anhydrite,0.305,False,Sample
+17418.44,17420.94,14,Siltstone,0.504,False,
+17420.94,17422.44,30,Siltstone,0.234,False,
+17422.44,17425.94,19,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+17425.94,17427.44,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17427.44,17431.44,-1,Carbonaceous,0.8,False,
+17431.44,17433.44,14,Siltstone,0.504,False,
+17433.44,17435.95,-1,Carbonaceous,0.8,False,
+17435.95,17437.45,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17437.45,17440.45,-1,Carbonaceous,0.8,False,
+17440.45,17443.95,19,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+17443.95,17445.45,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17445.45,17448.45,2,Siltstone,0.277,False,
+17448.45,17452.45,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+17452.45,17454.95,14,Siltstone,0.504,False,
+17454.95,17456.95,27,Siltstone,0.53,False,
+17456.95,17459.45,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+17459.45,17462.45,11,Sandstone,0.343,False,
+17462.45,17464.95,14,Siltstone,0.504,False,
+17464.95,17468.95,10,Shale,0.447,False,Claystone|Argillaceous|Dolomitic
+17468.95,17470.45,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17470.45,17474.45,-1,Carbonaceous,0.8,False,
+17474.45,17475.95,17,Available BB Anhydrite,0.305,False,Sample
+17475.95,17479.45,-1,Carbonaceous,0.8,False,
+17479.45,17481.45,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17481.45,17484.95,19,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+17484.95,17486.45,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17486.45,17490.46,-1,Carbonaceous,0.8,False,
+17490.46,17491.96,17,Available BB Anhydrite,0.305,False,Sample
+17491.96,17495.46,-1,Carbonaceous,0.8,False,
+17495.46,17497.46,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17497.46,17500.96,-1,Carbonaceous,0.8,False,
+17500.96,17502.46,17,Available BB Anhydrite,0.305,False,Sample
+17502.46,17506.46,-1,Carbonaceous,0.8,False,
+17506.46,17507.96,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17507.96,17511.46,-1,Carbonaceous,0.8,False,
+17511.46,17513.46,17,Available BB Anhydrite,0.305,False,Sample
+17513.46,17516.96,-1,Carbonaceous,0.8,False,
+17516.96,17518.46,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17518.46,17523.46,3,Argillaceous,0.714,False,Claystone|Shale|Calcareous
+17523.46,17527.96,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+17527.96,17529.46,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17529.46,17533.46,-1,Carbonaceous,0.8,False,
+17533.46,17534.96,17,Available BB Anhydrite,0.305,False,Sample
+17534.96,17538.46,-1,Carbonaceous,0.8,False,
+17538.46,17540.47,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17540.47,17543.97,-1,Carbonaceous,0.8,False,
+17543.97,17545.47,17,Available BB Anhydrite,0.305,False,Sample
+17545.47,17549.47,-1,Carbonaceous,0.8,False,
+17549.47,17550.97,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17550.97,17554.47,-1,Carbonaceous,0.8,False,
+17554.47,17556.47,17,Available BB Anhydrite,0.305,False,Sample
+17556.47,17559.97,-1,Carbonaceous,0.8,False,
+17559.97,17561.47,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17561.47,17565.47,-1,Carbonaceous,0.8,False,
+17565.47,17567.47,17,Available BB Anhydrite,0.305,False,Sample
+17567.47,17571.47,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+17571.47,17573.97,-1,Carbonaceous,0.8,False,
+17573.97,17575.47,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17575.47,17579.47,-1,Carbonaceous,0.8,False,
+17579.47,17580.97,17,Available BB Anhydrite,0.305,False,Sample
+17580.97,17584.47,-1,Carbonaceous,0.8,False,
+17584.47,17586.47,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17586.47,17588.97,11,Sandstone,0.343,False,
+17588.97,17590.47,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+17590.47,17593.98,11,Sandstone,0.343,False,
+17593.98,17595.98,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+17595.98,17599.48,11,Sandstone,0.343,False,
+17599.48,17601.48,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+17601.48,17605.98,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+17605.98,17607.48,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17607.48,17611.48,-1,Carbonaceous,0.8,False,
+17611.48,17612.98,17,Available BB Anhydrite,0.305,False,Sample
+17612.98,17616.48,-1,Carbonaceous,0.8,False,
+17616.48,17618.48,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17618.48,17621.98,-1,Carbonaceous,0.8,False,
+17621.98,17623.48,17,Available BB Anhydrite,0.305,False,Sample
+17623.48,17627.48,-1,Carbonaceous,0.8,False,
+17627.48,17628.98,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17628.98,17632.48,-1,Carbonaceous,0.8,False,
+17632.48,17634.48,17,Available BB Anhydrite,0.305,False,Sample
+17634.48,17637.98,-1,Carbonaceous,0.8,False,
+17637.98,17639.48,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17639.48,17643.49,-1,Carbonaceous,0.8,False,
+17643.49,17644.99,17,Available BB Anhydrite,0.305,False,Sample
+17644.99,17648.49,-1,Carbonaceous,0.8,False,
+17648.49,17650.49,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17650.49,17653.99,-1,Carbonaceous,0.8,False,
+17653.99,17655.49,17,Available BB Anhydrite,0.305,False,Sample
+17655.49,17659.49,-1,Carbonaceous,0.8,False,
+17659.49,17660.99,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17660.99,17664.49,-1,Carbonaceous,0.8,False,
+17664.49,17666.49,17,Available BB Anhydrite,0.305,False,Sample
+17666.49,17669.99,-1,Carbonaceous,0.8,False,
+17669.99,17671.49,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17671.49,17675.49,-1,Carbonaceous,0.8,False,
+17675.49,17676.99,17,Available BB Anhydrite,0.305,False,Sample
+17676.99,17680.49,-1,Carbonaceous,0.8,False,
+17680.49,17682.49,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17682.49,17685.99,-1,Carbonaceous,0.8,False,
+17685.99,17687.49,17,Available BB Anhydrite,0.305,False,Sample
+17687.49,17691.49,-1,Carbonaceous,0.8,False,
+17691.49,17692.99,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17692.99,17696.5,-1,Carbonaceous,0.8,False,
+17696.5,17698.5,17,Available BB Anhydrite,0.305,False,Sample
+17698.5,17702.0,-1,Carbonaceous,0.8,False,
+17702.0,17703.5,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17703.5,17707.5,-1,Carbonaceous,0.8,False,
+17707.5,17709.0,17,Available BB Anhydrite,0.305,False,Sample
+17709.0,17712.5,-1,Carbonaceous,0.8,False,
+17712.5,17714.5,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17714.5,17718.0,-1,Carbonaceous,0.8,False,
+17718.0,17719.5,17,Available BB Anhydrite,0.305,False,Sample
+17719.5,17723.5,-1,Carbonaceous,0.8,False,
+17723.5,17725.0,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17725.0,17728.5,-1,Carbonaceous,0.8,False,
+17728.5,17730.5,17,Available BB Anhydrite,0.305,False,Sample
+17730.5,17734.0,-1,Carbonaceous,0.8,False,
+17734.0,17735.5,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17735.5,17739.5,-1,Carbonaceous,0.8,False,
+17739.5,17741.0,17,Available BB Anhydrite,0.305,False,Sample
+17741.0,17744.5,-1,Carbonaceous,0.8,False,
+17744.5,17746.51,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17746.51,17750.01,-1,Carbonaceous,0.8,False,
+17750.01,17751.51,17,Available BB Anhydrite,0.305,False,Sample
+17751.51,17755.51,-1,Carbonaceous,0.8,False,
+17755.51,17757.01,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17757.01,17760.51,-1,Carbonaceous,0.8,False,
+17760.51,17762.51,17,Available BB Anhydrite,0.305,False,Sample
+17762.51,17766.01,-1,Carbonaceous,0.8,False,
+17766.01,17767.51,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17767.51,17771.51,-1,Carbonaceous,0.8,False,
+17771.51,17773.01,17,Available BB Anhydrite,0.305,False,Sample
+17773.01,17776.51,-1,Carbonaceous,0.8,False,
+17776.51,17778.51,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17778.51,17782.01,-1,Carbonaceous,0.8,False,
+17782.01,17783.51,17,Available BB Anhydrite,0.305,False,Sample
+17783.51,17787.51,-1,Carbonaceous,0.8,False,
+17787.51,17789.01,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17789.01,17792.51,-1,Carbonaceous,0.8,False,
+17792.51,17794.51,17,Available BB Anhydrite,0.305,False,Sample
+17794.51,17798.01,-1,Carbonaceous,0.8,False,
+17798.01,17799.52,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17799.52,17803.52,-1,Carbonaceous,0.8,False,
+17803.52,17805.02,17,Available BB Anhydrite,0.305,False,Sample
+17805.02,17808.52,-1,Carbonaceous,0.8,False,
+17808.52,17810.52,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17810.52,17814.02,-1,Carbonaceous,0.8,False,
+17814.02,17815.52,17,Available BB Anhydrite,0.305,False,Sample
+17815.52,17819.52,-1,Carbonaceous,0.8,False,
+17819.52,17821.02,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17821.02,17824.52,-1,Carbonaceous,0.8,False,
+17824.52,17826.52,17,Available BB Anhydrite,0.305,False,Sample
+17826.52,17830.02,-1,Carbonaceous,0.8,False,
+17830.02,17831.52,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17831.52,17835.52,-1,Carbonaceous,0.8,False,
+17835.52,17837.02,17,Available BB Anhydrite,0.305,False,Sample
+17837.02,17840.52,-1,Carbonaceous,0.8,False,
+17840.52,17842.52,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17842.52,17846.02,-1,Carbonaceous,0.8,False,
+17846.02,17847.52,17,Available BB Anhydrite,0.305,False,Sample
+17847.52,17851.53,-1,Carbonaceous,0.8,False,
+17851.53,17853.03,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17853.03,17856.53,-1,Carbonaceous,0.8,False,
+17856.53,17858.53,17,Available BB Anhydrite,0.305,False,Sample
+17858.53,17862.03,-1,Carbonaceous,0.8,False,
+17862.03,17863.53,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17863.53,17867.53,-1,Carbonaceous,0.8,False,
+17867.53,17869.03,17,Available BB Anhydrite,0.305,False,Sample
+17869.03,17873.03,-1,Carbonaceous,0.8,False,
+17873.03,17874.53,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17874.53,17878.03,-1,Carbonaceous,0.8,False,
+17878.03,17880.03,17,Available BB Anhydrite,0.305,False,Sample
+17880.03,17883.53,-1,Carbonaceous,0.8,False,
+17883.53,17885.03,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17885.03,17889.03,-1,Carbonaceous,0.8,False,
+17889.03,17890.53,17,Available BB Anhydrite,0.305,False,Sample
+17890.53,17894.03,-1,Carbonaceous,0.8,False,
+17894.03,17896.03,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17896.03,17899.53,-1,Carbonaceous,0.8,False,
+17899.53,17901.03,17,Available BB Anhydrite,0.305,False,Sample
+17901.03,17905.04,-1,Carbonaceous,0.8,False,
+17905.04,17906.54,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17906.54,17910.04,-1,Carbonaceous,0.8,False,
+17910.04,17912.04,17,Available BB Anhydrite,0.305,False,Sample
+17912.04,17915.54,-1,Carbonaceous,0.8,False,
+17915.54,17917.04,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17917.04,17921.04,-1,Carbonaceous,0.8,False,
+17921.04,17922.54,17,Available BB Anhydrite,0.305,False,Sample
+17922.54,17926.04,-1,Carbonaceous,0.8,False,
+17926.04,17928.04,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17928.04,17931.54,-1,Carbonaceous,0.8,False,
+17931.54,17933.04,17,Available BB Anhydrite,0.305,False,Sample
+17933.04,17937.04,-1,Carbonaceous,0.8,False,
+17937.04,17938.54,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17938.54,17942.04,-1,Carbonaceous,0.8,False,
+17942.04,17944.04,17,Available BB Anhydrite,0.305,False,Sample
+17944.04,17947.54,-1,Carbonaceous,0.8,False,
+17947.54,17949.04,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17949.04,17953.04,-1,Carbonaceous,0.8,False,
+17953.04,17954.55,17,Available BB Anhydrite,0.305,False,Sample
+17954.55,17958.05,-1,Carbonaceous,0.8,False,
+17958.05,17960.05,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17960.05,17963.55,-1,Carbonaceous,0.8,False,
+17963.55,17965.05,17,Available BB Anhydrite,0.305,False,Sample
+17965.05,17969.05,-1,Carbonaceous,0.8,False,
+17969.05,17970.55,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17970.55,17974.05,-1,Carbonaceous,0.8,False,
+17974.05,17976.05,17,Available BB Anhydrite,0.305,False,Sample
+17976.05,17979.55,-1,Carbonaceous,0.8,False,
+17979.55,17981.05,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17981.05,17985.05,-1,Carbonaceous,0.8,False,
+17985.05,17986.55,17,Available BB Anhydrite,0.305,False,Sample
+17986.55,17990.05,-1,Carbonaceous,0.8,False,
+17990.05,17992.05,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+17992.05,17995.55,-1,Carbonaceous,0.8,False,
+17995.55,17997.05,17,Available BB Anhydrite,0.305,False,Sample
+17997.05,18001.05,-1,Carbonaceous,0.8,False,
+18001.05,18002.55,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18002.55,18006.06,-1,Carbonaceous,0.8,False,
+18006.06,18008.06,17,Available BB Anhydrite,0.305,False,Sample
+18008.06,18011.56,-1,Carbonaceous,0.8,False,
+18011.56,18013.06,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18013.06,18017.06,-1,Carbonaceous,0.8,False,
+18017.06,18018.56,17,Available BB Anhydrite,0.305,False,Sample
+18018.56,18022.06,-1,Carbonaceous,0.8,False,
+18022.06,18024.06,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18024.06,18027.56,-1,Carbonaceous,0.8,False,
+18027.56,18029.06,17,Available BB Anhydrite,0.305,False,Sample
+18029.06,18033.06,-1,Carbonaceous,0.8,False,
+18033.06,18034.56,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18034.56,18038.06,-1,Carbonaceous,0.8,False,
+18038.06,18040.06,17,Available BB Anhydrite,0.305,False,Sample
+18040.06,18043.56,-1,Carbonaceous,0.8,False,
+18043.56,18045.06,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18045.06,18049.06,-1,Carbonaceous,0.8,False,
+18049.06,18050.56,17,Available BB Anhydrite,0.305,False,Sample
+18050.56,18054.06,-1,Carbonaceous,0.8,False,
+18054.06,18056.06,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18056.06,18059.57,-1,Carbonaceous,0.8,False,
+18059.57,18061.07,17,Available BB Anhydrite,0.305,False,Sample
+18061.07,18065.07,-1,Carbonaceous,0.8,False,
+18065.07,18066.57,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18066.57,18070.07,-1,Carbonaceous,0.8,False,
+18070.07,18072.07,17,Available BB Anhydrite,0.305,False,Sample
+18072.07,18075.57,-1,Carbonaceous,0.8,False,
+18075.57,18077.07,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18077.07,18081.07,-1,Carbonaceous,0.8,False,
+18081.07,18082.57,17,Available BB Anhydrite,0.305,False,Sample
+18082.57,18086.07,-1,Carbonaceous,0.8,False,
+18086.07,18088.07,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18088.07,18091.57,-1,Carbonaceous,0.8,False,
+18091.57,18093.07,17,Available BB Anhydrite,0.305,False,Sample
+18093.07,18097.07,-1,Carbonaceous,0.8,False,
+18097.07,18098.57,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18098.57,18101.57,-1,Carbonaceous,0.8,False,
+18101.57,18104.07,14,Siltstone,0.504,False,
+18104.07,18107.07,-1,Carbonaceous,0.8,False,
+18107.07,18108.57,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18108.57,18112.58,-1,Carbonaceous,0.8,False,
+18112.58,18114.58,17,Available BB Anhydrite,0.305,False,Sample
+18114.58,18118.58,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18118.58,18121.08,-1,Carbonaceous,0.8,False,
+18121.08,18122.58,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18122.58,18126.08,-1,Carbonaceous,0.8,False,
+18126.08,18127.58,29,Shale,0.271,False,Claystone|Argillaceous|Salt
+18127.58,18130.08,14,Siltstone,0.504,False,
+18130.08,18133.08,-1,Carbonaceous,0.8,False,
+18133.08,18134.58,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18134.58,18138.58,-1,Carbonaceous,0.8,False,
+18138.58,18140.58,14,Siltstone,0.504,False,
+18140.58,18143.08,-1,Carbonaceous,0.8,False,
+18143.08,18144.58,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18144.58,18148.58,-1,Carbonaceous,0.8,False,
+18148.58,18150.08,17,Available BB Anhydrite,0.305,False,Sample
+18150.08,18153.58,-1,Carbonaceous,0.8,False,
+18153.58,18156.08,17,Available BB Anhydrite,0.305,False,Sample
+18156.08,18159.58,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18159.58,18162.09,-1,Carbonaceous,0.8,False,
+18162.09,18163.59,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18163.59,18170.09,2,Siltstone,0.277,False,
+18170.09,18172.09,27,Siltstone,0.53,False,
+18172.09,18176.09,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18176.09,18177.59,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18177.59,18181.59,-1,Carbonaceous,0.8,False,
+18181.59,18183.59,17,Available BB Anhydrite,0.305,False,Sample
+18183.59,18188.09,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18188.09,18189.59,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18189.59,18193.59,-1,Carbonaceous,0.8,False,
+18193.59,18195.09,17,Available BB Anhydrite,0.305,False,Sample
+18195.09,18198.59,-1,Carbonaceous,0.8,False,
+18198.59,18200.59,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18200.59,18204.09,-1,Carbonaceous,0.8,False,
+18204.09,18205.59,17,Available BB Anhydrite,0.305,False,Sample
+18205.59,18208.59,-1,Carbonaceous,0.8,False,
+18208.59,18211.09,14,Siltstone,0.504,False,
+18211.09,18213.1,27,Siltstone,0.53,False,
+18213.1,18217.1,12,Breccia,0.019,True,Sandstone|Conglomerate ies
+18217.1,18218.6,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18218.6,18222.1,11,Sandstone,0.343,False,
+18222.1,18224.6,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18224.6,18229.1,9,Siltstone,0.061,False,Silty|Siliceous|Kaolinite
+18229.1,18230.6,30,Siltstone,0.234,False,
+18230.6,18232.6,14,Siltstone,0.504,False,
+18232.6,18235.1,-1,Carbonaceous,0.8,False,
+18235.1,18236.6,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18236.6,18240.6,-1,Carbonaceous,0.8,False,
+18240.6,18242.1,17,Available BB Anhydrite,0.305,False,Sample
+18242.1,18245.6,-1,Carbonaceous,0.8,False,
+18245.6,18247.6,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18247.6,18251.1,-1,Carbonaceous,0.8,False,
+18251.1,18252.6,17,Available BB Anhydrite,0.305,False,Sample
+18252.6,18256.6,-1,Carbonaceous,0.8,False,
+18256.6,18258.1,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18258.1,18261.6,-1,Carbonaceous,0.8,False,
+18261.6,18263.6,17,Available BB Anhydrite,0.305,False,Sample
+18263.6,18267.11,-1,Carbonaceous,0.8,False,
+18267.11,18268.61,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18268.61,18272.61,-1,Carbonaceous,0.8,False,
+18272.61,18274.11,17,Available BB Anhydrite,0.305,False,Sample
+18274.11,18277.61,-1,Carbonaceous,0.8,False,
+18277.61,18279.61,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18279.61,18283.11,-1,Carbonaceous,0.8,False,
+18283.11,18284.61,17,Available BB Anhydrite,0.305,False,Sample
+18284.61,18288.61,-1,Carbonaceous,0.8,False,
+18288.61,18290.11,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18290.11,18293.61,-1,Carbonaceous,0.8,False,
+18293.61,18295.61,17,Available BB Anhydrite,0.305,False,Sample
+18295.61,18299.11,-1,Carbonaceous,0.8,False,
+18299.11,18300.61,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18300.61,18304.11,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+18304.11,18305.61,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18305.61,18309.11,11,Sandstone,0.343,False,
+18309.11,18311.11,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18311.11,18314.61,11,Sandstone,0.343,False,
+18314.61,18317.62,-1,Carbonaceous,0.8,False,
+18317.62,18320.12,11,Sandstone,0.343,False,
+18320.12,18322.12,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18322.12,18327.12,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18327.12,18328.62,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18328.62,18331.12,11,Sandstone,0.343,False,
+18331.12,18333.12,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18333.12,18340.62,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18340.62,18343.12,11,Sandstone,0.343,False,
+18343.12,18344.62,31,Siliceous,0.008,True,Silty|Kaolinite|Argillaceous
+18344.62,18348.62,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18348.62,18352.12,11,Sandstone,0.343,False,
+18352.12,18354.12,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18354.12,18357.62,11,Sandstone,0.343,False,
+18357.62,18359.62,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18359.62,18365.12,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18365.12,18366.62,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18366.62,18369.13,11,Sandstone,0.343,False,
+18369.13,18371.13,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18371.13,18373.63,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+18373.63,18377.63,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18377.63,18381.13,11,Sandstone,0.343,False,
+18381.13,18383.13,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18383.13,18387.13,11,Sandstone,0.343,False,
+18387.13,18388.63,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18388.63,18392.13,11,Sandstone,0.343,False,
+18392.13,18394.13,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18394.13,18397.13,-1,Carbonaceous,0.8,False,
+18397.13,18398.63,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18398.63,18401.63,-1,Carbonaceous,0.8,False,
+18401.63,18406.13,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18406.13,18408.63,11,Sandstone,0.343,False,
+18408.63,18411.63,-1,Carbonaceous,0.8,False,
+18411.63,18414.13,11,Sandstone,0.343,False,
+18414.13,18416.13,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18416.13,18421.14,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18421.14,18422.64,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18422.64,18426.64,-1,Carbonaceous,0.8,False,
+18426.64,18431.14,10,Shale,0.447,False,Claystone|Argillaceous|Dolomitic
+18431.14,18432.64,29,Shale,0.271,False,Claystone|Argillaceous|Salt
+18432.64,18435.14,11,Sandstone,0.343,False,
+18435.14,18436.64,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18436.64,18440.14,11,Sandstone,0.343,False,
+18440.14,18442.14,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18442.14,18447.14,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+18447.14,18448.64,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18448.64,18451.14,11,Sandstone,0.343,False,
+18451.14,18452.64,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18452.64,18456.14,11,Sandstone,0.343,False,
+18456.14,18458.14,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18458.14,18461.64,11,Sandstone,0.343,False,
+18461.64,18464.14,-1,Carbonaceous,0.8,False,
+18464.14,18465.64,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18465.64,18469.64,-1,Carbonaceous,0.8,False,
+18469.64,18471.14,17,Available BB Anhydrite,0.305,False,Sample
+18471.14,18474.65,-1,Carbonaceous,0.8,False,
+18474.65,18476.65,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18476.65,18480.15,-1,Carbonaceous,0.8,False,
+18480.15,18481.65,17,Available BB Anhydrite,0.305,False,Sample
+18481.65,18485.65,-1,Carbonaceous,0.8,False,
+18485.65,18487.15,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18487.15,18490.65,-1,Carbonaceous,0.8,False,
+18490.65,18492.65,17,Available BB Anhydrite,0.305,False,Sample
+18492.65,18496.15,-1,Carbonaceous,0.8,False,
+18496.15,18497.65,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18497.65,18501.65,-1,Carbonaceous,0.8,False,
+18501.65,18503.15,17,Available BB Anhydrite,0.305,False,Sample
+18503.15,18506.65,-1,Carbonaceous,0.8,False,
+18506.65,18508.65,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18508.65,18512.15,-1,Carbonaceous,0.8,False,
+18512.15,18513.65,17,Available BB Anhydrite,0.305,False,Sample
+18513.65,18517.65,-1,Carbonaceous,0.8,False,
+18517.65,18519.15,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18519.15,18522.65,-1,Carbonaceous,0.8,False,
+18522.65,18524.66,17,Available BB Anhydrite,0.305,False,Sample
+18524.66,18528.16,-1,Carbonaceous,0.8,False,
+18528.16,18529.66,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18529.66,18534.16,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+18534.16,18535.66,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18535.66,18539.66,-1,Carbonaceous,0.8,False,
+18539.66,18541.66,17,Available BB Anhydrite,0.305,False,Sample
+18541.66,18544.16,11,Sandstone,0.343,False,
+18544.16,18545.66,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+18545.66,18549.66,11,Sandstone,0.343,False,
+18549.66,18552.16,-1,Carbonaceous,0.8,False,
+18552.16,18553.66,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18553.66,18557.66,-1,Carbonaceous,0.8,False,
+18557.66,18559.16,17,Available BB Anhydrite,0.305,False,Sample
+18559.16,18562.66,-1,Carbonaceous,0.8,False,
+18562.66,18564.66,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18564.66,18568.16,-1,Carbonaceous,0.8,False,
+18568.16,18569.66,17,Available BB Anhydrite,0.305,False,Sample
+18569.66,18573.66,-1,Carbonaceous,0.8,False,
+18573.66,18575.16,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18575.16,18578.67,-1,Carbonaceous,0.8,False,
+18578.67,18582.17,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+18582.17,18583.67,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18583.67,18587.17,-1,Carbonaceous,0.8,False,
+18587.17,18588.67,29,Shale,0.271,False,Claystone|Argillaceous|Salt
+18588.67,18591.67,11,Sandstone,0.343,False,
+18591.67,18594.17,-1,Carbonaceous,0.8,False,
+18594.17,18595.67,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18595.67,18599.67,-1,Carbonaceous,0.8,False,
+18599.67,18601.17,17,Available BB Anhydrite,0.305,False,Sample
+18601.17,18604.67,-1,Carbonaceous,0.8,False,
+18604.67,18606.67,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18606.67,18610.17,-1,Carbonaceous,0.8,False,
+18610.17,18611.67,17,Available BB Anhydrite,0.305,False,Sample
+18611.67,18615.67,-1,Carbonaceous,0.8,False,
+18615.67,18617.17,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18617.17,18620.67,-1,Carbonaceous,0.8,False,
+18620.67,18622.67,17,Available BB Anhydrite,0.305,False,Sample
+18622.67,18626.17,-1,Carbonaceous,0.8,False,
+18626.17,18627.68,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18627.68,18631.68,-1,Carbonaceous,0.8,False,
+18631.68,18633.18,17,Available BB Anhydrite,0.305,False,Sample
+18633.18,18636.68,-1,Carbonaceous,0.8,False,
+18636.68,18638.68,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18638.68,18642.18,-1,Carbonaceous,0.8,False,
+18642.18,18643.68,17,Available BB Anhydrite,0.305,False,Sample
+18643.68,18647.68,-1,Carbonaceous,0.8,False,
+18647.68,18649.18,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18649.18,18652.68,-1,Carbonaceous,0.8,False,
+18652.68,18654.68,17,Available BB Anhydrite,0.305,False,Sample
+18654.68,18658.18,-1,Carbonaceous,0.8,False,
+18658.18,18659.68,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18659.68,18663.68,-1,Carbonaceous,0.8,False,
+18663.68,18665.18,17,Available BB Anhydrite,0.305,False,Sample
+18665.18,18668.68,-1,Carbonaceous,0.8,False,
+18668.68,18670.68,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18670.68,18674.18,-1,Carbonaceous,0.8,False,
+18674.18,18675.68,17,Available BB Anhydrite,0.305,False,Sample
+18675.68,18679.69,-1,Carbonaceous,0.8,False,
+18679.69,18681.19,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18681.19,18684.69,-1,Carbonaceous,0.8,False,
+18684.69,18686.69,17,Available BB Anhydrite,0.305,False,Sample
+18686.69,18690.19,-1,Carbonaceous,0.8,False,
+18690.19,18691.69,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18691.69,18695.69,-1,Carbonaceous,0.8,False,
+18695.69,18697.19,17,Available BB Anhydrite,0.305,False,Sample
+18697.19,18700.69,-1,Carbonaceous,0.8,False,
+18700.69,18703.19,17,Available BB Anhydrite,0.305,False,Sample
+18703.19,18706.69,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+18706.69,18709.19,-1,Carbonaceous,0.8,False,
+18709.19,18710.69,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18710.69,18713.69,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+18713.69,18716.19,-1,Carbonaceous,0.8,False,
+18716.19,18717.69,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18717.69,18721.69,-1,Carbonaceous,0.8,False,
+18721.69,18723.19,17,Available BB Anhydrite,0.305,False,Sample
+18723.19,18726.69,-1,Carbonaceous,0.8,False,
+18726.69,18728.69,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18728.69,18732.2,-1,Carbonaceous,0.8,False,
+18732.2,18733.7,17,Available BB Anhydrite,0.305,False,Sample
+18733.7,18737.7,-1,Carbonaceous,0.8,False,
+18737.7,18739.2,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18739.2,18742.7,-1,Carbonaceous,0.8,False,
+18742.7,18744.7,17,Available BB Anhydrite,0.305,False,Sample
+18744.7,18748.2,-1,Carbonaceous,0.8,False,
+18748.2,18749.7,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18749.7,18753.7,-1,Carbonaceous,0.8,False,
+18753.7,18755.2,17,Available BB Anhydrite,0.305,False,Sample
+18755.2,18758.7,-1,Carbonaceous,0.8,False,
+18758.7,18760.7,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18760.7,18764.2,-1,Carbonaceous,0.8,False,
+18764.2,18765.7,17,Available BB Anhydrite,0.305,False,Sample
+18765.7,18769.7,-1,Carbonaceous,0.8,False,
+18769.7,18771.2,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18771.2,18774.7,-1,Carbonaceous,0.8,False,
+18774.7,18776.7,17,Available BB Anhydrite,0.305,False,Sample
+18776.7,18780.2,-1,Carbonaceous,0.8,False,
+18780.2,18781.7,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18781.7,18785.71,-1,Carbonaceous,0.8,False,
+18785.71,18787.21,17,Available BB Anhydrite,0.305,False,Sample
+18787.21,18790.71,-1,Carbonaceous,0.8,False,
+18790.71,18792.71,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18792.71,18796.21,-1,Carbonaceous,0.8,False,
+18796.21,18797.71,17,Available BB Anhydrite,0.305,False,Sample
+18797.71,18801.71,-1,Carbonaceous,0.8,False,
+18801.71,18803.21,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18803.21,18806.71,-1,Carbonaceous,0.8,False,
+18806.71,18808.71,17,Available BB Anhydrite,0.305,False,Sample
+18808.71,18812.21,-1,Carbonaceous,0.8,False,
+18812.21,18813.71,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18813.71,18817.71,-1,Carbonaceous,0.8,False,
+18817.71,18819.21,17,Available BB Anhydrite,0.305,False,Sample
+18819.21,18822.71,-1,Carbonaceous,0.8,False,
+18822.71,18824.71,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18824.71,18828.21,-1,Carbonaceous,0.8,False,
+18828.21,18829.71,17,Available BB Anhydrite,0.305,False,Sample
+18829.71,18833.71,-1,Carbonaceous,0.8,False,
+18833.71,18835.22,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18835.22,18838.72,-1,Carbonaceous,0.8,False,
+18838.72,18840.72,17,Available BB Anhydrite,0.305,False,Sample
+18840.72,18844.22,-1,Carbonaceous,0.8,False,
+18844.22,18845.72,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18845.72,18849.72,-1,Carbonaceous,0.8,False,
+18849.72,18851.22,17,Available BB Anhydrite,0.305,False,Sample
+18851.22,18854.72,-1,Carbonaceous,0.8,False,
+18854.72,18856.72,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18856.72,18860.22,-1,Carbonaceous,0.8,False,
+18860.22,18861.72,17,Available BB Anhydrite,0.305,False,Sample
+18861.72,18865.72,-1,Carbonaceous,0.8,False,
+18865.72,18867.22,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18867.22,18870.72,-1,Carbonaceous,0.8,False,
+18870.72,18872.72,17,Available BB Anhydrite,0.305,False,Sample
+18872.72,18876.22,-1,Carbonaceous,0.8,False,
+18876.22,18877.72,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18877.72,18881.72,-1,Carbonaceous,0.8,False,
+18881.72,18883.22,17,Available BB Anhydrite,0.305,False,Sample
+18883.22,18886.73,-1,Carbonaceous,0.8,False,
+18886.73,18888.73,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18888.73,18892.23,-1,Carbonaceous,0.8,False,
+18892.23,18893.73,17,Available BB Anhydrite,0.305,False,Sample
+18893.73,18897.73,-1,Carbonaceous,0.8,False,
+18897.73,18899.23,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18899.23,18902.73,-1,Carbonaceous,0.8,False,
+18902.73,18904.73,17,Available BB Anhydrite,0.305,False,Sample
+18904.73,18908.23,-1,Carbonaceous,0.8,False,
+18908.23,18909.73,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18909.73,18913.73,-1,Carbonaceous,0.8,False,
+18913.73,18915.23,17,Available BB Anhydrite,0.305,False,Sample
+18915.23,18918.73,-1,Carbonaceous,0.8,False,
+18918.73,18920.73,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18920.73,18924.23,-1,Carbonaceous,0.8,False,
+18924.23,18925.73,17,Available BB Anhydrite,0.305,False,Sample
+18925.73,18929.73,-1,Carbonaceous,0.8,False,
+18929.73,18931.23,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18931.23,18934.73,-1,Carbonaceous,0.8,False,
+18934.73,18936.73,17,Available BB Anhydrite,0.305,False,Sample
+18936.73,18940.24,-1,Carbonaceous,0.8,False,
+18940.24,18941.74,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18941.74,18945.74,-1,Carbonaceous,0.8,False,
+18945.74,18947.24,17,Available BB Anhydrite,0.305,False,Sample
+18947.24,18950.74,-1,Carbonaceous,0.8,False,
+18950.74,18952.74,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18952.74,18956.24,-1,Carbonaceous,0.8,False,
+18956.24,18957.74,17,Available BB Anhydrite,0.305,False,Sample
+18957.74,18961.74,-1,Carbonaceous,0.8,False,
+18961.74,18963.24,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18963.24,18966.74,-1,Carbonaceous,0.8,False,
+18966.74,18968.74,17,Available BB Anhydrite,0.305,False,Sample
+18968.74,18972.24,-1,Carbonaceous,0.8,False,
+18972.24,18974.24,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18974.24,18977.74,-1,Carbonaceous,0.8,False,
+18977.74,18979.24,17,Available BB Anhydrite,0.305,False,Sample
+18979.24,18983.24,-1,Carbonaceous,0.8,False,
+18983.24,18984.74,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18984.74,18988.24,-1,Carbonaceous,0.8,False,
+18988.24,18990.24,17,Available BB Anhydrite,0.305,False,Sample
+18990.24,18993.75,-1,Carbonaceous,0.8,False,
+18993.75,18995.25,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+18995.25,18999.25,-1,Carbonaceous,0.8,False,
+18999.25,19000.75,17,Available BB Anhydrite,0.305,False,Sample
+19000.75,19004.25,-1,Carbonaceous,0.8,False,
+19004.25,19006.25,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19006.25,19009.75,-1,Carbonaceous,0.8,False,
+19009.75,19011.25,17,Available BB Anhydrite,0.305,False,Sample
+19011.25,19015.25,-1,Carbonaceous,0.8,False,
+19015.25,19016.75,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19016.75,19020.25,-1,Carbonaceous,0.8,False,
+19020.25,19022.25,17,Available BB Anhydrite,0.305,False,Sample
+19022.25,19025.75,-1,Carbonaceous,0.8,False,
+19025.75,19027.25,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19027.25,19031.25,-1,Carbonaceous,0.8,False,
+19031.25,19032.75,17,Available BB Anhydrite,0.305,False,Sample
+19032.75,19036.25,-1,Carbonaceous,0.8,False,
+19036.25,19038.25,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19038.25,19041.75,-1,Carbonaceous,0.8,False,
+19041.75,19043.26,17,Available BB Anhydrite,0.305,False,Sample
+19043.26,19047.26,-1,Carbonaceous,0.8,False,
+19047.26,19048.76,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19048.76,19052.26,-1,Carbonaceous,0.8,False,
+19052.26,19054.26,17,Available BB Anhydrite,0.305,False,Sample
+19054.26,19057.76,-1,Carbonaceous,0.8,False,
+19057.76,19059.26,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19059.26,19063.26,-1,Carbonaceous,0.8,False,
+19063.26,19064.76,17,Available BB Anhydrite,0.305,False,Sample
+19064.76,19068.26,-1,Carbonaceous,0.8,False,
+19068.26,19070.26,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19070.26,19073.76,-1,Carbonaceous,0.8,False,
+19073.76,19075.26,17,Available BB Anhydrite,0.305,False,Sample
+19075.26,19079.26,-1,Carbonaceous,0.8,False,
+19079.26,19080.76,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19080.76,19084.26,-1,Carbonaceous,0.8,False,
+19084.26,19086.26,17,Available BB Anhydrite,0.305,False,Sample
+19086.26,19089.76,-1,Carbonaceous,0.8,False,
+19089.76,19091.26,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19091.26,19095.27,-1,Carbonaceous,0.8,False,
+19095.27,19096.77,17,Available BB Anhydrite,0.305,False,Sample
+19096.77,19100.27,-1,Carbonaceous,0.8,False,
+19100.27,19102.27,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19102.27,19105.77,-1,Carbonaceous,0.8,False,
+19105.77,19107.27,17,Available BB Anhydrite,0.305,False,Sample
+19107.27,19111.27,-1,Carbonaceous,0.8,False,
+19111.27,19112.77,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19112.77,19116.27,-1,Carbonaceous,0.8,False,
+19116.27,19118.27,17,Available BB Anhydrite,0.305,False,Sample
+19118.27,19121.77,-1,Carbonaceous,0.8,False,
+19121.77,19123.27,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19123.27,19127.27,-1,Carbonaceous,0.8,False,
+19127.27,19128.77,17,Available BB Anhydrite,0.305,False,Sample
+19128.77,19132.27,-1,Carbonaceous,0.8,False,
+19132.27,19134.27,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19134.27,19137.77,-1,Carbonaceous,0.8,False,
+19137.77,19139.27,17,Available BB Anhydrite,0.305,False,Sample
+19139.27,19143.27,-1,Carbonaceous,0.8,False,
+19143.27,19144.77,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19144.77,19148.28,-1,Carbonaceous,0.8,False,
+19148.28,19150.28,17,Available BB Anhydrite,0.305,False,Sample
+19150.28,19153.78,-1,Carbonaceous,0.8,False,
+19153.78,19155.28,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19155.28,19159.28,-1,Carbonaceous,0.8,False,
+19159.28,19160.78,17,Available BB Anhydrite,0.305,False,Sample
+19160.78,19164.28,-1,Carbonaceous,0.8,False,
+19164.28,19166.28,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19166.28,19169.78,-1,Carbonaceous,0.8,False,
+19169.78,19171.28,17,Available BB Anhydrite,0.305,False,Sample
+19171.28,19175.28,-1,Carbonaceous,0.8,False,
+19175.28,19176.78,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19176.78,19180.28,-1,Carbonaceous,0.8,False,
+19180.28,19182.28,17,Available BB Anhydrite,0.305,False,Sample
+19182.28,19185.78,-1,Carbonaceous,0.8,False,
+19185.78,19187.28,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19187.28,19191.28,-1,Carbonaceous,0.8,False,
+19191.28,19192.78,17,Available BB Anhydrite,0.305,False,Sample
+19192.78,19195.28,11,Sandstone,0.343,False,
+19195.28,19196.78,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19196.78,19200.29,11,Sandstone,0.343,False,
+19200.29,19202.29,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19202.29,19205.79,11,Sandstone,0.343,False,
+19205.79,19207.29,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19207.29,19211.29,11,Sandstone,0.343,False,
+19211.29,19212.79,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19212.79,19216.79,11,Sandstone,0.343,False,
+19216.79,19218.29,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19218.29,19222.29,11,Sandstone,0.343,False,
+19222.29,19223.29,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19223.29,19227.29,11,Sandstone,0.343,False,
+19227.29,19228.79,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19228.79,19232.29,11,Sandstone,0.343,False,
+19232.29,19234.29,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19234.29,19238.29,11,Sandstone,0.343,False,
+19238.29,19239.79,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19239.79,19243.29,11,Sandstone,0.343,False,
+19243.29,19245.29,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19245.29,19250.3,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+19250.3,19251.8,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19251.8,19255.3,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+19255.3,19257.3,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19257.3,19262.3,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+19262.3,19263.8,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19263.8,19267.8,-1,Carbonaceous,0.8,False,
+19267.8,19269.3,17,Available BB Anhydrite,0.305,False,Sample
+19269.3,19272.8,-1,Carbonaceous,0.8,False,
+19272.8,19274.8,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19274.8,19278.3,-1,Carbonaceous,0.8,False,
+19278.3,19279.8,17,Available BB Anhydrite,0.305,False,Sample
+19279.8,19283.8,-1,Carbonaceous,0.8,False,
+19283.8,19285.3,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19285.3,19288.8,-1,Carbonaceous,0.8,False,
+19288.8,19290.8,17,Available BB Anhydrite,0.305,False,Sample
+19290.8,19294.3,-1,Carbonaceous,0.8,False,
+19294.3,19295.8,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19295.8,19299.8,-1,Carbonaceous,0.8,False,
+19299.8,19301.31,17,Available BB Anhydrite,0.305,False,Sample
+19301.31,19304.81,-1,Carbonaceous,0.8,False,
+19304.81,19306.81,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19306.81,19310.31,-1,Carbonaceous,0.8,False,
+19310.31,19311.81,17,Available BB Anhydrite,0.305,False,Sample
+19311.81,19315.81,-1,Carbonaceous,0.8,False,
+19315.81,19317.31,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19317.31,19320.81,-1,Carbonaceous,0.8,False,
+19320.81,19322.81,17,Available BB Anhydrite,0.305,False,Sample
+19322.81,19326.31,-1,Carbonaceous,0.8,False,
+19326.31,19327.81,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19327.81,19331.81,-1,Carbonaceous,0.8,False,
+19331.81,19333.31,17,Available BB Anhydrite,0.305,False,Sample
+19333.31,19336.81,-1,Carbonaceous,0.8,False,
+19336.81,19338.81,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19338.81,19342.31,-1,Carbonaceous,0.8,False,
+19342.31,19343.81,17,Available BB Anhydrite,0.305,False,Sample
+19343.81,19347.81,-1,Carbonaceous,0.8,False,
+19347.81,19349.31,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19349.31,19352.81,-1,Carbonaceous,0.8,False,
+19352.81,19355.32,17,Available BB Anhydrite,0.305,False,Sample
+19355.32,19359.32,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+19359.32,19360.82,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19360.82,19364.32,11,Sandstone,0.343,False,
+19364.32,19366.32,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19366.32,19370.82,11,Sandstone,0.343,False,
+19370.82,19372.82,-1,Carbonaceous,0.8,False,
+19372.82,19375.82,11,Sandstone,0.343,False,
+19375.82,19378.32,-1,Carbonaceous,0.8,False,
+19378.32,19379.82,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19379.82,19383.82,-1,Carbonaceous,0.8,False,
+19383.82,19385.32,17,Available BB Anhydrite,0.305,False,Sample
+19385.32,19388.82,-1,Carbonaceous,0.8,False,
+19388.82,19390.82,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19390.82,19394.32,-1,Carbonaceous,0.8,False,
+19394.32,19395.82,17,Available BB Anhydrite,0.305,False,Sample
+19395.82,19399.82,-1,Carbonaceous,0.8,False,
+19399.82,19401.32,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19401.32,19404.82,-1,Carbonaceous,0.8,False,
+19404.82,19406.83,17,Available BB Anhydrite,0.305,False,Sample
+19406.83,19410.33,-1,Carbonaceous,0.8,False,
+19410.33,19411.83,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19411.83,19415.83,-1,Carbonaceous,0.8,False,
+19415.83,19417.33,17,Available BB Anhydrite,0.305,False,Sample
+19417.33,19420.83,-1,Carbonaceous,0.8,False,
+19420.83,19422.83,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19422.83,19426.33,-1,Carbonaceous,0.8,False,
+19426.33,19427.83,17,Available BB Anhydrite,0.305,False,Sample
+19427.83,19431.83,-1,Carbonaceous,0.8,False,
+19431.83,19433.33,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19433.33,19436.83,-1,Carbonaceous,0.8,False,
+19436.83,19438.83,17,Available BB Anhydrite,0.305,False,Sample
+19438.83,19442.33,-1,Carbonaceous,0.8,False,
+19442.33,19443.83,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19443.83,19447.83,-1,Carbonaceous,0.8,False,
+19447.83,19449.33,17,Available BB Anhydrite,0.305,False,Sample
+19449.33,19452.83,-1,Carbonaceous,0.8,False,
+19452.83,19454.83,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19454.83,19458.34,-1,Carbonaceous,0.8,False,
+19458.34,19459.84,17,Available BB Anhydrite,0.305,False,Sample
+19459.84,19463.84,-1,Carbonaceous,0.8,False,
+19463.84,19465.34,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19465.34,19468.84,-1,Carbonaceous,0.8,False,
+19468.84,19470.84,17,Available BB Anhydrite,0.305,False,Sample
+19470.84,19474.34,-1,Carbonaceous,0.8,False,
+19474.34,19475.84,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19475.84,19479.84,-1,Carbonaceous,0.8,False,
+19479.84,19481.34,17,Available BB Anhydrite,0.305,False,Sample
+19481.34,19484.84,-1,Carbonaceous,0.8,False,
+19484.84,19486.84,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19486.84,19490.34,-1,Carbonaceous,0.8,False,
+19490.34,19492.34,17,Available BB Anhydrite,0.305,False,Sample
+19492.34,19496.34,2,Siltstone,0.277,False,
+19496.34,19500.34,10,Shale,0.447,False,Claystone|Argillaceous|Dolomitic
+19500.34,19501.84,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19501.84,19505.84,-1,Carbonaceous,0.8,False,
+19505.84,19507.84,17,Available BB Anhydrite,0.305,False,Sample
+19507.84,19512.35,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+19512.35,19515.35,-1,Carbonaceous,0.8,False,
+19515.35,19516.85,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19516.85,19520.85,-1,Carbonaceous,0.8,False,
+19520.85,19522.35,17,Available BB Anhydrite,0.305,False,Sample
+19522.35,19525.85,-1,Carbonaceous,0.8,False,
+19525.85,19527.85,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19527.85,19531.35,-1,Carbonaceous,0.8,False,
+19531.35,19532.85,17,Available BB Anhydrite,0.305,False,Sample
+19532.85,19537.35,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+19537.35,19538.85,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19538.85,19542.85,-1,Carbonaceous,0.8,False,
+19542.85,19544.35,17,Available BB Anhydrite,0.305,False,Sample
+19544.35,19547.85,-1,Carbonaceous,0.8,False,
+19547.85,19549.85,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19549.85,19553.35,-1,Carbonaceous,0.8,False,
+19553.35,19554.85,17,Available BB Anhydrite,0.305,False,Sample
+19554.85,19557.85,19,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+19557.85,19560.35,-1,Carbonaceous,0.8,False,
+19560.35,19561.86,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19561.86,19565.86,-1,Carbonaceous,0.8,False,
+19565.86,19567.36,17,Available BB Anhydrite,0.305,False,Sample
+19567.36,19570.86,-1,Carbonaceous,0.8,False,
+19570.86,19572.86,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19572.86,19576.36,-1,Carbonaceous,0.8,False,
+19576.36,19577.86,17,Available BB Anhydrite,0.305,False,Sample
+19577.86,19581.86,-1,Carbonaceous,0.8,False,
+19581.86,19583.36,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19583.36,19588.36,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+19588.36,19589.86,30,Siltstone,0.234,False,
+19589.86,19593.36,14,Siltstone,0.504,False,
+19593.36,19594.86,33,Siltstone,0.682,False,
+19594.86,19597.36,11,Sandstone,0.343,False,
+19597.36,19599.36,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19599.36,19602.36,-1,Carbonaceous,0.8,False,
+19602.36,19603.86,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19603.86,19607.86,-1,Carbonaceous,0.8,False,
+19607.86,19609.86,17,Available BB Anhydrite,0.305,False,Sample
+19609.86,19613.37,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+19613.37,19614.87,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19614.87,19618.37,11,Sandstone,0.343,False,
+19618.37,19620.37,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19620.37,19623.87,11,Sandstone,0.343,False,
+19623.87,19625.37,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19625.37,19629.37,11,Sandstone,0.343,False,
+19629.37,19630.87,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19630.87,19634.87,11,Sandstone,0.343,False,
+19634.87,19636.37,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19636.37,19639.87,11,Sandstone,0.343,False,
+19639.87,19641.37,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19641.37,19645.37,11,Sandstone,0.343,False,
+19645.37,19646.87,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19646.87,19650.37,11,Sandstone,0.343,False,
+19650.37,19652.37,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19652.37,19655.87,11,Sandstone,0.343,False,
+19655.87,19657.37,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19657.37,19661.37,11,Sandstone,0.343,False,
+19661.37,19662.87,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19662.87,19666.88,11,Sandstone,0.343,False,
+19666.88,19668.38,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19668.38,19672.38,11,Sandstone,0.343,False,
+19672.38,19673.38,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19673.38,19677.38,11,Sandstone,0.343,False,
+19677.38,19678.88,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19678.88,19682.38,11,Sandstone,0.343,False,
+19682.38,19684.38,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19684.38,19688.38,11,Sandstone,0.343,False,
+19688.38,19693.38,4,Sandstone,0.343,False,
+19693.38,19694.88,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19694.88,19698.88,11,Sandstone,0.343,False,
+19698.88,19700.38,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19700.38,19704.38,11,Sandstone,0.343,False,
+19704.38,19705.88,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19705.88,19709.38,11,Sandstone,0.343,False,
+19709.38,19710.88,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19710.88,19714.38,11,Sandstone,0.343,False,
+19714.38,19716.89,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19716.89,19720.39,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+19720.39,19721.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19721.89,19724.89,-1,Carbonaceous,0.8,False,
+19724.89,19727.89,11,Sandstone,0.343,False,
+19727.89,19730.39,-1,Carbonaceous,0.8,False,
+19730.39,19731.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19731.89,19734.39,11,Sandstone,0.343,False,
+19734.39,19736.39,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19736.39,19739.39,-1,Carbonaceous,0.8,False,
+19739.39,19740.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19740.89,19744.89,-1,Carbonaceous,0.8,False,
+19744.89,19746.39,17,Available BB Anhydrite,0.305,False,Sample
+19746.39,19749.89,-1,Carbonaceous,0.8,False,
+19749.89,19751.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19751.89,19755.39,-1,Carbonaceous,0.8,False,
+19755.39,19756.89,17,Available BB Anhydrite,0.305,False,Sample
+19756.89,19760.89,-1,Carbonaceous,0.8,False,
+19760.89,19762.39,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19762.39,19765.89,-1,Carbonaceous,0.8,False,
+19765.89,19767.9,17,Available BB Anhydrite,0.305,False,Sample
+19767.9,19771.4,-1,Carbonaceous,0.8,False,
+19771.4,19772.9,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19772.9,19776.9,-1,Carbonaceous,0.8,False,
+19776.9,19778.9,17,Available BB Anhydrite,0.305,False,Sample
+19778.9,19783.4,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+19783.4,19784.9,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19784.9,19788.4,11,Sandstone,0.343,False,
+19788.4,19790.4,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19790.4,19794.4,11,Sandstone,0.343,False,
+19794.4,19795.9,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19795.9,19799.4,11,Sandstone,0.343,False,
+19799.4,19800.9,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19800.9,19804.9,11,Sandstone,0.343,False,
+19804.9,19806.4,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19806.4,19810.4,11,Sandstone,0.343,False,
+19810.4,19815.4,4,Sandstone,0.343,False,
+19815.4,19816.9,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19816.9,19820.41,11,Sandstone,0.343,False,
+19820.41,19822.41,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19822.41,19826.41,11,Sandstone,0.343,False,
+19826.41,19831.41,4,Sandstone,0.343,False,
+19831.41,19832.91,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19832.91,19836.91,11,Sandstone,0.343,False,
+19836.91,19838.41,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19838.41,19841.91,11,Sandstone,0.343,False,
+19841.91,19843.41,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19843.41,19847.41,11,Sandstone,0.343,False,
+19847.41,19848.91,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19848.91,19852.41,11,Sandstone,0.343,False,
+19852.41,19854.41,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19854.41,19858.41,11,Sandstone,0.343,False,
+19858.41,19859.41,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19859.41,19863.41,11,Sandstone,0.343,False,
+19863.41,19864.91,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19864.91,19868.91,11,Sandstone,0.343,False,
+19868.91,19870.41,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19870.41,19874.42,11,Sandstone,0.343,False,
+19874.42,19875.92,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19875.92,19879.42,11,Sandstone,0.343,False,
+19879.42,19880.92,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19880.92,19884.42,11,Sandstone,0.343,False,
+19884.42,19886.42,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19886.42,19890.42,11,Sandstone,0.343,False,
+19890.42,19891.92,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19891.92,19895.42,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+19895.42,19896.92,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19896.92,19900.92,-1,Carbonaceous,0.8,False,
+19900.92,19902.42,17,Available BB Anhydrite,0.305,False,Sample
+19902.42,19905.92,-1,Carbonaceous,0.8,False,
+19905.92,19907.92,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19907.92,19911.92,-1,Carbonaceous,0.8,False,
+19911.92,19914.92,11,Sandstone,0.343,False,
+19914.92,19917.42,-1,Carbonaceous,0.8,False,
+19917.42,19918.92,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19918.92,19922.92,-1,Carbonaceous,0.8,False,
+19922.92,19924.43,17,Available BB Anhydrite,0.305,False,Sample
+19924.43,19927.93,-1,Carbonaceous,0.8,False,
+19927.93,19929.93,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19929.93,19933.43,-1,Carbonaceous,0.8,False,
+19933.43,19935.43,17,Available BB Anhydrite,0.305,False,Sample
+19935.43,19939.43,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+19939.43,19940.93,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+19940.93,19944.43,11,Sandstone,0.343,False,
+19944.43,19946.43,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19946.43,19949.93,11,Sandstone,0.343,False,
+19949.93,19951.93,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19951.93,19955.43,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+19955.43,19956.93,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19956.93,19960.93,-1,Carbonaceous,0.8,False,
+19960.93,19962.43,17,Available BB Anhydrite,0.305,False,Sample
+19962.43,19965.93,-1,Carbonaceous,0.8,False,
+19965.93,19967.93,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19967.93,19970.93,-1,Carbonaceous,0.8,False,
+19970.93,19974.93,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19974.93,19978.44,11,Sandstone,0.343,False,
+19978.44,19980.44,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19980.44,19983.94,11,Sandstone,0.343,False,
+19983.94,19985.44,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+19985.44,19988.94,11,Sandstone,0.343,False,
+19988.94,19991.44,-1,Carbonaceous,0.8,False,
+19991.44,19992.94,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+19992.94,19996.94,-1,Carbonaceous,0.8,False,
+19996.94,19998.94,17,Available BB Anhydrite,0.305,False,Sample
+19998.94,20003.94,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20003.94,20006.44,-1,Carbonaceous,0.8,False,
+20006.44,20007.94,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20007.94,20011.94,-1,Carbonaceous,0.8,False,
+20011.94,20012.94,17,Available BB Anhydrite,0.305,False,Sample
+20012.94,20016.44,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+20016.44,20017.94,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20017.94,20021.94,-1,Carbonaceous,0.8,False,
+20021.94,20023.44,17,Available BB Anhydrite,0.305,False,Sample
+20023.44,20026.95,-1,Carbonaceous,0.8,False,
+20026.95,20028.95,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20028.95,20032.45,-1,Carbonaceous,0.8,False,
+20032.45,20033.95,17,Available BB Anhydrite,0.305,False,Sample
+20033.95,20037.95,-1,Carbonaceous,0.8,False,
+20037.95,20039.45,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20039.45,20042.95,-1,Carbonaceous,0.8,False,
+20042.95,20044.95,17,Available BB Anhydrite,0.305,False,Sample
+20044.95,20048.45,-1,Carbonaceous,0.8,False,
+20048.45,20049.95,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20049.95,20053.95,-1,Carbonaceous,0.8,False,
+20053.95,20055.45,17,Available BB Anhydrite,0.305,False,Sample
+20055.45,20058.95,-1,Carbonaceous,0.8,False,
+20058.95,20060.95,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20060.95,20064.45,-1,Carbonaceous,0.8,False,
+20064.45,20065.95,17,Available BB Anhydrite,0.305,False,Sample
+20065.95,20069.95,-1,Carbonaceous,0.8,False,
+20069.95,20071.45,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20071.45,20075.45,-1,Carbonaceous,0.8,False,
+20075.45,20076.95,17,Available BB Anhydrite,0.305,False,Sample
+20076.95,20080.46,-1,Carbonaceous,0.8,False,
+20080.46,20082.46,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20082.46,20085.96,-1,Carbonaceous,0.8,False,
+20085.96,20087.46,17,Available BB Anhydrite,0.305,False,Sample
+20087.46,20091.46,-1,Carbonaceous,0.8,False,
+20091.46,20092.96,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20092.96,20096.46,-1,Carbonaceous,0.8,False,
+20096.46,20098.46,17,Available BB Anhydrite,0.305,False,Sample
+20098.46,20101.96,-1,Carbonaceous,0.8,False,
+20101.96,20103.46,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20103.46,20107.46,-1,Carbonaceous,0.8,False,
+20107.46,20108.96,17,Available BB Anhydrite,0.305,False,Sample
+20108.96,20112.46,-1,Carbonaceous,0.8,False,
+20112.46,20114.46,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20114.46,20116.96,-1,Carbonaceous,0.8,False,
+20116.96,20120.96,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20120.96,20124.46,11,Sandstone,0.343,False,
+20124.46,20126.46,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20126.46,20129.96,11,Sandstone,0.343,False,
+20129.96,20131.47,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20131.47,20135.47,11,Sandstone,0.343,False,
+20135.47,20136.97,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+20136.97,20140.97,11,Sandstone,0.343,False,
+20140.97,20142.47,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+20142.47,20146.47,11,Sandstone,0.343,False,
+20146.47,20151.47,4,Sandstone,0.343,False,
+20151.47,20152.97,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+20152.97,20156.47,11,Sandstone,0.343,False,
+20156.47,20158.47,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20158.47,20162.47,11,Sandstone,0.343,False,
+20162.47,20167.47,4,Sandstone,0.343,False,
+20167.47,20168.97,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+20168.97,20171.97,-1,Carbonaceous,0.8,False,
+20171.97,20174.97,11,Sandstone,0.343,False,
+20174.97,20177.47,-1,Carbonaceous,0.8,False,
+20177.47,20178.97,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20178.97,20182.98,-1,Carbonaceous,0.8,False,
+20182.98,20187.48,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20187.48,20191.48,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+20191.48,20192.98,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20192.98,20195.98,-1,Carbonaceous,0.8,False,
+20195.98,20199.98,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20199.98,20202.48,-1,Carbonaceous,0.8,False,
+20202.48,20203.98,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20203.98,20207.98,-1,Carbonaceous,0.8,False,
+20207.98,20209.48,17,Available BB Anhydrite,0.305,False,Sample
+20209.48,20212.98,-1,Carbonaceous,0.8,False,
+20212.98,20214.98,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20214.98,20218.48,-1,Carbonaceous,0.8,False,
+20218.48,20219.98,17,Available BB Anhydrite,0.305,False,Sample
+20219.98,20223.98,-1,Carbonaceous,0.8,False,
+20223.98,20225.48,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20225.48,20228.98,-1,Carbonaceous,0.8,False,
+20228.98,20230.98,17,Available BB Anhydrite,0.305,False,Sample
+20230.98,20234.49,-1,Carbonaceous,0.8,False,
+20234.49,20235.99,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20235.99,20239.99,-1,Carbonaceous,0.8,False,
+20239.99,20241.49,17,Available BB Anhydrite,0.305,False,Sample
+20241.49,20244.99,-1,Carbonaceous,0.8,False,
+20244.99,20246.99,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20246.99,20250.49,-1,Carbonaceous,0.8,False,
+20250.49,20251.99,17,Available BB Anhydrite,0.305,False,Sample
+20251.99,20255.99,-1,Carbonaceous,0.8,False,
+20255.99,20257.49,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20257.49,20260.99,-1,Carbonaceous,0.8,False,
+20260.99,20262.99,17,Available BB Anhydrite,0.305,False,Sample
+20262.99,20266.49,-1,Carbonaceous,0.8,False,
+20266.49,20267.99,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20267.99,20271.99,-1,Carbonaceous,0.8,False,
+20271.99,20273.49,17,Available BB Anhydrite,0.305,False,Sample
+20273.49,20276.99,-1,Carbonaceous,0.8,False,
+20276.99,20278.99,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20278.99,20282.49,-1,Carbonaceous,0.8,False,
+20282.49,20283.99,17,Available BB Anhydrite,0.305,False,Sample
+20283.99,20288.0,-1,Carbonaceous,0.8,False,
+20288.0,20289.5,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20289.5,20293.0,-1,Carbonaceous,0.8,False,
+20293.0,20295.0,17,Available BB Anhydrite,0.305,False,Sample
+20295.0,20298.5,-1,Carbonaceous,0.8,False,
+20298.5,20300.0,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20300.0,20304.0,-1,Carbonaceous,0.8,False,
+20304.0,20305.5,17,Available BB Anhydrite,0.305,False,Sample
+20305.5,20309.0,-1,Carbonaceous,0.8,False,
+20309.0,20311.0,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20311.0,20314.5,-1,Carbonaceous,0.8,False,
+20314.5,20316.0,17,Available BB Anhydrite,0.305,False,Sample
+20316.0,20320.0,-1,Carbonaceous,0.8,False,
+20320.0,20321.5,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20321.5,20325.0,-1,Carbonaceous,0.8,False,
+20325.0,20327.0,17,Available BB Anhydrite,0.305,False,Sample
+20327.0,20330.5,-1,Carbonaceous,0.8,False,
+20330.5,20332.0,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20332.0,20336.0,-1,Carbonaceous,0.8,False,
+20336.0,20337.5,17,Available BB Anhydrite,0.305,False,Sample
+20337.5,20341.01,-1,Carbonaceous,0.8,False,
+20341.01,20343.01,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20343.01,20346.51,-1,Carbonaceous,0.8,False,
+20346.51,20348.01,17,Available BB Anhydrite,0.305,False,Sample
+20348.01,20352.01,-1,Carbonaceous,0.8,False,
+20352.01,20353.51,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20353.51,20357.01,-1,Carbonaceous,0.8,False,
+20357.01,20359.01,17,Available BB Anhydrite,0.305,False,Sample
+20359.01,20362.51,-1,Carbonaceous,0.8,False,
+20362.51,20364.01,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20364.01,20368.01,-1,Carbonaceous,0.8,False,
+20368.01,20369.51,17,Available BB Anhydrite,0.305,False,Sample
+20369.51,20373.01,-1,Carbonaceous,0.8,False,
+20373.01,20375.01,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20375.01,20378.51,-1,Carbonaceous,0.8,False,
+20378.51,20380.01,17,Available BB Anhydrite,0.305,False,Sample
+20380.01,20384.01,-1,Carbonaceous,0.8,False,
+20384.01,20385.51,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20385.51,20389.01,-1,Carbonaceous,0.8,False,
+20389.01,20391.02,17,Available BB Anhydrite,0.305,False,Sample
+20391.02,20394.52,-1,Carbonaceous,0.8,False,
+20394.52,20396.02,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20396.02,20400.02,-1,Carbonaceous,0.8,False,
+20400.02,20401.52,17,Available BB Anhydrite,0.305,False,Sample
+20401.52,20405.02,-1,Carbonaceous,0.8,False,
+20405.02,20407.02,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20407.02,20410.52,-1,Carbonaceous,0.8,False,
+20410.52,20412.02,17,Available BB Anhydrite,0.305,False,Sample
+20412.02,20416.02,-1,Carbonaceous,0.8,False,
+20416.02,20417.52,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20417.52,20421.02,-1,Carbonaceous,0.8,False,
+20421.02,20423.02,17,Available BB Anhydrite,0.305,False,Sample
+20423.02,20426.52,-1,Carbonaceous,0.8,False,
+20426.52,20428.02,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20428.02,20432.02,-1,Carbonaceous,0.8,False,
+20432.02,20433.52,17,Available BB Anhydrite,0.305,False,Sample
+20433.52,20437.02,-1,Carbonaceous,0.8,False,
+20437.02,20439.02,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20439.02,20442.53,-1,Carbonaceous,0.8,False,
+20442.53,20444.03,17,Available BB Anhydrite,0.305,False,Sample
+20444.03,20448.03,-1,Carbonaceous,0.8,False,
+20448.03,20449.53,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20449.53,20453.03,-1,Carbonaceous,0.8,False,
+20453.03,20455.03,17,Available BB Anhydrite,0.305,False,Sample
+20455.03,20458.53,-1,Carbonaceous,0.8,False,
+20458.53,20460.03,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20460.03,20464.03,-1,Carbonaceous,0.8,False,
+20464.03,20465.53,17,Available BB Anhydrite,0.305,False,Sample
+20465.53,20469.03,-1,Carbonaceous,0.8,False,
+20469.03,20471.03,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20471.03,20474.53,-1,Carbonaceous,0.8,False,
+20474.53,20476.03,17,Available BB Anhydrite,0.305,False,Sample
+20476.03,20480.03,-1,Carbonaceous,0.8,False,
+20480.03,20481.53,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20481.53,20485.03,-1,Carbonaceous,0.8,False,
+20485.03,20487.03,17,Available BB Anhydrite,0.305,False,Sample
+20487.03,20490.53,-1,Carbonaceous,0.8,False,
+20490.53,20492.03,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20492.03,20496.04,-1,Carbonaceous,0.8,False,
+20496.04,20497.54,17,Available BB Anhydrite,0.305,False,Sample
+20497.54,20501.04,-1,Carbonaceous,0.8,False,
+20501.04,20503.04,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20503.04,20506.54,-1,Carbonaceous,0.8,False,
+20506.54,20508.04,17,Available BB Anhydrite,0.305,False,Sample
+20508.04,20512.04,-1,Carbonaceous,0.8,False,
+20512.04,20513.54,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20513.54,20517.04,-1,Carbonaceous,0.8,False,
+20517.04,20519.04,17,Available BB Anhydrite,0.305,False,Sample
+20519.04,20522.54,-1,Carbonaceous,0.8,False,
+20522.54,20524.04,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20524.04,20528.04,-1,Carbonaceous,0.8,False,
+20528.04,20529.54,17,Available BB Anhydrite,0.305,False,Sample
+20529.54,20533.04,-1,Carbonaceous,0.8,False,
+20533.04,20535.04,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20535.04,20538.54,-1,Carbonaceous,0.8,False,
+20538.54,20540.04,17,Available BB Anhydrite,0.305,False,Sample
+20540.04,20544.04,-1,Carbonaceous,0.8,False,
+20544.04,20545.55,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20545.55,20549.05,-1,Carbonaceous,0.8,False,
+20549.05,20551.05,17,Available BB Anhydrite,0.305,False,Sample
+20551.05,20554.55,-1,Carbonaceous,0.8,False,
+20554.55,20556.05,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20556.05,20560.05,-1,Carbonaceous,0.8,False,
+20560.05,20564.55,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+20564.55,20566.05,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20566.05,20570.05,-1,Carbonaceous,0.8,False,
+20570.05,20571.55,17,Available BB Anhydrite,0.305,False,Sample
+20571.55,20575.05,-1,Carbonaceous,0.8,False,
+20575.05,20577.05,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20577.05,20580.55,-1,Carbonaceous,0.8,False,
+20580.55,20582.05,17,Available BB Anhydrite,0.305,False,Sample
+20582.05,20586.05,-1,Carbonaceous,0.8,False,
+20586.05,20587.55,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20587.55,20591.05,-1,Carbonaceous,0.8,False,
+20591.05,20593.05,17,Available BB Anhydrite,0.305,False,Sample
+20593.05,20596.55,-1,Carbonaceous,0.8,False,
+20596.55,20598.06,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20598.06,20602.06,-1,Carbonaceous,0.8,False,
+20602.06,20603.56,17,Available BB Anhydrite,0.305,False,Sample
+20603.56,20607.06,-1,Carbonaceous,0.8,False,
+20607.06,20609.06,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20609.06,20612.56,-1,Carbonaceous,0.8,False,
+20612.56,20614.06,17,Available BB Anhydrite,0.305,False,Sample
+20614.06,20618.06,-1,Carbonaceous,0.8,False,
+20618.06,20619.56,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20619.56,20623.06,-1,Carbonaceous,0.8,False,
+20623.06,20625.06,17,Available BB Anhydrite,0.305,False,Sample
+20625.06,20628.56,-1,Carbonaceous,0.8,False,
+20628.56,20630.06,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20630.06,20634.06,-1,Carbonaceous,0.8,False,
+20634.06,20635.56,17,Available BB Anhydrite,0.305,False,Sample
+20635.56,20639.06,-1,Carbonaceous,0.8,False,
+20639.06,20641.06,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20641.06,20644.56,-1,Carbonaceous,0.8,False,
+20644.56,20646.06,17,Available BB Anhydrite,0.305,False,Sample
+20646.06,20650.07,-1,Carbonaceous,0.8,False,
+20650.07,20651.57,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20651.57,20655.07,-1,Carbonaceous,0.8,False,
+20655.07,20657.07,17,Available BB Anhydrite,0.305,False,Sample
+20657.07,20660.57,-1,Carbonaceous,0.8,False,
+20660.57,20662.07,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20662.07,20666.07,-1,Carbonaceous,0.8,False,
+20666.07,20667.57,17,Available BB Anhydrite,0.305,False,Sample
+20667.57,20672.07,3,Argillaceous,0.714,False,Claystone|Shale|Calcareous
+20672.07,20676.07,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20676.07,20678.57,-1,Carbonaceous,0.8,False,
+20678.57,20680.07,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20680.07,20683.57,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+20683.57,20685.07,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+20685.07,20688.57,11,Sandstone,0.343,False,
+20688.57,20690.57,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20690.57,20694.07,11,Sandstone,0.343,False,
+20694.07,20696.57,-1,Carbonaceous,0.8,False,
+20696.57,20698.07,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20698.07,20702.08,-1,Carbonaceous,0.8,False,
+20702.08,20703.58,17,Available BB Anhydrite,0.305,False,Sample
+20703.58,20707.08,-1,Carbonaceous,0.8,False,
+20707.08,20709.08,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20709.08,20712.58,-1,Carbonaceous,0.8,False,
+20712.58,20714.08,17,Available BB Anhydrite,0.305,False,Sample
+20714.08,20718.08,-1,Carbonaceous,0.8,False,
+20718.08,20719.58,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20719.58,20723.08,-1,Carbonaceous,0.8,False,
+20723.08,20725.08,17,Available BB Anhydrite,0.305,False,Sample
+20725.08,20728.58,-1,Carbonaceous,0.8,False,
+20728.58,20730.08,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20730.08,20734.08,-1,Carbonaceous,0.8,False,
+20734.08,20735.58,17,Available BB Anhydrite,0.305,False,Sample
+20735.58,20739.08,-1,Carbonaceous,0.8,False,
+20739.08,20741.08,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20741.08,20744.58,-1,Carbonaceous,0.8,False,
+20744.58,20746.08,17,Available BB Anhydrite,0.305,False,Sample
+20746.08,20750.08,-1,Carbonaceous,0.8,False,
+20750.08,20751.58,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20751.58,20755.09,-1,Carbonaceous,0.8,False,
+20755.09,20757.09,17,Available BB Anhydrite,0.305,False,Sample
+20757.09,20760.59,-1,Carbonaceous,0.8,False,
+20760.59,20762.09,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20762.09,20766.09,-1,Carbonaceous,0.8,False,
+20766.09,20767.59,17,Available BB Anhydrite,0.305,False,Sample
+20767.59,20771.09,-1,Carbonaceous,0.8,False,
+20771.09,20773.09,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20773.09,20776.59,-1,Carbonaceous,0.8,False,
+20776.59,20778.09,17,Available BB Anhydrite,0.305,False,Sample
+20778.09,20782.09,-1,Carbonaceous,0.8,False,
+20782.09,20784.09,17,Available BB Anhydrite,0.305,False,Sample
+20784.09,20786.59,14,Siltstone,0.504,False,
+20786.59,20789.59,-1,Carbonaceous,0.8,False,
+20789.59,20791.09,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20791.09,20795.09,2,Siltstone,0.277,False,
+20795.09,20798.09,11,Sandstone,0.343,False,
+20798.09,20801.09,19,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+20801.09,20804.6,2,Siltstone,0.277,False,
+20804.6,20806.1,30,Siltstone,0.234,False,
+20806.1,20810.1,14,Siltstone,0.504,False,
+20810.1,20811.1,-1,Carbonaceous,0.8,False,
+20811.1,20814.1,11,Sandstone,0.343,False,
+20814.1,20816.1,-1,Carbonaceous,0.8,False,
+20816.1,20818.1,14,Siltstone,0.504,False,
+20818.1,20822.6,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20822.6,20826.6,9,Siltstone,0.061,False,Silty|Siliceous|Kaolinite
+20826.6,20828.1,30,Siltstone,0.234,False,
+20828.1,20830.6,11,Sandstone,0.343,False,
+20830.6,20832.1,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+20832.1,20835.6,11,Sandstone,0.343,False,
+20835.6,20838.1,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20838.1,20841.6,20,Siltstone,0.248,False,
+20841.6,20845.6,10,Shale,0.447,False,Claystone|Argillaceous|Dolomitic
+20845.6,20847.1,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20847.1,20851.1,-1,Carbonaceous,0.8,False,
+20851.1,20853.1,17,Available BB Anhydrite,0.305,False,Sample
+20853.1,20856.61,2,Siltstone,0.277,False,
+20856.61,20859.61,-1,Carbonaceous,0.8,False,
+20859.61,20861.11,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20861.11,20865.11,-1,Carbonaceous,0.8,False,
+20865.11,20866.61,17,Available BB Anhydrite,0.305,False,Sample
+20866.61,20870.11,-1,Carbonaceous,0.8,False,
+20870.11,20871.11,38,Salt,0.091,False,Shale|Dolomitic|Marl
+20871.11,20874.61,19,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+20874.61,20876.11,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20876.11,20880.11,-1,Carbonaceous,0.8,False,
+20880.11,20881.61,17,Available BB Anhydrite,0.305,False,Sample
+20881.61,20885.11,-1,Carbonaceous,0.8,False,
+20885.11,20887.11,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20887.11,20891.11,-1,Carbonaceous,0.8,False,
+20891.11,20893.61,14,Siltstone,0.504,False,
+20893.61,20896.61,-1,Carbonaceous,0.8,False,
+20896.61,20898.11,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20898.11,20902.11,-1,Carbonaceous,0.8,False,
+20902.11,20904.11,17,Available BB Anhydrite,0.305,False,Sample
+20904.11,20908.62,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+20908.62,20910.12,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20910.12,20913.62,-1,Carbonaceous,0.8,False,
+20913.62,20915.12,29,Shale,0.271,False,Claystone|Argillaceous|Salt
+20915.12,20917.12,14,Siltstone,0.504,False,
+20917.12,20919.62,-1,Carbonaceous,0.8,False,
+20919.62,20921.12,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20921.12,20925.12,-1,Carbonaceous,0.8,False,
+20925.12,20927.12,17,Available BB Anhydrite,0.305,False,Sample
+20927.12,20931.12,15,Siltstone,0.721,False,
+20931.12,20935.62,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+20935.62,20937.12,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20937.12,20941.12,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20941.12,20943.12,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+20943.12,20946.12,11,Sandstone,0.343,False,
+20946.12,20948.62,14,Siltstone,0.504,False,
+20948.62,20950.12,30,Siltstone,0.234,False,
+20950.12,20953.12,20,Siltstone,0.248,False,
+20953.12,20957.62,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20957.62,20960.63,-1,Carbonaceous,0.8,False,
+20960.63,20962.13,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20962.13,20966.13,-1,Carbonaceous,0.8,False,
+20966.13,20970.13,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+20970.13,20974.63,1,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+20974.63,20976.63,27,Siltstone,0.53,False,
+20976.63,20980.63,12,Breccia,0.019,True,Sandstone|Conglomerate ies
+20980.63,20982.13,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+20982.13,20987.13,4,Sandstone,0.343,False,
+20987.13,20989.63,-1,Carbonaceous,0.8,False,
+20989.63,20991.13,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+20991.13,20995.13,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+20995.13,20998.13,14,Siltstone,0.504,False,
+20998.13,21001.13,11,Sandstone,0.343,False,
+21001.13,21003.13,-1,Carbonaceous,0.8,False,
+21003.13,21007.13,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21007.13,21010.63,11,Sandstone,0.343,False,
+21010.63,21012.64,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21012.64,21016.14,11,Sandstone,0.343,False,
+21016.14,21018.14,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21018.14,21020.64,-1,Carbonaceous,0.8,False,
+21020.64,21022.14,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21022.14,21025.64,19,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+21025.64,21027.14,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21027.14,21031.14,-1,Carbonaceous,0.8,False,
+21031.14,21032.64,17,Available BB Anhydrite,0.305,False,Sample
+21032.64,21036.14,-1,Carbonaceous,0.8,False,
+21036.14,21039.14,11,Sandstone,0.343,False,
+21039.14,21041.64,-1,Carbonaceous,0.8,False,
+21041.64,21043.14,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21043.14,21051.64,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+21051.64,21053.14,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21053.14,21057.14,-1,Carbonaceous,0.8,False,
+21057.14,21058.64,17,Available BB Anhydrite,0.305,False,Sample
+21058.64,21062.14,-1,Carbonaceous,0.8,False,
+21062.14,21064.15,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21064.15,21067.65,-1,Carbonaceous,0.8,False,
+21067.65,21069.15,17,Available BB Anhydrite,0.305,False,Sample
+21069.15,21072.15,-1,Carbonaceous,0.8,False,
+21072.15,21076.65,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21076.65,21079.65,-1,Carbonaceous,0.8,False,
+21079.65,21081.15,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21081.15,21085.15,-1,Carbonaceous,0.8,False,
+21085.15,21086.65,17,Available BB Anhydrite,0.305,False,Sample
+21086.65,21090.15,-1,Carbonaceous,0.8,False,
+21090.15,21092.15,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21092.15,21095.65,-1,Carbonaceous,0.8,False,
+21095.65,21097.15,17,Available BB Anhydrite,0.305,False,Sample
+21097.15,21101.15,-1,Carbonaceous,0.8,False,
+21101.15,21102.65,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21102.65,21106.15,-1,Carbonaceous,0.8,False,
+21106.15,21108.65,17,Available BB Anhydrite,0.305,False,Sample
+21108.65,21113.15,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21113.15,21115.66,-1,Carbonaceous,0.8,False,
+21115.66,21117.66,17,Available BB Anhydrite,0.305,False,Sample
+21117.66,21121.66,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+21121.66,21123.66,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21123.66,21127.66,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+21127.66,21129.16,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+21129.16,21133.16,11,Sandstone,0.343,False,
+21133.16,21135.66,-1,Carbonaceous,0.8,False,
+21135.66,21137.16,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21137.16,21141.16,-1,Carbonaceous,0.8,False,
+21141.16,21143.16,17,Available BB Anhydrite,0.305,False,Sample
+21143.16,21147.66,0,Silty,0.006,True,Siliceous|Kaolinite|Argillaceous
+21147.66,21149.16,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21149.16,21153.16,-1,Carbonaceous,0.8,False,
+21153.16,21154.66,34,Shale,0.105,False,Claystone|Dolomitic|Argillaceous
+21154.66,21157.66,-1,Carbonaceous,0.8,False,
+21157.66,21159.16,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21159.16,21163.16,-1,Carbonaceous,0.8,False,
+21163.16,21164.66,17,Available BB Anhydrite,0.305,False,Sample
+21164.66,21168.17,-1,Carbonaceous,0.8,False,
+21168.17,21170.17,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21170.17,21173.67,-1,Carbonaceous,0.8,False,
+21173.67,21175.67,17,Available BB Anhydrite,0.305,False,Sample
+21175.67,21179.17,-1,Carbonaceous,0.8,False,
+21179.17,21180.67,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21180.67,21184.67,-1,Carbonaceous,0.8,False,
+21184.67,21186.17,17,Available BB Anhydrite,0.305,False,Sample
+21186.17,21189.67,-1,Carbonaceous,0.8,False,
+21189.67,21191.67,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21191.67,21195.17,-1,Carbonaceous,0.8,False,
+21195.17,21196.67,17,Available BB Anhydrite,0.305,False,Sample
+21196.67,21200.67,-1,Carbonaceous,0.8,False,
+21200.67,21202.17,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21202.17,21205.67,-1,Carbonaceous,0.8,False,
+21205.67,21207.67,17,Available BB Anhydrite,0.305,False,Sample
+21207.67,21211.17,-1,Carbonaceous,0.8,False,
+21211.17,21212.67,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21212.67,21216.67,-1,Carbonaceous,0.8,False,
+21216.67,21218.17,17,Available BB Anhydrite,0.305,False,Sample
+21218.17,21221.68,-1,Carbonaceous,0.8,False,
+21221.68,21223.68,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21223.68,21227.18,-1,Carbonaceous,0.8,False,
+21227.18,21228.68,17,Available BB Anhydrite,0.305,False,Sample
+21228.68,21232.68,-1,Carbonaceous,0.8,False,
+21232.68,21234.18,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21234.18,21237.68,-1,Carbonaceous,0.8,False,
+21237.68,21239.68,17,Available BB Anhydrite,0.305,False,Sample
+21239.68,21243.18,-1,Carbonaceous,0.8,False,
+21243.18,21244.68,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21244.68,21248.68,-1,Carbonaceous,0.8,False,
+21248.68,21250.18,17,Available BB Anhydrite,0.305,False,Sample
+21250.18,21253.68,-1,Carbonaceous,0.8,False,
+21253.68,21255.68,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21255.68,21259.18,-1,Carbonaceous,0.8,False,
+21259.18,21260.68,17,Available BB Anhydrite,0.305,False,Sample
+21260.68,21264.68,-1,Carbonaceous,0.8,False,
+21264.68,21266.18,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21266.18,21269.68,-1,Carbonaceous,0.8,False,
+21269.68,21271.69,17,Available BB Anhydrite,0.305,False,Sample
+21271.69,21275.19,-1,Carbonaceous,0.8,False,
+21275.19,21276.69,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21276.69,21280.69,-1,Carbonaceous,0.8,False,
+21280.69,21282.19,17,Available BB Anhydrite,0.305,False,Sample
+21282.19,21285.69,-1,Carbonaceous,0.8,False,
+21285.69,21287.69,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21287.69,21291.19,-1,Carbonaceous,0.8,False,
+21291.19,21292.69,17,Available BB Anhydrite,0.305,False,Sample
+21292.69,21296.69,-1,Carbonaceous,0.8,False,
+21296.69,21298.19,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21298.19,21301.69,-1,Carbonaceous,0.8,False,
+21301.69,21303.69,17,Available BB Anhydrite,0.305,False,Sample
+21303.69,21307.19,-1,Carbonaceous,0.8,False,
+21307.19,21308.69,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21308.69,21312.69,-1,Carbonaceous,0.8,False,
+21312.69,21314.19,17,Available BB Anhydrite,0.305,False,Sample
+21314.19,21317.69,-1,Carbonaceous,0.8,False,
+21317.69,21319.69,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21319.69,21323.2,-1,Carbonaceous,0.8,False,
+21323.2,21324.7,17,Available BB Anhydrite,0.305,False,Sample
+21324.7,21328.7,-1,Carbonaceous,0.8,False,
+21328.7,21330.2,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21330.2,21333.7,-1,Carbonaceous,0.8,False,
+21333.7,21335.7,17,Available BB Anhydrite,0.305,False,Sample
+21335.7,21339.2,-1,Carbonaceous,0.8,False,
+21339.2,21340.7,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21340.7,21344.7,-1,Carbonaceous,0.8,False,
+21344.7,21346.2,17,Available BB Anhydrite,0.305,False,Sample
+21346.2,21349.7,-1,Carbonaceous,0.8,False,
+21349.7,21351.7,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21351.7,21355.2,-1,Carbonaceous,0.8,False,
+21355.2,21356.7,17,Available BB Anhydrite,0.305,False,Sample
+21356.7,21360.7,-1,Carbonaceous,0.8,False,
+21360.7,21362.2,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21362.2,21365.7,-1,Carbonaceous,0.8,False,
+21365.7,21367.7,17,Available BB Anhydrite,0.305,False,Sample
+21367.7,21371.2,-1,Carbonaceous,0.8,False,
+21371.2,21372.7,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21372.7,21376.71,-1,Carbonaceous,0.8,False,
+21376.71,21378.21,17,Available BB Anhydrite,0.305,False,Sample
+21378.21,21381.71,-1,Carbonaceous,0.8,False,
+21381.71,21383.71,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21383.71,21387.21,-1,Carbonaceous,0.8,False,
+21387.21,21388.71,17,Available BB Anhydrite,0.305,False,Sample
+21388.71,21392.71,-1,Carbonaceous,0.8,False,
+21392.71,21394.21,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21394.21,21397.71,-1,Carbonaceous,0.8,False,
+21397.71,21399.71,17,Available BB Anhydrite,0.305,False,Sample
+21399.71,21403.21,-1,Carbonaceous,0.8,False,
+21403.21,21404.71,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21404.71,21408.71,-1,Carbonaceous,0.8,False,
+21408.71,21410.21,17,Available BB Anhydrite,0.305,False,Sample
+21410.21,21413.71,-1,Carbonaceous,0.8,False,
+21413.71,21415.71,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21415.71,21419.21,-1,Carbonaceous,0.8,False,
+21419.21,21420.71,17,Available BB Anhydrite,0.305,False,Sample
+21420.71,21424.71,-1,Carbonaceous,0.8,False,
+21424.71,21426.22,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21426.22,21429.72,-1,Carbonaceous,0.8,False,
+21429.72,21431.72,17,Available BB Anhydrite,0.305,False,Sample
+21431.72,21435.22,-1,Carbonaceous,0.8,False,
+21435.22,21436.72,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21436.72,21440.72,-1,Carbonaceous,0.8,False,
+21440.72,21442.22,17,Available BB Anhydrite,0.305,False,Sample
+21442.22,21445.72,-1,Carbonaceous,0.8,False,
+21445.72,21447.72,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21447.72,21451.22,-1,Carbonaceous,0.8,False,
+21451.22,21452.72,17,Available BB Anhydrite,0.305,False,Sample
+21452.72,21456.72,-1,Carbonaceous,0.8,False,
+21456.72,21458.22,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21458.22,21461.72,-1,Carbonaceous,0.8,False,
+21461.72,21463.72,17,Available BB Anhydrite,0.305,False,Sample
+21463.72,21466.72,-1,Carbonaceous,0.8,False,
+21466.72,21468.22,29,Shale,0.271,False,Claystone|Argillaceous|Salt
+21468.22,21471.22,11,Sandstone,0.343,False,
+21471.22,21473.22,-1,Carbonaceous,0.8,False,
+21473.22,21477.22,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21477.22,21481.23,11,Sandstone,0.343,False,
+21481.23,21483.73,-1,Carbonaceous,0.8,False,
+21483.73,21485.23,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21485.23,21489.23,-1,Carbonaceous,0.8,False,
+21489.23,21490.73,17,Available BB Anhydrite,0.305,False,Sample
+21490.73,21494.23,-1,Carbonaceous,0.8,False,
+21494.23,21496.23,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21496.23,21498.73,11,Sandstone,0.343,False,
+21498.73,21500.23,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+21500.23,21503.73,11,Sandstone,0.343,False,
+21503.73,21506.23,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21506.23,21509.73,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+21509.73,21511.23,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21511.23,21515.23,-1,Carbonaceous,0.8,False,
+21515.23,21516.73,17,Available BB Anhydrite,0.305,False,Sample
+21516.73,21520.23,-1,Carbonaceous,0.8,False,
+21520.23,21522.23,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21522.23,21524.73,11,Sandstone,0.343,False,
+21524.73,21526.23,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+21526.23,21530.24,11,Sandstone,0.343,False,
+21530.24,21532.74,-1,Carbonaceous,0.8,False,
+21532.74,21534.24,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21534.24,21537.74,-1,Carbonaceous,0.8,False,
+21537.74,21539.24,29,Shale,0.271,False,Claystone|Argillaceous|Salt
+21539.24,21543.24,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21543.24,21545.74,-1,Carbonaceous,0.8,False,
+21545.74,21547.24,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21547.24,21551.24,-1,Carbonaceous,0.8,False,
+21551.24,21552.74,17,Available BB Anhydrite,0.305,False,Sample
+21552.74,21557.24,3,Argillaceous,0.714,False,Claystone|Shale|Calcareous
+21557.24,21560.74,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+21560.74,21562.24,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21562.24,21566.24,-1,Carbonaceous,0.8,False,
+21566.24,21567.74,17,Available BB Anhydrite,0.305,False,Sample
+21567.74,21571.24,-1,Carbonaceous,0.8,False,
+21571.24,21573.24,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21573.24,21576.74,-1,Carbonaceous,0.8,False,
+21576.74,21578.24,17,Available BB Anhydrite,0.305,False,Sample
+21578.24,21580.74,11,Sandstone,0.343,False,
+21580.74,21582.75,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21582.75,21585.75,-1,Carbonaceous,0.8,False,
+21585.75,21587.25,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21587.25,21592.25,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21592.25,21594.75,-1,Carbonaceous,0.8,False,
+21594.75,21596.25,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21596.25,21600.25,-1,Carbonaceous,0.8,False,
+21600.25,21602.25,17,Available BB Anhydrite,0.305,False,Sample
+21602.25,21605.75,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+21605.75,21607.75,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+21607.75,21610.75,-1,Carbonaceous,0.8,False,
+21610.75,21612.25,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21612.25,21616.25,-1,Carbonaceous,0.8,False,
+21616.25,21617.75,17,Available BB Anhydrite,0.305,False,Sample
+21617.75,21621.25,-1,Carbonaceous,0.8,False,
+21621.25,21623.25,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21623.25,21626.75,-1,Carbonaceous,0.8,False,
+21626.75,21628.25,17,Available BB Anhydrite,0.305,False,Sample
+21628.25,21632.25,-1,Carbonaceous,0.8,False,
+21632.25,21633.76,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21633.76,21637.26,-1,Carbonaceous,0.8,False,
+21637.26,21639.26,17,Available BB Anhydrite,0.305,False,Sample
+21639.26,21642.76,-1,Carbonaceous,0.8,False,
+21642.76,21644.26,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21644.26,21648.26,-1,Carbonaceous,0.8,False,
+21648.26,21649.76,17,Available BB Anhydrite,0.305,False,Sample
+21649.76,21653.26,-1,Carbonaceous,0.8,False,
+21653.26,21655.26,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21655.26,21658.76,-1,Carbonaceous,0.8,False,
+21658.76,21660.26,17,Available BB Anhydrite,0.305,False,Sample
+21660.26,21664.26,-1,Carbonaceous,0.8,False,
+21664.26,21665.76,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21665.76,21669.26,-1,Carbonaceous,0.8,False,
+21669.26,21671.26,17,Available BB Anhydrite,0.305,False,Sample
+21671.26,21674.76,-1,Carbonaceous,0.8,False,
+21674.76,21676.26,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21676.26,21680.26,-1,Carbonaceous,0.8,False,
+21680.26,21681.76,17,Available BB Anhydrite,0.305,False,Sample
+21681.76,21685.26,-1,Carbonaceous,0.8,False,
+21685.26,21687.27,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21687.27,21690.77,-1,Carbonaceous,0.8,False,
+21690.77,21692.27,17,Available BB Anhydrite,0.305,False,Sample
+21692.27,21696.27,-1,Carbonaceous,0.8,False,
+21696.27,21697.77,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21697.77,21701.27,-1,Carbonaceous,0.8,False,
+21701.27,21703.27,17,Available BB Anhydrite,0.305,False,Sample
+21703.27,21706.77,-1,Carbonaceous,0.8,False,
+21706.77,21708.27,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21708.27,21712.27,-1,Carbonaceous,0.8,False,
+21712.27,21713.77,17,Available BB Anhydrite,0.305,False,Sample
+21713.77,21717.27,-1,Carbonaceous,0.8,False,
+21717.27,21719.27,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21719.27,21722.77,-1,Carbonaceous,0.8,False,
+21722.77,21724.27,17,Available BB Anhydrite,0.305,False,Sample
+21724.27,21728.27,-1,Carbonaceous,0.8,False,
+21728.27,21729.77,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21729.77,21733.27,-1,Carbonaceous,0.8,False,
+21733.27,21735.27,17,Available BB Anhydrite,0.305,False,Sample
+21735.27,21738.78,-1,Carbonaceous,0.8,False,
+21738.78,21740.28,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21740.28,21744.28,-1,Carbonaceous,0.8,False,
+21744.28,21745.78,17,Available BB Anhydrite,0.305,False,Sample
+21745.78,21749.28,-1,Carbonaceous,0.8,False,
+21749.28,21751.28,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21751.28,21754.78,-1,Carbonaceous,0.8,False,
+21754.78,21756.28,17,Available BB Anhydrite,0.305,False,Sample
+21756.28,21760.28,-1,Carbonaceous,0.8,False,
+21760.28,21761.78,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21761.78,21765.28,-1,Carbonaceous,0.8,False,
+21765.28,21767.28,17,Available BB Anhydrite,0.305,False,Sample
+21767.28,21770.78,-1,Carbonaceous,0.8,False,
+21770.78,21772.28,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21772.28,21776.28,-1,Carbonaceous,0.8,False,
+21776.28,21777.78,17,Available BB Anhydrite,0.305,False,Sample
+21777.78,21781.28,-1,Carbonaceous,0.8,False,
+21781.28,21783.28,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21783.28,21786.78,-1,Carbonaceous,0.8,False,
+21786.78,21788.28,17,Available BB Anhydrite,0.305,False,Sample
+21788.28,21792.29,-1,Carbonaceous,0.8,False,
+21792.29,21793.79,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21793.79,21797.29,-1,Carbonaceous,0.8,False,
+21797.29,21799.29,17,Available BB Anhydrite,0.305,False,Sample
+21799.29,21802.79,-1,Carbonaceous,0.8,False,
+21802.79,21804.29,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21804.29,21808.29,-1,Carbonaceous,0.8,False,
+21808.29,21809.79,17,Available BB Anhydrite,0.305,False,Sample
+21809.79,21813.29,-1,Carbonaceous,0.8,False,
+21813.29,21815.29,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21815.29,21818.79,-1,Carbonaceous,0.8,False,
+21818.79,21820.29,17,Available BB Anhydrite,0.305,False,Sample
+21820.29,21824.29,-1,Carbonaceous,0.8,False,
+21824.29,21825.79,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21825.79,21829.29,-1,Carbonaceous,0.8,False,
+21829.29,21831.29,17,Available BB Anhydrite,0.305,False,Sample
+21831.29,21834.79,-1,Carbonaceous,0.8,False,
+21834.79,21836.29,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21836.29,21840.29,-1,Carbonaceous,0.8,False,
+21840.29,21841.8,17,Available BB Anhydrite,0.305,False,Sample
+21841.8,21845.3,-1,Carbonaceous,0.8,False,
+21845.3,21847.3,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21847.3,21850.8,-1,Carbonaceous,0.8,False,
+21850.8,21852.3,17,Available BB Anhydrite,0.305,False,Sample
+21852.3,21856.3,-1,Carbonaceous,0.8,False,
+21856.3,21857.8,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21857.8,21861.3,-1,Carbonaceous,0.8,False,
+21861.3,21863.3,17,Available BB Anhydrite,0.305,False,Sample
+21863.3,21866.8,-1,Carbonaceous,0.8,False,
+21866.8,21868.3,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21868.3,21872.3,-1,Carbonaceous,0.8,False,
+21872.3,21873.8,17,Available BB Anhydrite,0.305,False,Sample
+21873.8,21877.3,-1,Carbonaceous,0.8,False,
+21877.3,21879.3,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21879.3,21882.8,-1,Carbonaceous,0.8,False,
+21882.8,21884.3,17,Available BB Anhydrite,0.305,False,Sample
+21884.3,21888.3,-1,Carbonaceous,0.8,False,
+21888.3,21889.8,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21889.8,21893.31,-1,Carbonaceous,0.8,False,
+21893.31,21895.31,17,Available BB Anhydrite,0.305,False,Sample
+21895.31,21898.81,-1,Carbonaceous,0.8,False,
+21898.81,21900.31,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21900.31,21904.31,-1,Carbonaceous,0.8,False,
+21904.31,21905.81,17,Available BB Anhydrite,0.305,False,Sample
+21905.81,21909.31,-1,Carbonaceous,0.8,False,
+21909.31,21911.31,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21911.31,21914.81,-1,Carbonaceous,0.8,False,
+21914.81,21916.31,17,Available BB Anhydrite,0.305,False,Sample
+21916.31,21920.31,-1,Carbonaceous,0.8,False,
+21920.31,21921.81,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21921.81,21925.31,-1,Carbonaceous,0.8,False,
+21925.31,21927.31,17,Available BB Anhydrite,0.305,False,Sample
+21927.31,21930.81,-1,Carbonaceous,0.8,False,
+21930.81,21932.31,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21932.31,21936.31,-1,Carbonaceous,0.8,False,
+21936.31,21937.81,17,Available BB Anhydrite,0.305,False,Sample
+21937.81,21941.31,-1,Carbonaceous,0.8,False,
+21941.31,21943.81,17,Available BB Anhydrite,0.305,False,Sample
+21943.81,21947.82,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+21947.82,21950.32,24,Conglomerate ies,0.344,False,Sandstone|Breccia|Sand
+21950.32,21953.32,22,Sand,0.017,True,Silty
+21953.32,21955.82,23,Marlstone,0.227,False,|Pyrite
+21955.82,21957.32,35,Marlstone,0.548,False,
+21957.32,21959.82,11,Sandstone,0.343,False,
+21959.82,21962.82,23,Marlstone,0.227,False,|Pyrite
+21962.82,21964.32,35,Marlstone,0.548,False,
+21964.32,21968.32,16,Silty,0.056,True,Sand
+21968.32,21970.82,-1,Carbonaceous,0.8,False,
+21970.82,21972.32,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21972.32,21975.82,-1,Carbonaceous,0.8,False,
+21975.82,21977.32,36,Marlstone,0.126,False,Kaolinite|Argillaceous|Siliceous
+21977.32,21979.82,11,Sandstone,0.343,False,
+21979.82,21982.32,25,Conglomerate ies,0.196,False,Breccia|Sandstone
+21982.32,21984.32,-1,Carbonaceous,0.8,False,
+21984.32,21987.82,21,Silty,0.009,True,Siliceous|Kaolinite|Argillaceous
+21987.82,21989.32,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21989.32,21994.32,6,Marlstone,0.319,False,
+21994.32,21996.83,-1,Carbonaceous,0.8,False,
+21996.83,21998.33,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+21998.33,22002.33,-1,Carbonaceous,0.8,False,
+22002.33,22003.83,17,Available BB Anhydrite,0.305,False,Sample
+22003.83,22007.33,-1,Carbonaceous,0.8,False,
+22007.33,22009.33,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22009.33,22012.83,-1,Carbonaceous,0.8,False,
+22012.83,22014.33,17,Available BB Anhydrite,0.305,False,Sample
+22014.33,22018.33,-1,Carbonaceous,0.8,False,
+22018.33,22019.83,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22019.83,22023.33,-1,Carbonaceous,0.8,False,
+22023.33,22025.33,17,Available BB Anhydrite,0.305,False,Sample
+22025.33,22028.83,-1,Carbonaceous,0.8,False,
+22028.83,22030.33,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22030.33,22034.33,-1,Carbonaceous,0.8,False,
+22034.33,22035.83,17,Available BB Anhydrite,0.305,False,Sample
+22035.83,22039.33,-1,Carbonaceous,0.8,False,
+22039.33,22041.33,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22041.33,22044.83,-1,Carbonaceous,0.8,False,
+22044.83,22046.33,17,Available BB Anhydrite,0.305,False,Sample
+22046.33,22050.34,-1,Carbonaceous,0.8,False,
+22050.34,22051.84,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22051.84,22055.34,-1,Carbonaceous,0.8,False,
+22055.34,22057.34,17,Available BB Anhydrite,0.305,False,Sample
+22057.34,22060.84,-1,Carbonaceous,0.8,False,
+22060.84,22062.34,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22062.34,22066.34,-1,Carbonaceous,0.8,False,
+22066.34,22067.84,17,Available BB Anhydrite,0.305,False,Sample
+22067.84,22071.34,-1,Carbonaceous,0.8,False,
+22071.34,22073.34,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22073.34,22076.84,-1,Carbonaceous,0.8,False,
+22076.84,22078.34,17,Available BB Anhydrite,0.305,False,Sample
+22078.34,22082.34,-1,Carbonaceous,0.8,False,
+22082.34,22083.84,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22083.84,22087.34,-1,Carbonaceous,0.8,False,
+22087.34,22089.34,17,Available BB Anhydrite,0.305,False,Sample
+22089.34,22092.84,-1,Carbonaceous,0.8,False,
+22092.84,22094.34,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22094.34,22098.34,-1,Carbonaceous,0.8,False,
+22098.34,22099.84,17,Available BB Anhydrite,0.305,False,Sample
+22099.84,22103.35,-1,Carbonaceous,0.8,False,
+22103.35,22105.35,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22105.35,22108.85,-1,Carbonaceous,0.8,False,
+22108.85,22110.35,17,Available BB Anhydrite,0.305,False,Sample
+22110.35,22114.35,-1,Carbonaceous,0.8,False,
+22114.35,22115.85,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22115.85,22119.35,-1,Carbonaceous,0.8,False,
+22119.35,22121.35,17,Available BB Anhydrite,0.305,False,Sample
+22121.35,22124.85,-1,Carbonaceous,0.8,False,
+22124.85,22126.35,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22126.35,22130.35,-1,Carbonaceous,0.8,False,
+22130.35,22131.85,17,Available BB Anhydrite,0.305,False,Sample
+22131.85,22135.35,-1,Carbonaceous,0.8,False,
+22135.35,22137.35,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22137.35,22140.85,-1,Carbonaceous,0.8,False,
+22140.85,22142.35,17,Available BB Anhydrite,0.305,False,Sample
+22142.35,22146.35,-1,Carbonaceous,0.8,False,
+22146.35,22147.85,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22147.85,22151.35,-1,Carbonaceous,0.8,False,
+22151.35,22153.36,17,Available BB Anhydrite,0.305,False,Sample
+22153.36,22156.86,-1,Carbonaceous,0.8,False,
+22156.86,22158.36,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22158.36,22162.36,-1,Carbonaceous,0.8,False,
+22162.36,22163.86,17,Available BB Anhydrite,0.305,False,Sample
+22163.86,22167.36,-1,Carbonaceous,0.8,False,
+22167.36,22169.36,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22169.36,22172.86,-1,Carbonaceous,0.8,False,
+22172.86,22174.36,17,Available BB Anhydrite,0.305,False,Sample
+22174.36,22178.36,-1,Carbonaceous,0.8,False,
+22178.36,22179.86,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22179.86,22183.36,-1,Carbonaceous,0.8,False,
+22183.36,22185.36,17,Available BB Anhydrite,0.305,False,Sample
+22185.36,22188.86,-1,Carbonaceous,0.8,False,
+22188.86,22190.36,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22190.36,22194.36,-1,Carbonaceous,0.8,False,
+22194.36,22195.86,17,Available BB Anhydrite,0.305,False,Sample
+22195.86,22199.36,-1,Carbonaceous,0.8,False,
+22199.36,22201.36,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22201.36,22204.87,-1,Carbonaceous,0.8,False,
+22204.87,22206.37,17,Available BB Anhydrite,0.305,False,Sample
+22206.37,22210.37,-1,Carbonaceous,0.8,False,
+22210.37,22211.87,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22211.87,22215.37,-1,Carbonaceous,0.8,False,
+22215.37,22217.37,17,Available BB Anhydrite,0.305,False,Sample
+22217.37,22220.87,-1,Carbonaceous,0.8,False,
+22220.87,22222.37,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22222.37,22226.37,-1,Carbonaceous,0.8,False,
+22226.37,22227.87,17,Available BB Anhydrite,0.305,False,Sample
+22227.87,22231.37,-1,Carbonaceous,0.8,False,
+22231.37,22233.37,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22233.37,22236.87,-1,Carbonaceous,0.8,False,
+22236.87,22238.37,17,Available BB Anhydrite,0.305,False,Sample
+22238.37,22242.37,-1,Carbonaceous,0.8,False,
+22242.37,22243.87,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22243.87,22247.37,-1,Carbonaceous,0.8,False,
+22247.37,22249.37,17,Available BB Anhydrite,0.305,False,Sample
+22249.37,22252.87,-1,Carbonaceous,0.8,False,
+22252.87,22254.37,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22254.37,22258.38,-1,Carbonaceous,0.8,False,
+22258.38,22259.88,17,Available BB Anhydrite,0.305,False,Sample
+22259.88,22263.38,-1,Carbonaceous,0.8,False,
+22263.38,22265.38,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22265.38,22268.88,-1,Carbonaceous,0.8,False,
+22268.88,22272.88,17,Available BB Anhydrite,0.305,False,Sample
+22272.88,22276.38,-1,Carbonaceous,0.8,False,
+22276.38,22277.88,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22277.88,22281.88,-1,Carbonaceous,0.8,False,
+22281.88,22283.38,17,Available BB Anhydrite,0.305,False,Sample
+22283.38,22286.88,-1,Carbonaceous,0.8,False,
+22286.88,22288.88,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22288.88,22292.38,-1,Carbonaceous,0.8,False,
+22292.38,22293.88,17,Available BB Anhydrite,0.305,False,Sample
+22293.88,22297.88,-1,Carbonaceous,0.8,False,
+22297.88,22299.38,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22299.38,22302.88,-1,Carbonaceous,0.8,False,
+22302.88,22304.88,17,Available BB Anhydrite,0.305,False,Sample
+22304.88,22308.39,-1,Carbonaceous,0.8,False,
+22308.39,22309.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22309.89,22313.89,-1,Carbonaceous,0.8,False,
+22313.89,22315.39,17,Available BB Anhydrite,0.305,False,Sample
+22315.39,22318.89,-1,Carbonaceous,0.8,False,
+22318.89,22320.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22320.89,22324.39,-1,Carbonaceous,0.8,False,
+22324.39,22325.89,17,Available BB Anhydrite,0.305,False,Sample
+22325.89,22329.89,-1,Carbonaceous,0.8,False,
+22329.89,22331.39,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22331.39,22334.89,-1,Carbonaceous,0.8,False,
+22334.89,22336.89,17,Available BB Anhydrite,0.305,False,Sample
+22336.89,22340.39,-1,Carbonaceous,0.8,False,
+22340.39,22341.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22341.89,22345.89,-1,Carbonaceous,0.8,False,
+22345.89,22347.39,17,Available BB Anhydrite,0.305,False,Sample
+22347.39,22350.89,-1,Carbonaceous,0.8,False,
+22350.89,22352.89,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22352.89,22356.39,-1,Carbonaceous,0.8,False,
+22356.39,22357.89,17,Available BB Anhydrite,0.305,False,Sample
+22357.89,22361.9,-1,Carbonaceous,0.8,False,
+22361.9,22363.4,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22363.4,22366.9,-1,Carbonaceous,0.8,False,
+22366.9,22368.9,17,Available BB Anhydrite,0.305,False,Sample
+22368.9,22372.4,-1,Carbonaceous,0.8,False,
+22372.4,22373.9,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22373.9,22377.9,-1,Carbonaceous,0.8,False,
+22377.9,22379.4,17,Available BB Anhydrite,0.305,False,Sample
+22379.4,22382.9,-1,Carbonaceous,0.8,False,
+22382.9,22384.9,26,Available BB Anhydrite,0.053,False,Sample|Salt|Glauconite
+22384.9,22387.9,-1,Carbonaceous,0.8,False,
+22387.9,22391.9,18,Argillaceous,0.833,False,Claystone|Shale|Calcareous
+22391.9,22393.4,17,Available BB Anhydrite,0.305,False,Sample
+22393.4,22396.9,-1,Carbonaceous,0.8,False,
+22396.9,22398.4,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22398.4,22402.4,-1,Carbonaceous,0.8,False,
+22402.4,22403.9,17,Available BB Anhydrite,0.305,False,Sample
+22403.9,22407.9,-1,Carbonaceous,0.8,False,
+22407.9,22409.4,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22409.4,22412.91,-1,Carbonaceous,0.8,False,
+22412.91,22414.41,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22414.41,22418.41,-1,Carbonaceous,0.8,False,
+22418.41,22419.91,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22419.91,22423.91,-1,Carbonaceous,0.8,False,
+22423.91,22425.41,17,Available BB Anhydrite,0.305,False,Sample
+22425.41,22429.41,-1,Carbonaceous,0.8,False,
+22429.41,22430.41,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22430.41,22434.41,-1,Carbonaceous,0.8,False,
+22434.41,22435.91,17,Available BB Anhydrite,0.305,False,Sample
+22435.91,22439.91,-1,Carbonaceous,0.8,False,
+22439.91,22441.41,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22441.41,22445.41,-1,Carbonaceous,0.8,False,
+22445.41,22446.91,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22446.91,22450.41,-1,Carbonaceous,0.8,False,
+22450.41,22451.91,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22451.91,22455.91,-1,Carbonaceous,0.8,False,
+22455.91,22457.41,17,Available BB Anhydrite,0.305,False,Sample
+22457.41,22460.91,-1,Carbonaceous,0.8,False,
+22460.91,22462.41,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22462.41,22466.42,-1,Carbonaceous,0.8,False,
+22466.42,22467.92,17,Available BB Anhydrite,0.305,False,Sample
+22467.92,22471.92,-1,Carbonaceous,0.8,False,
+22471.92,22473.42,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22473.42,22476.92,-1,Carbonaceous,0.8,False,
+22476.92,22478.42,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22478.42,22482.42,-1,Carbonaceous,0.8,False,
+22482.42,22483.92,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22483.92,22487.92,-1,Carbonaceous,0.8,False,
+22487.92,22489.42,17,Available BB Anhydrite,0.305,False,Sample
+22489.42,22492.92,-1,Carbonaceous,0.8,False,
+22492.92,22494.42,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22494.42,22498.42,-1,Carbonaceous,0.8,False,
+22498.42,22499.92,17,Available BB Anhydrite,0.305,False,Sample
+22499.92,22503.92,-1,Carbonaceous,0.8,False,
+22503.92,22505.42,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22505.42,22509.42,-1,Carbonaceous,0.8,False,
+22509.42,22514.42,3,Argillaceous,0.714,False,Claystone|Shale|Calcareous
+22514.42,22515.93,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22515.93,22519.93,-1,Carbonaceous,0.8,False,
+22519.93,22521.43,17,Available BB Anhydrite,0.305,False,Sample
+22521.43,22525.43,-1,Carbonaceous,0.8,False,
+22525.43,22526.93,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22526.93,22530.43,-1,Carbonaceous,0.8,False,
+22530.43,22531.93,17,Available BB Anhydrite,0.305,False,Sample
+22531.93,22535.93,-1,Carbonaceous,0.8,False,
+22535.93,22537.43,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22537.43,22541.43,-1,Carbonaceous,0.8,False,
+22541.43,22546.43,3,Argillaceous,0.714,False,Claystone|Shale|Calcareous
+22546.43,22547.93,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22547.93,22551.93,-1,Carbonaceous,0.8,False,
+22551.93,22553.43,17,Available BB Anhydrite,0.305,False,Sample
+22553.43,22557.43,-1,Carbonaceous,0.8,False,
+22557.43,22558.43,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22558.43,22562.43,-1,Carbonaceous,0.8,False,
+22562.43,22563.93,17,Available BB Anhydrite,0.305,False,Sample
+22563.93,22567.94,-1,Carbonaceous,0.8,False,
+22567.94,22569.44,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22569.44,22572.94,-1,Carbonaceous,0.8,False,
+22572.94,22574.44,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22574.44,22578.44,-1,Carbonaceous,0.8,False,
+22578.44,22579.94,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22579.94,22583.94,-1,Carbonaceous,0.8,False,
+22583.94,22585.44,17,Available BB Anhydrite,0.305,False,Sample
+22585.44,22589.44,-1,Carbonaceous,0.8,False,
+22589.44,22590.94,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22590.94,22594.44,-1,Carbonaceous,0.8,False,
+22594.44,22595.94,17,Available BB Anhydrite,0.305,False,Sample
+22595.94,22599.94,-1,Carbonaceous,0.8,False,
+22599.94,22601.44,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22601.44,22605.44,-1,Carbonaceous,0.8,False,
+22605.44,22606.94,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22606.94,22610.44,-1,Carbonaceous,0.8,False,
+22610.44,22611.94,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22611.94,22615.94,-1,Carbonaceous,0.8,False,
+22615.94,22617.44,17,Available BB Anhydrite,0.305,False,Sample
+22617.44,22620.95,-1,Carbonaceous,0.8,False,
+22620.95,22622.45,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22622.45,22626.45,-1,Carbonaceous,0.8,False,
+22626.45,22627.95,17,Available BB Anhydrite,0.305,False,Sample
+22627.95,22631.95,-1,Carbonaceous,0.8,False,
+22631.95,22633.45,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22633.45,22637.45,-1,Carbonaceous,0.8,False,
+22637.45,22638.45,39,Sand,0.048,True,Silty|Siliceous|Sample
+22638.45,22642.45,-1,Carbonaceous,0.8,False,
+22642.45,22643.95,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22643.95,22647.95,-1,Carbonaceous,0.8,False,
+22647.95,22649.45,17,Available BB Anhydrite,0.305,False,Sample
+22649.45,22653.45,-1,Carbonaceous,0.8,False,
+22653.45,22654.45,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22654.45,22658.45,-1,Carbonaceous,0.8,False,
+22658.45,22659.95,17,Available BB Anhydrite,0.305,False,Sample
+22659.95,22663.95,-1,Carbonaceous,0.8,False,
+22663.95,22665.45,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22665.45,22669.45,-1,Carbonaceous,0.8,False,
+22669.45,22670.96,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22670.96,22674.46,-1,Carbonaceous,0.8,False,
+22674.46,22675.96,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22675.96,22679.96,-1,Carbonaceous,0.8,False,
+22679.96,22681.46,17,Available BB Anhydrite,0.305,False,Sample
+22681.46,22685.46,-1,Carbonaceous,0.8,False,
+22685.46,22690.46,7,Silty,0.005,True,Siliceous|Kaolinite|Argillaceous
+22690.46,22691.96,17,Available BB Anhydrite,0.305,False,Sample
+22691.96,22695.96,-1,Carbonaceous,0.8,False,
+22695.96,22697.46,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22697.46,22701.46,-1,Carbonaceous,0.8,False,
+22701.46,22702.46,39,Sand,0.048,True,Silty|Siliceous|Sample
+22702.46,22706.46,-1,Carbonaceous,0.8,False,
+22706.46,22707.96,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22707.96,22711.96,-1,Carbonaceous,0.8,False,
+22711.96,22713.46,17,Available BB Anhydrite,0.305,False,Sample
+22713.46,22717.46,-1,Carbonaceous,0.8,False,
+22717.46,22718.46,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22718.46,22722.47,-1,Carbonaceous,0.8,False,
+22722.47,22723.97,17,Available BB Anhydrite,0.305,False,Sample
+22723.97,22727.97,-1,Carbonaceous,0.8,False,
+22727.97,22729.47,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22729.47,22733.47,-1,Carbonaceous,0.8,False,
+22733.47,22734.97,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22734.97,22738.47,-1,Carbonaceous,0.8,False,
+22738.47,22739.97,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22739.97,22743.97,-1,Carbonaceous,0.8,False,
+22743.97,22745.47,17,Available BB Anhydrite,0.305,False,Sample
+22745.47,22748.97,-1,Carbonaceous,0.8,False,
+22748.97,22750.47,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22750.47,22754.47,-1,Carbonaceous,0.8,False,
+22754.47,22755.97,17,Available BB Anhydrite,0.305,False,Sample
+22755.97,22759.97,-1,Carbonaceous,0.8,False,
+22759.97,22761.47,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22761.47,22765.47,-1,Carbonaceous,0.8,False,
+22765.47,22766.97,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22766.97,22770.47,-1,Carbonaceous,0.8,False,
+22770.47,22771.97,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22771.97,22775.98,-1,Carbonaceous,0.8,False,
+22775.98,22777.48,17,Available BB Anhydrite,0.305,False,Sample
+22777.48,22781.48,-1,Carbonaceous,0.8,False,
+22781.48,22782.48,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22782.48,22786.48,-1,Carbonaceous,0.8,False,
+22786.48,22787.98,17,Available BB Anhydrite,0.305,False,Sample
+22787.98,22791.98,-1,Carbonaceous,0.8,False,
+22791.98,22793.48,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22793.48,22797.48,-1,Carbonaceous,0.8,False,
+22797.48,22798.48,39,Sand,0.048,True,Silty|Siliceous|Sample
+22798.48,22802.48,-1,Carbonaceous,0.8,False,
+22802.48,22803.98,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22803.98,22807.98,-1,Carbonaceous,0.8,False,
+22807.98,22809.48,17,Available BB Anhydrite,0.305,False,Sample
+22809.48,22813.48,-1,Carbonaceous,0.8,False,
+22813.48,22818.48,7,Silty,0.005,True,Siliceous|Kaolinite|Argillaceous
+22818.48,22819.98,17,Available BB Anhydrite,0.305,False,Sample
+22819.98,22823.98,-1,Carbonaceous,0.8,False,
+22823.98,22825.48,37,Available BB Anhydrite,0.215,False,|Pyrite|Sample
+22825.48,22829.49,-1,Carbonaceous,0.8,False,
+22829.49,22830.49,39,Sand,0.048,True,Silty|Siliceous|Sample
+22830.49,22834.49,-1,Carbonaceous,0.8,False,
+22834.49,22836.49,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22836.49,22840.49,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+22840.49,22842.49,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+22842.49,22846.49,11,Sandstone,0.343,False,
+22846.49,22847.99,5,Sandstone,0.242,False,Conglomerate ies|Breccia
+22847.99,22851.99,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+22851.99,22853.49,17,Available BB Anhydrite,0.305,False,Sample
+22853.49,22857.99,-1,Carbonaceous,0.8,False,
+22857.99,22860.99,11,Sandstone,0.343,False,
+22860.99,22862.49,32,Breccia,0.071,False,Conglomerate ies|Sandstone|Available BB Anhydrite
+22862.49,22866.99,11,Sandstone,0.343,False,
+22866.99,22869.99,-1,Carbonaceous,0.8,False,
+22869.99,22871.49,17,Available BB Anhydrite,0.305,False,Sample
+22871.49,22875.49,-1,Carbonaceous,0.8,False,
+22875.49,22876.99,28,Shale,0.308,False,Claystone|Argillaceous|Salt
+22876.99,22882.0,8,Silty,0.008,True,Siliceous|Kaolinite|Argillaceous
+22882.0,22883.5,13,Sandstone,0.009,True,Breccia|Conglomerate ies
+22883.5,22886.5,-1,Carbonaceous,0.8,False,

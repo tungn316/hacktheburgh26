@@ -1,0 +1,5 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+22870.43,22901.63,0,Fine Sandstone,0.856,False,Chert|Volcanic
+22901.63,22913.03,1,Shale,0.634,False,Claystone
+22913.03,22958.53,0,Fine Sandstone,0.856,False,Chert|Volcanic
+22958.53,22970.33,1,Shale,0.634,False,Claystone

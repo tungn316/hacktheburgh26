@@ -1,0 +1,3411 @@
+{
+  "image": "60817411420000_mc_540_#1_st00_bp00_masterlog_3400-24195_5in_md.tif",
+  "depth_fit": {
+    "px_per_ft": 10.0002,
+    "labels_used": 1025,
+    "labels_read": 1048,
+    "mean_residual_ft": 0.032,
+    "label_rotation_deg": 0
+  },
+  "legend": [
+    {
+      "name": "Claystone",
+      "box": [
+        26,
+        903,
+        84,
+        944
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale",
+      "box": [
+        334,
+        903,
+        392,
+        944
+      ],
+      "white": false
+    },
+    {
+      "name": "Marl",
+      "box": [
+        641,
+        903,
+        699,
+        944
+      ],
+      "white": false
+    },
+    {
+      "name": "Sandstone",
+      "box": [
+        949,
+        903,
+        1007,
+        944
+      ],
+      "white": false
+    },
+    {
+      "name": "Siltstone",
+      "box": [
+        1256,
+        903,
+        1315,
+        944
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone",
+      "box": [
+        26,
+        965,
+        84,
+        1006
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomite",
+      "box": [
+        334,
+        965,
+        392,
+        1006
+      ],
+      "white": false
+    },
+    {
+      "name": "Anhydrite",
+      "box": [
+        641,
+        965,
+        699,
+        1006
+      ],
+      "white": false
+    },
+    {
+      "name": "Halite",
+      "box": [
+        949,
+        965,
+        1007,
+        1006
+      ],
+      "white": false
+    },
+    {
+      "name": "Gypsum",
+      "box": [
+        1256,
+        965,
+        1315,
+        1006
+      ],
+      "white": false
+    },
+    {
+      "name": "Fossils",
+      "box": [
+        26,
+        1028,
+        84,
+        1068
+      ],
+      "white": false
+    },
+    {
+      "name": "Core",
+      "box": [
+        334,
+        1028,
+        392,
+        1068
+      ],
+      "white": false
+    },
+    {
+      "name": "Dst",
+      "box": [
+        641,
+        1028,
+        699,
+        1068
+      ],
+      "white": false
+    },
+    {
+      "name": "FIT",
+      "box": [
+        949,
+        1028,
+        1007,
+        1068
+      ],
+      "white": false
+    },
+    {
+      "name": "RFT",
+      "box": [
+        1256,
+        1028,
+        1315,
+        1068
+      ],
+      "white": false
+    },
+    {
+      "name": "Casing Top",
+      "box": [
+        26,
+        1090,
+        84,
+        1130
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud loss",
+      "box": [
+        334,
+        1090,
+        392,
+        1130
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud gain",
+      "box": [
+        641,
+        1090,
+        699,
+        1130
+      ],
+      "white": false
+    },
+    {
+      "name": "Survey",
+      "box": [
+        949,
+        1090,
+        1007,
+        1130
+      ],
+      "white": false
+    },
+    {
+      "name": "Salt water",
+      "box": [
+        1256,
+        1090,
+        1315,
+        1130
+      ],
+      "white": false
+    },
+    {
+      "name": "Casing shoe",
+      "box": [
+        26,
+        1152,
+        84,
+        1192
+      ],
+      "white": false
+    },
+    {
+      "name": "Oil and Gas",
+      "box": [
+        949,
+        1152,
+        1007,
+        1192
+      ],
+      "white": false
+    },
+    {
+      "name": "Sidewall",
+      "box": [
+        1256,
+        1152,
+        1315,
+        1192
+      ],
+      "white": false
+    },
+    {
+      "name": "Oil_Good",
+      "box": [
+        334,
+        1152,
+        392,
+        1192
+      ],
+      "white": false
+    },
+    {
+      "name": "Gas_Good",
+      "box": [
+        641,
+        1152,
+        699,
+        1192
+      ],
+      "white": false
+    }
+  ],
+  "n_groups": 14,
+  "intervals": [
+    {
+      "top_ft": 3560.34,
+      "base_ft": 3579.83,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 3141,
+      "y_base_px": 3336
+    },
+    {
+      "top_ft": 3579.83,
+      "base_ft": 3582.13,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 3336,
+      "y_base_px": 3359
+    },
+    {
+      "top_ft": 3582.13,
+      "base_ft": 4670.51,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 3359,
+      "y_base_px": 14243
+    },
+    {
+      "top_ft": 4670.51,
+      "base_ft": 4730.51,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 14243,
+      "y_base_px": 14843
+    },
+    {
+      "top_ft": 4730.51,
+      "base_ft": 5199.8,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 14843,
+      "y_base_px": 19536
+    },
+    {
+      "top_ft": 5199.8,
+      "base_ft": 5202.1,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 19536,
+      "y_base_px": 19559
+    },
+    {
+      "top_ft": 5202.1,
+      "base_ft": 5258.5,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 19559,
+      "y_base_px": 20123
+    },
+    {
+      "top_ft": 5258.5,
+      "base_ft": 5330.5,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 20123,
+      "y_base_px": 20843
+    },
+    {
+      "top_ft": 5330.5,
+      "base_ft": 5840.19,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 20843,
+      "y_base_px": 25940
+    },
+    {
+      "top_ft": 5840.19,
+      "base_ft": 5841.49,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 25940,
+      "y_base_px": 25953
+    },
+    {
+      "top_ft": 5841.49,
+      "base_ft": 6051.68,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 25953,
+      "y_base_px": 28055
+    },
+    {
+      "top_ft": 6051.68,
+      "base_ft": 6052.68,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 28055,
+      "y_base_px": 28065
+    },
+    {
+      "top_ft": 6052.68,
+      "base_ft": 6141.18,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 28065,
+      "y_base_px": 28950
+    },
+    {
+      "top_ft": 6141.18,
+      "base_ft": 6237.98,
+      "group": 2,
+      "lithology": "Claystone",
+      "confidence": 0.199,
+      "alternatives": [
+        "Marl",
+        "RFT",
+        "FIT"
+      ],
+      "ambiguous": false,
+      "y_top_px": 28950,
+      "y_base_px": 29918
+    },
+    {
+      "top_ft": 6237.98,
+      "base_ft": 6244.58,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 29918,
+      "y_base_px": 29984
+    },
+    {
+      "top_ft": 6244.58,
+      "base_ft": 6440.87,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 29984,
+      "y_base_px": 31947
+    },
+    {
+      "top_ft": 6440.87,
+      "base_ft": 6441.97,
+      "group": 12,
+      "lithology": "RFT",
+      "confidence": 0.049,
+      "alternatives": [
+        "FIT",
+        "Sidewall",
+        "Dst"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31947,
+      "y_base_px": 31958
+    },
+    {
+      "top_ft": 6441.97,
+      "base_ft": 6499.37,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31958,
+      "y_base_px": 32532
+    },
+    {
+      "top_ft": 6499.37,
+      "base_ft": 6500.47,
+      "group": 13,
+      "lithology": "FIT",
+      "confidence": 0.001,
+      "alternatives": [
+        "RFT",
+        "Claystone",
+        "Salt water"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32532,
+      "y_base_px": 32543
+    },
+    {
+      "top_ft": 6500.47,
+      "base_ft": 6529.67,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32543,
+      "y_base_px": 32835
+    },
+    {
+      "top_ft": 6529.67,
+      "base_ft": 6552.47,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 32835,
+      "y_base_px": 33063
+    },
+    {
+      "top_ft": 6552.47,
+      "base_ft": 6598.47,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 33063,
+      "y_base_px": 33523
+    },
+    {
+      "top_ft": 6598.47,
+      "base_ft": 6603.67,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33523,
+      "y_base_px": 33575
+    },
+    {
+      "top_ft": 6603.67,
+      "base_ft": 6627.07,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33575,
+      "y_base_px": 33809
+    },
+    {
+      "top_ft": 6627.07,
+      "base_ft": 6634.67,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33809,
+      "y_base_px": 33885
+    },
+    {
+      "top_ft": 6634.67,
+      "base_ft": 6681.07,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 33885,
+      "y_base_px": 34349
+    },
+    {
+      "top_ft": 6681.07,
+      "base_ft": 6691.97,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34349,
+      "y_base_px": 34458
+    },
+    {
+      "top_ft": 6691.97,
+      "base_ft": 6795.47,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 34458,
+      "y_base_px": 35493
+    },
+    {
+      "top_ft": 6795.47,
+      "base_ft": 6800.47,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 35493,
+      "y_base_px": 35543
+    },
+    {
+      "top_ft": 6800.47,
+      "base_ft": 6851.27,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 35543,
+      "y_base_px": 36051
+    },
+    {
+      "top_ft": 6851.27,
+      "base_ft": 6857.07,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 36051,
+      "y_base_px": 36109
+    },
+    {
+      "top_ft": 6857.07,
+      "base_ft": 6860.47,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 36109,
+      "y_base_px": 36143
+    },
+    {
+      "top_ft": 6860.47,
+      "base_ft": 6890.47,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 36143,
+      "y_base_px": 36443
+    },
+    {
+      "top_ft": 6890.47,
+      "base_ft": 6896.67,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 36443,
+      "y_base_px": 36505
+    },
+    {
+      "top_ft": 6896.67,
+      "base_ft": 6902.47,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 36505,
+      "y_base_px": 36563
+    },
+    {
+      "top_ft": 6902.47,
+      "base_ft": 7160.96,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 36563,
+      "y_base_px": 39148
+    },
+    {
+      "top_ft": 7160.96,
+      "base_ft": 7161.96,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 39148,
+      "y_base_px": 39158
+    },
+    {
+      "top_ft": 7161.96,
+      "base_ft": 7198.96,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 39158,
+      "y_base_px": 39528
+    },
+    {
+      "top_ft": 7198.96,
+      "base_ft": 7210.56,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 39528,
+      "y_base_px": 39644
+    },
+    {
+      "top_ft": 7210.56,
+      "base_ft": 8170.64,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 39644,
+      "y_base_px": 49245
+    },
+    {
+      "top_ft": 8170.64,
+      "base_ft": 8181.34,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 49245,
+      "y_base_px": 49352
+    },
+    {
+      "top_ft": 8181.34,
+      "base_ft": 8200.44,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 49352,
+      "y_base_px": 49543
+    },
+    {
+      "top_ft": 8200.44,
+      "base_ft": 8300.44,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 49543,
+      "y_base_px": 50543
+    },
+    {
+      "top_ft": 8300.44,
+      "base_ft": 8450.43,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 50543,
+      "y_base_px": 52043
+    },
+    {
+      "top_ft": 8450.43,
+      "base_ft": 12254.65,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 52043,
+      "y_base_px": 90086
+    },
+    {
+      "top_ft": 12254.65,
+      "base_ft": 12596.25,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 90086,
+      "y_base_px": 93502
+    },
+    {
+      "top_ft": 12596.25,
+      "base_ft": 12599.75,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 93502,
+      "y_base_px": 93537
+    },
+    {
+      "top_ft": 12599.75,
+      "base_ft": 12619.15,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 93537,
+      "y_base_px": 93731
+    },
+    {
+      "top_ft": 12619.15,
+      "base_ft": 12654.74,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 93731,
+      "y_base_px": 94087
+    },
+    {
+      "top_ft": 12654.74,
+      "base_ft": 12663.64,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 94087,
+      "y_base_px": 94176
+    },
+    {
+      "top_ft": 12663.64,
+      "base_ft": 12670.84,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 94176,
+      "y_base_px": 94248
+    },
+    {
+      "top_ft": 12670.84,
+      "base_ft": 12679.34,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 94248,
+      "y_base_px": 94333
+    },
+    {
+      "top_ft": 12679.34,
+      "base_ft": 12731.74,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 94333,
+      "y_base_px": 94857
+    },
+    {
+      "top_ft": 12731.74,
+      "base_ft": 12754.24,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 94857,
+      "y_base_px": 95082
+    },
+    {
+      "top_ft": 12754.24,
+      "base_ft": 12784.44,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 95082,
+      "y_base_px": 95384
+    },
+    {
+      "top_ft": 12784.44,
+      "base_ft": 12791.94,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 95384,
+      "y_base_px": 95459
+    },
+    {
+      "top_ft": 12791.94,
+      "base_ft": 12800.74,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 95459,
+      "y_base_px": 95547
+    },
+    {
+      "top_ft": 12800.74,
+      "base_ft": 12808.24,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 95547,
+      "y_base_px": 95622
+    },
+    {
+      "top_ft": 12808.24,
+      "base_ft": 12817.44,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 95622,
+      "y_base_px": 95714
+    },
+    {
+      "top_ft": 12817.44,
+      "base_ft": 12821.04,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 95714,
+      "y_base_px": 95750
+    },
+    {
+      "top_ft": 12821.04,
+      "base_ft": 16000.07,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 95750,
+      "y_base_px": 127541
+    },
+    {
+      "top_ft": 16000.07,
+      "base_ft": 16490.66,
+      "group": 1,
+      "lithology": "Halite",
+      "confidence": 0.832,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 127541,
+      "y_base_px": 132447
+    },
+    {
+      "top_ft": 16490.66,
+      "base_ft": 16500.06,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 132447,
+      "y_base_px": 132541
+    },
+    {
+      "top_ft": 16500.06,
+      "base_ft": 16798.56,
+      "group": 1,
+      "lithology": "Halite",
+      "confidence": 0.832,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 132541,
+      "y_base_px": 135526
+    },
+    {
+      "top_ft": 16798.56,
+      "base_ft": 16800.36,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 135526,
+      "y_base_px": 135544
+    },
+    {
+      "top_ft": 16800.36,
+      "base_ft": 17275.95,
+      "group": 1,
+      "lithology": "Halite",
+      "confidence": 0.832,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 135544,
+      "y_base_px": 140300
+    },
+    {
+      "top_ft": 17275.95,
+      "base_ft": 17282.55,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 140300,
+      "y_base_px": 140366
+    },
+    {
+      "top_ft": 17282.55,
+      "base_ft": 17289.75,
+      "group": 4,
+      "lithology": "Mud gain",
+      "confidence": 0.0,
+      "alternatives": [
+        "Mud loss",
+        "Salt water",
+        "Survey"
+      ],
+      "ambiguous": true,
+      "y_top_px": 140366,
+      "y_base_px": 140438
+    },
+    {
+      "top_ft": 17289.75,
+      "base_ft": 17344.45,
+      "group": 1,
+      "lithology": "Halite",
+      "confidence": 0.832,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 140438,
+      "y_base_px": 140985
+    },
+    {
+      "top_ft": 17344.45,
+      "base_ft": 17619.84,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 140985,
+      "y_base_px": 143739
+    },
+    {
+      "top_ft": 17619.84,
+      "base_ft": 17631.14,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 143739,
+      "y_base_px": 143852
+    },
+    {
+      "top_ft": 17631.14,
+      "base_ft": 17652.94,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 143852,
+      "y_base_px": 144070
+    },
+    {
+      "top_ft": 17652.94,
+      "base_ft": 17673.44,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 144070,
+      "y_base_px": 144275
+    },
+    {
+      "top_ft": 17673.44,
+      "base_ft": 17682.84,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 144275,
+      "y_base_px": 144369
+    },
+    {
+      "top_ft": 17682.84,
+      "base_ft": 17708.14,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 144369,
+      "y_base_px": 144622
+    },
+    {
+      "top_ft": 17708.14,
+      "base_ft": 17826.64,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 144622,
+      "y_base_px": 145807
+    },
+    {
+      "top_ft": 17826.64,
+      "base_ft": 17844.94,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 145807,
+      "y_base_px": 145990
+    },
+    {
+      "top_ft": 17844.94,
+      "base_ft": 17930.93,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 145990,
+      "y_base_px": 146850
+    },
+    {
+      "top_ft": 17930.93,
+      "base_ft": 17950.63,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 146850,
+      "y_base_px": 147047
+    },
+    {
+      "top_ft": 17950.63,
+      "base_ft": 17980.13,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 147047,
+      "y_base_px": 147342
+    },
+    {
+      "top_ft": 17980.13,
+      "base_ft": 17994.43,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 147342,
+      "y_base_px": 147485
+    },
+    {
+      "top_ft": 17994.43,
+      "base_ft": 18044.33,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 147485,
+      "y_base_px": 147984
+    },
+    {
+      "top_ft": 18044.33,
+      "base_ft": 18055.03,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 147984,
+      "y_base_px": 148091
+    },
+    {
+      "top_ft": 18055.03,
+      "base_ft": 18080.13,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 148091,
+      "y_base_px": 148342
+    },
+    {
+      "top_ft": 18080.13,
+      "base_ft": 18097.23,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 148342,
+      "y_base_px": 148513
+    },
+    {
+      "top_ft": 18097.23,
+      "base_ft": 18116.73,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 148513,
+      "y_base_px": 148708
+    },
+    {
+      "top_ft": 18116.73,
+      "base_ft": 18120.73,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 148708,
+      "y_base_px": 148748
+    },
+    {
+      "top_ft": 18120.73,
+      "base_ft": 18135.33,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 148748,
+      "y_base_px": 148894
+    },
+    {
+      "top_ft": 18135.33,
+      "base_ft": 18150.83,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 148894,
+      "y_base_px": 149049
+    },
+    {
+      "top_ft": 18150.83,
+      "base_ft": 18224.23,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 149049,
+      "y_base_px": 149783
+    },
+    {
+      "top_ft": 18224.23,
+      "base_ft": 18233.23,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 149783,
+      "y_base_px": 149873
+    },
+    {
+      "top_ft": 18233.23,
+      "base_ft": 18264.43,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 149873,
+      "y_base_px": 150185
+    },
+    {
+      "top_ft": 18264.43,
+      "base_ft": 18288.63,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 150185,
+      "y_base_px": 150427
+    },
+    {
+      "top_ft": 18288.63,
+      "base_ft": 18355.43,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 150427,
+      "y_base_px": 151095
+    },
+    {
+      "top_ft": 18355.43,
+      "base_ft": 18366.93,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151095,
+      "y_base_px": 151210
+    },
+    {
+      "top_ft": 18366.93,
+      "base_ft": 18379.32,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151210,
+      "y_base_px": 151334
+    },
+    {
+      "top_ft": 18379.32,
+      "base_ft": 18386.22,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151334,
+      "y_base_px": 151403
+    },
+    {
+      "top_ft": 18386.22,
+      "base_ft": 18394.72,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151403,
+      "y_base_px": 151488
+    },
+    {
+      "top_ft": 18394.72,
+      "base_ft": 18402.52,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151488,
+      "y_base_px": 151566
+    },
+    {
+      "top_ft": 18402.52,
+      "base_ft": 18413.62,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151566,
+      "y_base_px": 151677
+    },
+    {
+      "top_ft": 18413.62,
+      "base_ft": 18426.72,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151677,
+      "y_base_px": 151808
+    },
+    {
+      "top_ft": 18426.72,
+      "base_ft": 18430.82,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151808,
+      "y_base_px": 151849
+    },
+    {
+      "top_ft": 18430.82,
+      "base_ft": 18441.12,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151849,
+      "y_base_px": 151952
+    },
+    {
+      "top_ft": 18441.12,
+      "base_ft": 18445.22,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151952,
+      "y_base_px": 151993
+    },
+    {
+      "top_ft": 18445.22,
+      "base_ft": 18456.52,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 151993,
+      "y_base_px": 152106
+    },
+    {
+      "top_ft": 18456.52,
+      "base_ft": 18610.92,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 152106,
+      "y_base_px": 153650
+    },
+    {
+      "top_ft": 18610.92,
+      "base_ft": 18621.12,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 153650,
+      "y_base_px": 153752
+    },
+    {
+      "top_ft": 18621.12,
+      "base_ft": 18652.32,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 153752,
+      "y_base_px": 154064
+    },
+    {
+      "top_ft": 18652.32,
+      "base_ft": 18660.72,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 154064,
+      "y_base_px": 154148
+    },
+    {
+      "top_ft": 18660.72,
+      "base_ft": 18694.92,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 154148,
+      "y_base_px": 154490
+    },
+    {
+      "top_ft": 18694.92,
+      "base_ft": 18703.02,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 154490,
+      "y_base_px": 154571
+    },
+    {
+      "top_ft": 18703.02,
+      "base_ft": 18775.42,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 154571,
+      "y_base_px": 155295
+    },
+    {
+      "top_ft": 18775.42,
+      "base_ft": 18784.12,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 155295,
+      "y_base_px": 155382
+    },
+    {
+      "top_ft": 18784.12,
+      "base_ft": 18859.91,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 155382,
+      "y_base_px": 156140
+    },
+    {
+      "top_ft": 18859.91,
+      "base_ft": 18868.61,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 156140,
+      "y_base_px": 156227
+    },
+    {
+      "top_ft": 18868.61,
+      "base_ft": 18891.11,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 156227,
+      "y_base_px": 156452
+    },
+    {
+      "top_ft": 18891.11,
+      "base_ft": 18895.71,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 156452,
+      "y_base_px": 156498
+    },
+    {
+      "top_ft": 18895.71,
+      "base_ft": 18970.71,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 156498,
+      "y_base_px": 157248
+    },
+    {
+      "top_ft": 18970.71,
+      "base_ft": 18984.71,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 157248,
+      "y_base_px": 157388
+    },
+    {
+      "top_ft": 18984.71,
+      "base_ft": 19110.31,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 157388,
+      "y_base_px": 158644
+    },
+    {
+      "top_ft": 19110.31,
+      "base_ft": 19136.91,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 158644,
+      "y_base_px": 158910
+    },
+    {
+      "top_ft": 19136.91,
+      "base_ft": 19156.21,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 158910,
+      "y_base_px": 159103
+    },
+    {
+      "top_ft": 19156.21,
+      "base_ft": 19168.31,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 159103,
+      "y_base_px": 159224
+    },
+    {
+      "top_ft": 19168.31,
+      "base_ft": 19260.81,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 159224,
+      "y_base_px": 160149
+    },
+    {
+      "top_ft": 19260.81,
+      "base_ft": 19273.71,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 160149,
+      "y_base_px": 160278
+    },
+    {
+      "top_ft": 19273.71,
+      "base_ft": 19325.11,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 160278,
+      "y_base_px": 160792
+    },
+    {
+      "top_ft": 19325.11,
+      "base_ft": 19329.1,
+      "group": 7,
+      "lithology": "Limestone",
+      "confidence": 0.884,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 160792,
+      "y_base_px": 160832
+    },
+    {
+      "top_ft": 19329.1,
+      "base_ft": 19342.7,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 160832,
+      "y_base_px": 160968
+    },
+    {
+      "top_ft": 19342.7,
+      "base_ft": 19371.8,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 160968,
+      "y_base_px": 161259
+    },
+    {
+      "top_ft": 19371.8,
+      "base_ft": 19374.1,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 161259,
+      "y_base_px": 161282
+    },
+    {
+      "top_ft": 19374.1,
+      "base_ft": 19437.0,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 161282,
+      "y_base_px": 161911
+    },
+    {
+      "top_ft": 19437.0,
+      "base_ft": 19445.5,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 161911,
+      "y_base_px": 161996
+    },
+    {
+      "top_ft": 19445.5,
+      "base_ft": 19453.1,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 161996,
+      "y_base_px": 162072
+    },
+    {
+      "top_ft": 19453.1,
+      "base_ft": 19461.4,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 162072,
+      "y_base_px": 162155
+    },
+    {
+      "top_ft": 19461.4,
+      "base_ft": 19489.5,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 162155,
+      "y_base_px": 162436
+    },
+    {
+      "top_ft": 19489.5,
+      "base_ft": 19498.6,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 162436,
+      "y_base_px": 162527
+    },
+    {
+      "top_ft": 19498.6,
+      "base_ft": 19543.1,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 162527,
+      "y_base_px": 162972
+    },
+    {
+      "top_ft": 19543.1,
+      "base_ft": 19551.6,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 162972,
+      "y_base_px": 163057
+    },
+    {
+      "top_ft": 19551.6,
+      "base_ft": 19631.8,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 163057,
+      "y_base_px": 163859
+    },
+    {
+      "top_ft": 19631.8,
+      "base_ft": 19640.9,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 163859,
+      "y_base_px": 163950
+    },
+    {
+      "top_ft": 19640.9,
+      "base_ft": 19664.2,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 163950,
+      "y_base_px": 164183
+    },
+    {
+      "top_ft": 19664.2,
+      "base_ft": 19671.4,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 164183,
+      "y_base_px": 164255
+    },
+    {
+      "top_ft": 19671.4,
+      "base_ft": 19690.7,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 164255,
+      "y_base_px": 164448
+    },
+    {
+      "top_ft": 19690.7,
+      "base_ft": 19701.1,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 164448,
+      "y_base_px": 164552
+    },
+    {
+      "top_ft": 19701.1,
+      "base_ft": 19911.59,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 164552,
+      "y_base_px": 166657
+    },
+    {
+      "top_ft": 19911.59,
+      "base_ft": 19919.79,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 166657,
+      "y_base_px": 166739
+    },
+    {
+      "top_ft": 19919.79,
+      "base_ft": 19964.19,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 166739,
+      "y_base_px": 167183
+    },
+    {
+      "top_ft": 19964.19,
+      "base_ft": 19972.19,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 167183,
+      "y_base_px": 167263
+    },
+    {
+      "top_ft": 19972.19,
+      "base_ft": 20021.69,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 167263,
+      "y_base_px": 167758
+    },
+    {
+      "top_ft": 20021.69,
+      "base_ft": 20033.89,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 167758,
+      "y_base_px": 167880
+    },
+    {
+      "top_ft": 20033.89,
+      "base_ft": 20101.19,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 167880,
+      "y_base_px": 168553
+    },
+    {
+      "top_ft": 20101.19,
+      "base_ft": 20110.59,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 168553,
+      "y_base_px": 168647
+    },
+    {
+      "top_ft": 20110.59,
+      "base_ft": 20147.99,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 168647,
+      "y_base_px": 169021
+    },
+    {
+      "top_ft": 20147.99,
+      "base_ft": 20156.29,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 169021,
+      "y_base_px": 169104
+    },
+    {
+      "top_ft": 20156.29,
+      "base_ft": 20221.59,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 169104,
+      "y_base_px": 169757
+    },
+    {
+      "top_ft": 20221.59,
+      "base_ft": 20238.49,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 169757,
+      "y_base_px": 169926
+    },
+    {
+      "top_ft": 20238.49,
+      "base_ft": 20270.59,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 169926,
+      "y_base_px": 170247
+    },
+    {
+      "top_ft": 20270.59,
+      "base_ft": 20279.79,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 170247,
+      "y_base_px": 170339
+    },
+    {
+      "top_ft": 20279.79,
+      "base_ft": 20345.18,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 170339,
+      "y_base_px": 170993
+    },
+    {
+      "top_ft": 20345.18,
+      "base_ft": 20359.88,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 170993,
+      "y_base_px": 171140
+    },
+    {
+      "top_ft": 20359.88,
+      "base_ft": 20455.88,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 171140,
+      "y_base_px": 172100
+    },
+    {
+      "top_ft": 20455.88,
+      "base_ft": 20472.38,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 172100,
+      "y_base_px": 172265
+    },
+    {
+      "top_ft": 20472.38,
+      "base_ft": 20523.48,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 172265,
+      "y_base_px": 172776
+    },
+    {
+      "top_ft": 20523.48,
+      "base_ft": 20534.08,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 172776,
+      "y_base_px": 172882
+    },
+    {
+      "top_ft": 20534.08,
+      "base_ft": 20569.48,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 172882,
+      "y_base_px": 173236
+    },
+    {
+      "top_ft": 20569.48,
+      "base_ft": 20579.48,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 173236,
+      "y_base_px": 173336
+    },
+    {
+      "top_ft": 20579.48,
+      "base_ft": 20657.08,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 173336,
+      "y_base_px": 174112
+    },
+    {
+      "top_ft": 20657.08,
+      "base_ft": 20670.38,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 174112,
+      "y_base_px": 174245
+    },
+    {
+      "top_ft": 20670.38,
+      "base_ft": 20708.58,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 174245,
+      "y_base_px": 174627
+    },
+    {
+      "top_ft": 20708.58,
+      "base_ft": 20718.98,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 174627,
+      "y_base_px": 174731
+    },
+    {
+      "top_ft": 20718.98,
+      "base_ft": 20751.08,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 174731,
+      "y_base_px": 175052
+    },
+    {
+      "top_ft": 20751.08,
+      "base_ft": 20764.07,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 175052,
+      "y_base_px": 175182
+    },
+    {
+      "top_ft": 20764.07,
+      "base_ft": 20827.67,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 175182,
+      "y_base_px": 175818
+    },
+    {
+      "top_ft": 20827.67,
+      "base_ft": 20836.67,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 175818,
+      "y_base_px": 175908
+    },
+    {
+      "top_ft": 20836.67,
+      "base_ft": 20888.37,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 175908,
+      "y_base_px": 176425
+    },
+    {
+      "top_ft": 20888.37,
+      "base_ft": 20910.67,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 176425,
+      "y_base_px": 176648
+    },
+    {
+      "top_ft": 20910.67,
+      "base_ft": 20942.77,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 176648,
+      "y_base_px": 176969
+    },
+    {
+      "top_ft": 20942.77,
+      "base_ft": 20951.27,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 176969,
+      "y_base_px": 177054
+    },
+    {
+      "top_ft": 20951.27,
+      "base_ft": 21075.67,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 177054,
+      "y_base_px": 178298
+    },
+    {
+      "top_ft": 21075.67,
+      "base_ft": 21078.97,
+      "group": 9,
+      "lithology": "Sandstone",
+      "confidence": 0.166,
+      "alternatives": [
+        "Siltstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 178298,
+      "y_base_px": 178331
+    },
+    {
+      "top_ft": 21078.97,
+      "base_ft": 21328.66,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 178331,
+      "y_base_px": 180828
+    },
+    {
+      "top_ft": 21328.66,
+      "base_ft": 21330.26,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 180828,
+      "y_base_px": 180844
+    },
+    {
+      "top_ft": 21330.26,
+      "base_ft": 21334.56,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 180844,
+      "y_base_px": 180887
+    },
+    {
+      "top_ft": 21334.56,
+      "base_ft": 21455.96,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 180887,
+      "y_base_px": 182101
+    },
+    {
+      "top_ft": 21455.96,
+      "base_ft": 21464.16,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 182101,
+      "y_base_px": 182183
+    },
+    {
+      "top_ft": 21464.16,
+      "base_ft": 21651.96,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 182183,
+      "y_base_px": 184061
+    },
+    {
+      "top_ft": 21651.96,
+      "base_ft": 21655.16,
+      "group": 10,
+      "lithology": "Halite",
+      "confidence": 0.532,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 184061,
+      "y_base_px": 184093
+    },
+    {
+      "top_ft": 21655.16,
+      "base_ft": 21659.46,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 184093,
+      "y_base_px": 184136
+    },
+    {
+      "top_ft": 21659.46,
+      "base_ft": 21833.05,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 184136,
+      "y_base_px": 185872
+    },
+    {
+      "top_ft": 21833.05,
+      "base_ft": 21841.05,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 185872,
+      "y_base_px": 185952
+    },
+    {
+      "top_ft": 21841.05,
+      "base_ft": 21908.25,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 185952,
+      "y_base_px": 186624
+    },
+    {
+      "top_ft": 21908.25,
+      "base_ft": 21917.35,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 186624,
+      "y_base_px": 186715
+    },
+    {
+      "top_ft": 21917.35,
+      "base_ft": 22176.45,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 186715,
+      "y_base_px": 189306
+    },
+    {
+      "top_ft": 22176.45,
+      "base_ft": 22185.05,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 189306,
+      "y_base_px": 189392
+    },
+    {
+      "top_ft": 22185.05,
+      "base_ft": 22384.74,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 189392,
+      "y_base_px": 191389
+    },
+    {
+      "top_ft": 22384.74,
+      "base_ft": 22389.34,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 191389,
+      "y_base_px": 191435
+    },
+    {
+      "top_ft": 22389.34,
+      "base_ft": 22396.54,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 191435,
+      "y_base_px": 191507
+    },
+    {
+      "top_ft": 22396.54,
+      "base_ft": 22402.04,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 191507,
+      "y_base_px": 191562
+    },
+    {
+      "top_ft": 22402.04,
+      "base_ft": 22504.14,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 191562,
+      "y_base_px": 192583
+    },
+    {
+      "top_ft": 22504.14,
+      "base_ft": 22509.04,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 192583,
+      "y_base_px": 192632
+    },
+    {
+      "top_ft": 22509.04,
+      "base_ft": 22562.74,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 192632,
+      "y_base_px": 193169
+    },
+    {
+      "top_ft": 22562.74,
+      "base_ft": 22567.64,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 193169,
+      "y_base_px": 193218
+    },
+    {
+      "top_ft": 22567.64,
+      "base_ft": 22737.93,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 193218,
+      "y_base_px": 194921
+    },
+    {
+      "top_ft": 22737.93,
+      "base_ft": 22743.03,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 194921,
+      "y_base_px": 194972
+    },
+    {
+      "top_ft": 22743.03,
+      "base_ft": 23195.72,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 194972,
+      "y_base_px": 199499
+    },
+    {
+      "top_ft": 23195.72,
+      "base_ft": 23198.22,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 199499,
+      "y_base_px": 199524
+    },
+    {
+      "top_ft": 23198.22,
+      "base_ft": 23211.02,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 199524,
+      "y_base_px": 199652
+    },
+    {
+      "top_ft": 23211.02,
+      "base_ft": 23253.02,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 199652,
+      "y_base_px": 200072
+    },
+    {
+      "top_ft": 23253.02,
+      "base_ft": 23258.82,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 200072,
+      "y_base_px": 200130
+    },
+    {
+      "top_ft": 23258.82,
+      "base_ft": 23386.62,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 200130,
+      "y_base_px": 201408
+    },
+    {
+      "top_ft": 23386.62,
+      "base_ft": 23395.62,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 201408,
+      "y_base_px": 201498
+    },
+    {
+      "top_ft": 23395.62,
+      "base_ft": 23468.82,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 201498,
+      "y_base_px": 202230
+    },
+    {
+      "top_ft": 23468.82,
+      "base_ft": 23480.12,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 202230,
+      "y_base_px": 202343
+    },
+    {
+      "top_ft": 23480.12,
+      "base_ft": 23497.82,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 202343,
+      "y_base_px": 202520
+    },
+    {
+      "top_ft": 23497.82,
+      "base_ft": 23506.22,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 202520,
+      "y_base_px": 202604
+    },
+    {
+      "top_ft": 23506.22,
+      "base_ft": 23542.72,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 202604,
+      "y_base_px": 202969
+    },
+    {
+      "top_ft": 23542.72,
+      "base_ft": 23549.42,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 202969,
+      "y_base_px": 203036
+    },
+    {
+      "top_ft": 23549.42,
+      "base_ft": 23595.52,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 203036,
+      "y_base_px": 203497
+    },
+    {
+      "top_ft": 23595.52,
+      "base_ft": 23616.92,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 203497,
+      "y_base_px": 203711
+    },
+    {
+      "top_ft": 23616.92,
+      "base_ft": 23624.51,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 203711,
+      "y_base_px": 203787
+    },
+    {
+      "top_ft": 23624.51,
+      "base_ft": 23633.21,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 203787,
+      "y_base_px": 203874
+    },
+    {
+      "top_ft": 23633.21,
+      "base_ft": 23654.81,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 203874,
+      "y_base_px": 204090
+    },
+    {
+      "top_ft": 23654.81,
+      "base_ft": 23663.71,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 204090,
+      "y_base_px": 204179
+    },
+    {
+      "top_ft": 23663.71,
+      "base_ft": 23747.71,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 204179,
+      "y_base_px": 205019
+    },
+    {
+      "top_ft": 23747.71,
+      "base_ft": 23783.51,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 205019,
+      "y_base_px": 205377
+    },
+    {
+      "top_ft": 23783.51,
+      "base_ft": 23790.61,
+      "group": 5,
+      "lithology": "Halite",
+      "confidence": 0.488,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 205377,
+      "y_base_px": 205448
+    },
+    {
+      "top_ft": 23790.61,
+      "base_ft": 23794.21,
+      "group": 8,
+      "lithology": "Marl",
+      "confidence": 0.014,
+      "alternatives": [
+        "Shale",
+        "Claystone",
+        "RFT"
+      ],
+      "ambiguous": true,
+      "y_top_px": 205448,
+      "y_base_px": 205484
+    },
+    {
+      "top_ft": 23794.21,
+      "base_ft": 23849.91,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 205484,
+      "y_base_px": 206041
+    },
+    {
+      "top_ft": 23849.91,
+      "base_ft": 23856.41,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 206041,
+      "y_base_px": 206106
+    },
+    {
+      "top_ft": 23856.41,
+      "base_ft": 23894.51,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 206106,
+      "y_base_px": 206487
+    },
+    {
+      "top_ft": 23894.51,
+      "base_ft": 23903.21,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 206487,
+      "y_base_px": 206574
+    },
+    {
+      "top_ft": 23903.21,
+      "base_ft": 23930.81,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 206574,
+      "y_base_px": 206850
+    },
+    {
+      "top_ft": 23930.81,
+      "base_ft": 23990.01,
+      "group": -1,
+      "lithology": "Blank (no pattern)",
+      "confidence": 0.5,
+      "alternatives": [],
+      "ambiguous": true,
+      "y_top_px": 206850,
+      "y_base_px": 207442
+    },
+    {
+      "top_ft": 23990.01,
+      "base_ft": 24003.31,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 207442,
+      "y_base_px": 207575
+    },
+    {
+      "top_ft": 24003.31,
+      "base_ft": 24013.81,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 207575,
+      "y_base_px": 207680
+    },
+    {
+      "top_ft": 24013.81,
+      "base_ft": 24060.11,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 207680,
+      "y_base_px": 208143
+    },
+    {
+      "top_ft": 24060.11,
+      "base_ft": 24065.21,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 208143,
+      "y_base_px": 208194
+    },
+    {
+      "top_ft": 24065.21,
+      "base_ft": 24072.81,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 208194,
+      "y_base_px": 208270
+    },
+    {
+      "top_ft": 24072.81,
+      "base_ft": 24076.01,
+      "group": 11,
+      "lithology": "Siltstone",
+      "confidence": 0.082,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 208270,
+      "y_base_px": 208302
+    },
+    {
+      "top_ft": 24076.01,
+      "base_ft": 24094.21,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 208302,
+      "y_base_px": 208484
+    },
+    {
+      "top_ft": 24094.21,
+      "base_ft": 24115.0,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 208484,
+      "y_base_px": 208692
+    },
+    {
+      "top_ft": 24115.0,
+      "base_ft": 24121.8,
+      "group": 6,
+      "lithology": "Anhydrite",
+      "confidence": 0.844,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 208692,
+      "y_base_px": 208760
+    },
+    {
+      "top_ft": 24121.8,
+      "base_ft": 24174.0,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 208760,
+      "y_base_px": 209282
+    },
+    {
+      "top_ft": 24174.0,
+      "base_ft": 24187.1,
+      "group": 3,
+      "lithology": "Siltstone",
+      "confidence": 0.207,
+      "alternatives": [
+        "Sandstone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 209282,
+      "y_base_px": 209413
+    },
+    {
+      "top_ft": 24187.1,
+      "base_ft": 24196.0,
+      "group": 0,
+      "lithology": "Marl",
+      "confidence": 0.122,
+      "alternatives": [
+        "Claystone"
+      ],
+      "ambiguous": true,
+      "y_top_px": 209413,
+      "y_base_px": 209502
+    }
+  ],
+  "seconds": 21.9
+}

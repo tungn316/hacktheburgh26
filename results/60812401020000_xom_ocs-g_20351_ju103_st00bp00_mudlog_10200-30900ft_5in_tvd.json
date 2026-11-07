@@ -1,0 +1,510 @@
+{
+  "image": "60812401020000_xom_ocs-g_20351_ju103_st00bp00_mudlog_10200-30900ft_5in_tvd.tif",
+  "depth_fit": {
+    "px_per_ft": 1029.5098,
+    "labels_used": 35,
+    "labels_read": 141,
+    "mean_residual_ft": 0.884,
+    "label_rotation_deg": 0
+  },
+  "legend": [
+    {
+      "name": "Silty clay-shale",
+      "box": [
+        422,
+        657,
+        487,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone",
+      "box": [
+        737,
+        657,
+        802,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Halite",
+      "box": [
+        1051,
+        657,
+        1116,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomite",
+      "box": [
+        1366,
+        657,
+        1431,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Silty Shale",
+      "box": [
+        107,
+        727,
+        172,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Coarse Sand",
+      "box": [
+        422,
+        727,
+        487,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomitic Limestone",
+      "box": [
+        737,
+        727,
+        802,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Anhydrite",
+      "box": [
+        1051,
+        727,
+        1116,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "rock",
+      "box": [
+        1366,
+        727,
+        1431,
+        776
+      ],
+      "white": false
+    },
+    {
+      "name": "Calcareous",
+      "box": [
+        107,
+        797,
+        172,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Fine Sand",
+      "box": [
+        422,
+        797,
+        487,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Bitumen",
+      "box": [
+        1366,
+        797,
+        1431,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Chalk",
+      "box": [
+        737,
+        797,
+        802,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Gypsum",
+      "box": [
+        1051,
+        797,
+        1116,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Oil and Gas",
+      "box": [
+        108,
+        868,
+        172,
+        917
+      ],
+      "white": false
+    },
+    {
+      "name": "Gas_Good",
+      "box": [
+        423,
+        868,
+        487,
+        917
+      ],
+      "white": false
+    },
+    {
+      "name": "Dry",
+      "box": [
+        738,
+        868,
+        802,
+        917
+      ],
+      "white": false
+    },
+    {
+      "name": "Dst",
+      "box": [
+        1052,
+        868,
+        1116,
+        917
+      ],
+      "white": false
+    },
+    {
+      "name": "Salt water",
+      "box": [
+        1367,
+        868,
+        1431,
+        917
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud gain",
+      "box": [
+        108,
+        938,
+        172,
+        987
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud loss",
+      "box": [
+        423,
+        938,
+        487,
+        987
+      ],
+      "white": false
+    },
+    {
+      "name": "Survey",
+      "box": [
+        738,
+        938,
+        802,
+        987
+      ],
+      "white": false
+    },
+    {
+      "name": "FIT",
+      "box": [
+        1052,
+        938,
+        1116,
+        987
+      ],
+      "white": false
+    },
+    {
+      "name": "Casing shoe",
+      "box": [
+        1367,
+        938,
+        1431,
+        987
+      ],
+      "white": false
+    },
+    {
+      "name": "Clay-shale",
+      "box": [
+        107,
+        657,
+        172,
+        706
+      ],
+      "white": false
+    }
+  ],
+  "n_groups": 8,
+  "intervals": [
+    {
+      "top_ft": 108.93,
+      "base_ft": 120.38,
+      "group": 1,
+      "lithology": "Clay-shale",
+      "confidence": 0.99,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 4875,
+      "y_base_px": 16661
+    },
+    {
+      "top_ft": 120.38,
+      "base_ft": 124.12,
+      "group": 4,
+      "lithology": "Clay-shale",
+      "confidence": 0.411,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 16661,
+      "y_base_px": 20510
+    },
+    {
+      "top_ft": 124.12,
+      "base_ft": 222.88,
+      "group": 0,
+      "lithology": "Halite",
+      "confidence": 0.868,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 20510,
+      "y_base_px": 122190
+    },
+    {
+      "top_ft": 222.88,
+      "base_ft": 235.44,
+      "group": 1,
+      "lithology": "Clay-shale",
+      "confidence": 0.99,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 122190,
+      "y_base_px": 135114
+    },
+    {
+      "top_ft": 235.44,
+      "base_ft": 241.51,
+      "group": 4,
+      "lithology": "Clay-shale",
+      "confidence": 0.411,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 135114,
+      "y_base_px": 141369
+    },
+    {
+      "top_ft": 241.51,
+      "base_ft": 247.9,
+      "group": 1,
+      "lithology": "Clay-shale",
+      "confidence": 0.99,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 141369,
+      "y_base_px": 147940
+    },
+    {
+      "top_ft": 247.9,
+      "base_ft": 252.22,
+      "group": 4,
+      "lithology": "Clay-shale",
+      "confidence": 0.411,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 147940,
+      "y_base_px": 152396
+    },
+    {
+      "top_ft": 252.22,
+      "base_ft": 256.1,
+      "group": 2,
+      "lithology": "Clay-shale",
+      "confidence": 0.181,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 152396,
+      "y_base_px": 156388
+    },
+    {
+      "top_ft": 256.1,
+      "base_ft": 260.22,
+      "group": 4,
+      "lithology": "Clay-shale",
+      "confidence": 0.411,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 156388,
+      "y_base_px": 160624
+    },
+    {
+      "top_ft": 260.22,
+      "base_ft": 267.73,
+      "group": 4,
+      "lithology": "Clay-shale",
+      "confidence": 0.411,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 160624,
+      "y_base_px": 168355
+    },
+    {
+      "top_ft": 267.73,
+      "base_ft": 276.7,
+      "group": 2,
+      "lithology": "Clay-shale",
+      "confidence": 0.181,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 168355,
+      "y_base_px": 177589
+    },
+    {
+      "top_ft": 276.7,
+      "base_ft": 277.72,
+      "group": 7,
+      "lithology": "Limestone",
+      "confidence": 0.002,
+      "alternatives": [
+        "Calcareous",
+        "Dolomitic Limestone",
+        "Chalk"
+      ],
+      "ambiguous": true,
+      "y_top_px": 177589,
+      "y_base_px": 178643
+    },
+    {
+      "top_ft": 277.72,
+      "base_ft": 282.84,
+      "group": 2,
+      "lithology": "Clay-shale",
+      "confidence": 0.181,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 178643,
+      "y_base_px": 183918
+    },
+    {
+      "top_ft": 282.84,
+      "base_ft": 284.13,
+      "group": 1,
+      "lithology": "Clay-shale",
+      "confidence": 0.99,
+      "alternatives": [],
+      "ambiguous": false,
+      "y_top_px": 183918,
+      "y_base_px": 185245
+    },
+    {
+      "top_ft": 284.13,
+      "base_ft": 287.64,
+      "group": 3,
+      "lithology": "rock",
+      "confidence": 0.093,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ],
+      "ambiguous": false,
+      "y_top_px": 185245,
+      "y_base_px": 188858
+    },
+    {
+      "top_ft": 287.64,
+      "base_ft": 289.45,
+      "group": 6,
+      "lithology": "Clay-shale",
+      "confidence": 0.265,
+      "alternatives": [
+        "Silty clay-shale"
+      ],
+      "ambiguous": false,
+      "y_top_px": 188858,
+      "y_base_px": 190718
+    },
+    {
+      "top_ft": 289.45,
+      "base_ft": 298.24,
+      "group": 3,
+      "lithology": "rock",
+      "confidence": 0.093,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ],
+      "ambiguous": false,
+      "y_top_px": 190718,
+      "y_base_px": 199764
+    },
+    {
+      "top_ft": 298.24,
+      "base_ft": 301.37,
+      "group": 5,
+      "lithology": "Silty clay-shale",
+      "confidence": 0.129,
+      "alternatives": [
+        "Clay-shale",
+        "Mud gain",
+        "Mud loss"
+      ],
+      "ambiguous": false,
+      "y_top_px": 199764,
+      "y_base_px": 202992
+    },
+    {
+      "top_ft": 301.37,
+      "base_ft": 307.08,
+      "group": 3,
+      "lithology": "rock",
+      "confidence": 0.093,
+      "alternatives": [
+        "Fine Sand",
+        "Coarse Sand"
+      ],
+      "ambiguous": false,
+      "y_top_px": 202992,
+      "y_base_px": 208873
+    }
+  ],
+  "seconds": 29.8
+}

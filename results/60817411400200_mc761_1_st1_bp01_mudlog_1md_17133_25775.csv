@@ -1,0 +1,3170 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+17133.64,17137.64,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17137.64,17141.64,-1,Carbonaceous,0.8,False,
+17141.64,17143.14,17,Not Available,0.302,False,Sample
+17143.14,17146.64,-1,Carbonaceous,0.8,False,
+17146.64,17148.64,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17148.64,17152.14,-1,Carbonaceous,0.8,False,
+17152.14,17153.64,17,Not Available,0.302,False,Sample
+17153.64,17157.64,-1,Carbonaceous,0.8,False,
+17157.64,17159.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17159.14,17162.64,-1,Carbonaceous,0.8,False,
+17162.64,17164.64,17,Not Available,0.302,False,Sample
+17164.64,17168.14,-1,Carbonaceous,0.8,False,
+17168.14,17169.64,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17169.64,17173.64,-1,Carbonaceous,0.8,False,
+17173.64,17175.14,17,Not Available,0.302,False,Sample
+17175.14,17178.64,-1,Carbonaceous,0.8,False,
+17178.64,17180.64,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17180.64,17184.14,-1,Carbonaceous,0.8,False,
+17184.14,17185.64,17,Not Available,0.302,False,Sample
+17185.64,17189.64,-1,Carbonaceous,0.8,False,
+17189.64,17191.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17191.14,17194.64,-1,Carbonaceous,0.8,False,
+17194.64,17196.64,17,Not Available,0.302,False,Sample
+17196.64,17200.15,-1,Carbonaceous,0.8,False,
+17200.15,17201.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17201.65,17205.65,-1,Carbonaceous,0.8,False,
+17205.65,17207.15,17,Not Available,0.302,False,Sample
+17207.15,17210.65,-1,Carbonaceous,0.8,False,
+17210.65,17212.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17212.65,17216.15,-1,Carbonaceous,0.8,False,
+17216.15,17217.65,17,Not Available,0.302,False,Sample
+17217.65,17221.65,-1,Carbonaceous,0.8,False,
+17221.65,17223.15,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17223.15,17226.65,-1,Carbonaceous,0.8,False,
+17226.65,17228.65,17,Not Available,0.302,False,Sample
+17228.65,17232.15,-1,Carbonaceous,0.8,False,
+17232.15,17233.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17233.65,17237.65,-1,Carbonaceous,0.8,False,
+17237.65,17239.15,17,Not Available,0.302,False,Sample
+17239.15,17242.65,-1,Carbonaceous,0.8,False,
+17242.65,17244.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17244.65,17248.15,-1,Carbonaceous,0.8,False,
+17248.15,17249.65,17,Not Available,0.302,False,Sample
+17249.65,17253.65,-1,Carbonaceous,0.8,False,
+17253.65,17255.15,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17255.15,17258.65,-1,Carbonaceous,0.8,False,
+17258.65,17260.65,17,Not Available,0.302,False,Sample
+17260.65,17264.15,-1,Carbonaceous,0.8,False,
+17264.15,17265.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17265.65,17269.65,-1,Carbonaceous,0.8,False,
+17269.65,17271.15,17,Not Available,0.302,False,Sample
+17271.15,17274.65,-1,Carbonaceous,0.8,False,
+17274.65,17276.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17276.65,17280.15,-1,Carbonaceous,0.8,False,
+17280.15,17281.65,17,Not Available,0.302,False,Sample
+17281.65,17285.65,-1,Carbonaceous,0.8,False,
+17285.65,17287.15,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17287.15,17290.65,-1,Carbonaceous,0.8,False,
+17290.65,17292.65,17,Not Available,0.302,False,Sample
+17292.65,17296.15,-1,Carbonaceous,0.8,False,
+17296.15,17297.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17297.65,17301.66,-1,Carbonaceous,0.8,False,
+17301.66,17303.16,17,Not Available,0.302,False,Sample
+17303.16,17306.66,-1,Carbonaceous,0.8,False,
+17306.66,17308.66,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17308.66,17312.16,-1,Carbonaceous,0.8,False,
+17312.16,17313.66,17,Not Available,0.302,False,Sample
+17313.66,17317.66,-1,Carbonaceous,0.8,False,
+17317.66,17319.16,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17319.16,17322.66,-1,Carbonaceous,0.8,False,
+17322.66,17324.66,17,Not Available,0.302,False,Sample
+17324.66,17328.16,-1,Carbonaceous,0.8,False,
+17328.16,17329.66,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17329.66,17333.66,-1,Carbonaceous,0.8,False,
+17333.66,17335.16,17,Not Available,0.302,False,Sample
+17335.16,17338.66,-1,Carbonaceous,0.8,False,
+17338.66,17340.66,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17340.66,17344.16,-1,Carbonaceous,0.8,False,
+17344.16,17345.66,17,Not Available,0.302,False,Sample
+17345.66,17349.66,-1,Carbonaceous,0.8,False,
+17349.66,17351.16,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17351.16,17354.66,-1,Carbonaceous,0.8,False,
+17354.66,17356.66,17,Not Available,0.302,False,Sample
+17356.66,17360.16,-1,Carbonaceous,0.8,False,
+17360.16,17361.66,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17361.66,17365.66,-1,Carbonaceous,0.8,False,
+17365.66,17367.16,17,Not Available,0.302,False,Sample
+17367.16,17370.66,-1,Carbonaceous,0.8,False,
+17370.66,17372.66,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17372.66,17376.16,-1,Carbonaceous,0.8,False,
+17376.16,17377.66,17,Not Available,0.302,False,Sample
+17377.66,17381.16,-1,Carbonaceous,0.8,False,
+17381.16,17382.66,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+17382.66,17384.66,10,Siltstone,0.506,False,
+17384.66,17387.66,-1,Carbonaceous,0.8,False,
+17387.66,17395.66,1,Silty,0.006,True,ISiliceous|Siltstone|Kaolinite
+17395.66,17397.66,10,Siltstone,0.506,False,
+17397.66,17401.67,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17401.67,17405.17,-1,Carbonaceous,0.8,False,
+17405.17,17406.67,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+17406.67,17408.67,10,Siltstone,0.506,False,
+17408.67,17412.67,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17412.67,17416.67,-1,Carbonaceous,0.8,False,
+17416.67,17418.67,17,Not Available,0.302,False,Sample
+17418.67,17421.17,10,Siltstone,0.506,False,
+17421.17,17422.67,23,Siltstone,0.227,False,
+17422.67,17426.17,13,Silty,0.008,True,ISiliceous|Kaolinite|Argillaceous
+17426.17,17427.67,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17427.67,17431.67,-1,Carbonaceous,0.8,False,
+17431.67,17433.67,10,Siltstone,0.506,False,
+17433.67,17437.67,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17437.67,17440.67,-1,Carbonaceous,0.8,False,
+17440.67,17441.67,10,Siltstone,0.506,False,
+17441.67,17445.67,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17445.67,17448.67,2,Siltstone,0.28,False,
+17448.67,17452.67,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+17452.67,17455.17,10,Siltstone,0.506,False,
+17455.17,17457.17,19,Siltstone,0.587,False,
+17457.17,17459.67,1,Silty,0.006,True,ISiliceous|Siltstone|Kaolinite
+17459.67,17462.67,6,Sandstone fed,0.263,False,Conglomerate|—
+17462.67,17465.17,10,Siltstone,0.506,False,
+17465.17,17469.17,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17469.17,17470.67,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17470.67,17474.67,-1,Carbonaceous,0.8,False,
+17474.67,17476.17,17,Not Available,0.302,False,Sample
+17476.17,17479.67,-1,Carbonaceous,0.8,False,
+17479.67,17481.67,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17481.67,17485.17,13,Silty,0.008,True,ISiliceous|Kaolinite|Argillaceous
+17485.17,17486.67,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17486.67,17490.67,-1,Carbonaceous,0.8,False,
+17490.67,17492.17,17,Not Available,0.302,False,Sample
+17492.17,17495.67,-1,Carbonaceous,0.8,False,
+17495.67,17497.67,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17497.67,17501.18,-1,Carbonaceous,0.8,False,
+17501.18,17502.68,17,Not Available,0.302,False,Sample
+17502.68,17506.68,-1,Carbonaceous,0.8,False,
+17506.68,17508.18,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17508.18,17511.68,-1,Carbonaceous,0.8,False,
+17511.68,17513.68,17,Not Available,0.302,False,Sample
+17513.68,17517.18,-1,Carbonaceous,0.8,False,
+17517.18,17518.68,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17518.68,17522.18,-1,Carbonaceous,0.8,False,
+17522.18,17523.68,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+17523.68,17525.68,10,Siltstone,0.506,False,
+17525.68,17529.68,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17529.68,17533.68,-1,Carbonaceous,0.8,False,
+17533.68,17535.18,17,Not Available,0.302,False,Sample
+17535.18,17538.68,-1,Carbonaceous,0.8,False,
+17538.68,17540.68,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17540.68,17544.18,-1,Carbonaceous,0.8,False,
+17544.18,17545.68,17,Not Available,0.302,False,Sample
+17545.68,17549.68,-1,Carbonaceous,0.8,False,
+17549.68,17551.18,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17551.18,17554.68,-1,Carbonaceous,0.8,False,
+17554.68,17556.68,17,Not Available,0.302,False,Sample
+17556.68,17560.18,-1,Carbonaceous,0.8,False,
+17560.18,17561.68,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17561.68,17565.68,-1,Carbonaceous,0.8,False,
+17565.68,17567.68,17,Not Available,0.302,False,Sample
+17567.68,17571.68,4,Breccia,0.03,True,Sandstone fed|Conglomerate|—|Silty
+17571.68,17575.68,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17575.68,17579.68,-1,Carbonaceous,0.8,False,
+17579.68,17581.18,17,Not Available,0.302,False,Sample
+17581.18,17584.68,-1,Carbonaceous,0.8,False,
+17584.68,17586.68,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17586.68,17589.18,6,Sandstone fed,0.263,False,Conglomerate|—
+17589.18,17590.68,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+17590.68,17594.18,6,Sandstone fed,0.263,False,Conglomerate|—
+17594.18,17596.18,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+17596.18,17599.69,6,Sandstone fed,0.263,False,Conglomerate|—
+17599.69,17601.69,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+17601.69,17603.69,6,Sandstone fed,0.263,False,Conglomerate|—
+17603.69,17607.69,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+17607.69,17611.69,-1,Carbonaceous,0.8,False,
+17611.69,17613.19,17,Not Available,0.302,False,Sample
+17613.19,17616.69,-1,Carbonaceous,0.8,False,
+17616.69,17618.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17618.69,17622.19,-1,Carbonaceous,0.8,False,
+17622.19,17623.69,17,Not Available,0.302,False,Sample
+17623.69,17627.69,-1,Carbonaceous,0.8,False,
+17627.69,17629.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17629.19,17632.69,-1,Carbonaceous,0.8,False,
+17632.69,17634.69,17,Not Available,0.302,False,Sample
+17634.69,17638.19,-1,Carbonaceous,0.8,False,
+17638.19,17639.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17639.69,17643.69,-1,Carbonaceous,0.8,False,
+17643.69,17645.19,17,Not Available,0.302,False,Sample
+17645.19,17648.69,-1,Carbonaceous,0.8,False,
+17648.69,17650.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17650.69,17654.19,-1,Carbonaceous,0.8,False,
+17654.19,17655.69,17,Not Available,0.302,False,Sample
+17655.69,17659.69,-1,Carbonaceous,0.8,False,
+17659.69,17661.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17661.19,17664.69,-1,Carbonaceous,0.8,False,
+17664.69,17666.69,17,Not Available,0.302,False,Sample
+17666.69,17670.19,-1,Carbonaceous,0.8,False,
+17670.19,17671.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17671.69,17675.69,-1,Carbonaceous,0.8,False,
+17675.69,17677.19,17,Not Available,0.302,False,Sample
+17677.19,17680.69,-1,Carbonaceous,0.8,False,
+17680.69,17682.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17682.69,17686.19,-1,Carbonaceous,0.8,False,
+17686.19,17687.69,17,Not Available,0.302,False,Sample
+17687.69,17691.69,-1,Carbonaceous,0.8,False,
+17691.69,17693.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17693.19,17696.69,-1,Carbonaceous,0.8,False,
+17696.69,17698.7,17,Not Available,0.302,False,Sample
+17698.7,17702.2,-1,Carbonaceous,0.8,False,
+17702.2,17703.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17703.7,17707.7,-1,Carbonaceous,0.8,False,
+17707.7,17709.2,17,Not Available,0.302,False,Sample
+17709.2,17712.7,-1,Carbonaceous,0.8,False,
+17712.7,17714.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17714.7,17718.2,-1,Carbonaceous,0.8,False,
+17718.2,17719.7,17,Not Available,0.302,False,Sample
+17719.7,17723.7,-1,Carbonaceous,0.8,False,
+17723.7,17725.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17725.2,17728.7,-1,Carbonaceous,0.8,False,
+17728.7,17730.7,17,Not Available,0.302,False,Sample
+17730.7,17734.2,-1,Carbonaceous,0.8,False,
+17734.2,17735.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17735.7,17739.7,-1,Carbonaceous,0.8,False,
+17739.7,17741.2,17,Not Available,0.302,False,Sample
+17741.2,17744.7,-1,Carbonaceous,0.8,False,
+17744.7,17746.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17746.7,17750.2,-1,Carbonaceous,0.8,False,
+17750.2,17751.7,17,Not Available,0.302,False,Sample
+17751.7,17755.7,-1,Carbonaceous,0.8,False,
+17755.7,17757.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17757.2,17760.7,-1,Carbonaceous,0.8,False,
+17760.7,17762.7,17,Not Available,0.302,False,Sample
+17762.7,17766.2,-1,Carbonaceous,0.8,False,
+17766.2,17767.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17767.7,17771.7,-1,Carbonaceous,0.8,False,
+17771.7,17773.2,17,Not Available,0.302,False,Sample
+17773.2,17776.7,-1,Carbonaceous,0.8,False,
+17776.7,17778.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17778.7,17782.2,-1,Carbonaceous,0.8,False,
+17782.2,17783.7,17,Not Available,0.302,False,Sample
+17783.7,17787.7,-1,Carbonaceous,0.8,False,
+17787.7,17789.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17789.2,17792.7,-1,Carbonaceous,0.8,False,
+17792.7,17794.7,17,Not Available,0.302,False,Sample
+17794.7,17798.2,-1,Carbonaceous,0.8,False,
+17798.2,17799.71,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17799.71,17803.71,-1,Carbonaceous,0.8,False,
+17803.71,17805.21,17,Not Available,0.302,False,Sample
+17805.21,17808.71,-1,Carbonaceous,0.8,False,
+17808.71,17810.71,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17810.71,17814.21,-1,Carbonaceous,0.8,False,
+17814.21,17815.71,17,Not Available,0.302,False,Sample
+17815.71,17819.71,-1,Carbonaceous,0.8,False,
+17819.71,17821.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17821.21,17824.71,-1,Carbonaceous,0.8,False,
+17824.71,17826.71,17,Not Available,0.302,False,Sample
+17826.71,17830.21,-1,Carbonaceous,0.8,False,
+17830.21,17832.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17832.21,17835.71,-1,Carbonaceous,0.8,False,
+17835.71,17837.21,17,Not Available,0.302,False,Sample
+17837.21,17841.21,-1,Carbonaceous,0.8,False,
+17841.21,17842.71,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17842.71,17846.21,-1,Carbonaceous,0.8,False,
+17846.21,17848.21,17,Not Available,0.302,False,Sample
+17848.21,17851.71,-1,Carbonaceous,0.8,False,
+17851.71,17853.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17853.21,17857.21,-1,Carbonaceous,0.8,False,
+17857.21,17858.71,17,Not Available,0.302,False,Sample
+17858.71,17862.21,-1,Carbonaceous,0.8,False,
+17862.21,17864.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17864.21,17867.71,-1,Carbonaceous,0.8,False,
+17867.71,17869.21,17,Not Available,0.302,False,Sample
+17869.21,17873.21,-1,Carbonaceous,0.8,False,
+17873.21,17874.71,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17874.71,17878.21,-1,Carbonaceous,0.8,False,
+17878.21,17880.21,17,Not Available,0.302,False,Sample
+17880.21,17883.71,-1,Carbonaceous,0.8,False,
+17883.71,17885.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17885.21,17889.21,-1,Carbonaceous,0.8,False,
+17889.21,17890.71,17,Not Available,0.302,False,Sample
+17890.71,17894.21,-1,Carbonaceous,0.8,False,
+17894.21,17896.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17896.21,17899.72,-1,Carbonaceous,0.8,False,
+17899.72,17901.22,17,Not Available,0.302,False,Sample
+17901.22,17905.22,-1,Carbonaceous,0.8,False,
+17905.22,17906.72,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17906.72,17910.22,-1,Carbonaceous,0.8,False,
+17910.22,17912.22,17,Not Available,0.302,False,Sample
+17912.22,17915.72,-1,Carbonaceous,0.8,False,
+17915.72,17917.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17917.22,17921.22,-1,Carbonaceous,0.8,False,
+17921.22,17922.72,17,Not Available,0.302,False,Sample
+17922.72,17926.22,-1,Carbonaceous,0.8,False,
+17926.22,17928.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17928.22,17931.72,-1,Carbonaceous,0.8,False,
+17931.72,17933.22,17,Not Available,0.302,False,Sample
+17933.22,17937.22,-1,Carbonaceous,0.8,False,
+17937.22,17938.72,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17938.72,17942.22,-1,Carbonaceous,0.8,False,
+17942.22,17944.22,17,Not Available,0.302,False,Sample
+17944.22,17947.72,-1,Carbonaceous,0.8,False,
+17947.72,17949.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17949.22,17953.22,-1,Carbonaceous,0.8,False,
+17953.22,17954.72,17,Not Available,0.302,False,Sample
+17954.72,17958.22,-1,Carbonaceous,0.8,False,
+17958.22,17960.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17960.22,17963.72,-1,Carbonaceous,0.8,False,
+17963.72,17965.22,17,Not Available,0.302,False,Sample
+17965.22,17969.22,-1,Carbonaceous,0.8,False,
+17969.22,17970.72,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17970.72,17974.22,-1,Carbonaceous,0.8,False,
+17974.22,17976.22,17,Not Available,0.302,False,Sample
+17976.22,17979.72,-1,Carbonaceous,0.8,False,
+17979.72,17981.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17981.22,17985.22,-1,Carbonaceous,0.8,False,
+17985.22,17986.72,17,Not Available,0.302,False,Sample
+17986.72,17990.22,-1,Carbonaceous,0.8,False,
+17990.22,17992.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+17992.22,17995.72,-1,Carbonaceous,0.8,False,
+17995.72,17997.22,17,Not Available,0.302,False,Sample
+17997.22,18001.23,-1,Carbonaceous,0.8,False,
+18001.23,18002.73,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18002.73,18006.23,-1,Carbonaceous,0.8,False,
+18006.23,18008.23,17,Not Available,0.302,False,Sample
+18008.23,18011.73,-1,Carbonaceous,0.8,False,
+18011.73,18013.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18013.23,18017.23,-1,Carbonaceous,0.8,False,
+18017.23,18018.73,17,Not Available,0.302,False,Sample
+18018.73,18022.23,-1,Carbonaceous,0.8,False,
+18022.23,18024.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18024.23,18027.73,-1,Carbonaceous,0.8,False,
+18027.73,18029.23,17,Not Available,0.302,False,Sample
+18029.23,18033.23,-1,Carbonaceous,0.8,False,
+18033.23,18034.73,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18034.73,18038.23,-1,Carbonaceous,0.8,False,
+18038.23,18040.23,17,Not Available,0.302,False,Sample
+18040.23,18043.73,-1,Carbonaceous,0.8,False,
+18043.73,18045.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18045.23,18049.23,-1,Carbonaceous,0.8,False,
+18049.23,18050.73,17,Not Available,0.302,False,Sample
+18050.73,18054.23,-1,Carbonaceous,0.8,False,
+18054.23,18056.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18056.23,18059.73,-1,Carbonaceous,0.8,False,
+18059.73,18061.23,17,Not Available,0.302,False,Sample
+18061.23,18065.23,-1,Carbonaceous,0.8,False,
+18065.23,18066.73,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18066.73,18070.23,-1,Carbonaceous,0.8,False,
+18070.23,18072.23,17,Not Available,0.302,False,Sample
+18072.23,18075.73,-1,Carbonaceous,0.8,False,
+18075.73,18077.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18077.23,18081.23,-1,Carbonaceous,0.8,False,
+18081.23,18082.73,17,Not Available,0.302,False,Sample
+18082.73,18086.23,-1,Carbonaceous,0.8,False,
+18086.23,18088.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18088.23,18091.73,-1,Carbonaceous,0.8,False,
+18091.73,18093.23,17,Not Available,0.302,False,Sample
+18093.23,18097.23,-1,Carbonaceous,0.8,False,
+18097.23,18098.74,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18098.74,18101.74,-1,Carbonaceous,0.8,False,
+18101.74,18104.24,10,Siltstone,0.506,False,
+18104.24,18107.24,-1,Carbonaceous,0.8,False,
+18107.24,18108.74,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18108.74,18112.74,-1,Carbonaceous,0.8,False,
+18112.74,18114.74,17,Not Available,0.302,False,Sample
+18114.74,18118.74,1,Silty,0.006,True,ISiliceous|Siltstone|Kaolinite
+18118.74,18122.74,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18122.74,18126.24,-1,Carbonaceous,0.8,False,
+18126.24,18127.74,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+18127.74,18130.24,10,Siltstone,0.506,False,
+18130.24,18133.24,-1,Carbonaceous,0.8,False,
+18133.24,18134.74,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18134.74,18138.74,-1,Carbonaceous,0.8,False,
+18138.74,18140.74,10,Siltstone,0.506,False,
+18140.74,18144.74,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18144.74,18148.74,-1,Carbonaceous,0.8,False,
+18148.74,18150.24,17,Not Available,0.302,False,Sample
+18150.24,18153.74,-1,Carbonaceous,0.8,False,
+18153.74,18156.24,17,Not Available,0.302,False,Sample
+18156.24,18159.74,1,Silty,0.006,True,ISiliceous|Siltstone|Kaolinite
+18159.74,18163.74,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18163.74,18170.24,2,Siltstone,0.28,False,
+18170.24,18171.74,23,Siltstone,0.227,False,
+18171.74,18173.74,10,Siltstone,0.506,False,
+18173.74,18177.74,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18177.74,18181.74,-1,Carbonaceous,0.8,False,
+18181.74,18183.74,17,Not Available,0.302,False,Sample
+18183.74,18185.74,10,Siltstone,0.506,False,
+18185.74,18189.74,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18189.74,18193.74,-1,Carbonaceous,0.8,False,
+18193.74,18195.24,17,Not Available,0.302,False,Sample
+18195.24,18198.75,-1,Carbonaceous,0.8,False,
+18198.75,18200.75,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18200.75,18204.25,-1,Carbonaceous,0.8,False,
+18204.25,18205.75,17,Not Available,0.302,False,Sample
+18205.75,18208.75,-1,Carbonaceous,0.8,False,
+18208.75,18211.25,10,Siltstone,0.506,False,
+18211.25,18213.25,19,Siltstone,0.587,False,
+18213.25,18217.25,9,Breccia,0.024,True,Sandstone fed|Conglomerate|—
+18217.25,18218.75,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18218.75,18222.25,6,Sandstone fed,0.263,False,Conglomerate|—
+18222.25,18224.75,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18224.75,18229.25,5,Siltstone,0.063,False,Silty|ISiliceous|Kaolinite
+18229.25,18230.75,23,Siltstone,0.227,False,
+18230.75,18232.75,10,Siltstone,0.506,False,
+18232.75,18236.75,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18236.75,18240.75,-1,Carbonaceous,0.8,False,
+18240.75,18242.25,17,Not Available,0.302,False,Sample
+18242.25,18245.75,-1,Carbonaceous,0.8,False,
+18245.75,18247.75,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18247.75,18251.25,-1,Carbonaceous,0.8,False,
+18251.25,18252.75,17,Not Available,0.302,False,Sample
+18252.75,18256.75,-1,Carbonaceous,0.8,False,
+18256.75,18258.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18258.25,18261.75,-1,Carbonaceous,0.8,False,
+18261.75,18263.75,17,Not Available,0.302,False,Sample
+18263.75,18267.25,-1,Carbonaceous,0.8,False,
+18267.25,18268.75,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18268.75,18272.75,-1,Carbonaceous,0.8,False,
+18272.75,18274.25,17,Not Available,0.302,False,Sample
+18274.25,18277.75,-1,Carbonaceous,0.8,False,
+18277.75,18279.75,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18279.75,18283.25,-1,Carbonaceous,0.8,False,
+18283.25,18284.75,17,Not Available,0.302,False,Sample
+18284.75,18288.75,-1,Carbonaceous,0.8,False,
+18288.75,18290.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18290.25,18293.75,-1,Carbonaceous,0.8,False,
+18293.75,18295.75,17,Not Available,0.302,False,Sample
+18295.75,18299.26,-1,Carbonaceous,0.8,False,
+18299.26,18300.76,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18300.76,18304.26,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+18304.26,18305.76,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18305.76,18309.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18309.26,18311.26,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18311.26,18314.76,6,Sandstone fed,0.263,False,Conglomerate|—
+18314.76,18317.76,-1,Carbonaceous,0.8,False,
+18317.76,18320.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18320.26,18322.26,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18322.26,18324.76,6,Sandstone fed,0.263,False,Conglomerate|—
+18324.76,18328.76,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18328.76,18331.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18331.26,18333.26,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18333.26,18336.76,14,Silty,0.007,True,ISiliceous|Kaolinite|Argillaceous
+18336.76,18338.76,6,Sandstone fed,0.263,False,Conglomerate|—
+18338.76,18340.76,-1,Carbonaceous,0.8,False,
+18340.76,18343.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18343.26,18344.76,24,Silty,0.001,True,ISiliceous|Kaolinite|Argillaceous
+18344.76,18348.76,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18348.76,18352.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18352.26,18354.26,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18354.26,18358.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18358.26,18359.76,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18359.76,18362.76,14,Silty,0.007,True,ISiliceous|Kaolinite|Argillaceous
+18362.76,18366.76,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18366.76,18369.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18369.26,18371.26,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18371.26,18373.76,18,Silty,0.005,True,ISiliceous|Kaolinite|Argillaceous
+18373.76,18377.76,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18377.76,18381.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18381.26,18383.26,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18383.26,18386.76,6,Sandstone fed,0.263,False,Conglomerate|—
+18386.76,18388.26,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18388.26,18392.26,6,Sandstone fed,0.263,False,Conglomerate|—
+18392.26,18394.76,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18394.76,18398.77,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18398.77,18401.77,-1,Carbonaceous,0.8,False,
+18401.77,18406.27,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18406.27,18408.77,6,Sandstone fed,0.263,False,Conglomerate|—
+18408.77,18411.77,-1,Carbonaceous,0.8,False,
+18411.77,18414.27,6,Sandstone fed,0.263,False,Conglomerate|—
+18414.27,18416.27,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18416.27,18418.77,6,Sandstone fed,0.263,False,Conglomerate|—
+18418.77,18422.77,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18422.77,18426.77,-1,Carbonaceous,0.8,False,
+18426.77,18428.27,17,Not Available,0.302,False,Sample
+18428.27,18431.27,-1,Carbonaceous,0.8,False,
+18431.27,18432.77,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+18432.77,18435.27,6,Sandstone fed,0.263,False,Conglomerate|—
+18435.27,18436.77,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18436.77,18440.27,6,Sandstone fed,0.263,False,Conglomerate|—
+18440.27,18442.77,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18442.77,18444.77,6,Sandstone fed,0.263,False,Conglomerate|—
+18444.77,18448.77,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18448.77,18451.27,6,Sandstone fed,0.263,False,Conglomerate|—
+18451.27,18452.77,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18452.77,18456.27,6,Sandstone fed,0.263,False,Conglomerate|—
+18456.27,18458.27,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18458.27,18461.77,6,Sandstone fed,0.263,False,Conglomerate|—
+18461.77,18465.77,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18465.77,18469.77,-1,Carbonaceous,0.8,False,
+18469.77,18471.27,17,Not Available,0.302,False,Sample
+18471.27,18474.77,-1,Carbonaceous,0.8,False,
+18474.77,18476.77,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18476.77,18480.27,-1,Carbonaceous,0.8,False,
+18480.27,18481.77,17,Not Available,0.302,False,Sample
+18481.77,18485.77,-1,Carbonaceous,0.8,False,
+18485.77,18487.27,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18487.27,18490.77,-1,Carbonaceous,0.8,False,
+18490.77,18492.77,17,Not Available,0.302,False,Sample
+18492.77,18496.27,-1,Carbonaceous,0.8,False,
+18496.27,18497.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18497.78,18501.78,-1,Carbonaceous,0.8,False,
+18501.78,18503.28,17,Not Available,0.302,False,Sample
+18503.28,18506.78,-1,Carbonaceous,0.8,False,
+18506.78,18508.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18508.78,18512.28,-1,Carbonaceous,0.8,False,
+18512.28,18513.78,17,Not Available,0.302,False,Sample
+18513.78,18517.78,-1,Carbonaceous,0.8,False,
+18517.78,18519.28,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18519.28,18522.78,-1,Carbonaceous,0.8,False,
+18522.78,18524.78,17,Not Available,0.302,False,Sample
+18524.78,18528.28,-1,Carbonaceous,0.8,False,
+18528.28,18529.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18529.78,18531.78,14,Silty,0.007,True,ISiliceous|Kaolinite|Argillaceous
+18531.78,18535.78,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18535.78,18539.78,-1,Carbonaceous,0.8,False,
+18539.78,18541.78,17,Not Available,0.302,False,Sample
+18541.78,18544.28,6,Sandstone fed,0.263,False,Conglomerate|—
+18544.28,18545.78,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+18545.78,18549.78,6,Sandstone fed,0.263,False,Conglomerate|—
+18549.78,18553.78,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18553.78,18557.78,-1,Carbonaceous,0.8,False,
+18557.78,18559.28,17,Not Available,0.302,False,Sample
+18559.28,18562.78,-1,Carbonaceous,0.8,False,
+18562.78,18564.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18564.78,18568.28,-1,Carbonaceous,0.8,False,
+18568.28,18569.78,17,Not Available,0.302,False,Sample
+18569.78,18573.78,-1,Carbonaceous,0.8,False,
+18573.78,18575.28,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18575.28,18578.78,-1,Carbonaceous,0.8,False,
+18578.78,18579.78,6,Sandstone fed,0.263,False,Conglomerate|—
+18579.78,18583.78,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18583.78,18587.28,-1,Carbonaceous,0.8,False,
+18587.28,18588.78,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+18588.78,18591.78,6,Sandstone fed,0.263,False,Conglomerate|—
+18591.78,18594.28,-1,Carbonaceous,0.8,False,
+18594.28,18595.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18595.78,18599.79,-1,Carbonaceous,0.8,False,
+18599.79,18601.29,17,Not Available,0.302,False,Sample
+18601.29,18604.79,-1,Carbonaceous,0.8,False,
+18604.79,18606.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18606.79,18610.29,-1,Carbonaceous,0.8,False,
+18610.29,18611.79,17,Not Available,0.302,False,Sample
+18611.79,18615.79,-1,Carbonaceous,0.8,False,
+18615.79,18617.29,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18617.29,18620.79,-1,Carbonaceous,0.8,False,
+18620.79,18622.79,17,Not Available,0.302,False,Sample
+18622.79,18626.29,-1,Carbonaceous,0.8,False,
+18626.29,18627.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18627.79,18631.79,-1,Carbonaceous,0.8,False,
+18631.79,18633.29,17,Not Available,0.302,False,Sample
+18633.29,18636.79,-1,Carbonaceous,0.8,False,
+18636.79,18638.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18638.79,18642.29,-1,Carbonaceous,0.8,False,
+18642.29,18643.79,17,Not Available,0.302,False,Sample
+18643.79,18647.79,-1,Carbonaceous,0.8,False,
+18647.79,18649.29,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18649.29,18652.79,-1,Carbonaceous,0.8,False,
+18652.79,18654.79,17,Not Available,0.302,False,Sample
+18654.79,18658.29,-1,Carbonaceous,0.8,False,
+18658.29,18659.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18659.79,18663.79,-1,Carbonaceous,0.8,False,
+18663.79,18665.29,17,Not Available,0.302,False,Sample
+18665.29,18668.79,-1,Carbonaceous,0.8,False,
+18668.79,18670.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18670.79,18674.29,-1,Carbonaceous,0.8,False,
+18674.29,18675.79,17,Not Available,0.302,False,Sample
+18675.79,18679.79,-1,Carbonaceous,0.8,False,
+18679.79,18681.29,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18681.29,18684.79,-1,Carbonaceous,0.8,False,
+18684.79,18686.79,17,Not Available,0.302,False,Sample
+18686.79,18690.29,-1,Carbonaceous,0.8,False,
+18690.29,18691.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18691.79,18695.79,-1,Carbonaceous,0.8,False,
+18695.79,18697.3,17,Not Available,0.302,False,Sample
+18697.3,18700.8,-1,Carbonaceous,0.8,False,
+18700.8,18703.3,17,Not Available,0.302,False,Sample
+18703.3,18706.8,4,Breccia,0.03,True,Sandstone fed|Conglomerate|—|Silty
+18706.8,18710.8,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18710.8,18713.8,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+18713.8,18717.8,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+18717.8,18721.8,-1,Carbonaceous,0.8,False,
+18721.8,18723.3,17,Not Available,0.302,False,Sample
+18723.3,18726.8,-1,Carbonaceous,0.8,False,
+18726.8,18728.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18728.8,18732.3,-1,Carbonaceous,0.8,False,
+18732.3,18733.8,17,Not Available,0.302,False,Sample
+18733.8,18737.8,-1,Carbonaceous,0.8,False,
+18737.8,18739.3,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18739.3,18742.8,-1,Carbonaceous,0.8,False,
+18742.8,18744.8,17,Not Available,0.302,False,Sample
+18744.8,18748.3,-1,Carbonaceous,0.8,False,
+18748.3,18749.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18749.8,18753.8,-1,Carbonaceous,0.8,False,
+18753.8,18755.3,17,Not Available,0.302,False,Sample
+18755.3,18758.8,-1,Carbonaceous,0.8,False,
+18758.8,18760.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18760.8,18764.3,-1,Carbonaceous,0.8,False,
+18764.3,18765.8,17,Not Available,0.302,False,Sample
+18765.8,18769.8,-1,Carbonaceous,0.8,False,
+18769.8,18771.3,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18771.3,18774.8,-1,Carbonaceous,0.8,False,
+18774.8,18776.8,17,Not Available,0.302,False,Sample
+18776.8,18780.3,-1,Carbonaceous,0.8,False,
+18780.3,18781.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18781.8,18785.8,-1,Carbonaceous,0.8,False,
+18785.8,18787.3,17,Not Available,0.302,False,Sample
+18787.3,18790.8,-1,Carbonaceous,0.8,False,
+18790.8,18792.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18792.8,18796.31,-1,Carbonaceous,0.8,False,
+18796.31,18797.81,17,Not Available,0.302,False,Sample
+18797.81,18801.81,-1,Carbonaceous,0.8,False,
+18801.81,18803.31,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18803.31,18806.81,-1,Carbonaceous,0.8,False,
+18806.81,18808.81,17,Not Available,0.302,False,Sample
+18808.81,18812.31,-1,Carbonaceous,0.8,False,
+18812.31,18813.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18813.81,18817.81,-1,Carbonaceous,0.8,False,
+18817.81,18819.31,17,Not Available,0.302,False,Sample
+18819.31,18822.81,-1,Carbonaceous,0.8,False,
+18822.81,18824.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18824.81,18828.31,-1,Carbonaceous,0.8,False,
+18828.31,18829.81,17,Not Available,0.302,False,Sample
+18829.81,18833.81,-1,Carbonaceous,0.8,False,
+18833.81,18835.31,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18835.31,18838.81,-1,Carbonaceous,0.8,False,
+18838.81,18840.81,17,Not Available,0.302,False,Sample
+18840.81,18844.31,-1,Carbonaceous,0.8,False,
+18844.31,18845.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18845.81,18849.81,-1,Carbonaceous,0.8,False,
+18849.81,18851.31,17,Not Available,0.302,False,Sample
+18851.31,18854.81,-1,Carbonaceous,0.8,False,
+18854.81,18856.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18856.81,18860.31,-1,Carbonaceous,0.8,False,
+18860.31,18861.81,17,Not Available,0.302,False,Sample
+18861.81,18865.81,-1,Carbonaceous,0.8,False,
+18865.81,18867.31,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18867.31,18870.81,-1,Carbonaceous,0.8,False,
+18870.81,18872.81,17,Not Available,0.302,False,Sample
+18872.81,18876.31,-1,Carbonaceous,0.8,False,
+18876.31,18877.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18877.81,18881.81,-1,Carbonaceous,0.8,False,
+18881.81,18883.31,17,Not Available,0.302,False,Sample
+18883.31,18886.81,-1,Carbonaceous,0.8,False,
+18886.81,18888.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18888.81,18892.31,-1,Carbonaceous,0.8,False,
+18892.31,18893.81,17,Not Available,0.302,False,Sample
+18893.81,18897.82,-1,Carbonaceous,0.8,False,
+18897.82,18899.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18899.32,18902.82,-1,Carbonaceous,0.8,False,
+18902.82,18904.82,17,Not Available,0.302,False,Sample
+18904.82,18908.32,-1,Carbonaceous,0.8,False,
+18908.32,18909.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18909.82,18913.82,-1,Carbonaceous,0.8,False,
+18913.82,18915.32,17,Not Available,0.302,False,Sample
+18915.32,18918.82,-1,Carbonaceous,0.8,False,
+18918.82,18920.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18920.82,18924.32,-1,Carbonaceous,0.8,False,
+18924.32,18925.82,17,Not Available,0.302,False,Sample
+18925.82,18929.82,-1,Carbonaceous,0.8,False,
+18929.82,18931.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18931.32,18935.32,-1,Carbonaceous,0.8,False,
+18935.32,18936.82,17,Not Available,0.302,False,Sample
+18936.82,18940.32,-1,Carbonaceous,0.8,False,
+18940.32,18942.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18942.32,18945.82,-1,Carbonaceous,0.8,False,
+18945.82,18947.32,17,Not Available,0.302,False,Sample
+18947.32,18951.32,-1,Carbonaceous,0.8,False,
+18951.32,18952.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18952.82,18956.32,-1,Carbonaceous,0.8,False,
+18956.32,18958.32,17,Not Available,0.302,False,Sample
+18958.32,18961.82,-1,Carbonaceous,0.8,False,
+18961.82,18963.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18963.32,18967.32,-1,Carbonaceous,0.8,False,
+18967.32,18968.82,17,Not Available,0.302,False,Sample
+18968.82,18972.32,-1,Carbonaceous,0.8,False,
+18972.32,18974.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18974.32,18977.82,-1,Carbonaceous,0.8,False,
+18977.82,18979.32,17,Not Available,0.302,False,Sample
+18979.32,18983.32,-1,Carbonaceous,0.8,False,
+18983.32,18984.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18984.82,18988.32,-1,Carbonaceous,0.8,False,
+18988.32,18990.32,17,Not Available,0.302,False,Sample
+18990.32,18993.82,-1,Carbonaceous,0.8,False,
+18993.82,18995.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+18995.32,18999.33,-1,Carbonaceous,0.8,False,
+18999.33,19000.83,17,Not Available,0.302,False,Sample
+19000.83,19004.33,-1,Carbonaceous,0.8,False,
+19004.33,19006.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19006.33,19009.83,-1,Carbonaceous,0.8,False,
+19009.83,19011.33,17,Not Available,0.302,False,Sample
+19011.33,19015.33,-1,Carbonaceous,0.8,False,
+19015.33,19016.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19016.83,19020.33,-1,Carbonaceous,0.8,False,
+19020.33,19022.33,17,Not Available,0.302,False,Sample
+19022.33,19025.83,-1,Carbonaceous,0.8,False,
+19025.83,19027.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19027.33,19031.33,-1,Carbonaceous,0.8,False,
+19031.33,19032.83,17,Not Available,0.302,False,Sample
+19032.83,19036.33,-1,Carbonaceous,0.8,False,
+19036.33,19038.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19038.33,19041.83,-1,Carbonaceous,0.8,False,
+19041.83,19043.33,17,Not Available,0.302,False,Sample
+19043.33,19047.33,-1,Carbonaceous,0.8,False,
+19047.33,19048.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19048.83,19052.33,-1,Carbonaceous,0.8,False,
+19052.33,19054.33,17,Not Available,0.302,False,Sample
+19054.33,19057.83,-1,Carbonaceous,0.8,False,
+19057.83,19059.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19059.33,19063.33,-1,Carbonaceous,0.8,False,
+19063.33,19064.83,17,Not Available,0.302,False,Sample
+19064.83,19068.33,-1,Carbonaceous,0.8,False,
+19068.33,19070.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19070.33,19073.83,-1,Carbonaceous,0.8,False,
+19073.83,19075.33,17,Not Available,0.302,False,Sample
+19075.33,19079.33,-1,Carbonaceous,0.8,False,
+19079.33,19080.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19080.83,19084.33,-1,Carbonaceous,0.8,False,
+19084.33,19086.33,17,Not Available,0.302,False,Sample
+19086.33,19089.83,-1,Carbonaceous,0.8,False,
+19089.83,19091.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19091.33,19095.34,-1,Carbonaceous,0.8,False,
+19095.34,19096.84,17,Not Available,0.302,False,Sample
+19096.84,19100.34,-1,Carbonaceous,0.8,False,
+19100.34,19102.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19102.34,19105.84,-1,Carbonaceous,0.8,False,
+19105.84,19107.34,17,Not Available,0.302,False,Sample
+19107.34,19111.34,-1,Carbonaceous,0.8,False,
+19111.34,19112.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19112.84,19116.34,-1,Carbonaceous,0.8,False,
+19116.34,19118.34,17,Not Available,0.302,False,Sample
+19118.34,19121.84,-1,Carbonaceous,0.8,False,
+19121.84,19123.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19123.34,19127.34,-1,Carbonaceous,0.8,False,
+19127.34,19128.84,17,Not Available,0.302,False,Sample
+19128.84,19132.34,-1,Carbonaceous,0.8,False,
+19132.34,19134.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19134.34,19137.84,-1,Carbonaceous,0.8,False,
+19137.84,19139.34,17,Not Available,0.302,False,Sample
+19139.34,19143.34,-1,Carbonaceous,0.8,False,
+19143.34,19144.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19144.84,19148.34,-1,Carbonaceous,0.8,False,
+19148.34,19150.34,17,Not Available,0.302,False,Sample
+19150.34,19153.84,-1,Carbonaceous,0.8,False,
+19153.84,19155.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19155.34,19159.34,-1,Carbonaceous,0.8,False,
+19159.34,19160.84,17,Not Available,0.302,False,Sample
+19160.84,19164.34,-1,Carbonaceous,0.8,False,
+19164.34,19166.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19166.34,19169.84,-1,Carbonaceous,0.8,False,
+19169.84,19171.34,17,Not Available,0.302,False,Sample
+19171.34,19175.34,-1,Carbonaceous,0.8,False,
+19175.34,19176.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19176.84,19180.34,-1,Carbonaceous,0.8,False,
+19180.34,19182.34,17,Not Available,0.302,False,Sample
+19182.34,19185.84,-1,Carbonaceous,0.8,False,
+19185.84,19187.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19187.34,19191.34,-1,Carbonaceous,0.8,False,
+19191.34,19192.84,17,Not Available,0.302,False,Sample
+19192.84,19195.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19195.35,19196.85,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19196.85,19200.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19200.35,19202.35,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19202.35,19206.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19206.35,19207.35,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19207.35,19211.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19211.35,19212.85,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19212.85,19216.85,6,Sandstone fed,0.263,False,Conglomerate|—
+19216.85,19218.35,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19218.35,19222.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19222.35,19223.35,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19223.35,19227.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19227.35,19228.85,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19228.85,19232.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19232.35,19234.35,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19234.35,19238.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19238.35,19239.35,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19239.35,19243.35,6,Sandstone fed,0.263,False,Conglomerate|—
+19243.35,19245.35,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19245.35,19247.85,6,Sandstone fed,0.263,False,Conglomerate|—
+19247.85,19251.85,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19251.85,19255.35,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+19255.35,19257.35,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19257.35,19259.85,6,Sandstone fed,0.263,False,Conglomerate|—
+19259.85,19263.85,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19263.85,19267.85,-1,Carbonaceous,0.8,False,
+19267.85,19269.35,17,Not Available,0.302,False,Sample
+19269.35,19272.85,-1,Carbonaceous,0.8,False,
+19272.85,19274.85,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19274.85,19278.35,-1,Carbonaceous,0.8,False,
+19278.35,19279.85,17,Not Available,0.302,False,Sample
+19279.85,19283.85,-1,Carbonaceous,0.8,False,
+19283.85,19285.35,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19285.35,19288.85,-1,Carbonaceous,0.8,False,
+19288.85,19290.85,17,Not Available,0.302,False,Sample
+19290.85,19294.35,-1,Carbonaceous,0.8,False,
+19294.35,19295.86,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19295.86,19299.86,-1,Carbonaceous,0.8,False,
+19299.86,19301.36,17,Not Available,0.302,False,Sample
+19301.36,19304.86,-1,Carbonaceous,0.8,False,
+19304.86,19306.86,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19306.86,19310.36,-1,Carbonaceous,0.8,False,
+19310.36,19311.86,17,Not Available,0.302,False,Sample
+19311.86,19315.86,-1,Carbonaceous,0.8,False,
+19315.86,19317.36,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19317.36,19320.86,-1,Carbonaceous,0.8,False,
+19320.86,19322.86,17,Not Available,0.302,False,Sample
+19322.86,19326.36,-1,Carbonaceous,0.8,False,
+19326.36,19327.86,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19327.86,19331.86,-1,Carbonaceous,0.8,False,
+19331.86,19333.36,17,Not Available,0.302,False,Sample
+19333.36,19336.86,-1,Carbonaceous,0.8,False,
+19336.86,19338.86,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19338.86,19342.36,-1,Carbonaceous,0.8,False,
+19342.36,19343.86,17,Not Available,0.302,False,Sample
+19343.86,19347.86,-1,Carbonaceous,0.8,False,
+19347.86,19349.36,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19349.36,19352.86,-1,Carbonaceous,0.8,False,
+19352.86,19355.36,17,Not Available,0.302,False,Sample
+19355.36,19359.36,4,Breccia,0.03,True,Sandstone fed|Conglomerate|—|Silty
+19359.36,19360.86,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19360.86,19364.36,6,Sandstone fed,0.263,False,Conglomerate|—
+19364.36,19366.36,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19366.36,19370.86,6,Sandstone fed,0.263,False,Conglomerate|—
+19370.86,19372.86,-1,Carbonaceous,0.8,False,
+19372.86,19375.86,6,Sandstone fed,0.263,False,Conglomerate|—
+19375.86,19378.36,-1,Carbonaceous,0.8,False,
+19378.36,19379.86,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19379.86,19383.86,-1,Carbonaceous,0.8,False,
+19383.86,19385.36,17,Not Available,0.302,False,Sample
+19385.36,19388.86,-1,Carbonaceous,0.8,False,
+19388.86,19390.86,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19390.86,19394.36,-1,Carbonaceous,0.8,False,
+19394.36,19395.87,17,Not Available,0.302,False,Sample
+19395.87,19399.87,-1,Carbonaceous,0.8,False,
+19399.87,19401.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19401.37,19404.87,-1,Carbonaceous,0.8,False,
+19404.87,19406.87,17,Not Available,0.302,False,Sample
+19406.87,19410.37,-1,Carbonaceous,0.8,False,
+19410.37,19411.87,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19411.87,19415.87,-1,Carbonaceous,0.8,False,
+19415.87,19417.37,17,Not Available,0.302,False,Sample
+19417.37,19420.87,-1,Carbonaceous,0.8,False,
+19420.87,19422.87,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19422.87,19426.37,-1,Carbonaceous,0.8,False,
+19426.37,19427.87,17,Not Available,0.302,False,Sample
+19427.87,19431.87,-1,Carbonaceous,0.8,False,
+19431.87,19433.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19433.37,19436.87,-1,Carbonaceous,0.8,False,
+19436.87,19438.87,17,Not Available,0.302,False,Sample
+19438.87,19442.37,-1,Carbonaceous,0.8,False,
+19442.37,19443.87,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19443.87,19447.87,-1,Carbonaceous,0.8,False,
+19447.87,19449.37,17,Not Available,0.302,False,Sample
+19449.37,19452.87,-1,Carbonaceous,0.8,False,
+19452.87,19454.87,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19454.87,19458.37,-1,Carbonaceous,0.8,False,
+19458.37,19459.87,17,Not Available,0.302,False,Sample
+19459.87,19463.87,-1,Carbonaceous,0.8,False,
+19463.87,19465.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19465.37,19468.87,-1,Carbonaceous,0.8,False,
+19468.87,19470.87,17,Not Available,0.302,False,Sample
+19470.87,19474.37,-1,Carbonaceous,0.8,False,
+19474.37,19475.87,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19475.87,19479.87,-1,Carbonaceous,0.8,False,
+19479.87,19481.37,17,Not Available,0.302,False,Sample
+19481.37,19484.87,-1,Carbonaceous,0.8,False,
+19484.87,19486.87,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19486.87,19490.37,-1,Carbonaceous,0.8,False,
+19490.37,19492.37,17,Not Available,0.302,False,Sample
+19492.37,19496.38,2,Siltstone,0.28,False,
+19496.38,19500.38,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19500.38,19501.88,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19501.88,19505.88,-1,Carbonaceous,0.8,False,
+19505.88,19507.88,17,Not Available,0.302,False,Sample
+19507.88,19512.38,1,Silty,0.006,True,ISiliceous|Siltstone|Kaolinite
+19512.38,19515.38,-1,Carbonaceous,0.8,False,
+19515.38,19516.88,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19516.88,19520.88,-1,Carbonaceous,0.8,False,
+19520.88,19522.38,17,Not Available,0.302,False,Sample
+19522.38,19525.88,-1,Carbonaceous,0.8,False,
+19525.88,19527.88,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19527.88,19531.38,-1,Carbonaceous,0.8,False,
+19531.38,19532.88,17,Not Available,0.302,False,Sample
+19532.88,19534.88,10,Siltstone,0.506,False,
+19534.88,19538.88,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19538.88,19542.88,-1,Carbonaceous,0.8,False,
+19542.88,19544.38,17,Not Available,0.302,False,Sample
+19544.38,19547.88,-1,Carbonaceous,0.8,False,
+19547.88,19549.88,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19549.88,19553.38,-1,Carbonaceous,0.8,False,
+19553.38,19554.88,17,Not Available,0.302,False,Sample
+19554.88,19557.88,13,Silty,0.008,True,ISiliceous|Kaolinite|Argillaceous
+19557.88,19561.88,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19561.88,19565.88,-1,Carbonaceous,0.8,False,
+19565.88,19567.38,17,Not Available,0.302,False,Sample
+19567.38,19570.88,-1,Carbonaceous,0.8,False,
+19570.88,19572.88,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19572.88,19576.38,-1,Carbonaceous,0.8,False,
+19576.38,19577.88,17,Not Available,0.302,False,Sample
+19577.88,19581.88,-1,Carbonaceous,0.8,False,
+19581.88,19583.88,17,Not Available,0.302,False,Sample
+19583.88,19588.38,1,Silty,0.006,True,ISiliceous|Siltstone|Kaolinite
+19588.38,19589.88,23,Siltstone,0.227,False,
+19589.88,19593.38,10,Siltstone,0.506,False,
+19593.38,19594.89,26,Siltstone,0.735,False,
+19594.89,19599.89,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19599.89,19603.89,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19603.89,19607.89,-1,Carbonaceous,0.8,False,
+19607.89,19609.89,17,Not Available,0.302,False,Sample
+19609.89,19613.39,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+19613.39,19614.89,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19614.89,19618.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19618.39,19620.39,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19620.39,19623.89,6,Sandstone fed,0.263,False,Conglomerate|—
+19623.89,19625.39,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19625.39,19629.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19629.39,19630.89,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19630.89,19634.89,6,Sandstone fed,0.263,False,Conglomerate|—
+19634.89,19636.39,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19636.39,19640.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19640.39,19641.89,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19641.89,19645.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19645.39,19646.89,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19646.89,19650.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19650.39,19652.39,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19652.39,19656.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19656.39,19657.39,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19657.39,19661.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19661.39,19662.89,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19662.89,19666.89,6,Sandstone fed,0.263,False,Conglomerate|—
+19666.89,19668.39,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19668.39,19671.89,6,Sandstone fed,0.263,False,Conglomerate|—
+19671.89,19673.39,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19673.39,19677.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19677.39,19678.89,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19678.89,19682.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19682.39,19684.39,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19684.39,19688.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19688.39,19689.39,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19689.39,19693.39,6,Sandstone fed,0.263,False,Conglomerate|—
+19693.39,19694.9,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19694.9,19698.9,6,Sandstone fed,0.263,False,Conglomerate|—
+19698.9,19700.4,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19700.4,19704.4,6,Sandstone fed,0.263,False,Conglomerate|—
+19704.4,19709.4,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19709.4,19710.9,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19710.9,19714.4,6,Sandstone fed,0.263,False,Conglomerate|—
+19714.4,19716.4,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19716.4,19717.9,6,Sandstone fed,0.263,False,Conglomerate|—
+19717.9,19721.9,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19721.9,19724.9,-1,Carbonaceous,0.8,False,
+19724.9,19727.9,6,Sandstone fed,0.263,False,Conglomerate|—
+19727.9,19730.4,-1,Carbonaceous,0.8,False,
+19730.4,19731.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19731.9,19736.9,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19736.9,19740.9,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19740.9,19744.9,-1,Carbonaceous,0.8,False,
+19744.9,19746.4,17,Not Available,0.302,False,Sample
+19746.4,19749.9,-1,Carbonaceous,0.8,False,
+19749.9,19751.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19751.9,19755.4,-1,Carbonaceous,0.8,False,
+19755.4,19756.9,17,Not Available,0.302,False,Sample
+19756.9,19760.9,-1,Carbonaceous,0.8,False,
+19760.9,19762.4,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19762.4,19765.9,-1,Carbonaceous,0.8,False,
+19765.9,19767.9,17,Not Available,0.302,False,Sample
+19767.9,19771.4,-1,Carbonaceous,0.8,False,
+19771.4,19772.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19772.9,19776.9,-1,Carbonaceous,0.8,False,
+19776.9,19778.9,17,Not Available,0.302,False,Sample
+19778.9,19783.4,4,Breccia,0.03,True,Sandstone fed|Conglomerate|—|Silty
+19783.4,19784.9,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19784.9,19788.4,6,Sandstone fed,0.263,False,Conglomerate|—
+19788.4,19790.4,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19790.4,19793.91,6,Sandstone fed,0.263,False,Conglomerate|—
+19793.91,19795.41,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19795.41,19799.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19799.41,19800.91,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19800.91,19804.91,6,Sandstone fed,0.263,False,Conglomerate|—
+19804.91,19806.41,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19806.41,19810.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19810.41,19811.91,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19811.91,19815.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19815.41,19816.91,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19816.91,19820.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19820.41,19822.41,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19822.41,19825.91,6,Sandstone fed,0.263,False,Conglomerate|—
+19825.91,19827.41,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19827.41,19831.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19831.41,19832.91,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19832.91,19836.91,6,Sandstone fed,0.263,False,Conglomerate|—
+19836.91,19838.41,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19838.41,19842.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19842.41,19843.41,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19843.41,19847.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19847.41,19848.91,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19848.91,19852.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19852.41,19854.41,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19854.41,19858.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19858.41,19859.91,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19859.91,19863.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19863.41,19864.91,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19864.91,19868.91,6,Sandstone fed,0.263,False,Conglomerate|—
+19868.91,19870.41,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19870.41,19873.91,6,Sandstone fed,0.263,False,Conglomerate|—
+19873.91,19875.41,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19875.41,19879.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19879.41,19880.91,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19880.91,19884.41,6,Sandstone fed,0.263,False,Conglomerate|—
+19884.41,19886.41,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19886.41,19889.91,6,Sandstone fed,0.263,False,Conglomerate|—
+19889.91,19891.41,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19891.41,19892.91,6,Sandstone fed,0.263,False,Conglomerate|—
+19892.91,19896.92,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19896.92,19900.92,-1,Carbonaceous,0.8,False,
+19900.92,19902.42,17,Not Available,0.302,False,Sample
+19902.42,19905.92,-1,Carbonaceous,0.8,False,
+19905.92,19907.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19907.92,19911.92,-1,Carbonaceous,0.8,False,
+19911.92,19914.92,6,Sandstone fed,0.263,False,Conglomerate|—
+19914.92,19917.42,-1,Carbonaceous,0.8,False,
+19917.42,19918.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19918.92,19922.92,-1,Carbonaceous,0.8,False,
+19922.92,19924.42,17,Not Available,0.302,False,Sample
+19924.42,19927.92,-1,Carbonaceous,0.8,False,
+19927.92,19929.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19929.92,19933.42,-1,Carbonaceous,0.8,False,
+19933.42,19935.42,17,Not Available,0.302,False,Sample
+19935.42,19939.42,4,Breccia,0.03,True,Sandstone fed|Conglomerate|—|Silty
+19939.42,19940.92,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19940.92,19944.42,6,Sandstone fed,0.263,False,Conglomerate|—
+19944.42,19946.42,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19946.42,19950.42,6,Sandstone fed,0.263,False,Conglomerate|—
+19950.42,19951.42,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+19951.42,19952.92,6,Sandstone fed,0.263,False,Conglomerate|—
+19952.92,19956.92,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19956.92,19960.92,-1,Carbonaceous,0.8,False,
+19960.92,19962.42,17,Not Available,0.302,False,Sample
+19962.42,19965.92,-1,Carbonaceous,0.8,False,
+19965.92,19967.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+19967.92,19970.92,-1,Carbonaceous,0.8,False,
+19970.92,19974.92,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19974.92,19978.42,6,Sandstone fed,0.263,False,Conglomerate|—
+19978.42,19980.42,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19980.42,19983.92,6,Sandstone fed,0.263,False,Conglomerate|—
+19983.92,19985.42,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+19985.42,19988.92,6,Sandstone fed,0.263,False,Conglomerate|—
+19988.92,19992.92,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+19992.92,19996.93,-1,Carbonaceous,0.8,False,
+19996.93,19998.93,17,Not Available,0.302,False,Sample
+19998.93,20003.93,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20003.93,20006.43,-1,Carbonaceous,0.8,False,
+20006.43,20007.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20007.93,20011.93,-1,Carbonaceous,0.8,False,
+20011.93,20013.93,20,Argillaceous,0.015,True,Claystone|Shale|Salt
+20013.93,20017.93,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20017.93,20021.93,-1,Carbonaceous,0.8,False,
+20021.93,20023.43,17,Not Available,0.302,False,Sample
+20023.43,20026.93,-1,Carbonaceous,0.8,False,
+20026.93,20028.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20028.93,20032.43,-1,Carbonaceous,0.8,False,
+20032.43,20034.43,17,Not Available,0.302,False,Sample
+20034.43,20037.93,-1,Carbonaceous,0.8,False,
+20037.93,20039.43,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20039.43,20043.43,-1,Carbonaceous,0.8,False,
+20043.43,20044.93,17,Not Available,0.302,False,Sample
+20044.93,20048.43,-1,Carbonaceous,0.8,False,
+20048.43,20050.43,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20050.43,20053.93,-1,Carbonaceous,0.8,False,
+20053.93,20055.43,17,Not Available,0.302,False,Sample
+20055.43,20059.43,-1,Carbonaceous,0.8,False,
+20059.43,20060.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20060.93,20064.43,-1,Carbonaceous,0.8,False,
+20064.43,20066.43,17,Not Available,0.302,False,Sample
+20066.43,20069.93,-1,Carbonaceous,0.8,False,
+20069.93,20071.43,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20071.43,20075.43,-1,Carbonaceous,0.8,False,
+20075.43,20076.93,17,Not Available,0.302,False,Sample
+20076.93,20080.43,-1,Carbonaceous,0.8,False,
+20080.43,20082.43,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20082.43,20085.93,-1,Carbonaceous,0.8,False,
+20085.93,20087.43,17,Not Available,0.302,False,Sample
+20087.43,20091.43,-1,Carbonaceous,0.8,False,
+20091.43,20092.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20092.93,20096.44,-1,Carbonaceous,0.8,False,
+20096.44,20098.44,17,Not Available,0.302,False,Sample
+20098.44,20101.94,-1,Carbonaceous,0.8,False,
+20101.94,20103.44,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20103.44,20107.44,-1,Carbonaceous,0.8,False,
+20107.44,20108.94,17,Not Available,0.302,False,Sample
+20108.94,20112.44,-1,Carbonaceous,0.8,False,
+20112.44,20114.44,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20114.44,20116.94,-1,Carbonaceous,0.8,False,
+20116.94,20120.94,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20120.94,20124.44,6,Sandstone fed,0.263,False,Conglomerate|—
+20124.44,20126.44,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20126.44,20129.94,6,Sandstone fed,0.263,False,Conglomerate|—
+20129.94,20131.44,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20131.44,20135.44,6,Sandstone fed,0.263,False,Conglomerate|—
+20135.44,20136.94,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20136.94,20140.94,6,Sandstone fed,0.263,False,Conglomerate|—
+20140.94,20142.44,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20142.44,20145.94,6,Sandstone fed,0.263,False,Conglomerate|—
+20145.94,20147.44,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20147.44,20151.44,6,Sandstone fed,0.263,False,Conglomerate|—
+20151.44,20152.94,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20152.94,20156.44,6,Sandstone fed,0.263,False,Conglomerate|—
+20156.44,20158.44,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20158.44,20162.44,6,Sandstone fed,0.263,False,Conglomerate|—
+20162.44,20167.44,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20167.44,20168.94,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20168.94,20171.94,-1,Carbonaceous,0.8,False,
+20171.94,20174.94,6,Sandstone fed,0.263,False,Conglomerate|—
+20174.94,20177.44,-1,Carbonaceous,0.8,False,
+20177.44,20178.94,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20178.94,20182.94,-1,Carbonaceous,0.8,False,
+20182.94,20186.94,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20186.94,20188.94,6,Sandstone fed,0.263,False,Conglomerate|—
+20188.94,20192.95,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20192.95,20195.95,-1,Carbonaceous,0.8,False,
+20195.95,20199.95,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20199.95,20202.45,-1,Carbonaceous,0.8,False,
+20202.45,20203.95,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20203.95,20207.95,-1,Carbonaceous,0.8,False,
+20207.95,20209.45,17,Not Available,0.302,False,Sample
+20209.45,20212.95,-1,Carbonaceous,0.8,False,
+20212.95,20214.95,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20214.95,20218.45,-1,Carbonaceous,0.8,False,
+20218.45,20219.95,17,Not Available,0.302,False,Sample
+20219.95,20223.95,-1,Carbonaceous,0.8,False,
+20223.95,20225.45,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20225.45,20228.95,-1,Carbonaceous,0.8,False,
+20228.95,20230.95,17,Not Available,0.302,False,Sample
+20230.95,20234.45,-1,Carbonaceous,0.8,False,
+20234.45,20235.95,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20235.95,20239.95,-1,Carbonaceous,0.8,False,
+20239.95,20241.45,17,Not Available,0.302,False,Sample
+20241.45,20244.95,-1,Carbonaceous,0.8,False,
+20244.95,20246.95,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20246.95,20250.45,-1,Carbonaceous,0.8,False,
+20250.45,20251.95,17,Not Available,0.302,False,Sample
+20251.95,20255.95,-1,Carbonaceous,0.8,False,
+20255.95,20257.45,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20257.45,20260.95,-1,Carbonaceous,0.8,False,
+20260.95,20262.95,17,Not Available,0.302,False,Sample
+20262.95,20266.45,-1,Carbonaceous,0.8,False,
+20266.45,20267.95,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20267.95,20271.95,-1,Carbonaceous,0.8,False,
+20271.95,20273.45,17,Not Available,0.302,False,Sample
+20273.45,20276.95,-1,Carbonaceous,0.8,False,
+20276.95,20278.95,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20278.95,20282.45,-1,Carbonaceous,0.8,False,
+20282.45,20283.95,17,Not Available,0.302,False,Sample
+20283.95,20287.95,-1,Carbonaceous,0.8,False,
+20287.95,20289.45,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20289.45,20292.96,-1,Carbonaceous,0.8,False,
+20292.96,20294.96,17,Not Available,0.302,False,Sample
+20294.96,20298.46,-1,Carbonaceous,0.8,False,
+20298.46,20299.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20299.96,20303.96,-1,Carbonaceous,0.8,False,
+20303.96,20305.46,17,Not Available,0.302,False,Sample
+20305.46,20308.96,-1,Carbonaceous,0.8,False,
+20308.96,20310.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20310.96,20314.46,-1,Carbonaceous,0.8,False,
+20314.46,20315.96,17,Not Available,0.302,False,Sample
+20315.96,20319.96,-1,Carbonaceous,0.8,False,
+20319.96,20321.46,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20321.46,20324.96,-1,Carbonaceous,0.8,False,
+20324.96,20326.96,17,Not Available,0.302,False,Sample
+20326.96,20330.46,-1,Carbonaceous,0.8,False,
+20330.46,20331.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20331.96,20335.96,-1,Carbonaceous,0.8,False,
+20335.96,20337.46,17,Not Available,0.302,False,Sample
+20337.46,20340.96,-1,Carbonaceous,0.8,False,
+20340.96,20342.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20342.96,20346.46,-1,Carbonaceous,0.8,False,
+20346.46,20347.96,17,Not Available,0.302,False,Sample
+20347.96,20351.96,-1,Carbonaceous,0.8,False,
+20351.96,20353.46,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20353.46,20356.96,-1,Carbonaceous,0.8,False,
+20356.96,20358.96,17,Not Available,0.302,False,Sample
+20358.96,20362.46,-1,Carbonaceous,0.8,False,
+20362.46,20363.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20363.96,20367.96,-1,Carbonaceous,0.8,False,
+20367.96,20369.46,17,Not Available,0.302,False,Sample
+20369.46,20372.96,-1,Carbonaceous,0.8,False,
+20372.96,20374.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20374.96,20378.46,-1,Carbonaceous,0.8,False,
+20378.46,20379.96,17,Not Available,0.302,False,Sample
+20379.96,20383.96,-1,Carbonaceous,0.8,False,
+20383.96,20385.46,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20385.46,20388.96,-1,Carbonaceous,0.8,False,
+20388.96,20390.96,17,Not Available,0.302,False,Sample
+20390.96,20394.47,-1,Carbonaceous,0.8,False,
+20394.47,20395.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20395.97,20399.97,-1,Carbonaceous,0.8,False,
+20399.97,20401.47,17,Not Available,0.302,False,Sample
+20401.47,20404.97,-1,Carbonaceous,0.8,False,
+20404.97,20406.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20406.97,20410.47,-1,Carbonaceous,0.8,False,
+20410.47,20411.97,17,Not Available,0.302,False,Sample
+20411.97,20415.97,-1,Carbonaceous,0.8,False,
+20415.97,20417.47,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20417.47,20420.97,-1,Carbonaceous,0.8,False,
+20420.97,20422.97,17,Not Available,0.302,False,Sample
+20422.97,20426.47,-1,Carbonaceous,0.8,False,
+20426.47,20427.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20427.97,20431.97,-1,Carbonaceous,0.8,False,
+20431.97,20433.47,17,Not Available,0.302,False,Sample
+20433.47,20436.97,-1,Carbonaceous,0.8,False,
+20436.97,20438.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20438.97,20442.47,-1,Carbonaceous,0.8,False,
+20442.47,20443.97,17,Not Available,0.302,False,Sample
+20443.97,20447.97,-1,Carbonaceous,0.8,False,
+20447.97,20449.47,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20449.47,20452.97,-1,Carbonaceous,0.8,False,
+20452.97,20454.97,17,Not Available,0.302,False,Sample
+20454.97,20458.47,-1,Carbonaceous,0.8,False,
+20458.47,20459.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20459.97,20463.97,-1,Carbonaceous,0.8,False,
+20463.97,20465.47,17,Not Available,0.302,False,Sample
+20465.47,20468.97,-1,Carbonaceous,0.8,False,
+20468.97,20470.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20470.97,20474.47,-1,Carbonaceous,0.8,False,
+20474.47,20475.97,17,Not Available,0.302,False,Sample
+20475.97,20479.97,-1,Carbonaceous,0.8,False,
+20479.97,20481.47,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20481.47,20484.97,-1,Carbonaceous,0.8,False,
+20484.97,20486.97,17,Not Available,0.302,False,Sample
+20486.97,20490.47,-1,Carbonaceous,0.8,False,
+20490.47,20491.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20491.97,20495.98,-1,Carbonaceous,0.8,False,
+20495.98,20497.48,17,Not Available,0.302,False,Sample
+20497.48,20500.98,-1,Carbonaceous,0.8,False,
+20500.98,20502.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20502.98,20506.48,-1,Carbonaceous,0.8,False,
+20506.48,20507.98,17,Not Available,0.302,False,Sample
+20507.98,20511.98,-1,Carbonaceous,0.8,False,
+20511.98,20513.48,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20513.48,20516.98,-1,Carbonaceous,0.8,False,
+20516.98,20518.98,17,Not Available,0.302,False,Sample
+20518.98,20522.48,-1,Carbonaceous,0.8,False,
+20522.48,20523.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20523.98,20527.98,-1,Carbonaceous,0.8,False,
+20527.98,20529.48,17,Not Available,0.302,False,Sample
+20529.48,20532.98,-1,Carbonaceous,0.8,False,
+20532.98,20534.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20534.98,20538.48,-1,Carbonaceous,0.8,False,
+20538.48,20539.98,17,Not Available,0.302,False,Sample
+20539.98,20543.98,-1,Carbonaceous,0.8,False,
+20543.98,20545.48,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20545.48,20548.98,-1,Carbonaceous,0.8,False,
+20548.98,20550.98,17,Not Available,0.302,False,Sample
+20550.98,20554.48,-1,Carbonaceous,0.8,False,
+20554.48,20555.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20555.98,20559.98,-1,Carbonaceous,0.8,False,
+20559.98,20561.98,6,Sandstone fed,0.263,False,Conglomerate|—
+20561.98,20565.98,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20565.98,20569.98,-1,Carbonaceous,0.8,False,
+20569.98,20571.48,17,Not Available,0.302,False,Sample
+20571.48,20574.98,-1,Carbonaceous,0.8,False,
+20574.98,20576.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20576.98,20580.48,-1,Carbonaceous,0.8,False,
+20580.48,20581.98,17,Not Available,0.302,False,Sample
+20581.98,20585.98,-1,Carbonaceous,0.8,False,
+20585.98,20587.48,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20587.48,20590.98,-1,Carbonaceous,0.8,False,
+20590.98,20592.99,17,Not Available,0.302,False,Sample
+20592.99,20596.49,-1,Carbonaceous,0.8,False,
+20596.49,20597.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20597.99,20601.99,-1,Carbonaceous,0.8,False,
+20601.99,20603.49,17,Not Available,0.302,False,Sample
+20603.49,20606.99,-1,Carbonaceous,0.8,False,
+20606.99,20608.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20608.99,20612.49,-1,Carbonaceous,0.8,False,
+20612.49,20613.99,17,Not Available,0.302,False,Sample
+20613.99,20617.99,-1,Carbonaceous,0.8,False,
+20617.99,20619.49,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20619.49,20622.99,-1,Carbonaceous,0.8,False,
+20622.99,20624.99,17,Not Available,0.302,False,Sample
+20624.99,20628.49,-1,Carbonaceous,0.8,False,
+20628.49,20629.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20629.99,20633.99,-1,Carbonaceous,0.8,False,
+20633.99,20635.49,17,Not Available,0.302,False,Sample
+20635.49,20638.99,-1,Carbonaceous,0.8,False,
+20638.99,20640.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20640.99,20644.49,-1,Carbonaceous,0.8,False,
+20644.49,20645.99,17,Not Available,0.302,False,Sample
+20645.99,20649.99,-1,Carbonaceous,0.8,False,
+20649.99,20651.49,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20651.49,20654.99,-1,Carbonaceous,0.8,False,
+20654.99,20656.99,17,Not Available,0.302,False,Sample
+20656.99,20660.49,-1,Carbonaceous,0.8,False,
+20660.49,20661.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20661.99,20665.99,-1,Carbonaceous,0.8,False,
+20665.99,20667.49,17,Not Available,0.302,False,Sample
+20667.49,20671.99,7,Argillaceous,0.859,False,Claystone|Calcareous
+20671.99,20675.99,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20675.99,20678.49,-1,Carbonaceous,0.8,False,
+20678.49,20679.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20679.99,20683.49,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+20683.49,20684.99,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20684.99,20688.49,6,Sandstone fed,0.263,False,Conglomerate|—
+20688.49,20690.49,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20690.49,20694.0,6,Sandstone fed,0.263,False,Conglomerate|—
+20694.0,20698.0,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20698.0,20702.0,-1,Carbonaceous,0.8,False,
+20702.0,20703.5,17,Not Available,0.302,False,Sample
+20703.5,20707.0,-1,Carbonaceous,0.8,False,
+20707.0,20709.0,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20709.0,20712.5,-1,Carbonaceous,0.8,False,
+20712.5,20714.0,17,Not Available,0.302,False,Sample
+20714.0,20718.0,-1,Carbonaceous,0.8,False,
+20718.0,20719.5,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20719.5,20723.0,-1,Carbonaceous,0.8,False,
+20723.0,20725.0,17,Not Available,0.302,False,Sample
+20725.0,20728.5,-1,Carbonaceous,0.8,False,
+20728.5,20730.0,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20730.0,20734.0,-1,Carbonaceous,0.8,False,
+20734.0,20735.5,17,Not Available,0.302,False,Sample
+20735.5,20739.0,-1,Carbonaceous,0.8,False,
+20739.0,20741.0,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20741.0,20744.5,-1,Carbonaceous,0.8,False,
+20744.5,20746.0,17,Not Available,0.302,False,Sample
+20746.0,20750.0,-1,Carbonaceous,0.8,False,
+20750.0,20751.5,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20751.5,20755.0,-1,Carbonaceous,0.8,False,
+20755.0,20757.0,17,Not Available,0.302,False,Sample
+20757.0,20760.5,-1,Carbonaceous,0.8,False,
+20760.5,20762.0,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20762.0,20766.0,-1,Carbonaceous,0.8,False,
+20766.0,20767.5,17,Not Available,0.302,False,Sample
+20767.5,20771.0,-1,Carbonaceous,0.8,False,
+20771.0,20773.0,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20773.0,20776.5,-1,Carbonaceous,0.8,False,
+20776.5,20778.0,17,Not Available,0.302,False,Sample
+20778.0,20782.0,-1,Carbonaceous,0.8,False,
+20782.0,20784.0,17,Not Available,0.302,False,Sample
+20784.0,20786.5,10,Siltstone,0.506,False,
+20786.5,20789.5,-1,Carbonaceous,0.8,False,
+20789.5,20791.0,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20791.0,20795.01,2,Siltstone,0.28,False,
+20795.01,20798.01,6,Sandstone fed,0.263,False,Conglomerate|—
+20798.01,20801.01,13,Silty,0.008,True,ISiliceous|Kaolinite|Argillaceous
+20801.01,20804.51,2,Siltstone,0.28,False,
+20804.51,20806.01,23,Siltstone,0.227,False,
+20806.01,20810.01,10,Siltstone,0.506,False,
+20810.01,20811.01,-1,Carbonaceous,0.8,False,
+20811.01,20814.01,6,Sandstone fed,0.263,False,Conglomerate|—
+20814.01,20816.01,-1,Carbonaceous,0.8,False,
+20816.01,20818.01,10,Siltstone,0.506,False,
+20818.01,20822.51,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20822.51,20826.51,5,Siltstone,0.063,False,Silty|ISiliceous|Kaolinite
+20826.51,20828.01,23,Siltstone,0.227,False,
+20828.01,20830.51,6,Sandstone fed,0.263,False,Conglomerate|—
+20830.51,20832.01,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20832.01,20835.51,6,Sandstone fed,0.263,False,Conglomerate|—
+20835.51,20838.01,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20838.01,20841.51,15,Siltstone,0.276,False,
+20841.51,20845.51,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20845.51,20847.01,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20847.01,20851.01,-1,Carbonaceous,0.8,False,
+20851.01,20853.01,17,Not Available,0.302,False,Sample
+20853.01,20856.51,2,Siltstone,0.28,False,
+20856.51,20859.51,-1,Carbonaceous,0.8,False,
+20859.51,20861.01,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20861.01,20865.01,-1,Carbonaceous,0.8,False,
+20865.01,20866.51,17,Not Available,0.302,False,Sample
+20866.51,20870.01,-1,Carbonaceous,0.8,False,
+20870.01,20872.01,21,Siltstone,0.342,False,
+20872.01,20876.01,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20876.01,20880.01,-1,Carbonaceous,0.8,False,
+20880.01,20881.51,17,Not Available,0.302,False,Sample
+20881.51,20885.01,-1,Carbonaceous,0.8,False,
+20885.01,20887.01,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20887.01,20891.01,-1,Carbonaceous,0.8,False,
+20891.01,20893.52,10,Siltstone,0.506,False,
+20893.52,20896.52,-1,Carbonaceous,0.8,False,
+20896.52,20898.02,16,Not Available,0.114,False,Sample|Pyrite|Salt
+20898.02,20902.02,-1,Carbonaceous,0.8,False,
+20902.02,20904.02,17,Not Available,0.302,False,Sample
+20904.02,20906.02,10,Siltstone,0.506,False,
+20906.02,20910.02,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20910.02,20913.52,-1,Carbonaceous,0.8,False,
+20913.52,20915.02,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+20915.02,20917.02,10,Siltstone,0.506,False,
+20917.02,20921.02,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20921.02,20925.02,-1,Carbonaceous,0.8,False,
+20925.02,20927.02,17,Not Available,0.302,False,Sample
+20927.02,20931.02,11,Siltstone,0.763,False,
+20931.02,20933.02,10,Siltstone,0.506,False,
+20933.02,20937.02,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20937.02,20941.02,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20941.02,20942.02,10,Siltstone,0.506,False,
+20942.02,20946.02,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20946.02,20950.02,-1,Carbonaceous,0.8,False,
+20950.02,20954.02,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20954.02,20958.02,6,Sandstone fed,0.263,False,Conglomerate|—
+20958.02,20962.02,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20962.02,20966.02,-1,Carbonaceous,0.8,False,
+20966.02,20968.02,17,Not Available,0.302,False,Sample
+20968.02,20971.52,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+20971.52,20973.02,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20973.02,20976.52,6,Sandstone fed,0.263,False,Conglomerate|—
+20976.52,20978.52,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20978.52,20982.02,6,Sandstone fed,0.263,False,Conglomerate|—
+20982.02,20986.02,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+20986.02,20989.52,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+20989.52,20991.02,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+20991.02,20994.53,6,Sandstone fed,0.263,False,Conglomerate|—
+20994.53,20996.53,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+20996.53,21000.03,6,Sandstone fed,0.263,False,Conglomerate|—
+21000.03,21001.53,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21001.53,21003.03,6,Sandstone fed,0.263,False,Conglomerate|—
+21003.03,21007.03,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21007.03,21011.03,-1,Carbonaceous,0.8,False,
+21011.03,21012.53,17,Not Available,0.302,False,Sample
+21012.53,21016.03,-1,Carbonaceous,0.8,False,
+21016.03,21018.03,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21018.03,21021.53,-1,Carbonaceous,0.8,False,
+21021.53,21023.03,17,Not Available,0.302,False,Sample
+21023.03,21027.03,-1,Carbonaceous,0.8,False,
+21027.03,21028.53,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21028.53,21032.03,-1,Carbonaceous,0.8,False,
+21032.03,21034.03,17,Not Available,0.302,False,Sample
+21034.03,21037.53,-1,Carbonaceous,0.8,False,
+21037.53,21039.03,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21039.03,21043.03,-1,Carbonaceous,0.8,False,
+21043.03,21044.53,17,Not Available,0.302,False,Sample
+21044.53,21048.03,-1,Carbonaceous,0.8,False,
+21048.03,21050.03,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21050.03,21053.53,-1,Carbonaceous,0.8,False,
+21053.53,21055.03,17,Not Available,0.302,False,Sample
+21055.03,21059.03,-1,Carbonaceous,0.8,False,
+21059.03,21060.53,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21060.53,21064.03,-1,Carbonaceous,0.8,False,
+21064.03,21066.03,17,Not Available,0.302,False,Sample
+21066.03,21069.53,-1,Carbonaceous,0.8,False,
+21069.53,21071.03,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21071.03,21075.03,-1,Carbonaceous,0.8,False,
+21075.03,21076.53,17,Not Available,0.302,False,Sample
+21076.53,21080.03,-1,Carbonaceous,0.8,False,
+21080.03,21082.03,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21082.03,21085.53,-1,Carbonaceous,0.8,False,
+21085.53,21087.03,17,Not Available,0.302,False,Sample
+21087.03,21091.04,-1,Carbonaceous,0.8,False,
+21091.04,21092.54,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21092.54,21096.04,-1,Carbonaceous,0.8,False,
+21096.04,21098.04,17,Not Available,0.302,False,Sample
+21098.04,21101.54,-1,Carbonaceous,0.8,False,
+21101.54,21103.04,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21103.04,21105.54,6,Sandstone fed,0.263,False,Conglomerate|—
+21105.54,21107.04,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+21107.04,21111.04,6,Sandstone fed,0.263,False,Conglomerate|—
+21111.04,21115.04,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21115.04,21118.54,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+21118.54,21120.04,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+21120.04,21123.54,6,Sandstone fed,0.263,False,Conglomerate|—
+21123.54,21125.54,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21125.54,21129.54,6,Sandstone fed,0.263,False,Conglomerate|—
+21129.54,21130.54,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+21130.54,21132.04,6,Sandstone fed,0.263,False,Conglomerate|—
+21132.04,21136.04,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21136.04,21140.04,-1,Carbonaceous,0.8,False,
+21140.04,21141.54,17,Not Available,0.302,False,Sample
+21141.54,21145.04,-1,Carbonaceous,0.8,False,
+21145.04,21147.04,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21147.04,21150.54,-1,Carbonaceous,0.8,False,
+21150.54,21152.04,17,Not Available,0.302,False,Sample
+21152.04,21156.04,-1,Carbonaceous,0.8,False,
+21156.04,21157.54,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21157.54,21161.04,-1,Carbonaceous,0.8,False,
+21161.04,21163.04,17,Not Available,0.302,False,Sample
+21163.04,21166.54,-1,Carbonaceous,0.8,False,
+21166.54,21168.04,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21168.04,21172.04,-1,Carbonaceous,0.8,False,
+21172.04,21173.54,17,Not Available,0.302,False,Sample
+21173.54,21177.04,-1,Carbonaceous,0.8,False,
+21177.04,21179.04,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21179.04,21182.54,-1,Carbonaceous,0.8,False,
+21182.54,21184.04,17,Not Available,0.302,False,Sample
+21184.04,21188.04,-1,Carbonaceous,0.8,False,
+21188.04,21189.54,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21189.54,21193.05,-1,Carbonaceous,0.8,False,
+21193.05,21195.05,17,Not Available,0.302,False,Sample
+21195.05,21198.55,-1,Carbonaceous,0.8,False,
+21198.55,21200.05,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21200.05,21204.05,-1,Carbonaceous,0.8,False,
+21204.05,21205.55,17,Not Available,0.302,False,Sample
+21205.55,21209.05,-1,Carbonaceous,0.8,False,
+21209.05,21211.05,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21211.05,21214.55,-1,Carbonaceous,0.8,False,
+21214.55,21216.05,17,Not Available,0.302,False,Sample
+21216.05,21220.05,-1,Carbonaceous,0.8,False,
+21220.05,21221.55,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21221.55,21225.05,-1,Carbonaceous,0.8,False,
+21225.05,21227.05,17,Not Available,0.302,False,Sample
+21227.05,21230.55,-1,Carbonaceous,0.8,False,
+21230.55,21232.05,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21232.05,21236.05,-1,Carbonaceous,0.8,False,
+21236.05,21237.55,17,Not Available,0.302,False,Sample
+21237.55,21241.05,-1,Carbonaceous,0.8,False,
+21241.05,21243.05,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21243.05,21246.55,-1,Carbonaceous,0.8,False,
+21246.55,21248.05,17,Not Available,0.302,False,Sample
+21248.05,21252.05,-1,Carbonaceous,0.8,False,
+21252.05,21253.55,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21253.55,21257.05,-1,Carbonaceous,0.8,False,
+21257.05,21259.05,17,Not Available,0.302,False,Sample
+21259.05,21262.55,-1,Carbonaceous,0.8,False,
+21262.55,21264.05,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21264.05,21268.05,-1,Carbonaceous,0.8,False,
+21268.05,21269.55,17,Not Available,0.302,False,Sample
+21269.55,21273.05,-1,Carbonaceous,0.8,False,
+21273.05,21275.05,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21275.05,21278.55,-1,Carbonaceous,0.8,False,
+21278.55,21280.05,17,Not Available,0.302,False,Sample
+21280.05,21284.05,-1,Carbonaceous,0.8,False,
+21284.05,21285.55,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21285.55,21289.05,-1,Carbonaceous,0.8,False,
+21289.05,21291.06,17,Not Available,0.302,False,Sample
+21291.06,21294.56,-1,Carbonaceous,0.8,False,
+21294.56,21296.06,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21296.06,21300.06,-1,Carbonaceous,0.8,False,
+21300.06,21301.56,17,Not Available,0.302,False,Sample
+21301.56,21305.06,-1,Carbonaceous,0.8,False,
+21305.06,21307.06,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21307.06,21310.56,-1,Carbonaceous,0.8,False,
+21310.56,21312.06,17,Not Available,0.302,False,Sample
+21312.06,21316.06,-1,Carbonaceous,0.8,False,
+21316.06,21317.56,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21317.56,21321.06,-1,Carbonaceous,0.8,False,
+21321.06,21323.06,17,Not Available,0.302,False,Sample
+21323.06,21326.56,-1,Carbonaceous,0.8,False,
+21326.56,21328.06,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21328.06,21332.06,-1,Carbonaceous,0.8,False,
+21332.06,21333.56,17,Not Available,0.302,False,Sample
+21333.56,21337.06,-1,Carbonaceous,0.8,False,
+21337.06,21339.06,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21339.06,21342.56,-1,Carbonaceous,0.8,False,
+21342.56,21344.06,17,Not Available,0.302,False,Sample
+21344.06,21348.06,-1,Carbonaceous,0.8,False,
+21348.06,21349.56,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21349.56,21353.06,-1,Carbonaceous,0.8,False,
+21353.06,21355.06,17,Not Available,0.302,False,Sample
+21355.06,21358.56,-1,Carbonaceous,0.8,False,
+21358.56,21360.06,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21360.06,21364.06,-1,Carbonaceous,0.8,False,
+21364.06,21365.56,17,Not Available,0.302,False,Sample
+21365.56,21369.06,-1,Carbonaceous,0.8,False,
+21369.06,21371.06,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21371.06,21374.56,-1,Carbonaceous,0.8,False,
+21374.56,21376.06,17,Not Available,0.302,False,Sample
+21376.06,21380.06,-1,Carbonaceous,0.8,False,
+21380.06,21381.56,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21381.56,21385.06,-1,Carbonaceous,0.8,False,
+21385.06,21387.06,17,Not Available,0.302,False,Sample
+21387.06,21390.57,-1,Carbonaceous,0.8,False,
+21390.57,21392.07,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21392.07,21396.07,-1,Carbonaceous,0.8,False,
+21396.07,21397.57,17,Not Available,0.302,False,Sample
+21397.57,21401.07,-1,Carbonaceous,0.8,False,
+21401.07,21403.07,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21403.07,21406.57,-1,Carbonaceous,0.8,False,
+21406.57,21408.07,17,Not Available,0.302,False,Sample
+21408.07,21412.07,-1,Carbonaceous,0.8,False,
+21412.07,21413.57,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21413.57,21417.07,-1,Carbonaceous,0.8,False,
+21417.07,21419.07,17,Not Available,0.302,False,Sample
+21419.07,21422.57,-1,Carbonaceous,0.8,False,
+21422.57,21424.07,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21424.07,21428.07,-1,Carbonaceous,0.8,False,
+21428.07,21429.57,17,Not Available,0.302,False,Sample
+21429.57,21433.07,-1,Carbonaceous,0.8,False,
+21433.07,21435.07,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21435.07,21438.57,-1,Carbonaceous,0.8,False,
+21438.57,21440.07,17,Not Available,0.302,False,Sample
+21440.07,21444.07,-1,Carbonaceous,0.8,False,
+21444.07,21445.57,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21445.57,21449.07,-1,Carbonaceous,0.8,False,
+21449.07,21451.07,17,Not Available,0.302,False,Sample
+21451.07,21454.57,-1,Carbonaceous,0.8,False,
+21454.57,21456.07,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21456.07,21459.07,-1,Carbonaceous,0.8,False,
+21459.07,21463.07,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21463.07,21466.57,6,Sandstone fed,0.263,False,Conglomerate|—
+21466.57,21468.57,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21468.57,21472.57,6,Sandstone fed,0.263,False,Conglomerate|—
+21472.57,21473.57,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+21473.57,21477.57,6,Sandstone fed,0.263,False,Conglomerate|—
+21477.57,21479.07,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+21479.07,21481.07,6,Sandstone fed,0.263,False,Conglomerate|—
+21481.07,21485.07,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21485.07,21489.07,-1,Carbonaceous,0.8,False,
+21489.07,21490.58,17,Not Available,0.302,False,Sample
+21490.58,21494.08,-1,Carbonaceous,0.8,False,
+21494.08,21496.08,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21496.08,21498.58,6,Sandstone fed,0.263,False,Conglomerate|—
+21498.58,21500.08,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+21500.08,21503.58,6,Sandstone fed,0.263,False,Conglomerate|—
+21503.58,21505.58,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21505.58,21507.08,6,Sandstone fed,0.263,False,Conglomerate|—
+21507.08,21511.08,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21511.08,21515.08,-1,Carbonaceous,0.8,False,
+21515.08,21516.58,17,Not Available,0.302,False,Sample
+21516.58,21520.08,-1,Carbonaceous,0.8,False,
+21520.08,21522.08,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21522.08,21524.58,6,Sandstone fed,0.263,False,Conglomerate|—
+21524.58,21526.08,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+21526.08,21530.08,6,Sandstone fed,0.263,False,Conglomerate|—
+21530.08,21534.08,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21534.08,21537.58,-1,Carbonaceous,0.8,False,
+21537.58,21539.08,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+21539.08,21543.08,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21543.08,21545.58,-1,Carbonaceous,0.8,False,
+21545.58,21547.08,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21547.08,21551.08,-1,Carbonaceous,0.8,False,
+21551.08,21552.58,17,Not Available,0.302,False,Sample
+21552.58,21557.08,7,Argillaceous,0.859,False,Claystone|Calcareous
+21557.08,21558.08,6,Sandstone fed,0.263,False,Conglomerate|—
+21558.08,21562.08,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21562.08,21566.08,-1,Carbonaceous,0.8,False,
+21566.08,21567.58,17,Not Available,0.302,False,Sample
+21567.58,21571.08,-1,Carbonaceous,0.8,False,
+21571.08,21573.08,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21573.08,21576.58,-1,Carbonaceous,0.8,False,
+21576.58,21578.08,17,Not Available,0.302,False,Sample
+21578.08,21583.08,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21583.08,21587.08,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21587.08,21592.09,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21592.09,21594.59,-1,Carbonaceous,0.8,False,
+21594.59,21596.09,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21596.09,21600.09,-1,Carbonaceous,0.8,False,
+21600.09,21602.09,17,Not Available,0.302,False,Sample
+21602.09,21608.09,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21608.09,21612.09,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21612.09,21616.09,-1,Carbonaceous,0.8,False,
+21616.09,21617.59,17,Not Available,0.302,False,Sample
+21617.59,21621.09,-1,Carbonaceous,0.8,False,
+21621.09,21623.09,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21623.09,21626.59,-1,Carbonaceous,0.8,False,
+21626.59,21628.09,17,Not Available,0.302,False,Sample
+21628.09,21632.09,-1,Carbonaceous,0.8,False,
+21632.09,21633.59,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21633.59,21637.09,-1,Carbonaceous,0.8,False,
+21637.09,21639.09,17,Not Available,0.302,False,Sample
+21639.09,21642.59,-1,Carbonaceous,0.8,False,
+21642.59,21644.09,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21644.09,21648.09,-1,Carbonaceous,0.8,False,
+21648.09,21649.59,17,Not Available,0.302,False,Sample
+21649.59,21653.09,-1,Carbonaceous,0.8,False,
+21653.09,21655.09,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21655.09,21658.59,-1,Carbonaceous,0.8,False,
+21658.59,21660.09,17,Not Available,0.302,False,Sample
+21660.09,21664.09,-1,Carbonaceous,0.8,False,
+21664.09,21665.59,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21665.59,21669.09,-1,Carbonaceous,0.8,False,
+21669.09,21671.09,17,Not Available,0.302,False,Sample
+21671.09,21674.59,-1,Carbonaceous,0.8,False,
+21674.59,21676.09,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21676.09,21680.09,-1,Carbonaceous,0.8,False,
+21680.09,21681.59,17,Not Available,0.302,False,Sample
+21681.59,21685.09,-1,Carbonaceous,0.8,False,
+21685.09,21687.09,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21687.09,21690.6,-1,Carbonaceous,0.8,False,
+21690.6,21692.1,17,Not Available,0.302,False,Sample
+21692.1,21696.1,-1,Carbonaceous,0.8,False,
+21696.1,21697.6,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21697.6,21701.1,-1,Carbonaceous,0.8,False,
+21701.1,21703.1,17,Not Available,0.302,False,Sample
+21703.1,21706.6,-1,Carbonaceous,0.8,False,
+21706.6,21708.1,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21708.1,21712.1,-1,Carbonaceous,0.8,False,
+21712.1,21713.6,17,Not Available,0.302,False,Sample
+21713.6,21717.1,-1,Carbonaceous,0.8,False,
+21717.1,21719.1,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21719.1,21722.6,-1,Carbonaceous,0.8,False,
+21722.6,21724.1,17,Not Available,0.302,False,Sample
+21724.1,21728.1,-1,Carbonaceous,0.8,False,
+21728.1,21729.6,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21729.6,21733.1,-1,Carbonaceous,0.8,False,
+21733.1,21735.1,17,Not Available,0.302,False,Sample
+21735.1,21738.6,-1,Carbonaceous,0.8,False,
+21738.6,21740.1,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21740.1,21744.1,-1,Carbonaceous,0.8,False,
+21744.1,21745.6,17,Not Available,0.302,False,Sample
+21745.6,21749.1,-1,Carbonaceous,0.8,False,
+21749.1,21751.1,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21751.1,21754.6,-1,Carbonaceous,0.8,False,
+21754.6,21756.1,17,Not Available,0.302,False,Sample
+21756.1,21760.1,-1,Carbonaceous,0.8,False,
+21760.1,21761.6,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21761.6,21765.1,-1,Carbonaceous,0.8,False,
+21765.1,21767.1,17,Not Available,0.302,False,Sample
+21767.1,21770.6,-1,Carbonaceous,0.8,False,
+21770.6,21772.1,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21772.1,21776.1,-1,Carbonaceous,0.8,False,
+21776.1,21777.6,17,Not Available,0.302,False,Sample
+21777.6,21781.1,-1,Carbonaceous,0.8,False,
+21781.1,21783.1,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21783.1,21786.6,-1,Carbonaceous,0.8,False,
+21786.6,21788.1,17,Not Available,0.302,False,Sample
+21788.1,21792.11,-1,Carbonaceous,0.8,False,
+21792.11,21793.61,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21793.61,21797.11,-1,Carbonaceous,0.8,False,
+21797.11,21799.11,17,Not Available,0.302,False,Sample
+21799.11,21802.61,-1,Carbonaceous,0.8,False,
+21802.61,21804.11,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21804.11,21808.11,-1,Carbonaceous,0.8,False,
+21808.11,21812.11,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21812.11,21817.11,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21817.11,21819.61,-1,Carbonaceous,0.8,False,
+21819.61,21821.11,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21821.11,21825.11,-1,Carbonaceous,0.8,False,
+21825.11,21826.61,17,Not Available,0.302,False,Sample
+21826.61,21830.11,-1,Carbonaceous,0.8,False,
+21830.11,21832.11,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21832.11,21835.61,-1,Carbonaceous,0.8,False,
+21835.61,21837.11,17,Not Available,0.302,False,Sample
+21837.11,21841.11,-1,Carbonaceous,0.8,False,
+21841.11,21842.61,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21842.61,21846.11,-1,Carbonaceous,0.8,False,
+21846.11,21848.11,17,Not Available,0.302,False,Sample
+21848.11,21851.61,-1,Carbonaceous,0.8,False,
+21851.61,21853.11,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21853.11,21857.11,-1,Carbonaceous,0.8,False,
+21857.11,21858.61,17,Not Available,0.302,False,Sample
+21858.61,21862.11,-1,Carbonaceous,0.8,False,
+21862.11,21864.11,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21864.11,21867.61,-1,Carbonaceous,0.8,False,
+21867.61,21869.11,17,Not Available,0.302,False,Sample
+21869.11,21872.11,-1,Carbonaceous,0.8,False,
+21872.11,21876.11,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+21876.11,21878.11,6,Sandstone fed,0.263,False,Conglomerate|—
+21878.11,21882.11,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+21882.11,21886.11,-1,Carbonaceous,0.8,False,
+21886.11,21887.61,17,Not Available,0.302,False,Sample
+21887.61,21891.12,-1,Carbonaceous,0.8,False,
+21891.12,21893.12,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21893.12,21896.62,-1,Carbonaceous,0.8,False,
+21896.62,21898.12,17,Not Available,0.302,False,Sample
+21898.12,21902.12,-1,Carbonaceous,0.8,False,
+21902.12,21905.12,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21905.12,21947.12,0,Salt,0.921,False,
+21947.12,21949.62,-1,Carbonaceous,0.8,False,
+21949.62,21951.12,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21951.12,21955.12,-1,Carbonaceous,0.8,False,
+21955.12,21956.62,17,Not Available,0.302,False,Sample
+21956.62,21960.12,-1,Carbonaceous,0.8,False,
+21960.12,21962.12,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21962.12,21965.62,-1,Carbonaceous,0.8,False,
+21965.62,21967.12,17,Not Available,0.302,False,Sample
+21967.12,21971.12,-1,Carbonaceous,0.8,False,
+21971.12,21972.62,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21972.62,21976.12,-1,Carbonaceous,0.8,False,
+21976.12,21978.12,17,Not Available,0.302,False,Sample
+21978.12,21981.62,-1,Carbonaceous,0.8,False,
+21981.62,21983.12,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21983.12,21987.12,-1,Carbonaceous,0.8,False,
+21987.12,21988.62,17,Not Available,0.302,False,Sample
+21988.62,21992.13,-1,Carbonaceous,0.8,False,
+21992.13,21994.13,16,Not Available,0.114,False,Sample|Pyrite|Salt
+21994.13,21997.63,-1,Carbonaceous,0.8,False,
+21997.63,21999.13,17,Not Available,0.302,False,Sample
+21999.13,22003.13,-1,Carbonaceous,0.8,False,
+22003.13,22004.63,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22004.63,22008.13,-1,Carbonaceous,0.8,False,
+22008.13,22010.13,17,Not Available,0.302,False,Sample
+22010.13,22013.63,-1,Carbonaceous,0.8,False,
+22013.63,22015.13,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22015.13,22019.13,-1,Carbonaceous,0.8,False,
+22019.13,22020.63,17,Not Available,0.302,False,Sample
+22020.63,22024.13,-1,Carbonaceous,0.8,False,
+22024.13,22026.13,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22026.13,22029.63,-1,Carbonaceous,0.8,False,
+22029.63,22031.13,17,Not Available,0.302,False,Sample
+22031.13,22035.13,-1,Carbonaceous,0.8,False,
+22035.13,22036.63,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22036.63,22040.13,-1,Carbonaceous,0.8,False,
+22040.13,22042.13,17,Not Available,0.302,False,Sample
+22042.13,22045.63,-1,Carbonaceous,0.8,False,
+22045.63,22047.13,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22047.13,22051.13,-1,Carbonaceous,0.8,False,
+22051.13,22052.63,17,Not Available,0.302,False,Sample
+22052.63,22056.13,-1,Carbonaceous,0.8,False,
+22056.13,22058.13,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22058.13,22061.63,-1,Carbonaceous,0.8,False,
+22061.63,22063.13,17,Not Available,0.302,False,Sample
+22063.13,22067.13,-1,Carbonaceous,0.8,False,
+22067.13,22068.63,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22068.63,22072.13,-1,Carbonaceous,0.8,False,
+22072.13,22074.13,17,Not Available,0.302,False,Sample
+22074.13,22077.63,-1,Carbonaceous,0.8,False,
+22077.63,22079.13,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22079.13,22083.13,-1,Carbonaceous,0.8,False,
+22083.13,22084.63,17,Not Available,0.302,False,Sample
+22084.63,22088.13,-1,Carbonaceous,0.8,False,
+22088.13,22090.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22090.14,22093.64,-1,Carbonaceous,0.8,False,
+22093.64,22095.14,17,Not Available,0.302,False,Sample
+22095.14,22099.14,-1,Carbonaceous,0.8,False,
+22099.14,22100.64,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22100.64,22104.14,-1,Carbonaceous,0.8,False,
+22104.14,22106.14,17,Not Available,0.302,False,Sample
+22106.14,22109.64,-1,Carbonaceous,0.8,False,
+22109.64,22111.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22111.14,22115.14,-1,Carbonaceous,0.8,False,
+22115.14,22116.64,17,Not Available,0.302,False,Sample
+22116.64,22120.14,-1,Carbonaceous,0.8,False,
+22120.14,22122.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22122.14,22125.64,-1,Carbonaceous,0.8,False,
+22125.64,22127.14,17,Not Available,0.302,False,Sample
+22127.14,22131.14,-1,Carbonaceous,0.8,False,
+22131.14,22132.64,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22132.64,22136.14,-1,Carbonaceous,0.8,False,
+22136.14,22138.14,17,Not Available,0.302,False,Sample
+22138.14,22141.64,-1,Carbonaceous,0.8,False,
+22141.64,22143.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22143.14,22147.14,-1,Carbonaceous,0.8,False,
+22147.14,22148.64,17,Not Available,0.302,False,Sample
+22148.64,22152.14,-1,Carbonaceous,0.8,False,
+22152.14,22154.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22154.14,22157.64,-1,Carbonaceous,0.8,False,
+22157.64,22159.14,17,Not Available,0.302,False,Sample
+22159.14,22163.14,-1,Carbonaceous,0.8,False,
+22163.14,22164.64,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22164.64,22168.14,-1,Carbonaceous,0.8,False,
+22168.14,22170.14,17,Not Available,0.302,False,Sample
+22170.14,22173.64,-1,Carbonaceous,0.8,False,
+22173.64,22175.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22175.14,22179.14,-1,Carbonaceous,0.8,False,
+22179.14,22180.64,17,Not Available,0.302,False,Sample
+22180.64,22184.14,-1,Carbonaceous,0.8,False,
+22184.14,22186.14,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22186.14,22189.65,-1,Carbonaceous,0.8,False,
+22189.65,22191.15,17,Not Available,0.302,False,Sample
+22191.15,22195.15,-1,Carbonaceous,0.8,False,
+22195.15,22196.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22196.65,22200.15,-1,Carbonaceous,0.8,False,
+22200.15,22202.15,17,Not Available,0.302,False,Sample
+22202.15,22205.65,-1,Carbonaceous,0.8,False,
+22205.65,22207.15,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22207.15,22211.15,-1,Carbonaceous,0.8,False,
+22211.15,22212.65,17,Not Available,0.302,False,Sample
+22212.65,22216.15,-1,Carbonaceous,0.8,False,
+22216.15,22218.15,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22218.15,22221.65,-1,Carbonaceous,0.8,False,
+22221.65,22223.15,17,Not Available,0.302,False,Sample
+22223.15,22227.15,-1,Carbonaceous,0.8,False,
+22227.15,22228.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22228.65,22232.15,-1,Carbonaceous,0.8,False,
+22232.15,22233.65,17,Not Available,0.302,False,Sample
+22233.65,22237.15,-1,Carbonaceous,0.8,False,
+22237.15,22238.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22238.65,22242.65,-1,Carbonaceous,0.8,False,
+22242.65,22244.15,17,Not Available,0.302,False,Sample
+22244.15,22247.65,-1,Carbonaceous,0.8,False,
+22247.65,22249.65,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22249.65,22253.15,-1,Carbonaceous,0.8,False,
+22253.15,22254.65,17,Not Available,0.302,False,Sample
+22254.65,22258.65,-1,Carbonaceous,0.8,False,
+22258.65,22260.15,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22260.15,22263.65,-1,Carbonaceous,0.8,False,
+22263.65,22265.65,17,Not Available,0.302,False,Sample
+22265.65,22270.65,-1,Carbonaceous,0.8,False,
+22270.65,22272.15,27,Not Available,0.19,False,Sample|Pyrite
+22272.15,22276.15,-1,Carbonaceous,0.8,False,
+22276.15,22277.65,28,Not Available,0.261,False,Pyrite|Sample
+22277.65,22281.65,-1,Carbonaceous,0.8,False,
+22281.65,22282.65,27,Not Available,0.19,False,Sample|Pyrite
+22282.65,22286.65,-1,Carbonaceous,0.8,False,
+22286.65,22288.15,28,Not Available,0.261,False,Pyrite|Sample
+22288.15,22292.16,-1,Carbonaceous,0.8,False,
+22292.16,22293.66,27,Not Available,0.19,False,Sample|Pyrite
+22293.66,22297.16,-1,Carbonaceous,0.8,False,
+22297.16,22298.66,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22298.66,22302.66,-1,Carbonaceous,0.8,False,
+22302.66,22304.16,27,Not Available,0.19,False,Sample|Pyrite
+22304.16,22308.16,-1,Carbonaceous,0.8,False,
+22308.16,22309.66,28,Not Available,0.261,False,Pyrite|Sample
+22309.66,22313.16,-1,Carbonaceous,0.8,False,
+22313.16,22314.66,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22314.66,22318.66,-1,Carbonaceous,0.8,False,
+22318.66,22320.16,28,Not Available,0.261,False,Pyrite|Sample
+22320.16,22324.16,-1,Carbonaceous,0.8,False,
+22324.16,22325.66,27,Not Available,0.19,False,Sample|Pyrite
+22325.66,22329.16,-1,Carbonaceous,0.8,False,
+22329.16,22330.66,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22330.66,22334.66,-1,Carbonaceous,0.8,False,
+22334.66,22336.16,27,Not Available,0.19,False,Sample|Pyrite
+22336.16,22340.16,-1,Carbonaceous,0.8,False,
+22340.16,22341.66,28,Not Available,0.261,False,Pyrite|Sample
+22341.66,22345.16,-1,Carbonaceous,0.8,False,
+22345.16,22346.66,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22346.66,22350.66,-1,Carbonaceous,0.8,False,
+22350.66,22352.16,28,Not Available,0.261,False,Pyrite|Sample
+22352.16,22356.16,-1,Carbonaceous,0.8,False,
+22356.16,22357.66,27,Not Available,0.19,False,Sample|Pyrite
+22357.66,22361.16,-1,Carbonaceous,0.8,False,
+22361.16,22362.66,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22362.66,22366.66,-1,Carbonaceous,0.8,False,
+22366.66,22368.16,27,Not Available,0.19,False,Sample|Pyrite
+22368.16,22372.16,-1,Carbonaceous,0.8,False,
+22372.16,22373.66,28,Not Available,0.261,False,Pyrite|Sample
+22373.66,22377.16,-1,Carbonaceous,0.8,False,
+22377.16,22378.66,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22378.66,22382.66,-1,Carbonaceous,0.8,False,
+22382.66,22384.16,28,Not Available,0.261,False,Pyrite|Sample
+22384.16,22388.17,-1,Carbonaceous,0.8,False,
+22388.17,22389.67,27,Not Available,0.19,False,Sample|Pyrite
+22389.67,22393.17,-1,Carbonaceous,0.8,False,
+22393.17,22394.67,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22394.67,22398.67,-1,Carbonaceous,0.8,False,
+22398.67,22400.17,27,Not Available,0.19,False,Sample|Pyrite
+22400.17,22404.17,-1,Carbonaceous,0.8,False,
+22404.17,22405.67,28,Not Available,0.261,False,Pyrite|Sample
+22405.67,22409.67,-1,Carbonaceous,0.8,False,
+22409.67,22410.67,27,Not Available,0.19,False,Sample|Pyrite
+22410.67,22414.67,-1,Carbonaceous,0.8,False,
+22414.67,22416.17,28,Not Available,0.261,False,Pyrite|Sample
+22416.17,22420.17,-1,Carbonaceous,0.8,False,
+22420.17,22421.67,27,Not Available,0.19,False,Sample|Pyrite
+22421.67,22425.67,-1,Carbonaceous,0.8,False,
+22425.67,22427.17,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22427.17,22430.67,-1,Carbonaceous,0.8,False,
+22430.67,22432.17,27,Not Available,0.19,False,Sample|Pyrite
+22432.17,22436.17,-1,Carbonaceous,0.8,False,
+22436.17,22437.67,28,Not Available,0.261,False,Pyrite|Sample
+22437.67,22441.17,-1,Carbonaceous,0.8,False,
+22441.17,22442.67,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22442.67,22446.67,-1,Carbonaceous,0.8,False,
+22446.67,22448.17,28,Not Available,0.261,False,Pyrite|Sample
+22448.17,22452.17,-1,Carbonaceous,0.8,False,
+22452.17,22453.67,27,Not Available,0.19,False,Sample|Pyrite
+22453.67,22457.17,-1,Carbonaceous,0.8,False,
+22457.17,22458.67,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22458.67,22462.67,-1,Carbonaceous,0.8,False,
+22462.67,22464.17,27,Not Available,0.19,False,Sample|Pyrite
+22464.17,22468.17,-1,Carbonaceous,0.8,False,
+22468.17,22469.67,28,Not Available,0.261,False,Pyrite|Sample
+22469.67,22473.17,-1,Carbonaceous,0.8,False,
+22473.17,22474.67,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22474.67,22478.67,-1,Carbonaceous,0.8,False,
+22478.67,22480.17,28,Not Available,0.261,False,Pyrite|Sample
+22480.17,22484.17,-1,Carbonaceous,0.8,False,
+22484.17,22485.67,27,Not Available,0.19,False,Sample|Pyrite
+22485.67,22489.68,-1,Carbonaceous,0.8,False,
+22489.68,22491.18,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22491.18,22494.68,-1,Carbonaceous,0.8,False,
+22494.68,22496.18,27,Not Available,0.19,False,Sample|Pyrite
+22496.18,22500.18,-1,Carbonaceous,0.8,False,
+22500.18,22501.68,28,Not Available,0.261,False,Pyrite|Sample
+22501.68,22505.68,-1,Carbonaceous,0.8,False,
+22505.68,22506.68,27,Not Available,0.19,False,Sample|Pyrite
+22506.68,22510.68,-1,Carbonaceous,0.8,False,
+22510.68,22512.18,28,Not Available,0.261,False,Pyrite|Sample
+22512.18,22516.18,-1,Carbonaceous,0.8,False,
+22516.18,22517.68,27,Not Available,0.19,False,Sample|Pyrite
+22517.68,22521.18,-1,Carbonaceous,0.8,False,
+22521.18,22522.68,29,Claystone,0.027,True,Shale|Dolomitic|Argillaceous
+22522.68,22526.68,-1,Carbonaceous,0.8,False,
+22526.68,22528.18,27,Not Available,0.19,False,Sample|Pyrite
+22528.18,22532.18,-1,Carbonaceous,0.8,False,
+22532.18,22533.68,28,Not Available,0.261,False,Pyrite|Sample
+22533.68,22537.68,-1,Carbonaceous,0.8,False,
+22537.68,22538.68,27,Not Available,0.19,False,Sample|Pyrite
+22538.68,22542.68,-1,Carbonaceous,0.8,False,
+22542.68,22544.18,28,Not Available,0.261,False,Pyrite|Sample
+22544.18,22548.18,-1,Carbonaceous,0.8,False,
+22548.18,22549.68,27,Not Available,0.19,False,Sample|Pyrite
+22549.68,22553.68,-1,Carbonaceous,0.8,False,
+22553.68,22554.68,28,Not Available,0.261,False,Pyrite|Sample
+22554.68,22558.68,-1,Carbonaceous,0.8,False,
+22558.68,22560.18,27,Not Available,0.19,False,Sample|Pyrite
+22560.18,22565.68,-1,Carbonaceous,0.8,False,
+22565.68,22567.18,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22567.18,22571.18,-1,Carbonaceous,0.8,False,
+22571.18,22572.68,17,Not Available,0.302,False,Sample
+22572.68,22576.18,-1,Carbonaceous,0.8,False,
+22576.18,22578.18,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22578.18,22581.68,-1,Carbonaceous,0.8,False,
+22581.68,22583.18,17,Not Available,0.302,False,Sample
+22583.18,22587.18,-1,Carbonaceous,0.8,False,
+22587.18,22588.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22588.69,22592.19,-1,Carbonaceous,0.8,False,
+22592.19,22594.19,17,Not Available,0.302,False,Sample
+22594.19,22597.69,-1,Carbonaceous,0.8,False,
+22597.69,22599.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22599.19,22603.19,-1,Carbonaceous,0.8,False,
+22603.19,22604.69,17,Not Available,0.302,False,Sample
+22604.69,22608.19,-1,Carbonaceous,0.8,False,
+22608.19,22610.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22610.19,22613.69,-1,Carbonaceous,0.8,False,
+22613.69,22615.19,17,Not Available,0.302,False,Sample
+22615.19,22619.19,-1,Carbonaceous,0.8,False,
+22619.19,22620.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22620.69,22624.19,-1,Carbonaceous,0.8,False,
+22624.19,22626.19,17,Not Available,0.302,False,Sample
+22626.19,22629.69,-1,Carbonaceous,0.8,False,
+22629.69,22631.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22631.19,22635.19,-1,Carbonaceous,0.8,False,
+22635.19,22636.69,17,Not Available,0.302,False,Sample
+22636.69,22640.19,-1,Carbonaceous,0.8,False,
+22640.19,22642.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22642.19,22645.69,-1,Carbonaceous,0.8,False,
+22645.69,22647.19,17,Not Available,0.302,False,Sample
+22647.19,22651.19,-1,Carbonaceous,0.8,False,
+22651.19,22652.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22652.69,22656.19,-1,Carbonaceous,0.8,False,
+22656.19,22658.19,17,Not Available,0.302,False,Sample
+22658.19,22661.69,-1,Carbonaceous,0.8,False,
+22661.69,22663.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22663.19,22667.19,-1,Carbonaceous,0.8,False,
+22667.19,22668.69,17,Not Available,0.302,False,Sample
+22668.69,22672.19,-1,Carbonaceous,0.8,False,
+22672.19,22674.19,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22674.19,22677.69,-1,Carbonaceous,0.8,False,
+22677.69,22679.19,17,Not Available,0.302,False,Sample
+22679.19,22683.19,-1,Carbonaceous,0.8,False,
+22683.19,22684.69,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22684.69,22688.2,-1,Carbonaceous,0.8,False,
+22688.2,22690.2,17,Not Available,0.302,False,Sample
+22690.2,22693.7,-1,Carbonaceous,0.8,False,
+22693.7,22695.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22695.2,22699.2,-1,Carbonaceous,0.8,False,
+22699.2,22700.7,17,Not Available,0.302,False,Sample
+22700.7,22704.2,-1,Carbonaceous,0.8,False,
+22704.2,22706.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22706.2,22709.7,-1,Carbonaceous,0.8,False,
+22709.7,22711.2,17,Not Available,0.302,False,Sample
+22711.2,22715.2,-1,Carbonaceous,0.8,False,
+22715.2,22716.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22716.7,22720.2,-1,Carbonaceous,0.8,False,
+22720.2,22722.2,17,Not Available,0.302,False,Sample
+22722.2,22725.7,-1,Carbonaceous,0.8,False,
+22725.7,22727.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22727.2,22731.2,-1,Carbonaceous,0.8,False,
+22731.2,22732.7,17,Not Available,0.302,False,Sample
+22732.7,22736.2,-1,Carbonaceous,0.8,False,
+22736.2,22738.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22738.2,22741.7,-1,Carbonaceous,0.8,False,
+22741.7,22743.2,17,Not Available,0.302,False,Sample
+22743.2,22747.2,-1,Carbonaceous,0.8,False,
+22747.2,22748.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22748.7,22752.2,-1,Carbonaceous,0.8,False,
+22752.2,22754.2,17,Not Available,0.302,False,Sample
+22754.2,22757.7,-1,Carbonaceous,0.8,False,
+22757.7,22759.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22759.2,22763.2,-1,Carbonaceous,0.8,False,
+22763.2,22764.7,17,Not Available,0.302,False,Sample
+22764.7,22768.2,-1,Carbonaceous,0.8,False,
+22768.2,22770.2,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22770.2,22773.7,-1,Carbonaceous,0.8,False,
+22773.7,22775.2,17,Not Available,0.302,False,Sample
+22775.2,22779.2,-1,Carbonaceous,0.8,False,
+22779.2,22780.7,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22780.7,22784.2,-1,Carbonaceous,0.8,False,
+22784.2,22786.2,17,Not Available,0.302,False,Sample
+22786.2,22789.71,-1,Carbonaceous,0.8,False,
+22789.71,22791.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22791.21,22795.21,-1,Carbonaceous,0.8,False,
+22795.21,22796.71,17,Not Available,0.302,False,Sample
+22796.71,22800.21,-1,Carbonaceous,0.8,False,
+22800.21,22802.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22802.21,22805.71,-1,Carbonaceous,0.8,False,
+22805.71,22807.21,17,Not Available,0.302,False,Sample
+22807.21,22811.21,-1,Carbonaceous,0.8,False,
+22811.21,22812.71,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22812.71,22816.21,-1,Carbonaceous,0.8,False,
+22816.21,22818.21,17,Not Available,0.302,False,Sample
+22818.21,22821.71,-1,Carbonaceous,0.8,False,
+22821.71,22823.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22823.21,22827.21,-1,Carbonaceous,0.8,False,
+22827.21,22828.71,17,Not Available,0.302,False,Sample
+22828.71,22832.21,-1,Carbonaceous,0.8,False,
+22832.21,22834.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22834.21,22837.71,-1,Carbonaceous,0.8,False,
+22837.71,22839.21,17,Not Available,0.302,False,Sample
+22839.21,22843.21,-1,Carbonaceous,0.8,False,
+22843.21,22844.71,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22844.71,22848.21,-1,Carbonaceous,0.8,False,
+22848.21,22850.21,17,Not Available,0.302,False,Sample
+22850.21,22853.71,-1,Carbonaceous,0.8,False,
+22853.71,22855.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22855.21,22859.21,-1,Carbonaceous,0.8,False,
+22859.21,22860.71,17,Not Available,0.302,False,Sample
+22860.71,22864.21,-1,Carbonaceous,0.8,False,
+22864.21,22866.21,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22866.21,22869.71,-1,Carbonaceous,0.8,False,
+22869.71,22871.21,17,Not Available,0.302,False,Sample
+22871.21,22875.21,-1,Carbonaceous,0.8,False,
+22875.21,22876.71,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22876.71,22880.21,-1,Carbonaceous,0.8,False,
+22880.21,22882.21,17,Not Available,0.302,False,Sample
+22882.21,22885.71,-1,Carbonaceous,0.8,False,
+22885.71,22887.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22887.22,22891.22,-1,Carbonaceous,0.8,False,
+22891.22,22892.72,17,Not Available,0.302,False,Sample
+22892.72,22896.22,-1,Carbonaceous,0.8,False,
+22896.22,22898.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22898.22,22901.72,-1,Carbonaceous,0.8,False,
+22901.72,22903.22,17,Not Available,0.302,False,Sample
+22903.22,22907.22,-1,Carbonaceous,0.8,False,
+22907.22,22908.72,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22908.72,22912.22,-1,Carbonaceous,0.8,False,
+22912.22,22914.22,17,Not Available,0.302,False,Sample
+22914.22,22917.72,-1,Carbonaceous,0.8,False,
+22917.72,22919.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22919.22,22923.22,-1,Carbonaceous,0.8,False,
+22923.22,22924.72,17,Not Available,0.302,False,Sample
+22924.72,22928.22,-1,Carbonaceous,0.8,False,
+22928.22,22930.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22930.22,22933.72,-1,Carbonaceous,0.8,False,
+22933.72,22935.22,17,Not Available,0.302,False,Sample
+22935.22,22939.22,-1,Carbonaceous,0.8,False,
+22939.22,22940.72,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22940.72,22944.22,-1,Carbonaceous,0.8,False,
+22944.22,22946.22,17,Not Available,0.302,False,Sample
+22946.22,22949.72,-1,Carbonaceous,0.8,False,
+22949.72,22951.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22951.22,22955.22,-1,Carbonaceous,0.8,False,
+22955.22,22956.72,17,Not Available,0.302,False,Sample
+22956.72,22960.22,-1,Carbonaceous,0.8,False,
+22960.22,22962.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22962.22,22965.72,-1,Carbonaceous,0.8,False,
+22965.72,22967.22,17,Not Available,0.302,False,Sample
+22967.22,22971.22,-1,Carbonaceous,0.8,False,
+22971.22,22972.72,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22972.72,22976.22,-1,Carbonaceous,0.8,False,
+22976.22,22978.22,17,Not Available,0.302,False,Sample
+22978.22,22981.72,-1,Carbonaceous,0.8,False,
+22981.72,22983.22,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22983.22,22987.23,-1,Carbonaceous,0.8,False,
+22987.23,22988.73,17,Not Available,0.302,False,Sample
+22988.73,22992.23,-1,Carbonaceous,0.8,False,
+22992.23,22994.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+22994.23,22997.73,-1,Carbonaceous,0.8,False,
+22997.73,22999.23,17,Not Available,0.302,False,Sample
+22999.23,23003.23,-1,Carbonaceous,0.8,False,
+23003.23,23004.73,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23004.73,23008.23,-1,Carbonaceous,0.8,False,
+23008.23,23010.23,17,Not Available,0.302,False,Sample
+23010.23,23013.73,-1,Carbonaceous,0.8,False,
+23013.73,23015.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23015.23,23019.23,-1,Carbonaceous,0.8,False,
+23019.23,23020.73,17,Not Available,0.302,False,Sample
+23020.73,23024.23,-1,Carbonaceous,0.8,False,
+23024.23,23026.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23026.23,23029.73,-1,Carbonaceous,0.8,False,
+23029.73,23031.23,17,Not Available,0.302,False,Sample
+23031.23,23035.23,-1,Carbonaceous,0.8,False,
+23035.23,23036.73,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23036.73,23040.23,-1,Carbonaceous,0.8,False,
+23040.23,23042.23,17,Not Available,0.302,False,Sample
+23042.23,23045.73,-1,Carbonaceous,0.8,False,
+23045.73,23047.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23047.23,23051.23,-1,Carbonaceous,0.8,False,
+23051.23,23052.73,17,Not Available,0.302,False,Sample
+23052.73,23056.23,-1,Carbonaceous,0.8,False,
+23056.23,23058.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23058.23,23061.73,-1,Carbonaceous,0.8,False,
+23061.73,23063.23,17,Not Available,0.302,False,Sample
+23063.23,23067.23,-1,Carbonaceous,0.8,False,
+23067.23,23068.73,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23068.73,23072.23,-1,Carbonaceous,0.8,False,
+23072.23,23074.23,17,Not Available,0.302,False,Sample
+23074.23,23077.73,-1,Carbonaceous,0.8,False,
+23077.73,23079.23,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23079.23,23083.23,-1,Carbonaceous,0.8,False,
+23083.23,23084.73,17,Not Available,0.302,False,Sample
+23084.73,23088.24,-1,Carbonaceous,0.8,False,
+23088.24,23090.24,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23090.24,23093.74,-1,Carbonaceous,0.8,False,
+23093.74,23095.24,17,Not Available,0.302,False,Sample
+23095.24,23099.24,-1,Carbonaceous,0.8,False,
+23099.24,23100.74,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23100.74,23104.24,-1,Carbonaceous,0.8,False,
+23104.24,23106.24,17,Not Available,0.302,False,Sample
+23106.24,23109.74,-1,Carbonaceous,0.8,False,
+23109.74,23111.24,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23111.24,23115.24,-1,Carbonaceous,0.8,False,
+23115.24,23116.74,17,Not Available,0.302,False,Sample
+23116.74,23120.24,-1,Carbonaceous,0.8,False,
+23120.24,23122.24,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23122.24,23125.74,-1,Carbonaceous,0.8,False,
+23125.74,23127.24,17,Not Available,0.302,False,Sample
+23127.24,23131.24,-1,Carbonaceous,0.8,False,
+23131.24,23132.74,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23132.74,23136.24,-1,Carbonaceous,0.8,False,
+23136.24,23138.24,17,Not Available,0.302,False,Sample
+23138.24,23141.74,-1,Carbonaceous,0.8,False,
+23141.74,23143.24,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23143.24,23147.24,-1,Carbonaceous,0.8,False,
+23147.24,23148.74,17,Not Available,0.302,False,Sample
+23148.74,23152.24,-1,Carbonaceous,0.8,False,
+23152.24,23154.24,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23154.24,23157.74,-1,Carbonaceous,0.8,False,
+23157.74,23159.24,17,Not Available,0.302,False,Sample
+23159.24,23163.24,-1,Carbonaceous,0.8,False,
+23163.24,23164.74,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23164.74,23168.24,-1,Carbonaceous,0.8,False,
+23168.24,23170.24,17,Not Available,0.302,False,Sample
+23170.24,23173.74,-1,Carbonaceous,0.8,False,
+23173.74,23175.24,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23175.24,23179.24,-1,Carbonaceous,0.8,False,
+23179.24,23180.74,17,Not Available,0.302,False,Sample
+23180.74,23184.24,-1,Carbonaceous,0.8,False,
+23184.24,23186.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23186.25,23189.75,-1,Carbonaceous,0.8,False,
+23189.75,23191.25,17,Not Available,0.302,False,Sample
+23191.25,23195.25,-1,Carbonaceous,0.8,False,
+23195.25,23196.75,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23196.75,23200.25,-1,Carbonaceous,0.8,False,
+23200.25,23202.25,17,Not Available,0.302,False,Sample
+23202.25,23205.75,-1,Carbonaceous,0.8,False,
+23205.75,23207.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23207.25,23211.25,-1,Carbonaceous,0.8,False,
+23211.25,23212.75,17,Not Available,0.302,False,Sample
+23212.75,23216.25,-1,Carbonaceous,0.8,False,
+23216.25,23218.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23218.25,23221.75,-1,Carbonaceous,0.8,False,
+23221.75,23223.25,17,Not Available,0.302,False,Sample
+23223.25,23227.25,-1,Carbonaceous,0.8,False,
+23227.25,23228.75,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23228.75,23232.25,-1,Carbonaceous,0.8,False,
+23232.25,23234.25,17,Not Available,0.302,False,Sample
+23234.25,23237.75,-1,Carbonaceous,0.8,False,
+23237.75,23239.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23239.25,23243.25,-1,Carbonaceous,0.8,False,
+23243.25,23244.75,17,Not Available,0.302,False,Sample
+23244.75,23248.25,-1,Carbonaceous,0.8,False,
+23248.25,23250.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23250.25,23253.75,-1,Carbonaceous,0.8,False,
+23253.75,23255.25,17,Not Available,0.302,False,Sample
+23255.25,23259.25,-1,Carbonaceous,0.8,False,
+23259.25,23260.75,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23260.75,23264.25,-1,Carbonaceous,0.8,False,
+23264.25,23266.25,17,Not Available,0.302,False,Sample
+23266.25,23269.75,-1,Carbonaceous,0.8,False,
+23269.75,23271.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23271.25,23275.25,-1,Carbonaceous,0.8,False,
+23275.25,23276.75,17,Not Available,0.302,False,Sample
+23276.75,23280.25,-1,Carbonaceous,0.8,False,
+23280.25,23282.25,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23282.25,23285.75,-1,Carbonaceous,0.8,False,
+23285.75,23287.26,17,Not Available,0.302,False,Sample
+23287.26,23291.26,-1,Carbonaceous,0.8,False,
+23291.26,23292.76,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23292.76,23296.26,-1,Carbonaceous,0.8,False,
+23296.26,23298.26,17,Not Available,0.302,False,Sample
+23298.26,23301.76,-1,Carbonaceous,0.8,False,
+23301.76,23303.26,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23303.26,23307.26,-1,Carbonaceous,0.8,False,
+23307.26,23308.76,17,Not Available,0.302,False,Sample
+23308.76,23312.26,-1,Carbonaceous,0.8,False,
+23312.26,23314.26,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23314.26,23317.76,-1,Carbonaceous,0.8,False,
+23317.76,23319.26,17,Not Available,0.302,False,Sample
+23319.26,23323.26,-1,Carbonaceous,0.8,False,
+23323.26,23324.76,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23324.76,23328.26,-1,Carbonaceous,0.8,False,
+23328.26,23330.26,17,Not Available,0.302,False,Sample
+23330.26,23333.76,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+23333.76,23337.26,-1,Carbonaceous,0.8,False,
+23337.26,23338.76,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23338.76,23342.76,-1,Carbonaceous,0.8,False,
+23342.76,23344.26,17,Not Available,0.302,False,Sample
+23344.26,23347.76,-1,Carbonaceous,0.8,False,
+23347.76,23349.76,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23349.76,23353.26,-1,Carbonaceous,0.8,False,
+23353.26,23354.76,17,Not Available,0.302,False,Sample
+23354.76,23358.76,-1,Carbonaceous,0.8,False,
+23358.76,23360.26,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23360.26,23363.76,-1,Carbonaceous,0.8,False,
+23363.76,23365.76,17,Not Available,0.302,False,Sample
+23365.76,23369.26,-1,Carbonaceous,0.8,False,
+23369.26,23370.76,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23370.76,23374.76,-1,Carbonaceous,0.8,False,
+23374.76,23376.26,17,Not Available,0.302,False,Sample
+23376.26,23379.76,-1,Carbonaceous,0.8,False,
+23379.76,23381.76,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23381.76,23385.26,-1,Carbonaceous,0.8,False,
+23385.26,23386.77,17,Not Available,0.302,False,Sample
+23386.77,23390.77,-1,Carbonaceous,0.8,False,
+23390.77,23392.27,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23392.27,23395.77,-1,Carbonaceous,0.8,False,
+23395.77,23397.77,17,Not Available,0.302,False,Sample
+23397.77,23401.27,-1,Carbonaceous,0.8,False,
+23401.27,23402.77,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23402.77,23406.77,-1,Carbonaceous,0.8,False,
+23406.77,23408.27,17,Not Available,0.302,False,Sample
+23408.27,23411.77,-1,Carbonaceous,0.8,False,
+23411.77,23413.77,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23413.77,23417.27,-1,Carbonaceous,0.8,False,
+23417.27,23418.77,17,Not Available,0.302,False,Sample
+23418.77,23422.77,-1,Carbonaceous,0.8,False,
+23422.77,23424.27,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23424.27,23427.77,-1,Carbonaceous,0.8,False,
+23427.77,23429.77,17,Not Available,0.302,False,Sample
+23429.77,23433.27,-1,Carbonaceous,0.8,False,
+23433.27,23434.77,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23434.77,23438.77,-1,Carbonaceous,0.8,False,
+23438.77,23440.27,17,Not Available,0.302,False,Sample
+23440.27,23443.77,-1,Carbonaceous,0.8,False,
+23443.77,23445.77,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23445.77,23449.27,-1,Carbonaceous,0.8,False,
+23449.27,23450.77,17,Not Available,0.302,False,Sample
+23450.77,23454.77,-1,Carbonaceous,0.8,False,
+23454.77,23456.27,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23456.27,23459.77,-1,Carbonaceous,0.8,False,
+23459.77,23461.77,17,Not Available,0.302,False,Sample
+23461.77,23465.27,-1,Carbonaceous,0.8,False,
+23465.27,23466.77,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23466.77,23470.77,-1,Carbonaceous,0.8,False,
+23470.77,23472.27,17,Not Available,0.302,False,Sample
+23472.27,23475.77,-1,Carbonaceous,0.8,False,
+23475.77,23477.77,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23477.77,23481.27,-1,Carbonaceous,0.8,False,
+23481.27,23482.77,17,Not Available,0.302,False,Sample
+23482.77,23486.78,-1,Carbonaceous,0.8,False,
+23486.78,23488.28,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23488.28,23491.78,-1,Carbonaceous,0.8,False,
+23491.78,23493.78,17,Not Available,0.302,False,Sample
+23493.78,23497.28,-1,Carbonaceous,0.8,False,
+23497.28,23498.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23498.78,23502.78,-1,Carbonaceous,0.8,False,
+23502.78,23504.28,17,Not Available,0.302,False,Sample
+23504.28,23507.78,-1,Carbonaceous,0.8,False,
+23507.78,23509.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23509.78,23513.28,-1,Carbonaceous,0.8,False,
+23513.28,23514.78,17,Not Available,0.302,False,Sample
+23514.78,23518.78,-1,Carbonaceous,0.8,False,
+23518.78,23520.28,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23520.28,23523.78,-1,Carbonaceous,0.8,False,
+23523.78,23525.78,17,Not Available,0.302,False,Sample
+23525.78,23529.28,-1,Carbonaceous,0.8,False,
+23529.28,23530.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23530.78,23534.78,-1,Carbonaceous,0.8,False,
+23534.78,23536.28,17,Not Available,0.302,False,Sample
+23536.28,23539.78,-1,Carbonaceous,0.8,False,
+23539.78,23541.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23541.78,23545.28,-1,Carbonaceous,0.8,False,
+23545.28,23546.78,17,Not Available,0.302,False,Sample
+23546.78,23550.78,-1,Carbonaceous,0.8,False,
+23550.78,23552.28,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23552.28,23555.78,-1,Carbonaceous,0.8,False,
+23555.78,23557.78,17,Not Available,0.302,False,Sample
+23557.78,23561.28,-1,Carbonaceous,0.8,False,
+23561.28,23562.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23562.78,23566.78,-1,Carbonaceous,0.8,False,
+23566.78,23568.28,17,Not Available,0.302,False,Sample
+23568.28,23571.78,-1,Carbonaceous,0.8,False,
+23571.78,23573.78,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23573.78,23577.28,-1,Carbonaceous,0.8,False,
+23577.28,23578.78,17,Not Available,0.302,False,Sample
+23578.78,23582.78,-1,Carbonaceous,0.8,False,
+23582.78,23584.28,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23584.28,23587.79,-1,Carbonaceous,0.8,False,
+23587.79,23589.79,17,Not Available,0.302,False,Sample
+23589.79,23593.29,-1,Carbonaceous,0.8,False,
+23593.29,23594.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23594.79,23598.79,-1,Carbonaceous,0.8,False,
+23598.79,23600.29,17,Not Available,0.302,False,Sample
+23600.29,23603.79,-1,Carbonaceous,0.8,False,
+23603.79,23605.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23605.79,23609.29,-1,Carbonaceous,0.8,False,
+23609.29,23610.79,17,Not Available,0.302,False,Sample
+23610.79,23614.79,-1,Carbonaceous,0.8,False,
+23614.79,23616.29,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23616.29,23619.79,-1,Carbonaceous,0.8,False,
+23619.79,23621.79,17,Not Available,0.302,False,Sample
+23621.79,23625.29,-1,Carbonaceous,0.8,False,
+23625.29,23626.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23626.79,23630.79,-1,Carbonaceous,0.8,False,
+23630.79,23632.29,17,Not Available,0.302,False,Sample
+23632.29,23635.79,-1,Carbonaceous,0.8,False,
+23635.79,23637.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23637.79,23641.29,-1,Carbonaceous,0.8,False,
+23641.29,23642.79,17,Not Available,0.302,False,Sample
+23642.79,23646.79,-1,Carbonaceous,0.8,False,
+23646.79,23648.29,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23648.29,23651.79,-1,Carbonaceous,0.8,False,
+23651.79,23653.79,17,Not Available,0.302,False,Sample
+23653.79,23657.29,-1,Carbonaceous,0.8,False,
+23657.29,23658.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23658.79,23662.79,-1,Carbonaceous,0.8,False,
+23662.79,23664.29,17,Not Available,0.302,False,Sample
+23664.29,23667.79,-1,Carbonaceous,0.8,False,
+23667.79,23669.79,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23669.79,23673.29,-1,Carbonaceous,0.8,False,
+23673.29,23674.79,17,Not Available,0.302,False,Sample
+23674.79,23678.79,-1,Carbonaceous,0.8,False,
+23678.79,23680.29,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23680.29,23683.79,-1,Carbonaceous,0.8,False,
+23683.79,23685.8,17,Not Available,0.302,False,Sample
+23685.8,23689.3,-1,Carbonaceous,0.8,False,
+23689.3,23690.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23690.8,23694.8,-1,Carbonaceous,0.8,False,
+23694.8,23696.3,17,Not Available,0.302,False,Sample
+23696.3,23699.8,-1,Carbonaceous,0.8,False,
+23699.8,23701.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23701.8,23705.3,-1,Carbonaceous,0.8,False,
+23705.3,23706.8,17,Not Available,0.302,False,Sample
+23706.8,23710.8,-1,Carbonaceous,0.8,False,
+23710.8,23712.3,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23712.3,23715.8,-1,Carbonaceous,0.8,False,
+23715.8,23717.8,17,Not Available,0.302,False,Sample
+23717.8,23721.3,-1,Carbonaceous,0.8,False,
+23721.3,23722.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23722.8,23726.8,-1,Carbonaceous,0.8,False,
+23726.8,23728.3,17,Not Available,0.302,False,Sample
+23728.3,23731.8,-1,Carbonaceous,0.8,False,
+23731.8,23733.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23733.8,23737.3,-1,Carbonaceous,0.8,False,
+23737.3,23738.8,17,Not Available,0.302,False,Sample
+23738.8,23742.8,-1,Carbonaceous,0.8,False,
+23742.8,23744.3,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23744.3,23747.8,-1,Carbonaceous,0.8,False,
+23747.8,23749.8,17,Not Available,0.302,False,Sample
+23749.8,23753.3,-1,Carbonaceous,0.8,False,
+23753.3,23754.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23754.8,23758.8,-1,Carbonaceous,0.8,False,
+23758.8,23760.3,17,Not Available,0.302,False,Sample
+23760.3,23763.8,-1,Carbonaceous,0.8,False,
+23763.8,23765.8,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23765.8,23769.3,-1,Carbonaceous,0.8,False,
+23769.3,23770.8,17,Not Available,0.302,False,Sample
+23770.8,23774.8,-1,Carbonaceous,0.8,False,
+23774.8,23776.3,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23776.3,23779.8,-1,Carbonaceous,0.8,False,
+23779.8,23781.8,17,Not Available,0.302,False,Sample
+23781.8,23785.31,-1,Carbonaceous,0.8,False,
+23785.31,23786.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23786.81,23790.81,-1,Carbonaceous,0.8,False,
+23790.81,23792.31,17,Not Available,0.302,False,Sample
+23792.31,23795.81,-1,Carbonaceous,0.8,False,
+23795.81,23797.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23797.81,23801.31,-1,Carbonaceous,0.8,False,
+23801.31,23802.81,17,Not Available,0.302,False,Sample
+23802.81,23806.81,-1,Carbonaceous,0.8,False,
+23806.81,23808.31,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23808.31,23811.81,-1,Carbonaceous,0.8,False,
+23811.81,23813.81,17,Not Available,0.302,False,Sample
+23813.81,23817.31,-1,Carbonaceous,0.8,False,
+23817.31,23818.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23818.81,23822.81,-1,Carbonaceous,0.8,False,
+23822.81,23824.31,17,Not Available,0.302,False,Sample
+23824.31,23827.81,-1,Carbonaceous,0.8,False,
+23827.81,23829.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23829.81,23833.31,-1,Carbonaceous,0.8,False,
+23833.31,23834.81,17,Not Available,0.302,False,Sample
+23834.81,23838.81,-1,Carbonaceous,0.8,False,
+23838.81,23840.31,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23840.31,23843.81,-1,Carbonaceous,0.8,False,
+23843.81,23845.81,17,Not Available,0.302,False,Sample
+23845.81,23849.31,-1,Carbonaceous,0.8,False,
+23849.31,23850.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23850.81,23854.81,-1,Carbonaceous,0.8,False,
+23854.81,23856.31,17,Not Available,0.302,False,Sample
+23856.31,23859.81,-1,Carbonaceous,0.8,False,
+23859.81,23861.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23861.81,23865.31,-1,Carbonaceous,0.8,False,
+23865.31,23866.81,17,Not Available,0.302,False,Sample
+23866.81,23870.81,-1,Carbonaceous,0.8,False,
+23870.81,23872.31,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23872.31,23875.81,-1,Carbonaceous,0.8,False,
+23875.81,23877.81,17,Not Available,0.302,False,Sample
+23877.81,23881.31,-1,Carbonaceous,0.8,False,
+23881.31,23882.81,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23882.81,23886.82,-1,Carbonaceous,0.8,False,
+23886.82,23888.32,17,Not Available,0.302,False,Sample
+23888.32,23891.82,-1,Carbonaceous,0.8,False,
+23891.82,23893.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23893.82,23897.32,-1,Carbonaceous,0.8,False,
+23897.32,23898.82,17,Not Available,0.302,False,Sample
+23898.82,23902.82,-1,Carbonaceous,0.8,False,
+23902.82,23904.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23904.32,23907.82,-1,Carbonaceous,0.8,False,
+23907.82,23909.82,17,Not Available,0.302,False,Sample
+23909.82,23913.32,-1,Carbonaceous,0.8,False,
+23913.32,23914.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23914.82,23918.82,-1,Carbonaceous,0.8,False,
+23918.82,23920.32,17,Not Available,0.302,False,Sample
+23920.32,23923.82,-1,Carbonaceous,0.8,False,
+23923.82,23925.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23925.82,23929.32,-1,Carbonaceous,0.8,False,
+23929.32,23930.82,17,Not Available,0.302,False,Sample
+23930.82,23934.82,-1,Carbonaceous,0.8,False,
+23934.82,23936.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23936.32,23939.82,-1,Carbonaceous,0.8,False,
+23939.82,23941.82,17,Not Available,0.302,False,Sample
+23941.82,23945.32,-1,Carbonaceous,0.8,False,
+23945.32,23946.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23946.82,23950.82,-1,Carbonaceous,0.8,False,
+23950.82,23952.32,17,Not Available,0.302,False,Sample
+23952.32,23955.82,-1,Carbonaceous,0.8,False,
+23955.82,23957.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23957.82,23961.32,-1,Carbonaceous,0.8,False,
+23961.32,23962.82,17,Not Available,0.302,False,Sample
+23962.82,23966.82,-1,Carbonaceous,0.8,False,
+23966.82,23968.32,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23968.32,23971.82,-1,Carbonaceous,0.8,False,
+23971.82,23973.82,17,Not Available,0.302,False,Sample
+23973.82,23977.32,-1,Carbonaceous,0.8,False,
+23977.32,23978.82,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23978.82,23982.82,-1,Carbonaceous,0.8,False,
+23982.82,23984.32,17,Not Available,0.302,False,Sample
+23984.32,23987.83,-1,Carbonaceous,0.8,False,
+23987.83,23989.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+23989.83,23993.33,-1,Carbonaceous,0.8,False,
+23993.33,23994.83,17,Not Available,0.302,False,Sample
+23994.83,23998.83,-1,Carbonaceous,0.8,False,
+23998.83,24000.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24000.33,24003.83,-1,Carbonaceous,0.8,False,
+24003.83,24005.83,17,Not Available,0.302,False,Sample
+24005.83,24009.33,-1,Carbonaceous,0.8,False,
+24009.33,24010.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24010.83,24014.83,-1,Carbonaceous,0.8,False,
+24014.83,24016.33,17,Not Available,0.302,False,Sample
+24016.33,24019.83,-1,Carbonaceous,0.8,False,
+24019.83,24021.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24021.83,24025.33,-1,Carbonaceous,0.8,False,
+24025.33,24026.83,17,Not Available,0.302,False,Sample
+24026.83,24030.83,-1,Carbonaceous,0.8,False,
+24030.83,24032.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24032.33,24035.83,-1,Carbonaceous,0.8,False,
+24035.83,24037.83,17,Not Available,0.302,False,Sample
+24037.83,24041.33,-1,Carbonaceous,0.8,False,
+24041.33,24042.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24042.83,24046.83,-1,Carbonaceous,0.8,False,
+24046.83,24048.33,17,Not Available,0.302,False,Sample
+24048.33,24051.83,-1,Carbonaceous,0.8,False,
+24051.83,24053.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24053.83,24057.33,-1,Carbonaceous,0.8,False,
+24057.33,24058.83,17,Not Available,0.302,False,Sample
+24058.83,24062.83,-1,Carbonaceous,0.8,False,
+24062.83,24064.33,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24064.33,24067.83,-1,Carbonaceous,0.8,False,
+24067.83,24069.83,17,Not Available,0.302,False,Sample
+24069.83,24073.33,-1,Carbonaceous,0.8,False,
+24073.33,24074.83,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24074.83,24078.83,-1,Carbonaceous,0.8,False,
+24078.83,24080.33,17,Not Available,0.302,False,Sample
+24080.33,24083.83,-1,Carbonaceous,0.8,False,
+24083.83,24085.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24085.84,24089.34,-1,Carbonaceous,0.8,False,
+24089.34,24090.84,17,Not Available,0.302,False,Sample
+24090.84,24094.84,-1,Carbonaceous,0.8,False,
+24094.84,24096.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24096.34,24099.84,-1,Carbonaceous,0.8,False,
+24099.84,24101.84,17,Not Available,0.302,False,Sample
+24101.84,24105.34,-1,Carbonaceous,0.8,False,
+24105.34,24106.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24106.84,24110.84,-1,Carbonaceous,0.8,False,
+24110.84,24112.34,17,Not Available,0.302,False,Sample
+24112.34,24115.84,-1,Carbonaceous,0.8,False,
+24115.84,24117.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24117.84,24121.34,-1,Carbonaceous,0.8,False,
+24121.34,24122.84,17,Not Available,0.302,False,Sample
+24122.84,24126.84,-1,Carbonaceous,0.8,False,
+24126.84,24128.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24128.34,24131.84,-1,Carbonaceous,0.8,False,
+24131.84,24133.84,17,Not Available,0.302,False,Sample
+24133.84,24137.34,-1,Carbonaceous,0.8,False,
+24137.34,24138.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24138.84,24142.84,-1,Carbonaceous,0.8,False,
+24142.84,24144.34,17,Not Available,0.302,False,Sample
+24144.34,24147.84,-1,Carbonaceous,0.8,False,
+24147.84,24149.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24149.84,24153.34,-1,Carbonaceous,0.8,False,
+24153.34,24154.84,17,Not Available,0.302,False,Sample
+24154.84,24158.84,-1,Carbonaceous,0.8,False,
+24158.84,24160.34,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24160.34,24163.84,-1,Carbonaceous,0.8,False,
+24163.84,24165.84,17,Not Available,0.302,False,Sample
+24165.84,24169.34,-1,Carbonaceous,0.8,False,
+24169.34,24170.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24170.84,24174.84,-1,Carbonaceous,0.8,False,
+24174.84,24176.34,17,Not Available,0.302,False,Sample
+24176.34,24179.84,-1,Carbonaceous,0.8,False,
+24179.84,24181.84,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24181.84,24185.35,-1,Carbonaceous,0.8,False,
+24185.35,24186.85,17,Not Available,0.302,False,Sample
+24186.85,24190.85,-1,Carbonaceous,0.8,False,
+24190.85,24192.35,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24192.35,24195.85,-1,Carbonaceous,0.8,False,
+24195.85,24197.85,17,Not Available,0.302,False,Sample
+24197.85,24201.35,-1,Carbonaceous,0.8,False,
+24201.35,24202.85,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24202.85,24206.85,-1,Carbonaceous,0.8,False,
+24206.85,24208.35,17,Not Available,0.302,False,Sample
+24208.35,24211.85,-1,Carbonaceous,0.8,False,
+24211.85,24213.85,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24213.85,24217.35,-1,Carbonaceous,0.8,False,
+24217.35,24218.85,17,Not Available,0.302,False,Sample
+24218.85,24222.85,-1,Carbonaceous,0.8,False,
+24222.85,24224.35,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24224.35,24227.85,-1,Carbonaceous,0.8,False,
+24227.85,24229.85,17,Not Available,0.302,False,Sample
+24229.85,24233.35,-1,Carbonaceous,0.8,False,
+24233.35,24234.85,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24234.85,24238.85,-1,Carbonaceous,0.8,False,
+24238.85,24240.35,17,Not Available,0.302,False,Sample
+24240.35,24243.85,-1,Carbonaceous,0.8,False,
+24243.85,24245.85,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24245.85,24249.35,-1,Carbonaceous,0.8,False,
+24249.35,24250.85,17,Not Available,0.302,False,Sample
+24250.85,24254.85,-1,Carbonaceous,0.8,False,
+24254.85,24256.35,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24256.35,24259.85,-1,Carbonaceous,0.8,False,
+24259.85,24261.85,17,Not Available,0.302,False,Sample
+24261.85,24264.35,14,Silty,0.007,True,ISiliceous|Kaolinite|Argillaceous
+24264.35,24268.35,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+24268.35,24272.35,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+24272.35,24274.85,-1,Carbonaceous,0.8,False,
+24274.85,24276.35,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24276.35,24280.35,-1,Carbonaceous,0.8,False,
+24280.35,24282.35,17,Not Available,0.302,False,Sample
+24282.35,24285.86,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+24285.86,24287.86,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24287.86,24290.36,6,Sandstone fed,0.263,False,Conglomerate|—
+24290.36,24294.36,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+24294.36,24297.36,-1,Carbonaceous,0.8,False,
+24297.36,24301.36,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24301.36,24304.86,6,Sandstone fed,0.263,False,Conglomerate|—
+24304.86,24307.36,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24307.36,24309.36,6,Sandstone fed,0.263,False,Conglomerate|—
+24309.36,24313.36,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+24313.36,24317.36,-1,Carbonaceous,0.8,False,
+24317.36,24321.36,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24321.36,24324.86,6,Sandstone fed,0.263,False,Conglomerate|—
+24324.86,24326.86,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24326.86,24331.36,6,Sandstone fed,0.263,False,Conglomerate|—
+24331.36,24333.86,-1,Carbonaceous,0.8,False,
+24333.86,24335.36,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24335.36,24338.86,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+24338.86,24340.36,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+24340.36,24344.36,6,Sandstone fed,0.263,False,Conglomerate|—
+24344.36,24348.36,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+24348.36,24352.36,-1,Carbonaceous,0.8,False,
+24352.36,24353.86,17,Not Available,0.302,False,Sample
+24353.86,24357.36,-1,Carbonaceous,0.8,False,
+24357.36,24359.36,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24359.36,24362.36,-1,Carbonaceous,0.8,False,
+24362.36,24366.36,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24366.36,24369.86,6,Sandstone fed,0.263,False,Conglomerate|—
+24369.86,24371.86,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24371.86,24375.36,6,Sandstone fed,0.263,False,Conglomerate|—
+24375.36,24376.86,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24376.86,24378.36,6,Sandstone fed,0.263,False,Conglomerate|—
+24378.36,24382.36,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+24382.36,24386.37,-1,Carbonaceous,0.8,False,
+24386.37,24387.87,17,Not Available,0.302,False,Sample
+24387.87,24391.37,-1,Carbonaceous,0.8,False,
+24391.37,24393.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24393.37,24396.87,-1,Carbonaceous,0.8,False,
+24396.87,24398.87,17,Not Available,0.302,False,Sample
+24398.87,24400.37,4,Breccia,0.03,True,Sandstone fed|Conglomerate|—|Silty
+24400.37,24404.37,8,Argillaceous,0.034,True,Claystone|Shale|Calcareous
+24404.37,24408.37,-1,Carbonaceous,0.8,False,
+24408.37,24409.87,17,Not Available,0.302,False,Sample
+24409.87,24413.37,-1,Carbonaceous,0.8,False,
+24413.37,24415.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24415.37,24418.87,-1,Carbonaceous,0.8,False,
+24418.87,24420.37,17,Not Available,0.302,False,Sample
+24420.37,24424.37,-1,Carbonaceous,0.8,False,
+24424.37,24425.87,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24425.87,24429.37,-1,Carbonaceous,0.8,False,
+24429.37,24431.37,17,Not Available,0.302,False,Sample
+24431.37,24434.87,-1,Carbonaceous,0.8,False,
+24434.87,24436.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24436.37,24440.37,-1,Carbonaceous,0.8,False,
+24440.37,24441.87,17,Not Available,0.302,False,Sample
+24441.87,24445.37,-1,Carbonaceous,0.8,False,
+24445.37,24447.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24447.37,24450.87,-1,Carbonaceous,0.8,False,
+24450.87,24452.37,17,Not Available,0.302,False,Sample
+24452.37,24456.37,-1,Carbonaceous,0.8,False,
+24456.37,24457.87,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24457.87,24461.37,-1,Carbonaceous,0.8,False,
+24461.37,24463.37,17,Not Available,0.302,False,Sample
+24463.37,24466.87,-1,Carbonaceous,0.8,False,
+24466.87,24468.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24468.37,24472.37,-1,Carbonaceous,0.8,False,
+24472.37,24473.87,17,Not Available,0.302,False,Sample
+24473.87,24477.37,-1,Carbonaceous,0.8,False,
+24477.37,24479.37,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24479.37,24482.87,-1,Carbonaceous,0.8,False,
+24482.87,24484.38,17,Not Available,0.302,False,Sample
+24484.38,24488.38,-1,Carbonaceous,0.8,False,
+24488.38,24489.88,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24489.88,24493.38,-1,Carbonaceous,0.8,False,
+24493.38,24495.38,17,Not Available,0.302,False,Sample
+24495.38,24498.88,-1,Carbonaceous,0.8,False,
+24498.88,24500.38,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24500.38,24504.38,-1,Carbonaceous,0.8,False,
+24504.38,24505.88,17,Not Available,0.302,False,Sample
+24505.88,24509.38,-1,Carbonaceous,0.8,False,
+24509.38,24511.38,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24511.38,24514.88,-1,Carbonaceous,0.8,False,
+24514.88,24516.38,17,Not Available,0.302,False,Sample
+24516.38,24520.38,-1,Carbonaceous,0.8,False,
+24520.38,24521.88,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24521.88,24525.38,-1,Carbonaceous,0.8,False,
+24525.38,24527.38,17,Not Available,0.302,False,Sample
+24527.38,24530.88,-1,Carbonaceous,0.8,False,
+24530.88,24532.38,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24532.38,24536.38,-1,Carbonaceous,0.8,False,
+24536.38,24537.88,17,Not Available,0.302,False,Sample
+24537.88,24541.38,-1,Carbonaceous,0.8,False,
+24541.38,24543.38,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24543.38,24546.88,-1,Carbonaceous,0.8,False,
+24546.88,24548.38,17,Not Available,0.302,False,Sample
+24548.38,24552.38,-1,Carbonaceous,0.8,False,
+24552.38,24553.88,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24553.88,24557.38,-1,Carbonaceous,0.8,False,
+24557.38,24559.38,17,Not Available,0.302,False,Sample
+24559.38,24562.88,-1,Carbonaceous,0.8,False,
+24562.88,24564.38,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24564.38,24568.38,-1,Carbonaceous,0.8,False,
+24568.38,24569.88,17,Not Available,0.302,False,Sample
+24569.88,24573.38,-1,Carbonaceous,0.8,False,
+24573.38,24575.38,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24575.38,24578.88,-1,Carbonaceous,0.8,False,
+24578.88,24580.38,17,Not Available,0.302,False,Sample
+24580.38,24584.39,-1,Carbonaceous,0.8,False,
+24584.39,24585.89,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24585.89,24589.39,-1,Carbonaceous,0.8,False,
+24589.39,24591.39,17,Not Available,0.302,False,Sample
+24591.39,24594.89,-1,Carbonaceous,0.8,False,
+24594.89,24596.39,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24596.39,24600.39,-1,Carbonaceous,0.8,False,
+24600.39,24601.89,17,Not Available,0.302,False,Sample
+24601.89,24605.39,-1,Carbonaceous,0.8,False,
+24605.39,24609.39,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24609.39,24613.89,6,Sandstone fed,0.263,False,Conglomerate|—
+24613.89,24616.89,-1,Carbonaceous,0.8,False,
+24616.89,24618.39,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24618.39,24621.89,-1,Carbonaceous,0.8,False,
+24621.89,24623.89,17,Not Available,0.302,False,Sample
+24623.89,24627.39,-1,Carbonaceous,0.8,False,
+24627.39,24628.89,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24628.89,24632.89,-1,Carbonaceous,0.8,False,
+24632.89,24634.39,17,Not Available,0.302,False,Sample
+24634.39,24637.89,-1,Carbonaceous,0.8,False,
+24637.89,24639.89,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24639.89,24643.39,-1,Carbonaceous,0.8,False,
+24643.39,24644.89,17,Not Available,0.302,False,Sample
+24644.89,24648.89,-1,Carbonaceous,0.8,False,
+24648.89,24650.39,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24650.39,24653.89,-1,Carbonaceous,0.8,False,
+24653.89,24655.89,17,Not Available,0.302,False,Sample
+24655.89,24659.39,-1,Carbonaceous,0.8,False,
+24659.39,24660.89,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24660.89,24664.89,-1,Carbonaceous,0.8,False,
+24664.89,24666.39,17,Not Available,0.302,False,Sample
+24666.39,24669.89,-1,Carbonaceous,0.8,False,
+24669.89,24671.89,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24671.89,24675.39,-1,Carbonaceous,0.8,False,
+24675.39,24676.89,17,Not Available,0.302,False,Sample
+24676.89,24680.89,-1,Carbonaceous,0.8,False,
+24680.89,24682.39,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24682.39,24685.9,-1,Carbonaceous,0.8,False,
+24685.9,24687.9,17,Not Available,0.302,False,Sample
+24687.9,24691.4,-1,Carbonaceous,0.8,False,
+24691.4,24692.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24692.9,24696.9,-1,Carbonaceous,0.8,False,
+24696.9,24698.4,17,Not Available,0.302,False,Sample
+24698.4,24701.9,-1,Carbonaceous,0.8,False,
+24701.9,24703.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24703.9,24707.4,-1,Carbonaceous,0.8,False,
+24707.4,24708.9,17,Not Available,0.302,False,Sample
+24708.9,24712.9,-1,Carbonaceous,0.8,False,
+24712.9,24714.4,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24714.4,24717.9,-1,Carbonaceous,0.8,False,
+24717.9,24719.9,17,Not Available,0.302,False,Sample
+24719.9,24723.4,-1,Carbonaceous,0.8,False,
+24723.4,24724.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24724.9,24728.9,-1,Carbonaceous,0.8,False,
+24728.9,24730.4,17,Not Available,0.302,False,Sample
+24730.4,24733.9,-1,Carbonaceous,0.8,False,
+24733.9,24735.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24735.9,24739.4,-1,Carbonaceous,0.8,False,
+24739.4,24740.9,17,Not Available,0.302,False,Sample
+24740.9,24744.9,-1,Carbonaceous,0.8,False,
+24744.9,24746.4,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24746.4,24749.9,-1,Carbonaceous,0.8,False,
+24749.9,24751.9,17,Not Available,0.302,False,Sample
+24751.9,24755.4,-1,Carbonaceous,0.8,False,
+24755.4,24756.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24756.9,24760.9,-1,Carbonaceous,0.8,False,
+24760.9,24762.4,17,Not Available,0.302,False,Sample
+24762.4,24765.9,-1,Carbonaceous,0.8,False,
+24765.9,24767.9,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24767.9,24771.4,-1,Carbonaceous,0.8,False,
+24771.4,24772.9,17,Not Available,0.302,False,Sample
+24772.9,24776.9,-1,Carbonaceous,0.8,False,
+24776.9,24778.4,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24778.4,24781.9,-1,Carbonaceous,0.8,False,
+24781.9,24783.91,17,Not Available,0.302,False,Sample
+24783.91,24787.41,-1,Carbonaceous,0.8,False,
+24787.41,24789.41,17,Not Available,0.302,False,Sample
+24789.41,24793.41,4,Breccia,0.03,True,Sandstone fed|Conglomerate|—|Silty
+24793.41,24795.41,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+24795.41,24799.91,6,Sandstone fed,0.263,False,Conglomerate|—
+24799.91,24802.91,-1,Carbonaceous,0.8,False,
+24802.91,24804.91,17,Not Available,0.302,False,Sample
+24804.91,24809.91,4,Breccia,0.03,True,Sandstone fed|Conglomerate|—|Silty
+24809.91,24812.91,-1,Carbonaceous,0.8,False,
+24812.91,24814.41,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24814.41,24817.91,-1,Carbonaceous,0.8,False,
+24817.91,24819.91,17,Not Available,0.302,False,Sample
+24819.91,24823.41,-1,Carbonaceous,0.8,False,
+24823.41,24824.91,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24824.91,24828.91,-1,Carbonaceous,0.8,False,
+24828.91,24830.41,17,Not Available,0.302,False,Sample
+24830.41,24833.91,-1,Carbonaceous,0.8,False,
+24833.91,24835.91,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24835.91,24839.41,-1,Carbonaceous,0.8,False,
+24839.41,24840.91,17,Not Available,0.302,False,Sample
+24840.91,24844.91,-1,Carbonaceous,0.8,False,
+24844.91,24846.41,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24846.41,24849.91,-1,Carbonaceous,0.8,False,
+24849.91,24851.91,17,Not Available,0.302,False,Sample
+24851.91,24855.41,-1,Carbonaceous,0.8,False,
+24855.41,24856.91,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24856.91,24860.91,-1,Carbonaceous,0.8,False,
+24860.91,24862.41,17,Not Available,0.302,False,Sample
+24862.41,24865.91,-1,Carbonaceous,0.8,False,
+24865.91,24867.91,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24867.91,24871.41,-1,Carbonaceous,0.8,False,
+24871.41,24872.91,17,Not Available,0.302,False,Sample
+24872.91,24876.91,-1,Carbonaceous,0.8,False,
+24876.91,24878.41,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24878.41,24881.91,-1,Carbonaceous,0.8,False,
+24881.91,24883.92,17,Not Available,0.302,False,Sample
+24883.92,24887.42,-1,Carbonaceous,0.8,False,
+24887.42,24888.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24888.92,24892.92,-1,Carbonaceous,0.8,False,
+24892.92,24894.42,17,Not Available,0.302,False,Sample
+24894.42,24897.92,-1,Carbonaceous,0.8,False,
+24897.92,24899.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24899.92,24903.42,-1,Carbonaceous,0.8,False,
+24903.42,24904.92,17,Not Available,0.302,False,Sample
+24904.92,24908.92,-1,Carbonaceous,0.8,False,
+24908.92,24910.42,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24910.42,24913.92,-1,Carbonaceous,0.8,False,
+24913.92,24915.92,17,Not Available,0.302,False,Sample
+24915.92,24919.42,-1,Carbonaceous,0.8,False,
+24919.42,24920.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24920.92,24924.92,-1,Carbonaceous,0.8,False,
+24924.92,24926.42,17,Not Available,0.302,False,Sample
+24926.42,24929.92,-1,Carbonaceous,0.8,False,
+24929.92,24931.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24931.92,24935.42,-1,Carbonaceous,0.8,False,
+24935.42,24936.92,17,Not Available,0.302,False,Sample
+24936.92,24940.92,-1,Carbonaceous,0.8,False,
+24940.92,24942.42,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24942.42,24945.92,-1,Carbonaceous,0.8,False,
+24945.92,24947.92,17,Not Available,0.302,False,Sample
+24947.92,24951.42,-1,Carbonaceous,0.8,False,
+24951.42,24952.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24952.92,24956.92,-1,Carbonaceous,0.8,False,
+24956.92,24958.42,17,Not Available,0.302,False,Sample
+24958.42,24961.92,-1,Carbonaceous,0.8,False,
+24961.92,24963.92,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24963.92,24967.42,-1,Carbonaceous,0.8,False,
+24967.42,24968.92,17,Not Available,0.302,False,Sample
+24968.92,24972.92,-1,Carbonaceous,0.8,False,
+24972.92,24974.42,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24974.42,24977.92,-1,Carbonaceous,0.8,False,
+24977.92,24979.92,17,Not Available,0.302,False,Sample
+24979.92,24983.43,-1,Carbonaceous,0.8,False,
+24983.43,24984.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24984.93,24988.93,-1,Carbonaceous,0.8,False,
+24988.93,24990.43,17,Not Available,0.302,False,Sample
+24990.43,24993.93,-1,Carbonaceous,0.8,False,
+24993.93,24995.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+24995.93,24999.43,-1,Carbonaceous,0.8,False,
+24999.43,25000.93,17,Not Available,0.302,False,Sample
+25000.93,25004.93,-1,Carbonaceous,0.8,False,
+25004.93,25006.43,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25006.43,25009.93,-1,Carbonaceous,0.8,False,
+25009.93,25011.93,17,Not Available,0.302,False,Sample
+25011.93,25015.43,-1,Carbonaceous,0.8,False,
+25015.43,25016.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25016.93,25020.93,-1,Carbonaceous,0.8,False,
+25020.93,25022.43,17,Not Available,0.302,False,Sample
+25022.43,25025.93,-1,Carbonaceous,0.8,False,
+25025.93,25027.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25027.93,25031.43,-1,Carbonaceous,0.8,False,
+25031.43,25032.93,17,Not Available,0.302,False,Sample
+25032.93,25036.93,-1,Carbonaceous,0.8,False,
+25036.93,25038.43,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25038.43,25041.93,-1,Carbonaceous,0.8,False,
+25041.93,25043.93,17,Not Available,0.302,False,Sample
+25043.93,25047.43,-1,Carbonaceous,0.8,False,
+25047.43,25048.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25048.93,25052.93,-1,Carbonaceous,0.8,False,
+25052.93,25054.43,17,Not Available,0.302,False,Sample
+25054.43,25057.93,-1,Carbonaceous,0.8,False,
+25057.93,25059.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25059.93,25063.43,-1,Carbonaceous,0.8,False,
+25063.43,25064.93,17,Not Available,0.302,False,Sample
+25064.93,25068.93,-1,Carbonaceous,0.8,False,
+25068.93,25070.43,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25070.43,25073.93,-1,Carbonaceous,0.8,False,
+25073.93,25075.93,17,Not Available,0.302,False,Sample
+25075.93,25079.43,-1,Carbonaceous,0.8,False,
+25079.43,25080.93,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25080.93,25084.94,-1,Carbonaceous,0.8,False,
+25084.94,25086.44,17,Not Available,0.302,False,Sample
+25086.44,25089.94,-1,Carbonaceous,0.8,False,
+25089.94,25091.94,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25091.94,25095.44,-1,Carbonaceous,0.8,False,
+25095.44,25096.94,17,Not Available,0.302,False,Sample
+25096.94,25100.94,-1,Carbonaceous,0.8,False,
+25100.94,25102.44,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25102.44,25105.94,-1,Carbonaceous,0.8,False,
+25105.94,25107.94,17,Not Available,0.302,False,Sample
+25107.94,25111.44,-1,Carbonaceous,0.8,False,
+25111.44,25112.94,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25112.94,25116.94,-1,Carbonaceous,0.8,False,
+25116.94,25118.44,17,Not Available,0.302,False,Sample
+25118.44,25121.94,-1,Carbonaceous,0.8,False,
+25121.94,25123.94,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25123.94,25127.44,-1,Carbonaceous,0.8,False,
+25127.44,25128.94,17,Not Available,0.302,False,Sample
+25128.94,25132.94,-1,Carbonaceous,0.8,False,
+25132.94,25134.44,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25134.44,25137.94,-1,Carbonaceous,0.8,False,
+25137.94,25139.94,17,Not Available,0.302,False,Sample
+25139.94,25143.44,-1,Carbonaceous,0.8,False,
+25143.44,25144.94,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25144.94,25148.94,-1,Carbonaceous,0.8,False,
+25148.94,25150.44,17,Not Available,0.302,False,Sample
+25150.44,25153.94,-1,Carbonaceous,0.8,False,
+25153.94,25155.94,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25155.94,25159.44,-1,Carbonaceous,0.8,False,
+25159.44,25160.94,17,Not Available,0.302,False,Sample
+25160.94,25164.94,-1,Carbonaceous,0.8,False,
+25164.94,25166.44,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25166.44,25169.94,-1,Carbonaceous,0.8,False,
+25169.94,25171.94,17,Not Available,0.302,False,Sample
+25171.94,25175.44,-1,Carbonaceous,0.8,False,
+25175.44,25176.94,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25176.94,25180.94,-1,Carbonaceous,0.8,False,
+25180.94,25182.45,17,Not Available,0.302,False,Sample
+25182.45,25185.95,-1,Carbonaceous,0.8,False,
+25185.95,25187.95,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25187.95,25191.45,-1,Carbonaceous,0.8,False,
+25191.45,25192.95,17,Not Available,0.302,False,Sample
+25192.95,25196.95,-1,Carbonaceous,0.8,False,
+25196.95,25198.45,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25198.45,25201.45,-1,Carbonaceous,0.8,False,
+25201.45,25202.95,22,Argillaceous,0.034,True,Claystone|Shale|Salt
+25202.95,25205.95,6,Sandstone fed,0.263,False,Conglomerate|—
+25205.95,25207.45,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25207.45,25211.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25211.45,25212.45,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25212.45,25216.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25216.45,25217.95,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25217.95,25221.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25221.45,25223.45,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+25223.45,25226.95,6,Sandstone fed,0.263,False,Conglomerate|—
+25226.95,25228.45,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+25228.45,25232.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25232.45,25233.95,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25233.95,25237.95,6,Sandstone fed,0.263,False,Conglomerate|—
+25237.95,25239.45,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25239.45,25242.95,6,Sandstone fed,0.263,False,Conglomerate|—
+25242.95,25244.95,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+25244.95,25247.95,-1,Carbonaceous,0.8,False,
+25247.95,25249.95,17,Not Available,0.302,False,Sample
+25249.95,25252.95,6,Sandstone fed,0.263,False,Conglomerate|—
+25252.95,25254.45,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25254.45,25258.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25258.45,25259.45,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25259.45,25263.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25263.45,25264.95,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25264.95,25268.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25268.45,25270.45,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+25270.45,25274.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25274.45,25275.95,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+25275.95,25279.45,6,Sandstone fed,0.263,False,Conglomerate|—
+25279.45,25280.95,25,Breccia,0.203,False,Conglomerate|—|Sandstone fed
+25280.95,25284.96,6,Sandstone fed,0.263,False,Conglomerate|—
+25284.96,25287.96,-1,Carbonaceous,0.8,False,
+25287.96,25289.46,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25289.46,25292.96,-1,Carbonaceous,0.8,False,
+25292.96,25294.96,17,Not Available,0.302,False,Sample
+25294.96,25298.46,-1,Carbonaceous,0.8,False,
+25298.46,25299.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25299.96,25303.96,-1,Carbonaceous,0.8,False,
+25303.96,25305.46,17,Not Available,0.302,False,Sample
+25305.46,25308.96,-1,Carbonaceous,0.8,False,
+25308.96,25310.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25310.96,25314.46,-1,Carbonaceous,0.8,False,
+25314.46,25315.96,17,Not Available,0.302,False,Sample
+25315.96,25319.96,-1,Carbonaceous,0.8,False,
+25319.96,25321.46,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25321.46,25324.96,-1,Carbonaceous,0.8,False,
+25324.96,25326.96,17,Not Available,0.302,False,Sample
+25326.96,25330.46,-1,Carbonaceous,0.8,False,
+25330.46,25331.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25331.96,25335.96,-1,Carbonaceous,0.8,False,
+25335.96,25337.46,17,Not Available,0.302,False,Sample
+25337.46,25340.96,-1,Carbonaceous,0.8,False,
+25340.96,25342.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25342.96,25346.46,-1,Carbonaceous,0.8,False,
+25346.46,25347.96,17,Not Available,0.302,False,Sample
+25347.96,25351.96,-1,Carbonaceous,0.8,False,
+25351.96,25353.46,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25353.46,25356.96,-1,Carbonaceous,0.8,False,
+25356.96,25358.96,17,Not Available,0.302,False,Sample
+25358.96,25362.46,-1,Carbonaceous,0.8,False,
+25362.46,25363.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25363.96,25367.96,-1,Carbonaceous,0.8,False,
+25367.96,25369.46,17,Not Available,0.302,False,Sample
+25369.46,25372.96,-1,Carbonaceous,0.8,False,
+25372.96,25374.96,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25374.96,25378.46,-1,Carbonaceous,0.8,False,
+25378.46,25379.96,17,Not Available,0.302,False,Sample
+25379.96,25384.47,-1,Carbonaceous,0.8,False,
+25384.47,25387.97,3,Sandstone fed,0.262,False,Conglomerate|—|Breccia
+25387.97,25390.97,-1,Carbonaceous,0.8,False,
+25390.97,25392.97,17,Not Available,0.302,False,Sample
+25392.97,25395.97,12,Sandstone fed,0.039,True,Breccia|Conglomerate|—
+25395.97,25398.97,-1,Carbonaceous,0.8,False,
+25398.97,25400.47,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25400.47,25403.97,-1,Carbonaceous,0.8,False,
+25403.97,25405.97,17,Not Available,0.302,False,Sample
+25405.97,25409.47,-1,Carbonaceous,0.8,False,
+25409.47,25410.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25410.97,25414.97,-1,Carbonaceous,0.8,False,
+25414.97,25416.47,17,Not Available,0.302,False,Sample
+25416.47,25419.97,-1,Carbonaceous,0.8,False,
+25419.97,25421.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25421.97,25425.47,-1,Carbonaceous,0.8,False,
+25425.47,25426.97,17,Not Available,0.302,False,Sample
+25426.97,25430.97,-1,Carbonaceous,0.8,False,
+25430.97,25432.47,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25432.47,25435.97,-1,Carbonaceous,0.8,False,
+25435.97,25437.97,17,Not Available,0.302,False,Sample
+25437.97,25441.47,-1,Carbonaceous,0.8,False,
+25441.47,25442.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25442.97,25446.97,-1,Carbonaceous,0.8,False,
+25446.97,25448.47,17,Not Available,0.302,False,Sample
+25448.47,25451.97,-1,Carbonaceous,0.8,False,
+25451.97,25453.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25453.97,25457.47,-1,Carbonaceous,0.8,False,
+25457.47,25458.97,17,Not Available,0.302,False,Sample
+25458.97,25462.97,-1,Carbonaceous,0.8,False,
+25462.97,25464.47,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25464.47,25467.97,-1,Carbonaceous,0.8,False,
+25467.97,25469.97,17,Not Available,0.302,False,Sample
+25469.97,25473.47,-1,Carbonaceous,0.8,False,
+25473.47,25474.97,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25474.97,25478.97,-1,Carbonaceous,0.8,False,
+25478.97,25480.47,17,Not Available,0.302,False,Sample
+25480.47,25483.98,-1,Carbonaceous,0.8,False,
+25483.98,25485.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25485.98,25489.48,-1,Carbonaceous,0.8,False,
+25489.48,25490.98,17,Not Available,0.302,False,Sample
+25490.98,25494.98,-1,Carbonaceous,0.8,False,
+25494.98,25496.48,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25496.48,25499.98,-1,Carbonaceous,0.8,False,
+25499.98,25501.98,17,Not Available,0.302,False,Sample
+25501.98,25505.48,-1,Carbonaceous,0.8,False,
+25505.48,25506.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25506.98,25510.98,-1,Carbonaceous,0.8,False,
+25510.98,25512.48,17,Not Available,0.302,False,Sample
+25512.48,25515.98,-1,Carbonaceous,0.8,False,
+25515.98,25517.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25517.98,25521.48,-1,Carbonaceous,0.8,False,
+25521.48,25522.98,17,Not Available,0.302,False,Sample
+25522.98,25526.98,-1,Carbonaceous,0.8,False,
+25526.98,25528.48,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25528.48,25531.98,-1,Carbonaceous,0.8,False,
+25531.98,25533.98,17,Not Available,0.302,False,Sample
+25533.98,25537.48,-1,Carbonaceous,0.8,False,
+25537.48,25539.48,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25539.48,25542.98,-1,Carbonaceous,0.8,False,
+25542.98,25544.48,17,Not Available,0.302,False,Sample
+25544.48,25548.48,-1,Carbonaceous,0.8,False,
+25548.48,25549.98,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25549.98,25553.48,-1,Carbonaceous,0.8,False,
+25553.48,25555.48,17,Not Available,0.302,False,Sample
+25555.48,25558.98,-1,Carbonaceous,0.8,False,
+25558.98,25560.48,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25560.48,25564.48,-1,Carbonaceous,0.8,False,
+25564.48,25565.98,17,Not Available,0.302,False,Sample
+25565.98,25569.48,-1,Carbonaceous,0.8,False,
+25569.48,25571.48,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25571.48,25574.98,-1,Carbonaceous,0.8,False,
+25574.98,25576.48,17,Not Available,0.302,False,Sample
+25576.48,25580.48,-1,Carbonaceous,0.8,False,
+25580.48,25581.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25581.99,25585.49,-1,Carbonaceous,0.8,False,
+25585.49,25587.49,17,Not Available,0.302,False,Sample
+25587.49,25590.99,-1,Carbonaceous,0.8,False,
+25590.99,25592.49,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25592.49,25596.49,-1,Carbonaceous,0.8,False,
+25596.49,25597.99,17,Not Available,0.302,False,Sample
+25597.99,25601.49,-1,Carbonaceous,0.8,False,
+25601.49,25603.49,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25603.49,25606.99,-1,Carbonaceous,0.8,False,
+25606.99,25608.49,17,Not Available,0.302,False,Sample
+25608.49,25612.49,-1,Carbonaceous,0.8,False,
+25612.49,25613.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25613.99,25617.49,-1,Carbonaceous,0.8,False,
+25617.49,25619.49,17,Not Available,0.302,False,Sample
+25619.49,25622.99,-1,Carbonaceous,0.8,False,
+25622.99,25624.49,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25624.49,25628.49,-1,Carbonaceous,0.8,False,
+25628.49,25629.99,17,Not Available,0.302,False,Sample
+25629.99,25633.49,-1,Carbonaceous,0.8,False,
+25633.49,25635.49,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25635.49,25638.99,-1,Carbonaceous,0.8,False,
+25638.99,25640.49,17,Not Available,0.302,False,Sample
+25640.49,25644.49,-1,Carbonaceous,0.8,False,
+25644.49,25645.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25645.99,25649.49,-1,Carbonaceous,0.8,False,
+25649.49,25651.49,17,Not Available,0.302,False,Sample
+25651.49,25654.99,-1,Carbonaceous,0.8,False,
+25654.99,25656.49,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25656.49,25660.49,-1,Carbonaceous,0.8,False,
+25660.49,25661.99,17,Not Available,0.302,False,Sample
+25661.99,25665.49,-1,Carbonaceous,0.8,False,
+25665.49,25667.49,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25667.49,25670.99,-1,Carbonaceous,0.8,False,
+25670.99,25672.49,17,Not Available,0.302,False,Sample
+25672.49,25676.49,-1,Carbonaceous,0.8,False,
+25676.49,25677.99,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25677.99,25681.5,-1,Carbonaceous,0.8,False,
+25681.5,25683.5,17,Not Available,0.302,False,Sample
+25683.5,25687.0,-1,Carbonaceous,0.8,False,
+25687.0,25688.5,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25688.5,25692.5,-1,Carbonaceous,0.8,False,
+25692.5,25694.0,17,Not Available,0.302,False,Sample
+25694.0,25697.5,-1,Carbonaceous,0.8,False,
+25697.5,25699.5,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25699.5,25703.0,-1,Carbonaceous,0.8,False,
+25703.0,25704.5,17,Not Available,0.302,False,Sample
+25704.5,25708.5,-1,Carbonaceous,0.8,False,
+25708.5,25710.0,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25710.0,25713.5,-1,Carbonaceous,0.8,False,
+25713.5,25715.5,17,Not Available,0.302,False,Sample
+25715.5,25719.0,-1,Carbonaceous,0.8,False,
+25719.0,25720.5,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25720.5,25724.5,-1,Carbonaceous,0.8,False,
+25724.5,25726.0,17,Not Available,0.302,False,Sample
+25726.0,25729.5,-1,Carbonaceous,0.8,False,
+25729.5,25731.5,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25731.5,25735.0,-1,Carbonaceous,0.8,False,
+25735.0,25736.5,17,Not Available,0.302,False,Sample
+25736.5,25740.5,-1,Carbonaceous,0.8,False,
+25740.5,25742.0,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25742.0,25745.5,-1,Carbonaceous,0.8,False,
+25745.5,25747.5,17,Not Available,0.302,False,Sample
+25747.5,25751.0,-1,Carbonaceous,0.8,False,
+25751.0,25752.5,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25752.5,25756.5,-1,Carbonaceous,0.8,False,
+25756.5,25758.0,17,Not Available,0.302,False,Sample
+25758.0,25761.5,-1,Carbonaceous,0.8,False,
+25761.5,25763.5,16,Not Available,0.114,False,Sample|Pyrite|Salt
+25763.5,25767.0,-1,Carbonaceous,0.8,False,
+25767.0,25768.5,17,Not Available,0.302,False,Sample
+25768.5,25772.5,-1,Carbonaceous,0.8,False,
+25772.5,25774.5,17,Not Available,0.302,False,Sample

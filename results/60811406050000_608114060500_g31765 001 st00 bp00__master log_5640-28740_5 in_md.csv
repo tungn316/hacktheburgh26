@@ -1,0 +1,109 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+7180.86,8169.02,0,Halite,0.823,False,
+8169.02,8170.85,-1,Blank (no pattern),0.5,True,
+8170.85,10095.97,0,Halite,0.823,False,
+10095.97,10106.13,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10106.13,10174.3,0,Halite,0.823,False,
+10174.3,10183.55,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10183.55,10194.11,0,Halite,0.823,False,
+10194.11,10201.23,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10201.23,10205.09,4,Chert,0.648,False,Sandstone
+10205.09,10210.57,0,Halite,0.823,False,
+10210.57,10216.47,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10216.47,10224.09,0,Halite,0.823,False,
+10224.09,10249.89,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10249.89,10266.05,0,Halite,0.823,False,
+10266.05,10277.83,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10277.83,10287.08,0,Halite,0.823,False,
+10287.08,10294.29,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10294.29,10309.12,0,Halite,0.823,False,
+10309.12,10321.62,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10321.62,10329.85,0,Halite,0.823,False,
+10329.85,10350.98,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10350.98,10406.76,0,Halite,0.823,False,
+10406.76,10428.91,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10428.91,10538.33,0,Halite,0.823,False,
+10538.33,10544.63,1,Shale,0.543,False,Marl|Sand Clay-Shale
+10544.63,17828.13,0,Halite,0.823,False,
+17828.13,17834.43,2,Sandstone,0.959,False,Chert
+17834.43,17843.88,0,Halite,0.823,False,
+17843.88,17851.4,2,Sandstone,0.959,False,Chert
+17851.4,17860.34,0,Halite,0.823,False,
+17860.34,17864.91,2,Sandstone,0.959,False,Chert
+17864.91,17868.87,0,Halite,0.823,False,
+17868.87,17871.62,2,Sandstone,0.959,False,Chert
+17871.62,17875.58,0,Halite,0.823,False,
+17875.58,17879.54,2,Sandstone,0.959,False,Chert
+17879.54,20099.6,0,Halite,0.823,False,
+20099.6,20100.72,5,FIT,0.008,True,Sidewall core|Dst|Care
+20100.72,21895.69,0,Halite,0.823,False,
+21895.69,21900.77,-1,Blank (no pattern),0.5,True,
+21900.77,23448.64,0,Halite,0.823,False,
+23448.64,23453.22,-1,Blank (no pattern),0.5,True,
+23453.22,24191.24,0,Halite,0.823,False,
+24191.24,24200.79,-1,Blank (no pattern),0.5,True,
+24200.79,24797.79,0,Halite,0.823,False,
+24797.79,24800.74,-1,Blank (no pattern),0.5,True,
+24800.74,26021.77,0,Halite,0.823,False,
+26021.77,26025.12,2,Sandstone,0.959,False,Chert
+26025.12,26036.19,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26036.19,26039.95,2,Sandstone,0.959,False,Chert
+26039.95,26069.92,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26069.92,26075.41,2,Sandstone,0.959,False,Chert
+26075.41,26091.97,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26091.97,26097.05,0,Halite,0.823,False,
+26097.05,26100.81,2,Sandstone,0.959,False,Chert
+26100.81,26116.25,0,Halite,0.823,False,
+26116.25,26120.42,2,Sandstone,0.959,False,Chert
+26120.42,26134.14,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26134.14,26251.79,0,Halite,0.823,False,
+26251.79,26257.78,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26257.78,26273.84,0,Halite,0.823,False,
+26273.84,26281.76,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26281.76,26407.85,0,Halite,0.823,False,
+26407.85,26429.79,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26429.79,26463.73,0,Halite,0.823,False,
+26463.73,26464.84,6,Granite,0.007,True,FIT|Sand Clay-Shale|Shale
+26464.84,26469.82,2,Sandstone,0.959,False,Chert
+26469.82,26621.82,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26621.82,26644.47,1,Shale,0.543,False,Marl|Sand Clay-Shale
+26644.47,27251.33,1,Shale,0.543,False,Marl|Sand Clay-Shale
+27251.33,27256.0,1,Shale,0.543,False,Marl|Sand Clay-Shale
+27256.0,27716.76,1,Shale,0.543,False,Marl|Sand Clay-Shale
+27716.76,27730.78,2,Sandstone,0.959,False,Chert
+27730.78,27754.86,1,Shale,0.543,False,Marl|Sand Clay-Shale
+27754.86,27780.77,2,Sandstone,0.959,False,Chert
+27780.77,27849.85,1,Shale,0.543,False,Marl|Sand Clay-Shale
+27849.85,27862.86,2,Sandstone,0.959,False,Chert
+27862.86,27910.81,1,Shale,0.543,False,Marl|Sand Clay-Shale
+27910.81,27941.8,2,Sandstone,0.959,False,Chert
+27941.8,27963.85,1,Shale,0.543,False,Marl|Sand Clay-Shale
+27963.85,27968.83,2,Sandstone,0.959,False,Chert
+27968.83,28020.85,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28020.85,28040.76,2,Sandstone,0.959,False,Chert
+28040.76,28047.77,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28047.77,28092.78,2,Sandstone,0.959,False,Chert
+28092.78,28150.9,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28150.9,28164.0,2,Sandstone,0.959,False,Chert
+28164.0,28167.66,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28167.66,28172.84,2,Sandstone,0.959,False,Chert
+28172.84,28182.8,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28182.8,28197.43,2,Sandstone,0.959,False,Chert
+28197.43,28210.53,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28210.53,28211.65,7,Marl,0.023,True,Shale|Sand Clay-Shale|Clay-shale
+28211.65,28221.81,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28221.81,28230.75,2,Sandstone,0.959,False,Chert
+28230.75,28239.8,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28239.8,28259.71,2,Sandstone,0.959,False,Chert
+28259.71,28282.87,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28282.87,28311.73,2,Sandstone,0.959,False,Chert
+28311.73,28351.35,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28351.35,28366.8,2,Sandstone,0.959,False,Chert
+28366.8,28389.15,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28389.15,28394.94,2,Sandstone,0.959,False,Chert
+28394.94,28425.22,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28425.22,28431.51,2,Sandstone,0.959,False,Chert
+28431.51,28460.78,1,Shale,0.543,False,Marl|Sand Clay-Shale
+28460.78,28470.73,2,Sandstone,0.959,False,Chert
+28470.73,28598.04,-1,Blank (no pattern),0.5,True,
+28598.04,28602.3,3,FIT,0.013,True,Sidewall core|Dst|Care

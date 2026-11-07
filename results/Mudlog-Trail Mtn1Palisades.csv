@@ -1,0 +1,116 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+1498.12,1675.58,1,Tuff XXXX XXX,0.312,False,
+1675.58,1676.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+1676.52,1695.59,1,Tuff XXXX XXX,0.312,False,
+1695.59,1696.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+1696.52,1715.59,1,Tuff XXXX XXX,0.312,False,
+1715.59,1716.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+1716.52,1735.59,1,Tuff XXXX XXX,0.312,False,
+1735.59,1736.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+1736.52,1895.59,1,Tuff XXXX XXX,0.312,False,
+1895.59,1896.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+1896.52,1915.59,1,Tuff XXXX XXX,0.312,False,
+1915.59,1916.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+1916.52,1935.59,1,Tuff XXXX XXX,0.312,False,
+1935.59,1936.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+1936.52,1955.59,1,Tuff XXXX XXX,0.312,False,
+1955.59,1956.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+1956.52,1977.85,1,Tuff XXXX XXX,0.312,False,
+1977.85,2147.85,0,Volcanic,0.193,False,Sandstone
+2147.85,2155.59,1,Tuff XXXX XXX,0.312,False,
+2155.59,2156.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+2156.52,2175.59,1,Tuff XXXX XXX,0.312,False,
+2175.59,2176.52,5,Volcanic,0.048,True,Siltstone|Tuff XXXX XXX
+2176.52,2189.85,1,Tuff XXXX XXX,0.312,False,
+2189.85,2209.99,0,Volcanic,0.193,False,Sandstone
+2209.99,2215.59,1,Tuff XXXX XXX,0.312,False,
+2215.59,2217.85,0,Volcanic,0.193,False,Sandstone
+2217.85,2223.99,1,Tuff XXXX XXX,0.312,False,
+2223.99,2225.99,0,Volcanic,0.193,False,Sandstone
+2225.99,2245.99,1,Tuff XXXX XXX,0.312,False,
+2245.99,2247.99,0,Volcanic,0.193,False,Sandstone
+2247.99,2257.59,1,Tuff XXXX XXX,0.312,False,
+2257.59,2259.85,0,Volcanic,0.193,False,Sandstone
+2259.85,2271.85,1,Tuff XXXX XXX,0.312,False,
+2271.85,2275.85,0,Volcanic,0.193,False,Sandstone
+2275.85,2293.85,1,Tuff XXXX XXX,0.312,False,
+2293.85,2295.99,0,Volcanic,0.193,False,Sandstone
+2295.99,2303.85,1,Tuff XXXX XXX,0.312,False,
+2303.85,2309.99,0,Volcanic,0.193,False,Sandstone
+2309.99,2317.99,1,Tuff XXXX XXX,0.312,False,
+2317.99,2341.99,0,Volcanic,0.193,False,Sandstone
+2341.99,2355.85,-1,Blank (no pattern),0.5,True,
+2355.85,4843.99,0,Volcanic,0.193,False,Sandstone
+4843.99,4857.99,-1,Blank (no pattern),0.5,True,
+4857.99,8894.54,0,Volcanic,0.193,False,Sandstone
+8894.54,8897.61,2,Shale,0.981,False,
+8897.61,8900.54,0,Volcanic,0.193,False,Sandstone
+8900.54,8905.61,2,Shale,0.981,False,
+8905.61,8908.27,0,Volcanic,0.193,False,Sandstone
+8908.27,8911.47,2,Shale,0.981,False,
+8911.47,8914.27,0,Volcanic,0.193,False,Sandstone
+8914.27,8917.61,2,Shale,0.981,False,
+8917.61,8934.27,0,Volcanic,0.193,False,Sandstone
+8934.27,8943.47,2,Shale,0.981,False,
+8943.47,8946.54,0,Volcanic,0.193,False,Sandstone
+8946.54,8947.47,4,Shale,0.832,False,
+8947.47,8952.27,0,Volcanic,0.193,False,Sandstone
+8952.27,8955.47,2,Shale,0.981,False,
+8955.47,9022.27,0,Volcanic,0.193,False,Sandstone
+9022.27,9025.61,2,Shale,0.981,False,
+9025.61,9032.27,0,Volcanic,0.193,False,Sandstone
+9032.27,9039.47,2,Shale,0.981,False,
+9039.47,9054.27,0,Volcanic,0.193,False,Sandstone
+9054.27,9059.61,2,Shale,0.981,False,
+9059.61,9062.54,0,Volcanic,0.193,False,Sandstone
+9062.54,9063.61,4,Shale,0.832,False,
+9063.61,9068.27,0,Volcanic,0.193,False,Sandstone
+9068.27,9069.61,2,Shale,0.981,False,
+9069.61,9072.54,0,Volcanic,0.193,False,Sandstone
+9072.54,9076.27,3,Volcanic,0.002,True,Shale|METAMORPHIC|GRANITE
+9076.27,9077.61,2,Shale,0.981,False,
+9077.61,9086.54,0,Volcanic,0.193,False,Sandstone
+9086.54,9087.61,4,Shale,0.832,False,
+9087.61,9090.27,0,Volcanic,0.193,False,Sandstone
+9090.27,9093.47,2,Shale,0.981,False,
+9093.47,9124.27,0,Volcanic,0.193,False,Sandstone
+9124.27,9127.61,2,Shale,0.981,False,
+9127.61,9131.47,3,Volcanic,0.002,True,Shale|METAMORPHIC|GRANITE
+9131.47,9136.54,0,Volcanic,0.193,False,Sandstone
+9136.54,9137.61,4,Shale,0.832,False,
+9137.61,9166.27,0,Volcanic,0.193,False,Sandstone
+9166.27,9169.47,2,Shale,0.981,False,
+9169.47,9186.27,0,Volcanic,0.193,False,Sandstone
+9186.27,9187.47,2,Shale,0.981,False,
+9187.47,9198.27,0,Volcanic,0.193,False,Sandstone
+9198.27,9201.47,2,Shale,0.981,False,
+9201.47,9228.27,0,Volcanic,0.193,False,Sandstone
+9228.27,9231.61,2,Shale,0.981,False,
+9231.61,9234.54,0,Volcanic,0.193,False,Sandstone
+9234.54,9235.61,4,Shale,0.832,False,
+9235.61,9246.27,0,Volcanic,0.193,False,Sandstone
+9246.27,9249.47,2,Shale,0.981,False,
+9249.47,9256.27,0,Volcanic,0.193,False,Sandstone
+9256.27,9257.47,2,Shale,0.981,False,
+9257.47,9270.54,0,Volcanic,0.193,False,Sandstone
+9270.54,9271.61,4,Shale,0.832,False,
+9271.61,9304.54,0,Volcanic,0.193,False,Sandstone
+9304.54,9309.61,2,Shale,0.981,False,
+9309.61,9320.27,0,Volcanic,0.193,False,Sandstone
+9320.27,9323.47,2,Shale,0.981,False,
+9323.47,9328.27,0,Volcanic,0.193,False,Sandstone
+9328.27,9329.61,2,Shale,0.981,False,
+9329.61,9352.27,0,Volcanic,0.193,False,Sandstone
+9352.27,9353.47,4,Shale,0.832,False,
+9353.47,9370.27,0,Volcanic,0.193,False,Sandstone
+9370.27,9374.27,3,Volcanic,0.002,True,Shale|METAMORPHIC|GRANITE
+9374.27,9377.47,2,Shale,0.981,False,
+9377.47,9380.54,0,Volcanic,0.193,False,Sandstone
+9380.54,9381.61,4,Shale,0.832,False,
+9381.61,9418.27,0,Volcanic,0.193,False,Sandstone
+9418.27,9423.47,2,Shale,0.981,False,
+9423.47,9476.54,0,Volcanic,0.193,False,Sandstone
+9476.54,9477.47,4,Shale,0.832,False,
+9477.47,9488.27,0,Volcanic,0.193,False,Sandstone
+9488.27,9489.61,2,Shale,0.981,False,
+9489.61,9500.01,0,Volcanic,0.193,False,Sandstone

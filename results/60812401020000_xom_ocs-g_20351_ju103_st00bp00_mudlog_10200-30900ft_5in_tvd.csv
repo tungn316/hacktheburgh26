@@ -1,0 +1,20 @@
+top_ft,base_ft,group,lithology,confidence,ambiguous,alternatives
+108.93,120.38,1,Clay-shale,0.99,False,
+120.38,124.12,4,Clay-shale,0.411,False,Silty clay-shale
+124.12,222.88,0,Halite,0.868,False,
+222.88,235.44,1,Clay-shale,0.99,False,
+235.44,241.51,4,Clay-shale,0.411,False,Silty clay-shale
+241.51,247.9,1,Clay-shale,0.99,False,
+247.9,252.22,4,Clay-shale,0.411,False,Silty clay-shale
+252.22,256.1,2,Clay-shale,0.181,False,Silty clay-shale
+256.1,260.22,4,Clay-shale,0.411,False,Silty clay-shale
+260.22,267.73,4,Clay-shale,0.411,False,Silty clay-shale
+267.73,276.7,2,Clay-shale,0.181,False,Silty clay-shale
+276.7,277.72,7,Limestone,0.002,True,Calcareous|Dolomitic Limestone|Chalk
+277.72,282.84,2,Clay-shale,0.181,False,Silty clay-shale
+282.84,284.13,1,Clay-shale,0.99,False,
+284.13,287.64,3,rock,0.093,False,Fine Sand|Coarse Sand
+287.64,289.45,6,Clay-shale,0.265,False,Silty clay-shale
+289.45,298.24,3,rock,0.093,False,Fine Sand|Coarse Sand
+298.24,301.37,5,Silty clay-shale,0.129,False,Clay-shale|Mud gain|Mud loss
+301.37,307.08,3,rock,0.093,False,Fine Sand|Coarse Sand

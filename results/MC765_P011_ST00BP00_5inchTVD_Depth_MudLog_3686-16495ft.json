@@ -1,0 +1,1561 @@
+{
+  "image": "MC765_P011_ST00BP00_5inchTVD_Depth_MudLog_3686-16495ft.tif",
+  "depth_fit": {
+    "px_per_ft": 10.0144,
+    "labels_used": 656,
+    "labels_read": 656,
+    "mean_residual_ft": 0.026,
+    "label_rotation_deg": 0
+  },
+  "legend": [
+    {
+      "name": "Clay-S",
+      "box": [
+        110,
+        908,
+        175,
+        956
+      ],
+      "white": false
+    },
+    {
+      "name": "Clay-SCS",
+      "box": [
+        425,
+        908,
+        489,
+        956
+      ],
+      "white": false
+    },
+    {
+      "name": "Clay-M",
+      "box": [
+        740,
+        908,
+        804,
+        956
+      ],
+      "white": false
+    },
+    {
+      "name": "Clay-CCS",
+      "box": [
+        1055,
+        908,
+        1119,
+        956
+      ],
+      "white": false
+    },
+    {
+      "name": "Clay-SACS",
+      "box": [
+        1370,
+        908,
+        1434,
+        956
+      ],
+      "white": false
+    },
+    {
+      "name": "Sand-SIS",
+      "box": [
+        110,
+        978,
+        175,
+        1026
+      ],
+      "white": false
+    },
+    {
+      "name": "Sand-SS",
+      "box": [
+        425,
+        978,
+        489,
+        1026
+      ],
+      "white": false
+    },
+    {
+      "name": "Sand-FS",
+      "box": [
+        740,
+        978,
+        804,
+        1026
+      ],
+      "white": false
+    },
+    {
+      "name": "Sand-MS",
+      "box": [
+        1055,
+        978,
+        1119,
+        1026
+      ],
+      "white": false
+    },
+    {
+      "name": "Sand-CS",
+      "box": [
+        1370,
+        978,
+        1434,
+        1026
+      ],
+      "white": false
+    },
+    {
+      "name": "Sand-FSS",
+      "box": [
+        110,
+        1048,
+        175,
+        1097
+      ],
+      "white": false
+    },
+    {
+      "name": "Sand-MSS",
+      "box": [
+        425,
+        1048,
+        489,
+        1097
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone-AL",
+      "box": [
+        740,
+        1048,
+        804,
+        1097
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone-SL",
+      "box": [
+        1055,
+        1048,
+        1119,
+        1097
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone-L",
+      "box": [
+        1370,
+        1048,
+        1434,
+        1097
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomites-AD",
+      "box": [
+        110,
+        1118,
+        175,
+        1167
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomites-CD",
+      "box": [
+        425,
+        1118,
+        489,
+        1167
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomites-D",
+      "box": [
+        740,
+        1118,
+        804,
+        1167
+      ],
+      "white": false
+    },
+    {
+      "name": "Others-H",
+      "box": [
+        1055,
+        1118,
+        1119,
+        1167
+      ],
+      "white": false
+    },
+    {
+      "name": "Others-A",
+      "box": [
+        1370,
+        1118,
+        1434,
+        1167
+      ],
+      "white": false
+    },
+    {
+      "name": "Others-GY",
+      "box": [
+        110,
+        1188,
+        175,
+        1237
+      ],
+      "white": false
+    },
+    {
+      "name": "Others-E",
+      "box": [
+        425,
+        1188,
+        489,
+        1237
+      ],
+      "white": false
+    },
+    {
+      "name": "Others-CL",
+      "box": [
+        740,
+        1188,
+        804,
+        1237
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud gain",
+      "box": [
+        1055,
+        1189,
+        1119,
+        1237
+      ],
+      "white": false
+    },
+    {
+      "name": "Mud loss",
+      "box": [
+        1370,
+        1189,
+        1434,
+        1237
+      ],
+      "white": false
+    },
+    {
+      "name": "Core",
+      "box": [
+        1370,
+        1259,
+        1434,
+        1307
+      ],
+      "white": false
+    },
+    {
+      "name": "FIT",
+      "box": [
+        111,
+        1259,
+        175,
+        1307
+      ],
+      "white": false
+    },
+    {
+      "name": "Survey",
+      "box": [
+        425,
+        1259,
+        489,
+        1307
+      ],
+      "white": false
+    },
+    {
+      "name": "Casing shoe",
+      "box": [
+        740,
+        1259,
+        804,
+        1307
+      ],
+      "white": false
+    },
+    {
+      "name": "Fossils",
+      "box": [
+        1055,
+        1259,
+        1119,
+        1307
+      ],
+      "white": false
+    }
+  ],
+  "n_groups": 2,
+  "intervals": [
+    {
+      "top_ft": 6484.65,
+      "base_ft": 9544.76,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 31504,
+      "y_base_px": 62149
+    },
+    {
+      "top_ft": 9544.76,
+      "base_ft": 9572.52,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 62149,
+      "y_base_px": 62427
+    },
+    {
+      "top_ft": 9572.52,
+      "base_ft": 9758.95,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 62427,
+      "y_base_px": 64294
+    },
+    {
+      "top_ft": 9758.95,
+      "base_ft": 9801.19,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 64294,
+      "y_base_px": 64717
+    },
+    {
+      "top_ft": 9801.19,
+      "base_ft": 10358.39,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 64717,
+      "y_base_px": 70297
+    },
+    {
+      "top_ft": 10358.39,
+      "base_ft": 10399.63,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 70297,
+      "y_base_px": 70710
+    },
+    {
+      "top_ft": 10399.63,
+      "base_ft": 10927.97,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 70710,
+      "y_base_px": 76001
+    },
+    {
+      "top_ft": 10927.97,
+      "base_ft": 10971.11,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 76001,
+      "y_base_px": 76433
+    },
+    {
+      "top_ft": 10971.11,
+      "base_ft": 11515.43,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 76433,
+      "y_base_px": 81884
+    },
+    {
+      "top_ft": 11515.43,
+      "base_ft": 11531.51,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 81884,
+      "y_base_px": 82045
+    },
+    {
+      "top_ft": 11531.51,
+      "base_ft": 11617.49,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 82045,
+      "y_base_px": 82906
+    },
+    {
+      "top_ft": 11617.49,
+      "base_ft": 11629.37,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 82906,
+      "y_base_px": 83025
+    },
+    {
+      "top_ft": 11629.37,
+      "base_ft": 11655.63,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 83025,
+      "y_base_px": 83288
+    },
+    {
+      "top_ft": 11655.63,
+      "base_ft": 11757.48,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 83288,
+      "y_base_px": 84308
+    },
+    {
+      "top_ft": 11757.48,
+      "base_ft": 11777.76,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 84308,
+      "y_base_px": 84511
+    },
+    {
+      "top_ft": 11777.76,
+      "base_ft": 11782.35,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 84511,
+      "y_base_px": 84557
+    },
+    {
+      "top_ft": 11782.35,
+      "base_ft": 11826.39,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 84557,
+      "y_base_px": 84998
+    },
+    {
+      "top_ft": 11826.39,
+      "base_ft": 11831.58,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 84998,
+      "y_base_px": 85050
+    },
+    {
+      "top_ft": 11831.58,
+      "base_ft": 11846.76,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 85050,
+      "y_base_px": 85202
+    },
+    {
+      "top_ft": 11846.76,
+      "base_ft": 11851.95,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 85202,
+      "y_base_px": 85254
+    },
+    {
+      "top_ft": 11851.95,
+      "base_ft": 11908.47,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 85254,
+      "y_base_px": 85820
+    },
+    {
+      "top_ft": 11908.47,
+      "base_ft": 11951.21,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 85820,
+      "y_base_px": 86248
+    },
+    {
+      "top_ft": 11951.21,
+      "base_ft": 11957.1,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 86248,
+      "y_base_px": 86307
+    },
+    {
+      "top_ft": 11957.1,
+      "base_ft": 11964.29,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 86307,
+      "y_base_px": 86379
+    },
+    {
+      "top_ft": 11964.29,
+      "base_ft": 11976.77,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 86379,
+      "y_base_px": 86504
+    },
+    {
+      "top_ft": 11976.77,
+      "base_ft": 11983.36,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 86504,
+      "y_base_px": 86570
+    },
+    {
+      "top_ft": 11983.36,
+      "base_ft": 11993.25,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 86570,
+      "y_base_px": 86669
+    },
+    {
+      "top_ft": 11993.25,
+      "base_ft": 12003.43,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 86669,
+      "y_base_px": 86771
+    },
+    {
+      "top_ft": 12003.43,
+      "base_ft": 12154.81,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 86771,
+      "y_base_px": 88287
+    },
+    {
+      "top_ft": 12154.81,
+      "base_ft": 12163.4,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 88287,
+      "y_base_px": 88373
+    },
+    {
+      "top_ft": 12163.4,
+      "base_ft": 12179.18,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 88373,
+      "y_base_px": 88531
+    },
+    {
+      "top_ft": 12179.18,
+      "base_ft": 12183.77,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 88531,
+      "y_base_px": 88577
+    },
+    {
+      "top_ft": 12183.77,
+      "base_ft": 12241.19,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 88577,
+      "y_base_px": 89152
+    },
+    {
+      "top_ft": 12241.19,
+      "base_ft": 12259.36,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 89152,
+      "y_base_px": 89334
+    },
+    {
+      "top_ft": 12259.36,
+      "base_ft": 12265.85,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 89334,
+      "y_base_px": 89399
+    },
+    {
+      "top_ft": 12265.85,
+      "base_ft": 12288.32,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 89399,
+      "y_base_px": 89624
+    },
+    {
+      "top_ft": 12288.32,
+      "base_ft": 12293.41,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 89624,
+      "y_base_px": 89675
+    },
+    {
+      "top_ft": 12293.41,
+      "base_ft": 12312.09,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 89675,
+      "y_base_px": 89862
+    },
+    {
+      "top_ft": 12312.09,
+      "base_ft": 12436.51,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 89862,
+      "y_base_px": 91108
+    },
+    {
+      "top_ft": 12436.51,
+      "base_ft": 12456.48,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 91108,
+      "y_base_px": 91308
+    },
+    {
+      "top_ft": 12456.48,
+      "base_ft": 12491.33,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 91308,
+      "y_base_px": 91657
+    },
+    {
+      "top_ft": 12491.33,
+      "base_ft": 12533.37,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 91657,
+      "y_base_px": 92078
+    },
+    {
+      "top_ft": 12533.37,
+      "base_ft": 12609.16,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 92078,
+      "y_base_px": 92837
+    },
+    {
+      "top_ft": 12609.16,
+      "base_ft": 12627.14,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 92837,
+      "y_base_px": 93017
+    },
+    {
+      "top_ft": 12627.14,
+      "base_ft": 12671.37,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 93017,
+      "y_base_px": 93460
+    },
+    {
+      "top_ft": 12671.37,
+      "base_ft": 12680.16,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 93460,
+      "y_base_px": 93548
+    },
+    {
+      "top_ft": 12680.16,
+      "base_ft": 12813.87,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 93548,
+      "y_base_px": 94887
+    },
+    {
+      "top_ft": 12813.87,
+      "base_ft": 12820.46,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 94887,
+      "y_base_px": 94953
+    },
+    {
+      "top_ft": 12820.46,
+      "base_ft": 12841.33,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 94953,
+      "y_base_px": 95162
+    },
+    {
+      "top_ft": 12841.33,
+      "base_ft": 12854.31,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 95162,
+      "y_base_px": 95292
+    },
+    {
+      "top_ft": 12854.31,
+      "base_ft": 13096.96,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 95292,
+      "y_base_px": 97722
+    },
+    {
+      "top_ft": 13096.96,
+      "base_ft": 13127.32,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 97722,
+      "y_base_px": 98026
+    },
+    {
+      "top_ft": 13127.32,
+      "base_ft": 14111.11,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 98026,
+      "y_base_px": 107878
+    },
+    {
+      "top_ft": 14111.11,
+      "base_ft": 14124.59,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 107878,
+      "y_base_px": 108013
+    },
+    {
+      "top_ft": 14124.59,
+      "base_ft": 14140.56,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 108013,
+      "y_base_px": 108173
+    },
+    {
+      "top_ft": 14140.56,
+      "base_ft": 14147.05,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 108173,
+      "y_base_px": 108238
+    },
+    {
+      "top_ft": 14147.05,
+      "base_ft": 14158.04,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 108238,
+      "y_base_px": 108348
+    },
+    {
+      "top_ft": 14158.04,
+      "base_ft": 14177.11,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 108348,
+      "y_base_px": 108539
+    },
+    {
+      "top_ft": 14177.11,
+      "base_ft": 15354.92,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 108539,
+      "y_base_px": 120334
+    },
+    {
+      "top_ft": 15354.92,
+      "base_ft": 15365.51,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 120334,
+      "y_base_px": 120440
+    },
+    {
+      "top_ft": 15365.51,
+      "base_ft": 15799.08,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 120440,
+      "y_base_px": 124782
+    },
+    {
+      "top_ft": 15799.08,
+      "base_ft": 15816.66,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 124782,
+      "y_base_px": 124958
+    },
+    {
+      "top_ft": 15816.66,
+      "base_ft": 15983.22,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 124958,
+      "y_base_px": 126626
+    },
+    {
+      "top_ft": 15983.22,
+      "base_ft": 16029.95,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 126626,
+      "y_base_px": 127094
+    },
+    {
+      "top_ft": 16029.95,
+      "base_ft": 16138.1,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 127094,
+      "y_base_px": 128177
+    },
+    {
+      "top_ft": 16138.1,
+      "base_ft": 16162.26,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 128177,
+      "y_base_px": 128419
+    },
+    {
+      "top_ft": 16162.26,
+      "base_ft": 16170.95,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 128419,
+      "y_base_px": 128506
+    },
+    {
+      "top_ft": 16170.95,
+      "base_ft": 16184.43,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 128506,
+      "y_base_px": 128641
+    },
+    {
+      "top_ft": 16184.43,
+      "base_ft": 16213.69,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 128641,
+      "y_base_px": 128934
+    },
+    {
+      "top_ft": 16213.69,
+      "base_ft": 16220.68,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 128934,
+      "y_base_px": 129004
+    },
+    {
+      "top_ft": 16220.68,
+      "base_ft": 16225.37,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 129004,
+      "y_base_px": 129051
+    },
+    {
+      "top_ft": 16225.37,
+      "base_ft": 16229.37,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 129051,
+      "y_base_px": 129091
+    },
+    {
+      "top_ft": 16229.37,
+      "base_ft": 16318.94,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 129091,
+      "y_base_px": 129988
+    },
+    {
+      "top_ft": 16318.94,
+      "base_ft": 16324.33,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 129988,
+      "y_base_px": 130042
+    },
+    {
+      "top_ft": 16324.33,
+      "base_ft": 16349.99,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 130042,
+      "y_base_px": 130299
+    },
+    {
+      "top_ft": 16349.99,
+      "base_ft": 16362.97,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 130299,
+      "y_base_px": 130429
+    },
+    {
+      "top_ft": 16362.97,
+      "base_ft": 16379.55,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 130429,
+      "y_base_px": 130595
+    },
+    {
+      "top_ft": 16379.55,
+      "base_ft": 16384.94,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 130595,
+      "y_base_px": 130649
+    },
+    {
+      "top_ft": 16384.94,
+      "base_ft": 16394.23,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 130649,
+      "y_base_px": 130742
+    },
+    {
+      "top_ft": 16394.23,
+      "base_ft": 16406.31,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 130742,
+      "y_base_px": 130863
+    },
+    {
+      "top_ft": 16406.31,
+      "base_ft": 16411.7,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 130863,
+      "y_base_px": 130917
+    },
+    {
+      "top_ft": 16411.7,
+      "base_ft": 16427.98,
+      "group": 1,
+      "lithology": "Sand-FSS",
+      "confidence": 0.331,
+      "alternatives": [
+        "Sand-SIS",
+        "Sand-MSS",
+        "Sand-MS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 130917,
+      "y_base_px": 131080
+    },
+    {
+      "top_ft": 16427.98,
+      "base_ft": 16458.94,
+      "group": 0,
+      "lithology": "Clay-SACS",
+      "confidence": 0.464,
+      "alternatives": [
+        "Clay-M",
+        "Clay-S",
+        "Clay-SCS"
+      ],
+      "ambiguous": true,
+      "y_top_px": 131080,
+      "y_base_px": 131390
+    }
+  ],
+  "seconds": 13.5
+}
