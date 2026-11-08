@@ -7,8 +7,8 @@
   "depth_fit": {
     "px_per_ft": 4.0,
     "labels_used": 190,
-    "labels_read": 210,
-    "labels_rejected": 20,
+    "labels_read": 211,
+    "labels_rejected": 21,
     "mean_residual_ft": 0.0,
     "label_rotation_deg": 0,
     "chunks_ocrd": "12/13",
@@ -797,6 +797,36 @@
       "white": false
     },
     {
+      "name": "Shale brown",
+      "box": [
+        449,
+        864,
+        513,
+        913
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale green",
+      "box": [
+        645,
+        864,
+        709,
+        913
+      ],
+      "white": false
+    },
+    {
+      "name": "Silt",
+      "box": [
+        842,
+        864,
+        906,
+        913
+      ],
+      "white": false
+    },
+    {
       "name": "Siltstone",
       "box": [
         1038,
@@ -927,6 +957,26 @@
       "white": false
     },
     {
+      "name": "Marl",
+      "box": [
+        449,
+        1053,
+        513,
+        1101
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomite",
+      "box": [
+        645,
+        1054,
+        709,
+        1102
+      ],
+      "white": false
+    },
+    {
       "name": "Sidewall core",
       "box": [
         841,
@@ -965,56 +1015,6 @@
         1101
       ],
       "white": false
-    },
-    {
-      "name": "Marl",
-      "box": [
-        449,
-        1053,
-        513,
-        1101
-      ],
-      "white": false
-    },
-    {
-      "name": "Dolomite",
-      "box": [
-        645,
-        1054,
-        709,
-        1102
-      ],
-      "white": false
-    },
-    {
-      "name": "Silt",
-      "box": [
-        842,
-        864,
-        906,
-        913
-      ],
-      "white": false
-    },
-    {
-      "name": "Shale green",
-      "box": [
-        645,
-        864,
-        709,
-        913
-      ],
-      "white": false
-    },
-    {
-      "name": "Shale brown",
-      "box": [
-        449,
-        864,
-        513,
-        913
-      ],
-      "white": false
     }
   ],
   "identical_legend_symbols": [],
@@ -1022,11 +1022,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 2.3,
-    "segment": 0.32,
-    "legend": 0.55,
-    "intervals": 0.33,
-    "total": 3.5
+    "depth": 2.25,
+    "segment": 0.31,
+    "legend": 0.52,
+    "intervals": 0.31,
+    "total": 3.4
   },
   "intervals": [
     {

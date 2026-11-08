@@ -141,14 +141,14 @@
       "white": false
     },
     {
-      "name": "gas",
+      "name": "Salt water",
       "box": [
-        1432,
-        988,
-        1444,
-        1001
+        1430,
+        1051,
+        1443,
+        1082
       ],
-      "white": true
+      "white": false
     }
   ],
   "identical_legend_symbols": [],
@@ -156,11 +156,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 1.49,
-    "segment": 0.08,
-    "legend": 0.18,
-    "intervals": 0.04,
-    "total": 1.79
+    "depth": 1.47,
+    "segment": 0.09,
+    "legend": 0.36,
+    "intervals": 0.05,
+    "total": 1.98
   },
   "intervals": [
     {
@@ -170,7 +170,7 @@
       "cluster_id": 0,
       "top_y": 1700,
       "bottom_y": 2363,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -181,7 +181,7 @@
       "cluster_id": 1,
       "top_y": 2363,
       "bottom_y": 2392,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -192,7 +192,7 @@
       "cluster_id": 0,
       "top_y": 2392,
       "bottom_y": 2435,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -203,7 +203,7 @@
       "cluster_id": 1,
       "top_y": 2435,
       "bottom_y": 2472,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -214,7 +214,7 @@
       "cluster_id": 0,
       "top_y": 2472,
       "bottom_y": 3361,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -225,7 +225,7 @@
       "cluster_id": 1,
       "top_y": 3361,
       "bottom_y": 3394,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -236,7 +236,7 @@
       "cluster_id": 0,
       "top_y": 3394,
       "bottom_y": 3552,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -247,7 +247,7 @@
       "cluster_id": 1,
       "top_y": 3552,
       "bottom_y": 3632,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -258,7 +258,7 @@
       "cluster_id": 0,
       "top_y": 3632,
       "bottom_y": 3677,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -269,7 +269,7 @@
       "cluster_id": 2,
       "top_y": 3677,
       "bottom_y": 3688,
-      "confidence": 0.649,
+      "confidence": 0.494,
       "ambiguous": false,
       "alternatives": []
     },
@@ -280,7 +280,7 @@
       "cluster_id": 0,
       "top_y": 3688,
       "bottom_y": 3697,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -291,7 +291,7 @@
       "cluster_id": 1,
       "top_y": 3697,
       "bottom_y": 3715,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -302,7 +302,7 @@
       "cluster_id": 0,
       "top_y": 3715,
       "bottom_y": 4083,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -313,7 +313,7 @@
       "cluster_id": 2,
       "top_y": 4083,
       "bottom_y": 4095,
-      "confidence": 0.649,
+      "confidence": 0.494,
       "ambiguous": false,
       "alternatives": []
     },
@@ -324,7 +324,7 @@
       "cluster_id": 0,
       "top_y": 4095,
       "bottom_y": 4402,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -335,7 +335,7 @@
       "cluster_id": 1,
       "top_y": 4402,
       "bottom_y": 4415,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -346,7 +346,7 @@
       "cluster_id": 0,
       "top_y": 4415,
       "bottom_y": 4454,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -357,7 +357,7 @@
       "cluster_id": 1,
       "top_y": 4454,
       "bottom_y": 4475,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -368,7 +368,7 @@
       "cluster_id": 0,
       "top_y": 4475,
       "bottom_y": 4594,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -379,7 +379,7 @@
       "cluster_id": 1,
       "top_y": 4594,
       "bottom_y": 4610,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -390,7 +390,7 @@
       "cluster_id": 0,
       "top_y": 4610,
       "bottom_y": 4620,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -401,7 +401,7 @@
       "cluster_id": 1,
       "top_y": 4620,
       "bottom_y": 4643,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -412,7 +412,7 @@
       "cluster_id": 0,
       "top_y": 4643,
       "bottom_y": 4662,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -423,7 +423,7 @@
       "cluster_id": 1,
       "top_y": 4662,
       "bottom_y": 4686,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -445,7 +445,7 @@
       "cluster_id": 1,
       "top_y": 4689,
       "bottom_y": 4715,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -456,9 +456,11 @@
       "cluster_id": 7,
       "top_y": 4715,
       "bottom_y": 4722,
-      "confidence": 0.3,
+      "confidence": 0.126,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Salt water"
+      ]
     },
     {
       "top_depth": 19090.0,
@@ -467,20 +469,21 @@
       "cluster_id": 2,
       "top_y": 4722,
       "bottom_y": 4729,
-      "confidence": 0.649,
+      "confidence": 0.494,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 19093.5,
       "bottom_depth": 19096.5,
-      "lithology": "Clay-shale",
+      "lithology": "Salt water",
       "cluster_id": 9,
       "top_y": 4729,
       "bottom_y": 4735,
-      "confidence": 0.0,
-      "ambiguous": true,
+      "confidence": 0.127,
+      "ambiguous": false,
       "alternatives": [
+        "Clay-shale",
         "Fine Sandstone"
       ]
     },
@@ -491,7 +494,7 @@
       "cluster_id": 1,
       "top_y": 4735,
       "bottom_y": 4752,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -502,7 +505,7 @@
       "cluster_id": 0,
       "top_y": 4752,
       "bottom_y": 4768,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -513,7 +516,7 @@
       "cluster_id": 1,
       "top_y": 4768,
       "bottom_y": 4802,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -524,7 +527,7 @@
       "cluster_id": 4,
       "top_y": 4802,
       "bottom_y": 4811,
-      "confidence": 0.978,
+      "confidence": 0.974,
       "ambiguous": false,
       "alternatives": []
     },
@@ -535,7 +538,7 @@
       "cluster_id": 1,
       "top_y": 4811,
       "bottom_y": 4834,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -546,7 +549,7 @@
       "cluster_id": 0,
       "top_y": 4834,
       "bottom_y": 4839,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -557,7 +560,7 @@
       "cluster_id": 1,
       "top_y": 4839,
       "bottom_y": 4861,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -568,7 +571,7 @@
       "cluster_id": 0,
       "top_y": 4861,
       "bottom_y": 4898,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -579,7 +582,7 @@
       "cluster_id": 1,
       "top_y": 4898,
       "bottom_y": 4918,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -601,7 +604,7 @@
       "cluster_id": 1,
       "top_y": 4921,
       "bottom_y": 4934,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -612,7 +615,7 @@
       "cluster_id": 0,
       "top_y": 4934,
       "bottom_y": 4955,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -623,7 +626,7 @@
       "cluster_id": 1,
       "top_y": 4955,
       "bottom_y": 4970,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -634,7 +637,7 @@
       "cluster_id": 0,
       "top_y": 4970,
       "bottom_y": 5854,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -645,7 +648,7 @@
       "cluster_id": 1,
       "top_y": 5854,
       "bottom_y": 5952,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -656,7 +659,7 @@
       "cluster_id": 0,
       "top_y": 5952,
       "bottom_y": 6241,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     },
@@ -667,20 +670,21 @@
       "cluster_id": 1,
       "top_y": 6241,
       "bottom_y": 6560,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20009.0,
       "bottom_depth": 20012.0,
-      "lithology": "Clay-shale",
+      "lithology": "Salt water",
       "cluster_id": 9,
       "top_y": 6560,
       "bottom_y": 6566,
-      "confidence": 0.0,
-      "ambiguous": true,
+      "confidence": 0.127,
+      "ambiguous": false,
       "alternatives": [
+        "Clay-shale",
         "Fine Sandstone"
       ]
     },
@@ -691,7 +695,7 @@
       "cluster_id": 1,
       "top_y": 6566,
       "bottom_y": 6612,
-      "confidence": 0.754,
+      "confidence": 0.622,
       "ambiguous": false,
       "alternatives": []
     },
@@ -702,7 +706,7 @@
       "cluster_id": 0,
       "top_y": 6612,
       "bottom_y": 6832,
-      "confidence": 0.969,
+      "confidence": 0.959,
       "ambiguous": false,
       "alternatives": []
     }

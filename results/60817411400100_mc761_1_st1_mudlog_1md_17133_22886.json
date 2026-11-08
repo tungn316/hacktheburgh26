@@ -201,6 +201,16 @@
   },
   "legend": [
     {
+      "name": "Dolomitic",
+      "box": [
+        62,
+        1342,
+        113,
+        1390
+      ],
+      "white": false
+    },
+    {
       "name": "Siliceous",
       "box": [
         276,
@@ -211,12 +221,12 @@
       "white": false
     },
     {
-      "name": "Available",
+      "name": "Not Available",
       "box": [
-        729,
-        1358,
-        743,
-        1374
+        674,
+        1342,
+        725,
+        1390
       ],
       "white": false
     },
@@ -231,7 +241,7 @@
       "white": false
     },
     {
-      "name": "|Glauconite",
+      "name": "Glauconite",
       "box": [
         62,
         1410,
@@ -241,151 +251,41 @@
       "white": false
     },
     {
-      "name": "|Kaolinite",
-      "box": [
-        62,
-        1546,
-        113,
-        1594
-      ],
-      "white": false
-    },
-    {
-      "name": "Breccia",
-      "box": [
-        888,
-        1546,
-        939,
-        1594
-      ],
-      "white": false
-    },
-    {
-      "name": "Claystone",
-      "box": [
-        888,
-        1614,
-        939,
-        1662
-      ],
-      "white": false
-    },
-    {
-      "name": "Limestone Fe",
-      "box": [
-        674,
-        1682,
-        725,
-        1730
-      ],
-      "white": false
-    },
-    {
-      "name": "|Pyrite",
-      "box": [
-        62,
-        1682,
-        113,
-        1730
-      ],
-      "white": false
-    },
-    {
-      "name": "Dolomite",
-      "box": [
-        674,
-        1750,
-        725,
-        1798
-      ],
-      "white": false
-    },
-    {
-      "name": "Silty",
-      "box": [
-        62,
-        1750,
-        113,
-        1798
-      ],
-      "white": false
-    },
-    {
-      "name": "Sample",
-      "box": [
-        888,
-        1682,
-        939,
-        1730
-      ],
-      "white": false
-    },
-    {
-      "name": "Argillaceous",
+      "name": "Sand",
       "box": [
         276,
-        1682,
+        1410,
         327,
-        1730
+        1458
       ],
       "white": false
     },
     {
-      "name": "Conglomerate",
+      "name": "Sandstone",
       "box": [
         674,
-        1614,
+        1410,
         725,
-        1662
+        1458
       ],
       "white": false
     },
     {
-      "name": "Carbonaceous",
+      "name": "Marlstone",
       "box": [
-        276,
-        1614,
-        327,
-        1662
-      ],
-      "white": true
-    },
-    {
-      "name": "Marl",
-      "box": [
-        62,
-        1614,
-        113,
-        1662
-      ],
-      "white": false
-    },
-    {
-      "name": "Shale",
-      "box": [
-        674,
-        1546,
-        725,
-        1594
-      ],
-      "white": false
-    },
-    {
-      "name": "Calcareous",
-      "box": [
-        276,
-        1546,
-        327,
-        1594
+        888,
+        1410,
+        939,
+        1458
       ],
       "white": false
     },
     {
       "name": "Salt",
       "box": [
-        888,
+        276,
         1478,
-        939,
+        327,
         1526
       ],
       "white": false
@@ -403,9 +303,9 @@
     {
       "name": "Salt",
       "box": [
-        276,
+        888,
         1478,
-        327,
+        939,
         1526
       ],
       "white": false
@@ -421,52 +321,132 @@
       "white": false
     },
     {
-      "name": "Marlstone",
-      "box": [
-        888,
-        1410,
-        939,
-        1458
-      ],
-      "white": false
-    },
-    {
-      "name": "Sandstone",
-      "box": [
-        674,
-        1410,
-        725,
-        1458
-      ],
-      "white": false
-    },
-    {
-      "name": "Sand",
-      "box": [
-        276,
-        1410,
-        327,
-        1458
-      ],
-      "white": false
-    },
-    {
-      "name": "Not Available",
-      "box": [
-        674,
-        1342,
-        725,
-        1390
-      ],
-      "white": false
-    },
-    {
-      "name": "Dolomitic",
+      "name": "Kaolinite",
       "box": [
         62,
-        1342,
+        1546,
         113,
-        1390
+        1594
+      ],
+      "white": false
+    },
+    {
+      "name": "Calcareous",
+      "box": [
+        276,
+        1546,
+        327,
+        1594
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale",
+      "box": [
+        674,
+        1546,
+        725,
+        1594
+      ],
+      "white": false
+    },
+    {
+      "name": "Breccia",
+      "box": [
+        888,
+        1546,
+        939,
+        1594
+      ],
+      "white": false
+    },
+    {
+      "name": "Marl",
+      "box": [
+        62,
+        1614,
+        113,
+        1662
+      ],
+      "white": false
+    },
+    {
+      "name": "Carbonaceous",
+      "box": [
+        276,
+        1614,
+        327,
+        1662
+      ],
+      "white": true
+    },
+    {
+      "name": "Conglomerate",
+      "box": [
+        674,
+        1614,
+        725,
+        1662
+      ],
+      "white": false
+    },
+    {
+      "name": "Claystone",
+      "box": [
+        888,
+        1614,
+        939,
+        1662
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone fi",
+      "box": [
+        674,
+        1682,
+        725,
+        1730
+      ],
+      "white": false
+    },
+    {
+      "name": "Pyrite",
+      "box": [
+        62,
+        1682,
+        113,
+        1730
+      ],
+      "white": false
+    },
+    {
+      "name": "Argillaceous",
+      "box": [
+        276,
+        1682,
+        327,
+        1730
+      ],
+      "white": false
+    },
+    {
+      "name": "Silty",
+      "box": [
+        62,
+        1750,
+        113,
+        1798
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomite",
+      "box": [
+        674,
+        1750,
+        725,
+        1798
       ],
       "white": false
     }
@@ -476,11 +456,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 0.68,
-    "segment": 0.15,
-    "legend": 1.61,
-    "intervals": 0.13,
-    "total": 2.57
+    "depth": 0.69,
+    "segment": 0.12,
+    "legend": 0.64,
+    "intervals": 0.12,
+    "total": 1.59
   },
   "intervals": [
     {
@@ -509,7 +489,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -539,7 +519,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -584,7 +564,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -657,7 +637,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -848,7 +828,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -919,7 +899,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -1508,7 +1488,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -1882,7 +1862,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -1969,7 +1949,7 @@
       "alternatives": [
         "Silty",
         "Siliceous",
-        "|Kaolinite"
+        "Kaolinite"
       ]
     },
     {
@@ -1983,7 +1963,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -2129,7 +2109,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -2274,7 +2254,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -2708,7 +2688,7 @@
     {
       "top_depth": 21957.4,
       "bottom_depth": 21964.4,
-      "lithology": "|Kaolinite",
+      "lithology": "Kaolinite",
       "cluster_id": 31,
       "top_y": 12573,
       "bottom_y": 12587,
@@ -2716,8 +2696,8 @@
       "ambiguous": false,
       "alternatives": [
         "Not Available",
-        "|Pyrite",
-        "|Glauconite"
+        "Pyrite",
+        "Glauconite"
       ]
     },
     {
@@ -2772,7 +2752,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     },
@@ -2899,7 +2879,7 @@
       "ambiguous": true,
       "alternatives": [
         "Siliceous",
-        "|Kaolinite",
+        "Kaolinite",
         "Argillaceous"
       ]
     }

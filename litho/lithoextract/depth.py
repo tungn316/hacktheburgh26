@@ -79,14 +79,15 @@ def _ocr_numbers(img: np.ndarray, scale: float) -> list[tuple[float, float, floa
         pil = pil.resize((int(pil.width * scale), int(pil.height * scale)), Image.LANCZOS)
     data = pytesseract.image_to_data(
         pil,
-        config="--psm 11 -c tessedit_char_whitelist=0123456789.",
+        config="--psm 11 -c tessedit_char_whitelist=0123456789.,",
         output_type=pytesseract.Output.DICT,
     )
     out = []
     for txt, conf, l, t, w, h in zip(data["text"], data["conf"], data["left"], data["top"], data["width"], data["height"]):
-        m = re.fullmatch(r"(\d{3,6})(\.0)?", txt.strip())
+        # Plain "9120" or with thousands separators "9,120" (a stray trailing comma/dot is dropped).
+        m = re.fullmatch(r"(\d{3,6}|\d{1,3}(?:,\d{3})+)(\.0)?", txt.strip().rstrip(",."))
         if m and float(conf) > 30:
-            out.append(((l + w / 2) / scale, (t + h / 2) / scale, float(m.group(1))))
+            out.append(((l + w / 2) / scale, (t + h / 2) / scale, float(m.group(1).replace(",", ""))))
     return out
 
 

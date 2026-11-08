@@ -2595,6 +2595,16 @@
         742
       ],
       "white": false
+    },
+    {
+      "name": "Salt water",
+      "box": [
+        1068,
+        790,
+        1078,
+        814
+      ],
+      "white": false
     }
   ],
   "identical_legend_symbols": [],
@@ -2602,11 +2612,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 3.92,
+    "depth": 3.93,
     "segment": 0.53,
-    "legend": 0.19,
-    "intervals": 0.22,
-    "total": 4.87
+    "legend": 0.39,
+    "intervals": 0.24,
+    "total": 5.09
   },
   "intervals": [
     {
@@ -2616,7 +2626,7 @@
       "cluster_id": 1,
       "top_y": 1880,
       "bottom_y": 10840,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2638,7 +2648,7 @@
       "cluster_id": 1,
       "top_y": 10855,
       "bottom_y": 10976,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2649,7 +2659,7 @@
       "cluster_id": 2,
       "top_y": 10976,
       "bottom_y": 11028,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2660,7 +2670,7 @@
       "cluster_id": 1,
       "top_y": 11028,
       "bottom_y": 11279,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2671,7 +2681,7 @@
       "cluster_id": 2,
       "top_y": 11279,
       "bottom_y": 11964,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2682,7 +2692,7 @@
       "cluster_id": 1,
       "top_y": 11964,
       "bottom_y": 12027,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2693,7 +2703,7 @@
       "cluster_id": 2,
       "top_y": 12027,
       "bottom_y": 12194,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2704,7 +2714,7 @@
       "cluster_id": 1,
       "top_y": 12194,
       "bottom_y": 12351,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2715,7 +2725,7 @@
       "cluster_id": 2,
       "top_y": 12351,
       "bottom_y": 12393,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2726,7 +2736,7 @@
       "cluster_id": 1,
       "top_y": 12393,
       "bottom_y": 12451,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2737,7 +2747,7 @@
       "cluster_id": 2,
       "top_y": 12451,
       "bottom_y": 12482,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2748,7 +2758,7 @@
       "cluster_id": 1,
       "top_y": 12482,
       "bottom_y": 12534,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2759,7 +2769,7 @@
       "cluster_id": 2,
       "top_y": 12534,
       "bottom_y": 12576,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2770,7 +2780,7 @@
       "cluster_id": 1,
       "top_y": 12576,
       "bottom_y": 12618,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2781,7 +2791,7 @@
       "cluster_id": 2,
       "top_y": 12618,
       "bottom_y": 12769,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2792,7 +2802,7 @@
       "cluster_id": 1,
       "top_y": 12769,
       "bottom_y": 12843,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2803,7 +2813,7 @@
       "cluster_id": 2,
       "top_y": 12843,
       "bottom_y": 12958,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2814,7 +2824,7 @@
       "cluster_id": 1,
       "top_y": 12958,
       "bottom_y": 13000,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2825,7 +2835,7 @@
       "cluster_id": 2,
       "top_y": 13000,
       "bottom_y": 13240,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2836,7 +2846,7 @@
       "cluster_id": 1,
       "top_y": 13240,
       "bottom_y": 13374,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2847,7 +2857,7 @@
       "cluster_id": 2,
       "top_y": 13374,
       "bottom_y": 13494,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2858,7 +2868,7 @@
       "cluster_id": 1,
       "top_y": 13494,
       "bottom_y": 13533,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2869,7 +2879,7 @@
       "cluster_id": 2,
       "top_y": 13533,
       "bottom_y": 13690,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2880,7 +2890,7 @@
       "cluster_id": 1,
       "top_y": 13690,
       "bottom_y": 13745,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2891,7 +2901,7 @@
       "cluster_id": 2,
       "top_y": 13745,
       "bottom_y": 13821,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2902,7 +2912,7 @@
       "cluster_id": 1,
       "top_y": 13821,
       "bottom_y": 13894,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2913,7 +2923,7 @@
       "cluster_id": 2,
       "top_y": 13894,
       "bottom_y": 13981,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2924,7 +2934,7 @@
       "cluster_id": 1,
       "top_y": 13981,
       "bottom_y": 14004,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2935,7 +2945,7 @@
       "cluster_id": 2,
       "top_y": 14004,
       "bottom_y": 14226,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2946,7 +2956,7 @@
       "cluster_id": 1,
       "top_y": 14226,
       "bottom_y": 14341,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2957,7 +2967,7 @@
       "cluster_id": 2,
       "top_y": 14341,
       "bottom_y": 14391,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2968,7 +2978,7 @@
       "cluster_id": 1,
       "top_y": 14391,
       "bottom_y": 14647,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2979,7 +2989,7 @@
       "cluster_id": 2,
       "top_y": 14647,
       "bottom_y": 14974,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2990,7 +3000,7 @@
       "cluster_id": 1,
       "top_y": 14974,
       "bottom_y": 15013,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3001,7 +3011,7 @@
       "cluster_id": 2,
       "top_y": 15013,
       "bottom_y": 15052,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3012,7 +3022,7 @@
       "cluster_id": 1,
       "top_y": 15052,
       "bottom_y": 15092,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3023,7 +3033,7 @@
       "cluster_id": 2,
       "top_y": 15092,
       "bottom_y": 15306,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3034,7 +3044,7 @@
       "cluster_id": 1,
       "top_y": 15306,
       "bottom_y": 15445,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3045,7 +3055,7 @@
       "cluster_id": 2,
       "top_y": 15445,
       "bottom_y": 15534,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3056,7 +3066,7 @@
       "cluster_id": 1,
       "top_y": 15534,
       "bottom_y": 15589,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3067,7 +3077,7 @@
       "cluster_id": 2,
       "top_y": 15589,
       "bottom_y": 16522,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3078,7 +3088,7 @@
       "cluster_id": 1,
       "top_y": 16522,
       "bottom_y": 16689,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3089,7 +3099,7 @@
       "cluster_id": 2,
       "top_y": 16689,
       "bottom_y": 17485,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3100,7 +3110,7 @@
       "cluster_id": 1,
       "top_y": 17485,
       "bottom_y": 17689,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3111,7 +3121,7 @@
       "cluster_id": 2,
       "top_y": 17689,
       "bottom_y": 17731,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3122,7 +3132,7 @@
       "cluster_id": 1,
       "top_y": 17731,
       "bottom_y": 17877,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3133,7 +3143,7 @@
       "cluster_id": 2,
       "top_y": 17877,
       "bottom_y": 17919,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3144,7 +3154,7 @@
       "cluster_id": 1,
       "top_y": 17919,
       "bottom_y": 20351,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3155,7 +3165,7 @@
       "cluster_id": 2,
       "top_y": 20351,
       "bottom_y": 20393,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3166,7 +3176,7 @@
       "cluster_id": 1,
       "top_y": 20393,
       "bottom_y": 20503,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3177,7 +3187,7 @@
       "cluster_id": 2,
       "top_y": 20503,
       "bottom_y": 20576,
-      "confidence": 0.936,
+      "confidence": 0.914,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3188,7 +3198,7 @@
       "cluster_id": 1,
       "top_y": 20576,
       "bottom_y": 21031,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3210,7 +3220,7 @@
       "cluster_id": 1,
       "top_y": 26997,
       "bottom_y": 27044,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3232,7 +3242,7 @@
       "cluster_id": 1,
       "top_y": 27086,
       "bottom_y": 27128,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3254,7 +3264,7 @@
       "cluster_id": 1,
       "top_y": 28670,
       "bottom_y": 28712,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3276,7 +3286,7 @@
       "cluster_id": 1,
       "top_y": 29136,
       "bottom_y": 29304,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3298,7 +3308,7 @@
       "cluster_id": 1,
       "top_y": 29608,
       "bottom_y": 29654,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3320,7 +3330,7 @@
       "cluster_id": 1,
       "top_y": 30406,
       "bottom_y": 30442,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3342,7 +3352,7 @@
       "cluster_id": 1,
       "top_y": 30872,
       "bottom_y": 30914,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3364,7 +3374,7 @@
       "cluster_id": 1,
       "top_y": 31207,
       "bottom_y": 31322,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3386,7 +3396,7 @@
       "cluster_id": 1,
       "top_y": 31343,
       "bottom_y": 31404,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3408,7 +3418,7 @@
       "cluster_id": 1,
       "top_y": 32005,
       "bottom_y": 32047,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3430,7 +3440,7 @@
       "cluster_id": 1,
       "top_y": 36831,
       "bottom_y": 37135,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3452,7 +3462,7 @@
       "cluster_id": 1,
       "top_y": 38170,
       "bottom_y": 38264,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3496,7 +3506,7 @@
       "cluster_id": 1,
       "top_y": 43704,
       "bottom_y": 43892,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3518,7 +3528,7 @@
       "cluster_id": 1,
       "top_y": 45315,
       "bottom_y": 45744,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3540,7 +3550,7 @@
       "cluster_id": 1,
       "top_y": 51974,
       "bottom_y": 52121,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3562,7 +3572,7 @@
       "cluster_id": 1,
       "top_y": 56636,
       "bottom_y": 56813,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3584,7 +3594,7 @@
       "cluster_id": 1,
       "top_y": 57889,
       "bottom_y": 58026,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3606,7 +3616,7 @@
       "cluster_id": 1,
       "top_y": 58235,
       "bottom_y": 58351,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3624,11 +3634,11 @@
     {
       "top_depth": 16933.69,
       "bottom_depth": 16934.88,
-      "lithology": "Sand-FSS",
+      "lithology": "Salt water",
       "cluster_id": 4,
       "top_y": 60707,
       "bottom_y": 60716,
-      "confidence": 0.364,
+      "confidence": 0.693,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3639,7 +3649,7 @@
       "cluster_id": 1,
       "top_y": 60716,
       "bottom_y": 60779,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3661,7 +3671,7 @@
       "cluster_id": 1,
       "top_y": 62992,
       "bottom_y": 63113,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3683,7 +3693,7 @@
       "cluster_id": 1,
       "top_y": 63208,
       "bottom_y": 63265,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3705,7 +3715,7 @@
       "cluster_id": 1,
       "top_y": 63323,
       "bottom_y": 63370,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3727,7 +3737,7 @@
       "cluster_id": 1,
       "top_y": 63564,
       "bottom_y": 63674,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3749,7 +3759,7 @@
       "cluster_id": 1,
       "top_y": 63816,
       "bottom_y": 63947,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3771,7 +3781,7 @@
       "cluster_id": 1,
       "top_y": 64009,
       "bottom_y": 64924,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3793,7 +3803,7 @@
       "cluster_id": 1,
       "top_y": 69542,
       "bottom_y": 69710,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3815,7 +3825,7 @@
       "cluster_id": 1,
       "top_y": 70228,
       "bottom_y": 70521,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3837,7 +3847,7 @@
       "cluster_id": 1,
       "top_y": 70731,
       "bottom_y": 70909,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3859,7 +3869,7 @@
       "cluster_id": 1,
       "top_y": 73953,
       "bottom_y": 74047,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3881,7 +3891,7 @@
       "cluster_id": 1,
       "top_y": 74115,
       "bottom_y": 74194,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3903,7 +3913,7 @@
       "cluster_id": 1,
       "top_y": 74498,
       "bottom_y": 74577,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3925,7 +3935,7 @@
       "cluster_id": 1,
       "top_y": 74897,
       "bottom_y": 75008,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3947,7 +3957,7 @@
       "cluster_id": 1,
       "top_y": 75075,
       "bottom_y": 75165,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3969,7 +3979,7 @@
       "cluster_id": 1,
       "top_y": 75516,
       "bottom_y": 75763,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3991,7 +4001,7 @@
       "cluster_id": 1,
       "top_y": 76120,
       "bottom_y": 76230,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4013,7 +4023,7 @@
       "cluster_id": 1,
       "top_y": 76340,
       "bottom_y": 76377,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4035,7 +4045,7 @@
       "cluster_id": 1,
       "top_y": 76445,
       "bottom_y": 76513,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4057,7 +4067,7 @@
       "cluster_id": 1,
       "top_y": 76602,
       "bottom_y": 76713,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4079,7 +4089,7 @@
       "cluster_id": 1,
       "top_y": 76781,
       "bottom_y": 76838,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4101,7 +4111,7 @@
       "cluster_id": 1,
       "top_y": 76870,
       "bottom_y": 76901,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4123,7 +4133,7 @@
       "cluster_id": 1,
       "top_y": 76922,
       "bottom_y": 76980,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4145,7 +4155,7 @@
       "cluster_id": 1,
       "top_y": 77006,
       "bottom_y": 77043,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4167,7 +4177,7 @@
       "cluster_id": 1,
       "top_y": 77064,
       "bottom_y": 77158,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4189,7 +4199,7 @@
       "cluster_id": 1,
       "top_y": 77227,
       "bottom_y": 77268,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4211,7 +4221,7 @@
       "cluster_id": 1,
       "top_y": 77311,
       "bottom_y": 77342,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4233,7 +4243,7 @@
       "cluster_id": 1,
       "top_y": 77374,
       "bottom_y": 77405,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4255,7 +4265,7 @@
       "cluster_id": 1,
       "top_y": 77452,
       "bottom_y": 77494,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4277,7 +4287,7 @@
       "cluster_id": 1,
       "top_y": 77730,
       "bottom_y": 77777,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4299,7 +4309,7 @@
       "cluster_id": 1,
       "top_y": 77825,
       "bottom_y": 77914,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4321,7 +4331,7 @@
       "cluster_id": 1,
       "top_y": 78066,
       "bottom_y": 78124,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4343,7 +4353,7 @@
       "cluster_id": 1,
       "top_y": 78308,
       "bottom_y": 78353,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4365,7 +4375,7 @@
       "cluster_id": 1,
       "top_y": 78578,
       "bottom_y": 78623,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4387,7 +4397,7 @@
       "cluster_id": 1,
       "top_y": 78683,
       "bottom_y": 78738,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4409,7 +4419,7 @@
       "cluster_id": 1,
       "top_y": 79237,
       "bottom_y": 79439,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4431,7 +4441,7 @@
       "cluster_id": 1,
       "top_y": 79651,
       "bottom_y": 79688,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4453,7 +4463,7 @@
       "cluster_id": 1,
       "top_y": 79793,
       "bottom_y": 79877,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4475,7 +4485,7 @@
       "cluster_id": 1,
       "top_y": 80848,
       "bottom_y": 80932,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4497,7 +4507,7 @@
       "cluster_id": 1,
       "top_y": 81008,
       "bottom_y": 81039,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4519,7 +4529,7 @@
       "cluster_id": 1,
       "top_y": 81618,
       "bottom_y": 81637,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4541,7 +4551,7 @@
       "cluster_id": 1,
       "top_y": 81653,
       "bottom_y": 81692,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4563,7 +4573,7 @@
       "cluster_id": 1,
       "top_y": 81749,
       "bottom_y": 81789,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4585,7 +4595,7 @@
       "cluster_id": 1,
       "top_y": 81902,
       "bottom_y": 81933,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4607,7 +4617,7 @@
       "cluster_id": 1,
       "top_y": 81999,
       "bottom_y": 82022,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4629,7 +4639,7 @@
       "cluster_id": 1,
       "top_y": 82049,
       "bottom_y": 82069,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4651,7 +4661,7 @@
       "cluster_id": 1,
       "top_y": 82117,
       "bottom_y": 82132,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4673,7 +4683,7 @@
       "cluster_id": 1,
       "top_y": 82356,
       "bottom_y": 82382,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4695,7 +4705,7 @@
       "cluster_id": 1,
       "top_y": 82453,
       "bottom_y": 82485,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4717,7 +4727,7 @@
       "cluster_id": 1,
       "top_y": 82542,
       "bottom_y": 82597,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4816,7 +4826,7 @@
       "cluster_id": 1,
       "top_y": 125053,
       "bottom_y": 125274,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4838,7 +4848,7 @@
       "cluster_id": 1,
       "top_y": 125337,
       "bottom_y": 129160,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4860,7 +4870,7 @@
       "cluster_id": 1,
       "top_y": 129196,
       "bottom_y": 129538,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4882,7 +4892,7 @@
       "cluster_id": 1,
       "top_y": 129559,
       "bottom_y": 132597,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4904,7 +4914,7 @@
       "cluster_id": 1,
       "top_y": 132744,
       "bottom_y": 132792,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4926,7 +4936,7 @@
       "cluster_id": 1,
       "top_y": 132864,
       "bottom_y": 132940,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4948,7 +4958,7 @@
       "cluster_id": 1,
       "top_y": 133042,
       "bottom_y": 133113,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4970,7 +4980,7 @@
       "cluster_id": 1,
       "top_y": 133236,
       "bottom_y": 133423,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4992,7 +5002,7 @@
       "cluster_id": 1,
       "top_y": 133671,
       "bottom_y": 133759,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5014,7 +5024,7 @@
       "cluster_id": 1,
       "top_y": 133838,
       "bottom_y": 133912,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5036,7 +5046,7 @@
       "cluster_id": 1,
       "top_y": 133960,
       "bottom_y": 134440,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5058,7 +5068,7 @@
       "cluster_id": 1,
       "top_y": 134539,
       "bottom_y": 136199,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5080,7 +5090,7 @@
       "cluster_id": 1,
       "top_y": 136283,
       "bottom_y": 136325,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5102,7 +5112,7 @@
       "cluster_id": 1,
       "top_y": 136693,
       "bottom_y": 136732,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5124,7 +5134,7 @@
       "cluster_id": 1,
       "top_y": 136989,
       "bottom_y": 137021,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5146,7 +5156,7 @@
       "cluster_id": 1,
       "top_y": 137399,
       "bottom_y": 138125,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5168,7 +5178,7 @@
       "cluster_id": 1,
       "top_y": 138643,
       "bottom_y": 138710,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5190,7 +5200,7 @@
       "cluster_id": 1,
       "top_y": 139279,
       "bottom_y": 139513,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5212,7 +5222,7 @@
       "cluster_id": 1,
       "top_y": 140109,
       "bottom_y": 140385,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5234,7 +5244,7 @@
       "cluster_id": 1,
       "top_y": 140460,
       "bottom_y": 140605,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5256,7 +5266,7 @@
       "cluster_id": 1,
       "top_y": 140695,
       "bottom_y": 140767,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5278,7 +5288,7 @@
       "cluster_id": 1,
       "top_y": 140857,
       "bottom_y": 141282,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5300,7 +5310,7 @@
       "cluster_id": 1,
       "top_y": 141374,
       "bottom_y": 142091,
-      "confidence": 0.942,
+      "confidence": 0.924,
       "ambiguous": false,
       "alternatives": []
     }

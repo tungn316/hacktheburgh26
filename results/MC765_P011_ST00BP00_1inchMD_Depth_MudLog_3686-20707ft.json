@@ -959,16 +959,6 @@
       "white": false
     },
     {
-      "name": "Core",
-      "box": [
-        1370,
-        1259,
-        1434,
-        1307
-      ],
-      "white": false
-    },
-    {
       "name": "FIT",
       "box": [
         111,
@@ -1007,6 +997,16 @@
         1307
       ],
       "white": false
+    },
+    {
+      "name": "Core",
+      "box": [
+        1370,
+        1259,
+        1434,
+        1307
+      ],
+      "white": false
     }
   ],
   "identical_legend_symbols": [
@@ -1019,11 +1019,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 1.84,
+    "depth": 1.79,
     "segment": 0.15,
-    "legend": 0.31,
+    "legend": 0.56,
     "intervals": 0.09,
-    "total": 2.38
+    "total": 2.6
   },
   "intervals": [
     {

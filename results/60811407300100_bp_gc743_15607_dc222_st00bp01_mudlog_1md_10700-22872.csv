@@ -35,7 +35,7 @@ top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
 13373.57,13397.57,Dolomitic Sandstone,1,6885,6933
 13397.57,13424.06,Silty clay-shale,0,6933,6986
 13424.06,13436.56,Dolomitic Sandstone,1,6986,7011
-13436.56,13440.06,Coarse Sandstone,5,7011,7018
+13436.56,13440.06,Medium Sand,5,7011,7018
 13440.06,13446.06,Dolomitic Sandstone,1,7018,7030
 13446.06,13462.56,Silty clay-shale,0,7030,7063
 13462.56,13476.06,Dolomitic Sandstone,1,7063,7090
@@ -114,7 +114,7 @@ top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
 16650.91,16769.19,Silty clay-shale,0,13438,13676
 16769.19,16775.65,Dolomitic Sandstone,1,13676,13689
 16775.65,16877.93,Silty clay-shale,0,13689,13894
-16877.93,16880.42,Calcareous,20,13894,13899
+16877.93,16880.42,Calcareous Sandstone,20,13894,13899
 16880.42,16886.42,Dolomitic Sandstone,1,13899,13911
 16886.42,16945.86,Silty clay-shale,0,13911,14030
 16945.86,16948.86,Clay Shale,18,14030,14036
@@ -169,7 +169,7 @@ top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
 19153.54,19244.96,Silty clay-shale,0,18447,18630
 19244.96,19256.45,Dolomitic Sandstone,1,18630,18653
 19256.45,19280.93,Silty clay-shale,0,18653,18702
-19280.93,19286.93,Coarse Sandstone,5,18702,18714
+19280.93,19286.93,Medium Sand,5,18702,18714
 19286.93,19292.42,Marl,2,18714,18725
 19292.42,19309.41,Silty clay-shale,0,18725,18759
 19309.41,19318.4,Marl,2,18759,18777
@@ -243,7 +243,7 @@ top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
 20392.56,20440.55,Silty clay-shale,0,20926,21022
 20440.55,20448.05,Dolomitic Sandstone,1,21022,21037
 20448.05,20451.55,Silty clay-shale,0,21037,21044
-20451.55,20458.55,Coarse Sandstone,5,21044,21058
+20451.55,20458.55,Medium Sand,5,21044,21058
 20458.55,20505.04,Silty clay-shale,0,21058,21151
 20505.04,20512.04,Dolomitic Sandstone,1,21151,21165
 20512.04,20515.54,Silty clay-shale,0,21165,21172
@@ -299,11 +299,11 @@ top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
 22221.34,22251.88,Dolomitic Sandstone,1,24580,24641
 22251.88,22265.9,Marl,4,24641,24669
 22265.9,22270.41,Dolomitic Sandstone,1,24669,24678
-22270.41,22273.41,Calcareous,13,24678,24684
+22270.41,22273.41,Calcareous Sandstone,13,24678,24684
 22273.41,22280.92,Dolomitic Sandstone,1,24684,24699
 22280.92,22302.95,Silty clay-shale,0,24699,24743
-22302.95,22308.96,Dolomitic Sandstone,7,24743,24755
-22308.96,22311.46,Calcareous,13,24755,24760
+22302.95,22308.96,Medium Sand,7,24743,24755
+22308.96,22311.46,Calcareous Sandstone,13,24755,24760
 22311.46,22349.51,Dolomitic Sandstone,1,24760,24836
 22349.51,22365.53,Silty clay-shale,0,24836,24868
 22365.53,22375.04,Marl,2,24868,24887
@@ -316,8 +316,8 @@ top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
 22419.6,22443.13,Dolomitic Sandstone,1,24976,25023
 22443.13,22446.63,Silty clay-shale,0,25023,25030
 22446.63,22481.68,Dolomitic Sandstone,1,25030,25100
-22481.68,22486.19,Calcareous,13,25100,25109
-22486.19,22491.19,Dolomitic Sandstone,7,25109,25119
+22481.68,22486.19,Calcareous Sandstone,13,25100,25109
+22486.19,22491.19,Medium Sand,7,25109,25119
 22491.19,22500.7,Silty clay-shale,0,25119,25138
 22500.7,22505.21,Marl,2,25138,25147
 22505.21,22524.24,Dolomitic Sandstone,1,25147,25185

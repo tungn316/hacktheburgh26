@@ -679,26 +679,6 @@
       "white": false
     },
     {
-      "name": "Volcanic",
-      "box": [
-        1583,
-        1159,
-        1679,
-        1231
-      ],
-      "white": false
-    },
-    {
-      "name": "Anhydrite",
-      "box": [
-        635,
-        1159,
-        731,
-        1231
-      ],
-      "white": false
-    },
-    {
       "name": "Chert",
       "box": [
         1109,
@@ -709,11 +689,41 @@
       "white": false
     },
     {
+      "name": "Volcanic",
+      "box": [
+        1583,
+        1159,
+        1679,
+        1231
+      ],
+      "white": false
+    },
+    {
       "name": "Granite",
       "box": [
         2057,
         1159,
         2153,
+        1231
+      ],
+      "white": false
+    },
+    {
+      "name": "Gypsum",
+      "box": [
+        161,
+        1159,
+        256,
+        1231
+      ],
+      "white": false
+    },
+    {
+      "name": "Anhydrite",
+      "box": [
+        635,
+        1159,
+        731,
         1231
       ],
       "white": false
@@ -761,10 +771,10 @@
     {
       "name": "Test",
       "box": [
-        2057,
-        1264,
-        2153,
-        1336
+        2077,
+        1277,
+        2134,
+        1322
       ],
       "white": false
     },
@@ -827,6 +837,46 @@
         1441
       ],
       "white": false
+    },
+    {
+      "name": "Siltstone",
+      "box": [
+        146,
+        954,
+        278,
+        1026
+      ],
+      "white": false
+    },
+    {
+      "name": "Sandstone",
+      "box": [
+        620,
+        954,
+        752,
+        1026
+      ],
+      "white": false
+    },
+    {
+      "name": "Halite",
+      "box": [
+        1095,
+        954,
+        1227,
+        1026
+      ],
+      "white": false
+    },
+    {
+      "name": "Clay",
+      "box": [
+        2043,
+        957,
+        2175,
+        1029
+      ],
+      "white": false
     }
   ],
   "identical_legend_symbols": [
@@ -839,11 +889,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 1.94,
-    "segment": 0.53,
-    "legend": 0.49,
-    "intervals": 0.28,
-    "total": 3.25
+    "depth": 1.96,
+    "segment": 0.54,
+    "legend": 0.61,
+    "intervals": 0.27,
+    "total": 3.38
   },
   "intervals": [
     {
@@ -853,18 +903,18 @@
       "cluster_id": 1,
       "top_y": 10093,
       "bottom_y": 10296,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 6947.0,
       "bottom_depth": 6963.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 10296,
       "bottom_y": 10345,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -875,7 +925,7 @@
       "cluster_id": 1,
       "top_y": 10345,
       "bottom_y": 10567,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -897,7 +947,7 @@
       "cluster_id": 1,
       "top_y": 10668,
       "bottom_y": 10843,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -919,23 +969,20 @@
       "cluster_id": 1,
       "top_y": 10902,
       "bottom_y": 11136,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 7227.0,
       "bottom_depth": 7251.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 11136,
       "bottom_y": 11209,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 7251.33,
@@ -955,7 +1002,7 @@
       "cluster_id": 1,
       "top_y": 11230,
       "bottom_y": 11256,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -966,9 +1013,11 @@
       "cluster_id": 18,
       "top_y": 11256,
       "bottom_y": 11281,
-      "confidence": 0.28,
+      "confidence": 0.216,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 7275.33,
@@ -977,7 +1026,7 @@
       "cluster_id": 1,
       "top_y": 11281,
       "bottom_y": 11328,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -999,7 +1048,7 @@
       "cluster_id": 1,
       "top_y": 11352,
       "bottom_y": 11496,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1021,7 +1070,7 @@
       "cluster_id": 1,
       "top_y": 11506,
       "bottom_y": 11640,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1032,9 +1081,12 @@
       "cluster_id": 20,
       "top_y": 11640,
       "bottom_y": 11665,
-      "confidence": 0.197,
-      "ambiguous": false,
-      "alternatives": []
+      "confidence": 0.019,
+      "ambiguous": true,
+      "alternatives": [
+        "Sandstone",
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 7403.33,
@@ -1043,18 +1095,18 @@
       "cluster_id": 1,
       "top_y": 11665,
       "bottom_y": 11784,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 7443.0,
       "bottom_depth": 7451.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 11784,
       "bottom_y": 11808,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1076,7 +1128,7 @@
       "cluster_id": 1,
       "top_y": 11830,
       "bottom_y": 12144,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1098,7 +1150,7 @@
       "cluster_id": 1,
       "top_y": 12154,
       "bottom_y": 12228,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1120,7 +1172,7 @@
       "cluster_id": 1,
       "top_y": 12240,
       "bottom_y": 12612,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1142,20 +1194,34 @@
       "cluster_id": 1,
       "top_y": 12622,
       "bottom_y": 12816,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 7787.0,
-      "bottom_depth": 7807.0,
-      "lithology": "Volcanic",
+      "bottom_depth": 7799.0,
+      "lithology": "Sandstone",
       "cluster_id": 9,
       "top_y": 12816,
-      "bottom_y": 12876,
-      "confidence": 0.171,
+      "bottom_y": 12852,
+      "confidence": 0.295,
       "ambiguous": false,
       "alternatives": []
+    },
+    {
+      "top_depth": 7799.0,
+      "bottom_depth": 7807.0,
+      "lithology": "Volcanic",
+      "cluster_id": 20,
+      "top_y": 12852,
+      "bottom_y": 12876,
+      "confidence": 0.019,
+      "ambiguous": true,
+      "alternatives": [
+        "Sandstone",
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 7807.0,
@@ -1164,7 +1230,7 @@
       "cluster_id": 1,
       "top_y": 12876,
       "bottom_y": 13116,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1186,7 +1252,7 @@
       "cluster_id": 1,
       "top_y": 13140,
       "bottom_y": 13301,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1208,7 +1274,7 @@
       "cluster_id": 1,
       "top_y": 13350,
       "bottom_y": 13404,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1230,7 +1296,7 @@
       "cluster_id": 1,
       "top_y": 13446,
       "bottom_y": 13518,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1252,7 +1318,7 @@
       "cluster_id": 1,
       "top_y": 13542,
       "bottom_y": 13735,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1263,9 +1329,11 @@
       "cluster_id": 18,
       "top_y": 13735,
       "bottom_y": 13758,
-      "confidence": 0.28,
+      "confidence": 0.216,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 8101.0,
@@ -1274,7 +1342,7 @@
       "cluster_id": 1,
       "top_y": 13758,
       "bottom_y": 13771,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1296,7 +1364,7 @@
       "cluster_id": 1,
       "top_y": 13837,
       "bottom_y": 14184,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1318,7 +1386,7 @@
       "cluster_id": 1,
       "top_y": 14196,
       "bottom_y": 14365,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1340,7 +1408,7 @@
       "cluster_id": 1,
       "top_y": 14377,
       "bottom_y": 14497,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1362,7 +1430,7 @@
       "cluster_id": 1,
       "top_y": 14509,
       "bottom_y": 14623,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1384,7 +1452,7 @@
       "cluster_id": 1,
       "top_y": 14635,
       "bottom_y": 14743,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1406,7 +1474,7 @@
       "cluster_id": 1,
       "top_y": 14757,
       "bottom_y": 14863,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1428,7 +1496,7 @@
       "cluster_id": 1,
       "top_y": 14874,
       "bottom_y": 14959,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1450,7 +1518,7 @@
       "cluster_id": 1,
       "top_y": 14970,
       "bottom_y": 15043,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1472,7 +1540,7 @@
       "cluster_id": 1,
       "top_y": 15055,
       "bottom_y": 15247,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1494,7 +1562,7 @@
       "cluster_id": 1,
       "top_y": 15270,
       "bottom_y": 15511,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1516,7 +1584,7 @@
       "cluster_id": 1,
       "top_y": 15523,
       "bottom_y": 15619,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1538,7 +1606,7 @@
       "cluster_id": 1,
       "top_y": 15630,
       "bottom_y": 15667,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1560,7 +1628,7 @@
       "cluster_id": 1,
       "top_y": 15681,
       "bottom_y": 15823,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1582,7 +1650,7 @@
       "cluster_id": 1,
       "top_y": 15834,
       "bottom_y": 16141,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1604,7 +1672,7 @@
       "cluster_id": 1,
       "top_y": 16153,
       "bottom_y": 16345,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1622,16 +1690,16 @@
     {
       "top_depth": 8967.0,
       "bottom_depth": 8975.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 21,
       "top_y": 16357,
       "bottom_y": 16381,
-      "confidence": 0.023,
-      "ambiguous": true,
+      "confidence": 0.178,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
@@ -1641,7 +1709,7 @@
       "cluster_id": 1,
       "top_y": 16381,
       "bottom_y": 16549,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1666,7 +1734,7 @@
       "cluster_id": 1,
       "top_y": 16573,
       "bottom_y": 16621,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1691,7 +1759,7 @@
       "cluster_id": 1,
       "top_y": 16633,
       "bottom_y": 16669,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1716,7 +1784,7 @@
       "cluster_id": 1,
       "top_y": 16681,
       "bottom_y": 16705,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1755,7 +1823,7 @@
       "cluster_id": 1,
       "top_y": 16765,
       "bottom_y": 16789,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1794,7 +1862,7 @@
       "cluster_id": 1,
       "top_y": 16873,
       "bottom_y": 16897,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1819,7 +1887,7 @@
       "cluster_id": 1,
       "top_y": 16933,
       "bottom_y": 17113,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1844,7 +1912,7 @@
       "cluster_id": 1,
       "top_y": 17185,
       "bottom_y": 17221,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1869,7 +1937,7 @@
       "cluster_id": 1,
       "top_y": 17437,
       "bottom_y": 17550,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1895,7 +1963,7 @@
       "cluster_id": 1,
       "top_y": 17560,
       "bottom_y": 18603,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1917,7 +1985,7 @@
       "cluster_id": 1,
       "top_y": 18625,
       "bottom_y": 18793,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1939,7 +2007,7 @@
       "cluster_id": 1,
       "top_y": 18805,
       "bottom_y": 19303,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1961,7 +2029,7 @@
       "cluster_id": 1,
       "top_y": 19339,
       "bottom_y": 19527,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -1972,9 +2040,11 @@
       "cluster_id": 18,
       "top_y": 19527,
       "bottom_y": 19554,
-      "confidence": 0.28,
+      "confidence": 0.216,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 10032.56,
@@ -1983,7 +2053,7 @@
       "cluster_id": 1,
       "top_y": 19554,
       "bottom_y": 19615,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2005,7 +2075,7 @@
       "cluster_id": 1,
       "top_y": 19639,
       "bottom_y": 20263,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2027,7 +2097,7 @@
       "cluster_id": 1,
       "top_y": 20299,
       "bottom_y": 20311,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2045,16 +2115,16 @@
     {
       "top_depth": 10292.84,
       "bottom_depth": 10301.5,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 19,
       "top_y": 20335,
       "bottom_y": 20361,
-      "confidence": 0.175,
-      "ambiguous": false,
+      "confidence": 0.01,
+      "ambiguous": true,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
@@ -2064,7 +2134,7 @@
       "cluster_id": 1,
       "top_y": 20361,
       "bottom_y": 20383,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2082,13 +2152,15 @@
     {
       "top_depth": 10316.83,
       "bottom_depth": 10328.83,
-      "lithology": "Marl",
+      "lithology": "Clay",
       "cluster_id": 11,
       "top_y": 20407,
       "bottom_y": 20443,
-      "confidence": 0.368,
+      "confidence": 0.167,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Marl"
+      ]
     },
     {
       "top_depth": 10328.83,
@@ -2097,9 +2169,11 @@
       "cluster_id": 0,
       "top_y": 20443,
       "bottom_y": 31877,
-      "confidence": 0.848,
+      "confidence": 0.64,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Halite"
+      ]
     },
     {
       "top_depth": 14139.67,
@@ -2108,7 +2182,7 @@
       "cluster_id": 1,
       "top_y": 31877,
       "bottom_y": 31887,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2119,23 +2193,25 @@
       "cluster_id": 0,
       "top_y": 31887,
       "bottom_y": 46534,
-      "confidence": 0.848,
+      "confidence": 0.64,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Halite"
+      ]
     },
     {
       "top_depth": 19024.67,
       "bottom_depth": 19029.33,
-      "lithology": "Dry",
+      "lithology": "Halite",
       "cluster_id": 26,
       "top_y": 46534,
       "bottom_y": 46548,
-      "confidence": 0.005,
-      "ambiguous": true,
+      "confidence": 0.138,
+      "ambiguous": false,
       "alternatives": [
+        "Dry",
         "Fresh water",
-        "Chert",
-        "Deviation"
+        "Chert"
       ]
     },
     {
@@ -2145,9 +2221,11 @@
       "cluster_id": 0,
       "top_y": 46548,
       "bottom_y": 47405,
-      "confidence": 0.848,
+      "confidence": 0.64,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Halite"
+      ]
     },
     {
       "top_depth": 19315.0,
@@ -2156,7 +2234,7 @@
       "cluster_id": 1,
       "top_y": 47405,
       "bottom_y": 48185,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2180,24 +2258,20 @@
       "cluster_id": 1,
       "top_y": 48197,
       "bottom_y": 48749,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 19763.0,
       "bottom_depth": 19775.0,
-      "lithology": "Dry",
+      "lithology": "Sandstone",
       "cluster_id": 8,
       "top_y": 48749,
       "bottom_y": 48785,
-      "confidence": 0.004,
-      "ambiguous": true,
-      "alternatives": [
-        "Fresh water",
-        "Deviation",
-        "survey"
-      ]
+      "confidence": 0.474,
+      "ambiguous": false,
+      "alternatives": []
     },
     {
       "top_depth": 19775.0,
@@ -2206,18 +2280,18 @@
       "cluster_id": 1,
       "top_y": 48785,
       "bottom_y": 48857,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 19799.0,
       "bottom_depth": 19807.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 48857,
       "bottom_y": 48883,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2239,7 +2313,7 @@
       "cluster_id": 1,
       "top_y": 48905,
       "bottom_y": 49027,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2257,11 +2331,11 @@
     {
       "top_depth": 19862.67,
       "bottom_depth": 19875.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 9,
       "top_y": 49048,
       "bottom_y": 49085,
-      "confidence": 0.171,
+      "confidence": 0.295,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2272,7 +2346,7 @@
       "cluster_id": 1,
       "top_y": 49085,
       "bottom_y": 49123,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2283,9 +2357,11 @@
       "cluster_id": 18,
       "top_y": 49123,
       "bottom_y": 49145,
-      "confidence": 0.28,
+      "confidence": 0.216,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 19895.0,
@@ -2294,22 +2370,21 @@
       "cluster_id": 1,
       "top_y": 49145,
       "bottom_y": 49303,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 19947.67,
       "bottom_depth": 19963.0,
-      "lithology": "Oil",
+      "lithology": "Sandstone",
       "cluster_id": 6,
       "top_y": 49303,
       "bottom_y": 49349,
-      "confidence": 0.116,
+      "confidence": 0.256,
       "ambiguous": false,
       "alternatives": [
-        "Mud loss",
-        "Mud gain"
+        "Oil"
       ]
     },
     {
@@ -2319,44 +2394,44 @@
       "cluster_id": 1,
       "top_y": 49349,
       "bottom_y": 49517,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20019.0,
       "bottom_depth": 20023.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 49517,
       "bottom_y": 49531,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20023.67,
       "bottom_depth": 20035.67,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 5,
       "top_y": 49531,
       "bottom_y": 49567,
-      "confidence": 0.042,
-      "ambiguous": true,
+      "confidence": 0.072,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
       "top_depth": 20035.67,
       "bottom_depth": 20043.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 49567,
       "bottom_y": 49589,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2367,18 +2442,18 @@
       "cluster_id": 1,
       "top_y": 49589,
       "bottom_y": 49673,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20071.0,
       "bottom_depth": 20075.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 49673,
       "bottom_y": 49685,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2389,18 +2464,18 @@
       "cluster_id": 1,
       "top_y": 49685,
       "bottom_y": 49793,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20111.0,
       "bottom_depth": 20115.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 49793,
       "bottom_y": 49805,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2411,18 +2486,18 @@
       "cluster_id": 1,
       "top_y": 49805,
       "bottom_y": 49939,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20159.67,
       "bottom_depth": 20167.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 49939,
       "bottom_y": 49961,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2433,7 +2508,7 @@
       "cluster_id": 1,
       "top_y": 49961,
       "bottom_y": 50237,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2455,38 +2530,38 @@
       "cluster_id": 1,
       "top_y": 50249,
       "bottom_y": 50309,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20283.0,
       "bottom_depth": 20291.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 5,
       "top_y": 50309,
       "bottom_y": 50333,
-      "confidence": 0.042,
-      "ambiguous": true,
+      "confidence": 0.072,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
       "top_depth": 20291.0,
       "bottom_depth": 20299.0,
-      "lithology": "Shoe",
+      "lithology": "Siltstone",
       "cluster_id": 23,
       "top_y": 50333,
       "bottom_y": 50357,
-      "confidence": 0.108,
+      "confidence": 0.068,
       "ambiguous": false,
       "alternatives": [
+        "Shoe",
         "Test",
-        "Chalk",
-        "Fresh water"
+        "Chalk"
       ]
     },
     {
@@ -2496,7 +2571,7 @@
       "cluster_id": 1,
       "top_y": 50357,
       "bottom_y": 50381,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2521,53 +2596,53 @@
       "cluster_id": 1,
       "top_y": 50398,
       "bottom_y": 50441,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20327.0,
       "bottom_depth": 20335.0,
-      "lithology": "Shoe",
+      "lithology": "Siltstone",
       "cluster_id": 23,
       "top_y": 50441,
       "bottom_y": 50465,
-      "confidence": 0.108,
+      "confidence": 0.068,
       "ambiguous": false,
       "alternatives": [
+        "Shoe",
         "Test",
-        "Chalk",
-        "Fresh water"
+        "Chalk"
       ]
     },
     {
       "top_depth": 20335.0,
       "bottom_depth": 20343.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 5,
       "top_y": 50465,
       "bottom_y": 50489,
-      "confidence": 0.042,
-      "ambiguous": true,
+      "confidence": 0.072,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
       "top_depth": 20343.0,
       "bottom_depth": 20351.0,
-      "lithology": "Shoe",
+      "lithology": "Siltstone",
       "cluster_id": 23,
       "top_y": 50489,
       "bottom_y": 50513,
-      "confidence": 0.108,
+      "confidence": 0.068,
       "ambiguous": false,
       "alternatives": [
+        "Shoe",
         "Test",
-        "Chalk",
-        "Fresh water"
+        "Chalk"
       ]
     },
     {
@@ -2577,7 +2652,7 @@
       "cluster_id": 1,
       "top_y": 50513,
       "bottom_y": 50549,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2598,16 +2673,16 @@
     {
       "top_depth": 20367.0,
       "bottom_depth": 20379.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 5,
       "top_y": 50561,
       "bottom_y": 50597,
-      "confidence": 0.042,
-      "ambiguous": true,
+      "confidence": 0.072,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
@@ -2617,18 +2692,18 @@
       "cluster_id": 1,
       "top_y": 50597,
       "bottom_y": 50657,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20399.0,
       "bottom_depth": 20403.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 50657,
       "bottom_y": 50669,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2639,7 +2714,7 @@
       "cluster_id": 1,
       "top_y": 50669,
       "bottom_y": 50705,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2679,7 +2754,7 @@
       "cluster_id": 1,
       "top_y": 50753,
       "bottom_y": 50803,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2701,23 +2776,23 @@
       "cluster_id": 1,
       "top_y": 50813,
       "bottom_y": 50875,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20471.67,
       "bottom_depth": 20479.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 5,
       "top_y": 50875,
       "bottom_y": 50897,
-      "confidence": 0.042,
-      "ambiguous": true,
+      "confidence": 0.072,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
@@ -2741,7 +2816,7 @@
       "cluster_id": 1,
       "top_y": 50909,
       "bottom_y": 50957,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2766,7 +2841,7 @@
       "cluster_id": 1,
       "top_y": 50969,
       "bottom_y": 51113,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2786,23 +2861,48 @@
     },
     {
       "top_depth": 20555.0,
-      "bottom_depth": 20607.67,
+      "bottom_depth": 20583.67,
       "lithology": "Marl",
       "cluster_id": 1,
       "top_y": 51125,
+      "bottom_y": 51211,
+      "confidence": 0.559,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 20583.67,
+      "bottom_depth": 20595.0,
+      "lithology": "Clay",
+      "cluster_id": 15,
+      "top_y": 51211,
+      "bottom_y": 51245,
+      "confidence": 0.149,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl",
+        "Oil"
+      ]
+    },
+    {
+      "top_depth": 20595.0,
+      "bottom_depth": 20607.67,
+      "lithology": "Marl",
+      "cluster_id": 1,
+      "top_y": 51245,
       "bottom_y": 51283,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20607.67,
       "bottom_depth": 20613.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 51283,
       "bottom_y": 51299,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2827,23 +2927,20 @@
       "cluster_id": 1,
       "top_y": 51317,
       "bottom_y": 51353,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20631.0,
       "bottom_depth": 20635.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 51353,
       "bottom_y": 51365,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 20635.0,
@@ -2852,7 +2949,7 @@
       "cluster_id": 1,
       "top_y": 51365,
       "bottom_y": 51449,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2869,39 +2966,52 @@
     },
     {
       "top_depth": 20667.0,
-      "bottom_depth": 20711.0,
+      "bottom_depth": 20699.0,
       "lithology": "Marl",
       "cluster_id": 1,
       "top_y": 51461,
-      "bottom_y": 51593,
-      "confidence": 0.777,
+      "bottom_y": 51557,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
+      "top_depth": 20699.0,
+      "bottom_depth": 20711.0,
+      "lithology": "Clay",
+      "cluster_id": 12,
+      "top_y": 51557,
+      "bottom_y": 51593,
+      "confidence": 0.174,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl"
+      ]
+    },
+    {
       "top_depth": 20711.0,
       "bottom_depth": 20715.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 51593,
       "bottom_y": 51605,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20715.0,
       "bottom_depth": 20723.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 21,
       "top_y": 51605,
       "bottom_y": 51629,
-      "confidence": 0.023,
-      "ambiguous": true,
+      "confidence": 0.178,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
@@ -2911,18 +3021,18 @@
       "cluster_id": 1,
       "top_y": 51629,
       "bottom_y": 51679,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20739.67,
       "bottom_depth": 20743.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 51679,
       "bottom_y": 51689,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2933,23 +3043,20 @@
       "cluster_id": 1,
       "top_y": 51689,
       "bottom_y": 51761,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20767.0,
       "bottom_depth": 20771.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 51761,
       "bottom_y": 51773,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 20771.0,
@@ -2958,7 +3065,7 @@
       "cluster_id": 1,
       "top_y": 51773,
       "bottom_y": 51859,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -2980,33 +3087,33 @@
       "cluster_id": 1,
       "top_y": 51869,
       "bottom_y": 51941,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20827.0,
       "bottom_depth": 20835.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 21,
       "top_y": 51941,
       "bottom_y": 51965,
-      "confidence": 0.023,
-      "ambiguous": true,
+      "confidence": 0.178,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
       "top_depth": 20835.0,
       "bottom_depth": 20839.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 51965,
       "bottom_y": 51977,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3017,7 +3124,7 @@
       "cluster_id": 1,
       "top_y": 51977,
       "bottom_y": 52217,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3039,23 +3146,20 @@
       "cluster_id": 1,
       "top_y": 52229,
       "bottom_y": 52289,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 20943.0,
       "bottom_depth": 20947.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 52289,
       "bottom_y": 52301,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 20947.0,
@@ -3064,7 +3168,7 @@
       "cluster_id": 1,
       "top_y": 52301,
       "bottom_y": 52327,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3075,9 +3179,12 @@
       "cluster_id": 20,
       "top_y": 52327,
       "bottom_y": 52349,
-      "confidence": 0.197,
-      "ambiguous": false,
-      "alternatives": []
+      "confidence": 0.019,
+      "ambiguous": true,
+      "alternatives": [
+        "Sandstone",
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 20963.0,
@@ -3086,38 +3193,35 @@
       "cluster_id": 1,
       "top_y": 52349,
       "bottom_y": 52559,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21033.0,
       "bottom_depth": 21041.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 21,
       "top_y": 52559,
       "bottom_y": 52583,
-      "confidence": 0.023,
-      "ambiguous": true,
+      "confidence": 0.178,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
       "top_depth": 21041.0,
       "bottom_depth": 21045.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 52583,
       "bottom_y": 52597,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 21045.67,
@@ -3126,18 +3230,18 @@
       "cluster_id": 1,
       "top_y": 52597,
       "bottom_y": 52831,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21123.59,
       "bottom_depth": 21133.55,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 52831,
       "bottom_y": 52861,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3148,23 +3252,20 @@
       "cluster_id": 1,
       "top_y": 52861,
       "bottom_y": 52883,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21140.86,
       "bottom_depth": 21148.84,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 52883,
       "bottom_y": 52907,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 21148.84,
@@ -3173,40 +3274,53 @@
       "cluster_id": 1,
       "top_y": 52907,
       "bottom_y": 52943,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21160.8,
       "bottom_depth": 21165.45,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 52943,
       "bottom_y": 52957,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21165.45,
+      "bottom_depth": 21177.41,
+      "lithology": "Clay",
+      "cluster_id": 12,
+      "top_y": 52957,
+      "bottom_y": 52993,
+      "confidence": 0.174,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl"
+      ]
+    },
+    {
+      "top_depth": 21177.41,
       "bottom_depth": 21208.67,
       "lithology": "Marl",
       "cluster_id": 1,
-      "top_y": 52957,
+      "top_y": 52993,
       "bottom_y": 53087,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21208.67,
       "bottom_depth": 21213.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 53087,
       "bottom_y": 53101,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3217,18 +3331,18 @@
       "cluster_id": 1,
       "top_y": 53101,
       "bottom_y": 53436,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21325.0,
       "bottom_depth": 21329.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 53436,
       "bottom_y": 53449,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3239,18 +3353,18 @@
       "cluster_id": 1,
       "top_y": 53449,
       "bottom_y": 53556,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21365.0,
       "bottom_depth": 21369.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 53556,
       "bottom_y": 53568,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3261,32 +3375,61 @@
       "cluster_id": 1,
       "top_y": 53568,
       "bottom_y": 53592,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21377.0,
-      "bottom_depth": 21406.67,
-      "lithology": "Oil",
+      "bottom_depth": 21388.0,
+      "lithology": "Sandstone",
       "cluster_id": 16,
       "top_y": 53592,
-      "bottom_y": 53681,
-      "confidence": 0.16,
+      "bottom_y": 53625,
+      "confidence": 0.158,
       "ambiguous": false,
       "alternatives": [
-        "Mud loss",
-        "Mud gain"
+        "Oil"
+      ]
+    },
+    {
+      "top_depth": 21388.0,
+      "bottom_depth": 21397.0,
+      "lithology": "Clay",
+      "cluster_id": 5,
+      "top_y": 53625,
+      "bottom_y": 53652,
+      "confidence": 0.072,
+      "ambiguous": false,
+      "alternatives": [
+        "Oil",
+        "Marl",
+        "Mud loss"
+      ]
+    },
+    {
+      "top_depth": 21397.0,
+      "bottom_depth": 21406.67,
+      "lithology": "Oil",
+      "cluster_id": 17,
+      "top_y": 53652,
+      "bottom_y": 53681,
+      "confidence": 0.029,
+      "ambiguous": true,
+      "alternatives": [
+        "Sandstone",
+        "Clay",
+        "Mud loss"
       ]
     },
     {
       "top_depth": 21406.67,
       "bottom_depth": 21419.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 53681,
       "bottom_y": 53718,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3297,18 +3440,18 @@
       "cluster_id": 1,
       "top_y": 53718,
       "bottom_y": 53730,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21423.0,
       "bottom_depth": 21439.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 53730,
       "bottom_y": 53778,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3319,23 +3462,20 @@
       "cluster_id": 1,
       "top_y": 53778,
       "bottom_y": 53801,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21446.67,
       "bottom_depth": 21455.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 53801,
       "bottom_y": 53826,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 21455.0,
@@ -3344,18 +3484,18 @@
       "cluster_id": 1,
       "top_y": 53826,
       "bottom_y": 53849,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21462.67,
       "bottom_depth": 21475.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 53849,
       "bottom_y": 53886,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3366,18 +3506,18 @@
       "cluster_id": 1,
       "top_y": 53886,
       "bottom_y": 53899,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21479.33,
       "bottom_depth": 21487.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 53899,
       "bottom_y": 53922,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3388,18 +3528,18 @@
       "cluster_id": 1,
       "top_y": 53922,
       "bottom_y": 53933,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21490.67,
       "bottom_depth": 21512.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 53933,
       "bottom_y": 53998,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3410,18 +3550,18 @@
       "cluster_id": 1,
       "top_y": 53998,
       "bottom_y": 54019,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21519.33,
       "bottom_depth": 21527.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 54019,
       "bottom_y": 54042,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3432,34 +3572,34 @@
       "cluster_id": 1,
       "top_y": 54042,
       "bottom_y": 54055,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21531.33,
       "bottom_depth": 21543.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 54055,
       "bottom_y": 54090,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 21543.0,
       "bottom_depth": 21551.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 5,
       "top_y": 54090,
       "bottom_y": 54114,
-      "confidence": 0.042,
-      "ambiguous": true,
+      "confidence": 0.072,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
@@ -3469,7 +3609,7 @@
       "cluster_id": 1,
       "top_y": 54114,
       "bottom_y": 54197,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3491,7 +3631,7 @@
       "cluster_id": 1,
       "top_y": 54210,
       "bottom_y": 54271,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3513,7 +3653,7 @@
       "cluster_id": 1,
       "top_y": 54282,
       "bottom_y": 54906,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3535,23 +3675,23 @@
       "cluster_id": 1,
       "top_y": 54918,
       "bottom_y": 57318,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 22619.0,
       "bottom_depth": 22626.67,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 24,
       "top_y": 57318,
       "bottom_y": 57341,
-      "confidence": 0.024,
-      "ambiguous": true,
+      "confidence": 0.087,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Limestone",
-        "Marl",
-        "Dolomitic Limestone"
+        "Marl"
       ]
     },
     {
@@ -3575,18 +3715,18 @@
       "cluster_id": 1,
       "top_y": 57354,
       "bottom_y": 57535,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 22691.33,
       "bottom_depth": 22755.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 57535,
       "bottom_y": 57726,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3597,7 +3737,7 @@
       "cluster_id": 1,
       "top_y": 57726,
       "bottom_y": 57882,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3619,7 +3759,7 @@
       "cluster_id": 1,
       "top_y": 57894,
       "bottom_y": 58159,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3641,7 +3781,7 @@
       "cluster_id": 1,
       "top_y": 58170,
       "bottom_y": 58531,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3663,7 +3803,7 @@
       "cluster_id": 1,
       "top_y": 58542,
       "bottom_y": 58770,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3681,16 +3821,16 @@
     {
       "top_depth": 23107.0,
       "bottom_depth": 23127.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 5,
       "top_y": 58782,
       "bottom_y": 58842,
-      "confidence": 0.042,
-      "ambiguous": true,
+      "confidence": 0.072,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
@@ -3700,9 +3840,11 @@
       "cluster_id": 18,
       "top_y": 58842,
       "bottom_y": 58858,
-      "confidence": 0.28,
+      "confidence": 0.216,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 23132.33,
@@ -3711,44 +3853,44 @@
       "cluster_id": 1,
       "top_y": 58858,
       "bottom_y": 58902,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 23147.0,
       "bottom_depth": 23203.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 58902,
       "bottom_y": 59070,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 23203.0,
       "bottom_depth": 23211.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 21,
       "top_y": 59070,
       "bottom_y": 59094,
-      "confidence": 0.023,
-      "ambiguous": true,
+      "confidence": 0.178,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
       "top_depth": 23211.0,
       "bottom_depth": 23223.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 59094,
       "bottom_y": 59130,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3759,29 +3901,56 @@
       "cluster_id": 1,
       "top_y": 59130,
       "bottom_y": 59155,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 23231.33,
-      "bottom_depth": 23253.33,
+      "bottom_depth": 23239.33,
       "lithology": "Volcanic",
-      "cluster_id": 2,
+      "cluster_id": 20,
       "top_y": 59155,
+      "bottom_y": 59179,
+      "confidence": 0.019,
+      "ambiguous": true,
+      "alternatives": [
+        "Sandstone",
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 23239.33,
+      "bottom_depth": 23253.33,
+      "lithology": "Sandstone",
+      "cluster_id": 2,
+      "top_y": 59179,
       "bottom_y": 59221,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 23253.33,
+      "bottom_depth": 23263.0,
+      "lithology": "Clay",
+      "cluster_id": 12,
+      "top_y": 59221,
+      "bottom_y": 59250,
+      "confidence": 0.174,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl"
+      ]
+    },
+    {
+      "top_depth": 23263.0,
       "bottom_depth": 23275.33,
       "lithology": "Marl",
       "cluster_id": 1,
-      "top_y": 59221,
+      "top_y": 59250,
       "bottom_y": 59287,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3792,9 +3961,12 @@
       "cluster_id": 20,
       "top_y": 59287,
       "bottom_y": 59310,
-      "confidence": 0.197,
-      "ambiguous": false,
-      "alternatives": []
+      "confidence": 0.019,
+      "ambiguous": true,
+      "alternatives": [
+        "Sandstone",
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 23283.0,
@@ -3803,7 +3975,7 @@
       "cluster_id": 1,
       "top_y": 59310,
       "bottom_y": 59352,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3825,7 +3997,7 @@
       "cluster_id": 1,
       "top_y": 59365,
       "bottom_y": 59412,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3847,7 +4019,7 @@
       "cluster_id": 1,
       "top_y": 59422,
       "bottom_y": 59472,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3869,7 +4041,7 @@
       "cluster_id": 1,
       "top_y": 59482,
       "bottom_y": 59544,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3891,7 +4063,7 @@
       "cluster_id": 1,
       "top_y": 59554,
       "bottom_y": 59628,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3913,7 +4085,7 @@
       "cluster_id": 1,
       "top_y": 59640,
       "bottom_y": 59724,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3935,7 +4107,7 @@
       "cluster_id": 1,
       "top_y": 59736,
       "bottom_y": 59796,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3946,9 +4118,11 @@
       "cluster_id": 18,
       "top_y": 59796,
       "bottom_y": 59808,
-      "confidence": 0.28,
+      "confidence": 0.216,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 23449.0,
@@ -3957,7 +4131,7 @@
       "cluster_id": 1,
       "top_y": 59808,
       "bottom_y": 59868,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -3968,9 +4142,12 @@
       "cluster_id": 20,
       "top_y": 59868,
       "bottom_y": 59893,
-      "confidence": 0.197,
-      "ambiguous": false,
-      "alternatives": []
+      "confidence": 0.019,
+      "ambiguous": true,
+      "alternatives": [
+        "Sandstone",
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 23477.33,
@@ -3979,33 +4156,33 @@
       "cluster_id": 1,
       "top_y": 59893,
       "bottom_y": 59940,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 23493.0,
       "bottom_depth": 23501.0,
-      "lithology": "Oil",
+      "lithology": "Clay",
       "cluster_id": 21,
       "top_y": 59940,
       "bottom_y": 59964,
-      "confidence": 0.023,
-      "ambiguous": true,
+      "confidence": 0.178,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
       "top_depth": 23501.0,
       "bottom_depth": 23505.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 59964,
       "bottom_y": 59977,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4016,7 +4193,7 @@
       "cluster_id": 1,
       "top_y": 59977,
       "bottom_y": 60048,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4038,7 +4215,7 @@
       "cluster_id": 1,
       "top_y": 60060,
       "bottom_y": 60156,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4055,23 +4232,36 @@
     },
     {
       "top_depth": 23569.0,
-      "bottom_depth": 23625.0,
+      "bottom_depth": 23601.0,
       "lithology": "Marl",
       "cluster_id": 1,
       "top_y": 60168,
-      "bottom_y": 60336,
-      "confidence": 0.777,
+      "bottom_y": 60264,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
+      "top_depth": 23601.0,
+      "bottom_depth": 23625.0,
+      "lithology": "Clay",
+      "cluster_id": 13,
+      "top_y": 60264,
+      "bottom_y": 60336,
+      "confidence": 0.193,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl"
+      ]
+    },
+    {
       "top_depth": 23625.0,
       "bottom_depth": 23629.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 60336,
       "bottom_y": 60349,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4082,7 +4272,7 @@
       "cluster_id": 1,
       "top_y": 60349,
       "bottom_y": 60396,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4104,7 +4294,7 @@
       "cluster_id": 1,
       "top_y": 60406,
       "bottom_y": 60480,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4126,7 +4316,7 @@
       "cluster_id": 1,
       "top_y": 60492,
       "bottom_y": 60612,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4148,7 +4338,7 @@
       "cluster_id": 1,
       "top_y": 60624,
       "bottom_y": 60720,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4159,20 +4349,35 @@
       "cluster_id": 18,
       "top_y": 60720,
       "bottom_y": 60732,
-      "confidence": 0.28,
+      "confidence": 0.216,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 23757.0,
+      "bottom_depth": 23773.0,
+      "lithology": "Marl",
+      "cluster_id": 1,
+      "top_y": 60732,
+      "bottom_y": 60780,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
-      "top_depth": 23757.0,
+      "top_depth": 23773.0,
       "bottom_depth": 23785.0,
-      "lithology": "Marl",
-      "cluster_id": 1,
-      "top_y": 60732,
+      "lithology": "Clay",
+      "cluster_id": 12,
+      "top_y": 60780,
       "bottom_y": 60816,
-      "confidence": 0.777,
+      "confidence": 0.174,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Marl"
+      ]
     },
     {
       "top_depth": 23785.0,
@@ -4192,18 +4397,18 @@
       "cluster_id": 1,
       "top_y": 60828,
       "bottom_y": 60876,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 23804.98,
       "bottom_depth": 23808.97,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 60876,
       "bottom_y": 60888,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4214,23 +4419,20 @@
       "cluster_id": 1,
       "top_y": 60888,
       "bottom_y": 61489,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24009.0,
       "bottom_depth": 24013.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 61489,
       "bottom_y": 61501,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 24013.0,
@@ -4239,18 +4441,18 @@
       "cluster_id": 1,
       "top_y": 61501,
       "bottom_y": 61572,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24036.67,
       "bottom_depth": 24045.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 61572,
       "bottom_y": 61597,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4261,40 +4463,42 @@
       "cluster_id": 1,
       "top_y": 61597,
       "bottom_y": 61651,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24063.0,
       "bottom_depth": 24081.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 61651,
       "bottom_y": 61705,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24081.0,
       "bottom_depth": 24084.33,
-      "lithology": "Marl",
+      "lithology": "Clay",
       "cluster_id": 12,
       "top_y": 61705,
       "bottom_y": 61715,
-      "confidence": 0.358,
+      "confidence": 0.174,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Marl"
+      ]
     },
     {
       "top_depth": 24084.33,
       "bottom_depth": 24135.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 61715,
       "bottom_y": 61869,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4305,43 +4509,53 @@
       "cluster_id": 1,
       "top_y": 61869,
       "bottom_y": 61879,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24139.0,
       "bottom_depth": 24179.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 61879,
       "bottom_y": 62001,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 24179.67,
+      "bottom_depth": 24191.67,
+      "lithology": "Clay",
+      "cluster_id": 12,
+      "top_y": 62001,
+      "bottom_y": 62037,
+      "confidence": 0.174,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl"
+      ]
+    },
+    {
+      "top_depth": 24191.67,
       "bottom_depth": 24207.0,
       "lithology": "Marl",
       "cluster_id": 1,
-      "top_y": 62001,
+      "top_y": 62037,
       "bottom_y": 62083,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24207.0,
       "bottom_depth": 24215.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 62083,
       "bottom_y": 62109,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4352,12 +4566,12 @@
       "cluster_id": 17,
       "top_y": 62109,
       "bottom_y": 62133,
-      "confidence": 0.134,
-      "ambiguous": false,
+      "confidence": 0.029,
+      "ambiguous": true,
       "alternatives": [
-        "Mud loss",
-        "Mud gain",
-        "Marl"
+        "Sandstone",
+        "Clay",
+        "Mud loss"
       ]
     },
     {
@@ -4367,18 +4581,18 @@
       "cluster_id": 1,
       "top_y": 62133,
       "bottom_y": 62155,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24231.0,
       "bottom_depth": 24239.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 62155,
       "bottom_y": 62181,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4389,18 +4603,18 @@
       "cluster_id": 1,
       "top_y": 62181,
       "bottom_y": 62191,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24243.0,
       "bottom_depth": 24255.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 62191,
       "bottom_y": 62227,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4411,45 +4625,55 @@
       "cluster_id": 1,
       "top_y": 62227,
       "bottom_y": 62251,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24263.0,
       "bottom_depth": 24267.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 62251,
       "bottom_y": 62265,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24267.67,
+      "bottom_depth": 24275.67,
+      "lithology": "Clay",
+      "cluster_id": 12,
+      "top_y": 62265,
+      "bottom_y": 62289,
+      "confidence": 0.174,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl"
+      ]
+    },
+    {
+      "top_depth": 24275.67,
       "bottom_depth": 24291.0,
       "lithology": "Marl",
       "cluster_id": 1,
-      "top_y": 62265,
+      "top_y": 62289,
       "bottom_y": 62335,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24291.0,
       "bottom_depth": 24295.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 62335,
       "bottom_y": 62347,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 24295.0,
@@ -4458,82 +4682,91 @@
       "cluster_id": 1,
       "top_y": 62347,
       "bottom_y": 62431,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24323.0,
       "bottom_depth": 24327.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 62431,
       "bottom_y": 62445,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24327.67,
-      "bottom_depth": 24387.0,
+      "bottom_depth": 24375.0,
       "lithology": "Marl",
       "cluster_id": 1,
       "top_y": 62445,
-      "bottom_y": 62623,
-      "confidence": 0.777,
+      "bottom_y": 62587,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
+      "top_depth": 24375.0,
+      "bottom_depth": 24387.0,
+      "lithology": "Clay",
+      "cluster_id": 12,
+      "top_y": 62587,
+      "bottom_y": 62623,
+      "confidence": 0.174,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl"
+      ]
+    },
+    {
       "top_depth": 24387.0,
       "bottom_depth": 24391.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 62623,
       "bottom_y": 62637,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24391.67,
-      "bottom_depth": 24398.67,
-      "lithology": "Oil",
-      "cluster_id": 21,
+      "bottom_depth": 24410.67,
+      "lithology": "Clay",
+      "cluster_id": 13,
       "top_y": 62637,
-      "bottom_y": 62658,
-      "confidence": 0.023,
-      "ambiguous": true,
+      "bottom_y": 62694,
+      "confidence": 0.193,
+      "ambiguous": false,
       "alternatives": [
-        "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Marl"
       ]
     },
     {
-      "top_depth": 24398.67,
+      "top_depth": 24410.67,
       "bottom_depth": 24423.0,
       "lithology": "Marl",
       "cluster_id": 1,
-      "top_y": 62658,
+      "top_y": 62694,
       "bottom_y": 62731,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24423.0,
       "bottom_depth": 24435.67,
-      "lithology": "Shoe",
+      "lithology": "Sandstone",
       "cluster_id": 7,
       "top_y": 62731,
       "bottom_y": 62769,
-      "confidence": 0.008,
-      "ambiguous": true,
+      "confidence": 0.146,
+      "ambiguous": false,
       "alternatives": [
-        "Test",
-        "Fresh water",
-        "Volcanic"
+        "Siltstone"
       ]
     },
     {
@@ -4543,7 +4776,7 @@
       "cluster_id": 1,
       "top_y": 62769,
       "bottom_y": 62803,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4568,7 +4801,7 @@
       "cluster_id": 1,
       "top_y": 62821,
       "bottom_y": 62875,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4579,9 +4812,11 @@
       "cluster_id": 18,
       "top_y": 62875,
       "bottom_y": 62887,
-      "confidence": 0.28,
+      "confidence": 0.216,
       "ambiguous": false,
-      "alternatives": []
+      "alternatives": [
+        "Siltstone"
+      ]
     },
     {
       "top_depth": 24475.0,
@@ -4590,23 +4825,20 @@
       "cluster_id": 1,
       "top_y": 62887,
       "bottom_y": 62953,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24497.0,
       "bottom_depth": 24501.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 62953,
       "bottom_y": 62965,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 24501.0,
@@ -4615,18 +4847,18 @@
       "cluster_id": 1,
       "top_y": 62965,
       "bottom_y": 63037,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24525.0,
       "bottom_depth": 24529.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 63037,
       "bottom_y": 63049,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4637,18 +4869,18 @@
       "cluster_id": 1,
       "top_y": 63049,
       "bottom_y": 63135,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24557.67,
       "bottom_depth": 24565.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 63135,
       "bottom_y": 63157,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4659,23 +4891,20 @@
       "cluster_id": 1,
       "top_y": 63157,
       "bottom_y": 63181,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24573.0,
       "bottom_depth": 24693.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 63181,
       "bottom_y": 63541,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 24693.0,
@@ -4684,18 +4913,18 @@
       "cluster_id": 1,
       "top_y": 63541,
       "bottom_y": 63577,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24705.0,
       "bottom_depth": 24709.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 63577,
       "bottom_y": 63589,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4706,18 +4935,18 @@
       "cluster_id": 1,
       "top_y": 63589,
       "bottom_y": 63625,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24721.0,
       "bottom_depth": 24787.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 63625,
       "bottom_y": 63825,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4728,23 +4957,20 @@
       "cluster_id": 1,
       "top_y": 63825,
       "bottom_y": 63883,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 24807.0,
       "bottom_depth": 24979.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 63883,
       "bottom_y": 64399,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 24979.0,
@@ -4753,23 +4979,20 @@
       "cluster_id": 1,
       "top_y": 64399,
       "bottom_y": 64507,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25015.0,
       "bottom_depth": 25027.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 64507,
       "bottom_y": 64545,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 25027.67,
@@ -4778,23 +5001,20 @@
       "cluster_id": 1,
       "top_y": 64545,
       "bottom_y": 64867,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25135.0,
       "bottom_depth": 25155.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 64867,
       "bottom_y": 64927,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 25155.0,
@@ -4803,52 +5023,61 @@
       "cluster_id": 1,
       "top_y": 64927,
       "bottom_y": 65371,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25303.0,
       "bottom_depth": 25343.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 65371,
       "bottom_y": 65493,
-      "confidence": 0.16,
+      "confidence": 0.308,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 25343.67,
+      "bottom_depth": 25355.0,
+      "lithology": "Clay",
+      "cluster_id": 5,
+      "top_y": 65493,
+      "bottom_y": 65527,
+      "confidence": 0.072,
       "ambiguous": false,
       "alternatives": [
-        "Mud gain",
+        "Oil",
+        "Marl",
         "Mud loss"
       ]
     },
     {
-      "top_depth": 25343.67,
+      "top_depth": 25355.0,
       "bottom_depth": 25363.0,
       "lithology": "Oil",
-      "cluster_id": 5,
-      "top_y": 65493,
+      "cluster_id": 17,
+      "top_y": 65527,
       "bottom_y": 65551,
-      "confidence": 0.042,
+      "confidence": 0.029,
       "ambiguous": true,
       "alternatives": [
-        "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Sandstone",
+        "Clay",
+        "Mud loss"
       ]
     },
     {
       "top_depth": 25363.0,
       "bottom_depth": 25368.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 65551,
       "bottom_y": 65566,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 25368.0,
@@ -4857,18 +5086,18 @@
       "cluster_id": 1,
       "top_y": 65566,
       "bottom_y": 65587,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25375.0,
       "bottom_depth": 25379.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 65587,
       "bottom_y": 65601,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4879,18 +5108,18 @@
       "cluster_id": 1,
       "top_y": 65601,
       "bottom_y": 65731,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25423.0,
       "bottom_depth": 25431.67,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 65731,
       "bottom_y": 65757,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4901,23 +5130,20 @@
       "cluster_id": 1,
       "top_y": 65757,
       "bottom_y": 66067,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25535.0,
       "bottom_depth": 25583.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 66067,
       "bottom_y": 66211,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 25583.0,
@@ -4926,18 +5152,18 @@
       "cluster_id": 1,
       "top_y": 66211,
       "bottom_y": 66619,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25718.97,
       "bottom_depth": 25772.96,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 66619,
       "bottom_y": 66781,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4948,18 +5174,18 @@
       "cluster_id": 1,
       "top_y": 66781,
       "bottom_y": 66847,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25794.95,
       "bottom_depth": 25802.95,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 66847,
       "bottom_y": 66871,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -4970,24 +5196,20 @@
       "cluster_id": 1,
       "top_y": 66871,
       "bottom_y": 66901,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25812.95,
       "bottom_depth": 25816.28,
-      "lithology": "Dry",
+      "lithology": "Sandstone",
       "cluster_id": 30,
       "top_y": 66901,
       "bottom_y": 66911,
-      "confidence": 0.004,
-      "ambiguous": true,
-      "alternatives": [
-        "Fresh water",
-        "Deviation",
-        "survey"
-      ]
+      "confidence": 0.312,
+      "ambiguous": false,
+      "alternatives": []
     },
     {
       "top_depth": 25816.28,
@@ -4996,22 +5218,21 @@
       "cluster_id": 1,
       "top_y": 66911,
       "bottom_y": 67078,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 25871.94,
       "bottom_depth": 25875.6,
-      "lithology": "Oil",
+      "lithology": "Sandstone",
       "cluster_id": 16,
       "top_y": 67078,
       "bottom_y": 67089,
-      "confidence": 0.16,
+      "confidence": 0.158,
       "ambiguous": false,
       "alternatives": [
-        "Mud loss",
-        "Mud gain"
+        "Oil"
       ]
     },
     {
@@ -5021,7 +5242,7 @@
       "cluster_id": 1,
       "top_y": 67089,
       "bottom_y": 67149,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5032,12 +5253,12 @@
       "cluster_id": 17,
       "top_y": 67149,
       "bottom_y": 67163,
-      "confidence": 0.134,
-      "ambiguous": false,
+      "confidence": 0.029,
+      "ambiguous": true,
       "alternatives": [
-        "Mud loss",
-        "Mud gain",
-        "Marl"
+        "Sandstone",
+        "Clay",
+        "Mud loss"
       ]
     },
     {
@@ -5047,23 +5268,20 @@
       "cluster_id": 1,
       "top_y": 67163,
       "bottom_y": 68335,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26290.84,
       "bottom_depth": 26294.83,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 68335,
       "bottom_y": 68347,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 26294.83,
@@ -5072,18 +5290,18 @@
       "cluster_id": 1,
       "top_y": 68347,
       "bottom_y": 68683,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26406.81,
       "bottom_depth": 26438.8,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 68683,
       "bottom_y": 68779,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5094,18 +5312,18 @@
       "cluster_id": 1,
       "top_y": 68779,
       "bottom_y": 68911,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26482.79,
       "bottom_depth": 26515.12,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 68911,
       "bottom_y": 69008,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5116,23 +5334,20 @@
       "cluster_id": 1,
       "top_y": 69008,
       "bottom_y": 69079,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26538.78,
       "bottom_depth": 26552.77,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 69079,
       "bottom_y": 69121,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 26552.77,
@@ -5141,18 +5356,18 @@
       "cluster_id": 1,
       "top_y": 69121,
       "bottom_y": 69164,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26567.1,
       "bottom_depth": 26575.43,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 69164,
       "bottom_y": 69189,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5163,33 +5378,33 @@
       "cluster_id": 1,
       "top_y": 69189,
       "bottom_y": 69320,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26619.09,
-      "bottom_depth": 26635.42,
-      "lithology": "Oil",
+      "bottom_depth": 26643.75,
+      "lithology": "Clay",
       "cluster_id": 5,
       "top_y": 69320,
-      "bottom_y": 69369,
-      "confidence": 0.042,
-      "ambiguous": true,
+      "bottom_y": 69394,
+      "confidence": 0.072,
+      "ambiguous": false,
       "alternatives": [
+        "Oil",
         "Marl",
-        "Mud loss",
-        "Mud gain"
+        "Mud loss"
       ]
     },
     {
-      "top_depth": 26635.42,
+      "top_depth": 26643.75,
       "bottom_depth": 26675.08,
       "lithology": "Marl",
       "cluster_id": 1,
-      "top_y": 69369,
+      "top_y": 69394,
       "bottom_y": 69488,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5211,7 +5426,7 @@
       "cluster_id": 1,
       "top_y": 69501,
       "bottom_y": 69572,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5228,49 +5443,49 @@
     },
     {
       "top_depth": 26706.4,
-      "bottom_depth": 26751.06,
+      "bottom_depth": 26739.06,
       "lithology": "Marl",
       "cluster_id": 1,
       "top_y": 69582,
+      "bottom_y": 69680,
+      "confidence": 0.559,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 26739.06,
+      "bottom_depth": 26751.06,
+      "lithology": "Clay",
+      "cluster_id": 13,
+      "top_y": 69680,
       "bottom_y": 69716,
-      "confidence": 0.777,
+      "confidence": 0.193,
       "ambiguous": false,
-      "alternatives": []
-    },
-    {
-      "top_depth": 26751.06,
-      "bottom_depth": 26782.39,
-      "lithology": "Volcanic",
-      "cluster_id": 2,
-      "top_y": 69716,
-      "bottom_y": 69810,
-      "confidence": 0.154,
-      "ambiguous": false,
-      "alternatives": []
-    },
-    {
-      "top_depth": 26782.39,
-      "bottom_depth": 26795.05,
-      "lithology": "Dry",
-      "cluster_id": 8,
-      "top_y": 69810,
-      "bottom_y": 69848,
-      "confidence": 0.004,
-      "ambiguous": true,
       "alternatives": [
-        "Fresh water",
-        "Deviation",
-        "survey"
+        "Marl"
       ]
     },
     {
-      "top_depth": 26795.05,
-      "bottom_depth": 26823.04,
+      "top_depth": 26751.06,
+      "bottom_depth": 26756.06,
       "lithology": "Volcanic",
+      "cluster_id": 18,
+      "top_y": 69716,
+      "bottom_y": 69731,
+      "confidence": 0.216,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 26756.06,
+      "bottom_depth": 26823.04,
+      "lithology": "Sandstone",
       "cluster_id": 2,
-      "top_y": 69848,
+      "top_y": 69731,
       "bottom_y": 69932,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5281,18 +5496,18 @@
       "cluster_id": 1,
       "top_y": 69932,
       "bottom_y": 69956,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26831.04,
       "bottom_depth": 26839.37,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 69956,
       "bottom_y": 69981,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5303,23 +5518,20 @@
       "cluster_id": 1,
       "top_y": 69981,
       "bottom_y": 70064,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26867.03,
       "bottom_depth": 26887.36,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 70064,
       "bottom_y": 70125,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 26887.36,
@@ -5328,43 +5540,53 @@
       "cluster_id": 1,
       "top_y": 70125,
       "bottom_y": 70148,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 26895.02,
       "bottom_depth": 26947.01,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 70148,
       "bottom_y": 70304,
-      "confidence": 0.16,
-      "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
-    },
-    {
-      "top_depth": 26947.01,
-      "bottom_depth": 26963.01,
-      "lithology": "Marl",
-      "cluster_id": 12,
-      "top_y": 70304,
-      "bottom_y": 70352,
-      "confidence": 0.358,
+      "confidence": 0.308,
       "ambiguous": false,
       "alternatives": []
     },
     {
+      "top_depth": 26947.01,
+      "bottom_depth": 26951.68,
+      "lithology": "Marl",
+      "cluster_id": 1,
+      "top_y": 70304,
+      "bottom_y": 70318,
+      "confidence": 0.559,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 26951.68,
+      "bottom_depth": 26963.01,
+      "lithology": "Clay",
+      "cluster_id": 12,
+      "top_y": 70318,
+      "bottom_y": 70352,
+      "confidence": 0.174,
+      "ambiguous": false,
+      "alternatives": [
+        "Marl"
+      ]
+    },
+    {
       "top_depth": 26963.01,
       "bottom_depth": 27119.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 70352,
       "bottom_y": 70821,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5375,18 +5597,18 @@
       "cluster_id": 1,
       "top_y": 70821,
       "bottom_y": 70832,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27123.0,
       "bottom_depth": 27167.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 70832,
       "bottom_y": 70964,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5397,23 +5619,20 @@
       "cluster_id": 1,
       "top_y": 70964,
       "bottom_y": 71084,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27207.0,
       "bottom_depth": 27215.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 71084,
       "bottom_y": 71109,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 27215.33,
@@ -5422,18 +5641,18 @@
       "cluster_id": 1,
       "top_y": 71109,
       "bottom_y": 71144,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27227.0,
       "bottom_depth": 27235.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 71144,
       "bottom_y": 71169,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5444,23 +5663,20 @@
       "cluster_id": 1,
       "top_y": 71169,
       "bottom_y": 71216,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27251.0,
       "bottom_depth": 27259.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 71216,
       "bottom_y": 71241,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 27259.33,
@@ -5469,18 +5685,18 @@
       "cluster_id": 1,
       "top_y": 71241,
       "bottom_y": 71300,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27279.0,
       "bottom_depth": 27283.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 71300,
       "bottom_y": 71313,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5491,23 +5707,20 @@
       "cluster_id": 1,
       "top_y": 71313,
       "bottom_y": 71348,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27295.0,
       "bottom_depth": 27299.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 71348,
       "bottom_y": 71360,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 27299.0,
@@ -5516,18 +5729,18 @@
       "cluster_id": 1,
       "top_y": 71360,
       "bottom_y": 71444,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27327.0,
       "bottom_depth": 27330.33,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 71444,
       "bottom_y": 71454,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5538,18 +5751,18 @@
       "cluster_id": 1,
       "top_y": 71454,
       "bottom_y": 71480,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27339.0,
       "bottom_depth": 27351.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 2,
       "top_y": 71480,
       "bottom_y": 71516,
-      "confidence": 0.154,
+      "confidence": 0.263,
       "ambiguous": false,
       "alternatives": []
     },
@@ -5560,23 +5773,20 @@
       "cluster_id": 1,
       "top_y": 71516,
       "bottom_y": 71612,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     },
     {
       "top_depth": 27383.0,
       "bottom_depth": 27387.0,
-      "lithology": "Volcanic",
+      "lithology": "Sandstone",
       "cluster_id": 4,
       "top_y": 71612,
       "bottom_y": 71624,
-      "confidence": 0.16,
+      "confidence": 0.308,
       "ambiguous": false,
-      "alternatives": [
-        "Mud gain",
-        "Mud loss"
-      ]
+      "alternatives": []
     },
     {
       "top_depth": 27387.0,
@@ -5585,7 +5795,7 @@
       "cluster_id": 1,
       "top_y": 71624,
       "bottom_y": 71677,
-      "confidence": 0.777,
+      "confidence": 0.559,
       "ambiguous": false,
       "alternatives": []
     }

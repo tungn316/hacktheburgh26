@@ -1,0 +1,3067 @@
+{
+  "image": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.tif",
+  "image_size": [
+    1275,
+    44550
+  ],
+  "depth_fit": {
+    "px_per_ft": 7.5024,
+    "labels_used": 6,
+    "labels_read": 7,
+    "labels_rejected": 1,
+    "mean_residual_ft": 0.109,
+    "label_rotation_deg": 0,
+    "chunks_ocrd": "10/10",
+    "labels": [
+      [
+        12976.0,
+        44000.0
+      ],
+      [
+        14400.8,
+        44190.0
+      ],
+      [
+        20781.0,
+        45040.0
+      ],
+      [
+        25056.0,
+        45610.0
+      ],
+      [
+        26481.0,
+        45800.0
+      ],
+      [
+        31506.0,
+        46470.0
+      ]
+    ]
+  },
+  "legend": [
+    {
+      "name": "Dolomite",
+      "box": [
+        345,
+        2392,
+        435,
+        2405
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale Gray",
+      "box": [
+        618,
+        2392,
+        708,
+        2405
+      ],
+      "white": false
+    },
+    {
+      "name": "Till",
+      "box": [
+        918,
+        2392,
+        1008,
+        2405
+      ],
+      "white": false
+    },
+    {
+      "name": "Anhydrite",
+      "box": [
+        76,
+        2408,
+        167,
+        2421
+      ],
+      "white": false
+    },
+    {
+      "name": "Chert",
+      "box": [
+        345,
+        2408,
+        435,
+        2421
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale Colored",
+      "box": [
+        618,
+        2408,
+        708,
+        2421
+      ],
+      "white": false
+    },
+    {
+      "name": "Bentonite",
+      "box": [
+        918,
+        2408,
+        1008,
+        2421
+      ],
+      "white": false
+    },
+    {
+      "name": "Gypsum",
+      "box": [
+        76,
+        2425,
+        167,
+        2438
+      ],
+      "white": false
+    },
+    {
+      "name": "Siltstone",
+      "box": [
+        618,
+        2425,
+        708,
+        2438
+      ],
+      "white": false
+    },
+    {
+      "name": "Tuff",
+      "box": [
+        918,
+        2425,
+        1008,
+        2438
+      ],
+      "white": false
+    },
+    {
+      "name": "Salt",
+      "box": [
+        76,
+        2442,
+        167,
+        2454
+      ],
+      "white": false
+    },
+    {
+      "name": "Marlstone",
+      "box": [
+        345,
+        2442,
+        435,
+        2455
+      ],
+      "white": false
+    },
+    {
+      "name": "Sandstone",
+      "box": [
+        618,
+        2442,
+        708,
+        2454
+      ],
+      "white": false
+    },
+    {
+      "name": "Igneous",
+      "box": [
+        918,
+        2442,
+        1008,
+        2454
+      ],
+      "white": false
+    },
+    {
+      "name": "Chalk",
+      "box": [
+        76,
+        2458,
+        167,
+        2471
+      ],
+      "white": false
+    },
+    {
+      "name": "Claystone",
+      "box": [
+        345,
+        2458,
+        435,
+        2471
+      ],
+      "white": false
+    },
+    {
+      "name": "Conglomerate",
+      "box": [
+        618,
+        2458,
+        708,
+        2471
+      ],
+      "white": false
+    },
+    {
+      "name": "Metamorphic",
+      "box": [
+        918,
+        2458,
+        1008,
+        2471
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone",
+      "box": [
+        76,
+        2474,
+        167,
+        2487
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale",
+      "box": [
+        345,
+        2474,
+        435,
+        2487
+      ],
+      "white": false
+    },
+    {
+      "name": "Breccia",
+      "box": [
+        618,
+        2474,
+        708,
+        2487
+      ],
+      "white": false
+    },
+    {
+      "name": "Cement",
+      "box": [
+        918,
+        2474,
+        1008,
+        2487
+      ],
+      "white": false
+    },
+    {
+      "name": "Unknown",
+      "box": [
+        76,
+        2392,
+        86,
+        2405
+      ],
+      "white": false
+    }
+  ],
+  "identical_legend_symbols": [],
+  "n_groups": 15,
+  "snap_grid": null,
+  "warnings": [],
+  "timings_s": {
+    "depth": 6.78,
+    "segment": 0.27,
+    "legend": 0.95,
+    "intervals": 0.21,
+    "total": 8.21
+  },
+  "intervals": [
+    {
+      "top_depth": 43000.85,
+      "bottom_depth": 43045.91,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 5480,
+      "bottom_y": 5818,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43045.91,
+      "bottom_depth": 43061.24,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 5818,
+      "bottom_y": 5933,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43061.24,
+      "bottom_depth": 43146.81,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 5933,
+      "bottom_y": 6575,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43146.81,
+      "bottom_depth": 43153.21,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 6575,
+      "bottom_y": 6623,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43153.21,
+      "bottom_depth": 43200.92,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 6623,
+      "bottom_y": 6981,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43200.92,
+      "bottom_depth": 43250.91,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 6981,
+      "bottom_y": 7356,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43250.91,
+      "bottom_depth": 43257.31,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 7356,
+      "bottom_y": 7404,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43257.31,
+      "bottom_depth": 43259.17,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 7404,
+      "bottom_y": 7418,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 43259.17,
+      "bottom_depth": 43286.9,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 7418,
+      "bottom_y": 7626,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43286.9,
+      "bottom_depth": 43302.09,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 7626,
+      "bottom_y": 7740,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43302.09,
+      "bottom_depth": 43488.7,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 7740,
+      "bottom_y": 9140,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43488.7,
+      "bottom_depth": 43501.63,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 9140,
+      "bottom_y": 9237,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43501.63,
+      "bottom_depth": 43503.09,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 9237,
+      "bottom_y": 9248,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 43503.09,
+      "bottom_depth": 43569.74,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 9248,
+      "bottom_y": 9748,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43569.74,
+      "bottom_depth": 43572.8,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 9748,
+      "bottom_y": 9771,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43572.8,
+      "bottom_depth": 43574.0,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 9771,
+      "bottom_y": 9780,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 43574.0,
+      "bottom_depth": 43587.73,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 9780,
+      "bottom_y": 9883,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43587.73,
+      "bottom_depth": 43592.8,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 9883,
+      "bottom_y": 9921,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43592.8,
+      "bottom_depth": 43594.0,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 9921,
+      "bottom_y": 9930,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 43594.0,
+      "bottom_depth": 43648.65,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 9930,
+      "bottom_y": 10340,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43648.65,
+      "bottom_depth": 43658.24,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 10340,
+      "bottom_y": 10412,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43658.24,
+      "bottom_depth": 43659.98,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 10412,
+      "bottom_y": 10425,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 43659.98,
+      "bottom_depth": 43723.69,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 10425,
+      "bottom_y": 10903,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43723.69,
+      "bottom_depth": 43733.95,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 10903,
+      "bottom_y": 10980,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43733.95,
+      "bottom_depth": 43800.73,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 10980,
+      "bottom_y": 11481,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43800.73,
+      "bottom_depth": 43863.64,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 11481,
+      "bottom_y": 11953,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43863.64,
+      "bottom_depth": 43872.97,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 11953,
+      "bottom_y": 12023,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43872.97,
+      "bottom_depth": 43914.56,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 12023,
+      "bottom_y": 12335,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43914.56,
+      "bottom_depth": 43948.95,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 12335,
+      "bottom_y": 12593,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43948.95,
+      "bottom_depth": 43967.61,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 12593,
+      "bottom_y": 12733,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 43967.61,
+      "bottom_depth": 43977.74,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 12733,
+      "bottom_y": 12809,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 43977.74,
+      "bottom_depth": 44027.07,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 12809,
+      "bottom_y": 13179,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44027.07,
+      "bottom_depth": 44029.87,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 13179,
+      "bottom_y": 13200,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 44029.87,
+      "bottom_depth": 44050.68,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 13200,
+      "bottom_y": 13356,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44050.68,
+      "bottom_depth": 44068.95,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 13356,
+      "bottom_y": 13493,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44068.95,
+      "bottom_depth": 44104.69,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 13493,
+      "bottom_y": 13761,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44104.69,
+      "bottom_depth": 44148.96,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 13761,
+      "bottom_y": 14093,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44148.96,
+      "bottom_depth": 44155.63,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 14093,
+      "bottom_y": 14143,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44155.63,
+      "bottom_depth": 44186.97,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 14143,
+      "bottom_y": 14378,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44186.97,
+      "bottom_depth": 44247.19,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 14378,
+      "bottom_y": 14830,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44247.19,
+      "bottom_depth": 44249.85,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 14830,
+      "bottom_y": 14850,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 44249.85,
+      "bottom_depth": 44263.57,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 14850,
+      "bottom_y": 14953,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44263.57,
+      "bottom_depth": 44275.83,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 14953,
+      "bottom_y": 15045,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44275.83,
+      "bottom_depth": 44353.5,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 15045,
+      "bottom_y": 15628,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44353.5,
+      "bottom_depth": 44364.82,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 15628,
+      "bottom_y": 15713,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44364.82,
+      "bottom_depth": 44401.46,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 15713,
+      "bottom_y": 15988,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44401.46,
+      "bottom_depth": 44413.72,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 15988,
+      "bottom_y": 16080,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44413.72,
+      "bottom_depth": 44427.44,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 16080,
+      "bottom_y": 16183,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44427.44,
+      "bottom_depth": 44438.76,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 16183,
+      "bottom_y": 16268,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44438.76,
+      "bottom_depth": 44455.41,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 16268,
+      "bottom_y": 16393,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44455.41,
+      "bottom_depth": 44484.72,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 16393,
+      "bottom_y": 16613,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44484.72,
+      "bottom_depth": 44530.29,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 16613,
+      "bottom_y": 16955,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44530.29,
+      "bottom_depth": 44537.48,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 16955,
+      "bottom_y": 17009,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44537.48,
+      "bottom_depth": 44561.33,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 17009,
+      "bottom_y": 17188,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44561.33,
+      "bottom_depth": 44598.63,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 17188,
+      "bottom_y": 17468,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44598.63,
+      "bottom_depth": 44608.36,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 17468,
+      "bottom_y": 17541,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44608.36,
+      "bottom_depth": 44624.61,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 17541,
+      "bottom_y": 17663,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44624.61,
+      "bottom_depth": 44645.26,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 17663,
+      "bottom_y": 17818,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44645.26,
+      "bottom_depth": 44656.72,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 17818,
+      "bottom_y": 17904,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44656.72,
+      "bottom_depth": 44672.3,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 17904,
+      "bottom_y": 18021,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44672.3,
+      "bottom_depth": 44684.56,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 18021,
+      "bottom_y": 18113,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44684.56,
+      "bottom_depth": 44686.82,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 18113,
+      "bottom_y": 18130,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44686.82,
+      "bottom_depth": 44689.49,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 18130,
+      "bottom_y": 18150,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 44689.49,
+      "bottom_depth": 44701.21,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 18150,
+      "bottom_y": 18238,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44701.21,
+      "bottom_depth": 44715.47,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 18238,
+      "bottom_y": 18345,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44715.47,
+      "bottom_depth": 44724.26,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 18345,
+      "bottom_y": 18411,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44724.26,
+      "bottom_depth": 44729.46,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 18411,
+      "bottom_y": 18450,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44729.46,
+      "bottom_depth": 44839.1,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 18450,
+      "bottom_y": 19273,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44839.1,
+      "bottom_depth": 44848.42,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 19273,
+      "bottom_y": 19343,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44848.42,
+      "bottom_depth": 44866.14,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 19343,
+      "bottom_y": 19476,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44866.14,
+      "bottom_depth": 44868.41,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 19476,
+      "bottom_y": 19493,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44868.41,
+      "bottom_depth": 44906.51,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 19493,
+      "bottom_y": 19779,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44906.51,
+      "bottom_depth": 44909.31,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 19779,
+      "bottom_y": 19800,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 44909.31,
+      "bottom_depth": 44970.99,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 19800,
+      "bottom_y": 20263,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 44970.99,
+      "bottom_depth": 44973.12,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 20263,
+      "bottom_y": 20279,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 44973.12,
+      "bottom_depth": 45060.0,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 20279,
+      "bottom_y": 20931,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45060.0,
+      "bottom_depth": 45068.27,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 20931,
+      "bottom_y": 20993,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 45068.27,
+      "bottom_depth": 45106.93,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 20993,
+      "bottom_y": 21283,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45106.93,
+      "bottom_depth": 45113.2,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 21283,
+      "bottom_y": 21330,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 45113.2,
+      "bottom_depth": 45126.53,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 21330,
+      "bottom_y": 21430,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45126.53,
+      "bottom_depth": 45129.2,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 21430,
+      "bottom_y": 21450,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 45129.2,
+      "bottom_depth": 45188.0,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 21450,
+      "bottom_y": 21891,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45188.0,
+      "bottom_depth": 45203.2,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 21891,
+      "bottom_y": 22005,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 45203.2,
+      "bottom_depth": 45226.93,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 22005,
+      "bottom_y": 22183,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45226.93,
+      "bottom_depth": 45237.07,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 22183,
+      "bottom_y": 22259,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 45237.07,
+      "bottom_depth": 45338.93,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 22259,
+      "bottom_y": 23023,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45338.93,
+      "bottom_depth": 45371.2,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 23023,
+      "bottom_y": 23265,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 45371.2,
+      "bottom_depth": 45514.93,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 23265,
+      "bottom_y": 24343,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45514.93,
+      "bottom_depth": 45524.27,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 24343,
+      "bottom_y": 24413,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 45524.27,
+      "bottom_depth": 45564.0,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 24413,
+      "bottom_y": 24711,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45564.0,
+      "bottom_depth": 45579.33,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 24711,
+      "bottom_y": 24826,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 45579.33,
+      "bottom_depth": 45636.93,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 24826,
+      "bottom_y": 25258,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45636.93,
+      "bottom_depth": 45651.2,
+      "lithology": "Sandstone",
+      "cluster_id": 0,
+      "top_y": 25258,
+      "bottom_y": 25365,
+      "confidence": 0.426,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 45651.2,
+      "bottom_depth": 45729.07,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 25365,
+      "bottom_y": 25949,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45729.07,
+      "bottom_depth": 45747.07,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 25949,
+      "bottom_y": 26084,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 45747.07,
+      "bottom_depth": 45786.4,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 26084,
+      "bottom_y": 26379,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45786.4,
+      "bottom_depth": 45789.2,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 26379,
+      "bottom_y": 26400,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 45789.2,
+      "bottom_depth": 45849.07,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 26400,
+      "bottom_y": 26849,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 45849.07,
+      "bottom_depth": 45854.4,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 26849,
+      "bottom_y": 26889,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 45854.4,
+      "bottom_depth": 45858.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 26889,
+      "bottom_y": 26918,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 45858.27,
+      "bottom_depth": 46006.53,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 26918,
+      "bottom_y": 28030,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46006.53,
+      "bottom_depth": 46009.2,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 28030,
+      "bottom_y": 28050,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 46009.2,
+      "bottom_depth": 46061.07,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 28050,
+      "bottom_y": 28439,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46061.07,
+      "bottom_depth": 46065.6,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 28439,
+      "bottom_y": 28473,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46065.6,
+      "bottom_depth": 46068.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 28473,
+      "bottom_y": 28493,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 46068.27,
+      "bottom_depth": 46097.07,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 28493,
+      "bottom_y": 28709,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46097.07,
+      "bottom_depth": 46101.6,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 28709,
+      "bottom_y": 28743,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46101.6,
+      "bottom_depth": 46104.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 28743,
+      "bottom_y": 28763,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 46104.27,
+      "bottom_depth": 46129.07,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 28763,
+      "bottom_y": 28949,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46129.07,
+      "bottom_depth": 46137.2,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 28949,
+      "bottom_y": 29010,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46137.2,
+      "bottom_depth": 46200.0,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 29010,
+      "bottom_y": 29481,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46200.0,
+      "bottom_depth": 46234.0,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 29481,
+      "bottom_y": 29736,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46234.0,
+      "bottom_depth": 46238.27,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 29736,
+      "bottom_y": 29768,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46238.27,
+      "bottom_depth": 46242.93,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 29768,
+      "bottom_y": 29803,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46242.93,
+      "bottom_depth": 46266.27,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 29803,
+      "bottom_y": 29978,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46266.27,
+      "bottom_depth": 46316.93,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 29978,
+      "bottom_y": 30358,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46316.93,
+      "bottom_depth": 46330.27,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 30358,
+      "bottom_y": 30458,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46330.27,
+      "bottom_depth": 46365.87,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 30458,
+      "bottom_y": 30725,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46365.87,
+      "bottom_depth": 46382.27,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 30725,
+      "bottom_y": 30848,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46382.27,
+      "bottom_depth": 46423.87,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 30848,
+      "bottom_y": 31160,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46423.87,
+      "bottom_depth": 46427.07,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 31160,
+      "bottom_y": 31184,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46427.07,
+      "bottom_depth": 46429.2,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 31184,
+      "bottom_y": 31200,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 46429.2,
+      "bottom_depth": 46478.93,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 31200,
+      "bottom_y": 31573,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46478.93,
+      "bottom_depth": 46502.26,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 31573,
+      "bottom_y": 31748,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46502.26,
+      "bottom_depth": 46514.92,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 31748,
+      "bottom_y": 31843,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46514.92,
+      "bottom_depth": 46518.12,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 31843,
+      "bottom_y": 31867,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46518.12,
+      "bottom_depth": 46520.25,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 31867,
+      "bottom_y": 31883,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 46520.25,
+      "bottom_depth": 46564.9,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 31883,
+      "bottom_y": 32218,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46564.9,
+      "bottom_depth": 46577.17,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 32218,
+      "bottom_y": 32310,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46577.17,
+      "bottom_depth": 46608.89,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 32310,
+      "bottom_y": 32548,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46608.89,
+      "bottom_depth": 46616.22,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 32548,
+      "bottom_y": 32603,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46616.22,
+      "bottom_depth": 46623.82,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 32603,
+      "bottom_y": 32660,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46623.82,
+      "bottom_depth": 46639.81,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 32660,
+      "bottom_y": 32780,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46639.81,
+      "bottom_depth": 46641.14,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 32780,
+      "bottom_y": 32790,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 46641.14,
+      "bottom_depth": 46714.85,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 32790,
+      "bottom_y": 33343,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46714.85,
+      "bottom_depth": 46732.18,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 33343,
+      "bottom_y": 33473,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46732.18,
+      "bottom_depth": 46763.77,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 33473,
+      "bottom_y": 33710,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46763.77,
+      "bottom_depth": 46790.16,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 33710,
+      "bottom_y": 33908,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46790.16,
+      "bottom_depth": 46836.82,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 33908,
+      "bottom_y": 34258,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46836.82,
+      "bottom_depth": 46856.01,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 34258,
+      "bottom_y": 34402,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46856.01,
+      "bottom_depth": 46859.07,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 34402,
+      "bottom_y": 34425,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 46859.07,
+      "bottom_depth": 46907.73,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 34425,
+      "bottom_y": 34790,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46907.73,
+      "bottom_depth": 46943.05,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 34790,
+      "bottom_y": 35055,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46943.05,
+      "bottom_depth": 46971.71,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 35055,
+      "bottom_y": 35270,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 46971.71,
+      "bottom_depth": 46984.5,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 35270,
+      "bottom_y": 35366,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 46984.5,
+      "bottom_depth": 46987.03,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 35366,
+      "bottom_y": 35385,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 46987.03,
+      "bottom_depth": 47026.75,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 35385,
+      "bottom_y": 35683,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47026.75,
+      "bottom_depth": 47043.15,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 35683,
+      "bottom_y": 35806,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47043.15,
+      "bottom_depth": 47131.65,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 35806,
+      "bottom_y": 36470,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47131.65,
+      "bottom_depth": 47163.78,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 36470,
+      "bottom_y": 36711,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47163.78,
+      "bottom_depth": 47166.04,
+      "lithology": "Siltstone",
+      "cluster_id": 9,
+      "top_y": 36711,
+      "bottom_y": 36728,
+      "confidence": 0.626,
+      "ambiguous": false,
+      "alternatives": [
+        "Anhydrite"
+      ]
+    },
+    {
+      "top_depth": 47166.04,
+      "bottom_depth": 47258.68,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 36728,
+      "bottom_y": 37423,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47258.68,
+      "bottom_depth": 47279.74,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 37423,
+      "bottom_y": 37581,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47279.74,
+      "bottom_depth": 47287.2,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 37581,
+      "bottom_y": 37637,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47287.2,
+      "bottom_depth": 47302.93,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 37637,
+      "bottom_y": 37755,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47302.93,
+      "bottom_depth": 47312.0,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 37755,
+      "bottom_y": 37823,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47312.0,
+      "bottom_depth": 47369.58,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 37823,
+      "bottom_y": 38255,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47369.58,
+      "bottom_depth": 47371.58,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 38255,
+      "bottom_y": 38270,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47371.58,
+      "bottom_depth": 47379.04,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 38270,
+      "bottom_y": 38326,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47379.04,
+      "bottom_depth": 47394.77,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 38326,
+      "bottom_y": 38444,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47394.77,
+      "bottom_depth": 47446.62,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 38444,
+      "bottom_y": 38833,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47446.62,
+      "bottom_depth": 47474.74,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 38833,
+      "bottom_y": 39044,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47474.74,
+      "bottom_depth": 47505.53,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 39044,
+      "bottom_y": 39275,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47505.53,
+      "bottom_depth": 47509.4,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 39275,
+      "bottom_y": 39304,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47509.4,
+      "bottom_depth": 47514.73,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 39304,
+      "bottom_y": 39344,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47514.73,
+      "bottom_depth": 47531.66,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 39344,
+      "bottom_y": 39471,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47531.66,
+      "bottom_depth": 47538.72,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 39471,
+      "bottom_y": 39524,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47538.72,
+      "bottom_depth": 47544.72,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 39524,
+      "bottom_y": 39569,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47544.72,
+      "bottom_depth": 47546.85,
+      "lithology": "Shale Colored",
+      "cluster_id": 8,
+      "top_y": 39569,
+      "bottom_y": 39585,
+      "confidence": 0.211,
+      "ambiguous": false,
+      "alternatives": [
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 47546.85,
+      "bottom_depth": 47548.85,
+      "lithology": "Chalk",
+      "cluster_id": 11,
+      "top_y": 39585,
+      "bottom_y": 39600,
+      "confidence": 0.5,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47548.85,
+      "bottom_depth": 47551.52,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 39600,
+      "bottom_y": 39620,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47551.52,
+      "bottom_depth": 47553.39,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 39620,
+      "bottom_y": 39634,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47553.39,
+      "bottom_depth": 47555.78,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 39634,
+      "bottom_y": 39652,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47555.78,
+      "bottom_depth": 47559.92,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 39652,
+      "bottom_y": 39683,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47559.92,
+      "bottom_depth": 47566.05,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 39683,
+      "bottom_y": 39729,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47566.05,
+      "bottom_depth": 47569.65,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 39729,
+      "bottom_y": 39756,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47569.65,
+      "bottom_depth": 47575.91,
+      "lithology": "Shale Gray",
+      "cluster_id": 7,
+      "top_y": 39756,
+      "bottom_y": 39803,
+      "confidence": 0.135,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47575.91,
+      "bottom_depth": 47577.91,
+      "lithology": "Shale",
+      "cluster_id": 2,
+      "top_y": 39803,
+      "bottom_y": 39818,
+      "confidence": 0.089,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 47577.91,
+      "bottom_depth": 47583.91,
+      "lithology": "Anhydrite",
+      "cluster_id": 1,
+      "top_y": 39818,
+      "bottom_y": 39863,
+      "confidence": 0.247,
+      "ambiguous": false,
+      "alternatives": [
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 47583.91,
+      "bottom_depth": 47598.7,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 39863,
+      "bottom_y": 39974,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47598.7,
+      "bottom_depth": 47611.63,
+      "lithology": "Shale Colored",
+      "cluster_id": 6,
+      "top_y": 39974,
+      "bottom_y": 40071,
+      "confidence": 0.047,
+      "ambiguous": true,
+      "alternatives": [
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 47611.63,
+      "bottom_depth": 47612.57,
+      "lithology": "Chalk",
+      "cluster_id": 14,
+      "top_y": 40071,
+      "bottom_y": 40078,
+      "confidence": 0.231,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale Colored",
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47612.57,
+      "bottom_depth": 47624.03,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 40078,
+      "bottom_y": 40164,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47624.03,
+      "bottom_depth": 47626.3,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 40164,
+      "bottom_y": 40181,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47626.3,
+      "bottom_depth": 47634.83,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 40181,
+      "bottom_y": 40245,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47634.83,
+      "bottom_depth": 47650.02,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 40245,
+      "bottom_y": 40359,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47650.02,
+      "bottom_depth": 47653.49,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 40359,
+      "bottom_y": 40385,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47653.49,
+      "bottom_depth": 47655.89,
+      "lithology": "Chalk",
+      "cluster_id": 11,
+      "top_y": 40385,
+      "bottom_y": 40403,
+      "confidence": 0.5,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47655.89,
+      "bottom_depth": 47658.82,
+      "lithology": "Shale Colored",
+      "cluster_id": 6,
+      "top_y": 40403,
+      "bottom_y": 40425,
+      "confidence": 0.047,
+      "ambiguous": true,
+      "alternatives": [
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 47658.82,
+      "bottom_depth": 47693.47,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 40425,
+      "bottom_y": 40685,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47693.47,
+      "bottom_depth": 47705.6,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 40685,
+      "bottom_y": 40776,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47705.6,
+      "bottom_depth": 47715.47,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 40776,
+      "bottom_y": 40850,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47715.47,
+      "bottom_depth": 47717.73,
+      "lithology": "Chalk",
+      "cluster_id": 10,
+      "top_y": 40850,
+      "bottom_y": 40867,
+      "confidence": 0.353,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47717.73,
+      "bottom_depth": 47724.8,
+      "lithology": "Shale Colored",
+      "cluster_id": 8,
+      "top_y": 40867,
+      "bottom_y": 40920,
+      "confidence": 0.211,
+      "ambiguous": false,
+      "alternatives": [
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 47724.8,
+      "bottom_depth": 47733.59,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 40920,
+      "bottom_y": 40986,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47733.59,
+      "bottom_depth": 47742.79,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 40986,
+      "bottom_y": 41055,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47742.79,
+      "bottom_depth": 47761.58,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 41055,
+      "bottom_y": 41196,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47761.58,
+      "bottom_depth": 47769.05,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 41196,
+      "bottom_y": 41252,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47769.05,
+      "bottom_depth": 47770.78,
+      "lithology": "Shale Colored",
+      "cluster_id": 8,
+      "top_y": 41252,
+      "bottom_y": 41265,
+      "confidence": 0.211,
+      "ambiguous": false,
+      "alternatives": [
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 47770.78,
+      "bottom_depth": 47775.85,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 41265,
+      "bottom_y": 41303,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47775.85,
+      "bottom_depth": 47789.44,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 41303,
+      "bottom_y": 41405,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47789.44,
+      "bottom_depth": 47797.84,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 41405,
+      "bottom_y": 41468,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47797.84,
+      "bottom_depth": 47809.7,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 41468,
+      "bottom_y": 41557,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47809.7,
+      "bottom_depth": 47813.03,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 41557,
+      "bottom_y": 41582,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47813.03,
+      "bottom_depth": 47816.5,
+      "lithology": "Shale Colored",
+      "cluster_id": 6,
+      "top_y": 41582,
+      "bottom_y": 41608,
+      "confidence": 0.047,
+      "ambiguous": true,
+      "alternatives": [
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 47816.5,
+      "bottom_depth": 47820.37,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 41608,
+      "bottom_y": 41637,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47820.37,
+      "bottom_depth": 47849.96,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 41637,
+      "bottom_y": 41859,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47849.96,
+      "bottom_depth": 47864.49,
+      "lithology": "Chalk",
+      "cluster_id": 5,
+      "top_y": 41859,
+      "bottom_y": 41968,
+      "confidence": 0.155,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47864.49,
+      "bottom_depth": 47876.75,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 41968,
+      "bottom_y": 42060,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47876.75,
+      "bottom_depth": 47889.54,
+      "lithology": "Chalk",
+      "cluster_id": 5,
+      "top_y": 42060,
+      "bottom_y": 42156,
+      "confidence": 0.155,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47889.54,
+      "bottom_depth": 47898.74,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 42156,
+      "bottom_y": 42225,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47898.74,
+      "bottom_depth": 47907.54,
+      "lithology": "Chalk",
+      "cluster_id": 5,
+      "top_y": 42225,
+      "bottom_y": 42291,
+      "confidence": 0.155,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47907.54,
+      "bottom_depth": 47918.73,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 42291,
+      "bottom_y": 42375,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47918.73,
+      "bottom_depth": 47959.52,
+      "lithology": "Chalk",
+      "cluster_id": 5,
+      "top_y": 42375,
+      "bottom_y": 42681,
+      "confidence": 0.155,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 47959.52,
+      "bottom_depth": 47964.72,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 42681,
+      "bottom_y": 42720,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 47964.72,
+      "bottom_depth": 48009.37,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 42720,
+      "bottom_y": 43055,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 48009.37,
+      "bottom_depth": 48042.83,
+      "lithology": "Marlstone",
+      "cluster_id": 4,
+      "top_y": 43055,
+      "bottom_y": 43306,
+      "confidence": 0.563,
+      "ambiguous": false,
+      "alternatives": [
+        "Chert"
+      ]
+    },
+    {
+      "top_depth": 48042.83,
+      "bottom_depth": 48044.69,
+      "lithology": "Shale Colored",
+      "cluster_id": 12,
+      "top_y": 43306,
+      "bottom_y": 43320,
+      "confidence": 0.532,
+      "ambiguous": false,
+      "alternatives": [
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 48044.69,
+      "bottom_depth": 48099.48,
+      "lithology": "Chalk",
+      "cluster_id": 3,
+      "top_y": 43320,
+      "bottom_y": 43731,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored"
+      ]
+    }
+  ]
+}

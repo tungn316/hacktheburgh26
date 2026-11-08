@@ -1172,11 +1172,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 2.91,
+    "depth": 2.95,
     "segment": 1.04,
-    "legend": 0.24,
-    "intervals": 0.62,
-    "total": 4.8
+    "legend": 0.45,
+    "intervals": 0.61,
+    "total": 5.04
   },
   "intervals": [
     {

@@ -841,21 +841,21 @@
       "white": false
     },
     {
-      "name": "Shale",
-      "box": [
-        972,
-        657,
-        1036,
-        706
-      ],
-      "white": false
-    },
-    {
       "name": "Halite",
       "box": [
         658,
         657,
         722,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale",
+      "box": [
+        972,
+        657,
+        1036,
         706
       ],
       "white": false
@@ -881,16 +881,6 @@
       "white": false
     },
     {
-      "name": "Dolomitic Limestone",
-      "box": [
-        972,
-        728,
-        1036,
-        776
-      ],
-      "white": false
-    },
-    {
       "name": "Dolomite",
       "box": [
         343,
@@ -911,12 +901,32 @@
       "white": false
     },
     {
+      "name": "Dolomitic Limestone",
+      "box": [
+        972,
+        728,
+        1036,
+        776
+      ],
+      "white": false
+    },
+    {
       "name": "Chalk",
       "box": [
         1287,
         728,
         1351,
         776
+      ],
+      "white": false
+    },
+    {
+      "name": "Gypsum",
+      "box": [
+        28,
+        798,
+        92,
+        846
       ],
       "white": false
     },
@@ -1041,7 +1051,7 @@
       "white": false
     },
     {
-      "name": "eit",
+      "name": "FIT",
       "box": [
         972,
         938,
@@ -1059,16 +1069,6 @@
         986
       ],
       "white": false
-    },
-    {
-      "name": "Gypsum",
-      "box": [
-        28,
-        798,
-        92,
-        846
-      ],
-      "white": false
     }
   ],
   "identical_legend_symbols": [],
@@ -1076,11 +1076,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 2.32,
+    "depth": 2.29,
     "segment": 0.33,
-    "legend": 0.4,
+    "legend": 0.62,
     "intervals": 0.17,
-    "total": 3.22
+    "total": 3.41
   },
   "intervals": [
     {

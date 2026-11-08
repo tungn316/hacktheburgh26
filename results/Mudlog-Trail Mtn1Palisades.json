@@ -351,7 +351,7 @@
       "white": false
     },
     {
-      "name": "GRANITE",
+      "name": "Granite",
       "box": [
         382,
         982,
@@ -361,7 +361,7 @@
       "white": false
     },
     {
-      "name": "METAMORPHIC",
+      "name": "Metamorphic",
       "box": [
         382,
         1042,
@@ -371,7 +371,7 @@
       "white": false
     },
     {
-      "name": "Tuff XXXX XXX",
+      "name": "Tuff",
       "box": [
         382,
         1102,
@@ -386,17 +386,17 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 2.0,
-    "segment": 0.33,
-    "legend": 0.25,
+    "depth": 2.01,
+    "segment": 0.32,
+    "legend": 0.49,
     "intervals": 0.11,
-    "total": 2.69
+    "total": 2.93
   },
   "intervals": [
     {
       "top_depth": 1498.07,
       "bottom_depth": 1675.53,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 2161,
       "bottom_y": 3492,
@@ -415,13 +415,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 1676.47,
       "bottom_depth": 1695.53,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 3499,
       "bottom_y": 3642,
@@ -440,13 +440,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 1696.47,
       "bottom_depth": 1715.53,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 3649,
       "bottom_y": 3792,
@@ -465,13 +465,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 1716.47,
       "bottom_depth": 1735.53,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 3799,
       "bottom_y": 3942,
@@ -490,13 +490,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 1736.47,
       "bottom_depth": 1895.53,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 3949,
       "bottom_y": 5142,
@@ -515,13 +515,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 1896.47,
       "bottom_depth": 1915.54,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 5149,
       "bottom_y": 5292,
@@ -540,13 +540,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 1916.48,
       "bottom_depth": 1935.56,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 5299,
       "bottom_y": 5442,
@@ -565,13 +565,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 1936.49,
       "bottom_depth": 1955.57,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 5449,
       "bottom_y": 5592,
@@ -590,13 +590,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 1956.5,
       "bottom_depth": 1977.85,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 5599,
       "bottom_y": 5759,
@@ -620,7 +620,7 @@
     {
       "top_depth": 2147.87,
       "bottom_depth": 2155.6,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7034,
       "bottom_y": 7092,
@@ -639,13 +639,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 2156.53,
       "bottom_depth": 2175.6,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7099,
       "bottom_y": 7242,
@@ -664,13 +664,13 @@
       "ambiguous": true,
       "alternatives": [
         "Siltstone",
-        "Tuff XXXX XXX"
+        "Tuff"
       ]
     },
     {
       "top_depth": 2176.53,
       "bottom_depth": 2189.87,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7249,
       "bottom_y": 7349,
@@ -694,7 +694,7 @@
     {
       "top_depth": 2210.0,
       "bottom_depth": 2215.6,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7500,
       "bottom_y": 7542,
@@ -718,7 +718,7 @@
     {
       "top_depth": 2217.87,
       "bottom_depth": 2224.0,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7559,
       "bottom_y": 7605,
@@ -742,7 +742,7 @@
     {
       "top_depth": 2226.0,
       "bottom_depth": 2246.0,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7620,
       "bottom_y": 7770,
@@ -766,7 +766,7 @@
     {
       "top_depth": 2248.0,
       "bottom_depth": 2257.6,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7785,
       "bottom_y": 7857,
@@ -790,7 +790,7 @@
     {
       "top_depth": 2259.87,
       "bottom_depth": 2271.87,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7874,
       "bottom_y": 7964,
@@ -814,7 +814,7 @@
     {
       "top_depth": 2275.87,
       "bottom_depth": 2293.87,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 7994,
       "bottom_y": 8129,
@@ -838,7 +838,7 @@
     {
       "top_depth": 2296.0,
       "bottom_depth": 2303.87,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 8145,
       "bottom_y": 8204,
@@ -862,7 +862,7 @@
     {
       "top_depth": 2310.0,
       "bottom_depth": 2318.0,
-      "lithology": "Tuff XXXX XXX",
+      "lithology": "Tuff",
       "cluster_id": 1,
       "top_y": 8250,
       "bottom_y": 8310,
@@ -1217,8 +1217,8 @@
       "ambiguous": true,
       "alternatives": [
         "Shale",
-        "METAMORPHIC",
-        "GRANITE"
+        "Metamorphic",
+        "Granite"
       ]
     },
     {

@@ -299,6 +299,16 @@
       "white": false
     },
     {
+      "name": "Fine Sandstone",
+      "box": [
+        398,
+        643,
+        471,
+        683
+      ],
+      "white": false
+    },
+    {
       "name": "Calcareous Sandstone",
       "box": [
         710,
@@ -339,16 +349,6 @@
       "white": true
     },
     {
-      "name": "Calcareous clay-shal",
-      "box": [
-        1336,
-        706,
-        1410,
-        747
-      ],
-      "white": false
-    },
-    {
       "name": "Limestone",
       "box": [
         399,
@@ -359,11 +359,31 @@
       "white": false
     },
     {
+      "name": "Marl",
+      "box": [
+        712,
+        706,
+        785,
+        747
+      ],
+      "white": false
+    },
+    {
       "name": "Halite",
       "box": [
         1024,
         706,
         1097,
+        747
+      ],
+      "white": false
+    },
+    {
+      "name": "Calcareous clay-shal",
+      "box": [
+        1336,
+        706,
+        1410,
         747
       ],
       "white": false
@@ -384,6 +404,16 @@
         398,
         775,
         471,
+        816
+      ],
+      "white": false
+    },
+    {
+      "name": "Fine Sand",
+      "box": [
+        710,
+        775,
+        784,
         816
       ],
       "white": false
@@ -489,32 +519,12 @@
       "white": false
     },
     {
-      "name": "Fine Sand",
+      "name": "Tuff",
       "box": [
-        710,
-        775,
-        784,
-        816
-      ],
-      "white": false
-    },
-    {
-      "name": "Marl",
-      "box": [
-        712,
-        706,
-        785,
-        747
-      ],
-      "white": false
-    },
-    {
-      "name": "Fine Sandstone",
-      "box": [
-        398,
+        197,
         643,
-        471,
-        683
+        290,
+        684
       ],
       "white": false
     }
@@ -532,8 +542,8 @@
     "depth": 1.11,
     "segment": 0.11,
     "legend": 0.51,
-    "intervals": 0.11,
-    "total": 1.85
+    "intervals": 0.1,
+    "total": 1.82
   },
   "intervals": [
     {
@@ -569,12 +579,12 @@
       "cluster_id": 16,
       "top_y": 1432,
       "bottom_y": 1445,
-      "confidence": 0.117,
-      "ambiguous": false,
+      "confidence": 0.007,
+      "ambiguous": true,
       "alternatives": [
+        "Tuff",
         "Survey",
-        "Dry",
-        "FIT"
+        "Dry"
       ]
     },
     {
@@ -3082,16 +3092,16 @@
     {
       "top_depth": 15741.54,
       "bottom_depth": 15745.71,
-      "lithology": "FIT",
+      "lithology": "Tuff",
       "cluster_id": 22,
       "top_y": 17845,
       "bottom_y": 17855,
-      "confidence": 0.022,
+      "confidence": 0.03,
       "ambiguous": true,
       "alternatives": [
+        "FIT",
         "Dry",
-        "Survey",
-        "Oil_Poor"
+        "Survey"
       ]
     }
   ]

@@ -129,14 +129,14 @@
   },
   "legend": [
     {
-      "name": "Shale",
+      "name": "Calcareous",
       "box": [
-        533,
-        562,
-        546,
-        572
+        705,
+        542,
+        769,
+        593
       ],
-      "white": true
+      "white": false
     },
     {
       "name": "Clay",
@@ -199,6 +199,16 @@
       "white": false
     },
     {
+      "name": "Oolic Limestone",
+      "box": [
+        705,
+        663,
+        769,
+        714
+      ],
+      "white": false
+    },
+    {
       "name": "Coarse Sandstone",
       "box": [
         953,
@@ -239,7 +249,17 @@
       "white": false
     },
     {
-      "name": "Calcareous",
+      "name": "Medium Sand",
+      "box": [
+        458,
+        785,
+        521,
+        835
+      ],
+      "white": false
+    },
+    {
+      "name": "Calcareous Sandstone",
       "box": [
         705,
         785,
@@ -389,7 +409,7 @@
       "white": false
     },
     {
-      "name": "Coallignite",
+      "name": "Coal-lignite",
       "box": [
         458,
         1087,
@@ -414,11 +434,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 7.61,
-    "segment": 0.49,
-    "legend": 0.62,
-    "intervals": 0.2,
-    "total": 8.92
+    "depth": 7.7,
+    "segment": 0.43,
+    "legend": 0.71,
+    "intervals": 0.19,
+    "total": 9.04
   },
   "intervals": [
     {
@@ -432,22 +452,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 383.16,
       "bottom_depth": 386.45,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 46431,
       "bottom_y": 46464,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -461,22 +482,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 410.32,
       "bottom_depth": 425.9,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 46703,
       "bottom_y": 46859,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -490,22 +512,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 457.56,
       "bottom_depth": 486.62,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 47176,
       "bottom_y": 47467,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -519,22 +542,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 539.93,
       "bottom_depth": 590.3,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 48001,
       "bottom_y": 48505,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -548,22 +572,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 626.58,
       "bottom_depth": 752.6,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 48868,
       "bottom_y": 50130,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -577,22 +602,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 1417.81,
       "bottom_depth": 1491.31,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 56792,
       "bottom_y": 57528,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -606,22 +632,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 1588.68,
       "bottom_depth": 1621.74,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 58503,
       "bottom_y": 58834,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -635,22 +662,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 1924.22,
       "bottom_depth": 1952.58,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 61863,
       "bottom_y": 62147,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -664,22 +692,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 2864.83,
       "bottom_depth": 2870.23,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 71282,
       "bottom_y": 71336,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -693,22 +722,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 2897.29,
       "bottom_depth": 2903.98,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 71607,
       "bottom_y": 71674,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -722,22 +752,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 2920.16,
       "bottom_depth": 2925.65,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 71836,
       "bottom_y": 71891,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -751,22 +782,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 2962.1,
       "bottom_depth": 2967.49,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 72256,
       "bottom_y": 72310,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -780,22 +812,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 2998.75,
       "bottom_depth": 3008.24,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 72623,
       "bottom_y": 72718,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -809,22 +842,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 3021.72,
       "bottom_depth": 3037.2,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 72853,
       "bottom_y": 73008,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -838,22 +872,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 3131.07,
       "bottom_depth": 3145.95,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 73948,
       "bottom_y": 74097,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -867,22 +902,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 3350.97,
       "bottom_depth": 3365.65,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 76150,
       "bottom_y": 76297,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -896,22 +932,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 3716.77,
       "bottom_depth": 3729.35,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 79813,
       "bottom_y": 79939,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -925,22 +962,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 3806.45,
       "bottom_depth": 4046.32,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 80711,
       "bottom_y": 83113,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -954,22 +992,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4116.62,
       "bottom_depth": 4157.17,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 83817,
       "bottom_y": 84223,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -983,22 +1022,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4242.35,
       "bottom_depth": 4264.62,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 85076,
       "bottom_y": 85299,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1012,22 +1052,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4332.93,
       "bottom_depth": 4363.38,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 85983,
       "bottom_y": 86288,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1041,22 +1082,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4461.35,
       "bottom_depth": 4474.83,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 87269,
       "bottom_y": 87404,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1070,22 +1112,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4524.86,
       "bottom_depth": 4531.65,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 87905,
       "bottom_y": 87973,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1099,22 +1142,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4676.66,
       "bottom_depth": 4726.29,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 89425,
       "bottom_y": 89922,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1128,22 +1172,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4741.17,
       "bottom_depth": 4761.54,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 90071,
       "bottom_y": 90275,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1157,22 +1202,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4768.93,
       "bottom_depth": 4787.9,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 90349,
       "bottom_y": 90539,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1186,22 +1232,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4816.27,
       "bottom_depth": 4875.68,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 90823,
       "bottom_y": 91418,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1215,22 +1262,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4946.69,
       "bottom_depth": 4954.18,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 92129,
       "bottom_y": 92204,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1244,22 +1292,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 4959.57,
       "bottom_depth": 4965.66,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 92258,
       "bottom_y": 92319,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1273,22 +1322,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5018.39,
       "bottom_depth": 5033.27,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 92847,
       "bottom_y": 92996,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1302,22 +1352,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5036.56,
       "bottom_depth": 5070.42,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 93029,
       "bottom_y": 93368,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1331,22 +1382,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5246.88,
       "bottom_depth": 5254.96,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 95135,
       "bottom_y": 95216,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1360,22 +1412,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5267.15,
       "bottom_depth": 5275.24,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 95338,
       "bottom_y": 95419,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1389,22 +1442,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5341.35,
       "bottom_depth": 5459.58,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 96081,
       "bottom_y": 97265,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1418,22 +1472,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5485.25,
       "bottom_depth": 5500.13,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 97522,
       "bottom_y": 97671,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1447,22 +1502,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5577.92,
       "bottom_depth": 5589.41,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 98450,
       "bottom_y": 98565,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1476,22 +1532,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5728.12,
       "bottom_depth": 5811.2,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 99954,
       "bottom_y": 100786,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1505,22 +1562,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 5836.87,
       "bottom_depth": 5877.51,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 101043,
       "bottom_y": 101450,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1534,22 +1592,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 6030.9,
       "bottom_depth": 6037.69,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 102986,
       "bottom_y": 103054,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1563,22 +1622,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 6049.88,
       "bottom_depth": 6055.27,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 103176,
       "bottom_y": 103230,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1592,22 +1652,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 6154.63,
       "bottom_depth": 6161.42,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 104225,
       "bottom_y": 104293,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1621,22 +1682,23 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
       "top_depth": 6193.18,
       "bottom_depth": 6199.87,
-      "lithology": "Dolomitic Sandstone",
+      "lithology": "Medium Sand",
       "cluster_id": 1,
       "top_y": 104611,
       "bottom_y": 104678,
-      "confidence": 0.244,
+      "confidence": 0.874,
       "ambiguous": true,
       "alternatives": [
+        "Dolomitic Sandstone",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1650,7 +1712,8 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
@@ -1660,12 +1723,12 @@
       "cluster_id": 2,
       "top_y": 104831,
       "bottom_y": 105743,
-      "confidence": 0.437,
+      "confidence": 0.393,
       "ambiguous": true,
       "alternatives": [
+        "Medium Sand",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1679,7 +1742,8 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     },
     {
@@ -1689,12 +1753,12 @@
       "cluster_id": 2,
       "top_y": 105795,
       "bottom_y": 105849,
-      "confidence": 0.437,
+      "confidence": 0.393,
       "ambiguous": true,
       "alternatives": [
+        "Medium Sand",
         "Medium Sandstone",
-        "Coarse Sandstone",
-        "Fine Sandstone"
+        "Coarse Sandstone"
       ]
     },
     {
@@ -1708,7 +1772,8 @@
       "ambiguous": true,
       "alternatives": [
         "Silty clay-shale",
-        "Clay"
+        "Clay",
+        "Calcareous"
       ]
     }
   ]

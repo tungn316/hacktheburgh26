@@ -253,6 +253,16 @@
       "white": false
     },
     {
+      "name": "Granite",
+      "box": [
+        1916,
+        1420,
+        2011,
+        1493
+      ],
+      "white": false
+    },
+    {
       "name": "Clay/Shale",
       "box": [
         23,
@@ -273,21 +283,21 @@
       "white": false
     },
     {
-      "name": "Coal-lignite",
+      "name": "Gypsum",
       "box": [
-        1442,
+        968,
         1420,
-        1538,
+        1066,
         1493
       ],
       "white": false
     },
     {
-      "name": "Granite",
+      "name": "Coal-lignite",
       "box": [
-        1916,
+        1442,
         1420,
-        2011,
+        1538,
         1493
       ],
       "white": false
@@ -323,6 +333,16 @@
       "white": false
     },
     {
+      "name": "Oil",
+      "box": [
+        1443,
+        1526,
+        1538,
+        1598
+      ],
+      "white": false
+    },
+    {
       "name": "Oil and Gas",
       "box": [
         1917,
@@ -343,32 +363,42 @@
       "white": false
     },
     {
+      "name": "Connection Gas",
+      "box": [
+        516,
+        1644,
+        572,
+        1689
+      ],
+      "white": false
+    },
+    {
       "name": "Pumps Off Gas",
       "box": [
-        969,
-        1632,
-        1066,
-        1704
+        990,
+        1644,
+        1046,
+        1689
       ],
       "white": false
     },
     {
       "name": "Formation Gas",
       "box": [
-        1443,
-        1632,
-        1538,
-        1704
+        1461,
+        1644,
+        1519,
+        1689
       ],
       "white": false
     },
     {
       "name": "Background Gas",
       "box": [
-        1917,
-        1632,
-        2011,
-        1704
+        1936,
+        1645,
+        1994,
+        1690
       ],
       "white": false
     }
@@ -378,11 +408,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 2.57,
-    "segment": 0.32,
-    "legend": 0.72,
-    "intervals": 0.14,
-    "total": 3.75
+    "depth": 2.6,
+    "segment": 0.31,
+    "legend": 0.56,
+    "intervals": 0.13,
+    "total": 3.6
   },
   "intervals": [
     {
@@ -392,12 +422,12 @@
       "cluster_id": 20,
       "top_y": 11894,
       "bottom_y": 11908,
-      "confidence": 0.03,
+      "confidence": 0.017,
       "ambiguous": true,
       "alternatives": [
+        "Gypsum",
         "Salt",
-        "Anhydrite",
-        "Granite"
+        "Anhydrite"
       ]
     },
     {
@@ -440,8 +470,8 @@
       "ambiguous": true,
       "alternatives": [
         "Salt",
-        "Granite",
-        "Anhydrite"
+        "Gypsum",
+        "Granite"
       ]
     },
     {
@@ -526,7 +556,7 @@
       "alternatives": [
         "Marl",
         "Shale",
-        "Coal-lignite"
+        "Oil"
       ]
     },
     {
@@ -581,7 +611,7 @@
       "alternatives": [
         "Shale",
         "Marl",
-        "Coal-lignite"
+        "Oil"
       ]
     },
     {
@@ -606,8 +636,8 @@
       "ambiguous": true,
       "alternatives": [
         "Salt",
-        "Granite",
-        "Anhydrite"
+        "Gypsum",
+        "Granite"
       ]
     },
     {
@@ -636,8 +666,8 @@
       "ambiguous": true,
       "alternatives": [
         "Chert",
-        "Gas",
-        "Conglomerate"
+        "Gypsum",
+        "Gas"
       ]
     },
     {
@@ -658,14 +688,14 @@
     {
       "top_depth": 9502.83,
       "bottom_depth": 9506.5,
-      "lithology": "Anhydrite",
+      "lithology": "Gypsum",
       "cluster_id": 22,
       "top_y": 12309,
       "bottom_y": 12320,
-      "confidence": 0.33,
+      "confidence": 0.357,
       "ambiguous": false,
       "alternatives": [
-        "Chert"
+        "Anhydrite"
       ]
     },
     {
@@ -849,8 +879,8 @@
       "ambiguous": true,
       "alternatives": [
         "Chert",
-        "Gas",
-        "Conglomerate"
+        "Gypsum",
+        "Gas"
       ]
     },
     {
@@ -879,8 +909,8 @@
       "ambiguous": true,
       "alternatives": [
         "Salt",
-        "Granite",
-        "Anhydrite"
+        "Gypsum",
+        "Granite"
       ]
     },
     {
@@ -1115,14 +1145,14 @@
     {
       "top_depth": 9753.23,
       "bottom_depth": 9756.88,
-      "lithology": "Anhydrite",
+      "lithology": "Gypsum",
       "cluster_id": 22,
       "top_y": 13061,
       "bottom_y": 13072,
-      "confidence": 0.33,
+      "confidence": 0.357,
       "ambiguous": false,
       "alternatives": [
-        "Chert"
+        "Anhydrite"
       ]
     },
     {
@@ -1147,8 +1177,8 @@
       "ambiguous": true,
       "alternatives": [
         "Salt",
-        "Granite",
-        "Anhydrite"
+        "Gypsum",
+        "Granite"
       ]
     },
     {
@@ -1330,7 +1360,7 @@
       "alternatives": [
         "Shale",
         "Marl",
-        "Coal-lignite"
+        "Oil"
       ]
     },
     {
@@ -1733,8 +1763,8 @@
       "ambiguous": true,
       "alternatives": [
         "Salt",
-        "Granite",
-        "Anhydrite"
+        "Gypsum",
+        "Granite"
       ]
     },
     {
@@ -1749,7 +1779,7 @@
       "alternatives": [
         "Shale",
         "Marl",
-        "Coal-lignite"
+        "Oil"
       ]
     },
     {
@@ -1796,14 +1826,14 @@
     {
       "top_depth": 10704.44,
       "bottom_depth": 10708.44,
-      "lithology": "Anhydrite",
+      "lithology": "Gypsum",
       "cluster_id": 22,
       "top_y": 15913,
       "bottom_y": 15925,
-      "confidence": 0.33,
+      "confidence": 0.357,
       "ambiguous": false,
       "alternatives": [
-        "Chert"
+        "Anhydrite"
       ]
     },
     {
@@ -1858,7 +1888,7 @@
       "alternatives": [
         "Shale",
         "Marl",
-        "Coal-lignite"
+        "Oil"
       ]
     },
     {
@@ -3105,7 +3135,7 @@
       "alternatives": [
         "Shale",
         "Marl",
-        "Coal-lignite"
+        "Oil"
       ]
     },
     {

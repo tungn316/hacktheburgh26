@@ -1141,16 +1141,6 @@
       "white": false
     },
     {
-      "name": "Survey",
-      "box": [
-        27,
-        863,
-        86,
-        904
-      ],
-      "white": false
-    },
-    {
       "name": "Mud gain",
       "box": [
         335,
@@ -1189,6 +1179,16 @@
         904
       ],
       "white": false
+    },
+    {
+      "name": "Survey",
+      "box": [
+        27,
+        863,
+        86,
+        904
+      ],
+      "white": false
     }
   ],
   "identical_legend_symbols": [
@@ -1201,11 +1201,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 2.55,
+    "depth": 2.59,
     "segment": 0.54,
-    "legend": 0.27,
-    "intervals": 0.15,
-    "total": 3.52
+    "legend": 0.6,
+    "intervals": 0.17,
+    "total": 3.89
   },
   "intervals": [
     {

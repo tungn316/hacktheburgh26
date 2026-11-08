@@ -259,6 +259,16 @@
       "white": false
     },
     {
+      "name": "Core",
+      "box": [
+        358,
+        775,
+        416,
+        816
+      ],
+      "white": false
+    },
+    {
       "name": "DST",
       "box": [
         666,
@@ -359,6 +369,16 @@
       "white": false
     },
     {
+      "name": "Gaz",
+      "box": [
+        666,
+        900,
+        723,
+        940
+      ],
+      "white": false
+    },
+    {
       "name": "Sidewall Core",
       "box": [
         972,
@@ -377,26 +397,6 @@
         940
       ],
       "white": false
-    },
-    {
-      "name": "Gaz",
-      "box": [
-        666,
-        900,
-        723,
-        940
-      ],
-      "white": false
-    },
-    {
-      "name": "Core",
-      "box": [
-        358,
-        775,
-        416,
-        816
-      ],
-      "white": false
     }
   ],
   "identical_legend_symbols": [],
@@ -404,11 +404,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 0.53,
-    "segment": 0.11,
-    "legend": 0.42,
-    "intervals": 0.09,
-    "total": 1.15
+    "depth": 0.55,
+    "segment": 0.1,
+    "legend": 0.5,
+    "intervals": 0.08,
+    "total": 1.22
   },
   "intervals": [
     {

@@ -1169,7 +1169,7 @@
       "white": false
     },
     {
-      "name": "Sidewall",
+      "name": "Sidewall core",
       "box": [
         1256,
         1152,
@@ -1204,11 +1204,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 2.8,
-    "segment": 1.04,
-    "legend": 0.23,
-    "intervals": 0.28,
-    "total": 4.36
+    "depth": 2.82,
+    "segment": 1.01,
+    "legend": 0.45,
+    "intervals": 0.29,
+    "total": 4.57
   },
   "intervals": [
     {
@@ -1372,7 +1372,7 @@
       "ambiguous": true,
       "alternatives": [
         "FIT",
-        "Sidewall",
+        "Sidewall core",
         "Dst"
       ]
     },

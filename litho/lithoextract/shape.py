@@ -11,7 +11,8 @@ import numpy as np
 
 from .features import N_HUE, classify_pixels, hue_bins, run_length_map
 
-SHAPE_NAMES = ["horiz", "vert", "diag", "anti", "dot", "solid", "empty"] + [f"hue{i}" for i in range(N_HUE)] + ["ink"]
+SHAPE_NAMES = ["horiz", "vert", "diag", "anti", "dot", "solid", "empty"] + [f"hue{i}" for i in range(N_HUE)] + ["fill", "ink"]
+FILL = len(SHAPE_NAMES) - 2
 
 
 def _diag_runs(mask: np.ndarray, anti: bool) -> np.ndarray:
@@ -28,6 +29,13 @@ def _diag_runs(mask: np.ndarray, anti: bool) -> np.ndarray:
 
 def shape_descriptor(rgb: np.ndarray) -> np.ndarray:
     ink, white, colour = classify_pixels(rgb)
+    # Rows inked across (nearly) the whole width are where a symbol's tiles meet, or ruled lines:
+    # the column repeats a symbol's edge every tile, the legend's cropped swatch has none.
+    # Only when such rows are sparse (one per tile, < 20% of rows) and on colour fills: a symbol can
+    # itself be full-width lines (shale drawn as dense lines; black-and-white shale).
+    rule = ink.mean(axis=1) >= 0.8
+    if 0 < rule.mean() < 0.2 and colour[~rule].sum() > 0.5 * max(1, (~ink[~rule]).sum()):
+        rgb, ink, white, colour = rgb[~rule], ink[~rule], white[~rule], colour[~rule]
     n_ink = ink.sum()
     d = np.zeros(len(SHAPE_NAMES), np.float32)
     area = ink.size
@@ -52,12 +60,17 @@ def shape_descriptor(rgb: np.ndarray) -> np.ndarray:
         nonink = max(1, (~ink).sum())
         for k in range(N_HUE):
             d[7 + k] = ((hb == k) & colour).sum() / nonink
+    # How dark the paper/fill is (white ~0, light grey ~0.4, a strong orange ~1.1): tells white from
+    # grey shale fills and a bright orange from a pale peach of similar hue.
+    if (~ink).any():
+        med = np.median(rgb[~ink].reshape(-1, 3), axis=0).astype(np.float32)
+        d[FILL] = min(1.5, max(0.0, (255 - float(med @ np.array([0.3, 0.59, 0.11], np.float32))) / 100))
     d[-1] = ink_frac
     return d
 
 
 def shape_distance(a: np.ndarray, b: np.ndarray) -> float:
     w = np.ones(len(a), np.float32)
-    w[7:-1] = 1.5  # colour is the most reliable cue when present
+    w[7:FILL] = 1.5  # colour is the most reliable cue when present
     w[-1] = 2.0  # ink density: separates dot-density variants (fine vs medium sand)
     return float(np.abs((a - b) * w).sum())

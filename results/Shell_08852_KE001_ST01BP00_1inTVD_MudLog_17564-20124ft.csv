@@ -27,7 +27,7 @@ top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
 19073.5,19086.5,Fine Sandstone,1,4689,4715
 19086.5,19090.0,Clay-shale,7,4715,4722
 19090.0,19093.5,Fine Sandstone,2,4722,4729
-19093.5,19096.5,Clay-shale,9,4729,4735
+19093.5,19096.5,Salt water,9,4729,4735
 19096.5,19105.0,Fine Sandstone,1,4735,4752
 19105.0,19113.0,Clay-shale,0,4752,4768
 19113.0,19130.0,Fine Sandstone,1,4768,4802
@@ -45,6 +45,6 @@ top_depth,bottom_depth,lithology,cluster_id,top_y,bottom_y
 19656.0,19705.0,Fine Sandstone,1,5854,5952
 19705.0,19849.5,Clay-shale,0,5952,6241
 19849.5,20009.0,Fine Sandstone,1,6241,6560
-20009.0,20012.0,Clay-shale,9,6560,6566
+20009.0,20012.0,Salt water,9,6560,6566
 20012.0,20035.0,Fine Sandstone,1,6566,6612
 20035.0,20144.99,Clay-shale,0,6612,6832

@@ -445,6 +445,16 @@
   },
   "legend": [
     {
+      "name": "Anhydrite",
+      "box": [
+        2567,
+        1634,
+        2739,
+        1754
+      ],
+      "white": false
+    },
+    {
       "name": "Limestone",
       "box": [
         2062,
@@ -475,12 +485,12 @@
       "white": false
     },
     {
-      "name": "Shale",
+      "name": "Coal",
       "box": [
-        2566,
-        1867,
-        2738,
-        1987
+        2061,
+        1866,
+        2233,
+        1989
       ],
       "white": false
     },
@@ -505,6 +515,16 @@
       "white": false
     },
     {
+      "name": "Shale",
+      "box": [
+        2566,
+        1867,
+        2738,
+        1987
+      ],
+      "white": false
+    },
+    {
       "name": "Sandstone",
       "box": [
         2314,
@@ -523,26 +543,6 @@
         2252
       ],
       "white": false
-    },
-    {
-      "name": "Coal",
-      "box": [
-        2061,
-        1866,
-        2233,
-        1989
-      ],
-      "white": false
-    },
-    {
-      "name": "Anhydrite",
-      "box": [
-        2567,
-        1634,
-        2739,
-        1754
-      ],
-      "white": false
     }
   ],
   "identical_legend_symbols": [
@@ -555,11 +555,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 5.98,
-    "segment": 2.26,
-    "legend": 0.81,
-    "intervals": 0.87,
-    "total": 9.93
+    "depth": 6.17,
+    "segment": 1.89,
+    "legend": 0.95,
+    "intervals": 0.85,
+    "total": 9.86
   },
   "intervals": [
     {

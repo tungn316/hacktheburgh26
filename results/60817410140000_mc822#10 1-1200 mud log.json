@@ -805,11 +805,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 1.6,
-    "segment": 0.17,
-    "legend": 0.25,
-    "intervals": 0.13,
-    "total": 2.17
+    "depth": 1.53,
+    "segment": 0.16,
+    "legend": 0.53,
+    "intervals": 0.14,
+    "total": 2.36
   },
   "intervals": [
     {

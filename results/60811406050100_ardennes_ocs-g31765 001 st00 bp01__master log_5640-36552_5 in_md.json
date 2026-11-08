@@ -933,26 +933,6 @@
   },
   "legend": [
     {
-      "name": "Sandstone",
-      "box": [
-        343,
-        657,
-        407,
-        706
-      ],
-      "white": false
-    },
-    {
-      "name": "Clay-shale",
-      "box": [
-        973,
-        657,
-        1038,
-        706
-      ],
-      "white": false
-    },
-    {
       "name": "Siltstone",
       "box": [
         27,
@@ -963,11 +943,31 @@
       "white": false
     },
     {
+      "name": "Sandstone",
+      "box": [
+        343,
+        657,
+        407,
+        706
+      ],
+      "white": false
+    },
+    {
       "name": "Halite",
       "box": [
         658,
         657,
         722,
+        706
+      ],
+      "white": false
+    },
+    {
+      "name": "Clay-shale",
+      "box": [
+        973,
+        657,
+        1038,
         706
       ],
       "white": false
@@ -1033,6 +1033,16 @@
       "white": false
     },
     {
+      "name": "Gypsum",
+      "box": [
+        27,
+        797,
+        91,
+        846
+      ],
+      "white": false
+    },
+    {
       "name": "Sand Clay-Shale",
       "box": [
         343,
@@ -1048,6 +1058,16 @@
         658,
         797,
         722,
+        846
+      ],
+      "white": false
+    },
+    {
+      "name": "Tar",
+      "box": [
+        973,
+        797,
+        1038,
         846
       ],
       "white": false
@@ -1083,21 +1103,21 @@
       "white": false
     },
     {
-      "name": "Sylvite",
-      "box": [
-        973,
-        868,
-        1038,
-        916
-      ],
-      "white": false
-    },
-    {
       "name": "Casing Top",
       "box": [
         27,
         868,
         91,
+        916
+      ],
+      "white": false
+    },
+    {
+      "name": "Sylvite",
+      "box": [
+        973,
+        868,
+        1038,
         916
       ],
       "white": false
@@ -1131,26 +1151,6 @@
         986
       ],
       "white": false
-    },
-    {
-      "name": "Tar",
-      "box": [
-        973,
-        797,
-        1038,
-        846
-      ],
-      "white": false
-    },
-    {
-      "name": "Gypsum",
-      "box": [
-        27,
-        797,
-        91,
-        846
-      ],
-      "white": false
     }
   ],
   "identical_legend_symbols": [
@@ -1163,11 +1163,11 @@
   "snap_grid": null,
   "warnings": [],
   "timings_s": {
-    "depth": 3.6,
-    "segment": 1.51,
-    "legend": 0.47,
-    "intervals": 0.36,
-    "total": 5.94
+    "depth": 3.4,
+    "segment": 1.52,
+    "legend": 0.58,
+    "intervals": 0.35,
+    "total": 5.85
   },
   "intervals": [
     {
