@@ -1,0 +1,28 @@
+{
+  "image_name": "60807402860000_gb506#2_tvd_mudlog.tif",
+  "width": 1536,
+  "height": 9624,
+  "bbox_format": "xyxy",
+  "coordinate_system": "pixels, origin at top-left, x_max and y_max exclusive",
+  "bounding_boxes": {
+    "depth_column": [
+      236,
+      1206,
+      316,
+      9624
+    ],
+    "interpreted_lithology_column": [
+      953,
+      1206,
+      1000,
+      9624
+    ],
+    "lithology_legend": [
+      12,
+      596,
+      1525,
+      1003
+    ]
+  },
+  "lithology_track_label": "Lithology"
+}

@@ -23,6 +23,7 @@ from .overlay import render_overlays
 from .segment import Column, group_segments, segment_column
 from .shape import shape_descriptor, shape_distance
 from .snap import Grid, find_grid
+from .tiles import name_pieces
 
 AMBIGUOUS_MARGIN = 0.10  # best and runner-up legend matches closer than this -> flag as ambiguous
 IDENTICAL_INK = 0.9  # legend swatches whose ink matches this well are the same symbol...
@@ -67,7 +68,12 @@ def _group_shape(rgb: np.ndarray, segs, group: int, max_rows: int = 4000) -> np.
         used += len(parts[-1])
         if used >= max_rows:
             break
-    return shape_descriptor(np.concatenate(parts)) if parts else np.zeros(1)
+    if not parts:
+        return np.zeros((2, 1))
+    rgb = np.concatenate(parts)
+    # Two views: as drawn, and without tile-edge lines (see shape_descriptor). Each legend symbol is
+    # compared with the closer view, so a symbol that really is lines still matches with them kept.
+    return np.stack([shape_descriptor(rgb), shape_descriptor(rgb, drop_rules=True)])
 
 
 def _twins(swatches: list[Swatch]) -> dict[str, set[str]]:
@@ -89,7 +95,7 @@ def _label_groups(rgb, segs, n_groups, swatches):
     labels: dict[int, tuple[str, float, list[str], bool]] = {}
     for g in range(n_groups):
         gd = _group_shape(rgb, segs, g)
-        ranked = sorted((shape_distance(gd, s.shape), s.name) for s in candidates)
+        ranked = sorted((min(shape_distance(v, s.shape) for v in gd), s.name) for s in candidates)
         if len(ranked) < 2:  # with 0-1 legend symbols there is nothing to choose between
             labels[g] = (f"Unidentified (cluster {g})", 0.0, [n for _, n in ranked], True)
             continue
@@ -221,8 +227,12 @@ def run_page(page: Page) -> dict:
     white = [s for s in swatches if s.is_white]
     blank_cluster = n_groups  # blank stretches inside the log get a cluster of their own
 
+    # Where the legend's own drawing can be found in the column, name each piece from that.
+    piece_label = name_pieces(rgb, segs, swatches, twins, _commonness, lambda s: group_label[s.group][3])
+    matching = "legend drawing found in column" if piece_label is not None else "stroke fingerprints"
+
     ivs: list[Interval] = []
-    for s in segs:
+    for k, s in enumerate(segs):
         if s.blank:
             if white:
                 name, conf, alts, amb = white[0].name, 0.8, [], False
@@ -232,7 +242,18 @@ def run_page(page: Page) -> dict:
         else:
             g = s.group
             name, conf, alts, amb = group_label[g]
+            if piece_label and k in piece_label:
+                name, conf, alts, amb = piece_label[k]
         ivs.append(Interval(y0 + s.y0, y0 + s.y1, g, name, conf, list(alts), amb, s.blank))
+    if piece_label is not None:  # pieces were named one by one: a cluster is now simply one rock
+        cid: dict[str, int] = {}
+        for iv in ivs:
+            if not iv.blank:
+                iv.cluster_id = cid.setdefault(iv.lithology, len(cid))
+        n_groups = len(cid)
+        for iv in ivs:
+            if iv.blank:
+                iv.cluster_id = n_groups
     # Blank stretches at either end are outside the logged range.
     while ivs and ivs[0].blank:
         ivs.pop(0)
@@ -275,6 +296,7 @@ def run_page(page: Page) -> dict:
         "legend": [{"name": s.name, "box": list(s.box), "white": s.is_white} for s in swatches],
         "identical_legend_symbols": sorted({tuple(sorted({k} | v)) for k, v in twins.items()}),
         "n_groups": n_groups,
+        "naming": matching,
         "snap_grid": None if grid is None else {"step_ft": grid.step, "tolerance_ft": grid.tol,
                                                 "on_grid_fraction": round(grid.on_grid_frac, 3),
                                                 "boundaries_snapped": n_snapped, "short_piece_edges_moved_to_grid": n_relocated,

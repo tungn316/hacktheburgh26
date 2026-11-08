@@ -1,0 +1,27 @@
+{
+  "image_name": "Nichols 1 Mud Log.tif",
+  "width": 2550,
+  "height": 13200,
+  "bbox_format": "xyxy",
+  "coordinate_system": "pixels, origin at top-left, x_max and y_max exclusive",
+  "bounding_boxes": {
+    "depth_column": [
+      463,
+      6473,
+      541,
+      10828
+    ],
+    "interpreted_lithology_column": [
+      536,
+      6473,
+      719,
+      10828
+    ],
+    "lithology_legend": [
+      21,
+      3564,
+      2419,
+      4016
+    ]
+  }
+}

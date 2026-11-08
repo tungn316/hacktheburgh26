@@ -72,7 +72,7 @@ class DepthFit:
         return float(y) if y.ndim == 0 else y
 
 
-def _ocr_numbers(img: np.ndarray, scale: float) -> list[tuple[float, float, float]]:
+def _ocr_numbers(img: np.ndarray, scale: float, min_conf: float = 30) -> list[tuple[float, float, float]]:
     """Return (center_x, center_y, value) for each number tesseract finds in a binary image."""
     pil = Image.fromarray(np.where(img, 0, 255).astype(np.uint8))
     if scale != 1:
@@ -86,16 +86,16 @@ def _ocr_numbers(img: np.ndarray, scale: float) -> list[tuple[float, float, floa
     for txt, conf, l, t, w, h in zip(data["text"], data["conf"], data["left"], data["top"], data["width"], data["height"]):
         # Plain "9120" or with thousands separators "9,120" (a stray trailing comma/dot is dropped).
         m = re.fullmatch(r"(\d{3,6}|\d{1,3}(?:,\d{3})+)(\.0)?", txt.strip().rstrip(",."))
-        if m and float(conf) > 30:
+        if m and float(conf) > min_conf:
             out.append(((l + w / 2) / scale, (t + h / 2) / scale, float(m.group(1).replace(",", ""))))
     return out
 
 
-def _read_chunk(ink: np.ndarray, rot: int, scale: float) -> list[tuple[float, float]]:
+def _read_chunk(ink: np.ndarray, rot: int, scale: float, min_conf: float = 30) -> list[tuple[float, float]]:
     """(row within the chunk, value) for every number read with the text rotated by ``rot``."""
     part = np.rot90(ink, k=rot // 90) if rot else ink  # rot90 is counter-clockwise
     out = []
-    for cx, cy, val in _ocr_numbers(part, scale):
+    for cx, cy, val in _ocr_numbers(part, scale, min_conf):
         # np.rot90(k=1) maps (row, col) -> (W-1-col, row): original row = new x.
         # np.rot90(k=3) maps (row, col) -> (col, H-1-row): original row = H-1-new x.
         yy = cy if rot == 0 else cx if rot == 90 else part.shape[1] - 1 - cx
@@ -237,6 +237,7 @@ def calibrate_depth(
     max_chunks: int = 12,
     n_probe: int = 2,
     min_labels: int = 30,
+    few_labels: int = 8,
 ) -> DepthFit:
     x0, y0, x1, y1 = box or page.boxes["depth_column"]
     pad = 40  # labels can sit slightly outside the box vertically
@@ -283,6 +284,17 @@ def calibrate_depth(
     if score(pts) < min_labels and len(sampled) < len(starts):  # sparse labels: read every chunk after all
         to_read = starts
         pts = read(to_read, rot)
+    # Few labels: Tesseract often reads a clean number right yet gives it confidence 0. Take those too
+    # (-1 marks a non-word); the line fit below still throws out any that are wrong.
+    if score(pts) < few_labels:
+        best = score(pts)
+        for r in ([rot] if best >= 3 else [rot] + [q for q in (0, 90, 270) if q != rot]):
+            low = list(pts) if r == rot else []
+            for c0 in to_read:
+                ink = ink_mask(page.crop((x0, c0, x1, min(y1p, c0 + chunk + overlap))))
+                low += [(c0 + yy, v) for yy, v in _read_chunk(ink, r, scale, min_conf=-1)]
+            if score(low) > best:
+                best, pts, rot = score(low), low, r
     ys, ds = _dedupe(pts, overlap)
     if len(ys) < 2:
         raise RuntimeError("could not read enough depth labels")

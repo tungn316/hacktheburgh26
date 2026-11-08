@@ -27,15 +27,15 @@ def _diag_runs(mask: np.ndarray, anti: bool) -> np.ndarray:
     return out
 
 
-def shape_descriptor(rgb: np.ndarray) -> np.ndarray:
+def shape_descriptor(rgb: np.ndarray, drop_rules: bool = False) -> np.ndarray:
     ink, white, colour = classify_pixels(rgb)
-    # Rows inked across (nearly) the whole width are where a symbol's tiles meet, or ruled lines:
-    # the column repeats a symbol's edge every tile, the legend's cropped swatch has none.
-    # Only when such rows are sparse (one per tile, < 20% of rows) and on colour fills: a symbol can
-    # itself be full-width lines (shale drawn as dense lines; black-and-white shale).
-    rule = ink.mean(axis=1) >= 0.8
-    if 0 < rule.mean() < 0.2 and colour[~rule].sum() > 0.5 * max(1, (~ink[~rule]).sum()):
-        rgb, ink, white, colour = rgb[~rule], ink[~rule], white[~rule], colour[~rule]
+    if drop_rules:
+        # Rows inked across (nearly) the whole width, if sparse (< 20% of rows) on a colour fill: where
+        # the column's repeated symbol tiles meet. The legend's swatch, cropped inside its edge, has
+        # none. (On black-and-white logs, sparse full-width lines are a symbol in their own right.)
+        rule = ink.mean(axis=1) >= 0.8
+        if 0 < rule.mean() < 0.2 and colour[~rule].sum() > 0.5 * max(1, (~ink[~rule]).sum()):
+            rgb, ink, white, colour = rgb[~rule], ink[~rule], white[~rule], colour[~rule]
     n_ink = ink.sum()
     d = np.zeros(len(SHAPE_NAMES), np.float32)
     area = ink.size

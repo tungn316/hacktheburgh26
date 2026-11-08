@@ -22,6 +22,16 @@ VOCAB = [
 ]
 
 
+# Abbreviations on legends that use them instead of rock names ("Ss", "Lmst", "Shcol").
+ABBREVIATIONS = {
+    "anhy": "Anhydrite", "bent": "Bentonite", "brec": "Breccia", "cht": "Chert", "clyst": "Claystone",
+    "congl": "Conglomerate", "dol": "Dolomite", "gyp": "Gypsum", "igne": "Igneous", "lmst": "Limestone",
+    "meta": "Metamorphic", "mrlst": "Marlstone", "shcol": "Shale Colored", "shgy": "Shale Gray",
+    "ss": "Sandstone", "sltst": "Siltstone",
+}
+FULL_WORDS = {w: w.capitalize() for w in ("chalk", "coal", "salt", "shale", "till", "tuff")}  # same legends, not abbreviated
+
+
 @dataclass
 class Swatch:
     name: str
@@ -30,6 +40,7 @@ class Swatch:
     shape: np.ndarray  # scale-free stroke-shape descriptor, used for matching
     is_white: bool
     ink: np.ndarray  # binary ink mask of the swatch interior, for spotting identical symbols
+    tile: np.ndarray  # the swatch interior itself (RGB), to look for in the column
 
 
 def _nonwhite(rgb: np.ndarray) -> np.ndarray:
@@ -74,7 +85,7 @@ def _coverage(mask: np.ndarray, r) -> float:
     return float((top.sum() + bot.sum() + lef.sum() + rig.sum()) / (2 * w + 2 * h))
 
 
-def _text_lines(rgb: np.ndarray, scale: float, swatches=()) -> list[tuple[str, tuple[float, float, float, float]]]:
+def _text_lines(rgb: np.ndarray, scale: float, swatches=(), words_out: list | None = None) -> list[tuple[str, tuple[float, float, float, float]]]:
     """OCR'd text lines. ``swatches`` are small drawn boxes: words inside them are pattern noise
     ("i=", "fre]") and are dropped, and a line never continues across one, so the labels of two
     legend columns side by side stay separate."""
@@ -94,6 +105,9 @@ def _text_lines(rgb: np.ndarray, scale: float, swatches=()) -> list[tuple[str, t
             if any(a <= cx <= c and b <= cy <= d for a, b, c, d in swatches):
                 continue
             words.append([t, l, tp, l + w, tp + h, float(d['conf'][i])])
+
+    if words_out is not None:
+        words_out.extend(words)
 
     def box_between(L, w) -> bool:  # a label never spans a swatch (its middle lies inside the joined line)
         return any(L[1] <= (a + c) / 2 <= w[3] and b < max(L[4], w[4]) and d > min(L[2], w[2])
@@ -135,13 +149,23 @@ def _strip_junk(L) -> tuple[str, tuple[float, float, float, float]]:
     return " ".join(w[0] for w in ws), (ws[0][1], min(w[2] for w in ws), ws[-1][3], max(w[4] for w in ws))
 
 
+def _nearest(cands: list, th: float):
+    """The nearest box; on a tie left beats above, then the largest. Boxes to the left that are about
+    equally near are told apart by height: a label sitting low can line up with the next row's box too."""
+    best = min(cands)
+    if best[1]:
+        return best
+    close = [c for c in cands if not c[1] and c[4] <= best[4] + max(8, 0.5 * th)]
+    return min(close, key=lambda c: (round(c[5] / 4), c[2]))
+
+
 def _assign_labels(rects, lines) -> dict[tuple, str]:
     """For each text line, find the swatch it labels: the largest drawn rectangle immediately
     left of it, or immediately above it. Several lines can label one swatch ("Silty / Sandstone")."""
     hits: dict[tuple, list[tuple[float, float, str]]] = {}
     picks = []
     for t, (a, b, c, d) in lines:
-        if sum(ch.isalpha() for ch in t) < 3 and t.lower() not in ("or", "and", "&"):
+        if sum(ch.isalpha() for ch in t) < 3 and t.lower() not in ("or", "and", "&") and t.lower() not in ABBREVIATIONS:
             continue
         cx, cy, th = (a + c) / 2, (b + d) / 2, d - b
         if any(r[0] <= cx <= r[2] and r[1] <= cy <= r[3] and (r[2] - r[0]) * (r[3] - r[1]) < 0.1 * 1e6 for r in rects
@@ -157,9 +181,10 @@ def _assign_labels(rects, lines) -> dict[tuple, str]:
             below = -6 <= b - y1 <= 1.3 * h and x0 <= cx <= x1  # under the box, not the next row's label
             if right or below:
                 gap = max(0.0, a - x1) if right else max(0.0, b - y1)
-                cands.append((round(gap / 4), not right, -(x1 - x0) * (y1 - y0), r))
+                off = abs(cy - (y0 + y1) / 2)
+                cands.append((round(gap / 4), not right, -(x1 - x0) * (y1 - y0), r, gap, off))
         if cands:
-            picks.append((min(cands), cands, (cy, a, t, th)))
+            picks.append((_nearest(cands, th), cands, (cy, a, t, th)))
     # Legends put labels either beside or under their boxes. When nearly every label is beside its
     # box, a box "above" a label is the previous row's swatch (e.g. above a borderless coal icon).
     n_right = sum(not best[1] for best, _, _ in picks)
@@ -169,7 +194,7 @@ def _assign_labels(rects, lines) -> dict[tuple, str]:
             cands = [c for c in cands if not c[1]]
             if not cands:
                 continue
-            best = min(cands)
+            best = _nearest(cands, item[3])
         hits.setdefault(best[3], []).append(item)  # the nearest box; on a tie left beats above, then largest
     out = {}
     for r, v in hits.items():
@@ -299,7 +324,7 @@ def _borderless(nw: np.ndarray, lines, labelled: dict) -> dict[tuple, str]:
             continue
         cols = band.any(0)[::-1]  # walking left from the label
         bridge = max(4, int(0.25 * ws)) if ws else int(2 * th)
-        start = next((i for i, v in enumerate(cols[: max(bridge, int(1.5 * th))]) if v), None)
+        start = next((i for i, v in enumerate(cols[: max(bridge, int(1.5 * th), int(0.4 * ws))]) if v), None)
         if start is None:
             continue
         end, gap = start, 0
@@ -336,10 +361,65 @@ def canonical_name(name: str) -> str:
 
 
 def _ocr_strip(rgb: np.ndarray, scale: float) -> str:
-    pil = Image.fromarray(rgb)
-    pil = pil.resize((int(pil.width * scale * 2), int(pil.height * scale * 2)), Image.LANCZOS)
-    t = pytesseract.image_to_string(pil, config="--psm 6").strip()
-    return " ".join(w for w in t.split() if sum(ch.isalpha() for ch in w) >= 3)
+    """Read one label. Upscale small text, but not big ragged scanned text: try a few sizes, keep the best."""
+    best, best_conf = "", -1.0
+    for f in (scale * 2, scale, scale * 0.6):
+        pil = Image.fromarray(rgb).resize((max(1, int(rgb.shape[1] * f)), max(1, int(rgb.shape[0] * f))), Image.LANCZOS)
+        d = pytesseract.image_to_data(pil, config="--psm 7", output_type=pytesseract.Output.DICT)
+        ws = [(t.strip(), float(c)) for t, c in zip(d["text"], d["conf"]) if t.strip()]
+        ws = [(t, c) for t, c in ws if sum(ch.isalpha() for ch in t) >= 3 or t.lower() in ABBREVIATIONS]
+        if ws and (conf := float(np.mean([c for _, c in ws]))) > best_conf:
+            best, best_conf = " ".join(t for t, _ in ws), conf
+    return best
+
+
+def _trim_outline(inner: np.ndarray, max_px: int = 5) -> np.ndarray:
+    """Cut what is left of a swatch's drawn outline off its edges: it is not part of the pattern."""
+    ink = classify_pixels(inner)[0]
+    if ink.mean() > 0.5:  # solid fill (coal): every row looks like an outline
+        return inner
+    t, b, l, r = 0, ink.shape[0], 0, ink.shape[1]
+    while t < max_px and b - t > 8 and ink[t, l:r].mean() >= 0.6:
+        t += 1
+    while ink.shape[0] - b < max_px and b - t > 8 and ink[b - 1, l:r].mean() >= 0.6:
+        b -= 1
+    while l < max_px and r - l > 8 and ink[t:b, l].mean() >= 0.6:
+        l += 1
+    while ink.shape[1] - r < max_px and r - l > 8 and ink[t:b, r - 1].mean() >= 0.6:
+        r -= 1
+    return inner[t:b, l:r]
+
+
+def _expand_abbreviations(names: dict) -> dict:
+    """Rock names for a legend written in abbreviations; any other legend is returned untouched.
+
+    Only when at least 3 labels are exactly such abbreviations. Then a near miss is an OCR slip
+    ("Dot" for Dol, "Veta" for Meta) and is matched to an abbreviation no other label has used.
+    A numbered variant keeps its own text, as it is a different symbol: "ssbig2" -> "Sandstone (ssbig2)".
+    """
+    key = {r: t.strip(".,:;|").lower().replace("$", "s") for r, t in names.items()}
+    if sum(k in ABBREVIATIONS for k in key.values()) < 3:
+        return names
+    table = {**ABBREVIATIONS, **FULL_WORDS}
+    out, taken = {}, set()
+    for r, k in key.items():
+        if k in table:
+            out[r] = table[k]
+            taken.add(k)
+    for r, k in key.items():
+        if r in out:
+            continue
+        var = next((a for a in sorted(ABBREVIATIONS, key=len, reverse=True) if k.startswith(a) and any(c.isdigit() for c in k)), None)
+        if var:
+            out[r] = f"{ABBREVIATIONS[var]} ({k})"
+            continue
+        m = difflib.get_close_matches(k, [a for a in table if a not in taken], n=1, cutoff=0.5)
+        if m:
+            out[r] = table[m[0]]
+            taken.add(m[0])
+        else:
+            out[r] = names[r]
+    return out
 
 
 def parse_legend(page, px_per_ft: float, box=None) -> list[Swatch]:
@@ -365,16 +445,17 @@ def parse_legend(page, px_per_ft: float, box=None) -> list[Swatch]:
     small = [r for r in sized
              if not any(q != r and r[0] <= q[0] and q[2] <= r[2] and r[1] <= q[1] and q[3] <= r[3] for q in sized)]
     # Closing can fuse a word of label text into a solid bar the size of a thin swatch: a "swatch"
-    # mostly covered by a readable rock name, with paper showing between the letters, is that word.
+    # mostly covered by a readable word, with paper showing between the letters, is that word.
     # (Colour can't tell: sub-pixel rendered text has coloured fringes.)
     white = classify_pixels(rgb)[1]
-    words0 = [(t, bx) for t, bx in _text_lines(rgb, scale) if _is_rock_word(t)]
+    words0: list = []
+    _text_lines(rgb, scale, words_out=words0)
+    words0 = [w for w in words0 if sum(ch.isalpha() for ch in w[0]) >= 4]
 
-    def is_text(r) -> bool:
-        area = (r[2] - r[0]) * (r[3] - r[1])
-        for _, (a, b, c, d) in words0:
-            ix = max(0.0, min(r[2], c) - max(r[0], a)) * max(0.0, min(r[3], d) - max(r[1], b))
-            if ix > 0.5 * area and white[r[1] : r[3], r[0] : r[2]].mean() > 0.2:  # letters, not a filled bar
+    def is_text(r) -> bool:  # its edges are those of one word, not a label that OCR ran into a swatch
+        for _, a, b, c, d, _conf in words0:
+            if abs(a - r[0]) <= 8 and abs(c - r[2]) <= 8 and min(r[3], d) > max(r[1], b) \
+                    and white[r[1] : r[3], r[0] : r[2]].mean() > 0.2:  # letters, not a filled bar
                 return True
         return False
 
@@ -404,6 +485,14 @@ def parse_legend(page, px_per_ft: float, box=None) -> list[Swatch]:
     if labelled:
         ws = np.median([r[2] - r[0] for r in labelled]); hs = np.median([r[3] - r[1] for r in labelled])
         below_layout = np.median([1.0 if (r[3] - r[1]) > 2.5 * 20 else 0.0 for r in labelled]) > 0.5
+        beside = []  # (label centre - box centre, label height) of labels beside their boxes
+        for r in labelled:
+            near = [(ld - lb, (lb + ld - r[1] - r[3]) / 2) for t, (la, lb, lc, ld) in lines
+                    if t in labelled[r] and 0 <= la - r[2] <= 40 and lb < r[3] + 20 and ld > r[1] - 20]
+            if near:
+                beside.append(min(near, key=lambda z: abs(z[1])))
+        th_lab = float(np.median([z[0] for z in beside])) if beside else 0.0
+        dy = float(np.median([z[1] for z in beside])) if beside else 0.0
         for r in rects:
             if r in labelled or abs((r[2] - r[0]) - ws) > 0.15 * ws or abs((r[3] - r[1]) - hs) > 0.15 * hs:
                 continue
@@ -415,7 +504,9 @@ def parse_legend(page, px_per_ft: float, box=None) -> list[Swatch]:
             else:  # up to the next swatch on the same row, so the next column's label is not read too
                 right_edge = min([q[0] for q in small if q[0] > c and q[1] < d and q[3] > b] + [int(c + 4 * ws)]
                                  + [int(la) for t, (la, lb, lc, ld) in lines if la > c + 0.5 * ws and lb < d and ld > b])
-                strip = rgb[b:d, c : right_edge - 2]
+                # On the rows where this page's labels sit, which can be lower than their boxes.
+                top, bot = (int(max(0, (b + d) / 2 + dy - 0.75 * th_lab)), int((b + d) / 2 + dy + 0.75 * th_lab)) if th_lab else (b, d)
+                strip = rgb[top:bot, c : right_edge - 2]
             if strip.size:
                 t = _ocr_strip(strip, scale)
                 if t:
@@ -425,20 +516,22 @@ def parse_legend(page, px_per_ft: float, box=None) -> list[Swatch]:
     if len(labelled) >= 3:
         med = float(np.median([(r[2] - r[0]) * (r[3] - r[1]) for r in labelled]))
         labelled = {r: t for r, t in labelled.items() if (r[2] - r[0]) * (r[3] - r[1]) >= 0.25 * med}
-    labelled = {r: t for r, t in labelled.items() if sum(ch.isalpha() for ch in t) >= 3}
+    labelled = {r: t for r, t in labelled.items() if sum(ch.isalpha() for ch in t) >= 3 or t.strip().lower() in ABBREVIATIONS}
     labelled.update(_borderless(nw, lines, labelled))
-    for r, name in labelled.items():
+    expanded = _expand_abbreviations(labelled)
+    for r, name in expanded.items():
         name = canonical_name(_clean(_untitle(name)))
         a, b, c, d = r
         inset = max(3, int(0.08 * min(c - a, d - b)))
         inner = rgb[b + inset : d - inset, a + inset : c - inset]
         if inner.size == 0:
             continue
+        inner = _trim_outline(inner)
         st, _ = row_stats(inner)
         desc = describe(st.sum(0), len(st), inner.shape[1], px_per_ft)
         is_white = bool(desc[0] < 0.01 and desc[2:-2].sum() < 0.02)
         out.append(Swatch(name, (x0 + a, y0 + b, x0 + c, y0 + d), desc, shape_descriptor(inner), is_white,
-                          classify_pixels(inner)[0]))
+                          classify_pixels(inner)[0], inner))
     return out
 
 

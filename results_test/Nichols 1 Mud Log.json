@@ -1,0 +1,459 @@
+{
+  "image": "Nichols 1 Mud Log.tif",
+  "image_size": [
+    2550,
+    13200
+  ],
+  "depth_fit": {
+    "px_per_ft": 15.0358,
+    "labels_used": 4,
+    "labels_read": 6,
+    "labels_rejected": 2,
+    "mean_residual_ft": 0.911,
+    "label_rotation_deg": 270,
+    "chunks_ocrd": "2/2",
+    "labels": [
+      [
+        6763.5,
+        4450.0
+      ],
+      [
+        8267.5,
+        4550.0
+      ],
+      [
+        9003.5,
+        4600.0
+      ],
+      [
+        10525.5,
+        4700.0
+      ]
+    ]
+  },
+  "legend": [
+    {
+      "name": "Anhydrite",
+      "box": [
+        65,
+        3665,
+        256,
+        3703
+      ],
+      "white": false
+    },
+    {
+      "name": "Conglomerate",
+      "box": [
+        641,
+        3669,
+        827,
+        3701
+      ],
+      "white": false
+    },
+    {
+      "name": "Salt",
+      "box": [
+        1213,
+        3719,
+        1408,
+        3757
+      ],
+      "white": false
+    },
+    {
+      "name": "Breccia",
+      "box": [
+        66,
+        3768,
+        252,
+        3801
+      ],
+      "white": false
+    },
+    {
+      "name": "Gypsum",
+      "box": [
+        638,
+        3768,
+        830,
+        3806
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale",
+      "box": [
+        1215,
+        3772,
+        1401,
+        3805
+      ],
+      "white": false
+    },
+    {
+      "name": "Chert",
+      "box": [
+        66,
+        3819,
+        253,
+        3853
+      ],
+      "white": false
+    },
+    {
+      "name": "Igneous",
+      "box": [
+        638,
+        3819,
+        835,
+        3858
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone",
+      "box": [
+        638,
+        3871,
+        830,
+        3909
+      ],
+      "white": false
+    },
+    {
+      "name": "Claystone",
+      "box": [
+        66,
+        3870,
+        252,
+        3903
+      ],
+      "white": false
+    },
+    {
+      "name": "Coal",
+      "box": [
+        64,
+        3920,
+        258,
+        3958
+      ],
+      "white": false
+    },
+    {
+      "name": "Sandstone",
+      "box": [
+        1217,
+        3927,
+        1402,
+        3959
+      ],
+      "white": false
+    },
+    {
+      "name": "Chalk",
+      "box": [
+        1788,
+        3875,
+        1980,
+        3913
+      ],
+      "white": false
+    },
+    {
+      "name": "Bentonite",
+      "box": [
+        65,
+        3716,
+        259,
+        3754
+      ],
+      "white": false
+    },
+    {
+      "name": "Marlstone",
+      "box": [
+        1215,
+        3670,
+        1401,
+        3703
+      ],
+      "white": false
+    },
+    {
+      "name": "Till",
+      "box": [
+        1790,
+        3673,
+        1977,
+        3705
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomite",
+      "box": [
+        638,
+        3717,
+        835,
+        3755
+      ],
+      "white": false
+    },
+    {
+      "name": "Siltstone",
+      "box": [
+        1788,
+        3721,
+        1983,
+        3759
+      ],
+      "white": false
+    },
+    {
+      "name": "Metamorphic",
+      "box": [
+        638,
+        3922,
+        834,
+        3960
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale Gray",
+      "box": [
+        1217,
+        3875,
+        1402,
+        3908
+      ],
+      "white": false
+    },
+    {
+      "name": "Sandstone (ssbig2)",
+      "box": [
+        1790,
+        3826,
+        1977,
+        3858
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale Colored",
+      "box": [
+        1217,
+        3824,
+        1402,
+        3857
+      ],
+      "white": false
+    },
+    {
+      "name": "Anhydrite (anhy1)",
+      "box": [
+        1788,
+        3772,
+        1980,
+        3810
+      ],
+      "white": false
+    }
+  ],
+  "identical_legend_symbols": [],
+  "n_groups": 6,
+  "naming": "legend drawing found in column",
+  "snap_grid": null,
+  "warnings": [],
+  "timings_s": {
+    "depth": 0.65,
+    "segment": 0.14,
+    "legend": 1.78,
+    "intervals": 0.25,
+    "total": 2.83
+  },
+  "intervals": [
+    {
+      "top_depth": 4448.44,
+      "bottom_depth": 4463.07,
+      "lithology": "Shale",
+      "cluster_id": 0,
+      "top_y": 6740,
+      "bottom_y": 6960,
+      "confidence": 0.116,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray",
+        "Shale Colored",
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 4463.07,
+      "bottom_depth": 4473.97,
+      "lithology": "Sandstone",
+      "cluster_id": 1,
+      "top_y": 6960,
+      "bottom_y": 7124,
+      "confidence": 0.5,
+      "ambiguous": true,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4473.97,
+      "bottom_depth": 4476.43,
+      "lithology": "Bentonite",
+      "cluster_id": 2,
+      "top_y": 7124,
+      "bottom_y": 7161,
+      "confidence": 0.539,
+      "ambiguous": false,
+      "alternatives": [
+        "Limestone",
+        "Breccia",
+        "Metamorphic"
+      ]
+    },
+    {
+      "top_depth": 4476.43,
+      "bottom_depth": 4500.83,
+      "lithology": "Sandstone",
+      "cluster_id": 1,
+      "top_y": 7161,
+      "bottom_y": 7528,
+      "confidence": 1.0,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4500.83,
+      "bottom_depth": 4507.21,
+      "lithology": "Shale Gray",
+      "cluster_id": 3,
+      "top_y": 7528,
+      "bottom_y": 7624,
+      "confidence": 0.241,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale",
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 4507.21,
+      "bottom_depth": 4511.34,
+      "lithology": "Siltstone",
+      "cluster_id": 4,
+      "top_y": 7624,
+      "bottom_y": 7686,
+      "confidence": 0.5,
+      "ambiguous": true,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4511.34,
+      "bottom_depth": 4538.66,
+      "lithology": "Shale",
+      "cluster_id": 0,
+      "top_y": 7686,
+      "bottom_y": 8097,
+      "confidence": 0.021,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray",
+        "Shale Colored",
+        "Siltstone"
+      ]
+    },
+    {
+      "top_depth": 4538.66,
+      "bottom_depth": 4546.38,
+      "lithology": "Sandstone",
+      "cluster_id": 1,
+      "top_y": 8097,
+      "bottom_y": 8213,
+      "confidence": 0.5,
+      "ambiguous": true,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4546.38,
+      "bottom_depth": 4571.16,
+      "lithology": "Sandstone (ssbig2)",
+      "cluster_id": 5,
+      "top_y": 8213,
+      "bottom_y": 8579,
+      "confidence": 1.0,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4571.16,
+      "bottom_depth": 4574.9,
+      "lithology": "Shale Gray",
+      "cluster_id": 3,
+      "top_y": 8579,
+      "bottom_y": 8634,
+      "confidence": 0.032,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Colored",
+        "Shale",
+        "Chalk"
+      ]
+    },
+    {
+      "top_depth": 4574.9,
+      "bottom_depth": 4589.64,
+      "lithology": "Sandstone (ssbig2)",
+      "cluster_id": 5,
+      "top_y": 8634,
+      "bottom_y": 8851,
+      "confidence": 1.0,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4589.64,
+      "bottom_depth": 4592.43,
+      "lithology": "Shale",
+      "cluster_id": 0,
+      "top_y": 8851,
+      "bottom_y": 8892,
+      "confidence": 0.087,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray",
+        "Shale Colored"
+      ]
+    },
+    {
+      "top_depth": 4592.43,
+      "bottom_depth": 4621.25,
+      "lithology": "Sandstone (ssbig2)",
+      "cluster_id": 5,
+      "top_y": 8892,
+      "bottom_y": 9327,
+      "confidence": 1.0,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4621.25,
+      "bottom_depth": 4631.57,
+      "lithology": "Shale",
+      "cluster_id": 0,
+      "top_y": 9327,
+      "bottom_y": 9484,
+      "confidence": 0.094,
+      "ambiguous": true,
+      "alternatives": [
+        "Shale Gray",
+        "Shale Colored"
+      ]
+    }
+  ]
+}

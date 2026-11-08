@@ -1,0 +1,5675 @@
+{
+  "image": "Woody_635_142_MUD.tif",
+  "image_size": [
+    1275,
+    141900
+  ],
+  "depth_fit": {
+    "px_per_ft": 7.5,
+    "labels_used": 112,
+    "labels_read": 143,
+    "labels_rejected": 31,
+    "mean_residual_ft": 0.019,
+    "label_rotation_deg": 0,
+    "chunks_ocrd": "35/35",
+    "labels": [
+      [
+        3733.5,
+        1400.0
+      ],
+      [
+        7483.5,
+        1900.0
+      ],
+      [
+        8233.5,
+        2000.0
+      ],
+      [
+        8608.5,
+        2050.0
+      ],
+      [
+        9733.5,
+        2200.0
+      ],
+      [
+        10483.5,
+        2300.0
+      ],
+      [
+        10858.5,
+        2350.0
+      ],
+      [
+        11233.5,
+        2400.0
+      ],
+      [
+        11608.5,
+        2450.0
+      ],
+      [
+        11983.5,
+        2500.0
+      ],
+      [
+        12733.5,
+        2600.0
+      ],
+      [
+        13483.5,
+        2700.0
+      ],
+      [
+        13858.5,
+        2750.0
+      ],
+      [
+        14233.5,
+        2800.0
+      ],
+      [
+        14608.5,
+        2850.0
+      ],
+      [
+        14983.5,
+        2900.0
+      ],
+      [
+        15358.5,
+        2950.0
+      ],
+      [
+        19858.5,
+        3550.0
+      ],
+      [
+        20233.5,
+        3600.0
+      ],
+      [
+        20608.5,
+        3650.0
+      ],
+      [
+        20983.5,
+        3700.0
+      ],
+      [
+        21358.5,
+        3750.0
+      ],
+      [
+        21733.5,
+        3800.0
+      ],
+      [
+        22483.5,
+        3900.0
+      ],
+      [
+        22858.5,
+        3950.0
+      ],
+      [
+        23233.5,
+        4000.0
+      ],
+      [
+        23608.5,
+        4050.0
+      ],
+      [
+        24733.5,
+        4200.0
+      ],
+      [
+        25108.5,
+        4250.0
+      ],
+      [
+        25483.5,
+        4300.0
+      ],
+      [
+        26533.5,
+        4440.0
+      ],
+      [
+        26608.5,
+        4450.0
+      ],
+      [
+        26983.5,
+        4500.0
+      ],
+      [
+        27358.5,
+        4550.0
+      ],
+      [
+        32608.5,
+        5250.0
+      ],
+      [
+        32983.5,
+        5300.0
+      ],
+      [
+        33358.5,
+        5350.0
+      ],
+      [
+        33733.5,
+        5400.0
+      ],
+      [
+        34483.5,
+        5500.0
+      ],
+      [
+        34858.5,
+        5550.0
+      ],
+      [
+        35233.5,
+        5600.0
+      ],
+      [
+        35608.5,
+        5650.0
+      ],
+      [
+        35983.5,
+        5700.0
+      ],
+      [
+        36733.5,
+        5800.0
+      ],
+      [
+        37108.5,
+        5850.0
+      ],
+      [
+        37483.5,
+        5900.0
+      ],
+      [
+        37858.8,
+        5950.0
+      ],
+      [
+        38233.5,
+        6000.0
+      ],
+      [
+        38608.5,
+        6050.0
+      ],
+      [
+        43483.5,
+        6700.0
+      ],
+      [
+        43858.5,
+        6750.0
+      ],
+      [
+        44608.5,
+        6850.0
+      ],
+      [
+        44983.5,
+        6900.0
+      ],
+      [
+        45358.5,
+        6950.0
+      ],
+      [
+        45433.5,
+        6960.0
+      ],
+      [
+        45733.5,
+        7000.0
+      ],
+      [
+        47233.5,
+        7200.0
+      ],
+      [
+        47608.5,
+        7250.0
+      ],
+      [
+        47983.5,
+        7300.0
+      ],
+      [
+        48358.5,
+        7350.0
+      ],
+      [
+        48733.5,
+        7400.0
+      ],
+      [
+        49108.5,
+        7450.0
+      ],
+      [
+        49483.5,
+        7500.0
+      ],
+      [
+        49858.5,
+        7550.0
+      ],
+      [
+        50233.5,
+        7600.0
+      ],
+      [
+        50608.5,
+        7650.0
+      ],
+      [
+        50983.5,
+        7700.0
+      ],
+      [
+        51358.5,
+        7750.0
+      ],
+      [
+        53233.5,
+        8000.0
+      ],
+      [
+        55483.5,
+        8300.0
+      ],
+      [
+        55858.5,
+        8350.0
+      ],
+      [
+        56233.5,
+        8400.0
+      ],
+      [
+        56608.5,
+        8450.0
+      ],
+      [
+        56983.5,
+        8500.0
+      ],
+      [
+        57358.5,
+        8550.0
+      ],
+      [
+        57733.5,
+        8600.0
+      ],
+      [
+        58483.5,
+        8700.0
+      ],
+      [
+        58858.5,
+        8750.0
+      ],
+      [
+        59233.5,
+        8800.0
+      ],
+      [
+        59608.5,
+        8850.0
+      ],
+      [
+        59983.5,
+        8900.0
+      ],
+      [
+        60733.5,
+        9000.0
+      ],
+      [
+        61108.5,
+        9050.0
+      ],
+      [
+        62233.5,
+        9200.0
+      ],
+      [
+        62608.5,
+        9250.0
+      ],
+      [
+        62983.5,
+        9300.0
+      ],
+      [
+        63358.5,
+        9350.0
+      ],
+      [
+        63659.0,
+        9390.0
+      ],
+      [
+        64928.8,
+        9560.0
+      ],
+      [
+        67483.5,
+        9900.0
+      ],
+      [
+        67858.5,
+        9950.0
+      ],
+      [
+        73483.5,
+        10700.0
+      ],
+      [
+        84803.8,
+        12210.0
+      ],
+      [
+        86233.5,
+        12400.0
+      ],
+      [
+        86983.5,
+        12500.0
+      ],
+      [
+        92308.5,
+        13210.0
+      ],
+      [
+        92608.5,
+        13250.0
+      ],
+      [
+        98233.5,
+        14000.0
+      ],
+      [
+        103483.5,
+        14700.0
+      ],
+      [
+        104308.5,
+        14810.0
+      ],
+      [
+        104608.5,
+        14850.0
+      ],
+      [
+        110233.5,
+        15600.0
+      ],
+      [
+        110983.5,
+        15700.0
+      ],
+      [
+        115483.5,
+        16300.0
+      ],
+      [
+        116608.5,
+        16450.0
+      ],
+      [
+        117358.5,
+        16550.0
+      ],
+      [
+        122983.5,
+        17300.0
+      ],
+      [
+        127483.5,
+        17900.0
+      ],
+      [
+        127858.5,
+        17950.0
+      ],
+      [
+        128608.5,
+        18050.0
+      ],
+      [
+        134983.5,
+        18900.0
+      ],
+      [
+        139483.5,
+        19500.0
+      ]
+    ]
+  },
+  "legend": [
+    {
+      "name": "Cement",
+      "box": [
+        76,
+        2113,
+        167,
+        2125
+      ],
+      "white": false
+    },
+    {
+      "name": "Salt",
+      "box": [
+        384,
+        2113,
+        474,
+        2126
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale Colored",
+      "box": [
+        673,
+        2113,
+        764,
+        2126
+      ],
+      "white": false
+    },
+    {
+      "name": "Siltstone",
+      "box": [
+        958,
+        2113,
+        1049,
+        2126
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomite",
+      "box": [
+        76,
+        2130,
+        167,
+        2142
+      ],
+      "white": false
+    },
+    {
+      "name": "SALT- Pepper Sand",
+      "box": [
+        384,
+        2130,
+        474,
+        2142
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale Gray",
+      "box": [
+        673,
+        2130,
+        764,
+        2143
+      ],
+      "white": false
+    },
+    {
+      "name": "Dolomitic Limestone",
+      "box": [
+        76,
+        2146,
+        167,
+        2159
+      ],
+      "white": false
+    },
+    {
+      "name": "Sandstone",
+      "box": [
+        384,
+        2146,
+        474,
+        2159
+      ],
+      "white": false
+    },
+    {
+      "name": "Shaly Sandstone",
+      "box": [
+        673,
+        2146,
+        764,
+        2159
+      ],
+      "white": false
+    },
+    {
+      "name": "Limestone",
+      "box": [
+        76,
+        2163,
+        167,
+        2175
+      ],
+      "white": false
+    },
+    {
+      "name": "Shale",
+      "box": [
+        384,
+        2163,
+        474,
+        2176
+      ],
+      "white": false
+    },
+    {
+      "name": "Shaly Siltstone",
+      "box": [
+        673,
+        2163,
+        764,
+        2175
+      ],
+      "white": false
+    },
+    {
+      "name": "Silty Shale",
+      "box": [
+        958,
+        2130,
+        1053,
+        2143
+      ],
+      "white": false
+    }
+  ],
+  "identical_legend_symbols": [],
+  "n_groups": 22,
+  "naming": "stroke fingerprints",
+  "snap_grid": null,
+  "warnings": [],
+  "timings_s": {
+    "depth": 10.64,
+    "segment": 0.72,
+    "legend": 0.77,
+    "intervals": 1.51,
+    "total": 13.65
+  },
+  "intervals": [
+    {
+      "top_depth": 1400.07,
+      "bottom_depth": 1429.67,
+      "lithology": "Shale Colored",
+      "cluster_id": 10,
+      "top_y": 3734,
+      "bottom_y": 3956,
+      "confidence": 0.895,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1429.67,
+      "bottom_depth": 1449.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 3956,
+      "bottom_y": 4108,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1449.93,
+      "bottom_depth": 1489.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 4108,
+      "bottom_y": 4408,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1489.93,
+      "bottom_depth": 1549.93,
+      "lithology": "Shale Colored",
+      "cluster_id": 10,
+      "top_y": 4408,
+      "bottom_y": 4858,
+      "confidence": 0.895,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1549.93,
+      "bottom_depth": 1609.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 4858,
+      "bottom_y": 5308,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1609.93,
+      "bottom_depth": 1629.93,
+      "lithology": "Shale Colored",
+      "cluster_id": 10,
+      "top_y": 5308,
+      "bottom_y": 5458,
+      "confidence": 0.895,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1629.93,
+      "bottom_depth": 1649.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 5458,
+      "bottom_y": 5608,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1649.93,
+      "bottom_depth": 1659.93,
+      "lithology": "Shale Colored",
+      "cluster_id": 10,
+      "top_y": 5608,
+      "bottom_y": 5683,
+      "confidence": 0.895,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1659.93,
+      "bottom_depth": 1689.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 5683,
+      "bottom_y": 5908,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1689.93,
+      "bottom_depth": 1699.93,
+      "lithology": "Shale Colored",
+      "cluster_id": 10,
+      "top_y": 5908,
+      "bottom_y": 5983,
+      "confidence": 0.895,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1699.93,
+      "bottom_depth": 1759.67,
+      "lithology": "Shaly Sandstone",
+      "cluster_id": 11,
+      "top_y": 5983,
+      "bottom_y": 6431,
+      "confidence": 0.725,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1759.67,
+      "bottom_depth": 1789.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 6431,
+      "bottom_y": 6658,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1789.93,
+      "bottom_depth": 1810.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 6658,
+      "bottom_y": 6810,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1810.2,
+      "bottom_depth": 1849.67,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 6810,
+      "bottom_y": 7106,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1849.67,
+      "bottom_depth": 1870.2,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 7106,
+      "bottom_y": 7260,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1870.2,
+      "bottom_depth": 1890.07,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 7260,
+      "bottom_y": 7409,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1890.07,
+      "bottom_depth": 1920.2,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 7409,
+      "bottom_y": 7635,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1920.2,
+      "bottom_depth": 1929.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 7635,
+      "bottom_y": 7708,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1929.93,
+      "bottom_depth": 1939.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 7708,
+      "bottom_y": 7783,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1939.93,
+      "bottom_depth": 1969.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 7783,
+      "bottom_y": 8008,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1969.93,
+      "bottom_depth": 1989.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 8008,
+      "bottom_y": 8158,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1989.93,
+      "bottom_depth": 1999.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 8158,
+      "bottom_y": 8233,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 1999.93,
+      "bottom_depth": 2060.2,
+      "lithology": "Salt",
+      "cluster_id": 7,
+      "top_y": 8233,
+      "bottom_y": 8685,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2060.2,
+      "bottom_depth": 2090.07,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 8685,
+      "bottom_y": 8909,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2090.07,
+      "bottom_depth": 2445.4,
+      "lithology": "Salt",
+      "cluster_id": 4,
+      "top_y": 8909,
+      "bottom_y": 11574,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2445.4,
+      "bottom_depth": 2460.07,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 11574,
+      "bottom_y": 11684,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2460.07,
+      "bottom_depth": 2569.93,
+      "lithology": "Salt",
+      "cluster_id": 7,
+      "top_y": 11684,
+      "bottom_y": 12508,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2569.93,
+      "bottom_depth": 2592.47,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 12508,
+      "bottom_y": 12677,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2592.47,
+      "bottom_depth": 2631.8,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 12677,
+      "bottom_y": 12972,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2631.8,
+      "bottom_depth": 2658.07,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 12972,
+      "bottom_y": 13169,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2658.07,
+      "bottom_depth": 2670.2,
+      "lithology": "Salt",
+      "cluster_id": 13,
+      "top_y": 13169,
+      "bottom_y": 13260,
+      "confidence": 0.957,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2670.2,
+      "bottom_depth": 2678.87,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 13260,
+      "bottom_y": 13325,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2678.87,
+      "bottom_depth": 2700.2,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 13325,
+      "bottom_y": 13485,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2700.2,
+      "bottom_depth": 2714.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 13485,
+      "bottom_y": 13590,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2714.2,
+      "bottom_depth": 2749.4,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 13590,
+      "bottom_y": 13854,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2749.4,
+      "bottom_depth": 2841.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 13854,
+      "bottom_y": 14541,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2841.0,
+      "bottom_depth": 2855.0,
+      "lithology": "Salt",
+      "cluster_id": 13,
+      "top_y": 14541,
+      "bottom_y": 14646,
+      "confidence": 0.957,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2855.0,
+      "bottom_depth": 2866.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 14646,
+      "bottom_y": 14730,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2866.2,
+      "bottom_depth": 2883.8,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 14730,
+      "bottom_y": 14862,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2883.8,
+      "bottom_depth": 2890.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 14862,
+      "bottom_y": 14910,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2890.2,
+      "bottom_depth": 2923.53,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 14910,
+      "bottom_y": 15160,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2923.53,
+      "bottom_depth": 2932.87,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 15160,
+      "bottom_y": 15230,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2932.87,
+      "bottom_depth": 2939.8,
+      "lithology": "Salt",
+      "cluster_id": 14,
+      "top_y": 15230,
+      "bottom_y": 15282,
+      "confidence": 0.981,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2939.8,
+      "bottom_depth": 2946.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 15282,
+      "bottom_y": 15330,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2946.2,
+      "bottom_depth": 2957.93,
+      "lithology": "Salt",
+      "cluster_id": 13,
+      "top_y": 15330,
+      "bottom_y": 15418,
+      "confidence": 0.957,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2957.93,
+      "bottom_depth": 2970.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 15418,
+      "bottom_y": 15510,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2970.2,
+      "bottom_depth": 2989.93,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 15510,
+      "bottom_y": 15658,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 2989.93,
+      "bottom_depth": 3010.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 15658,
+      "bottom_y": 15810,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3010.2,
+      "bottom_depth": 3025.67,
+      "lithology": "Salt",
+      "cluster_id": 13,
+      "top_y": 15810,
+      "bottom_y": 15926,
+      "confidence": 0.957,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3025.67,
+      "bottom_depth": 3046.87,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 15926,
+      "bottom_y": 16085,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3046.87,
+      "bottom_depth": 3073.93,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 16085,
+      "bottom_y": 16288,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3073.93,
+      "bottom_depth": 3097.4,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 16288,
+      "bottom_y": 16464,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3097.4,
+      "bottom_depth": 3121.4,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 16464,
+      "bottom_y": 16644,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3121.4,
+      "bottom_depth": 3410.87,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 16644,
+      "bottom_y": 18815,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3410.87,
+      "bottom_depth": 3418.6,
+      "lithology": "Salt",
+      "cluster_id": 13,
+      "top_y": 18815,
+      "bottom_y": 18873,
+      "confidence": 0.957,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3418.6,
+      "bottom_depth": 3426.87,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 18873,
+      "bottom_y": 18935,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3426.87,
+      "bottom_depth": 3435.53,
+      "lithology": "Salt",
+      "cluster_id": 13,
+      "top_y": 18935,
+      "bottom_y": 19000,
+      "confidence": 0.957,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3435.53,
+      "bottom_depth": 3441.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 19000,
+      "bottom_y": 19047,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3441.8,
+      "bottom_depth": 3496.6,
+      "lithology": "Salt",
+      "cluster_id": 7,
+      "top_y": 19047,
+      "bottom_y": 19458,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3496.6,
+      "bottom_depth": 3505.27,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 19458,
+      "bottom_y": 19523,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3505.27,
+      "bottom_depth": 3587.0,
+      "lithology": "Salt",
+      "cluster_id": 7,
+      "top_y": 19523,
+      "bottom_y": 20136,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3587.0,
+      "bottom_depth": 3595.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 20136,
+      "bottom_y": 20196,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3595.0,
+      "bottom_depth": 3609.93,
+      "lithology": "Salt",
+      "cluster_id": 13,
+      "top_y": 20196,
+      "bottom_y": 20308,
+      "confidence": 0.957,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3609.93,
+      "bottom_depth": 3630.07,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 20308,
+      "bottom_y": 20459,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3630.07,
+      "bottom_depth": 3653.0,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 20459,
+      "bottom_y": 20631,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3653.0,
+      "bottom_depth": 3661.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 20631,
+      "bottom_y": 20691,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3661.0,
+      "bottom_depth": 3747.4,
+      "lithology": "Salt",
+      "cluster_id": 7,
+      "top_y": 20691,
+      "bottom_y": 21339,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3747.4,
+      "bottom_depth": 3772.47,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 21339,
+      "bottom_y": 21527,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3772.47,
+      "bottom_depth": 3805.4,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 21527,
+      "bottom_y": 21774,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3805.4,
+      "bottom_depth": 3819.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 21774,
+      "bottom_y": 21876,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3819.0,
+      "bottom_depth": 3899.8,
+      "lithology": "Salt",
+      "cluster_id": 7,
+      "top_y": 21876,
+      "bottom_y": 22482,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3899.8,
+      "bottom_depth": 3903.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 22482,
+      "bottom_y": 22512,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3903.8,
+      "bottom_depth": 3929.8,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 22512,
+      "bottom_y": 22707,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3929.8,
+      "bottom_depth": 3970.87,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 22707,
+      "bottom_y": 23015,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3970.87,
+      "bottom_depth": 3989.93,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 23015,
+      "bottom_y": 23158,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 3989.93,
+      "bottom_depth": 4039.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 23158,
+      "bottom_y": 23532,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4039.8,
+      "bottom_depth": 4063.8,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 23532,
+      "bottom_y": 23712,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4063.8,
+      "bottom_depth": 4079.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 23712,
+      "bottom_y": 23826,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4079.0,
+      "bottom_depth": 4101.93,
+      "lithology": "Salt",
+      "cluster_id": 12,
+      "top_y": 23826,
+      "bottom_y": 23998,
+      "confidence": 0.956,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4101.93,
+      "bottom_depth": 4127.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 23998,
+      "bottom_y": 24193,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4127.93,
+      "bottom_depth": 4535.93,
+      "lithology": "Dolomite",
+      "cluster_id": 3,
+      "top_y": 24193,
+      "bottom_y": 27253,
+      "confidence": 0.821,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4535.93,
+      "bottom_depth": 4550.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 27253,
+      "bottom_y": 27361,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4550.33,
+      "bottom_depth": 4579.93,
+      "lithology": "Dolomite",
+      "cluster_id": 3,
+      "top_y": 27361,
+      "bottom_y": 27583,
+      "confidence": 0.821,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4579.93,
+      "bottom_depth": 4617.53,
+      "lithology": "Dolomitic Limestone",
+      "cluster_id": 9,
+      "top_y": 27583,
+      "bottom_y": 27865,
+      "confidence": 0.891,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4617.53,
+      "bottom_depth": 4634.6,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 27865,
+      "bottom_y": 27993,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4634.6,
+      "bottom_depth": 4657.53,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 27993,
+      "bottom_y": 28165,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4657.53,
+      "bottom_depth": 4725.93,
+      "lithology": "Dolomitic Limestone",
+      "cluster_id": 9,
+      "top_y": 28165,
+      "bottom_y": 28678,
+      "confidence": 0.891,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4725.93,
+      "bottom_depth": 4831.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 28678,
+      "bottom_y": 29473,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4831.93,
+      "bottom_depth": 4876.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 29473,
+      "bottom_y": 29806,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 4876.33,
+      "bottom_depth": 5089.8,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 29806,
+      "bottom_y": 31407,
+      "confidence": 0.812,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5089.8,
+      "bottom_depth": 5127.53,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 31407,
+      "bottom_y": 31690,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5127.53,
+      "bottom_depth": 5169.53,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 31690,
+      "bottom_y": 32005,
+      "confidence": 0.812,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5169.53,
+      "bottom_depth": 5373.13,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 32005,
+      "bottom_y": 33532,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5373.13,
+      "bottom_depth": 5401.13,
+      "lithology": "Dolomite",
+      "cluster_id": 3,
+      "top_y": 33532,
+      "bottom_y": 33742,
+      "confidence": 0.821,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5401.13,
+      "bottom_depth": 5408.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 33742,
+      "bottom_y": 33794,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 5408.07,
+      "bottom_depth": 5449.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 33794,
+      "bottom_y": 34108,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5449.93,
+      "bottom_depth": 5457.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 34108,
+      "bottom_y": 34168,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5457.93,
+      "bottom_depth": 5480.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 34168,
+      "bottom_y": 34335,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5480.2,
+      "bottom_depth": 5499.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 34335,
+      "bottom_y": 34478,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 5499.27,
+      "bottom_depth": 5522.6,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 34478,
+      "bottom_y": 34653,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5522.6,
+      "bottom_depth": 5536.73,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 34653,
+      "bottom_y": 34759,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 5536.73,
+      "bottom_depth": 5568.73,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 34759,
+      "bottom_y": 34999,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5568.73,
+      "bottom_depth": 5598.47,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 34999,
+      "bottom_y": 35222,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 5598.47,
+      "bottom_depth": 5669.13,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 35222,
+      "bottom_y": 35752,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5669.13,
+      "bottom_depth": 5699.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 35752,
+      "bottom_y": 35983,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5699.93,
+      "bottom_depth": 5850.33,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 35983,
+      "bottom_y": 37111,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5850.33,
+      "bottom_depth": 5857.53,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 37111,
+      "bottom_y": 37165,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 5857.53,
+      "bottom_depth": 5875.27,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 37165,
+      "bottom_y": 37298,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5875.27,
+      "bottom_depth": 5890.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 37298,
+      "bottom_y": 37410,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5890.2,
+      "bottom_depth": 5926.32,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 37410,
+      "bottom_y": 37681,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5926.32,
+      "bottom_depth": 5944.57,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 37681,
+      "bottom_y": 37818,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5944.57,
+      "bottom_depth": 5953.64,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 37818,
+      "bottom_y": 37886,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5953.64,
+      "bottom_depth": 5959.77,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 37886,
+      "bottom_y": 37932,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5959.77,
+      "bottom_depth": 5963.91,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 37932,
+      "bottom_y": 37963,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5963.91,
+      "bottom_depth": 5978.19,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 37963,
+      "bottom_y": 38070,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 5978.19,
+      "bottom_depth": 6000.07,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 38070,
+      "bottom_y": 38234,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6000.07,
+      "bottom_depth": 6014.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 38234,
+      "bottom_y": 38340,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6014.2,
+      "bottom_depth": 6024.07,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 38340,
+      "bottom_y": 38414,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6024.07,
+      "bottom_depth": 6032.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 38414,
+      "bottom_y": 38478,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6032.6,
+      "bottom_depth": 6049.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 38478,
+      "bottom_y": 38606,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6049.67,
+      "bottom_depth": 6099.0,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 38606,
+      "bottom_y": 38976,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6099.0,
+      "bottom_depth": 6107.27,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 38976,
+      "bottom_y": 39038,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6107.27,
+      "bottom_depth": 6142.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 39038,
+      "bottom_y": 39300,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6142.2,
+      "bottom_depth": 6145.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 39300,
+      "bottom_y": 39326,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6145.67,
+      "bottom_depth": 6153.4,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 39326,
+      "bottom_y": 39384,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6153.4,
+      "bottom_depth": 6158.47,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 39384,
+      "bottom_y": 39422,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6158.47,
+      "bottom_depth": 6606.33,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 39422,
+      "bottom_y": 42781,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6606.33,
+      "bottom_depth": 6905.0,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 42781,
+      "bottom_y": 45021,
+      "confidence": 0.812,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6905.0,
+      "bottom_depth": 6913.93,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 45021,
+      "bottom_y": 45088,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 6913.93,
+      "bottom_depth": 6917.8,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 45088,
+      "bottom_y": 45117,
+      "confidence": 0.812,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6917.8,
+      "bottom_depth": 6922.47,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 45117,
+      "bottom_y": 45152,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 6922.47,
+      "bottom_depth": 6927.53,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 45152,
+      "bottom_y": 45190,
+      "confidence": 0.812,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6927.53,
+      "bottom_depth": 6960.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 45190,
+      "bottom_y": 45434,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 6960.07,
+      "bottom_depth": 6965.0,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 45434,
+      "bottom_y": 45471,
+      "confidence": 0.812,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 6965.0,
+      "bottom_depth": 7023.4,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 45471,
+      "bottom_y": 45909,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7023.4,
+      "bottom_depth": 7030.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 45909,
+      "bottom_y": 45963,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7030.6,
+      "bottom_depth": 7040.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 45963,
+      "bottom_y": 46034,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7040.07,
+      "bottom_depth": 7041.8,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 46034,
+      "bottom_y": 46047,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7041.8,
+      "bottom_depth": 7051.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 46047,
+      "bottom_y": 46118,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7051.27,
+      "bottom_depth": 7053.0,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 46118,
+      "bottom_y": 46131,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7053.0,
+      "bottom_depth": 7066.47,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 46131,
+      "bottom_y": 46232,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7066.47,
+      "bottom_depth": 7076.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 46232,
+      "bottom_y": 46307,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7076.47,
+      "bottom_depth": 7096.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 46307,
+      "bottom_y": 46454,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7096.07,
+      "bottom_depth": 7129.27,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 46454,
+      "bottom_y": 46703,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7129.27,
+      "bottom_depth": 7149.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 46703,
+      "bottom_y": 46856,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7149.67,
+      "bottom_depth": 7182.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 46856,
+      "bottom_y": 47103,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7182.6,
+      "bottom_depth": 7195.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 47103,
+      "bottom_y": 47198,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7195.27,
+      "bottom_depth": 7202.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 47198,
+      "bottom_y": 47253,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7202.6,
+      "bottom_depth": 7204.47,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 47253,
+      "bottom_y": 47267,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7204.47,
+      "bottom_depth": 7207.67,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 47267,
+      "bottom_y": 47291,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7207.67,
+      "bottom_depth": 7228.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 47291,
+      "bottom_y": 47444,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7228.07,
+      "bottom_depth": 7229.8,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 47444,
+      "bottom_y": 47457,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7229.8,
+      "bottom_depth": 7238.47,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 47457,
+      "bottom_y": 47522,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7238.47,
+      "bottom_depth": 7253.8,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 47522,
+      "bottom_y": 47637,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7253.8,
+      "bottom_depth": 7280.73,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 47637,
+      "bottom_y": 47839,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7280.73,
+      "bottom_depth": 7322.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 47839,
+      "bottom_y": 48153,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7322.6,
+      "bottom_depth": 7337.53,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 48153,
+      "bottom_y": 48265,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7337.53,
+      "bottom_depth": 7342.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 48265,
+      "bottom_y": 48303,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7342.6,
+      "bottom_depth": 7373.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 48303,
+      "bottom_y": 48536,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7373.67,
+      "bottom_depth": 7375.4,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 48536,
+      "bottom_y": 48549,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7375.4,
+      "bottom_depth": 7397.93,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 48549,
+      "bottom_y": 48718,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7397.93,
+      "bottom_depth": 7501.8,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 48718,
+      "bottom_y": 49497,
+      "confidence": 0.812,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7501.8,
+      "bottom_depth": 7541.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 49497,
+      "bottom_y": 49796,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7541.67,
+      "bottom_depth": 7543.4,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 49796,
+      "bottom_y": 49809,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7543.4,
+      "bottom_depth": 7580.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 49809,
+      "bottom_y": 50084,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7580.07,
+      "bottom_depth": 7589.8,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 50084,
+      "bottom_y": 50157,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7589.8,
+      "bottom_depth": 7605.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 50157,
+      "bottom_y": 50276,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7605.67,
+      "bottom_depth": 7607.4,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 50276,
+      "bottom_y": 50289,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7607.4,
+      "bottom_depth": 7636.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 50289,
+      "bottom_y": 50504,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7636.07,
+      "bottom_depth": 7637.8,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 50504,
+      "bottom_y": 50517,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7637.8,
+      "bottom_depth": 7657.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 50517,
+      "bottom_y": 50666,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7657.67,
+      "bottom_depth": 7659.4,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 50666,
+      "bottom_y": 50679,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7659.4,
+      "bottom_depth": 7668.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 50679,
+      "bottom_y": 50744,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7668.07,
+      "bottom_depth": 7669.8,
+      "lithology": "Shale",
+      "cluster_id": 18,
+      "top_y": 50744,
+      "bottom_y": 50757,
+      "confidence": 0.184,
+      "ambiguous": false,
+      "alternatives": [
+        "Silty Shale",
+        "Shale Gray"
+      ]
+    },
+    {
+      "top_depth": 7669.8,
+      "bottom_depth": 7683.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 50757,
+      "bottom_y": 50858,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7683.27,
+      "bottom_depth": 7783.53,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 50858,
+      "bottom_y": 51610,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7783.53,
+      "bottom_depth": 7789.93,
+      "lithology": "Limestone",
+      "cluster_id": 5,
+      "top_y": 51610,
+      "bottom_y": 51658,
+      "confidence": 0.812,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7789.93,
+      "bottom_depth": 7813.0,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 51658,
+      "bottom_y": 51831,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7813.0,
+      "bottom_depth": 7829.0,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 51831,
+      "bottom_y": 51951,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7829.0,
+      "bottom_depth": 7849.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 51951,
+      "bottom_y": 52106,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7849.67,
+      "bottom_depth": 7866.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 52106,
+      "bottom_y": 52230,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7866.2,
+      "bottom_depth": 7880.07,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 52230,
+      "bottom_y": 52334,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7880.07,
+      "bottom_depth": 7892.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 52334,
+      "bottom_y": 52428,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7892.6,
+      "bottom_depth": 7930.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 52428,
+      "bottom_y": 52711,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7930.33,
+      "bottom_depth": 7938.33,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 52711,
+      "bottom_y": 52771,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7938.33,
+      "bottom_depth": 7949.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 52771,
+      "bottom_y": 52856,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7949.67,
+      "bottom_depth": 7960.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 52856,
+      "bottom_y": 52935,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7960.2,
+      "bottom_depth": 7981.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 52935,
+      "bottom_y": 53096,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7981.67,
+      "bottom_depth": 7987.4,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 53096,
+      "bottom_y": 53139,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7987.4,
+      "bottom_depth": 7991.13,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 53139,
+      "bottom_y": 53167,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 7991.13,
+      "bottom_depth": 7997.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 53167,
+      "bottom_y": 53217,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 7997.8,
+      "bottom_depth": 8040.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 53217,
+      "bottom_y": 53534,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8040.07,
+      "bottom_depth": 8043.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 53534,
+      "bottom_y": 53557,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8043.13,
+      "bottom_depth": 8054.33,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 53557,
+      "bottom_y": 53641,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8054.33,
+      "bottom_depth": 8059.4,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 53641,
+      "bottom_y": 53679,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8059.4,
+      "bottom_depth": 8066.6,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 53679,
+      "bottom_y": 53733,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8066.6,
+      "bottom_depth": 8073.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 53733,
+      "bottom_y": 53787,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8073.8,
+      "bottom_depth": 8080.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 53787,
+      "bottom_y": 53834,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8080.07,
+      "bottom_depth": 8085.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 53834,
+      "bottom_y": 53877,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8085.8,
+      "bottom_depth": 8091.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 53877,
+      "bottom_y": 53918,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8091.27,
+      "bottom_depth": 8098.6,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 53918,
+      "bottom_y": 53973,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8098.6,
+      "bottom_depth": 8104.2,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 53973,
+      "bottom_y": 54015,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8104.2,
+      "bottom_depth": 8110.47,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 54015,
+      "bottom_y": 54062,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8110.47,
+      "bottom_depth": 8123.13,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 54062,
+      "bottom_y": 54157,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8123.13,
+      "bottom_depth": 8129.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 54157,
+      "bottom_y": 54207,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8129.8,
+      "bottom_depth": 8149.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 54207,
+      "bottom_y": 54356,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8149.67,
+      "bottom_depth": 8155.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 54356,
+      "bottom_y": 54403,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8155.93,
+      "bottom_depth": 8162.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 54403,
+      "bottom_y": 54451,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8162.33,
+      "bottom_depth": 8167.93,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 54451,
+      "bottom_y": 54493,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8167.93,
+      "bottom_depth": 8204.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 54493,
+      "bottom_y": 54765,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8204.2,
+      "bottom_depth": 8229.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 54765,
+      "bottom_y": 54956,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8229.67,
+      "bottom_depth": 8235.93,
+      "lithology": "Shaly Sandstone",
+      "cluster_id": 11,
+      "top_y": 54956,
+      "bottom_y": 55003,
+      "confidence": 0.725,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8235.93,
+      "bottom_depth": 8239.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 55003,
+      "bottom_y": 55033,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8239.93,
+      "bottom_depth": 8243.93,
+      "lithology": "Shaly Sandstone",
+      "cluster_id": 11,
+      "top_y": 55033,
+      "bottom_y": 55063,
+      "confidence": 0.725,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8243.93,
+      "bottom_depth": 8259.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 55063,
+      "bottom_y": 55183,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8259.93,
+      "bottom_depth": 8266.2,
+      "lithology": "Shaly Sandstone",
+      "cluster_id": 11,
+      "top_y": 55183,
+      "bottom_y": 55230,
+      "confidence": 0.725,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8266.2,
+      "bottom_depth": 8279.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 55230,
+      "bottom_y": 55333,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8279.93,
+      "bottom_depth": 8287.13,
+      "lithology": "Shaly Sandstone",
+      "cluster_id": 11,
+      "top_y": 55333,
+      "bottom_y": 55387,
+      "confidence": 0.725,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8287.13,
+      "bottom_depth": 8303.13,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 55387,
+      "bottom_y": 55507,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8303.13,
+      "bottom_depth": 8308.2,
+      "lithology": "Shaly Sandstone",
+      "cluster_id": 11,
+      "top_y": 55507,
+      "bottom_y": 55545,
+      "confidence": 0.725,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8308.2,
+      "bottom_depth": 8343.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 55545,
+      "bottom_y": 55813,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8343.93,
+      "bottom_depth": 8351.93,
+      "lithology": "Shaly Sandstone",
+      "cluster_id": 11,
+      "top_y": 55813,
+      "bottom_y": 55873,
+      "confidence": 0.725,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8351.93,
+      "bottom_depth": 8361.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 55873,
+      "bottom_y": 55948,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8361.93,
+      "bottom_depth": 8376.73,
+      "lithology": "Shaly Sandstone",
+      "cluster_id": 11,
+      "top_y": 55948,
+      "bottom_y": 56059,
+      "confidence": 0.725,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8376.73,
+      "bottom_depth": 8385.8,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 56059,
+      "bottom_y": 56127,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8385.8,
+      "bottom_depth": 8387.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 20,
+      "top_y": 56127,
+      "bottom_y": 56136,
+      "confidence": 0.504,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8387.0,
+      "bottom_depth": 8402.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 56136,
+      "bottom_y": 56253,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8402.6,
+      "bottom_depth": 8418.33,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 56253,
+      "bottom_y": 56371,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8418.33,
+      "bottom_depth": 8424.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 56371,
+      "bottom_y": 56415,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8424.2,
+      "bottom_depth": 8437.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 56415,
+      "bottom_y": 56516,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8437.67,
+      "bottom_depth": 8448.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 56516,
+      "bottom_y": 56598,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8448.6,
+      "bottom_depth": 8456.07,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 56598,
+      "bottom_y": 56654,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8456.07,
+      "bottom_depth": 8464.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 56654,
+      "bottom_y": 56718,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8464.6,
+      "bottom_depth": 8478.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 56718,
+      "bottom_y": 56821,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8478.33,
+      "bottom_depth": 8505.4,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 56821,
+      "bottom_y": 57024,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8505.4,
+      "bottom_depth": 8531.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 57024,
+      "bottom_y": 57223,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8531.93,
+      "bottom_depth": 8546.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 57223,
+      "bottom_y": 57330,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8546.2,
+      "bottom_depth": 8552.87,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 57330,
+      "bottom_y": 57380,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8552.87,
+      "bottom_depth": 8562.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 57380,
+      "bottom_y": 57450,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8562.2,
+      "bottom_depth": 8569.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 57450,
+      "bottom_y": 57506,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8569.67,
+      "bottom_depth": 8584.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 57506,
+      "bottom_y": 57618,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8584.6,
+      "bottom_depth": 8587.27,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 57618,
+      "bottom_y": 57638,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8587.27,
+      "bottom_depth": 8590.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 57638,
+      "bottom_y": 57660,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8590.2,
+      "bottom_depth": 8596.07,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 57660,
+      "bottom_y": 57704,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8596.07,
+      "bottom_depth": 8604.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 57704,
+      "bottom_y": 57768,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8604.6,
+      "bottom_depth": 8613.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 57768,
+      "bottom_y": 57836,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8613.67,
+      "bottom_depth": 8620.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 57836,
+      "bottom_y": 57888,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8620.6,
+      "bottom_depth": 8623.27,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 57888,
+      "bottom_y": 57908,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8623.27,
+      "bottom_depth": 8630.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 57908,
+      "bottom_y": 57960,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8630.2,
+      "bottom_depth": 8634.47,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 57960,
+      "bottom_y": 57992,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8634.47,
+      "bottom_depth": 8644.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 57992,
+      "bottom_y": 58068,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8644.6,
+      "bottom_depth": 8647.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 58068,
+      "bottom_y": 58093,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8647.93,
+      "bottom_depth": 8655.93,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 58093,
+      "bottom_y": 58153,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8655.93,
+      "bottom_depth": 8661.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 58153,
+      "bottom_y": 58196,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8661.67,
+      "bottom_depth": 8681.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 58196,
+      "bottom_y": 58347,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8681.8,
+      "bottom_depth": 8691.8,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 58347,
+      "bottom_y": 58422,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8691.8,
+      "bottom_depth": 8712.73,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 58422,
+      "bottom_y": 58579,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8712.73,
+      "bottom_depth": 8720.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 58579,
+      "bottom_y": 58635,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8720.2,
+      "bottom_depth": 8723.93,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 58635,
+      "bottom_y": 58663,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8723.93,
+      "bottom_depth": 8730.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 58663,
+      "bottom_y": 58710,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8730.2,
+      "bottom_depth": 8775.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 58710,
+      "bottom_y": 59047,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8775.13,
+      "bottom_depth": 8781.8,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 59047,
+      "bottom_y": 59097,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8781.8,
+      "bottom_depth": 8786.47,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 59097,
+      "bottom_y": 59132,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8786.47,
+      "bottom_depth": 8796.87,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 59132,
+      "bottom_y": 59210,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8796.87,
+      "bottom_depth": 8805.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 59210,
+      "bottom_y": 59277,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8805.8,
+      "bottom_depth": 8809.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 59277,
+      "bottom_y": 59306,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8809.67,
+      "bottom_depth": 8813.4,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 59306,
+      "bottom_y": 59334,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8813.4,
+      "bottom_depth": 8817.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 59334,
+      "bottom_y": 59366,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8817.67,
+      "bottom_depth": 8824.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 59366,
+      "bottom_y": 59418,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8824.6,
+      "bottom_depth": 8829.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 59418,
+      "bottom_y": 59456,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8829.67,
+      "bottom_depth": 8835.8,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 59456,
+      "bottom_y": 59502,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8835.8,
+      "bottom_depth": 8845.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 59502,
+      "bottom_y": 59578,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8845.93,
+      "bottom_depth": 8855.93,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 59578,
+      "bottom_y": 59653,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8855.93,
+      "bottom_depth": 8861.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 59653,
+      "bottom_y": 59696,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8861.67,
+      "bottom_depth": 8868.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 59696,
+      "bottom_y": 59745,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8868.2,
+      "bottom_depth": 8873.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 59745,
+      "bottom_y": 59786,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8873.67,
+      "bottom_depth": 8877.4,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 59786,
+      "bottom_y": 59814,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8877.4,
+      "bottom_depth": 8879.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 59814,
+      "bottom_y": 59833,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8879.93,
+      "bottom_depth": 8886.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 59833,
+      "bottom_y": 59880,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8886.2,
+      "bottom_depth": 8889.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 59880,
+      "bottom_y": 59906,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8889.67,
+      "bottom_depth": 8896.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 59906,
+      "bottom_y": 59955,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8896.2,
+      "bottom_depth": 8901.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 59955,
+      "bottom_y": 59996,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8901.67,
+      "bottom_depth": 8905.0,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 59996,
+      "bottom_y": 60021,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8905.0,
+      "bottom_depth": 8923.4,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 60021,
+      "bottom_y": 60159,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8923.4,
+      "bottom_depth": 8936.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 60159,
+      "bottom_y": 60254,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8936.07,
+      "bottom_depth": 8949.4,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 60254,
+      "bottom_y": 60354,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8949.4,
+      "bottom_depth": 8972.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 60354,
+      "bottom_y": 60526,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8972.33,
+      "bottom_depth": 8989.0,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 60526,
+      "bottom_y": 60651,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 8989.0,
+      "bottom_depth": 8999.93,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 60651,
+      "bottom_y": 60733,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 8999.93,
+      "bottom_depth": 9009.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 60733,
+      "bottom_y": 60801,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9009.0,
+      "bottom_depth": 9023.13,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 60801,
+      "bottom_y": 60907,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9023.13,
+      "bottom_depth": 9030.47,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 60907,
+      "bottom_y": 60962,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9030.47,
+      "bottom_depth": 9040.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 60962,
+      "bottom_y": 61034,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9040.07,
+      "bottom_depth": 9045.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 61034,
+      "bottom_y": 61071,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9045.0,
+      "bottom_depth": 9053.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 61071,
+      "bottom_y": 61136,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9053.67,
+      "bottom_depth": 9060.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 61136,
+      "bottom_y": 61185,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9060.2,
+      "bottom_depth": 9101.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 61185,
+      "bottom_y": 61496,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9101.67,
+      "bottom_depth": 9131.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 61496,
+      "bottom_y": 61723,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9131.93,
+      "bottom_depth": 9156.87,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 61723,
+      "bottom_y": 61910,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9156.87,
+      "bottom_depth": 9180.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 61910,
+      "bottom_y": 62085,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9180.2,
+      "bottom_depth": 9224.87,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 62085,
+      "bottom_y": 62420,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9224.87,
+      "bottom_depth": 9232.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 62420,
+      "bottom_y": 62475,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9232.2,
+      "bottom_depth": 9260.87,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 62475,
+      "bottom_y": 62690,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9260.87,
+      "bottom_depth": 9268.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 62690,
+      "bottom_y": 62745,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9268.2,
+      "bottom_depth": 9311.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 62745,
+      "bottom_y": 63068,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9311.27,
+      "bottom_depth": 9317.53,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 63068,
+      "bottom_y": 63115,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9317.53,
+      "bottom_depth": 9653.33,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 63115,
+      "bottom_y": 65630,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9653.33,
+      "bottom_depth": 9663.04,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 65630,
+      "bottom_y": 65703,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9663.04,
+      "bottom_depth": 9694.72,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 65703,
+      "bottom_y": 65941,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 9694.72,
+      "bottom_depth": 9760.19,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 65941,
+      "bottom_y": 66433,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 9760.19,
+      "bottom_depth": 10105.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 66433,
+      "bottom_y": 69026,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 10105.67,
+      "bottom_depth": 10168.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 69026,
+      "bottom_y": 69495,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 10168.2,
+      "bottom_depth": 12699.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 69495,
+      "bottom_y": 88478,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 12699.27,
+      "bottom_depth": 12776.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 88478,
+      "bottom_y": 89055,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 12776.2,
+      "bottom_depth": 12785.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 89055,
+      "bottom_y": 89126,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 12785.67,
+      "bottom_depth": 12804.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 89126,
+      "bottom_y": 89267,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 12804.47,
+      "bottom_depth": 12808.87,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 89267,
+      "bottom_y": 89300,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 12808.87,
+      "bottom_depth": 12824.87,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 89300,
+      "bottom_y": 89420,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 12824.87,
+      "bottom_depth": 12831.4,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 89420,
+      "bottom_y": 89469,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 12831.4,
+      "bottom_depth": 13050.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 89469,
+      "bottom_y": 91112,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 13050.47,
+      "bottom_depth": 13140.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 91112,
+      "bottom_y": 91784,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 13140.07,
+      "bottom_depth": 13228.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 91784,
+      "bottom_y": 92445,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 13228.2,
+      "bottom_depth": 13809.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 92445,
+      "bottom_y": 96806,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 13809.67,
+      "bottom_depth": 13882.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 96806,
+      "bottom_y": 97352,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 13882.47,
+      "bottom_depth": 13948.87,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 97352,
+      "bottom_y": 97850,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 13948.87,
+      "bottom_depth": 13989.67,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 97850,
+      "bottom_y": 98156,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 13989.67,
+      "bottom_depth": 14048.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 98156,
+      "bottom_y": 98594,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 14048.07,
+      "bottom_depth": 14080.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 98594,
+      "bottom_y": 98835,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 14080.2,
+      "bottom_depth": 14189.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 98835,
+      "bottom_y": 99656,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 14189.67,
+      "bottom_depth": 14218.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 99656,
+      "bottom_y": 99872,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 14218.47,
+      "bottom_depth": 14284.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 99872,
+      "bottom_y": 100364,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 14284.07,
+      "bottom_depth": 14301.0,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 100364,
+      "bottom_y": 100491,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 14301.0,
+      "bottom_depth": 14327.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 100491,
+      "bottom_y": 100688,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 14327.27,
+      "bottom_depth": 14341.0,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 100688,
+      "bottom_y": 100791,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 14341.0,
+      "bottom_depth": 14980.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 100791,
+      "bottom_y": 105584,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 14980.07,
+      "bottom_depth": 14990.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 105584,
+      "bottom_y": 105661,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 14990.33,
+      "bottom_depth": 14996.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 105661,
+      "bottom_y": 105705,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 14996.2,
+      "bottom_depth": 15023.4,
+      "lithology": "Sandstone",
+      "cluster_id": 8,
+      "top_y": 105705,
+      "bottom_y": 105909,
+      "confidence": 0.989,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15023.4,
+      "bottom_depth": 15030.2,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 105909,
+      "bottom_y": 105960,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15030.2,
+      "bottom_depth": 15042.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 105960,
+      "bottom_y": 106051,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15042.33,
+      "bottom_depth": 15245.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 106051,
+      "bottom_y": 107576,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15245.67,
+      "bottom_depth": 15289.0,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 107576,
+      "bottom_y": 107901,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15289.0,
+      "bottom_depth": 15332.87,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 107901,
+      "bottom_y": 108230,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15332.87,
+      "bottom_depth": 15380.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 108230,
+      "bottom_y": 108585,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15380.2,
+      "bottom_depth": 15484.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 108585,
+      "bottom_y": 109364,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15484.07,
+      "bottom_depth": 15496.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 109364,
+      "bottom_y": 109455,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15496.2,
+      "bottom_depth": 15559.27,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 109455,
+      "bottom_y": 109928,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15559.27,
+      "bottom_depth": 15569.27,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 109928,
+      "bottom_y": 110003,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15569.27,
+      "bottom_depth": 15574.47,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 110003,
+      "bottom_y": 110042,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15574.47,
+      "bottom_depth": 15582.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 110042,
+      "bottom_y": 110103,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15582.6,
+      "bottom_depth": 15585.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 110103,
+      "bottom_y": 110126,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15585.67,
+      "bottom_depth": 15599.4,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 110126,
+      "bottom_y": 110229,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15599.4,
+      "bottom_depth": 15629.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 110229,
+      "bottom_y": 110456,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15629.67,
+      "bottom_depth": 15672.07,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 110456,
+      "bottom_y": 110774,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15672.07,
+      "bottom_depth": 15744.07,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 110774,
+      "bottom_y": 111314,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15744.07,
+      "bottom_depth": 15790.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 111314,
+      "bottom_y": 111663,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15790.6,
+      "bottom_depth": 15857.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 111663,
+      "bottom_y": 112166,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15857.67,
+      "bottom_depth": 15917.8,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 112166,
+      "bottom_y": 112617,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15917.8,
+      "bottom_depth": 15958.47,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 112617,
+      "bottom_y": 112922,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 15958.47,
+      "bottom_depth": 15982.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 112922,
+      "bottom_y": 113103,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 15982.6,
+      "bottom_depth": 16029.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 113103,
+      "bottom_y": 113456,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 16029.67,
+      "bottom_depth": 16070.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 113456,
+      "bottom_y": 113763,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 16070.6,
+      "bottom_depth": 16209.67,
+      "lithology": "Shale Gray",
+      "cluster_id": 0,
+      "top_y": 113763,
+      "bottom_y": 114806,
+      "confidence": 0.548,
+      "ambiguous": false,
+      "alternatives": [
+        "Shale"
+      ]
+    },
+    {
+      "top_depth": 16209.67,
+      "bottom_depth": 16233.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 114806,
+      "bottom_y": 114986,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 16233.67,
+      "bottom_depth": 16260.6,
+      "lithology": "Siltstone",
+      "cluster_id": 2,
+      "top_y": 114986,
+      "bottom_y": 115188,
+      "confidence": 0.994,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 16260.6,
+      "bottom_depth": 16321.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 115188,
+      "bottom_y": 115647,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 16321.8,
+      "bottom_depth": 16963.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 115647,
+      "bottom_y": 120463,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 16963.93,
+      "bottom_depth": 17009.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 120463,
+      "bottom_y": 120808,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17009.93,
+      "bottom_depth": 17039.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 120808,
+      "bottom_y": 121033,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17039.93,
+      "bottom_depth": 17105.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 121033,
+      "bottom_y": 121527,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17105.8,
+      "bottom_depth": 17238.07,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 121527,
+      "bottom_y": 122519,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17238.07,
+      "bottom_depth": 17284.73,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 122519,
+      "bottom_y": 122869,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17284.73,
+      "bottom_depth": 17333.27,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 122869,
+      "bottom_y": 123233,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17333.27,
+      "bottom_depth": 17353.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 123233,
+      "bottom_y": 123388,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17353.93,
+      "bottom_depth": 17363.13,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 123388,
+      "bottom_y": 123457,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17363.13,
+      "bottom_depth": 17373.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 123457,
+      "bottom_y": 123537,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17373.8,
+      "bottom_depth": 17380.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 123537,
+      "bottom_y": 123587,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17380.47,
+      "bottom_depth": 17401.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 123587,
+      "bottom_y": 123741,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17401.0,
+      "bottom_depth": 17423.13,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 123741,
+      "bottom_y": 123907,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17423.13,
+      "bottom_depth": 17453.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 123907,
+      "bottom_y": 124137,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17453.8,
+      "bottom_depth": 17508.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 124137,
+      "bottom_y": 124547,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17508.47,
+      "bottom_depth": 17526.47,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 124547,
+      "bottom_y": 124682,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17526.47,
+      "bottom_depth": 17540.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 124682,
+      "bottom_y": 124788,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17540.6,
+      "bottom_depth": 17564.73,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 124788,
+      "bottom_y": 124969,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17564.73,
+      "bottom_depth": 17627.0,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 124969,
+      "bottom_y": 125436,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17627.0,
+      "bottom_depth": 17641.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 125436,
+      "bottom_y": 125541,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17641.0,
+      "bottom_depth": 17660.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 125541,
+      "bottom_y": 125687,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17660.47,
+      "bottom_depth": 17681.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 125687,
+      "bottom_y": 125841,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17681.0,
+      "bottom_depth": 17731.0,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 125841,
+      "bottom_y": 126216,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17731.0,
+      "bottom_depth": 17760.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 126216,
+      "bottom_y": 126435,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17760.2,
+      "bottom_depth": 17830.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 126435,
+      "bottom_y": 126960,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17830.2,
+      "bottom_depth": 17857.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 126960,
+      "bottom_y": 127168,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17857.93,
+      "bottom_depth": 17899.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 127168,
+      "bottom_y": 127483,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17899.93,
+      "bottom_depth": 17939.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 127483,
+      "bottom_y": 127783,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17939.93,
+      "bottom_depth": 17983.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 127783,
+      "bottom_y": 128113,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 17983.93,
+      "bottom_depth": 18053.67,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 128113,
+      "bottom_y": 128636,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18053.67,
+      "bottom_depth": 18057.8,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 128636,
+      "bottom_y": 128667,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18057.8,
+      "bottom_depth": 18077.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 128667,
+      "bottom_y": 128817,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18077.8,
+      "bottom_depth": 18270.33,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 128817,
+      "bottom_y": 130261,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18270.33,
+      "bottom_depth": 18295.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 130261,
+      "bottom_y": 130447,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18295.13,
+      "bottom_depth": 18315.13,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 130447,
+      "bottom_y": 130597,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18315.13,
+      "bottom_depth": 18336.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 130597,
+      "bottom_y": 130755,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18336.2,
+      "bottom_depth": 18349.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 130755,
+      "bottom_y": 130858,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18349.93,
+      "bottom_depth": 18369.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 130858,
+      "bottom_y": 131008,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18369.93,
+      "bottom_depth": 18409.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 131008,
+      "bottom_y": 131308,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18409.93,
+      "bottom_depth": 18427.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 131308,
+      "bottom_y": 131437,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18427.13,
+      "bottom_depth": 18478.07,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 131437,
+      "bottom_y": 131819,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18478.07,
+      "bottom_depth": 18481.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 131819,
+      "bottom_y": 131847,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18481.8,
+      "bottom_depth": 18494.07,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 131847,
+      "bottom_y": 131939,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18494.07,
+      "bottom_depth": 18499.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 131939,
+      "bottom_y": 131977,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18499.13,
+      "bottom_depth": 18524.47,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 131977,
+      "bottom_y": 132167,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18524.47,
+      "bottom_depth": 18527.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 132167,
+      "bottom_y": 132187,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18527.13,
+      "bottom_depth": 18543.13,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 132187,
+      "bottom_y": 132307,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18543.13,
+      "bottom_depth": 18555.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 132307,
+      "bottom_y": 132403,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18555.93,
+      "bottom_depth": 18560.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 132403,
+      "bottom_y": 132435,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18560.2,
+      "bottom_depth": 18577.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 132435,
+      "bottom_y": 132568,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18577.93,
+      "bottom_depth": 18590.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 132568,
+      "bottom_y": 132660,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18590.2,
+      "bottom_depth": 18597.8,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 132660,
+      "bottom_y": 132717,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18597.8,
+      "bottom_depth": 18890.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 132717,
+      "bottom_y": 134910,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18890.2,
+      "bottom_depth": 18903.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 134910,
+      "bottom_y": 135007,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18903.13,
+      "bottom_depth": 18910.33,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 135007,
+      "bottom_y": 135061,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18910.33,
+      "bottom_depth": 18919.93,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 135061,
+      "bottom_y": 135133,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18919.93,
+      "bottom_depth": 18930.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 135133,
+      "bottom_y": 135210,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18930.2,
+      "bottom_depth": 18937.0,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 135210,
+      "bottom_y": 135261,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18937.0,
+      "bottom_depth": 18959.67,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 135261,
+      "bottom_y": 135431,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18959.67,
+      "bottom_depth": 18989.53,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 135431,
+      "bottom_y": 135655,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 18989.53,
+      "bottom_depth": 19000.33,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 135655,
+      "bottom_y": 135736,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19000.33,
+      "bottom_depth": 19014.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 135736,
+      "bottom_y": 135841,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19014.33,
+      "bottom_depth": 19038.33,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 135841,
+      "bottom_y": 136021,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19038.33,
+      "bottom_depth": 19070.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 136021,
+      "bottom_y": 136261,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19070.33,
+      "bottom_depth": 19160.33,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 136261,
+      "bottom_y": 136936,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19160.33,
+      "bottom_depth": 19198.33,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 136936,
+      "bottom_y": 137221,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19198.33,
+      "bottom_depth": 19252.6,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 137221,
+      "bottom_y": 137628,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19252.6,
+      "bottom_depth": 19270.6,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 137628,
+      "bottom_y": 137763,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19270.6,
+      "bottom_depth": 19390.07,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 137763,
+      "bottom_y": 138659,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19390.07,
+      "bottom_depth": 19407.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 138659,
+      "bottom_y": 138787,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19407.13,
+      "bottom_depth": 19424.2,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 138787,
+      "bottom_y": 138915,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19424.2,
+      "bottom_depth": 19439.13,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 138915,
+      "bottom_y": 139027,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19439.13,
+      "bottom_depth": 19531.13,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 139027,
+      "bottom_y": 139717,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19531.13,
+      "bottom_depth": 19540.2,
+      "lithology": "Shaly Siltstone",
+      "cluster_id": 6,
+      "top_y": 139717,
+      "bottom_y": 139785,
+      "confidence": 0.679,
+      "ambiguous": false,
+      "alternatives": []
+    },
+    {
+      "top_depth": 19540.2,
+      "bottom_depth": 19641.93,
+      "lithology": "Silty Shale",
+      "cluster_id": 1,
+      "top_y": 139785,
+      "bottom_y": 140548,
+      "confidence": 0.829,
+      "ambiguous": false,
+      "alternatives": []
+    }
+  ]
+}
