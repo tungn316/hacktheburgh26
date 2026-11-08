@@ -1,0 +1,6 @@
+uploads/
+data/uploads.js
+data/cache/
+server.log
+build.log
+__pycache__/

@@ -1,0 +1,10 @@
+# Core Explorer GUI + scanner:  pip install -r gui/requirements.txt
+# Also needs the tesseract OCR program with English data:
+#   macOS (Homebrew): brew install tesseract
+#   macOS (MacPorts): sudo port install tesseract tesseract-eng
+#   Debian/Ubuntu:    sudo apt install tesseract-ocr
+numpy
+pillow
+opencv-python-headless
+pytesseract
+pymupdf

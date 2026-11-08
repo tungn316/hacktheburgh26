@@ -1,0 +1,1372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core Explorer</title>
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<style>
+:root{
+  --bg:#f6f5f2; --panel:#ffffff; --ink:#1d2329; --muted:#6b7280; --line:#e3e1dc; --accent:#1f6feb;
+  --hi:rgba(31,111,235,.16); --hi-line:#1f6feb; --warn:#b45309;
+  font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size:13px; color:var(--ink);
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg)}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:4px 10px;color:var(--ink)}
+button:hover{border-color:#c9c6bf}
+button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+#app{display:grid;grid-template-columns:270px 1fr;grid-template-rows:48px 1fr;height:100vh}
+#app.nolist{grid-template-columns:0 1fr}
+#app.nolist aside{display:none}
+#app.nolist main{grid-column:1/3}
+/* scan (upload) */
+#v-scan,#v-mine{overflow:auto;display:none}
+#v-scan.on,#v-mine.on{display:block}
+.scan-start[hidden]{display:none}
+.scan-start{display:flex;justify-content:center;padding:48px 24px}
+.scan-hero{max-width:720px;width:100%}
+.scan-hero h2{font-size:30px;margin:0 0 8px;letter-spacing:-.4px}
+.scan-hero>p{font-size:15px;line-height:1.55;color:var(--muted);margin:0 0 22px}
+.drop{display:flex;flex-direction:column;align-items:center;gap:6px;border:2px dashed #b9c6da;border-radius:14px;background:#fff;padding:42px 20px;cursor:pointer;transition:background .12s,border-color .12s;text-align:center}
+.drop:hover,.drop.over{background:#eef4ff;border-color:var(--accent)}
+.drop.off{opacity:.55;cursor:not-allowed}
+.drop input{display:none}
+.drop b{font-size:17px}.drop span{color:var(--muted)}
+.drop-ic{width:46px;height:46px;border-radius:50%;background:var(--accent);color:#fff;font-size:22px;display:flex;align-items:center;justify-content:center;margin-bottom:4px}
+#scan-status{margin-top:12px}
+.note{border-radius:9px;padding:10px 13px;font-size:13px;line-height:1.5;margin-top:10px}
+.note.ok{background:#e3f4e8;color:#1f5f33}.note.warn{background:#fdf0dc;color:#7c3d06}.note.bad{background:#fde4e1;color:#8a1c12}
+.note code{background:#0000000f;padding:1px 5px;border-radius:4px}
+.steps{margin:26px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;counter-reset:s}
+.steps li{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:13px;line-height:1.45;color:#3f4651;counter-increment:s}
+.steps li::before{content:counter(s);display:inline-flex;width:22px;height:22px;border-radius:50%;background:var(--ink);color:#fff;align-items:center;justify-content:center;font-weight:700;font-size:12px;margin-bottom:6px}
+.steps li b{display:block;color:var(--ink)}
+.scan-alt{margin-top:22px;color:var(--muted);font-size:13px}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600;padding:9px 16px;font-size:14px}
+button.primary:disabled{background:#9db8e6;border-color:#9db8e6;cursor:not-allowed}
+button.link{border:0;background:none;color:var(--accent);padding:4px 0}
+.mark{display:flex;height:100%}
+.mark[hidden]{display:none}
+#mark-view{flex:1;overflow:auto;background:#5b6470;padding:16px;min-width:0}
+#mark-wrap{position:relative;margin:0 auto;box-shadow:0 2px 14px #0006;cursor:crosshair;touch-action:none;user-select:none}
+#mark-img{display:block;width:100%;pointer-events:none}
+.mbox{position:absolute;border:3px solid;background:#ffffff14}
+.mbox span{position:absolute;left:-3px;top:-21px;color:#fff;font-size:11.5px;font-weight:700;padding:2px 6px;border-radius:4px 4px 0 0;white-space:nowrap}
+.mbox.act{box-shadow:0 0 0 2px #fff,0 0 0 5px #0003}
+#mark-side{width:330px;background:var(--panel);border-left:1px solid var(--line);padding:18px;overflow:auto;display:flex;flex-direction:column;gap:10px}
+#mark-side h3{margin:6px 0 0;font-size:16px}
+.mk-file b{display:block;font-size:14px;word-break:break-all}.mk-file span{color:var(--muted);font-size:12px}
+.tool{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:9px;padding:9px 10px;cursor:pointer;background:#fff}
+.tool.on{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.tool i{width:14px;height:14px;border-radius:3px;flex:none;margin-top:2px}
+.tool div{flex:1;font-size:12px;color:var(--muted);line-height:1.4}.tool div b{display:block;color:var(--ink);font-size:13px}
+.tool .ok{color:#1f7a3d;font-weight:700}
+.mk-zoom input{width:150px}
+#mk-msg{font-size:13px;line-height:1.5}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid #c9d6ee;border-top-color:var(--accent);border-radius:50%;animation:sp 0.8s linear infinite;vertical-align:-2px;margin-right:6px}
+@keyframes sp{to{transform:rotate(360deg)}}
+.mk-ex img{width:100%;margin-top:8px;border:1px solid var(--line);border-radius:6px}
+.mk-ex summary{cursor:pointer;color:var(--accent)}
+/* scanned logs */
+.mine{max-width:1320px;margin:0 auto;padding:26px 28px 40px}
+.mine-top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:14px}
+.mine-top h2{margin:0 0 4px;font-size:24px}.mine-top p{margin:0;color:var(--muted);font-size:14px}
+.mine-pills{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.mine-grid{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:16px;align-items:start}
+.mcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:16px}
+.mcard h4{margin:0 0 10px;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
+.mcard h3{margin:0;font-size:21px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.mine .fname{margin-top:8px}
+.acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.acts a{font:inherit;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:4px 10px;background:#fff}
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+.kpi-row div{background:#f7f6f3;border-radius:8px;padding:9px 11px;font-size:11.5px;color:var(--muted)}
+.kpi-row b{display:block;font-size:18px;color:var(--ink);font-weight:650}
+.stack{display:flex;border-radius:4px;overflow:hidden}.stack i{display:block;height:100%}
+.mix{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:4px 16px;margin-top:10px;font-size:12.5px}
+.mix span{display:flex;align-items:center;gap:6px}.mix em{margin-left:auto;font-style:normal;color:var(--muted)}
+.qa{margin:0;padding:0;list-style:none}.qa li{padding:6px 0 6px 24px;position:relative;font-size:13px;line-height:1.45;border-top:1px solid #f0efeb}
+.qa li::before{position:absolute;left:0;top:6px}.qa li.ok::before{content:"✓";color:#1f7a3d;font-weight:700}.qa li.warn::before{content:"!";color:var(--warn);font-weight:800;left:5px}
+.ivt{width:100%;border-collapse:collapse;font-size:12.5px}
+.ivt th{text-align:left;font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.4px;padding:6px 8px;position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line)}
+.ivt td{padding:5px 8px;border-bottom:1px solid #f2f1ed}.ivt tr:hover td{background:#f3f7ff;cursor:pointer}
+.ivt-wrap{max-height:420px;overflow:auto}
+#mine-map{height:360px;border-radius:9px;overflow:hidden;border:1px solid var(--line);background:#a9cbe3}
+.near{display:flex;justify-content:space-between;padding:6px 0;border-top:1px solid #f0efeb;font-size:13px;cursor:pointer}.near:hover{color:var(--accent)}
+.place{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.place select,.place input{font:inherit;border:1px solid var(--line);border-radius:6px;padding:4px 6px}
+.place input{width:80px}
+.pin.up svg .ring{stroke:#ffc800;stroke-width:5}
+.legend-img{max-width:100%;border:1px solid var(--line);border-radius:6px;margin-top:10px}
+@media (max-width:1000px){.mine-grid{grid-template-columns:1fr}.kpi-row{grid-template-columns:repeat(3,1fr)}.steps{grid-template-columns:1fr}}
+/* earth map */
+#v-earth{flex-direction:row}
+#earth-wrap{flex:1;position:relative;min-width:0}
+#earth,#earth3d{position:absolute;inset:0;background:#a9cbe3}
+#earth3d{background:#0b1622}
+#earth-mode{position:absolute;top:12px;right:12px;z-index:1000;display:flex;background:#fff;border-radius:8px;box-shadow:0 1px 6px #0004;overflow:hidden}
+#earth-mode button{border:0;border-radius:0;padding:7px 12px;font-weight:500}
+#earth-mode button.on{background:var(--ink);color:#fff}
+#earth3d-help{position:absolute;left:12px;bottom:12px;z-index:5;background:#0f1720d9;color:#dbe4ee;padding:10px 12px;border-radius:8px;font-size:12px;line-height:1.5;max-width:420px;pointer-events:none}
+#earth3d-help b{color:#fff}
+#earth3d-help i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+#earth-side{width:380px;border-left:1px solid var(--line);background:var(--panel);overflow:auto;padding:18px}
+#earth-side h2{margin:0 0 4px;font-size:20px;font-weight:700}
+#earth-side h4{margin:18px 0 8px;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
+#earth-side .card{margin-bottom:10px}
+.wrow{display:flex;align-items:center;gap:10px;padding:7px 8px;border-radius:7px;cursor:pointer;font-size:13px}
+.wrow:hover{background:#f2f1ed}
+.wrow svg{flex:none}
+.wrow small{color:var(--muted);display:block;font-size:11.5px}
+
+.pin svg{filter:drop-shadow(0 1px 3px #0006);transition:transform .15s}
+.pin:hover svg,.pin.sel svg{transform:scale(1.25)}
+.pin.sel svg circle.ring{stroke:#1f6feb;stroke-width:4}
+.pin b{position:absolute;right:-4px;top:-4px;background:#1d2329;color:#fff;font-size:10px;line-height:15px;min-width:15px;text-align:center;border-radius:8px;padding:0 3px}
+.area-lbl{color:#24476b;font:600 11px/1 ui-sans-serif,system-ui;text-transform:uppercase;letter-spacing:1.2px;white-space:nowrap;text-shadow:0 0 3px #fff,0 0 3px #fff;opacity:.8}
+.leaflet-tooltip.wtip{font:12px/1.35 ui-sans-serif,system-ui;padding:6px 8px}
+.prec{font-size:11.5px;padding:6px 9px;border-radius:7px;background:#f4f3ef;color:#4b5563;margin-top:8px;line-height:1.45}
+.earth-legend{background:#ffffffe6;padding:8px 10px;border-radius:8px;font:12px/1.5 ui-sans-serif,system-ui;box-shadow:0 1px 4px #0003}
+.earth-legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+/* library */
+#v-lib{flex-direction:column;overflow:auto}
+.lib-hero{padding:28px 32px 8px;max-width:1200px}
+.lib-hero h2{margin:0 0 6px;font-size:24px;font-weight:700;letter-spacing:-.2px}
+.lib-hero p{margin:0;color:var(--muted);font-size:14px;line-height:1.5;max-width:780px}
+.lib-bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 32px;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;border-bottom:1px solid var(--line)}
+.lib-bar input{padding:8px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:14px;width:320px;max-width:100%;background:#fff}
+.chips{display:flex;gap:4px;flex-wrap:wrap;align-items:center}
+.chips b{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-weight:600;margin-right:2px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:14px;padding:3px 10px;font-size:12px;cursor:pointer;user-select:none}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.lib-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;padding:18px 32px 40px}
+.lib-group{grid-column:1/-1;margin:10px 0 -4px;font-size:12px;font-weight:650;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;display:flex;gap:8px;align-items:center}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;cursor:pointer;display:flex;flex-direction:column;gap:8px;transition:box-shadow .12s,border-color .12s}
+.card:hover{border-color:#b9c6da;box-shadow:0 4px 16px #1d23291a}
+.card h3{margin:0;font-size:15px;font-weight:650;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.card .where{color:var(--muted);font-size:12.5px}
+.tags{display:flex;flex-wrap:wrap;gap:4px}
+.tag{font-size:11.5px;padding:2px 8px;border-radius:10px;background:#f0efeb;color:#3f4651;white-space:nowrap}
+.tag[title]{cursor:help}
+.status{font-size:11px;font-weight:600;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.status.ok{background:#e3f4e8;color:#1f7a3d}.status.warn{background:#fdf0dc;color:var(--warn)}.status.bad{background:#fde4e1;color:#b42318}
+.card canvas{width:100%;height:10px;border-radius:3px;display:block}
+.card .nums{display:flex;gap:14px;font-size:12px;color:var(--muted)}
+.card .nums span b{color:var(--ink);font-weight:600}
+.fname{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;line-height:1.7;color:#6b7280;word-break:break-all;border-top:1px dashed var(--line);padding-top:7px}
+.fname span{border-radius:3px;padding:0 1px}
+.fname span[data-k]{cursor:help}
+.k-api{background:#e5edff;color:#1d4ed8}.k-name{background:#eef7e8;color:#3f6212}.k-block{background:#fff1d6;color:#92400e}.k-lease{background:#f3e8ff;color:#6b21a8}
+.k-st{background:#ffe4ec;color:#9f1239}.k-scale{background:#e0f2fe;color:#075985}.k-ref{background:#fef3c7;color:#854d0e}.k-type{background:#ecfeff;color:#155e75}.k-depth{background:#f1f5f9;color:#334155}
+.howto{margin:12px 0 0;font-size:13px;color:var(--muted)}
+.howto summary{cursor:pointer;color:var(--accent);font-weight:500}
+.howto .ex{margin-top:10px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;max-width:900px}
+.howto .ex .fname{font-size:13px;border:0;padding:0;margin-bottom:10px}
+.howto table{border-collapse:collapse;font-size:12.5px}
+.howto td{padding:3px 12px 3px 0;vertical-align:top;color:var(--ink)}
+#lib-empty{grid-column:1/-1;color:var(--muted);padding:30px 0;text-align:center}
+header{grid-column:1/3;display:flex;align-items:center;gap:18px;padding:0 16px;background:var(--ink);color:#fff}
+header h1{font-size:15px;margin:0;font-weight:650;letter-spacing:.2px}
+header h1 span{color:#9fb7d9;font-weight:400}
+nav{display:flex;gap:4px}
+nav button{background:transparent;color:#cfd6df;border:0;padding:6px 12px}
+nav button.on{background:#ffffff1f;color:#fff}
+header .stats{margin-left:auto;color:#9aa4b1;font-size:12px}
+aside{border-right:1px solid var(--line);background:var(--panel);overflow:auto;display:flex;flex-direction:column}
+aside .search{padding:10px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--panel);z-index:2}
+aside input{width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;font:inherit}
+.well{padding:6px 0;border-bottom:1px solid var(--line)}
+.well h3{margin:2px 12px 4px;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);font-weight:600;display:flex;justify-content:space-between}
+.well h3 a{color:var(--accent);cursor:pointer;text-transform:none;letter-spacing:0}
+.logitem{display:grid;grid-template-columns:16px 1fr;gap:6px;padding:5px 12px;cursor:pointer;align-items:start}
+.logitem:hover{background:#f2f1ed}
+.logitem.cur{background:#e8f0fe}
+.logitem input{margin:2px 0 0}
+.logitem .nm{font-size:12px;line-height:1.25;word-break:break-word}
+.logitem .sub{color:var(--muted);font-size:11px;margin-top:2px}
+.logitem canvas{display:block;width:100%;height:6px;margin-top:4px;border-radius:2px}
+main{position:relative;overflow:hidden}
+.view{position:absolute;inset:0;display:none}
+.view.on{display:flex}
+.toolbar{display:flex;align-items:center;gap:10px;padding:8px 14px;border-bottom:1px solid var(--line);background:var(--panel);flex-wrap:wrap}
+.toolbar .title{font-weight:650;font-size:14px}
+.toolbar .meta{color:var(--muted)}
+.toolbar .sp{flex:1}
+.pill{display:inline-block;padding:1px 7px;border-radius:10px;background:#f0efeb;color:var(--muted);font-size:11px}
+.pill.warn{background:#fdf0dc;color:var(--warn)}
+.legendbar{display:flex;flex-wrap:wrap;gap:4px 10px;padding:6px 14px;border-bottom:1px solid var(--line);background:#fbfaf8}
+.legendbar .k{display:flex;align-items:center;gap:5px;cursor:pointer;font-size:12px;padding:1px 4px;border-radius:4px;user-select:none}
+.legendbar .k i{width:12px;height:12px;border-radius:2px;display:inline-block;border:1px solid #0002}
+.legendbar .k.dim{opacity:.3}
+.legendbar .k.sel{background:#e8f0fe}
+.col{display:flex;flex-direction:column;min-width:0;min-height:0}
+/* log view */
+#v-log{flex-direction:column}
+#log-body{flex:1;display:flex;min-height:0}
+#minimap{width:46px;border-right:1px solid var(--line);cursor:pointer;background:#fff}
+#scroller{flex:1;overflow:auto;position:relative;background:#eceae5}
+#track{position:relative;margin:0 auto}
+#track .tile{position:absolute;left:0;display:block;user-select:none;-webkit-user-drag:none}
+.ivcol{position:absolute;top:0}
+.ivcol div{position:absolute;left:0;right:0}
+.amb{background-image:repeating-linear-gradient(45deg,#ffffffaa 0 3px,transparent 3px 7px)}
+.tick{position:absolute;font-size:10px;color:#4b5563;white-space:nowrap;transform:translateY(-50%)}
+.tick::before{content:"";position:absolute;right:calc(100% + 3px);top:50%;width:6px;border-top:1px solid #9ca3af}
+#band{position:absolute;left:0;right:0;background:var(--hi);border-top:1px solid var(--hi-line);border-bottom:1px solid var(--hi-line);pointer-events:none;display:none}
+#hover{position:absolute;left:0;right:0;background:#0000000d;pointer-events:none;display:none}
+.colhdr{position:sticky;top:0;z-index:3;height:0}
+.colhdr span{position:absolute;top:4px;font-size:10px;color:var(--muted);background:#ffffffd9;padding:1px 4px;border-radius:3px;white-space:nowrap}
+#detail{width:300px;border-left:1px solid var(--line);background:var(--panel);overflow:auto;padding:14px}
+#detail h4{margin:16px 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
+#detail h4:first-child{margin-top:0}
+.kv{display:grid;grid-template-columns:96px 1fr;gap:4px 8px;font-size:12px}
+.kv b{font-weight:500;color:var(--muted)}
+.big{font-size:18px;font-weight:650;display:flex;align-items:center;gap:8px}
+.sw{width:16px;height:16px;border-radius:3px;border:1px solid #0002;display:inline-block;flex:none}
+.cbar{height:8px;background:#eee;border-radius:4px;overflow:hidden}
+.cbar i{display:block;height:100%;background:var(--accent)}
+.alts span{display:inline-block;margin:2px 4px 2px 0;padding:2px 7px;border:1px solid var(--line);border-radius:10px;font-size:12px}
+#legendimg{width:100%;border:1px solid var(--line);border-radius:4px;margin-top:4px}
+.hint{color:var(--muted);font-size:12px;line-height:1.45}
+.lookalike{display:flex;gap:8px;align-items:center;padding:5px 6px;border-radius:5px;cursor:pointer;font-size:12px}
+.lookalike:hover{background:#f2f1ed}
+/* correlate */
+#v-cor{flex-direction:column}
+#cor-wrap{flex:1;position:relative;min-height:0}
+#cor-scroll{position:absolute;inset:0;overflow:auto}
+#cor-canvas{position:sticky;top:0;left:0;display:block}
+/* map */
+#v-map{flex-direction:column}
+#map-body{flex:1;display:flex;min-height:0}
+#map-wrap{flex:1;position:relative;background:#0f141a}
+#map-canvas{position:absolute;inset:0;width:100%;height:100%;cursor:crosshair}
+/* field */
+#v-field{flex-direction:column;overflow:auto}
+.kpis{display:flex;gap:12px;padding:14px;flex-wrap:wrap}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 14px;min-width:140px}
+.kpi b{display:block;font-size:22px;font-weight:650}
+.kpi span{color:var(--muted);font-size:12px}
+table.field{border-collapse:collapse;margin:0 14px 24px;background:var(--panel);border:1px solid var(--line);border-radius:8px;min-width:900px}
+table.field th,table.field td{padding:6px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:12px;vertical-align:middle}
+table.field th{color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px;position:sticky;top:0;background:var(--panel)}
+table.field tr.wellrow td{background:#f7f6f3;font-weight:600}
+table.field tr.logrow{cursor:pointer}
+table.field tr.logrow:hover td{background:#f2f6ff}
+.stack{display:flex;height:14px;width:360px;border-radius:3px;overflow:hidden;border:1px solid #0001}
+.stack i{display:block;height:100%}
+#tip{position:fixed;pointer-events:none;background:#1d2329;color:#fff;padding:7px 9px;border-radius:6px;font-size:12px;line-height:1.4;max-width:300px;z-index:50;display:none;box-shadow:0 4px 14px #0003}
+#tip .m{color:#aab4c0}
+select{font:inherit;padding:3px 6px;border-radius:6px;border:1px solid var(--line);background:#fff}
+label.chk{display:flex;align-items:center;gap:4px;color:var(--muted)}
+#empty{padding:40px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Core Explorer <span>· mud-log lithology, made visible</span></h1>
+    <nav id="tabs">
+      <button data-v="scan" class="on">Scan a log</button>
+      <button data-v="mine" id="tab-mine">Scanned logs</button>
+      <button data-v="earth">Map</button>
+      <button data-v="lib">Library</button>
+      <button data-v="log">Log</button>
+      <button data-v="cor">Correlate</button>
+      <button data-v="map">Interval map</button>
+      <button data-v="field">Field</button>
+    </nav>
+    <div class="stats" id="hstats"></div>
+  </header>
+  <aside>
+    <div class="search"><div style="font-size:11px;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:.6px">Logs · click one to open it</div><input id="q" placeholder="Filter logs or wells…"></div>
+    <div id="loglist"></div>
+  </aside>
+  <main>
+    <!-- LOG -->
+    <!-- LIBRARY -->
+    <!-- EARTH MAP -->
+    <!-- SCAN: upload a PDF -->
+    <section class="view on" id="v-scan">
+      <div id="scan-start" class="scan-start">
+        <div class="scan-hero">
+          <h2>Scan a mud log</h2>
+          <p>Upload a scanned mud log (a .tif image, or a PDF). The scanner reads its depth scale and legend, works out the rock type all the way down the hole, then shows you the log report and where the well sits on the map.</p>
+          <label class="drop" id="drop"><input type="file" id="file" multiple accept=".tif,.tiff,.TIF,.TIFF,.pdf,.png,.jpg,.jpeg,.json">
+            <div class="drop-ic">⬆</div><b>Drop the log image (.tif) and its bounding-box JSON here</b><span>or click to choose both files · TIFF (also PDF, PNG or JPEG), plus the .json. Without a JSON you mark the boxes yourself.</span></label>
+          <div id="scan-status"></div>
+          <ol class="steps"><li><b>Upload</b> your mud log image (.tif) with its bounding-box JSON.</li><li><b>Check the three areas</b> on the scan: the depth numbers, the rock column and the legend. The JSON fills them in; drag an edge to adjust, or draw them yourself.</li><li><b>Get your report:</b> the rock column with confidence, your own library page, and its place on the map.</li></ol>
+          <div class="scan-alt">Or explore the <b id="n-ds"></b> logs we've already scanned: <button data-go="earth">Open the map</button> <button data-go="lib">Browse the library</button></div>
+        </div>
+      </div>
+      <div id="mark" class="mark" hidden>
+        <div id="mark-view"><div id="mark-wrap"><img id="mark-img" alt="your scan" draggable="false"><div id="mark-boxes"></div></div></div>
+        <div id="mark-side">
+          <div class="mk-file"><b id="mk-name"></b><span id="mk-meta"></span></div>
+          <label id="mk-page-l" class="chk" hidden>Page <select id="mk-page"></select></label>
+          <h3>Mark three areas on the scan</h3>
+          <p class="hint">Pick one below, then drag a box over it on the scan. Drag an edge to adjust a box. Hold the mouse near the bottom of the scan to keep scrolling while you drag.</p>
+          <label class="link mk-json">⬆ Load boxes from a bounding-box JSON<input type="file" id="mk-json" accept=".json" hidden></label>
+          <div id="mk-tools"></div>
+          <label class="chk mk-zoom">Zoom <input type="range" id="mk-zoom" min="0.25" max="1.5" step="0.05" value="1"></label>
+          <button id="mk-scan" class="primary" disabled>Scan this log</button>
+          <div id="mk-msg"></div>
+          <details class="mk-ex"><summary>Show me an example</summary><img src="assets/example_boxes.jpg" alt="example of the three boxes on a mud log"></details>
+          <button id="mk-restart" class="link">← Upload a different file</button>
+        </div>
+      </div>
+    </section>
+    <!-- SCANNED LOGS: a library just for uploaded PDFs -->
+    <section class="view" id="v-mine"><div id="mine" class="mine"></div></section>
+    <section class="view" id="v-earth">
+      <div id="earth-wrap">
+        <div id="earth"></div>
+        <div id="earth3d"></div>
+        <div id="earth3d-help"></div>
+        <div id="earth-mode"><button data-m="3d" class="on">3D boreholes</button><button data-m="2d">2D map</button></div>
+      </div>
+      <div id="earth-side"></div>
+    </section>
+    <section class="view" id="v-lib">
+      <div class="lib-hero">
+        <h2>Mud-log library</h2>
+        <p id="lib-intro"></p>
+        <details class="howto"><summary>How to read a log's file name</summary><div class="ex" id="howto-ex"></div></details>
+      </div>
+      <div class="lib-bar">
+        <input id="lib-q" placeholder="Search wells, areas, blocks, operators…">
+        <div class="chips" id="f-area"><b>Area</b></div>
+        <div class="chips" id="f-ref"><b>Depth</b></div>
+        <div class="chips" id="f-scale"><b>Scale</b></div>
+        <div class="chips" id="f-status"><b>Status</b></div>
+        <div class="chips" style="margin-left:auto"><b>Sort</b><select id="lib-sort"><option value="well">by well</option><option value="span">depth span (long first)</option><option value="top">shallowest first</option></select></div>
+      </div>
+      <div class="lib-grid" id="lib-grid"></div>
+    </section>
+    <section class="view" id="v-log">
+      <div class="toolbar">
+        <button id="to-lib" title="back to the map or library">← Back</button>
+        <button id="log-prev" title="previous log ( [ )">←</button>
+        <select id="log-pick" style="font-weight:650;max-width:380px"></select>
+        <button id="log-next" title="next log ( ] )">→</button>
+        <span class="meta" id="log-count"></span>
+        <span class="title" id="log-title" style="display:none"></span>
+        <span class="meta" id="log-meta"></span>
+        <span class="sp"></span>
+        <label class="chk">Colour <select id="log-colour"><option value="cat">lithology</option><option value="conf">confidence</option><option value="group">raw group</option></select></label>
+        <label class="chk"><input type="checkbox" id="log-fade" checked> fade low confidence</label>
+        <button id="zout">−</button><span id="zlbl" class="meta"></span><button id="zin">+</button>
+      </div>
+      <div class="legendbar" id="log-legend"></div>
+      <div id="log-body">
+        <canvas id="minimap"></canvas>
+        <div id="scroller"><div id="track"></div></div>
+        <div id="detail"></div>
+      </div>
+    </section>
+    <!-- CORRELATE -->
+    <section class="view" id="v-cor">
+      <div class="toolbar">
+        <span class="title">Multi-well correlation</span>
+        <span class="meta" id="cor-meta"></span>
+        <span class="sp"></span>
+        <button id="cor-well">This well</button><button id="cor-all">All logs</button><button id="cor-none">Clear</button>
+        <label class="chk"><input type="checkbox" id="cor-rel"> align tops</label>
+        <button id="czout">−</button><span id="czlbl" class="meta"></span><button id="czin">+</button>
+      </div>
+      <div class="legendbar" id="cor-legend"></div>
+      <div id="cor-wrap"><div id="cor-scroll"><canvas id="cor-canvas"></canvas><div id="cor-spacer"></div></div></div>
+    </section>
+    <!-- MAP -->
+    <section class="view" id="v-map">
+      <div class="toolbar">
+        <span class="title">Interval map</span>
+        <span class="meta" id="map-meta"></span>
+        <span class="sp"></span>
+        <label class="chk">Colour <select id="map-colour"><option value="cat">lithology</option><option value="well">well</option><option value="conf">confidence</option></select></label>
+        <label class="chk"><input type="checkbox" id="map-edges" checked> neighbour links</label>
+        <label class="chk"><input type="checkbox" id="map-cur"> current log only</label>
+        <button id="map-spin" class="on">Pause rotation</button><button id="map-reset">Reset view</button>
+      </div>
+      <div class="legendbar" id="map-legend"></div>
+      <div id="map-body">
+        <div id="map-wrap"><canvas id="map-canvas"></canvas></div>
+        <div id="map-detail" style="width:300px;border-left:1px solid var(--line);background:var(--panel);overflow:auto;padding:14px"></div>
+      </div>
+    </section>
+    <!-- FIELD -->
+    <section class="view" id="v-field">
+      <div class="kpis" id="kpis"></div>
+      <div class="legendbar" id="field-legend" style="margin:0 14px 10px;border:1px solid var(--line);border-radius:8px"></div>
+      <div><table class="field" id="field-table"></table></div>
+    </section>
+  </main>
+</div>
+<div id="tip"></div>
+<script src="data/data.js"></script>
+<script src="data/uploads.js" onerror="window.UPLOADS = window.UPLOADS || []"></script>
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="vendor/world-50m.js"></script>
+<script src="vendor/maplibre-gl.js"></script>
+<script src="vendor/deck.gl.min.js"></script>
+<script>
+"use strict";
+const C = window.CORE;
+if (!C) { document.body.innerHTML = '<div id="empty">No data found. Run <code>python3 build_data.py</code> in the gui folder first.</div>'; throw 0; }
+// Logs the user scanned through the local scanner (server.py writes data/uploads.js); they join the app as normal logs.
+const UP = Array.isArray(window.UPLOADS) ? window.UPLOADS : [];
+UP.forEach(u => { if (!C.logs.some(l => l.id === u.id)) C.logs.push(u); });
+const SERVER = location.protocol.startsWith("http");
+const LOGS = C.logs, COL = C.catColours, ORDER = C.catOrder;
+const byId = Object.fromEntries(LOGS.map(l => [l.id, l]));
+const $ = s => document.querySelector(s);
+const fmt = (v, d = 0) => Number(v).toLocaleString(undefined, {maximumFractionDigits: d, minimumFractionDigits: d});
+const ft = v => fmt(v, 0) + " ft";
+const tip = $("#tip");
+function showTip(e, html) { tip.innerHTML = html; tip.style.display = "block";
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.min(e.clientX + 14, innerWidth - w - 8) + "px";
+  tip.style.top = Math.min(e.clientY + 14, innerHeight - h - 8) + "px"; }
+const hideTip = () => tip.style.display = "none";
+
+// --------------------------------------------------------------- state
+const S = { cur: null, view: "log", zoom: 1, hiCat: null, sel: null /* {log, i} */, cor: new Set(), corPx: 0.25 };
+const wells = {};
+LOGS.forEach(l => (wells[l.well] = wells[l.well] || []).push(l));
+// sort wells: multi-log first, then by name
+const wellKeys = Object.keys(wells).sort((a, b) => wells[b].length - wells[a].length || a.localeCompare(b));
+const wellLabel = k => { const l = wells[k][0]; if (l.upload) return "★ Scanned · " + l.file; return /^\d{10}$/.test(k) ? "API " + k : k.replace(/_/g, " "); };
+
+// colours ------------------------------------------------------------
+function confColour(c) { // cividis-like ramp, low = warm grey/orange, high = blue
+  const t = Math.max(0, Math.min(1, c));
+  const a = [[217, 95, 2], [240, 200, 120], [120, 160, 200], [31, 80, 160]];
+  const x = t * 3, i = Math.min(2, Math.floor(x)), f = x - i;
+  const m = a[i].map((v, k) => Math.round(v + (a[i + 1][k] - v) * f));
+  return `rgb(${m})`;
+}
+const GROUP_PAL = ["#4e79a7","#f28e2b","#e15759","#76b7b2","#59a14f","#edc948","#b07aa1","#ff9da7","#9c755f","#bab0ac"];
+function ivColour(iv, mode) {
+  if (mode === "conf") return confColour(iv.c);
+  if (mode === "group") return GROUP_PAL[iv.g % GROUP_PAL.length];
+  return COL[iv.cat] || "#bbb";
+}
+const WELL_PAL = ["#4e79a7","#f28e2b","#e15759","#76b7b2","#59a14f","#edc948","#b07aa1","#ff9da7","#9c755f","#79706e","#86bcb6","#d37295","#fabfd2","#b6992d","#499894","#8cd17d","#a0cbe8","#ffbe7d","#d4a6c8","#bab0ac"];
+const wellColour = Object.fromEntries(wellKeys.map((k, i) => [k, WELL_PAL[i % WELL_PAL.length]]));
+
+// footage per category ------------------------------------------------
+function footage(l) { const f = {}; l.iv.forEach(v => f[v.cat] = (f[v.cat] || 0) + (v.b - v.t)); return f; }
+LOGS.forEach(l => {
+  l.foot = footage(l);
+  l.len = l.iv.reduce((s, v) => s + (v.b - v.t), 0);
+  l.meanC = l.len ? l.iv.reduce((s, v) => s + v.c * (v.b - v.t), 0) / l.len : 0;
+  l.ambFrac = l.len ? l.iv.reduce((s, v) => s + (v.amb ? v.b - v.t : 0), 0) / l.len : 0;
+  l.warnings = l.warnings || [];
+  l.depthOdd = l.top < 0 || l.fit.mean_residual_ft > 0.4 || (l.fit.labels_used || 0) < 4 || l.warnings.some(w => /depth/i.test(w));
+});
+const usedCats = ORDER.filter(c => LOGS.some(l => l.foot[c]));
+
+// legend component -----------------------------------------------------
+const legends = [];
+function legend(el, cats, onChange) {
+  const render = () => {
+    el.innerHTML = cats.map(c => `<span class="k ${S.hiCat && S.hiCat !== c ? "dim" : ""} ${S.hiCat === c ? "sel" : ""}" data-c="${c}"><i style="background:${COL[c]}"></i>${c}</span>`).join("")
+      + `<span class="k" style="color:var(--muted);margin-left:auto;cursor:default">click a rock type to highlight it</span>`;
+  };
+  el.addEventListener("click", e => { const k = e.target.closest(".k[data-c]"); if (!k) return;
+    S.hiCat = S.hiCat === k.dataset.c ? null : k.dataset.c; legends.forEach(r => r()); redrawAll(); });
+  legends.push(render); render();
+}
+
+// --------------------------------------------------------------- sidebar
+function miniStrip(cv, l) {
+  const w = cv.width = 220, h = cv.height = 6, x = cv.getContext("2d");
+  const span = l.base - l.top || 1;
+  l.iv.forEach(v => { x.fillStyle = COL[v.cat]; x.fillRect((v.t - l.top) / span * w, 0, Math.max(1, (v.b - v.t) / span * w), h); });
+}
+function renderList() {
+  const q = $("#q").value.toLowerCase();
+  const el = $("#loglist"); el.innerHTML = "";
+  wellKeys.forEach(k => {
+    const ls = wells[k].filter(l => !q || (l.name + " " + l.stem + " " + k).toLowerCase().includes(q));
+    if (!ls.length) return;
+    const d = document.createElement("div"); d.className = "well";
+    d.innerHTML = `<h3><span><i class="sw" style="width:8px;height:8px;background:${wellColour[k]};border:0;vertical-align:middle;margin-right:5px"></i>${wellLabel(k)}</span>${ls.length > 1 ? `<a data-w="${k}">correlate</a>` : ""}</h3>`;
+    ls.forEach(l => {
+      const it = document.createElement("div");
+      it.className = "logitem" + (S.cur === l ? " cur" : "");
+      it.innerHTML = `<input type="checkbox" title="include in correlation" ${S.cor.has(l.id) ? "checked" : ""}><div><div class="nm">${l.name}</div><div class="sub">${ft(l.top)} – ${ft(l.base)} · ${l.iv.length} intervals</div><canvas></canvas></div>`;
+      miniStrip(it.querySelector("canvas"), l);
+      it.querySelector("input").addEventListener("click", e => { e.stopPropagation();
+        e.target.checked ? S.cor.add(l.id) : S.cor.delete(l.id); if (S.view === "cor") drawCor(true); });
+      it.addEventListener("click", () => openLog(l));
+      d.appendChild(it);
+    });
+    d.querySelector("a[data-w]")?.addEventListener("click", e => { S.cor = new Set(wells[k].map(l => l.id)); setView("cor"); renderList(); });
+    el.appendChild(d);
+  });
+}
+$("#q").addEventListener("input", renderList);
+
+// --------------------------------------------------------------- views
+function setView(v) {
+  S.view = v;
+  const full = ["lib", "earth", "scan", "mine"].includes(v);
+  $("#app").classList.toggle("nolist", full);
+  if (full && v !== "scan") S.home = v;
+  document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("on", b.dataset.v === v));
+  document.querySelectorAll(".view").forEach(s => s.classList.toggle("on", s.id === "v-" + v));
+  hideTip();
+  if (v === "cor") drawCor(true);
+  if (v === "map") { sizeMap(); drawMap(); }
+  if (v === "field") renderField();
+  if (v === "lib") renderLib();
+  if (v === "earth") showEarth();
+  if (v === "mine") renderMine();
+  if (v === "scan") showScan();
+  if (v === "log" && !S.cur) openLog(LOGS.find(l => /log06/.test(l.id)) || LOGS[0]);
+  else if (v === "log" && S.cur) { sizeMini(); drawMini(); }
+}
+document.querySelectorAll("#tabs button").forEach(b => b.addEventListener("click", () => setView(b.dataset.v)));
+function redrawAll() {
+  if (S.view === "earth") refresh3d();
+  if (S.cur) { paintIntervals(); drawMini(); }
+  if (S.view === "cor") drawCor();
+  if (S.view === "map") drawMap();
+  if (S.view === "field") renderField();
+}
+
+// =============================================================== LOG VIEW
+const scroller = $("#scroller"), track = $("#track");
+const COLW = 64, CONFW = 54, GAP = 10, TICKW = 70;
+let geom = null;
+function ftToY(l, f) { return ((f - l.fit.a) / l.fit.b - l.strip.y0) * l.strip.s * S.zoom; }
+function yToFt(l, y) { return l.fit.a + l.fit.b * (y / (l.strip.s * S.zoom) + l.strip.y0); }
+function pxToY(l, py) { return (py - l.strip.y0) * l.strip.s * S.zoom; }
+
+const LOG_ORDER = wellKeys.flatMap(k => wells[k]);
+$("#log-pick").innerHTML = wellKeys.map(k => `<optgroup label="${wellLabel(k)}">${wells[k].map(l => `<option value="${l.id}">${l.name}</option>`).join("")}</optgroup>`).join("");
+$("#log-pick").onchange = e => openLog(byId[e.target.value]);
+function stepLog(d) { const i = LOG_ORDER.indexOf(S.cur), n = LOG_ORDER.length; openLog(LOG_ORDER[(i + d + n) % n]);
+  document.querySelector(".logitem.cur")?.scrollIntoView({block: "nearest"}); }
+$("#log-prev").onclick = () => stepLog(-1);
+$("#to-lib").onclick = () => setView(S.home || "earth");
+$("#log-next").onclick = () => stepLog(1);
+addEventListener("keydown", e => { if (S.view !== "log" || e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
+  if (e.key === "]") stepLog(1); if (e.key === "[") stepLog(-1); });
+function openLog(l, focusIdx) {
+  const first = S.cur !== l;
+  S.cur = l;
+  if (S.cor.size === 0) wells[l.well].forEach(x => S.cor.add(x.id));
+  if (S.view !== "log") setView("log");
+  if (first) { S.zoom = Math.max(0.2, Math.min(1.5, (scroller.clientWidth - (COLW + CONFW + TICKW + 2 * GAP + 30)) / l.strip.w)); buildTrack(); }
+  renderList();
+  if (focusIdx != null) selectIv(focusIdx, true);
+  else if (first) { S.sel = null; renderDetail(); }
+}
+
+function buildTrack() {
+  const l = S.cur, st = l.strip, z = S.zoom;
+  const W = st.w * z, H = st.h * z;
+  const xIv = W + GAP, xConf = xIv + COLW + GAP, xTick = xConf + CONFW + 8;
+  geom = {W, H, xIv, xConf, xTick};
+  track.style.width = (xTick + TICKW) + "px";
+  track.style.height = H + "px";
+  let html = "";
+  for (let t = 0; t < st.tiles; t++) {
+    const top = t * st.tileH * z, h = Math.min(st.tileH, st.h - t * st.tileH) * z;
+    html += `<img class="tile" loading="lazy" decoding="async" src="data/tiles/${l.id}/${t}.jpg" style="top:${top}px;width:${W}px;height:${h}px">`;
+  }
+  html += `<div class="colhdr"><span style="left:${st.depth[0] * z}px">depth col.</span><span style="left:${Math.max(0, st.lith[0] * z - 40)}px">scan lithology</span><span style="left:${xIv}px">extracted</span><span style="left:${xConf}px">confidence</span></div>`;
+  html += `<div class="ivcol" id="ivcol" style="left:${xIv}px;width:${COLW}px;height:${H}px"></div>`;
+  html += `<svg id="confsvg" style="position:absolute;top:0;left:${xConf}px" width="${CONFW}" height="${H}"></svg>`;
+  html += `<div id="ticks" style="position:absolute;top:0;left:${xTick}px;height:${H}px"></div>`;
+  html += `<div id="hover"></div><div id="band"></div>`;
+  // outline of the lithology column on the scan
+  html += `<div style="position:absolute;top:0;left:${st.lith[0] * z}px;width:${(st.lith[1] - st.lith[0]) * z}px;height:${H}px;outline:2px solid #1f6feb55;pointer-events:none"></div>`;
+  track.innerHTML = html;
+  // ticks
+  const span = l.base - l.top, pxPerFt = Math.abs(ftToY(l, l.top + 100) - ftToY(l, l.top)) / 100;
+  const steps = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000];
+  const step = steps.find(s => s * pxPerFt >= 60) || 10000;
+  let th = "";
+  for (let f = Math.ceil(l.top / step) * step; f <= l.base; f += step) {
+    const y = ftToY(l, f); if (y < 0 || y > H) continue;
+    th += `<div class="tick" style="top:${y}px;left:10px">${fmt(f)} ft</div>`;
+  }
+  $("#ticks").innerHTML = th;
+  paintIntervals();
+  $("#log-title").textContent = l.name;
+  $("#log-pick").value = l.id;
+  $("#log-count").textContent = `${LOG_ORDER.indexOf(l) + 1} of ${LOG_ORDER.length}`;
+  $("#log-meta").innerHTML = `${wellLabel(l.well)} · ${ft(l.top)} – ${ft(l.base)} · ${l.iv.length} intervals ` +
+    (l.depthOdd ? `<span class="pill warn" title="depth calibration looks unreliable">depth uncertain</span>` : `<span class="pill" title="depth labels used / mean residual">depth fit: ${l.fit.labels_used} labels, ±${fmt(l.fit.mean_residual_ft, 2)} ft</span>`);
+  $("#zlbl").textContent = fmt(pxPerFt, 2) + " px/ft";
+  sizeMini(); drawMini();
+}
+
+function paintIntervals() {
+  const l = S.cur; if (!l || !geom) return;
+  const mode = $("#log-colour").value, fade = $("#log-fade").checked;
+  let h = "";
+  l.iv.forEach((v, i) => {
+    const y0 = pxToY(l, v.y0), y1 = pxToY(l, v.y1);
+    const op = (fade ? 0.25 + 0.75 * v.c : 1) * (S.hiCat && S.hiCat !== v.cat ? 0.15 : 1);
+    h += `<div data-i="${i}" class="${v.amb ? "amb" : ""}" style="top:${y0}px;height:${Math.max(1, y1 - y0)}px;background-color:${ivColour(v, mode)};opacity:${op.toFixed(2)}"></div>`;
+  });
+  $("#ivcol").innerHTML = h;
+  // confidence trace: step line
+  let p = "", ref = "";
+  l.iv.forEach(v => { const y0 = pxToY(l, v.y0), y1 = pxToY(l, v.y1), x = 3 + v.c * (CONFW - 6); p += `M${x},${y0}V${y1}`; });
+  const steps = l.iv.map(v => [3 + v.c * (CONFW - 6), pxToY(l, v.y0), pxToY(l, v.y1)]);
+  let d = steps.length ? `M${steps[0][0]},${steps[0][1]}` : "";
+  steps.forEach(s => d += `H${s[0]}V${s[2]}`);
+  $("#confsvg").innerHTML = `<rect width="${CONFW}" height="${geom.H}" fill="#fff"/><line x1="${3 + .5 * (CONFW - 6)}" x2="${3 + .5 * (CONFW - 6)}" y2="${geom.H}" stroke="#ddd" stroke-dasharray="3 3"/><path d="${d}" fill="none" stroke="#1f6feb" stroke-width="1.4"/>`;
+}
+
+function ivAtY(y) { // binary search over intervals by pixel row
+  const l = S.cur, py = y / (l.strip.s * S.zoom) + l.strip.y0;
+  let lo = 0, hi = l.iv.length - 1;
+  while (lo <= hi) { const m = (lo + hi) >> 1, v = l.iv[m];
+    if (py < v.y0) hi = m - 1; else if (py >= v.y1) lo = m + 1; else return m; }
+  return -1;
+}
+track.addEventListener("mousemove", e => {
+  if (!S.cur) return;
+  const r = track.getBoundingClientRect(), y = e.clientY - r.top, i = ivAtY(y), hv = $("#hover");
+  if (i < 0) { hv.style.display = "none"; hideTip(); return; }
+  const l = S.cur, v = l.iv[i], y0 = pxToY(l, v.y0), y1 = pxToY(l, v.y1);
+  Object.assign(hv.style, {display: "block", top: y0 + "px", height: Math.max(2, y1 - y0) + "px"});
+  showTip(e, `<b>${v.lith}</b> <span class="m">(${v.cat})</span><br>${fmt(v.t, 1)} – ${fmt(v.b, 1)} ft · ${fmt(v.b - v.t, 1)} ft thick<br>confidence ${fmt(v.c * 100)}%${v.amb ? " · <b>ambiguous</b>" : ""}${v.alt.length ? `<br><span class="m">or: ${v.alt.join(", ")}</span>` : ""}<br><span class="m">depth here: ${fmt(yToFt(l, y), 1)} ft</span>`);
+});
+track.addEventListener("mouseleave", () => { $("#hover").style.display = "none"; hideTip(); });
+track.addEventListener("click", e => { const r = track.getBoundingClientRect(), i = ivAtY(e.clientY - r.top); if (i >= 0) selectIv(i, false); });
+
+function selectIv(i, scroll) {
+  const l = S.cur; S.sel = {log: l, i};
+  const v = l.iv[i], y0 = pxToY(l, v.y0), y1 = pxToY(l, v.y1), b = $("#band");
+  Object.assign(b.style, {display: "block", top: y0 + "px", height: Math.max(2, y1 - y0) + "px"});
+  if (scroll) scroller.scrollTop = Math.max(0, (y0 + y1) / 2 - scroller.clientHeight / 2);
+  renderDetail(); drawMini();
+}
+
+// look-alikes: nearest neighbours in the embedding feature space (approx. via the kNN edges + 2D)
+const P = C.points, ptIndex = new Map(P.idx.map(([li, ii], k) => [LOGS[li].id + ":" + ii, k]));
+const nbrs = P.xy.map(() => []);
+P.edges.forEach(([a, b]) => { nbrs[a].push(b); nbrs[b].push(a); });
+function lookalikes(k, n = 8) {
+  // nearest intervals by standardised texture/colour features, from OTHER logs
+  const X = P.X, a = X[k], li = P.idx[k][0], best = [];
+  for (let j = 0; j < X.length; j++) {
+    if (P.idx[j][0] === li) continue;
+    const b = X[j]; let d = 0; for (let f = 0; f < a.length; f++) { const t = a[f] - b[f]; d += t * t; }
+    if (best.length < n || d < best[best.length - 1].d) { best.push({j, d}); best.sort((p, q) => p.d - q.d); if (best.length > n) best.pop(); }
+  }
+  return best.map(o => o.j);
+}
+function ptLabel(j) { const [li, ii] = P.idx[j], l = LOGS[li], v = l.iv[ii];
+  return `<div class="lookalike" data-j="${j}"><i class="sw" style="background:${COL[v.cat]}"></i><div><div>${v.lith} · ${fmt(v.t)} ft</div><div class="hint">${l.name}</div></div></div>`; }
+function bindLookalikes(el) { el.querySelectorAll(".lookalike").forEach(d => d.addEventListener("click", () => { const [li, ii] = P.idx[+d.dataset.j]; openLog(LOGS[li], ii); })); }
+
+function renderDetail() {
+  const l = S.cur, el = $("#detail");
+  let h = "";
+  if (S.sel && S.sel.log === l) {
+    const v = l.iv[S.sel.i];
+    const same = l.iv.filter(x => x.g === v.g);
+    h += `<h4>Selected interval</h4><div class="big"><i class="sw" style="background:${COL[v.cat]}"></i>${v.lith}</div>
+      <div class="hint" style="margin:2px 0 10px">${v.cat}</div>
+      <div class="kv"><b>Depth</b><span>${fmt(v.t, 1)} – ${fmt(v.b, 1)} ft</span><b>Thickness</b><span>${fmt(v.b - v.t, 1)} ft</span>
+      <b>Confidence</b><span><div class="cbar"><i style="width:${v.c * 100}%;background:${confColour(v.c)}"></i></div>${fmt(v.c * 100)}%${v.amb ? ' · <span class="pill warn">ambiguous</span>' : ""}</span>
+      <b>Pattern group</b><span>#${v.g} · ${same.length} intervals, ${ft(same.reduce((s, x) => s + x.b - x.t, 0))}</span></div>`;
+    if (v.alt.length) h += `<h4>Could also be</h4><div class="alts">${v.alt.map(a => `<span>${a}</span>`).join("")}</div>`;
+    const k = ptIndex.get(l.id + ":" + S.sel.i);
+    if (k != null) h += `<h4>Looks like (in other logs)</h4><div class="hint" style="margin-bottom:4px">Nearest by scan texture and colour, from other logs.</div>${lookalikes(k).map(ptLabel).join("")}`;
+  } else {
+    h += `<h4>This log</h4><div class="hint">Hover the scan to read an interval. Click to pin it and see similar intervals in other wells. Faded blocks are low confidence; hatched blocks are ambiguous.</div>`;
+    const rows = Object.entries(l.foot).sort((a, b) => b[1] - a[1]);
+    h += `<h4>Lithology mix</h4>` + rows.map(([c, f]) => `<div style="display:flex;align-items:center;gap:6px;margin:3px 0;font-size:12px"><i class="sw" style="background:${COL[c]};width:12px;height:12px"></i><span style="flex:1">${c}</span><span class="hint">${fmt(f / l.len * 100)}%</span></div>`).join("");
+  }
+  if (l.warnings.length) h += `<h4>Pipeline warnings</h4>${l.warnings.map(w => `<div class="hint" style="color:var(--warn)">⚠ ${w}</div>`).join("")}`;
+  if ((l.sameSymbols || []).length) h += `<h4>Legend symbols that look identical</h4><div class="hint">${l.sameSymbols.map(g => g.join(" = ")).join("<br>")}<br>These can't be told apart from the scan alone, so they show up as alternatives.</div>`;
+  h += `<h4>Legend on the scan</h4><div class="hint">${l.legend.length ? l.legend.join(" · ") : "no legend found"}</div>`;
+  if (l.hasLegendImg) h += `<img id="legendimg" src="data/legend/${l.id}.jpg" alt="legend crop">`;
+  el.innerHTML = h; bindLookalikes(el);
+}
+
+// minimap
+const mini = $("#minimap");
+function sizeMini() { mini.width = 46; mini.height = mini.clientHeight * devicePixelRatio; }
+function drawMini() {
+  const l = S.cur; if (!l) return;
+  const x = mini.getContext("2d"), W = mini.width, H = mini.height, Ht = l.strip.h * S.zoom, k = H / Ht;
+  x.clearRect(0, 0, W, H);
+  l.iv.forEach(v => { x.globalAlpha = S.hiCat && S.hiCat !== v.cat ? .15 : 1; x.fillStyle = COL[v.cat];
+    const y0 = pxToY(l, v.y0) * k, y1 = pxToY(l, v.y1) * k; x.fillRect(6, y0, W - 12, Math.max(1, y1 - y0)); });
+  x.globalAlpha = 1; x.strokeStyle = "#1d2329"; x.lineWidth = 2;
+  x.strokeRect(2, scroller.scrollTop * k, W - 4, Math.max(4, scroller.clientHeight * k));
+  if (S.sel && S.sel.log === l) { const v = l.iv[S.sel.i]; x.fillStyle = "#1f6feb"; x.fillRect(0, pxToY(l, v.y0) * k - 1, W, 3); }
+}
+scroller.addEventListener("scroll", drawMini);
+let miniDrag = false;
+const miniJump = e => { const l = S.cur; if (!l) return; const r = mini.getBoundingClientRect();
+  scroller.scrollTop = (e.clientY - r.top) / r.height * l.strip.h * S.zoom - scroller.clientHeight / 2; };
+mini.addEventListener("mousedown", e => { miniDrag = true; miniJump(e); });
+addEventListener("mousemove", e => miniDrag && miniJump(e));
+addEventListener("mouseup", () => miniDrag = false);
+
+function setZoom(z) {
+  const l = S.cur; if (!l) return;
+  const mid = (scroller.scrollTop + scroller.clientHeight / 2) / S.zoom;
+  S.zoom = Math.max(0.1, Math.min(4, z));
+  buildTrack();
+  scroller.scrollTop = mid * S.zoom - scroller.clientHeight / 2;
+  if (S.sel && S.sel.log === l) selectIv(S.sel.i, false);
+}
+$("#zin").onclick = () => setZoom(S.zoom * 1.5);
+$("#zout").onclick = () => setZoom(S.zoom / 1.5);
+$("#log-colour").onchange = paintIntervals;
+$("#log-fade").onchange = paintIntervals;
+
+// =============================================================== CORRELATE
+const corScroll = $("#cor-scroll"), corCv = $("#cor-canvas"), corSp = $("#cor-spacer");
+const CW = 46, CG = 26, HDR = 110, AXW = 64;
+let corLayout = null;
+function drawCor(relayout) {
+  const ls = LOGS.filter(l => S.cor.has(l.id));
+  const rel = $("#cor-rel").checked;
+  const key = ls.map(l => l.id).join("|") + rel;
+  if (corLayout && corLayout.key !== key) relayout = true;
+  if (relayout || !corLayout) {
+    const span0 = rel ? Math.max(...ls.map(l => l.base - l.top)) : Math.max(...ls.map(l => l.base)) - Math.min(...ls.map(l => l.top));
+    if (ls.length && (!corLayout || corLayout.key !== key)) { S.corPx = Math.max(0.005, (corScroll.clientHeight - HDR - 20) / span0); corScroll.scrollTop = 0; }
+    const top = rel ? 0 : Math.min(...ls.map(l => l.top)), base = rel ? Math.max(...ls.map(l => l.base - l.top)) : Math.max(...ls.map(l => l.base));
+    corLayout = {ls, top, base, W: AXW + ls.length * (CW + CG) + 20, rel, key};
+    corSp.style.height = Math.max(0, (base - top) * S.corPx + HDR + 40 - corScroll.clientHeight) + "px";
+    corSp.style.width = corLayout.W + "px";
+    $("#cor-meta").textContent = ls.length ? `${ls.length} logs · ${rel ? "each log from its own top" : ft(top) + " – " + ft(base)}` : "tick logs in the list, or pick a set →";
+    $("#czlbl").textContent = fmt(S.corPx, 2) + " px/ft";
+  }
+  const {top, base, W} = corLayout, dpr = devicePixelRatio, vw = corScroll.clientWidth, vh = corScroll.clientHeight;
+  corCv.style.width = vw + "px"; corCv.style.height = vh + "px";
+  corCv.width = vw * dpr; corCv.height = vh * dpr;
+  corCv.style.marginBottom = -vh + "px";
+  const x = corCv.getContext("2d"); x.setTransform(dpr, 0, 0, dpr, 0, 0);
+  x.fillStyle = "#fff"; x.fillRect(0, 0, vw, vh);
+  if (!ls.length) { x.fillStyle = "#6b7280"; x.font = "14px sans-serif"; x.fillText("No logs selected. Tick logs in the sidebar or use the buttons above.", 20, 40); return; }
+  const sx = corScroll.scrollLeft, sy = corScroll.scrollTop;
+  const f0 = top + sy / S.corPx, f1 = f0 + (vh - HDR) / S.corPx;
+  const Y = f => HDR + (f - f0) * S.corPx;
+  // depth grid
+  const steps = [10, 20, 50, 100, 200, 500, 1000, 2000, 5000];
+  const step = steps.find(s => s * S.corPx >= 50) || 10000;
+  x.font = "10px sans-serif"; x.textBaseline = "middle";
+  for (let f = Math.ceil(f0 / step) * step; f <= f1; f += step) {
+    const y = Y(f); x.strokeStyle = "#eee"; x.beginPath(); x.moveTo(AXW - sx, y); x.lineTo(W - sx, y); x.stroke();
+    x.fillStyle = "#4b5563"; x.textAlign = "right"; x.fillText(fmt(f) + (rel ? " ft below top" : " ft").replace(" below top", "+"), AXW - 8, y);
+  }
+  corLayout.cols = [];
+  ls.forEach((l, j) => {
+    const cx = AXW + j * (CW + CG) - sx, off = rel ? l.top : 0;
+    corLayout.cols.push({l, cx: cx + sx, off});
+    if (cx > vw || cx + CW < 0) return;
+    x.fillStyle = "#f4f3ef"; x.fillRect(cx, Y(l.top - off), CW, (l.base - l.top) * S.corPx);
+    l.iv.forEach(v => {
+      const t = v.t - off, b = v.b - off; if (b < f0 || t > f1) return;
+      x.globalAlpha = (0.3 + 0.7 * v.c) * (S.hiCat && S.hiCat !== v.cat ? .12 : 1);
+      x.fillStyle = COL[v.cat]; x.fillRect(cx, Y(t), CW, Math.max(.6, (b - t) * S.corPx));
+    });
+    x.globalAlpha = 1;
+    if (S.sel && S.sel.log === l) { const v = l.iv[S.sel.i]; x.strokeStyle = "#1f6feb"; x.lineWidth = 2; x.strokeRect(cx - 2, Y(v.t - off), CW + 4, Math.max(2, (v.b - v.t) * S.corPx)); x.lineWidth = 1; }
+  });
+  // headers
+  x.fillStyle = "#fff"; x.fillRect(0, 0, vw, HDR - 4);
+  x.strokeStyle = "#e3e1dc"; x.beginPath(); x.moveTo(0, HDR - 4); x.lineTo(vw, HDR - 4); x.stroke();
+  ls.forEach((l, j) => {
+    const cx = AXW + j * (CW + CG) - sx; if (cx > vw || cx + CW < 0) return;
+    x.save(); x.translate(cx + CW / 2 + 4, HDR - 10); x.rotate(-Math.PI / 2.6);
+    x.textAlign = "left"; x.fillStyle = wellColour[l.well]; x.fillRect(-2, -4, 8, 8);
+    x.fillStyle = "#1d2329"; x.font = "11px sans-serif"; x.fillText(l.name.slice(0, 26), 10, 0); x.restore();
+  });
+}
+corScroll.addEventListener("scroll", () => drawCor());
+function corHit(e) {
+  if (!corLayout || !corLayout.cols) return null;
+  const r = corScroll.getBoundingClientRect(), mx = e.clientX - r.left + corScroll.scrollLeft, my = e.clientY - r.top;
+  if (my < HDR) return null;
+  const f = corLayout.top + corScroll.scrollTop / S.corPx + (my - HDR) / S.corPx;
+  const c = corLayout.cols.find(c => mx >= c.cx && mx <= c.cx + CW); if (!c) return null;
+  const i = c.l.iv.findIndex(v => f + c.off >= v.t && f + c.off < v.b);
+  return i < 0 ? null : {l: c.l, i, f: f + c.off};
+}
+corScroll.addEventListener("mousemove", e => { const h = corHit(e); if (!h) return hideTip(); const v = h.l.iv[h.i];
+  showTip(e, `<b>${v.lith}</b> <span class="m">(${v.cat})</span><br>${h.l.name}<br>${fmt(v.t, 1)} – ${fmt(v.b, 1)} ft · conf ${fmt(v.c * 100)}%${v.alt.length ? `<br><span class="m">or: ${v.alt.join(", ")}</span>` : ""}<br><span class="m">click to open in the log viewer</span>`); });
+corScroll.addEventListener("mouseleave", hideTip);
+corScroll.addEventListener("click", e => { const h = corHit(e); if (h) openLog(h.l, h.i); });
+function corZoom(k) { const mid = corLayout ? corLayout.top + (corScroll.scrollTop + corScroll.clientHeight / 2) / S.corPx : 0;
+  S.corPx = Math.max(0.005, Math.min(8, S.corPx * k)); drawCor(true);
+  corScroll.scrollTop = (mid - corLayout.top) * S.corPx - corScroll.clientHeight / 2; drawCor(); }
+$("#czin").onclick = () => corZoom(1.6); $("#czout").onclick = () => corZoom(1 / 1.6);
+$("#cor-rel").onchange = () => drawCor(true);
+$("#cor-well").onclick = () => { if (S.cur) { S.cor = new Set(wells[S.cur.well].map(l => l.id)); renderList(); drawCor(true); } };
+$("#cor-all").onclick = () => { S.cor = new Set(LOGS.map(l => l.id)); renderList(); drawCor(true); };
+$("#cor-none").onclick = () => { S.cor.clear(); renderList(); drawCor(true); };
+
+// =============================================================== MAP
+const mapCv = $("#map-canvas");
+const M = {k: 1, tx: 0, ty: 0, hover: -1, sel: -1, yaw: 0.7, pitch: -0.35, spin: true, last: 0};
+function sizeMap() { const r = mapCv.getBoundingClientRect(); mapCv.width = r.width * devicePixelRatio; mapCv.height = r.height * devicePixelRatio; }
+
+// ---- 3D embedding: PCA of the standardised features, done in the browser (Jacobi eigen-decomposition)
+const PCA3 = (() => {
+  const X = P.X, n = X.length, d = X[0].length, mu = new Array(d).fill(0);
+  X.forEach(r => r.forEach((v, i) => mu[i] += v / n));
+  const Cv = Array.from({length: d}, () => new Array(d).fill(0));
+  X.forEach(r => { for (let i = 0; i < d; i++) { const a = r[i] - mu[i]; for (let j = i; j < d; j++) Cv[i][j] += a * (r[j] - mu[j]) / n; } });
+  for (let i = 0; i < d; i++) for (let j = 0; j < i; j++) Cv[i][j] = Cv[j][i];
+  const A = Cv.map(r => r.slice()), V = Array.from({length: d}, (_, i) => Array.from({length: d}, (_, j) => +(i === j)));
+  for (let sweep = 0; sweep < 60; sweep++) {
+    let off = 0; for (let i = 0; i < d; i++) for (let j = i + 1; j < d; j++) off += A[i][j] ** 2;
+    if (off < 1e-12) break;
+    for (let p = 0; p < d; p++) for (let q = p + 1; q < d; q++) {
+      if (Math.abs(A[p][q]) < 1e-14) continue;
+      const th = (A[q][q] - A[p][p]) / (2 * A[p][q]), t = Math.sign(th || 1) / (Math.abs(th) + Math.sqrt(th * th + 1));
+      const c = 1 / Math.sqrt(t * t + 1), sn = t * c;
+      for (let k = 0; k < d; k++) { const akp = A[k][p], akq = A[k][q]; A[k][p] = c * akp - sn * akq; A[k][q] = sn * akp + c * akq; }
+      for (let k = 0; k < d; k++) { const apk = A[p][k], aqk = A[q][k]; A[p][k] = c * apk - sn * aqk; A[q][k] = sn * apk + c * aqk; }
+      for (let k = 0; k < d; k++) { const vkp = V[k][p], vkq = V[k][q]; V[k][p] = c * vkp - sn * vkq; V[k][q] = sn * vkp + c * vkq; }
+    }
+  }
+  const ev = A.map((r, i) => [r[i], i]).sort((a, b) => b[0] - a[0]), tot = ev.reduce((s, e) => s + e[0], 0);
+  const comps = ev.slice(0, 3).map(([, i]) => V.map(r => r[i]));
+  const Y = X.map(r => comps.map(c => c.reduce((s, w, i) => s + w * (r[i] - mu[i]), 0)));
+  // scale each axis so the bulk of points sits inside a unit cube (robust to outliers)
+  const sc = [0, 1, 2].map(a => { const v = Y.map(y => Math.abs(y[a])).sort((p, q) => p - q); return v[Math.floor(v.length * .98)] || 1; });
+  Y.forEach(y => { for (let a = 0; a < 3; a++) y[a] = Math.max(-1.6, Math.min(1.6, y[a] / sc[a])); });
+  return {Y, comps, explained: ev.slice(0, 3).map(e => e[0] / tot)};
+})();
+const axisName = c => P.feats.map((f, i) => [f, c[i]]).sort((a, b) => Math.abs(b[1]) - Math.abs(a[1])).slice(0, 2).map(([f, w]) => `${w > 0 ? "+" : "−"}${f}`).join(" ");
+function project(p, W, H) { // p = [x,y,z] in model space -> [sx, sy, depth, scale]
+  const cy = Math.cos(M.yaw), sy = Math.sin(M.yaw), cp = Math.cos(M.pitch), sp = Math.sin(M.pitch);
+  const x1 = p[0] * cy - p[2] * sy, z1 = p[0] * sy + p[2] * cy;
+  const y2 = p[1] * cp - z1 * sp, z2 = p[1] * sp + z1 * cp;
+  const cam = 4.2, f = cam / (cam - z2), R = Math.min(W, H) * 0.32 * M.k;
+  return [W / 2 + M.tx + x1 * f * R, H / 2 + M.ty - y2 * f * R, z2, f];
+}
+const ptLog = j => LOGS[P.idx[j][0]], ptIv = j => { const [li, ii] = P.idx[j]; return LOGS[li].iv[ii]; };
+const mapOpt = {colour: "cat", cur: false};
+function readMapOpts() { mapOpt.colour = $("#map-colour").value; mapOpt.cur = $("#map-cur").checked; }
+function ptColour(j) { const m = mapOpt.colour, v = ptIv(j);
+  return m === "well" ? wellColour[ptLog(j).well] : m === "conf" ? confColour(v.c) : COL[v.cat]; }
+function ptVisible(j) { return !mapOpt.cur || !S.cur || ptLog(j) === S.cur; }
+const ptCol = P.idx.map(() => null);
+function drawMap() {
+  if (S.view !== "map") return;
+  readMapOpts();
+  const x = mapCv.getContext("2d"), dpr = devicePixelRatio; x.setTransform(dpr, 0, 0, dpr, 0, 0);
+  const r = mapCv.getBoundingClientRect(), W = r.width, H = r.height;
+  x.fillStyle = "#0f141a"; x.fillRect(0, 0, W, H);
+  const Y = PCA3.Y, n = Y.length, xy = new Array(n);
+  for (let j = 0; j < n; j++) xy[j] = project(Y[j], W, H);
+  // cube + axes
+  const corner = [-1.2, 1.2], E = [];
+  corner.forEach(a => corner.forEach(b => { E.push([[-1.2, a, b], [1.2, a, b]], [[a, -1.2, b], [a, 1.2, b]], [[a, b, -1.2], [a, b, 1.2]]); }));
+  x.strokeStyle = "rgba(255,255,255,.07)"; x.lineWidth = 1; x.beginPath();
+  E.forEach(([p, q]) => { const A = project(p, W, H), B = project(q, W, H); x.moveTo(A[0], A[1]); x.lineTo(B[0], B[1]); }); x.stroke();
+  const ax = [[1.45, 0, 0], [0, 1.45, 0], [0, 0, 1.45]], O = project([0, 0, 0], W, H);
+  x.font = "11px sans-serif"; x.textAlign = "center";
+  ax.forEach((p, i) => { const A = project(p, W, H); x.strokeStyle = "rgba(160,190,230,.45)"; x.beginPath(); x.moveTo(O[0], O[1]); x.lineTo(A[0], A[1]); x.stroke();
+    x.fillStyle = "rgba(200,215,235,.85)"; x.fillText(`PC${i + 1} ${axisName(PCA3.comps[i])}`, A[0], A[1] - 6); });
+  if ($("#map-edges").checked) {
+    x.strokeStyle = "rgba(200,215,235,.06)"; x.beginPath();
+    const moving = M.spin || (drag && drag.moved), stride = moving ? 3 : 1; // thin the links while moving, for frame rate
+    for (let e = 0; e < P.edges.length; e += stride) { const [a, b] = P.edges[e]; if (!ptVisible(a) || !ptVisible(b)) continue; x.moveTo(xy[a][0], xy[a][1]); x.lineTo(xy[b][0], xy[b][1]); }
+    x.stroke();
+  }
+  const order = []; for (let j = 0; j < n; j++) if (ptVisible(j)) order.push(j);
+  order.sort((a, b) => xy[a][2] - xy[b][2]); // far to near
+  for (const j of order) {
+    const v = ptIv(j), dim = S.hiCat && S.hiCat !== v.cat, p = xy[j];
+    const fog = Math.max(.25, Math.min(1, .55 + p[2] * .3));
+    x.globalAlpha = dim ? .04 : (.3 + .65 * v.c) * fog;
+    x.fillStyle = ptColour(j);
+    const rad = Math.max(1.1, Math.min(6, Math.sqrt(v.b - v.t) * .55)) * p[3] * Math.sqrt(M.k);
+    if (rad < 2) x.fillRect(p[0] - rad, p[1] - rad, rad * 2, rad * 2);
+    else { x.beginPath(); x.arc(p[0], p[1], rad, 0, 7); x.fill(); }
+  }
+  x.globalAlpha = 1;
+  const ring = (j, col, w) => { x.strokeStyle = col; x.lineWidth = w; x.beginPath(); x.arc(xy[j][0], xy[j][1], 8, 0, 7); x.stroke(); };
+  if (M.sel >= 0) { x.strokeStyle = "#5aa2ff"; x.lineWidth = 1.2; lookalikes(M.sel).forEach(o => { x.beginPath(); x.moveTo(xy[M.sel][0], xy[M.sel][1]); x.lineTo(xy[o][0], xy[o][1]); x.stroke(); ring(o, "#5aa2ff", 1.5); }); ring(M.sel, "#fff", 2.5); }
+  if (M.hover >= 0) ring(M.hover, "#fff", 1.5);
+  M.xy = xy;
+  $("#map-meta").textContent = `${fmt(n)} intervals from ${LOGS.length} logs · 3D PCA of scan texture + colour (${fmt(PCA3.explained.reduce((a, b) => a + b, 0) * 100)}% of variance) · drag to rotate`;
+}
+function spinLoop(t) {
+  if (S.view === "map" && M.spin && !drag) { if (M.last) M.yaw += (t - M.last) * 0.00018; drawMap(); }
+  M.last = t; requestAnimationFrame(spinLoop);
+}
+requestAnimationFrame(spinLoop);
+function mapNearest(e) { const r = mapCv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
+  let best = -1, bd = 100, bz = -9; (M.xy || []).forEach((p, j) => { if (!ptVisible(j)) return; const v = ptIv(j); if (S.hiCat && S.hiCat !== v.cat) return;
+    const d = (p[0] - mx) ** 2 + (p[1] - my) ** 2; if (d < bd - 4 || (d < bd + 4 && p[2] > bz)) { bd = d; best = j; bz = p[2]; } }); return best; }
+let drag = null;
+mapCv.addEventListener("mousedown", e => drag = {x: e.clientX, y: e.clientY, tx: M.tx, ty: M.ty, yaw: M.yaw, pitch: M.pitch, pan: e.shiftKey || e.button === 2, moved: false});
+mapCv.addEventListener("contextmenu", e => e.preventDefault());
+mapCv.addEventListener("mousemove", e => {
+  if (drag) { const dx = e.clientX - drag.x, dy = e.clientY - drag.y; if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
+    if (drag.moved) {
+      if (drag.pan) { M.tx = drag.tx + dx; M.ty = drag.ty + dy; }
+      else { M.yaw = drag.yaw + dx * 0.008; M.pitch = Math.max(-1.5, Math.min(1.5, drag.pitch + dy * 0.008)); }
+      hideTip(); drawMap(); return; } }
+  const j = mapNearest(e); if (j !== M.hover) { M.hover = j; if (!M.spin) drawMap(); }
+  if (j < 0) return hideTip(); const v = ptIv(j), l = ptLog(j);
+  showTip(e, `<b>${v.lith}</b> <span class="m">(${v.cat})</span><br>${l.name}<br>${fmt(v.t, 1)} – ${fmt(v.b, 1)} ft · conf ${fmt(v.c * 100)}%<br><span class="m">click to see look-alikes</span>`);
+});
+mapCv.addEventListener("mouseup", e => { if (drag && !drag.moved) { const j = mapNearest(e); M.sel = j; if (j >= 0) setSpin(false); drawMap(); renderMapDetail(); } drag = null; });
+mapCv.addEventListener("mouseleave", () => { drag = null; M.hover = -1; hideTip(); drawMap(); });
+mapCv.addEventListener("wheel", e => { e.preventDefault(); const r = mapCv.getBoundingClientRect(), mx = e.clientX - r.left - r.width / 2, my = e.clientY - r.top - r.height / 2;
+  const f = Math.exp(-e.deltaY * .0015), k2 = Math.max(.4, Math.min(40, M.k * f)), g = k2 / M.k;
+  M.tx = mx - (mx - M.tx) * g; M.ty = my - (my - M.ty) * g; M.k = k2; drawMap(); }, {passive: false});
+function setSpin(on) { M.spin = on; $("#map-spin").classList.toggle("on", on); $("#map-spin").textContent = on ? "Pause rotation" : "Rotate"; }
+$("#map-spin").onclick = () => setSpin(!M.spin);
+$("#map-reset").onclick = () => { Object.assign(M, {k: 1, tx: 0, ty: 0, yaw: 0.7, pitch: -0.35}); drawMap(); };
+["#map-colour", "#map-edges", "#map-cur"].forEach(s => $(s).onchange = drawMap);
+function renderMapDetail() {
+  const el = $("#map-detail");
+  const feats = P.feats, L = P.loadings;
+  const axis = r => feats.map((f, i) => [f, L[r][i]]).sort((a, b) => Math.abs(b[1]) - Math.abs(a[1])).slice(0, 3).map(([f, w]) => `${w > 0 ? "+" : "−"}${f}`).join(", ");
+  let h = "";
+  if (M.sel >= 0) {
+    const v = ptIv(M.sel), l = ptLog(M.sel), [li, ii] = P.idx[M.sel];
+    h += `<h4 style="margin-top:0;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)">Selected</h4><div class="big" style="font-size:16px"><i class="sw" style="background:${COL[v.cat]}"></i>${v.lith}</div>
+      <div class="hint" style="margin:4px 0 8px">${l.name}<br>${fmt(v.t, 1)} – ${fmt(v.b, 1)} ft · confidence ${fmt(v.c * 100)}%</div>
+      <button id="map-open">Open in log viewer</button>
+      <h4 style="font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:16px 0 6px">Nearest look-alikes in other logs</h4>${lookalikes(M.sel).map(ptLabel).join("")}`;
+    el.innerHTML = h; bindLookalikes(el);
+    $("#map-open").onclick = () => openLog(LOGS[li], ii);
+    return;
+  }
+  el.innerHTML = `<div class="hint"><b style="color:var(--ink)">What am I looking at?</b><br>Every dot is one interval the pipeline extracted, from every log. Dots sit close together when their patch of scan has similar texture and colour, whatever the label says.<br><br>
+  Tight single-colour clumps mean the labels agree with the pixels. Mixed clumps show where rock types are hard to tell apart, or where legends differ between logs.<br><br>
+  Faint lines join each interval to its 4 nearest neighbours.<br><br>
+  <b style="color:var(--ink)">Axes</b> (the 3 strongest directions of variation)<br>${PCA3.comps.map((c, i) => `PC${i + 1} (${fmt(PCA3.explained[i] * 100)}%): ${axisName(c)}`).join("<br>")}<br><br>
+  Drag to rotate, shift-drag or right-drag to pan, scroll to zoom. Click a dot to stop the rotation and see its look-alikes in other wells.</div>`;
+}
+
+// =============================================================== FIELD
+function renderField() {
+  const tot = LOGS.reduce((s, l) => s + l.len, 0);
+  const amb = LOGS.reduce((s, l) => s + l.ambFrac * l.len, 0) / tot;
+  const nIv = LOGS.reduce((s, l) => s + l.iv.length, 0);
+  $("#kpis").innerHTML = [[LOGS.length, "logs digitised"], [wellKeys.length, "wells"], [fmt(nIv), "intervals extracted"], [fmt(tot / 5280, 1) + " mi", "of borehole interpreted"], [fmt(amb * 100) + "%", "footage flagged ambiguous"]]
+    .map(([b, s]) => `<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join("");
+  const stack = foot => { const t = Object.values(foot).reduce((a, b) => a + b, 0) || 1;
+    return `<div class="stack">${usedCats.filter(c => foot[c]).map(c => `<i title="${c}: ${fmt(foot[c] / t * 100)}%" style="width:${foot[c] / t * 100}%;background:${COL[c]};opacity:${S.hiCat && S.hiCat !== c ? .15 : 1}"></i>`).join("")}</div>`; };
+  const allFoot = {}; LOGS.forEach(l => Object.entries(l.foot).forEach(([c, f]) => allFoot[c] = (allFoot[c] || 0) + f));
+  let h = `<tr><th>Log</th><th>Interval</th><th>Lithology mix (by footage)</th><th>Ambiguous</th></tr>
+    <tr class="wellrow"><td>Whole field</td><td>${fmt(tot)} ft</td><td>${stack(allFoot)}</td><td>${fmt(amb * 100)}%</td></tr>`;
+  wellKeys.forEach(k => {
+    const ls = wells[k];
+    if (ls.length > 1) { const f = {}; ls.forEach(l => Object.entries(l.foot).forEach(([c, v]) => f[c] = (f[c] || 0) + v));
+      h += `<tr class="wellrow"><td colspan="2"><i class="sw" style="width:9px;height:9px;background:${wellColour[k]};border:0"></i> ${wellLabel(k)} · ${ls.length} logs</td><td>${stack(f)}</td><td></td></tr>`; }
+    ls.forEach(l => h += `<tr class="logrow" data-id="${l.id}"><td style="max-width:300px">${ls.length > 1 ? "&nbsp;&nbsp;&nbsp;" : `<i class="sw" style="width:9px;height:9px;background:${wellColour[k]};border:0"></i> `}${l.name}${l.depthOdd ? ' <span class="pill warn">depth uncertain</span>' : ""}</td>
+      <td>${ft(l.top)} – ${ft(l.base)}</td><td>${stack(l.foot)}</td>
+      <td>${fmt(l.ambFrac * 100)}%</td></tr>`);
+  });
+  const t = $("#field-table"); t.innerHTML = h;
+  t.querySelectorAll("tr.logrow").forEach(r => r.onclick = () => openLog(byId[r.dataset.id]));
+}
+
+
+// =============================================================== LIBRARY
+const AREAS = {"807": "Garden Banks", "808": "Keathley Canyon", "811": "Green Canyon", "812": "Walker Ridge", "817": "Mississippi Canyon", "818": "Atwater Valley"};
+const BLOCK_AREA = {GC: "Green Canyon", MC: "Mississippi Canyon", AT: "Atwater Valley", GB: "Garden Banks", AC: "Alaminos Canyon", KC: "Keathley Canyon", WR: "Walker Ridge"};
+const PROSPECTS = {shenzi: "Shenzi", ardennes: "Ardennes", hadrian: "Hadrian", neptune: "Neptune", allegheny: "Allegheny", "mdn-1": "MDN-1", "mad dog": "Mad Dog"};
+const OPERATORS = {bp: "BP", xom: "ExxonMobil", shell: "Shell"};
+const titleCase = t => t.replace(/\b\w/g, c => c.toUpperCase());
+function decode(l) {
+  const f = l.stem, lo = f.toLowerCase(), d = {raw: f, parts: []};  // parts: [start, end, kind, label]
+  const mark = (re, kind, label) => { const m = re.exec(f); if (m) d.parts.push([m.index, m.index + m[0].length, kind, typeof label === "function" ? label(m) : label]); return m; };
+  const api = mark(/^(\d{12,14})/, "api", m => { const a = m[1]; return `US well number (API) ${a.slice(0, 2)}-${a.slice(2, 5)}-${a.slice(5, 10)}${a.length > 10 ? "-" + a.slice(10, 12) : ""}${a.length > 12 ? "-" + a.slice(12, 14) : ""}: federal offshore Gulf of Mexico, ${AREAS[a.slice(2, 5)] || "area " + a.slice(2, 5)}, well ${a.slice(5, 10)}${a.length > 10 ? ", sidetrack " + +a.slice(10, 12) : ""}${a.length > 12 ? ", bypass " + +a.slice(12, 14) : ""}`; });
+  if (api) { const a = api[1]; d.api = a; d.area = AREAS[a.slice(2, 5)]; d.wellNo = a.slice(5, 10); if (a.length >= 12) d.st = +a.slice(10, 12); if (a.length >= 14) d.bp = +a.slice(12, 14); d.offshore = true; }
+  const blk = mark(/(?<![a-z])(GC|MC|AT|GB|AC|KC|WR)[ _#-]?0*(\d{2,4})(?=[^\d]|$)/i, "block", m => `Lease block: ${BLOCK_AREA[m[1].toUpperCase()]} ${+m[2]}`);
+  if (blk) { d.block = `${blk[1].toUpperCase()} ${+blk[2]}`; d.area = d.area || BLOCK_AREA[blk[1].toUpperCase()]; d.offshore = true; }
+  const lease = mark(/ocs-g[ _-]?(\d{4,5})|(?<=_)g(\d{5})(?=_)|(?<=^Shell_)(\d{5})(?=_)/i, "lease", m => `Federal lease OCS-G ${m[1] || m[2] || m[3]}`);
+  if (lease) { d.lease = "OCS-G " + (lease[1] || lease[2] || lease[3]); d.offshore = true; }
+  const st = mark(/st0?(\d)[ _]*bp0?(\d)/i, "st", m => `Sidetrack ${+m[1]}, bypass ${+m[2]} (a re-drilled branch of the same hole; 0 = original)`);
+  if (st) { d.st = +st[1]; d.bp = +st[2]; }
+  const sc = mark(/(\d)\s*-?\s*in(?:ch)?(?![a-z]{2})|(?<=tvd|md)(\d)(?=_|$)/i, "scale", m => `${m[1] || m[2]}-inch scale: ${m[1] || m[2]} inches of paper per 100 ft of hole${(m[1] || m[2]) === "5" ? " (detailed)" : (m[1] || m[2]) === "1" ? " (whole-well overview)" : ""}`);
+  if (sc) d.scale = +(sc[1] || sc[2]);
+  const ref = mark(/tvd|(?<![a-z])md(?![a-z])|md(?=\d|_)/i, "ref", m => /tvd/i.test(m[0]) ? "TVD: true vertical depth (straight down)" : "MD: measured depth (along the borehole)");
+  if (ref) d.ref = /tvd/i.test(ref[0]) ? "TVD" : "MD";
+  const ty = mark(/master\s*log|mud\s*log|mudlog|mud(?=_|$)|chromatograph_ratio|combo_mud_log|(?<=_)fe(?=_)/i, "type", m => {
+    const t = m[0].toLowerCase(); return t.includes("master") ? "Master log: mud log plus drilling data" : t.includes("chromat") ? "Gas chromatograph ratio sheet" : t === "fe" ? "Formation evaluation log" : "Mud log: rock cuttings + gas, logged while drilling"; });
+  if (ty) { const t = ty[0].toLowerCase(); d.type = t.includes("master") ? "Master log" : t.includes("chromat") ? "Gas ratio log" : t === "fe" ? "Formation evaluation" : "Mud log"; }
+  const dep = mark(/(\d{3,5})\s*(?:ft)?\s*(?:-|to|_)\s*(\d{4,5})\s*(?:ft)?/i, "depth", m => `Depth range on the sheet: ${fmt(+m[1])} to ${fmt(+m[2])} ft`);
+  // prospect / well name
+  for (const [k, v] of Object.entries(PROSPECTS)) if (lo.includes(k)) { d.prospect = v; const i = lo.indexOf(k); d.parts.push([i, i + k.length, "name", `Field / prospect name: ${v}`]); break; }
+  for (const [k, v] of Object.entries(OPERATORS)) if (new RegExp(`(^|_)${k}(_|$)`).test(lo)) { d.operator = v; const i = lo.search(new RegExp(`(^|_)${k}(_|$)`)) + (lo.startsWith(k) ? 0 : 1); d.parts.push([i, i + k.length, "name", `Operator: ${v}`]); break; }
+  // friendly title
+  let title;
+  if (/^0+\d_d-582/i.test(f)) { const n = /log0?(\d+)/i.exec(f); title = `Well D-582 · section ${n ? n[1] : ""}`; d.parts.push([0, f.indexOf("_log") + 6, "name", "Document D-582, split into 9 numbered sections (log01–log09)"]); d.offshore = false; }
+  else if (d.prospect) title = d.prospect + (d.block ? ` (${d.block})` : "");
+  else if (d.block) title = `${d.area} ${d.block.split(" ")[1]}`;
+  else if (d.lease) title = (d.operator ? d.operator + " · " : "") + d.lease;
+  else if (d.api) title = `${d.area || "Gulf of Mexico"} well ${d.wellNo}`;
+  else { // onshore: lease / unit names
+    const m = /^(.*?)(?:_mud|_MUD| mudlog|_Mud_| Mud|\.pdf|\.PDF|$)/.exec(f.replace(/^Mudlog[-_ ](MD_)?/i, ""));
+    title = titleCase(m[1].replace(/_/g, " ").replace(/\b\d?IN\b|\bST\b$/gi, "").replace(/([a-z])(\d)/gi, "$1 $2").replace(/(\d)([A-Z][a-z])/g, "$1 $2").replace(/\s+/g, " ").trim().split(" ").map(w => /\d/.test(w) ? w.toUpperCase() : w.toLowerCase()).join(" ")); d.parts.push([0, f.length - (f.length - (f.indexOf(m[1]) + m[1].length)), "name", "Well / lease name (onshore well, no API number in the file name)"]);
+  }
+  if (d.st != null && d.st + (d.bp || 0) > 0) title += ` · ST${d.st}${d.bp ? " BP" + d.bp : ""}`;
+  d.title = title;
+  d.region = d.offshore ? (d.area || "Gulf of Mexico") : (/^0+\d_d-582/i.test(f) ? "D-582" : "Onshore");
+  return d;
+}
+function fnameHTML(d) {
+  const f = d.raw, ps = d.parts.filter(p => p[1] > p[0]).sort((a, b) => a[0] - b[0] || b[1] - a[1]), out = []; let i = 0;
+  ps.forEach(([a, b, k, lab]) => { if (a < i) return; if (a > i) out.push(esc(f.slice(i, a))); out.push(`<span class="k-${k}" data-k title="${esc(lab)}">${esc(f.slice(a, b))}</span>`); i = b; });
+  out.push(esc(f.slice(i))); return out.join("");
+}
+const esc = t => String(t).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+LOGS.forEach(l => { l.dec = decode(l); });
+Object.values(wells).forEach(ws => {
+  const pros = ws.map(l => l.dec.prospect).find(Boolean), blk = ws.map(l => l.dec.block).find(Boolean);
+  ws.forEach(l => { const d = l.dec; if (!d.api || d.prospect) return;
+    const base = pros ? pros + (blk ? ` (${blk})` : "") : blk ? `${BLOCK_AREA[blk.split(" ")[0]]} ${blk.split(" ")[1]}` : null;
+    if (base) { d.title = base + (d.st != null && d.st + (d.bp || 0) > 0 ? ` · ST${d.st}${d.bp ? " BP" + d.bp : ""}` : ""); } });
+});
+LOGS.forEach(l => {
+  const un = (l.foot["Unmatched group"] || 0) / (l.len || 1);
+  l.status = un > 0.5 ? ["bad", "Rock types not identified"] : l.depthOdd ? ["warn", "Depth uncertain"] : ["ok", "Ready"];
+});
+const F = {area: new Set(), ref: new Set(), scale: new Set(), status: new Set()};
+function chipRow(el, key, values) {
+  values.forEach(v => { const c = document.createElement("span"); c.className = "chip"; c.textContent = v; c.onclick = () => { F[key].has(v) ? F[key].delete(v) : F[key].add(v); c.classList.toggle("on"); renderLib(); }; el.appendChild(c); });
+}
+const uniq = a => [...new Set(a.filter(Boolean))];
+chipRow($("#f-area"), "area", uniq(LOGS.map(l => l.dec.region)).sort());
+chipRow($("#f-ref"), "ref", ["MD", "TVD"]);
+chipRow($("#f-scale"), "scale", uniq(LOGS.map(l => l.dec.scale && l.dec.scale + "-inch")).sort());
+chipRow($("#f-status"), "status", ["Ready", "Depth uncertain", "Rock types not identified"]);
+$("#lib-q").addEventListener("input", renderLib); $("#lib-sort").onchange = renderLib;
+function libMatch(l) {
+  const d = l.dec, q = $("#lib-q").value.trim().toLowerCase();
+  if (F.area.size && !F.area.has(d.region)) return false;
+  if (F.ref.size && !F.ref.has(d.ref)) return false;
+  if (F.scale.size && !F.scale.has(d.scale + "-inch")) return false;
+  if (F.status.size && !F.status.has(l.status[1])) return false;
+  if (q) { const hay = [d.title, d.region, d.area, d.block, d.lease, d.operator, d.prospect, d.type, d.ref, d.api, l.stem, ...Object.keys(l.foot)].join(" ").toLowerCase();
+    if (!q.split(/\s+/).every(w => hay.includes(w))) return false; }
+  return true;
+}
+function card(l) {
+  const d = l.dec, tags = [];
+  if (d.area && d.offshore) tags.push([d.area, "Offshore protraction area"]);
+  if (d.block) tags.push([d.block, "Lease block"]);
+  if (d.lease) tags.push([d.lease, "Federal lease"]);
+  if (d.operator) tags.push([d.operator, "Operator"]);
+  if (d.type) tags.push([d.type, null]);
+  if (d.scale) tags.push([d.scale + "-inch", `${d.scale} inches of paper per 100 ft`]);
+  if (d.ref) tags.push([d.ref, d.ref === "TVD" ? "True vertical depth" : "Measured depth along the hole"]);
+  if (d.st != null) tags.push([d.st || d.bp ? `Sidetrack ${d.st}${d.bp ? " · bypass " + d.bp : ""}` : "Original hole", "Sidetrack = re-drilled branch of the same well"]);
+  return `<div class="card" data-id="${l.id}">
+    <h3><span>${esc(d.title)}</span><span class="status ${l.status[0]}">${l.status[1]}</span></h3>
+    <div class="where">${d.offshore ? "Gulf of Mexico, offshore" : d.region === "D-582" ? "Well D-582" : "Onshore"} · ${ft(l.top)} – ${ft(l.base)} (${fmt(l.base - l.top)} ft of hole)</div>
+    <div class="tags">${tags.map(([t, h]) => `<span class="tag" ${h ? `title="${esc(h)}"` : ""}>${esc(t)}</span>`).join("")}</div>
+    <canvas data-strip="${l.id}"></canvas>
+    <div class="nums"><span><b>${l.iv.length}</b> intervals</span><span><b>${Object.keys(l.foot).filter(c => !/Unmatched|Annotation|Other/.test(c)).length}</b> rock types</span><span>${(wells[l.well] || []).length > 1 ? `<b>${wells[l.well].length}</b> logs of this well` : ""}</span></div>
+    <div class="fname" title="Hover the coloured parts to decode the file name">${fnameHTML(d)}</div>
+  </div>`;
+}
+function renderLib() {
+  const ls = LOGS.filter(l => !l.upload && libMatch(l)), sort = $("#lib-sort").value;
+  const g = $("#lib-grid");
+  let html = "";
+  if (sort === "well") {
+    wellKeys.forEach(k => { const w = wells[k].filter(l => ls.includes(l)); if (!w.length) return;
+      html += `<div class="lib-group"><i class="sw" style="width:9px;height:9px;background:${wellColour[k]};border:0"></i>${esc(w[0].dec.title.split(" · ")[0].replace(/ \(.*\)$/, ""))}${w.length > 1 ? ` · ${w.length} logs` : ""}</div>` + w.map(card).join(""); });
+  } else {
+    const key = {conf: l => -l.meanC, span: l => -(l.base - l.top), top: l => l.top}[sort];
+    html = ls.slice().sort((a, b) => key(a) - key(b)).map(card).join("");
+  }
+  g.innerHTML = html || `<div id="lib-empty">No logs match these filters.</div>`;
+  g.querySelectorAll("canvas[data-strip]").forEach(cv => { const l = byId[cv.dataset.strip];
+    const w = cv.width = 600, h = cv.height = 10, x = cv.getContext("2d"), span = l.base - l.top || 1;
+    x.fillStyle = "#eee"; x.fillRect(0, 0, w, h);
+    l.iv.forEach(v => { x.globalAlpha = .35 + .65 * v.c; x.fillStyle = COL[v.cat]; x.fillRect((v.t - l.top) / span * w, 0, Math.max(1, (v.b - v.t) / span * w), h); }); });
+  g.querySelectorAll(".card").forEach(c => c.onclick = e => { if (e.target.closest("[data-k]") && e.altKey) return; openLog(byId[c.dataset.id]); });
+  $("#lib-intro").innerHTML = `${DS.length} scanned mud logs from ${new Set(DS.map(l => l.well)).size} wells, each turned into a depth-by-depth rock column by our extraction pipeline. ` +
+    `Showing <b>${ls.length}</b>. Pick a log to see the scan beside what we extracted from it.`;
+}
+(() => { // worked example for the "how to read a file name" box
+  const l = LOGS.find(l => /mdn-1_st01bp01/i.test(l.stem)) || LOGS.find(l => l.dec.api) || LOGS[0], d = l.dec;
+  const kinds = [["api", "US API well number: country/state (60 = federal Gulf of Mexico), area, well, sidetrack, bypass"], ["name", "Well, field or operator name"], ["block", "Lease block, e.g. GC 743 = Green Canyon block 743"],
+    ["lease", "Federal lease number (OCS-G …)"], ["st", "Sidetrack / bypass: re-drilled branches of the same hole"], ["scale", "Print scale: inches per 100 ft (5-inch = detailed, 1-inch = overview)"],
+    ["ref", "MD = measured along the hole, TVD = true vertical depth"], ["type", "What kind of log: mud log, master log, gas ratios"], ["depth", "Depth range on the sheet"]];
+  $("#howto-ex").innerHTML = `<div class="fname">${fnameHTML(d)}</div><table>${kinds.map(([k, t]) => `<tr><td><span class="fname" style="border:0;padding:0"><span class="k-${k}">&nbsp;${k === "api" ? "6081…" : k}&nbsp;</span></span></td><td>${t}</td></tr>`).join("")}</table>
+    <div style="margin-top:8px">Hover any coloured part of a file name on a card to decode it.</div>`;
+})();
+
+
+// =============================================================== EARTH MAP
+// Well locations. "lease": the lease block polygon from BOEM's lease map (via DOE NETL's ArcGIS service);
+// "grid": block position worked out from neighbouring blocks on the same protraction grid;
+// "area": only the protraction area is known, so the pin sits inside it as an approximation.
+const WELL_LOC = {
+  "6081140580": [27.165, -90.300, "grid", "Placed at Mad Dog (Green Canyon 782), assuming MDN = Mad Dog North; lease OCS-G 16786"],
+  "MC765_P011": [28.181, -89.142, "lease", "Mississippi Canyon block 765"],
+  "6081741140": [28.181, -89.337, "grid", "Mississippi Canyon block 761"],
+  "6081140605": [27.520, -90.950, "area", "Ardennes, lease OCS-G 31765, somewhere in Green Canyon (block not known)"],
+  "6081741014": [28.146, -88.503, "lease", "Mississippi Canyon block 822"],
+  "6080740286": [27.457, -92.881, "lease", "Garden Banks block 506"],
+  "6080840014": [26.059, -92.062, "lease", "Hadrian field, Keathley Canyon block 919"],
+  "6081140535": [27.297, -90.150, "lease", "Shenzi field, Green Canyon block 653"],
+  "6081140730": [27.214, -90.060, "lease", "Green Canyon block 743 (well DC222)"],
+  "6081140757": [27.200, -90.042, "lease", "Green Canyon block 743 (well DC802)"],
+  "6081140758": [27.649, -90.336, "lease", "Allegheny, Green Canyon block 297, lease OCS-G 08876"],
+  "6081240048": [26.450, -90.950, "area", "Lease OCS-G 26419, somewhere in Walker Ridge (block not known)"],
+  "6081240081": [26.520, -90.556, "lease", "Walker Ridge block 425, lease OCS-G 16987"],
+  "6081240102": [26.358, -91.382, "lease", "Walker Ridge block 584, lease OCS-G 20351 (ExxonMobil)"],
+  "6081741142": [28.400, -89.380, "grid", "Mississippi Canyon block 540"],
+  "6081741170": [28.188, -88.602, "lease", "Mississippi Canyon block 776"],
+  "6081840060": [27.290, -89.760, "area", "Lease OCS-G 08037 in Atwater Valley, next to Neptune's lease (block not known)"],
+  "6081840065": [27.340, -89.858, "lease", "Neptune field, Atwater Valley block 574"],
+  "Shell_08852_KE001": [28.180, -89.192, "lease", "Mississippi Canyon block 764, lease OCS-G 08852 (Shell)"],
+  "Shell_AC0336_OCS-G-36102": [26.620, -94.579, "lease", "Alaminos Canyon block 336, lease OCS-G 36102 (Shell)"],
+};
+const PREC = {lease: "Exact lease block", grid: "Block position from the lease grid", area: "Approximate: only the area is known", user: "Placed by you"};
+const DS = LOGS.filter(l => !l.upload);   // the team's dataset, without the user's own scans
+// Block number -> position. Gulf of Mexico blocks run 44 to a row, west to east, rows going south,
+// about 0.0486° of longitude and 0.0433° of latitude each. One known block per area anchors the grid.
+const BLOCK_REF = {MC: [765, 28.181, -89.142], GC: [653, 27.297, -90.150], GB: [506, 27.457, -92.881], KC: [919, 26.059, -92.062],
+  WR: [425, 26.520, -90.556], AT: [574, 27.340, -89.858], AC: [336, 26.620, -94.579]};
+function blockLoc(code, n) {
+  const r = BLOCK_REF[code]; if (!r || !(n > 0)) return null;
+  const row = Math.floor((n - 1) / 44) - Math.floor((r[0] - 1) / 44), col = (n - 1) % 44 - (r[0] - 1) % 44;
+  return [+(r[1] - row * 0.0433).toFixed(3), +(r[2] + col * 0.0486).toFixed(3)];
+}
+function autoLoc(l) {  // best guess from the file name alone
+  const d = l.dec, known = WELL_LOC[l.srcWell];
+  if (known) return [known[0], known[1], known[2], known[3] + " (same well as one already in the library)"];
+  if (d.block) { const [c, n] = d.block.split(" "), p = blockLoc(c, +n); if (p) return [...p, "grid", `${BLOCK_AREA[c]} block ${n}, worked out from the block number`]; }
+  if (d.area) { const a = PROTRACTION.find(x => x[0] === d.area); if (a) return [(a[1] + a[2]) / 2, (a[3] + a[4]) / 2, "area", `Somewhere in ${d.area}: the file name gives the area but not the block`]; }
+  return null;
+}
+LOGS.filter(l => l.upload).forEach(l => { l.autoLoc = autoLoc(l); const loc = l.loc || l.autoLoc; if (loc) WELL_LOC[l.well] = loc; });
+const PROTRACTION = [["Mississippi Canyon", 28, 29, -90, -88], ["Atwater Valley", 27, 28, -90, -88], ["Green Canyon", 27, 28, -92, -90], ["Garden Banks", 27, 28, -94, -92],
+  ["Walker Ridge", 26, 27, -92, -90], ["Keathley Canyon", 26, 27, -94, -92], ["Alaminos Canyon", 26, 27, -96, -94]];
+const wellFoot = k => { const f = {}; wells[k].forEach(l => Object.entries(l.foot).forEach(([c, v]) => f[c] = (f[c] || 0) + v)); return f; };
+const wellTitle = k => wells[k][0].dec.title.split(" · ")[0].replace(/ \(.*\)$/, m => m);
+function donut(foot, r, sel) {
+  const tot = Object.values(foot).reduce((a, b) => a + b, 0) || 1, R = r, w = Math.max(6, r * .45), c = 2 * Math.PI * (R - w / 2);
+  let off = 0, arcs = "";
+  usedCats.filter(k => foot[k]).forEach(k => { const len = foot[k] / tot * c;
+    arcs += `<circle r="${R - w / 2}" cx="${R}" cy="${R}" fill="none" stroke="${COL[k]}" stroke-width="${w}" stroke-dasharray="${len} ${c - len}" stroke-dashoffset="${-off}" transform="rotate(-90 ${R} ${R})"/>`; off += len; });
+  return `<svg width="${2 * R}" height="${2 * R}"><circle class="ring" r="${R - 1}" cx="${R}" cy="${R}" fill="#fff" stroke="#fff" stroke-width="2"/>${arcs}<circle r="${R - w - 1}" cx="${R}" cy="${R}" fill="#fff"/></svg>`;
+}
+let EM = null; const E = {sel: null, markers: {}};
+function showEarth() {
+  setEarthMode(E.mode || "3d");
+  renderEarthSide();
+}
+function setEarthMode(m) {
+  E.mode = m;
+  document.querySelectorAll("#earth-mode button").forEach(b => b.classList.toggle("on", b.dataset.m === m));
+  $("#earth").style.visibility = m === "2d" ? "visible" : "hidden";
+  $("#earth3d").style.visibility = $("#earth3d-help").style.visibility = m === "3d" ? "visible" : "hidden";
+  if (m === "2d") { if (!EM) initEarth(); else setTimeout(() => EM.invalidateSize(), 0); }
+  else { if (!M3) init3d(); else setTimeout(() => M3.resize(), 0); }
+}
+document.querySelectorAll("#earth-mode button").forEach(b => b.onclick = () => setEarthMode(b.dataset.m));
+
+// ---------------------------------------------------------------- 3D boreholes (MapLibre + deck.gl)
+const FT2M = 0.3048, EXAG = 10;        // vertical exaggeration so 30,000 ft wells read at Gulf scale
+let M3 = null, OV3 = null; const T3 = {ready: false, hover: null};
+const hexRGB = h => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
+function ring(lon, lat, rKm, n = 10, z = 0) {
+  const out = [], kx = 1 / (111.32 * Math.cos(lat * Math.PI / 180)), ky = 1 / 110.57;
+  for (let i = 0; i < n; i++) { const a = 2 * Math.PI * i / n; out.push([lon + Math.cos(a) * rKm * kx, lat + Math.sin(a) * rKm * ky, z]); }
+  return out;
+}
+const BORE = [];   // one entry per extracted interval of every placed log
+const HEADS = [];  // one per placed well
+Object.entries(WELL_LOC).forEach(([k, [la, lo]]) => {
+  const ws = wells[k]; if (!ws) return;
+  HEADS.push({k, pos: [lo, la], name: (ws[0].upload ? "Scanned: " : "") + wellTitle(k), n: ws.length, up: !!ws[0].upload, top: Math.max(0, Math.min(...ws.map(l => l.top)))});
+  ws.forEach((l, j) => {
+    const n = ws.length, a = 2 * Math.PI * j / n, off = n > 1 ? 5.5 : 0;
+    const cx = lo + Math.cos(a) * off / (111.32 * Math.cos(la * Math.PI / 180)), cy = la + Math.sin(a) * off / 110.57;
+    l.iv.forEach((v, i) => { if (v.t < 0 && v.b < 0) return;
+      BORE.push({l, i, v, k, poly: ring(cx, cy, 2.4, 10, -Math.max(0, v.b) * FT2M * EXAG), h: (Math.max(0, v.b) - Math.max(0, v.t)) * FT2M * EXAG}); });
+  });
+});
+// Greedy label declutter: biggest wells first, skip any label whose screen box overlaps one already placed.
+function visibleNames() {
+  if (!M3) return HEADS;
+  const placed = [], out = [];
+  for (const h of [...HEADS].sort((a, b) => b.up - a.up || b.n - a.n)) {
+    const p = M3.project(h.pos), w = h.name.length * 7.2 + 8, box = [p.x - w / 2, p.y - 30, p.x + w / 2, p.y - 10];
+    if (placed.some(b => box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1])) continue;
+    placed.push(box); out.push(h);
+  }
+  return out;
+}
+function layers3d() {
+  if (!T3.ready) return [];
+  const D = deck, hi = S.hiCat;
+  const maxFt = 30000, ticks = [];
+  for (let f = 0; f <= maxFt; f += 10000) ticks.push(f);
+  const rulerPos = [-96.4, 27.4];
+  return [
+    new D.SolidPolygonLayer({id: "bore", data: BORE, extruded: true, pickable: true, getPolygon: d => d.poly, getElevation: d => d.h,
+      getFillColor: d => [...hexRGB(COL[d.v.cat] || "#bbbbbb"), hi && hi !== d.v.cat ? 25 : Math.round(255 * (.45 + .55 * d.v.c))],
+      material: {ambient: .55, diffuse: .6, shininess: 20}, updateTriggers: {getFillColor: [hi]},
+      autoHighlight: true, highlightColor: [255, 255, 255, 180],
+      onClick: ({object}) => object && openLog(object.l, object.i)}),
+    new D.ScatterplotLayer({id: "heads", data: HEADS, getPosition: d => d.pos, getRadius: d => 7000 + d.n * 1200, radiusUnits: "meters",
+      stroked: true, filled: true, getFillColor: d => d.up ? [255, 200, 0, 90] : [255, 255, 255, 40], getLineColor: d => d.up ? [255, 200, 0, 255] : [255, 255, 255, 220],
+      lineWidthMinPixels: 1.5, getLineWidth: d => d.up ? 3 : 1, lineWidthUnits: "pixels", pickable: true,
+      onClick: ({object}) => object && selectWell(object.k)}),
+    // the user's own scans: a gold line from the sea floor marker down to where their log starts, so short logs are easy to find
+    new D.LineLayer({id: "upline", data: HEADS.filter(h => h.up), getSourcePosition: d => [...d.pos, 0], getTargetPosition: d => [...d.pos, -d.top * FT2M * EXAG],
+      getColor: [255, 200, 0, 230], getWidth: 3}),
+    new D.TextLayer({id: "names", data: visibleNames(), getPosition: d => [d.pos[0], d.pos[1], 2500], getText: d => d.name, getSize: d => d.up ? 15 : 13, getColor: d => d.up ? [255, 214, 64, 255] : [255, 255, 255, 235],
+      getPixelOffset: [0, -16], fontFamily: "ui-sans-serif, system-ui, sans-serif", fontWeight: 600, outlineWidth: 3, outlineColor: [10, 20, 30, 220], fontSettings: {sdf: true}, billboard: true}),
+    ...(M3.getZoom() < 6.8 ? [] : [new D.LineLayer({id: "ruler", data: [{a: [...rulerPos, 0], b: [...rulerPos, -maxFt * FT2M * EXAG]}], getSourcePosition: d => d.a, getTargetPosition: d => d.b, getColor: [255, 255, 255, 160], getWidth: 2}),
+    new D.TextLayer({id: "ticks", data: ticks, getPosition: f => [...rulerPos, -f * FT2M * EXAG], getText: f => f ? fmt(f) + " ft" : "sea level", getSize: 11, getColor: [220, 230, 240, 230],
+      getTextAnchor: "start", getPixelOffset: [8, 0], fontFamily: "ui-sans-serif, system-ui, sans-serif", outlineWidth: 2, outlineColor: [10, 20, 30, 200], fontSettings: {sdf: true}})]),
+  ];
+}
+function refresh3d() { if (OV3) OV3.setProps({layers: layers3d()}); }
+function init3d() {
+  const world = topojson.feature(WORLD, WORLD.objects.countries);
+  M3 = new maplibregl.Map({
+    container: "earth3d", center: [-62, 24], zoom: 1.7, pitch: 0, maxPitch: 85, attributionControl: {compact: true},
+    style: {version: 8, projection: {type: "globe"},
+      sources: {land: {type: "geojson", data: world},
+        ocean: {type: "raster", tiles: ["https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}"], tileSize: 256, maxzoom: 13, attribution: "Basemap © Esri, GEBCO, NOAA"}},
+      layers: [{id: "bg", type: "background", paint: {"background-color": "#16324a"}},
+        {id: "land", type: "fill", source: "land", paint: {"fill-color": "#c9cdbf", "fill-outline-color": "#7d8790"}},
+        {id: "ocean", type: "raster", source: "ocean", paint: {"raster-opacity": .92, "raster-saturation": -.2}}],
+      sky: {"atmosphere-blend": ["interpolate", ["linear"], ["zoom"], 0, 1, 5, 1, 7, 0]}}
+  });
+  M3.addControl(new maplibregl.NavigationControl({visualizePitch: true}), "top-left");
+  OV3 = new deck.MapboxOverlay({interleaved: false, layers: [],
+    getTooltip: ({object, layer}) => {
+      if (!object || !layer) return null;
+      const st = {background: "#1d2329", color: "#fff", fontSize: "12px", borderRadius: "6px", padding: "7px 9px", maxWidth: "300px"};
+      if (layer.id === "bore") { const v = object.v;
+        return {html: `<b>${esc(v.lith)}</b> <span style="color:#aab4c0">(${v.cat})</span><br>${esc(wellTitle(object.k))} · ${esc(object.l.name)}<br>${fmt(v.t, 0)} – ${fmt(v.b, 0)} ft · confidence ${fmt(v.c * 100)}%<br><span style="color:#aab4c0">click to open this depth in the log viewer</span>`, style: st}; }
+      if (layer.id === "heads") return {html: `<b>${esc(object.name)}</b><br>${object.n} log${object.n > 1 ? "s" : ""} · click for details`, style: st};
+      return null; }});
+  M3.addControl(OV3);
+  $("#earth3d-help").innerHTML = `<b>Each column is a well log, drawn underground to its real depth</b> (vertical scale ×${EXAG}). Wells with several logs show them side by side.<br>
+    Drag to pan · right-drag or ctrl-drag to tilt and rotate · scroll to zoom · click a column to open that depth.<br>` +
+    usedCats.filter(c => !/Unmatched|Annotation|Other/.test(c)).map(c => `<span style="white-space:nowrap;margin-right:6px"><i style="background:${COL[c]}"></i>${c}</span>`).join(" ");
+  M3.once("load", () => {
+    setTimeout(() => M3.flyTo({center: [-90.4, 27.4], zoom: 5.4, duration: 3200, essential: true}), 400);
+    M3.once("moveend", () => {
+      M3.setProjection({type: "mercator"});
+      T3.ready = true; refresh3d();
+      M3.on("moveend", refresh3d);   // re-run the label declutter after every pan/zoom/tilt
+      if (E.sel && WELL_LOC[E.sel]) selectWell(E.sel);   // arrived here from "show on map"
+      else M3.easeTo({center: [-90.6, 26.2], zoom: 6.15, pitch: 64, bearing: -18, duration: 2200});
+    });
+  });
+}
+function initEarth() {
+  EM = L.map("earth", {worldCopyJump: true, zoomControl: true, attributionControl: true, minZoom: 2}).setView([33, -60], 3);
+  // offline-safe base: country shapes bundled with the app
+  const world = topojson.feature(WORLD, WORLD.objects.countries);
+  const land = L.geoJSON(world, {style: {color: "#9aa6ad", weight: .6, fillColor: "#eef0e6", fillOpacity: 1}, interactive: false}).addTo(EM);
+  // nicer online basemaps (Esri), used when the internet is reachable
+  const ocean = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}", {maxZoom: 13, attribution: "Basemap © Esri, GEBCO, NOAA"});
+  const oceanLbl = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Reference/MapServer/tile/{z}/{y}/{x}", {maxZoom: 13});
+  const sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {maxZoom: 17, attribution: "Imagery © Esri"});
+  const oceanGroup = L.layerGroup([ocean, oceanLbl]);
+  let ok = false; ocean.once("tileload", () => { ok = true; EM.removeLayer(land); });
+  oceanGroup.addTo(EM);
+  L.control.layers({"Ocean floor": oceanGroup, "Satellite": sat, "Offline outline": L.layerGroup()}, null, {position: "topleft"}).addTo(EM);
+  EM.on("baselayerchange", e => { if (e.name === "Offline outline" || !ok) land.addTo(EM); else EM.removeLayer(land); });
+  // protraction areas
+  PROTRACTION.forEach(([n, la0, la1, lo0, lo1]) => {
+    L.rectangle([[la0, lo0], [la1, lo1]], {color: "#2b5d8c", weight: 1, dashArray: "4 4", fill: false, interactive: false}).addTo(EM);
+    L.marker([la1 - .12, (lo0 + lo1) / 2], {icon: L.divIcon({className: "area-lbl", html: n, iconSize: null, iconAnchor: [50, 0]}), interactive: false}).addTo(EM);
+  });
+  // well pins
+  Object.entries(WELL_LOC).forEach(([k, [la, lo, prec]]) => {
+    if (!wells[k]) return;
+    const n = wells[k].length, r = 13 + Math.min(10, n * 2.5);
+    const m = L.marker([la, lo], {icon: L.divIcon({className: "pin" + (wells[k][0].upload ? " up" : ""), html: donut(wellFoot(k), r) + (n > 1 ? `<b>${n}</b>` : ""), iconSize: [2 * r, 2 * r], iconAnchor: [r, r]}), riseOnHover: true});
+    m.bindTooltip(`<b>${esc(wellTitle(k))}</b><br>${n} log${n > 1 ? "s" : ""}<br><span style="color:#6b7280">${PREC[prec]}</span>`, {className: "wtip", direction: "top", offset: [0, -r]});
+    m.on("click", () => selectWell(k));
+    m.addTo(EM); E.markers[k] = m;
+  });
+  const lg = L.control({position: "bottomleft"});
+  lg.onAdd = () => { const d = L.DomUtil.create("div", "earth-legend");
+    d.innerHTML = `<b>Each pin is a well</b>; the ring shows its rock mix, the badge its number of logs.<br>` + usedCats.filter(c => !/Unmatched|Annotation|Other/.test(c)).map(c => `<span style="white-space:nowrap;margin-right:8px"><i style="background:${COL[c]}"></i>${c}</span>`).join(" "); d.style.maxWidth = "430px"; return d; };
+  lg.addTo(EM);
+  // fly in from the globe to the Gulf
+  setTimeout(() => EM.flyToBounds(L.latLngBounds(Object.values(WELL_LOC).map(v => [v[0], v[1]])).pad(.25), {duration: 2.2}), 500);
+}
+function selectWell(k) {
+  E.sel = k;
+  Object.entries(E.markers).forEach(([kk, m]) => m.getElement()?.classList.toggle("sel", kk === k));
+  if (k && WELL_LOC[k] && EM && E.mode === "2d") EM.flyTo([WELL_LOC[k][0], WELL_LOC[k][1]], Math.max(EM.getZoom(), 8), {duration: .8});
+  if (k && WELL_LOC[k] && M3 && E.mode === "3d" && T3.ready) M3.flyTo({center: [WELL_LOC[k][1], WELL_LOC[k][0] - .55], zoom: 7.6, pitch: 66, duration: 1400});
+  renderEarthSide();
+}
+function wellRow(k) {
+  const n = wells[k].length, loc = WELL_LOC[k];
+  return `<div class="wrow" data-w="${k}">${donut(wellFoot(k), 13)}<div style="flex:1"><div>${esc(wellTitle(k))}</div><small>${n} log${n > 1 ? "s" : ""}${loc ? " · " + esc(loc[3].split(",")[0]) : ""}</small></div></div>`;
+}
+function renderEarthSide() {
+  const el = $("#earth-side"), k = E.sel;
+  if (k) {
+    const loc = WELL_LOC[k], ws = wells[k], foot = wellFoot(k), tot = Object.values(foot).reduce((a, b) => a + b, 0) || 1;
+    el.innerHTML = `<a href="#" id="earth-back" style="font-size:12px;color:var(--accent);text-decoration:none">← all wells</a>
+      <h2 style="margin-top:10px">${esc(wellTitle(k))}</h2>
+      <div class="hint">${loc ? esc(loc[3]) : "Location not known"}${loc ? ` · ${loc[0].toFixed(2)}°N, ${Math.abs(loc[1]).toFixed(2)}°W` : ""}</div>
+      ${loc ? `<div class="prec">📍 ${PREC[loc[2]]}${loc[2] !== "lease" ? ". The pin is close, but not the surveyed well position." : "."}</div>` : ""}
+      <h4>Rock mix across ${ws.length} log${ws.length > 1 ? "s" : ""}</h4>
+      <div class="stack" style="width:100%;height:16px">${usedCats.filter(c => foot[c]).map(c => `<i title="${c}: ${fmt(foot[c] / tot * 100)}%" style="width:${foot[c] / tot * 100}%;background:${COL[c]}"></i>`).join("")}</div>
+      <div style="margin-top:6px">${Object.entries(foot).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([c, f]) => `<span class="tag" style="margin:2px 4px 2px 0;display:inline-block"><i class="sw" style="width:9px;height:9px;background:${COL[c]};border:0;vertical-align:-1px;margin-right:4px"></i>${c} ${fmt(f / tot * 100)}%</span>`).join("")}</div>
+      <h4>Logs: click one to open it</h4>${ws.map(card).join("")}`;
+    el.querySelector("#earth-back").onclick = e => { e.preventDefault(); selectWell(null);
+      if (E.mode === "2d" && EM) EM.flyToBounds(L.latLngBounds(Object.values(WELL_LOC).map(v => [v[0], v[1]])).pad(.25), {duration: 1});
+      if (E.mode === "3d" && M3 && T3.ready) M3.flyTo({center: [-90.6, 26.2], zoom: 6.15, pitch: 64, bearing: -18, duration: 1400}); };
+    el.querySelectorAll("canvas[data-strip]").forEach(cv => { const l = byId[cv.dataset.strip]; const w = cv.width = 600, h = cv.height = 10, x = cv.getContext("2d"), span = l.base - l.top || 1;
+      l.iv.forEach(v => { x.globalAlpha = .35 + .65 * v.c; x.fillStyle = COL[v.cat]; x.fillRect((v.t - l.top) / span * w, 0, Math.max(1, (v.b - v.t) / span * w), h); }); });
+    el.querySelectorAll(".card").forEach(c => c.onclick = () => openLog(byId[c.dataset.id]));
+    return;
+  }
+  const mine = wellKeys.filter(k => wells[k][0].upload), dsk = wellKeys.filter(k => !wells[k][0].upload);
+  const placed = dsk.filter(k => WELL_LOC[k]), unplaced = dsk.filter(k => !WELL_LOC[k]);
+  el.innerHTML = `<h2>Where the logs come from</h2>
+    ${mine.length ? `<h4>★ Scanned · ${mine.length}</h4>${mine.map(k => wellRow(k) + (WELL_LOC[k] ? "" : `<div class="hint" style="margin:-4px 0 6px 44px">Not placed yet: set its location in Scanned logs.</div>`)).join("")}` : ""}
+    <div class="hint" style="font-size:13px;margin-top:10px">${DS.length} scanned mud logs from ${dsk.length} wells. ${placed.length} are deepwater Gulf of Mexico wells, placed by their lease block. Click a pin or a well to see its logs.</div>
+    <h4>Gulf of Mexico · ${placed.length} wells</h4>${placed.map(wellRow).join("")}
+    <h4>Location not in the file names · ${unplaced.length} wells</h4>
+    <div class="hint" style="margin:-4px 0 6px">These have no API number or lease block in their names, so they aren't on the map.</div>${unplaced.map(wellRow).join("")}
+    <div class="prec" style="margin-top:16px">Pins sit on the lease block (blocks are 3 miles across), not the surveyed well head. A few are approximate and say so.</div>`;
+  el.querySelectorAll(".wrow").forEach(r => r.onclick = () => selectWell(r.dataset.w));
+}
+
+// =============================================================== boot
+legend($("#log-legend"), usedCats); legend($("#cor-legend"), usedCats); legend($("#map-legend"), usedCats); legend($("#field-legend"), usedCats);
+$("#hstats").textContent = `${DS.length} logs · ${new Set(DS.map(l => l.well)).size} wells · ${fmt(P.xy.length)} intervals` + (UP.length ? ` · ${UP.length} scanned` : "");
+renderList();
+renderMapDetail();
+addEventListener("resize", () => { if (S.cur) { sizeMini(); drawMini(); } if (S.view === "map") { sizeMap(); drawMap(); } if (S.view === "cor") drawCor(); });
+addEventListener("keydown", e => {
+  if (S.view !== "log" || !S.cur || e.target.tagName === "INPUT") return;
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") { e.preventDefault(); const n = S.cur.iv.length;
+    const i = S.sel && S.sel.log === S.cur ? S.sel.i + (e.key === "ArrowDown" ? 1 : -1) : 0; selectIv(Math.max(0, Math.min(n - 1, i)), true); }
+});
+</script>
+<script src="scan.js"></script>
+</body>
+</html>

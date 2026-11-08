@@ -53,3 +53,8 @@ Pages whose fit rests on < 4 labels are written but carry a warning in their JSO
    histogram from image gradients.
 4. Multi-line legend labels can lose a line ("Silty" instead of "Silty Sandstone").
 5. Bonus: locate the three regions without boxes (OCR "LITHOLOGY"/"Depth" headers + pattern-texture search).
+
+## GUI
+A browser GUI to scan a mud log and browse the results lives in `gui/`. From the repo root:
+`pip install -r gui/requirements.txt`, install tesseract (`brew install tesseract` / `sudo apt install tesseract-ocr`), then `python3 gui/server.py` and open http://localhost:8765.
+Upload `test/images/<name>.tif` together with `test/annotations/<name>.json`. See [gui/README.md](gui/README.md).
